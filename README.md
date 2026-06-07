@@ -135,15 +135,16 @@ Access settings through the options panel (`/psm options`) or by modifying `PetS
 - **Reset All Settings**: Restore all settings to defaults
 
 ## Requirements
-- World of Warcraft Retail or Midnight PTR or Midnight Beta
-- Compatible with interface versions 120001
+- World of Warcraft Retail
 
 ## Optional Dependencies
 - **Blizzard_StableUI**: Enhanced integration with default stable interface
 
 ## Credits
 - **Author**: Ginutty
-- **Version**: 12.2.0
+- **Data sources**: https://www.wowhead.com/ and https://www.wow-petopia.com/
 
 ## License
+
+MIT License
 This addon is provided as-is for personal use in World of Warcraft.
