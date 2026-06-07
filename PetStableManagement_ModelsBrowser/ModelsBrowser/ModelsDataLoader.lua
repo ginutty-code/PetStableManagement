@@ -94,9 +94,12 @@ function PSM.ModelsDataLoader:GenerateCacheKey()
                or (panel.showFavorites == "inverted" and "not_favorites" or "browse")
 
     local tamingKey = ""
-    if PSM.state.selectedTamingRules then
-        table.sort(PSM.state.selectedTamingRules)
-        tamingKey = table.concat(PSM.state.selectedTamingRules, ",") .. ","
+    local selRules = PSM.state.selectedTamingRules
+    if selRules and next(selRules) then
+        local rParts = {}
+        for k, v in pairs(selRules) do table.insert(rParts, k .. "=" .. tostring(v)) end
+        table.sort(rParts)
+        tamingKey = table.concat(rParts, ",") .. ","
     end
 
     local condKey = SelectedMapKey(PSM.state.selectedConditions)
@@ -176,66 +179,55 @@ local function DisplayPassesFilters(panel, displayData)
     if not TristateMatch(panel.showHideOwned, ownedMatch) then return false end
 
     -- Taming rules filter (OR logic: show models requiring ANY of the selected rules)
-    if PSM.state.selectedTamingRules and #PSM.state.selectedTamingRules > 0 then
-        if not displayData.taming or #displayData.taming == 0 then
-            return false
-        end
-        -- Check if ANY of the model's taming requirements match the selected rules
+    local selRules = PSM.state.selectedTamingRules
+    if selRules and next(selRules) then
         local tamingSet = {}
-        for _, rule in ipairs(displayData.taming) do
-            tamingSet[rule] = true
+        if displayData.taming then
+            for _, rule in ipairs(displayData.taming) do tamingSet[rule] = true end
         end
-        local hasMatchingTaming = false
-        for _, selectedRule in ipairs(PSM.state.selectedTamingRules) do
-            if tamingSet[selectedRule] then
-                hasMatchingTaming = true
-                break
+
+        local hasActive, matchActive = false, false
+        for rKey, state in pairs(selRules) do
+            if state == true then
+                hasActive = true
+                if tamingSet[rKey] then
+                    local fSel, dSel = selRules["Florafaun"] == true, selRules["Direhorn"] == true
+                    if not (tamingSet["Florafaun"] and tamingSet["Direhorn"] and ((fSel and not dSel) or (dSel and not fSel))) then
+                        matchActive = true
+                    end
+                end
+            elseif state == "inverted" then
+                if tamingSet[rKey] then return false end -- Disqualified
             end
         end
-        if not hasMatchingTaming then
-            return false
-        end
-        
-        -- Special case: exclude Florafaun+Direhorn combos when only one is selected
-        local hasFlorafaun = tamingSet["Florafaun"]
-        local hasDirehorn = tamingSet["Direhorn"]
-        local florafaunSelected = false
-        local direhornSelected = false
-        for _, rule in ipairs(PSM.state.selectedTamingRules) do
-            if rule == "Florafaun" then florafaunSelected = true end
-            if rule == "Direhorn" then direhornSelected = true end
-        end
-        if hasFlorafaun and hasDirehorn then
-            -- This display requires both Florafaun and Direhorn
-            -- Only show it if both are selected, or if neither is selected (via OR logic)
-            if (florafaunSelected and not direhornSelected) or (direhornSelected and not florafaunSelected) then
-                return false
-            end
-        end
+        if hasActive and not matchActive then return false end
     end
 
     -- Conditions filter (NPC level data from ConditionsData.lua)
     local selectedConds = PSM.state.selectedConditions
     if selectedConds and next(selectedConds) then
-        local hasMatchingCondition = false
+        local hasActive, matchActive = false, false
         if displayData.npcs then
             for _, npc in ipairs(displayData.npcs) do
                 local npcID = tonumber(npc.npcId)
                 if npcID then
                     local condList = PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
                     if condList then
-                        for _, cond in ipairs(condList) do
-                            if selectedConds[cond] then
-                                hasMatchingCondition = true
-                                break
+                        local condSet = {}
+                        for _, c in ipairs(condList) do condSet[c] = true end
+                        for cName, state in pairs(selectedConds) do
+                            if state == true then
+                                hasActive = true
+                                if condSet[cName] then matchActive = true end
+                            elseif state == "inverted" then
+                                if condSet[cName] then return false end -- Disqualified
                             end
                         end
                     end
                 end
-                if hasMatchingCondition then break end
             end
         end
-        if not hasMatchingCondition then return false end
+        if hasActive and not matchActive then return false end
     end
 
     return true

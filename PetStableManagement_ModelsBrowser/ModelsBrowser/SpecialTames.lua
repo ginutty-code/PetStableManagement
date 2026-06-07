@@ -81,9 +81,45 @@ local function CreateRuleRow(parent, ruleKey, ruleData, yOffset)
     local checkbox = CreateFrame("CheckButton", nil, row, "UICheckButtonTemplate")
     checkbox:SetSize(CFG.CHECKBOX_SIZE, CFG.CHECKBOX_SIZE)
     checkbox:SetPoint("LEFT", statusIcon, "RIGHT", 10, 0)
-    checkbox:SetChecked(selectedRules[ruleKey] or false)
+
+    row.UpdateVisual = function()
+        local state = selectedRules[ruleKey]
+        local check = checkbox:GetCheckedTexture()
+        if state == nil then
+            checkbox:SetChecked(false)
+            check:SetAlpha(1)
+            if checkbox.invertedTexture then checkbox.invertedTexture:Hide() end
+        elseif state == true then
+            checkbox:SetChecked(true)
+            check:SetAlpha(1)
+            if checkbox.invertedTexture then checkbox.invertedTexture:Hide() end
+        elseif state == "inverted" then
+            checkbox:SetChecked(true)
+            check:SetAlpha(0)
+            if not checkbox.invertedTexture then
+                checkbox.invertedTexture = checkbox:CreateTexture(nil, "OVERLAY")
+                checkbox.invertedTexture:SetTexture("Interface\\Buttons\\UI-GroupLoot-Pass-Up")
+                checkbox.invertedTexture:SetSize(CFG.CHECKBOX_SIZE, CFG.CHECKBOX_SIZE)
+                checkbox.invertedTexture:SetPoint("CENTER", checkbox, "CENTER", 0, 0)
+            end
+            checkbox.invertedTexture:Show()
+        end
+    end
+
+    row.UpdateVisual()
+
     checkbox:SetScript("OnClick", function(self)
-        selectedRules[ruleKey] = self:GetChecked()
+        local state = selectedRules[ruleKey]
+        if state == nil then
+            selectedRules[ruleKey] = true
+        elseif state == true then
+            selectedRules[ruleKey] = "inverted"
+        else
+            selectedRules[ruleKey] = nil
+        end
+        row.UpdateVisual()
+        UpdateSelectionNote(row:GetParent():GetParent():GetParent())
+        UpdateSelectAllButton(row:GetParent():GetParent():GetParent())
     end)
 
     -- Build formatted label with hyperlink codes like PopUpManager
@@ -326,19 +362,26 @@ end
 
 local function UpdateSelectAllButton(panel)
     if not panel.selectAllBtn then return end
-    local anySelected = false
-    for ruleKey, selected in pairs(selectedRules) do
-        if selected then anySelected = true; break end
+    local hasIgnored, hasActive, hasInverted = false, false, false
+
+    for _, row in ipairs(panel.ruleRows or {}) do
+        local stateMap = row.isCondition and selectedConditions or selectedRules
+        local state = stateMap[row.ruleKey]
+        if state == true then hasActive = true
+        elseif state == "inverted" then hasInverted = true
+        else hasIgnored = true end
     end
-    if not anySelected then
-        for _, state in pairs(selectedConditions) do
-            if state ~= nil then
-                anySelected = true
-                break
-            end
-        end
+
+    local btnText = "Select All"
+    if hasIgnored then
+        btnText = "Select All"
+    elseif hasActive then
+        btnText = "Invert All"
+    elseif hasInverted then
+        btnText = "Unselect All"
     end
-    panel.selectAllBtn:SetText(anySelected and "Unselect All" or "Select All")
+
+    panel.selectAllBtn:SetText(btnText)
 end
 
 -- ─────────────────────────────────────────────
@@ -419,8 +462,8 @@ local function RepopulateRows(panel, query, activeTag)
     -- Update footer selection note
     if panel.selectionNote then
         local n = 0
-        for _, selected in pairs(selectedRules) do
-            if selected then n = n + 1 end
+        for _, state in pairs(selectedRules) do
+            if state ~= nil then n = n + 1 end
         end
         for _, state in pairs(selectedConditions) do
             if state ~= nil then n = n + 1 end
@@ -532,8 +575,8 @@ end
 local function UpdateSelectionNote(panel)
     if not panel.selectionNote then return end
     local n = 0
-    for _, selected in pairs(selectedRules) do
-        if selected then n = n + 1 end
+    for _, state in pairs(selectedRules) do
+        if state ~= nil then n = n + 1 end
     end
     for _, state in pairs(selectedConditions) do
         if state ~= nil then n = n + 1 end
@@ -546,25 +589,24 @@ end
 -- ─────────────────────────────────────────────
 
 local function OnSelectAllClick(panel)
-    local anySelected = false
+    local hasIgnored, hasActive = false, false
     for _, row in ipairs(panel.ruleRows or {}) do
-        if not row.isCondition then
-            if selectedRules[row.ruleKey] then anySelected = true; break end
-        else
-            if selectedConditions[row.ruleKey] ~= nil then anySelected = true; break end
-        end
+        local stateMap = row.isCondition and selectedConditions or selectedRules
+        local state = stateMap[row.ruleKey]
+        if state == nil then hasIgnored = true end
+        if state == true then hasActive = true end
     end
 
-    local newState = not anySelected
+    local newState
+    if hasIgnored then newState = true
+    elseif hasActive then newState = "inverted"
+    else newState = nil end
+
     for _, row in ipairs(panel.ruleRows or {}) do
         if row.ruleKey then
-            if row.isCondition then
-                selectedConditions[row.ruleKey] = newState and true or nil
-                if row.UpdateVisual then row.UpdateVisual() end
-            else
-                selectedRules[row.ruleKey] = newState
-                if row.checkbox then row.checkbox:SetChecked(newState) end
-            end
+            local stateMap = row.isCondition and selectedConditions or selectedRules
+            stateMap[row.ruleKey] = newState
+            if row.UpdateVisual then row.UpdateVisual() end
         end
     end
     UpdateSelectionNote(panel)
@@ -572,12 +614,13 @@ local function OnSelectAllClick(panel)
 end
 
 local function OnApplyClick(panel)
-    PSM.state.selectedTamingRules = {}
-    for ruleKey, selected in pairs(selectedRules) do
-        if selected then
-            table.insert(PSM.state.selectedTamingRules, ruleKey)
+    local selectedRuleMap = {}
+    for ruleKey, state in pairs(selectedRules) do
+        if state ~= nil then
+            selectedRuleMap[ruleKey] = state
         end
     end
+    PSM.state.selectedTamingRules = selectedRuleMap
 
     local selectedConditionNames = {}
     for cond, state in pairs(selectedConditions) do
@@ -588,11 +631,11 @@ local function OnApplyClick(panel)
     -- Save the selected taming rules to the database for persistence
     PetStableManagementDB = PetStableManagementDB or {}
     PetStableManagementDB.filters = PetStableManagementDB.filters or {}
-    PetStableManagementDB.filters.selectedTamingRules = PSM.state.selectedTamingRules
+    PetStableManagementDB.filters.selectedTamingRules = selectedRuleMap
     PetStableManagementDB.filters.selectedConditions = selectedConditionNames
 
     if PSM.PetModels then
-        local hasRules = #PSM.state.selectedTamingRules > 0
+        local hasRules = next(selectedRuleMap) ~= nil
         local hasConds = next(selectedConditionNames) ~= nil
 
         if hasRules or hasConds then
@@ -607,42 +650,54 @@ local function OnApplyClick(panel)
                 for _, displayData in ipairs(familyData.displayIds) do
                         local match = false
 
-                        -- Check Rules
-                        if hasRules and displayData.taming and #displayData.taming > 0 then
+                        -- Logic: Must match ANY "true" rule AND NO "inverted" rules
+                        local passRules = not hasRules
+                        if hasRules then
                             local tamingSet = {}
-                            for _, rule in ipairs(displayData.taming) do tamingSet[rule] = true end
-                            for _, selectedRule in ipairs(PSM.state.selectedTamingRules) do
-                                if tamingSet[selectedRule] then
-                                    local hasFlorafaun = tamingSet["Florafaun"]
-                                    local hasDirehorn = tamingSet["Direhorn"]
-                                    local fSel = false; for _, r in ipairs(PSM.state.selectedTamingRules) do if r == "Florafaun" then fSel = true end end
-                                    local dSel = false; for _, r in ipairs(PSM.state.selectedTamingRules) do if r == "Direhorn" then dSel = true end end
-                                    if hasFlorafaun and hasDirehorn then
-                                        if not ((fSel and not dSel) or (dSel and not fSel)) then match = true end
-                                    else
-                                        match = true
+                            if displayData.taming then
+                                for _, r in ipairs(displayData.taming) do tamingSet[r] = true end
+                            end
+
+                            local hasActiveRules, matchActive = false, false
+                            local forbiddenMatch = false
+                            for rKey, state in pairs(selectedRuleMap) do
+                                if state == true then
+                                    hasActiveRules = true
+                                    if tamingSet[rKey] then
+                                        local fSel, dSel = selectedRuleMap["Florafaun"] == true, selectedRuleMap["Direhorn"] == true
+                                        if not (tamingSet["Florafaun"] and tamingSet["Direhorn"] and ((fSel and not dSel) or (dSel and not fSel))) then
+                                            matchActive = true
+                                        end
                                     end
+                                elseif state == "inverted" then
+                                    if tamingSet[rKey] then forbiddenMatch = true; break end
                                 end
                             end
+                            passRules = (not hasActiveRules or matchActive) and not forbiddenMatch
                         end
+                        if passRules and hasRules then match = true end
 
-                        -- Check Conditions
+                        -- Check Conditions (if not matched by rules)
                         if not match and hasConds and displayData.npcs then
+                            local hasActiveConds, matchActive = false, false
+                            local forbiddenMatch = false
                             for _, npc in ipairs(displayData.npcs) do
                                 local npcID = tonumber(npc.npcId)
                                 local condList = PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
                                 local condSet = {}
                                 if condList then for _, c in ipairs(condList) do condSet[c] = true end end
 
-                                for condName, state in pairs(selectedConditionNames) do
+                                for cName, state in pairs(selectedConditionNames) do
                                     if state == true then
-                                        if condSet[condName] then match = true; break end
+                                        hasActiveConds = true
+                                        if condSet[cName] then matchActive = true end
                                     elseif state == "inverted" then
-                                        if not condSet[condName] then match = true; break end
+                                        if condSet[cName] then forbiddenMatch = true end
                                     end
                                 end
-
-                                if match then break end
+                                if (not hasActiveConds or matchActive) and not forbiddenMatch then
+                                    match = true; break
+                                end
                             end
                         end
 
@@ -742,8 +797,8 @@ function ST:CreateSpecialTamesPanel()
     selectedRules = {}
     local savedRules = PSM.state.selectedTamingRules or (PetStableManagementDB and PetStableManagementDB.filters and PetStableManagementDB.filters.selectedTamingRules)
     if savedRules then
-        for _, ruleKey in ipairs(savedRules) do
-            selectedRules[ruleKey] = true
+        for ruleKey, val in pairs(savedRules) do
+            selectedRules[ruleKey] = val
         end
     end
 

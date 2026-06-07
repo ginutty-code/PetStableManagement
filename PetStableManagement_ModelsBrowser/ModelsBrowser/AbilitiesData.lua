@@ -370,7 +370,7 @@ AbilitiesData = {
             ["Exotic Ability"] = {
                 [92380] = {
                     name = "Froststorm Breath",
-                    icon = "spell_frost_icestorm",
+                    icon = "spell_frost_ice-shards",
                     category = "Exotic: Damage over time",
                     tag = "Damage"
                 }
@@ -734,7 +734,7 @@ AbilitiesData = {
             ["Special Ability"] = {
                 [263921] = {
                     name = "Gruff",
-                    icon = "inv_babyspacegoat",
+                    icon = "inv_pet_-goat",
                     category = "Pet damage taken reduction",
                     tag = "Defense"
                 }
@@ -748,7 +748,7 @@ AbilitiesData = {
             ["Special Ability"] = {
                 [263841] = {
                     name = "Petrifying Gaze",
-                    icon = "inv_treasurebasiliskmount_green",
+                    icon = "inv_pet_-basilisk",
                     category = "Enemy movement reduction",
                     tag = "Control"
                 }
@@ -1027,60 +1027,6 @@ AbilitiesData = {
                     icon = "spell_shadow_shadesofdarkness",
                     category = "Enemy movement reduction",
                     tag = "Control"
-                }
-            }
-        }
-    },
-    ["Spec"] = {
-        name = "Spec abilities",
-        icon = "",
-        ranks = {
-            ["Cunning Ability"] = {
-                [272682] = {
-                    name = "Master's Call",
-                    icon = "ability_hunter_masterscall",
-                    category = "Ally movement impairing removal",
-                    tag = "Spec"
-                }
-            },
-            ["Cunning Passive"] = {
-                [264656] = {
-                    name = "Pathfinding",
-                    icon = "spell_lifegivingspeed",
-                    category = "Hunter and pet movement speed",
-                    tag = "Spec"
-                }
-            },
-            ["Ferocity Ability"] = {
-                [264667] = {
-                    name = "Primal Rage",
-                    icon = "spell_shadow_unholyfrenzy",
-                    category = "Bloodlust / Heroism",
-                    tag = "Spec"
-                }
-            },
-            ["Ferocity Passive"] = {
-                [264663] = {
-                    name = "Predator's Thirst",
-                    icon = "spell_shadow_vampiricaura",
-                    category = "Hunter and pet leech",
-                    tag = "Spec"
-                }
-            },
-            ["Tenacity Ability"] = {
-                [272679] = {
-                    name = "Fortitude of the Bear",
-                    icon = "spell_druid_bearhug",
-                    category = "Hunter and pet damage reduction",
-                    tag = "Spec"
-                }
-            },
-            ["Tenacity Passive"] = {
-                [264662] = {
-                    name = "Endurance Training",
-                    icon = "ability_hunter_huntervswild",
-                    category = "Hunter and pet health buff",
-                    tag = "Spec"
                 }
             }
         }

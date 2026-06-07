@@ -422,10 +422,10 @@ local notes = {
     [139] = [[Located in Sethekk Halls (Dungeon). Heroic only. Spawns during the fight with Anzu.]],
 
     -- NPCs: 23163
-    [140] = [[Located in Terokkar Forest. Can be spawned through the repeatable quest Adversarial Blood in Skettis. Unlocking this quest requires completing most of the Skettis quest chain and farming for a number of summoning items. See the quest link for detailed information.]],
+    [140] = [[Located in Terokkar Forest. Can be spawned through the repeatable quest Adversarial Blood in Skettis. Unlocking this quest requires completing most of the Skettis quest chain and farming for a number of summoning items.]],
 
     -- NPCs: 23206
-    [141] = [[Located in Skettis, Terokkar Forest. These kaliri are summoned by Darkscreecher Akkarai during combat. This NPC can be spawned through the repeatable quest Adversarial Blood in Skettis. Unlocking this quest requires completing most of the Skettis quest chain and farming for a number of summoning items. See the quest link for detailed information.]],
+    [141] = [[Located in Skettis, Terokkar Forest. These kaliri are summoned by Darkscreecher Akkarai during combat. This NPC can be spawned through the repeatable quest Adversarial Blood in Skettis. Unlocking this quest requires completing most of the Skettis quest chain and farming for a number of summoning items.]],
 
     -- NPCs: 23232
     [142] = [[Located in Halls of Anguish, Black Temple (Raid). Its green aura is lost upon taming.]],
@@ -680,7 +680,7 @@ local notes = {
     [225] = [[Located in Shuddering Spires, Deepholm. You should try to tame Gorgonite as quickly as you can, before a Son of Gorgonite appears and tries to 'help' you by attacking it.]],
 
     -- NPCs: 43340
-    [226] = [[Located in Redridge Mountains. Phases out once a major zone questline has been completed. Players report still being able to tame by using an immolation trap in the worg pen to pull them. See their Wowhead page for details.]],
+    [226] = [[Located in Redridge Mountains. Phases out once a major zone questline has been completed. Players report still being able to tame by using an immolation trap in the worg pen to pull them.]],
 
     -- NPCs: 43438
     [227] = [[Located in The Winding Halls, The Stonecore (Dungeon).]],
@@ -893,7 +893,7 @@ local notes = {
     [296] = [[Located in Eastern Plaguelands. Flies in a circle around the ruins of a house.]],
 
     -- NPCs: 50815
-    [297] = [[Located in Fireplume Peak, Molten Front. Skarr can appear on a floating rock off the east side of Fireplume Peak. Even though this beast appears two levels higher than you, you can tame it if you're at least as high as its minimum level.]],
+    [297] = [[Located in Fireplume Peak, Molten Front. Skarr can appear on a floating rock off the east side of Fireplume Peak.]],
 
     -- NPCs: 50839
     [298] = [[Located in Blackrock Mountain. Does a loop of the circular road inside the mountain.]],
@@ -902,16 +902,16 @@ local notes = {
     [299] = [[Located in Fields of Honor, Burning Steppes. Appears just to the west of Blackrock Stronghold, wandering along the shore of the magma.]],
 
     -- NPCs: 50843
-    [300] = [[Located in Vale of Eternal Blossoms. See this video for tracking information.]],
+    [300] = [[Located in Vale of Eternal Blossoms.]],
 
     -- NPCs: 50846
     [301] = [[Located in Searing Gorge. Appears in the mountains along the northern border, west of Dustfire Valley and north of The Cauldron.]],
 
     -- NPCs: 50850, 50859
-    [302] = [[Located in The Jade Forest. See this video for tracking information.]],
+    [302] = [[Located in The Jade Forest.]],
 
     -- NPCs: 50854
-    [303] = [[Located in Krasarang Wilds. Bloodtooth is a special tracking tame that wanders stealthed along the southern coast of Krasarang Wilds. See this video for tracking information.]],
+    [303] = [[Located in Krasarang Wilds. Bloodtooth is a special tracking tame that wanders stealthed along the southern coast of Krasarang Wilds.]],
 
     -- NPCs: 50874
     [304] = [[Located in Stonetalon Mountains. In a small cave just east of Thal'darah Grove.]],
@@ -923,7 +923,7 @@ local notes = {
     [306] = [[Located in Stonetalon Mountains. Has vocalizations when clicked. On a small grassy patch northwest of Sunrock Retreat.]],
 
     -- NPCs: 50885
-    [307] = [[Located in Valley of the Four Winds. See this video for tracking information.]],
+    [307] = [[Located in Valley of the Four Winds.]],
 
     -- NPCs: 50886
     [308] = [[Located in Misty Reed Strand, Swamp of Sorrows. Has vocalizations when clicked.]],
@@ -944,7 +944,7 @@ local notes = {
     [313] = [[Located in Go'Shek Farm, Arathi Highlands. At Go'shek farm in some stables.]],
 
     -- NPCs: 50944, 50998
-    [314] = [[Located in Kun-Lai Summit. See this video for tracking information.]],
+    [314] = [[Located in Kun-Lai Summit.]],
 
     -- NPCs: 50946
     [315] = [[Located in Blackchar Cave, Searing Gorge. Hogzilla stands outside a sealed cave in the mountains in the far southwest of the zone.]],
@@ -953,13 +953,13 @@ local notes = {
     [316] = [[Located in Searing Gorge. Appears in the raised area just east of The Cauldron and north-west of Thorium Advance.]],
 
     -- NPCs: 50959
-    [317] = [[Located in Fireplume Peak, Molten Front. Karkin can appear on a floating rock off either the east or south-east side of Fireplume Peak. Even though this beast appears two levels higher than you, you can tame it if you're at least as high as its minimum level.]],
+    [317] = [[Located in Fireplume Peak, Molten Front. Karkin can appear on a floating rock off either the east or south-east side of Fireplume Peak.]],
 
     -- NPCs: 50960
-    [318] = [[Located in Dread Wastes. Hexapos is a special tracking tame. See this video for tracking information.]],
+    [318] = [[Located in Dread Wastes. Hexapos is a special tracking tame.]],
 
     -- NPCs: 50981
-    [319] = [[Located in Nagrand - Draenor. Wanders a fixed path in Nagrand, possibly starting just to the south-east of the Ring of Trials. Check the Wowhead link for a map. It is reported to have a long spawn timer, possibly 12-24 hours or more.]],
+    [319] = [[Located in Nagrand - Draenor. Wanders a fixed path in Nagrand, possibly starting just to the south-east of the Ring of Trials. It is reported to have a long spawn timer, possibly 12-24 hours or more.]],
 
     -- NPCs: 50990
     [320] = [[Located in Nagrand - Draenor. Nakk spawns rarely. It wanders a path in northern Nagrand, roughly from the east side of the Ring of Blood, south to near the Joz's Rylaks flightpoint, and west to the east side of Mok'Gol Watchpost. It also drops the Bloodhoof Bull mount.]],
@@ -971,7 +971,7 @@ local notes = {
     [322] = [[Located in The Cauldron, Searing Gorge. Appears in a cave in the far north-west corner of The Cauldron.]],
 
     -- NPCs: 51013
-    [323] = [[Located in Townlong Steppes. See this video for tracking information.]],
+    [323] = [[Located in Townlong Steppes.]],
 
     -- NPCs: 51018
     [324] = [[Located in Badlands. Inside a crypt by Dustwind Dig.]],
@@ -1076,19 +1076,19 @@ local notes = {
     [357] = [[Located in Mount Hyjal. He won't show up if you haven't completed the quests to unlock the daily hub. He is found circling high above the Sanctuary of Malorne. His spawn timer is 6-17 hours. He flies up very high. The fall would kill you without some sort of fall slowing mechanism. The best method seems to be to park yourself at the top of the tree just behind the statue of Malorne. Have a freezing trap down. Once he flies close enough, fly up a bit, dismount, shoot and tame.]],
 
     -- NPCs: 54321
-    [358] = [[Located in Molten Front. Use traps to survive the tame. Even though this beast appears two levels higher than you, you can tame it if you're at least as high as its minimum level.]],
+    [358] = [[Located in Molten Front. Use traps to survive the tame.]],
 
     -- NPCs: 54322
-    [359] = [[Located in Molten Front. Immune to tame until health is low. Even though this beast appears two levels higher than you, you can tame it if you're at least as high as its minimum level.]],
+    [359] = [[Located in Molten Front. Immune to tame until health is low.]],
 
     -- NPCs: 54323
-    [360] = [[Located in Molten Front. Timing and interrupts will help you avoid his deadly venom. Haste will help you tame. Even though this beast appears two levels higher than you, you can tame it if you're at least as high as its minimum level.]],
+    [360] = [[Located in Molten Front. Timing and interrupts will help you avoid his deadly venom. Haste will help you tame.]],
 
     -- NPCs: 54324
-    [361] = [[Located in Molten Front. Immune to tame until energy is low. Even though this beast appears two levels higher than you, you can tame it if you're at least as high as its minimum level.]],
+    [361] = [[Located in Molten Front. Immune to tame until energy is low.]],
 
     -- NPCs: 54338
-    [362] = [[Located in Molten Front. Swim in lava to remove web. Even though this beast appears two levels higher than you, you can tame it if you're at least as high as its minimum level.]],
+    [362] = [[Located in Molten Front. Swim in lava to remove web.]],
 
     -- NPCs: 54517
     [363] = [[Located in Ruby Dragonshrine, End Time (Dungeon).]],
@@ -1343,7 +1343,7 @@ local notes = {
     [446] = [[Located in Assault on Zan'vess (Scenario).]],
 
     -- NPCs: 67820
-    [447] = [[Located in Krasarang River, Krasarang Wilds. Bombyx is a special tracking tame that patrols a small section of Krasarang River. See this video for tracking information.]],
+    [447] = [[Located in Krasarang River, Krasarang Wilds. Bombyx is a special tracking tame that patrols a small section of Krasarang River.]],
 
     -- NPCs: 67896, 68583, 68584
     [448] = [[Located in Krasarang Wilds. Phased. Appears after the intro quests for Dominance Offensive or Operation: Shieldwall.]],
@@ -1391,13 +1391,13 @@ local notes = {
     [462] = [[Located in Diremoor, Isle of Thunder. Spawns sporadically during the constant attacks on Bleak Hollow.]],
 
     -- NPCs: 69943
-    [463] = [[Located in Kun-Lai Summit. Gumi must be reduced to 30% health before it can be tamed. If you're high level it can be very hard to do this without killing it, so you should remove ALL of your gear, kill yourself and take resurrection sickness, then reduce its health slowly with punches.In contrast, if you're low level you may find Gumi hits very hard, so kiting is probably necessary. It runs quickly, so Concussive Shot and Aspect of the Cheetah (and possibly the help of a friend) will be useful.]],
+    [463] = [[Located in Kun-Lai Summit. Gumi must be reduced to 30% health before it can be tamed. If you're high level it can be very hard to do this without killing it, so you should remove ALL of your gear, kill yourself and take resurrection sickness, then reduce its health slowly with punches.In contrast, if you're low level you may find Gumi hits very hard, so kiting is probably necessary.]],
 
     -- NPCs: 69946
-    [464] = [[Located in The Jade Forest. Hutia must be reduced to 30% health before it can be tamed, and it periodically casts an interruptable heal. If you're high level it can be very hard to do this without killing it, so you should remove ALL of your gear, kill yourself and take resurrection sickness, then reduce its health slowly with punches. Unless you have an interrupt that causes no damage you may have to just put up with the heals.In contrast, if you're low level you may find Hutia hits very hard, so kiting (and maybe help from a friend) is probably necessary. Use Concussive Shot to slow it, and interrupt its heals when possible.]],
+    [464] = [[Located in The Jade Forest. Hutia must be reduced to 30% health before it can be tamed, and it periodically casts an interruptable heal. If you're high level it can be very hard to do this without killing it, so you should remove ALL of your gear, kill yourself and take resurrection sickness, then reduce its health slowly with punches. Unless you have an interrupt that causes no damage you may have to just put up with the heals.In contrast, if you're low level you may find Hutia hits very hard, so kiting (and maybe help from a friend) is probably necessary.]],
 
     -- NPCs: 69947
-    [465] = [[Located in Valley of the Four Winds. Degu patrols the cliff-edge at the southern border of the valley, from a point south-east of Stormstout Brewery, east to a point just above Thunder Cleft. It must be reduced to 30% health before it can be tamed. If you're high level it can be very hard to do this without killing it, so you should remove ALL of your gear, kill yourself and take resurrection sickness, then reduce its health slowly with punches.In contrast, if you're low level you may find Degu hits very hard, so kiting is probably necessary. It runs quickly, so Concussive Shot and Aspect of the Cheetah (and possibly the help of a friend) will be useful.]],
+    [465] = [[Located in Valley of the Four Winds. Degu patrols the cliff-edge at the southern border of the valley, from a point south-east of Stormstout Brewery, east to a point just above Thunder Cleft. It must be reduced to 30% health before it can be tamed. If you're high level it can be very hard to do this without killing it, so you should remove ALL of your gear, kill yourself and take resurrection sickness, then reduce its health slowly with punches.In contrast, if you're low level you may find Degu hits very hard, so kiting is probably necessary.]],
 
     -- NPCs: 70120
     [466] = [[Located in Stormsea Landing, Isle of Thunder. Found in the hold of Beastcaller Tuk'wa's ship.]],
@@ -1799,7 +1799,7 @@ local notes = {
     [598] = [[Located in The Ring of Blood, Nagrand - Draenor. Released from cages using Ogre Cage Key, taken from Bloodring Slavers. You, or someone with you, must have the once-only quest, Assault on the Gorian Proving Grounds to open a cage.]],
 
     -- NPCs: 88708
-    [599] = [[Located in Shadowmoon Valley - Draenor. Gara is not immediately tameable, but involves a complex quest, starting with a different version of the NPC. A detailed walk-through, and video, of the quest can be found here.]],
+    [599] = [[Located in Shadowmoon Valley - Draenor. Gara is not immediately tameable, but involves a complex quest, starting with a different version of the NPC.]],
 
     -- NPCs: 88710
     [600] = [[Located in Shadowmoon Valley - Draenor. This wolf is intended as a replacement for hunters who have tamed and then released / lost Gara. She isn't tameable by anyone else. Found only when in the shadow realm, north-west of Karabor.]],
@@ -2009,7 +2009,7 @@ local notes = {
     [668] = [[Located in Moonshade Sanctum, Suramar. Spawns during the quest Breaking the Seal.]],
 
     -- NPCs: 107431
-    [669] = [[Located in Chill Breeze Valley, Dun Morogh. On the south side of Crushcog's Arsenal. We're not yet sure of the minimum level required to tame this one!]],
+    [669] = [[Located in Chill Breeze Valley, Dun Morogh. On the south side of Crushcog's Arsenal.]],
 
     -- NPCs: 107440
     [670] = [[Located in Felsurge Nest, Azsuna. Often stealthed until you approach an egg.]],
@@ -2045,7 +2045,7 @@ local notes = {
     [680] = [[Located in Dalaran (Broken Isles). Appears in large numbers when an occasionally-spawning Rotten Egg is destroyed in the Underbelly.]],
 
     -- NPCs: 107836
-    [681] = [[Located in Fungal Rock, Un'Goro Crater. Found deep in the Fungal Rock cave, at the northern end. Her health must be severely reduced (perhaps 25% or lower) before she can be tamed. She hits very hard and can badly hurt you, even at level 60, so you will have to kite her. She makes some very subtle mechanical sounds when clicked.]],
+    [681] = [[Located in Fungal Rock, Un'Goro Crater. Found deep in the Fungal Rock cave, at the northern end. Her health must be severely reduced (perhaps 25% or lower) before she can be tamed. She makes some very subtle mechanical sounds when clicked.]],
 
     -- NPCs: 107951
     [682] = [[Located in Highmountain. A tracking tame that requires you to follow Small Oil Puddles and then use a flare to detect the creature. Circles around the Mucksnout Den area, passing through the Field of An'she.]],
@@ -2054,7 +2054,7 @@ local notes = {
     [683] = [[Located in Azsuna. A tracking tame that requires you to follow Small Oil Puddles and then use a flare to detect the creature. Follows a large loop in north-east Azsuna.]],
 
     -- NPCs: 108106
-    [684] = [[Located in The Dormitory, Gnomeregan (Dungeon). A prismatic card reveals a hidden room. He'll need a shocking kick before he becomes tameable. We're not yet sure of the minimum level required to tame this one!]],
+    [684] = [[Located in The Dormitory, Gnomeregan (Dungeon). A prismatic card reveals a hidden room. He'll need a shocking kick before he becomes tameable.]],
 
     -- NPCs: 108181
     [685] = [[Located in Ironhold Harbor, Tanaan Jungle. This clefthoof occasionally spawns in the raised area just to the west of the Harbor entrance. Despite not being flagged as a rare, it isn't there all the time.]],
@@ -2102,7 +2102,7 @@ local notes = {
     [699] = [[Located in Mulgore, The Emerald Nightmare (Raid). Spawns on the adjacent small platform during the roc phase of the Elerethe Renferal fight, after the boss changes into her roc form and flies to the far platform.]],
 
     -- NPCs: 111820
-    [700] = [[Located in Engineering Labs, Gnomeregan (Dungeon). Friender is initially asleep and unattackable. Solve the light-button puzzles on three walls to activate him. Use all your defenses, as he hits very hard!]],
+    [700] = [[Located in Engineering Labs, Gnomeregan (Dungeon). Friender is initially asleep and unattackable. Solve the light-button puzzles on three walls to activate him.]],
 
     -- NPCs: 111933
     [701] = [[Located in Mulgore, The Emerald Nightmare (Raid). Venomous Spiderlings with this ID may be found as trash mobs in the webbed section of the area.]],
@@ -2264,7 +2264,7 @@ local notes = {
     [753] = [[Located in Shadowguard Incursion, The Seat of the Triumvirate (Dungeon). Shadow Stalkers inside The Seat of the Triumvirate can be tamed without the use of Fresh Talbuk Meat.]],
 
     -- NPCs: 122548
-    [754] = [[Located in Emerald Dragonshrine, The Deaths of Chromie (Scenario). These owls are actually all level 112, but you are temporarily bumped to level 112 inside the instance so you can tame them at the minimum instance level of 110. Distract Chromie with other targets first, or she'll attack and pull aggro while you're taming.]],
+    [754] = [[Located in Emerald Dragonshrine, The Deaths of Chromie (Scenario). Distract Chromie with other targets first, or she'll attack and pull aggro while you're taming.]],
 
     -- NPCs: 122961
     [755] = [[Located in Glenbrook Hunting Grounds, Drustvar. Has a shadowy electrical effect that is lost upon taming.]],
@@ -2401,2603 +2401,2597 @@ local notes = {
     -- NPCs: 127569, 127611
     [799] = [[Located in Invasion Point: Bonich. This stag is found outside the zone barrier, so cannot be physically reached. Instead, in a couple of places around the edge you can just get in range to aggro it with something that won't kill it, like a Tar Trap, which will in turn cause it to come close enough to tame. Invasion Point: Bonich may be reached through a portal in northern Antoran Wastes, Argus.]],
 
-    -- NPCs: 127572
-    [800] = [[Located in Norwington Estate, Tiragarde Sound. Friendly to Alliance and part of an Alliance quest phase. Does not seem to be visible to Horde.]],
-
     -- NPCs: 127602
-    [801] = [[Located in Rockskip Woodlands, Tiragarde Sound. Stealthed.]],
+    [800] = [[Located in Rockskip Woodlands, Tiragarde Sound. Stealthed.]],
 
     -- NPCs: 127615
-    [802] = [[Located in Invasion Point: Bonich. This runner is found outside the zone barrier, so cannot be physically reached. Instead, go directly behind the entry portal and stand in the break between the logs, facing the barrier. Further ahead you'll see a log with a clump of ferns at its right-hand end. Place a freezing trap just in front of the ferns. Every couple of minutes some Ephemeral Runners will run past and with good placement you'll trap one and can tame it. Invasion Point: Bonich may be reached through a portal in northern Antoran Wastes, Argus.]],
+    [801] = [[Located in Invasion Point: Bonich. This runner is found outside the zone barrier, so cannot be physically reached. Instead, go directly behind the entry portal and stand in the break between the logs, facing the barrier. Further ahead you'll see a log with a clump of ferns at its right-hand end. Place a freezing trap just in front of the ferns. Every couple of minutes some Ephemeral Runners will run past and with good placement you'll trap one and can tame it. Invasion Point: Bonich may be reached through a portal in northern Antoran Wastes, Argus.]],
 
     -- NPCs: 127630
-    [803] = [[Located in Snapclaw Shore, Drustvar. Spawns occasionally when you reel in fishing rods for the regular quest The Reel Deal, or its World Quest equivalent What a Gull Wants.]],
+    [802] = [[Located in Snapclaw Shore, Drustvar. Spawns occasionally when you reel in fishing rods for the regular quest The Reel Deal, or its World Quest equivalent What a Gull Wants.]],
 
     -- NPCs: 127651
-    [804] = [[Located in Timbered Strandby, Drustvar. Use the Untended Fishing Rod.]],
+    [803] = [[Located in Timbered Strandby, Drustvar. Use the Untended Fishing Rod.]],
 
     -- NPCs: 127768
-    [805] = [[Located in The Fallen Outpost, Nazmir. These undead beasts are being ridden by Blood Troll Warmothers. Some are scripted to run along the path towards Zuldazar then despawn, while others linger at the back.]],
+    [804] = [[Located in The Fallen Outpost, Nazmir. These undead beasts are being ridden by Blood Troll Warmothers. Some are scripted to run along the path towards Zuldazar then despawn, while others linger at the back.]],
 
     -- NPCs: 127800
-    [806] = [[Located in Brokenbough Roost, Tiragarde Sound. Found in a cave on the Brokenbough Roost. Has spears stuck in it that remain upon taming.]],
+    [805] = [[Located in Brokenbough Roost, Tiragarde Sound. Found in a cave on the Brokenbough Roost. Has spears stuck in it that remain upon taming.]],
 
     -- NPCs: 127847
-    [807] = [[Located in Torga's Rest, Nazmir. Flying about the area.]],
+    [806] = [[Located in Torga's Rest, Nazmir. Flying about the area.]],
 
     -- NPCs: 127873
-    [808] = [[Located in Torga's Rest, Nazmir. Scrounger Patriarchs originally had a standard red raptor look until they were changed (and made tameable) in Patch 8.1]],
+    [807] = [[Located in Torga's Rest, Nazmir. Scrounger Patriarchs originally had a standard red raptor look until they were changed (and made tameable) in Patch 8.1]],
 
     -- NPCs: 128093
-    [809] = [[Located in Clearspring Pass, Tiragarde Sound. In a cave.]],
+    [808] = [[Located in Clearspring Pass, Tiragarde Sound. In a cave.]],
 
     -- NPCs: 128099, 128115, 128612, 128622
-    [810] = [[Located in Forge of Aeons (Scenario). Found in the scenario in which you recruit the Lightforged Draenei to the Alliance, so only available to Alliance players, one time only.]],
+    [809] = [[Located in Forge of Aeons (Scenario). Found in the scenario in which you recruit the Lightforged Draenei to the Alliance, so only available to Alliance players, one time only.]],
 
     -- NPCs: 128361
-    [811] = [[Located in Glenbrook Hunting Grounds, Drustvar. Has a shadowy electrical effect.]],
+    [810] = [[Located in Glenbrook Hunting Grounds, Drustvar. Has a shadowy electrical effect.]],
 
     -- NPCs: 128435
-    [812] = [[Located in Atal'dazar (Dungeon). Tame quickly, before the pack overwhelms you!]],
+    [811] = [[Located in Atal'dazar (Dungeon). Tame quickly, before the pack overwhelms you!]],
 
     -- NPCs: 128441, 128476, 128478
-    [813] = [[Located in Norwington Estate, Tiragarde Sound. Found in the stables. Horde hunters can tame this horse the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
+    [812] = [[Located in Norwington Estate, Tiragarde Sound. Found in the stables. Horde hunters can tame this horse the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
 
     -- NPCs: 128551
-    [814] = [[Located in Freehold (Dungeon).]],
+    [813] = [[Located in Freehold (Dungeon).]],
 
     -- NPCs: 128587
-    [815] = [[Located in Zuldazar. This unique skeletal devilsaur requires a trick to tame, as it's normally only encountered while you're stuck in a quest vehicle and can't use your abilities. It also requires you to be a Horde player with access to the once-only quest Bulwark of Torcali. There's a chance that Horde hunters can revisit this quest using party sync - if they have a friend who has it in their quest log - but we haven't yet tested that possibility. The Bulwark of Torcali quest requires you to have completed the major zone storylines for both Zuldazar and Nazmir. At the start of the quest you're asked to mount a direhorn named Old Rotana. Before you click on her, ensure the wooden post at her back left flank is between you and her body. If you position yourself just right, when you click on her the post will block you from mounting but you'll still moved into the quest instance, where you can tame a Risen Gargantuan.]],
+    [814] = [[Located in Zuldazar. This unique skeletal devilsaur requires a trick to tame, as it's normally only encountered while you're stuck in a quest vehicle and can't use your abilities. It also requires you to be a Horde player with access to the once-only quest Bulwark of Torcali. There's a chance that Horde hunters can revisit this quest using party sync - if they have a friend who has it in their quest log - but we haven't yet tested that possibility. The Bulwark of Torcali quest requires you to have completed the major zone storylines for both Zuldazar and Nazmir. At the start of the quest you're asked to mount a direhorn named Old Rotana. Before you click on her, ensure the wooden post at her back left flank is between you and her body. If you position yourself just right, when you click on her the post will block you from mounting but you'll still moved into the quest instance, where you can tame a Risen Gargantuan.]],
 
     -- NPCs: 128838
-    [816] = [[Located in Tiragarde Sound. Horde hunters can tame this Pack Mule the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Found in two locations in the zone: (i) just across the bridge, to the east of Vigil Hill island, and (ii) by the ramparts across on the strait to the east of Freehold Island. It has a large pack on its back which is lost after taming.]],
+    [815] = [[Located in Tiragarde Sound. Horde hunters can tame this Pack Mule the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Found in two locations in the zone: (i) just across the bridge, to the east of Vigil Hill island, and (ii) by the ramparts across on the strait to the east of Freehold Island. It has a large pack on its back which is lost after taming.]],
 
     -- NPCs: 128848
-    [817] = [[Located in Zul'Ahjin, Vol'dun. This alpaca is normally friendly to Horde and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The version of Dolly appears at Zul'Ahjin ruins, east of Scorched Sands Outpost, after the zone story quest Knowledge of the Past and until the quest Unlikely Allies. She doesn't appear to be visible to Alliance.]],
+    [816] = [[Located in Zul'Ahjin, Vol'dun. This alpaca is normally friendly to Horde and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The version of Dolly appears at Zul'Ahjin ruins, east of Scorched Sands Outpost, after the zone story quest Knowledge of the Past and until the quest Unlikely Allies. She doesn't appear to be visible to Alliance.]],
 
     -- NPCs: 128849
-    [818] = [[Located in Zul'Ahjin, Vol'dun. This alpaca is normally friendly to Horde and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The version of Dot appears at Zul'Ahjin ruins, east of Scorched Sands Outpost, after the zone story quest Knowledge of the Past and until the quest Unlikely Allies. She doesn't appear to be visible to Alliance.]],
+    [817] = [[Located in Zul'Ahjin, Vol'dun. This alpaca is normally friendly to Horde and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The version of Dot appears at Zul'Ahjin ruins, east of Scorched Sands Outpost, after the zone story quest Knowledge of the Past and until the quest Unlikely Allies. She doesn't appear to be visible to Alliance.]],
 
     -- NPCs: 129070, 129857, 132275
-    [819] = [[Located in Freehold (Non-Instanced), Tiragarde Sound.]],
+    [818] = [[Located in Freehold (Non-Instanced), Tiragarde Sound.]],
 
     -- NPCs: 129124
-    [820] = [[Located in Zuldazar. A pair are located outside a cave, just east of Warport Rastari, another is found within Warport Rastari.]],
+    [819] = [[Located in Zuldazar. A pair are located outside a cave, just east of Warport Rastari, another is found within Warport Rastari.]],
 
     -- NPCs: 129283
-    [821] = [[Located in Vol'dun. Waters to the east of the Port of Zem'lan. Has a bubble around it which is lost upon taming.]],
+    [820] = [[Located in Vol'dun. Waters to the east of the Port of Zem'lan. Has a bubble around it which is lost upon taming.]],
 
     -- NPCs: 129298
-    [822] = [[Located in Whistlebloom Oasis, Vol'dun. Spawns when you contact an Infested Saurolisk corpse.]],
+    [821] = [[Located in Whistlebloom Oasis, Vol'dun. Spawns when you contact an Infested Saurolisk corpse.]],
 
     -- NPCs: 129482
-    [823] = [[Located in The Far Reach, Nazmir. Great Sea Albatrosses with this ID are flying.]],
+    [822] = [[Located in The Far Reach, Nazmir. Great Sea Albatrosses with this ID are flying.]],
 
     -- NPCs: 129500
-    [824] = [[Located in Court of Zak'rajan, Vol'dun. Stealthed.]],
+    [823] = [[Located in Court of Zak'rajan, Vol'dun. Stealthed.]],
 
     -- NPCs: 129517
-    [825] = [[Located in Sacrificial Pits, Atal'Dazar (Dungeon). Spawns if you run over one of the purple piles of bones during the Rezan encounter. Unfortunately, it won't spawn unless you're in combat with Rezan.]],
+    [824] = [[Located in Sacrificial Pits, Atal'Dazar (Dungeon). Spawns if you run over one of the purple piles of bones during the Rezan encounter. Unfortunately, it won't spawn unless you're in combat with Rezan.]],
 
     -- NPCs: 129626
-    [826] = [[Located in Fernwood Ridge, Tiragarde Sound. Curse aura effects lost upon taming.]],
+    [825] = [[Located in Fernwood Ridge, Tiragarde Sound. Curse aura effects lost upon taming.]],
 
     -- NPCs: 129764
-    [827] = [[Located in Glenbrook Hunting Grounds, Drustvar. Has curse aura, which is lost upon taming.]],
+    [826] = [[Located in Glenbrook Hunting Grounds, Drustvar. Has curse aura, which is lost upon taming.]],
 
     -- NPCs: 129805
-    [828] = [[Located in Shrouded Foothills, Drustvar. In a cave. Summoned by opening an Obviously Safe Chest.]],
+    [827] = [[Located in Shrouded Foothills, Drustvar. In a cave. Summoned by opening an Obviously Safe Chest.]],
 
     -- NPCs: 129833
-    [829] = [[Located in Fernwood Ridge, Tiragarde Sound. Located in a cave in the east of the area. Her curse aura is lost upon taming.]],
+    [828] = [[Located in Fernwood Ridge, Tiragarde Sound. Located in a cave in the east of the area. Her curse aura is lost upon taming.]],
 
     -- NPCs: 129835
-    [830] = [[Located in Glenbrook Hunting Grounds, Drustvar. Has a dark curse aura, and meat impaled on its rack. Both effects are lost upon taming.]],
+    [829] = [[Located in Glenbrook Hunting Grounds, Drustvar. Has a dark curse aura, and meat impaled on its rack. Both effects are lost upon taming.]],
 
     -- NPCs: 129950
-    [831] = [[Located in Drustvar. Appears in different locations around the zone.]],
+    [830] = [[Located in Drustvar. Appears in different locations around the zone.]],
 
     -- NPCs: 130022, 130023
-    [832] = [[Located in Vol'dun. Terrace of the Devoted and the northern coasts of the zone. Might phase with World Quests.]],
+    [831] = [[Located in Vol'dun. Terrace of the Devoted and the northern coasts of the zone. Might phase with World Quests.]],
 
     -- NPCs: 130085
-    [833] = [[Located in Fernwood Ridge, Tiragarde Sound. Has shadow and glow effects that are lost upon taming.]],
+    [832] = [[Located in Fernwood Ridge, Tiragarde Sound. Has shadow and glow effects that are lost upon taming.]],
 
     -- NPCs: 130147
-    [834] = [[Located in Anyport, Drustvar. Flying above the area.]],
+    [833] = [[Located in Anyport, Drustvar. Flying above the area.]],
 
     -- NPCs: 130191
-    [835] = [[Located in Terrace of Sorrows, Nazmir. Spawned during the Bajiatha fight.]],
+    [834] = [[Located in Terrace of Sorrows, Nazmir. Spawned during the Bajiatha fight.]],
 
     -- NPCs: 130338, 130581, 130584, 134798, 140071, 140072, 140296, 140298, 140300, 140689, 140690, 140691
-    [836] = [[Located in Island Expeditions (Scenario). A possible encounter on any island, except maybe Crestfall and Snowblossom Village.]],
+    [835] = [[Located in Island Expeditions (Scenario). A possible encounter on any island, except maybe Crestfall and Snowblossom Village.]],
 
     -- NPCs: 130350
-    [837] = [[Located in The Placid Spring, Tiragarde Sound. The Guardian of the Spring is normally friendly but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. This version of the Guardian is a vignette NPC at approx 61,52 that can be ridden for 40 seconds. If you ride it to Roan Berthold at approx 67,52 you'll be dismounted and receive a lootable chest. A version of the Guardian with a different NPC ID will appear there for a short time.]],
+    [836] = [[Located in The Placid Spring, Tiragarde Sound. The Guardian of the Spring is normally friendly but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. This version of the Guardian is a vignette NPC at approx 61,52 that can be ridden for 40 seconds. If you ride it to Roan Berthold at approx 67,52 you'll be dismounted and receive a lootable chest. A version of the Guardian with a different NPC ID will appear there for a short time.]],
 
     -- NPCs: 130401
-    [838] = [[Located in Vol'dun. In the mountains in the south-east of the zone, on a rise south-east of Verdant Plateau. To summon Vathikur you have to kill all of the Pit Snakes.]],
+    [837] = [[Located in Vol'dun. In the mountains in the south-east of the zone, on a rise south-east of Verdant Plateau. To summon Vathikur you have to kill all of the Pit Snakes.]],
 
     -- NPCs: 130439
-    [839] = [[Located in Bouldered Bluffs, Vol'dun. In a cave.]],
+    [838] = [[Located in Bouldered Bluffs, Vol'dun. In a cave.]],
 
     -- NPCs: 130443
-    [840] = [[Located in The Prickly Grove, Vol'dun. In a cave.]],
+    [839] = [[Located in The Prickly Grove, Vol'dun. In a cave.]],
 
     -- NPCs: 130512
-    [841] = [[Located in Zuldazar. Garden of the Loa, Mount Mugamba, and central southern Zuldazar. This young ape originally had a monkey model, before it became tameable in Patch 8.1.]],
+    [840] = [[Located in Zuldazar. Garden of the Loa, Mount Mugamba, and central southern Zuldazar. This young ape originally had a monkey model, before it became tameable in Patch 8.1.]],
 
     -- NPCs: 130643
-    [842] = [[Located in Lair of Rezan, Zuldazar. In a cave at the back of the Temple of Rezan. Only present on days when the world quest Twisted Child of Rezan is active.]],
+    [841] = [[Located in Lair of Rezan, Zuldazar. In a cave at the back of the Temple of Rezan. Only present on days when the world quest Twisted Child of Rezan is active.]],
 
     -- NPCs: 130889
-    [843] = [[Located in Old Drust Road, Tiragarde Sound. Horde hunters can tame this Workhorse the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Found just across the bridge, to the east of Vigil Hill island. Only one is present at a time, but if the current one isn't the colour you're after you can kill it and it respawns quickly.]],
+    [842] = [[Located in Old Drust Road, Tiragarde Sound. Horde hunters can tame this Workhorse the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Found just across the bridge, to the east of Vigil Hill island. Only one is present at a time, but if the current one isn't the colour you're after you can kill it and it respawns quickly.]],
 
     -- NPCs: 130935
-    [844] = [[Located in Isolon, Eredath. Behind the circular building. There's only one, so it may not always be present. The horn shape on the wild NPC can vary between the two types, so you may need patience to get the style you prefer.]],
+    [843] = [[Located in Isolon, Eredath. Behind the circular building. There's only one, so it may not always be present. The horn shape on the wild NPC can vary between the two types, so you may need patience to get the style you prefer.]],
 
     -- NPCs: 130937
-    [845] = [[Located in Eredath. Seems to be an infrequent spawn in areas where Umbralfins occur. If you can't find one, try killing the Umbralfins.]],
+    [844] = [[Located in Eredath. Seems to be an infrequent spawn in areas where Umbralfins occur. If you can't find one, try killing the Umbralfins.]],
 
     -- NPCs: 130943
-    [846] = [[Located in Grove of Naroua, Krokuun. At the back, behind Naroua. Only one seems to be present.]],
+    [845] = [[Located in Grove of Naroua, Krokuun. At the back, behind Naroua. Only one seems to be present.]],
 
     -- NPCs: 130953
-    [847] = [[Located in Gorilla Gorge, Zuldazar. This gorilla wears a skull that is lost upon taming.]],
+    [846] = [[Located in Gorilla Gorge, Zuldazar. This gorilla wears a skull that is lost upon taming.]],
 
     -- NPCs: 131136
-    [848] = [[Located in Tiragarde Sound. Flying above the Waning Glacier.]],
+    [847] = [[Located in Tiragarde Sound. Flying above the Waning Glacier.]],
 
     -- NPCs: 131695
-    [849] = [[Located in Zuldazar. Found hiding in the undergrowth at one specific location - off a path leading to Nazmir, north-east of the Garden of the Loa.]],
+    [848] = [[Located in Zuldazar. Found hiding in the undergrowth at one specific location - off a path leading to Nazmir, north-east of the Garden of the Loa.]],
 
     -- NPCs: 131817
-    [850] = [[Located in The Underrot (Dungeon). Infested with many ticks that are lost upon taming.]],
+    [849] = [[Located in The Underrot (Dungeon). Infested with many ticks that are lost upon taming.]],
 
     -- NPCs: 131890, 131892, 131893, 131897, 132526
-    [851] = [[Located in Silithus. Only present in the newer phase of Silithus, after you complete the Antorus raid.]],
+    [850] = [[Located in Silithus. Only present in the newer phase of Silithus, after you complete the Antorus raid.]],
 
     -- NPCs: 131895
-    [852] = [[Located in Silithus. Present in the newer phase of Silithus, after you complete the Antorus raid. It was mistakenly classed as a Silithid for a while, but was fixed in Patch 8.1.]],
+    [851] = [[Located in Silithus. Present in the newer phase of Silithus, after you complete the Antorus raid.]],
 
     -- NPCs: 132194, 132195
-    [853] = [[Located in Crimson Forest, Drustvar. Has a shadowy electrical effect that is lost upon taming]],
+    [852] = [[Located in Crimson Forest, Drustvar. Has a shadowy electrical effect that is lost upon taming]],
 
     -- NPCs: 132211
-    [854] = [[Located in Wailing Tideway, Tiragarde Sound. Wears a pirate hat that is lost upon taming.]],
+    [853] = [[Located in Wailing Tideway, Tiragarde Sound. Wears a pirate hat that is lost upon taming.]],
 
     -- NPCs: 132341
-    [855] = [[Located in Rosaline's Apiary, Stormsong Valley. In a cave in the south-west of the area.]],
+    [854] = [[Located in Rosaline's Apiary, Stormsong Valley. In a cave in the south-west of the area.]],
 
     -- NPCs: 132578
-    [856] = [[Located in Hive'Ashi, Silithus. Only present in the newer phase of Silithus, after you complete the Antorus raid.]],
+    [855] = [[Located in Hive'Ashi, Silithus. Only present in the newer phase of Silithus, after you complete the Antorus raid.]],
 
     -- NPCs: 132580
-    [857] = [[Located in Hive'Regal, Silithus. Only present in the newer phase of Silithus, after you complete the Antorus raid.]],
+    [856] = [[Located in Hive'Regal, Silithus. Only present in the newer phase of Silithus, after you complete the Antorus raid.]],
 
     -- NPCs: 132584
-    [858] = [[Located in Hive'Zora, Silithus. Only present in the newer phase of Silithus, after you complete the Antorus raid.]],
+    [857] = [[Located in Hive'Zora, Silithus. Only present in the newer phase of Silithus, after you complete the Antorus raid.]],
 
     -- NPCs: 132653
-    [859] = [[Located in Savagelands, Zuldazar. This pterrordax spawns during combat with open-world raid boss Ji'arak, who only appears when it is her week as Battle for Azeroth world boss.]],
+    [858] = [[Located in Savagelands, Zuldazar. This pterrordax spawns during combat with open-world raid boss Ji'arak, who only appears when it is her week as Battle for Azeroth world boss.]],
 
     -- NPCs: 133163
-    [860] = [[Located in Zuldazar. Find in jungles north-east of The Sliver (approx 65, 23). She's only up on days when her associated world quest (Tia'Kawan) is active.]],
+    [859] = [[Located in Zuldazar. Find in jungles north-east of The Sliver (approx 65, 23). She's only up on days when her associated world quest (Tia'Kawan) is active.]],
 
     -- NPCs: 133298
-    [861] = [[Located in Gallery of Failures, Uldir (Raid).]],
+    [860] = [[Located in Gallery of Failures, Uldir (Raid).]],
 
     -- NPCs: 133321
-    [862] = [[Located in Gloomtail's Den, Zuldazar. Located in a cave in the vicinity of The Slough.]],
+    [861] = [[Located in Gloomtail's Den, Zuldazar. Located in a cave in the vicinity of The Slough.]],
 
     -- NPCs: 133356
-    [863] = [[Located in Blushwater Brook, Tiragarde Sound. Spawns after using the suspicious pile of meat trap. You fight a wave of troggs, then Tempestria.]],
+    [862] = [[Located in Blushwater Brook, Tiragarde Sound. Spawns after using the suspicious pile of meat trap. You fight a wave of troggs, then Tempestria.]],
 
     -- NPCs: 133384
-    [864] = [[Located in Temple of Sethraliss (Dungeon). The second boss of the dungeon.]],
+    [863] = [[Located in Temple of Sethraliss (Dungeon). The second boss of the dungeon.]],
 
     -- NPCs: 133527
-    [865] = [[Located in The Far Reach, Nazmir. Has spears embedded in its hide which are lost upon taming.]],
+    [864] = [[Located in The Far Reach, Nazmir. Has spears embedded in its hide which are lost upon taming.]],
 
     -- NPCs: 133562, 152148
-    [866] = [[Located in Jagged Wastes, Deepholm. This gyreworm is available to Blacksmiths only. It spawns during the Blacksmithing quest An Ear to the Ground, which becomes available from your BfA Blacksmithing trainer when you reach a skill of 150 in Battle for Azeroth Blacksmithing. While the quest is in an open area, it appears to be phased so that only the quester can see the worms.]],
+    [865] = [[Located in Jagged Wastes, Deepholm. This gyreworm is available to Blacksmiths only. It spawns during the Blacksmithing quest An Ear to the Ground, which becomes available from your BfA Blacksmithing trainer when you reach a skill of 150 in Battle for Azeroth Blacksmithing. While the quest is in an open area, it appears to be phased so that only the quester can see the worms.]],
 
     -- NPCs: 133835
-    [867] = [[Located in The Underrot (Dungeon).]],
+    [866] = [[Located in The Underrot (Dungeon).]],
 
     -- NPCs: 133988
-    [868] = [[Located in Upper Corlain, Drustvar. Has a shadowy electrical effect that is lost upon taming.]],
+    [867] = [[Located in Upper Corlain, Drustvar. Has a shadowy electrical effect that is lost upon taming.]],
 
     -- NPCs: 134005
-    [869] = [[Located in Lucky Strike Mines, The MOTHERLODE!! (Dungeon).]],
+    [868] = [[Located in Lucky Strike Mines, The MOTHERLODE!! (Dungeon).]],
 
     -- NPCs: 134046, 134047
-    [870] = [[Located in The Slough, Zuldazar. Summoned by activating the Strange Egg vignette.]],
+    [869] = [[Located in The Slough, Zuldazar. Summoned by activating the Strange Egg vignette.]],
 
     -- NPCs: 134048
-    [871] = [[Located in The Slough, Zuldazar. Summoned after you kill two waves of Enthralled Saurids in the Strange Egg vignette.]],
+    [870] = [[Located in The Slough, Zuldazar. Summoned after you kill two waves of Enthralled Saurids in the Strange Egg vignette.]],
 
     -- NPCs: 134057
-    [872] = [[Located in Primal Wetlands, Nazmir. Blood ticks with this ID are only present on days when the world quest Scorched Earth is up. They're found in groups nearby tameable bloodticks with the same name.]],
+    [871] = [[Located in Primal Wetlands, Nazmir. Blood ticks with this ID are only present on days when the world quest Scorched Earth is up. They're found in groups nearby tameable bloodticks with the same name.]],
 
     -- NPCs: 134147
-    [873] = [[Located in Highland Flats, Stormsong Valley. Only present when the World Quest Beehemoth is active.]],
+    [872] = [[Located in Highland Flats, Stormsong Valley. Only present when the World Quest Beehemoth is active.]],
 
     -- NPCs: 134296
-    [874] = [[Located in Mangrove Shore, Nazmir. Found south-east of Torga's Rest, Lucille is summoned on request by the Tortollan, Chag. Chag seems to be there all the time, and not just during his World Quest, Chag's Challenge, but he won't always offer the dialogue to summon Lucille.]],
+    [873] = [[Located in Mangrove Shore, Nazmir. Found south-east of Torga's Rest, Lucille is summoned on request by the Tortollan, Chag. Chag seems to be there all the time, and not just during his World Quest, Chag's Challenge, but he won't always offer the dialogue to summon Lucille.]],
 
     -- NPCs: 134307
-    [875] = [[Located in Upper Corlain, Drustvar. Found inside the stables. Has a curse aura that is lost upon taming.]],
+    [874] = [[Located in Upper Corlain, Drustvar. Found inside the stables. Has a curse aura that is lost upon taming.]],
 
     -- NPCs: 134390
-    [876] = [[Located in Temple of Sethraliss (Dungeon). Spawned during the Merektha fight.]],
+    [875] = [[Located in Temple of Sethraliss (Dungeon). Spawned during the Merektha fight.]],
 
     -- NPCs: 134433
-    [877] = [[Located in Blood Gate, Zuldazar. Blood Crawgs with this ID appear during the Horde-only phased quest, Zandalar Forever!. You have to dismount to tame it. To be eligible for this quest you have to complete the quest chains for all three zones of Zandalar and then complete the Bulwark of Torcali quest in Zuldazar.]],
+    [876] = [[Located in Blood Gate, Zuldazar. Blood Crawgs with this ID appear during the Horde-only phased quest, Zandalar Forever!. You have to dismount to tame it. To be eligible for this quest you have to complete the quest chains for all three zones of Zandalar and then complete the Bulwark of Torcali quest in Zuldazar.]],
 
     -- NPCs: 134450
-    [878] = [[Located in Tidecross, Stormsong Valley. Does not keep purple aura when tamed.]],
+    [877] = [[Located in Tidecross, Stormsong Valley. Does not keep purple aura when tamed.]],
 
     -- NPCs: 134507
-    [879] = [[Located in Zuldazar. Siege Monstrosities with this ID appear during the Horde-only phased quest, Zandalar Forever!. You have to dismount to tame it. To be eligible for this quest you have to complete the quest chains for all three zones of Zandalar and then complete the Bulwark of Torcali quest in Zuldazar.]],
+    [878] = [[Located in Zuldazar. Siege Monstrosities with this ID appear during the Horde-only phased quest, Zandalar Forever!. You have to dismount to tame it. To be eligible for this quest you have to complete the quest chains for all three zones of Zandalar and then complete the Bulwark of Torcali quest in Zuldazar.]],
 
     -- NPCs: 134519
-    [880] = [[Located in Rosaline's Apiary, Stormsong Valley. Outside the cave of the Hive Mother.]],
+    [879] = [[Located in Rosaline's Apiary, Stormsong Valley. Outside the cave of the Hive Mother.]],
 
     -- NPCs: 134562
-    [881] = [[Located in Crater of Conquerors, Vol'dun. Periodically appears in the west of the area, brought in by a Faithless Raider.]],
+    [880] = [[Located in Crater of Conquerors, Vol'dun. Periodically appears in the west of the area, brought in by a Faithless Raider.]],
 
     -- NPCs: 134686, 135846
-    [882] = [[Located in Temple of Sethraliss (Dungeon).]],
+    [881] = [[Located in Temple of Sethraliss (Dungeon).]],
 
     -- NPCs: 134780
-    [883] = [[Located in Backwater Beach, Zuldazar. Spawned by the Chum Bucket vignette.]],
+    [882] = [[Located in Backwater Beach, Zuldazar. Spawned by the Chum Bucket vignette.]],
 
     -- NPCs: 134782
-    [884] = [[Located in Zuldazar. Spawned by killing two waves of Enticed Axebeaks at Backwater Beach.]],
+    [883] = [[Located in Zuldazar. Spawned by killing two waves of Enticed Axebeaks at Backwater Beach.]],
 
     -- NPCs: 134799, 140692
-    [885] = [[Located in Island Expeditions (Scenario). A possible encounter on any island, except maybe Crestfall, Dread Chain, and Snowblossom Village.]],
+    [884] = [[Located in Island Expeditions (Scenario). A possible encounter on any island, except maybe Crestfall, Dread Chain, and Snowblossom Village.]],
 
     -- NPCs: 134852
-    [886] = [[Located in The Dreadmire, Nazmir. Only appears on days when the world quest Agent of Death is active.]],
+    [885] = [[Located in The Dreadmire, Nazmir. Only appears on days when the world quest Agent of Death is active.]],
 
     -- NPCs: 134896
-    [887] = [[Located in Sodden Depths (Alliance intro phase), Tiragarde Sound. Only accessible during the Alliance introductory storyline for Kul Tiras.]],
+    [886] = [[Located in Sodden Depths (Alliance intro phase), Tiragarde Sound. Only accessible during the Alliance introductory storyline for Kul Tiras.]],
 
     -- NPCs: 134906, 134907, 140034
-    [888] = [[Located in Tol Dagor (Non-Instanced), Tiragarde Sound.]],
+    [887] = [[Located in Tol Dagor (Non-Instanced), Tiragarde Sound.]],
 
     -- NPCs: 134934
-    [889] = [[Located in Zuldazar. North of Zeb'ahari. Spawns during combat with Tambano.]],
+    [888] = [[Located in Zuldazar. North of Zeb'ahari. Spawns during combat with Tambano.]],
 
     -- NPCs: 135048
-    [890] = [[Located in Banquet Hall, Waycrest Manor (Dungeon).]],
+    [889] = [[Located in Banquet Hall, Waycrest Manor (Dungeon).]],
 
     -- NPCs: 135049, 135234
-    [891] = [[Located in Waycrest Manor (Dungeon).]],
+    [890] = [[Located in Waycrest Manor (Dungeon).]],
 
     -- NPCs: 135052
-    [892] = [[Located in Ballroom, Waycrest Manor (Dungeon).]],
+    [891] = [[Located in Ballroom, Waycrest Manor (Dungeon).]],
 
     -- NPCs: 135293
-    [893] = [[Located in Muckwallow, Stormsong Valley. Within a cave.]],
+    [892] = [[Located in Muckwallow, Stormsong Valley. Within a cave.]],
 
     -- NPCs: 135304
-    [894] = [[Located in The Slough, Zuldazar. Only present when the Kua'fon daily quest A Nose for Ptrouble is active. There is a 1-in-4 chance of this.]],
+    [893] = [[Located in The Slough, Zuldazar. Only present when the Kua'fon daily quest A Nose for Ptrouble is active. There is a 1-in-4 chance of this.]],
 
     -- NPCs: 135322
-    [895] = [[Located in Kings' Rest (Dungeon).]],
+    [894] = [[Located in Kings' Rest (Dungeon).]],
 
     -- NPCs: 135433
-    [896] = [[Located in Atal'Dazar, Zuldazar. Not inside the dungeon. Found in the large sunken area before the Kings' Rest dungeon entrance.]],
+    [895] = [[Located in Atal'Dazar, Zuldazar. Not inside the dungeon. Found in the large sunken area before the Kings' Rest dungeon entrance.]],
 
     -- NPCs: 135450
-    [897] = [[Located in Atal'Dazar (Non-Instanced), Zuldazar.]],
+    [896] = [[Located in Atal'Dazar (Non-Instanced), Zuldazar.]],
 
     -- NPCs: 135490
-    [898] = [[Located in Atal'dazar (Non-Instanced), Zuldazar. Found by a pond and waterfall in the north-west corner. Tame quickly, before the pack overwhelms you!]],
+    [897] = [[Located in Atal'dazar (Non-Instanced), Zuldazar. Found by a pond and waterfall in the north-west corner. Tame quickly, before the pack overwhelms you!]],
 
     -- NPCs: 135508
-    [899] = [[Located in Savagelands, Zuldazar. Only present when the Kua'fon daily quest A Nose for Ptrouble is active. There is a 1-in-4 chance of this. If Kil'Tawan is still not present, try killing Thunderfoot or Azuresail, and she may spawn.]],
+    [898] = [[Located in Savagelands, Zuldazar. Only present when the Kua'fon daily quest A Nose for Ptrouble is active. There is a 1-in-4 chance of this. If Kil'Tawan is still not present, try killing Thunderfoot or Azuresail, and she may spawn.]],
 
     -- NPCs: 135510
-    [900] = [[Located in Savagelands, Zuldazar. Only present when the Kua'fon daily quest A Nose for Ptrouble is active. There is a 1-in-4 chance of this. If Azuresail is still not present, try killing Thunderfoot or Kil'Tawan, and it may spawn.]],
+    [899] = [[Located in Savagelands, Zuldazar. Only present when the Kua'fon daily quest A Nose for Ptrouble is active. There is a 1-in-4 chance of this. If Azuresail is still not present, try killing Thunderfoot or Kil'Tawan, and it may spawn.]],
 
     -- NPCs: 135632
-    [901] = [[Located in Briarback Kraul, Stormsong Valley. Found flying above the area. This bird originally had the appearance of a gold condor, but was switched to the hawk model in Patch 8.1.]],
+    [900] = [[Located in Briarback Kraul, Stormsong Valley. Found flying above the area. This bird originally had the appearance of a gold condor, but was switched to the hawk model in Patch 8.1.]],
 
     -- NPCs: 135743
-    [902] = [[Located in The Bone Pit, Vol'dun. Risen Ravsaurs with this ID are reanimated by Zunashi the Exile at the start of combat. He's hiding in a cavern under the dunes.]],
+    [901] = [[Located in The Bone Pit, Vol'dun. Risen Ravsaurs with this ID are reanimated by Zunashi the Exile at the start of combat. He's hiding in a cavern under the dunes.]],
 
     -- NPCs: 135769
-    [903] = [[Located in Westwind Weald, Tiragarde Sound. Goldcoat Stingers with this ID are only spawned during combat with Brawr.]],
+    [902] = [[Located in Westwind Weald, Tiragarde Sound. Goldcoat Stingers with this ID are only spawned during combat with Brawr.]],
 
     -- NPCs: 136183
-    [904] = [[Located in Drowned Lands, Stormsong Valley. In a cave. Has a purple smog effect.]],
+    [903] = [[Located in Drowned Lands, Stormsong Valley. In a cave. Has a purple smog effect.]],
 
     -- NPCs: 136280
-    [905] = [[Located in Crosswind Commons, Boralus, Tiragarde Sound. During the World Quest "Albatrocity".]],
+    [904] = [[Located in Crosswind Commons, Boralus, Tiragarde Sound. During the World Quest "Albatrocity".]],
 
     -- NPCs: 136311
-    [906] = [[Located in Windshorn Hills, Stormsong Valley. Summoned during the Alliance quest Smells Like Trouble, when a player uses the Scent Vial on Durmok Darkmane. Horde hunters can tame this hawk the usual way, though they need to coordinate with an an Alliance player who has the quest and can summon it. It is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
+    [905] = [[Located in Windshorn Hills, Stormsong Valley. Summoned during the Alliance quest Smells Like Trouble, when a player uses the Scent Vial on Durmok Darkmane. Horde hunters can tame this hawk the usual way, though they need to coordinate with an an Alliance player who has the quest and can summon it. It is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
 
     -- NPCs: 136417, 136418
-    [907] = [[Located in Beryl Meadow, Stormsong Valley. In a cave.]],
+    [906] = [[Located in Beryl Meadow, Stormsong Valley. In a cave.]],
 
     -- NPCs: 136426
-    [908] = [[Located in Shoaljai Tar Pits and the plains to the south, Nazmir. Stealthed.]],
+    [907] = [[Located in Shoaljai Tar Pits and the plains to the south, Nazmir. Stealthed.]],
 
     -- NPCs: 136469
-    [909] = [[Located in Dire Hills Lodge, Stormsong Valley. Horde must be flagged PvP in order to tame this hound. It is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
+    [908] = [[Located in Dire Hills Lodge, Stormsong Valley. Horde must be flagged PvP in order to tame this hound. It is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
 
     -- NPCs: 136548
-    [910] = [[Located in The Bone Pit & The Blistering Waste, Vol'dun. Part of the World Quests Azerite Mining / Azerite Madness, when the quest is active in Vol'dun.]],
+    [909] = [[Located in The Bone Pit & The Blistering Waste, Vol'dun. Part of the World Quests Azerite Mining / Azerite Madness, when the quest is active in Vol'dun.]],
 
     -- NPCs: 136653
-    [911] = [[Located in Eastern Dunes, Vol'dun. Only present when the Horde-only World Quest Sandfishing is active. These worms can be fished out of the sand as part of the quest. The quest is located north-east of Atul'Aman.]],
+    [910] = [[Located in Eastern Dunes, Vol'dun. Only present when the Horde-only World Quest Sandfishing is active. These worms can be fished out of the sand as part of the quest. The quest is located north-east of Atul'Aman.]],
 
     -- NPCs: 136667
-    [912] = [[Located in Eastern Dunes, Vol'dun. Only present when the Horde-only World Quest Sandfishing is active. These krolusks can be fished out of the sand as part of the quest. The quest is located north-east of Atul'Aman.]],
+    [911] = [[Located in Eastern Dunes, Vol'dun. Only present when the Horde-only World Quest Sandfishing is active. These krolusks can be fished out of the sand as part of the quest. The quest is located north-east of Atul'Aman.]],
 
     -- NPCs: 136914
-    [913] = [[Located in Stormsong Valley; Mechagon. Located in Brined Flats, Stormsong Valley (flying above the area), and The Toothy Shallows, Mechagon.]],
+    [912] = [[Located in Stormsong Valley; Mechagon. Located in Brined Flats, Stormsong Valley (flying above the area), and The Toothy Shallows, Mechagon.]],
 
     -- NPCs: 136976
-    [914] = [[Located in Kings' Rest (Dungeon). Summoned as part of the King Dazar (final boss) encounter, when the King reaches 60% health.]],
+    [913] = [[Located in Kings' Rest (Dungeon). Summoned as part of the King Dazar (final boss) encounter, when the King reaches 60% health.]],
 
     -- NPCs: 136984
-    [915] = [[Located in Kings' Rest (Dungeon). Summoned as part of the King Dazar (final boss) encounter, when the King reaches 80% health.]],
+    [914] = [[Located in Kings' Rest (Dungeon). Summoned as part of the King Dazar (final boss) encounter, when the King reaches 80% health.]],
 
     -- NPCs: 137025
-    [916] = [[Located in Millstone Hamlet, Stormsong Valley. In a cellar in the south-west of the area.]],
+    [915] = [[Located in Millstone Hamlet, Stormsong Valley. In a cellar in the south-west of the area.]],
 
     -- NPCs: 137098
-    [917] = [[Located in Tol Dagor (Dungeon). Only present when the world quest Tol Dagor: Shorefront Property is active. Located on the shoreline, head right from the dungeon entrance.]],
+    [916] = [[Located in Tol Dagor (Dungeon). Only present when the world quest Tol Dagor: Shorefront Property is active. Located on the shoreline, head right from the dungeon entrance.]],
 
     -- NPCs: 137181
-    [918] = [[Located in Blushwater Brook, Tiragarde Sound. Spawned during the first stage of the Imperiled Merchants vignette.]],
+    [917] = [[Located in Blushwater Brook, Tiragarde Sound. Spawned during the first stage of the Imperiled Merchants vignette.]],
 
     -- NPCs: 137182
-    [919] = [[Located in Blushwater Brook, Tiragarde Sound. Spawned during the second stage of the Imperiled Merchants vignette.]],
+    [918] = [[Located in Blushwater Brook, Tiragarde Sound. Spawned during the second stage of the Imperiled Merchants vignette.]],
 
     -- NPCs: 137183
-    [920] = [[Located in Blushwater Brook, Tiragarde Sound. Spawned in the final stage of the Imperiled Merchants vignette. It loses its golden aura once tamed.]],
+    [919] = [[Located in Blushwater Brook, Tiragarde Sound. Spawned in the final stage of the Imperiled Merchants vignette. It loses its golden aura once tamed.]],
 
     -- NPCs: 137233
-    [921] = [[Located in Temple of Sethraliss (Dungeon). Spawned during the Avatar of Sethralis encounter. They die on contact, so this can be a difficult tame. Try to stun one and tame it quickly.]],
+    [920] = [[Located in Temple of Sethraliss (Dungeon). Spawned during the Avatar of Sethralis encounter. They die on contact, so this can be a difficult tame. Try to stun one and tame it quickly.]],
 
     -- NPCs: 137336
-    [922] = [[Located in Ashenwood Grove, Drustvar. Doesn't retain back mushrooms after taming.]],
+    [921] = [[Located in Ashenwood Grove, Drustvar. Doesn't retain back mushrooms after taming.]],
 
     -- NPCs: 137338
-    [923] = [[Located in Norwington Estate, Tiragarde Sound. Rose is friendly to Alliance and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. She doesn't seem to be visible to Horde players. Rose can be found in the yard by the stables after you complete the main Norwington Estate storyline.]],
+    [922] = [[Located in Norwington Estate, Tiragarde Sound. Rose is friendly to Alliance and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. She doesn't seem to be visible to Horde players. Rose can be found in the yard by the stables after you complete the main Norwington Estate storyline.]],
 
     -- NPCs: 137340, 137342
-    [924] = [[Located in Norwington Estate, Tiragarde Sound. Found in a yard adjacent to the stables. Horde hunters can tame this horse the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
+    [923] = [[Located in Norwington Estate, Tiragarde Sound. Found in a yard adjacent to the stables. Horde hunters can tame this horse the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
 
     -- NPCs: 137349
-    [925] = [[Located in Ashenwood Grove, Drustvar. It doesn't retain the fungi growing on its back after taming.]],
+    [924] = [[Located in Ashenwood Grove, Drustvar. It doesn't retain the fungi growing on its back after taming.]],
 
     -- NPCs: 137353
-    [926] = [[Located in Ashenwood Grove. Doesn't retain back mushrooms after taming, Drustvar.]],
+    [925] = [[Located in Ashenwood Grove. Doesn't retain back mushrooms after taming, Drustvar.]],
 
     -- NPCs: 137487
-    [927] = [[Located in Sepulcher of the Dahazi, Kings' Rest (Dungeon). Activates as part of a gauntlet event in the Sepulcher hallway, along with Queen Patlaa. Each of the four groups present will activate sequentially, and you'll probably have to defeat two other groups before this raptor can be attacked.]],
+    [926] = [[Located in Sepulcher of the Dahazi, Kings' Rest (Dungeon). Activates as part of a gauntlet event in the Sepulcher hallway, along with Queen Patlaa. Each of the four groups present will activate sequentially, and you'll probably have to defeat two other groups before this raptor can be attacked.]],
 
     -- NPCs: 137681
-    [928] = [[Located in Bonetrail Gulch, Vol'dun. In a cave.]],
+    [927] = [[Located in Bonetrail Gulch, Vol'dun. In a cave.]],
 
     -- NPCs: 137713
-    [929] = [[Located in THE MOTHERLODE!! (Dungeon). Found on the beach. Has gems and coins embedded in it, which are lost upon taming.]],
+    [928] = [[Located in THE MOTHERLODE!! (Dungeon). Found on the beach. Has gems and coins embedded in it, which are lost upon taming.]],
 
     -- NPCs: 137714
-    [930] = [[Located in Vol'dun. Spawns during the quest Giving Back to Nature, which is part of the Battle for Azeroth Herbalism quest chain. Spawns north-east of Vulpera Hideaway.]],
+    [929] = [[Located in Vol'dun. Spawns during the quest Giving Back to Nature, which is part of the Battle for Azeroth Herbalism quest chain. Spawns north-east of Vulpera Hideaway.]],
 
     -- NPCs: 137716
-    [931] = [[Located in THE MOTHERLODE!! (Dungeon). Found on the beach.]],
+    [930] = [[Located in THE MOTHERLODE!! (Dungeon). Found on the beach.]],
 
     -- NPCs: 137720
-    [932] = [[Located in Tal'aman, Zuldazar. Spawned by the Disciple of Akil'zon during the Horde quest Punishment of Tal'aman.]],
+    [931] = [[Located in Tal'aman, Zuldazar. Spawned by the Disciple of Akil'zon during the Horde quest Punishment of Tal'aman.]],
 
     -- NPCs: 137829
-    [933] = [[Located in Old Merchant Road, Zuldazar. This version of the Dazarian Stalker is only present on days when the Horde world quest Brutal Escort is active. It spawns to attack the caravan, but possibly only if a player is present who has the quest.]],
+    [932] = [[Located in Old Merchant Road, Zuldazar. This version of the Dazarian Stalker is only present on days when the Horde world quest Brutal Escort is active. It spawns to attack the caravan, but possibly only if a player is present who has the quest.]],
 
     -- NPCs: 137836
-    [934] = [[Located in Arathi Highlands. Found in the Battle for Azeroth Warfront phase, south and west of Newstead, north of Highlands Mill.]],
+    [933] = [[Located in Arathi Highlands. Found in the Battle for Azeroth Warfront phase, south and west of Newstead, north of Highlands Mill.]],
 
     -- NPCs: 137840
-    [935] = [[Located in Old Merchant Road, Zuldazar. This gorilla is only present on days when the Horde world quest Brutal Escort is active. It spawns to attack the caravan, but possibly only if a player is present who has the quest.]],
+    [934] = [[Located in Old Merchant Road, Zuldazar. This gorilla is only present on days when the Horde world quest Brutal Escort is active. It spawns to attack the caravan, but possibly only if a player is present who has the quest.]],
 
     -- NPCs: 137885
-    [936] = [[Located in Nazmir. This crab can spawn during the Horde herbalism profession quest Gathering Mementos, when a player searches the pools of flotsam along the coastline.]],
+    [935] = [[Located in Nazmir. This crab can spawn during the Horde herbalism profession quest Gathering Mementos, when a player searches the pools of flotsam along the coastline.]],
 
     -- NPCs: 138086
-    [937] = [[Located in Drustvar. In a cave east of Teller's Farm, north-west of Arom's Stand.]],
+    [936] = [[Located in Drustvar. In a cave east of Teller's Farm, north-west of Arom's Stand.]],
 
     -- NPCs: 138286
-    [938] = [[Located in Southport Watch, Tiragarde Sound. Flying above the area.]],
+    [937] = [[Located in Southport Watch, Tiragarde Sound. Flying above the area.]],
 
     -- NPCs: 138342
-    [939] = [[Located in Bouldered Bluffs, Vol'dun. Spawned during combat with the vignette mob Ashmane.]],
+    [938] = [[Located in Bouldered Bluffs, Vol'dun. Spawned during combat with the vignette mob Ashmane.]],
 
     -- NPCs: 138491
-    [940] = [[Located in Koramar, Nazmir. Vicious War Crawgs with this ID are summoned by Amaka the Crawg Ma'da in combat.]],
+    [939] = [[Located in Koramar, Nazmir. Vicious War Crawgs with this ID are summoned by Amaka the Crawg Ma'da in combat.]],
 
     -- NPCs: 138540
-    [941] = [[Located in Feed Pits, Vol'dun. A pair of these cobras are summoned during combat with Fangcaller Xorreth, who is only present on days when his world quest, Fangcaller Xorreth, is active. You may have to kill (or feign death and reset) him more than once before your desired colour appears.]],
+    [940] = [[Located in Feed Pits, Vol'dun. A pair of these cobras are summoned during combat with Fangcaller Xorreth, who is only present on days when his world quest, Fangcaller Xorreth, is active. You may have to kill (or feign death and reset) him more than once before your desired colour appears.]],
 
     -- NPCs: 138660
-    [942] = [[Located in Island Expeditions (Scenario). A possible encounter on Dread Chain, Skittering Hollow, Verdant Wilds.]],
+    [941] = [[Located in Island Expeditions (Scenario). A possible encounter on Dread Chain, Skittering Hollow, Verdant Wilds.]],
 
     -- NPCs: 138794
-    [943] = [[Located in The Bone Pit, Vol'dun. Dunegorger Kraulok is only present for the week in which it is the active Battle for Azeroth World Boss. This occurs one week in every six.]],
+    [942] = [[Located in The Bone Pit, Vol'dun. Dunegorger Kraulok is only present for the week in which it is the active Battle for Azeroth World Boss. This occurs one week in every six.]],
 
     -- NPCs: 138812
-    [944] = [[Located in Zul'Nazman, Nazmir. Has a pulsing red aura before taming.]],
+    [943] = [[Located in Zul'Nazman, Nazmir. Has a pulsing red aura before taming.]],
 
     -- NPCs: 138851
-    [945] = [[Located in Island Expeditions (Scenario). Can appear on any island when a Kvaldir invasion is occurring.]],
+    [944] = [[Located in Island Expeditions (Scenario). Can appear on any island when a Kvaldir invasion is occurring.]],
 
     -- NPCs: 138963
-    [946] = [[Located in Stormsong Valley. Flies around a hilly area just north of the Briny Flats. She's friendly until you disturb her nest, then becomes hostile.]],
+    [945] = [[Located in Stormsong Valley. Flies around a hilly area just north of the Briny Flats. She's friendly until you disturb her nest, then becomes hostile.]],
 
     -- NPCs: 138971
-    [947] = [[Located in Island Expeditions (Scenario). This serpent can appear on any island during a Mogu invasion, which is one of a number of possible invasion events that can occur randomly in the middle of an Island Expedition. You may need to run several expeditions before Mogu will show up, and they won't be accompanied by these cloud serpents every time. Sometimes the Mogu are accompanied by Zian-Ti Cloudbreaker cloud serpents, which are black with a red sheen rather than gold.]],
+    [946] = [[Located in Island Expeditions (Scenario). This serpent can appear on any island during a Mogu invasion, which is one of a number of possible invasion events that can occur randomly in the middle of an Island Expedition. You may need to run several expeditions before Mogu will show up, and they won't be accompanied by these cloud serpents every time. Sometimes the Mogu are accompanied by Zian-Ti Cloudbreaker cloud serpents, which are black with a red sheen rather than gold.]],
 
     -- NPCs: 138972
-    [948] = [[Located in Island Expeditions (Scenario). This serpent can appear on any island during a Mogu invasion, which is one of a number of possible invasion events that can occur randomly in the middle of an Island Expedition. You may need to run several expeditions before Mogu will show up, and they won't be accompanied by these cloud serpents every time. Sometimes the Mogu are accompanied by 'Zian-Ti Serpent' cloud serpents, which are black with a gold sheen rather than red.]],
+    [947] = [[Located in Island Expeditions (Scenario). This serpent can appear on any island during a Mogu invasion, which is one of a number of possible invasion events that can occur randomly in the middle of an Island Expedition. You may need to run several expeditions before Mogu will show up, and they won't be accompanied by these cloud serpents every time. Sometimes the Mogu are accompanied by 'Zian-Ti Serpent' cloud serpents, which are black with a gold sheen rather than red.]],
 
     -- NPCs: 139194
-    [949] = [[Located in The Underrot (Dungeon). Rotmaw can only be found when its associated world quest, The Underrot: Rotmaw is active. It spawns at the back of the caverns between Elder Leaxa and Cragmaw the Infested - the first and second bosses in the dungeon.]],
+    [948] = [[Located in The Underrot (Dungeon). Rotmaw can only be found when its associated world quest, The Underrot: Rotmaw is active. It spawns at the back of the caverns between Elder Leaxa and Cragmaw the Infested - the first and second bosses in the dungeon.]],
 
     -- NPCs: 139298
-    [950] = [[Located in Briny Flat, Stormsong Valley. Has harpoons stuck in its shell and is holding an anchor, which are lost upon taming.]],
+    [949] = [[Located in Briny Flat, Stormsong Valley. Has harpoons stuck in its shell and is holding an anchor, which are lost upon taming.]],
 
     -- NPCs: 139328
-    [951] = [[Located in The Jeweled Coast, Stormsong Valley. Located in a cave in the large island north-west of Seeker's Vista. This red Sabertron is available all the time - to activate it just kill the Sabertron Technician standing nearby. The nearby units with different colours may only be tamed on rare occasions - a random one can be activated when the World Quest Sabertron is available.]],
+    [950] = [[Located in The Jeweled Coast, Stormsong Valley. Located in a cave in the large island north-west of Seeker's Vista. This red Sabertron is available all the time - to activate it just kill the Sabertron Technician standing nearby. The nearby units with different colours may only be tamed on rare occasions - a random one can be activated when the World Quest Sabertron is available.]],
 
     -- NPCs: 139335, 139336, 139356, 139359
-    [952] = [[Located in The Jeweled Coast, Stormsong Valley. Located in a cave in the large island north-west of Seeker's Vista, this mechanical tiger is only rarely tameable. Each time the World Quest Sabertron is available there is a chance this unit will be activated after killing the Sabertron Technician. The probability is probably one-in-four per event, given that there are four rarely-available Sabertrons in the cave. The fifth colour, red-black can be activated and tamed all the time.]],
+    [951] = [[Located in The Jeweled Coast, Stormsong Valley. Located in a cave in the large island north-west of Seeker's Vista, this mechanical tiger is only rarely tameable. Each time the World Quest Sabertron is available there is a chance this unit will be activated after killing the Sabertron Technician. The probability is probably one-in-four per event, given that there are four rarely-available Sabertrons in the cave. The fifth colour, red-black can be activated and tamed all the time.]],
 
     -- NPCs: 139483
-    [953] = [[Located in Nazmir. Located just south of the Antul'Mita Plateau. You may find only one, standing on a rock just across the stream.]],
+    [952] = [[Located in Nazmir. Located just south of the Antul'Mita Plateau. You may find only one, standing on a rock just across the stream.]],
 
     -- NPCs: 139486
-    [954] = [[Located in Island Expeditions (Scenario). Can appear on any island when a Mogu invasion is occurring.]],
+    [953] = [[Located in Island Expeditions (Scenario). Can appear on any island when a Mogu invasion is occurring.]],
 
     -- NPCs: 139562
-    [955] = [[Located in Mangrove Shore, Nazmir. Horde hunters can tame this hound the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Spitz is one of the pets of Houndmaster Leopold and is only present when the Horde-only world quest Preemptive Assault is up in Nazmir.]],
+    [954] = [[Located in Mangrove Shore, Nazmir. Horde hunters can tame this hound the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Spitz is one of the pets of Houndmaster Leopold and is only present when the Horde-only world quest Preemptive Assault is up in Nazmir.]],
 
     -- NPCs: 139563
-    [956] = [[Located in Mangrove Shore, Nazmir. Horde hunters can tame this hound the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Milo is one of the pets of Houndmaster Leopold and is only present when the Horde-only world quest Preemptive Assault is up in Nazmir.]],
+    [955] = [[Located in Mangrove Shore, Nazmir. Horde hunters can tame this hound the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Milo is one of the pets of Houndmaster Leopold and is only present when the Horde-only world quest Preemptive Assault is up in Nazmir.]],
 
     -- NPCs: 139709
-    [957] = [[Located in Zul'Nazman, Nazmir. Patrols outside the Heart of Darkness.]],
+    [956] = [[Located in Zul'Nazman, Nazmir. Patrols outside the Heart of Darkness.]],
 
     -- NPCs: 139980
-    [958] = [[Located in Windshorn Hills, Stormsong Valley. Taja loses its purple aura upon taming.]],
+    [957] = [[Located in Windshorn Hills, Stormsong Valley. Taja loses its purple aura upon taming.]],
 
     -- NPCs: 140038
-    [959] = [[Located in Shrine of the Storm (Dungeon). Packs of these are in the water before the final boss - Vol'zith the Whisperer.]],
+    [958] = [[Located in Shrine of the Storm (Dungeon). Packs of these are in the water before the final boss - Vol'zith the Whisperer.]],
 
     -- NPCs: 140070, 140301
-    [960] = [[Located in Island Expeditions (Scenario). A possible encounter on any island, except maybe Crestfall, Rotting Mire, and Snowblossom Village.]],
+    [959] = [[Located in Island Expeditions (Scenario). A possible encounter on any island, except maybe Crestfall, Rotting Mire, and Snowblossom Village.]],
 
     -- NPCs: 140275
-    [961] = [[Located in Rosaline's Apiary, Stormsong Valley. In a cave.]],
+    [960] = [[Located in Rosaline's Apiary, Stormsong Valley. In a cave.]],
 
     -- NPCs: 140560
-    [962] = [[Located in Island Expeditions (Scenario). A possible encounter on Jorundall, Molten Cay, Verdant Wilds, Whispering Reef.]],
+    [961] = [[Located in Island Expeditions (Scenario). A possible encounter on Jorundall, Molten Cay, Verdant Wilds, Whispering Reef.]],
 
     -- NPCs: 140591, 140594
-    [963] = [[Located in Archives of Eternity, Uldir (Raid).]],
+    [962] = [[Located in Archives of Eternity, Uldir (Raid).]],
 
     -- NPCs: 140604
-    [964] = [[Located in Umber Shore, Tiragarde Sound. Hidden under piles of sand.]],
+    [963] = [[Located in Umber Shore, Tiragarde Sound. Hidden under piles of sand.]],
 
     -- NPCs: 140699
-    [965] = [[Located in Xibala, Zuldazar. WARNING: This pet is buggy and may periodically vanish or cause other issues. It's best not to tame it for now. It is part of the Horde skinning quest Lost But Not Forgotten.]],
+    [964] = [[Located in Xibala, Zuldazar. WARNING: This pet is buggy and may periodically vanish or cause other issues. It's best not to tame it for now. It is part of the Horde skinning quest Lost But Not Forgotten.]],
 
     -- NPCs: 140735, 140738, 142713
-    [966] = [[Located in The Long Wash, Darkshore. Level 110 (War of the Thorns) zone phase.]],
+    [965] = [[Located in The Long Wash, Darkshore. Level 110 (War of the Thorns) zone phase.]],
 
     -- NPCs: 140756
-    [967] = [[Located in Old Drust Road, Tiragarde Sound. The Guardian of the Spring is normally friendly but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. This version of the Guardian is the one that appears by Roan Berthold near Southwind Station (approx 67,52) for a short time after completing its associated vignette. The original version of the Guardian appears at The Placid Spring (approx 61,52) and can be mounted and ridden for 40 seconds. If you ride it to Roan Berthold at approx you'll be dismounted and receive a lootable chest.]],
+    [966] = [[Located in Old Drust Road, Tiragarde Sound. The Guardian of the Spring is normally friendly but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. This version of the Guardian is the one that appears by Roan Berthold near Southwind Station (approx 67,52) for a short time after completing its associated vignette. The original version of the Guardian appears at The Placid Spring (approx 61,52) and can be mounted and ridden for 40 seconds. If you ride it to Roan Berthold at approx you'll be dismounted and receive a lootable chest.]],
 
     -- NPCs: 141051
-    [968] = [[Located in Stagheart Cliffs, Tiragarde Sound. Only present when the world quest, A Feathery Fad is available.]],
+    [967] = [[Located in Stagheart Cliffs, Tiragarde Sound. Only present when the world quest, A Feathery Fad is available.]],
 
     -- NPCs: 141118
-    [969] = [[Located in Stormsong Valley. On a farm in the south. Horde hunters can tame it the normal way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
+    [968] = [[Located in Stormsong Valley. On a farm in the south. Horde hunters can tame it the normal way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
 
     -- NPCs: 141239
-    [970] = [[Located in Roaring Highland, Stormsong Valley. Has arrows stuck in his hide that are retained after taming.]],
+    [969] = [[Located in Roaring Highland, Stormsong Valley. Has arrows stuck in his hide that are retained after taming.]],
 
     -- NPCs: 141643
-    [971] = [[Located in The Great Sea (Quest Instance), The Great Sea. This crab is only accessible by Horde players. It appears in the Horde War Campaign quest instance "At the Bottom of the Sea", unlocked when your reputation with The Honorbound reaches 7.5k Honored.]],
+    [970] = [[Located in The Great Sea (Quest Instance), The Great Sea. This crab is only accessible by Horde players. It appears in the Horde War Campaign quest instance "At the Bottom of the Sea", unlocked when your reputation with The Honorbound reaches 7.5k Honored.]],
 
     -- NPCs: 141935
-    [972] = [[Located in Uldir (Raid).]],
+    [971] = [[Located in Uldir (Raid).]],
 
     -- NPCs: 141977
-    [973] = [[Located in Stormsong Valley. Located on the river east of Briarback Kraul, it only appears when the World Quest Milden Mud Snout is active.]],
+    [972] = [[Located in Stormsong Valley. Located on the river east of Briarback Kraul, it only appears when the World Quest Milden Mud Snout is active.]],
 
     -- NPCs: 141981
-    [974] = [[Located in Tiragarde Sound. In a cave east of Vigil Hill. Spawns when you step on the webs.]],
+    [973] = [[Located in Tiragarde Sound. In a cave east of Vigil Hill. Spawns when you step on the webs.]],
 
     -- NPCs: 141988
-    [975] = [[Located in Forgotten Cove, Stormsong Valley. Has a shadowy aura that is lost upon taming.]],
+    [974] = [[Located in Forgotten Cove, Stormsong Valley. Has a shadowy aura that is lost upon taming.]],
 
     -- NPCs: 142016
-    [976] = [[Located in Newstead, Arathi Highlands; Battle of Stromgarde (Warfront). Found in the Battle for Azeroth zone phase. Friendly to Alliance.]],
+    [975] = [[Located in Newstead, Arathi Highlands; Battle of Stromgarde (Warfront). Found in the Battle for Azeroth zone phase. Friendly to Alliance.]],
 
     -- NPCs: 142198
-    [977] = [[Located in Tidebreak Foothills, Stormsong Valley. Has a void-effect that is lost upon taming.]],
+    [976] = [[Located in Tidebreak Foothills, Stormsong Valley. Has a void-effect that is lost upon taming.]],
 
     -- NPCs: 142312
-    [978] = [[Located in Battle of Stromgarde (Warfront). This version of Skullripper sometimes appears in the warfront instance, by a rocky outcrop east (and a little south) of Dabyrie's Farmstead.]],
+    [977] = [[Located in Battle of Stromgarde (Warfront). This version of Skullripper sometimes appears in the warfront instance, by a rocky outcrop east (and a little south) of Dabyrie's Farmstead.]],
 
     -- NPCs: 142333, 142340
-    [979] = [[Located in Arathi Highlands. Found in the Battle for Azeroth zone phase, in the south-west part of the zone.]],
+    [978] = [[Located in Arathi Highlands. Found in the Battle for Azeroth zone phase, in the south-west part of the zone.]],
 
     -- NPCs: 142337, 142338, 142339, 142341, 142342
-    [980] = [[Located in Arathi Highlands. Found in the Battle for Azeroth zone phase.]],
+    [979] = [[Located in Arathi Highlands. Found in the Battle for Azeroth zone phase.]],
 
     -- NPCs: 142347
-    [981] = [[Located in Arathi Highlands. Found in the Battle for Azeroth phase, south and west of Newstead, north of Highlands Mill.]],
+    [980] = [[Located in Arathi Highlands. Found in the Battle for Azeroth phase, south and west of Newstead, north of Highlands Mill.]],
 
     -- NPCs: 142361
-    [982] = [[Located in Battle of Stromgarde (Warfront). This version of Plaguefeather sometimes appears in the mid-southern regions of the warfront instance.]],
+    [981] = [[Located in Battle of Stromgarde (Warfront). This version of Plaguefeather sometimes appears in the mid-southern regions of the warfront instance.]],
 
     -- NPCs: 142403
-    [983] = [[Located in Stormsong Valley. Found in a range extending east from Millstone Hamlet to near where Osca the Bloodied spawns in the Roaring Highland.]],
+    [982] = [[Located in Stormsong Valley. Found in a range extending east from Millstone Hamlet to near where Osca the Bloodied spawns in the Roaring Highland.]],
 
     -- NPCs: 142435
-    [984] = [[Located in Arathi Highlands. Plaguefeather is found in the Battle for Azeroth phase of the zone. It circles a tree on a hill, due east of the Circle of Inner Binding, which is east of Stromgarde Keep.]],
+    [983] = [[Located in Arathi Highlands. Plaguefeather is found in the Battle for Azeroth phase of the zone. It circles a tree on a hill, due east of the Circle of Inner Binding, which is east of Stromgarde Keep.]],
 
     -- NPCs: 142437
-    [985] = [[Located in Arathi Highlands. Appears in the Battle for Azeroth zone phase. Found by a rocky outcrop east (and a little south) of Dabyrie's Farmstead.]],
+    [984] = [[Located in Arathi Highlands. Appears in the Battle for Azeroth zone phase. Found by a rocky outcrop east (and a little south) of Dabyrie's Farmstead.]],
 
     -- NPCs: 142438
-    [986] = [[Located in Arathi Highlands. Appears in the Battle for Azeroth zone phase. North of Go'shek Farm.]],
+    [985] = [[Located in Arathi Highlands. Appears in the Battle for Azeroth zone phase. North of Go'shek Farm.]],
 
     -- NPCs: 142440
-    [987] = [[Located in Arathi Highlands. Appears in the Battle for Azeroth zone phase, near Newstead.]],
+    [986] = [[Located in Arathi Highlands. Appears in the Battle for Azeroth zone phase, near Newstead.]],
 
     -- NPCs: 142464
-    [988] = [[Located in Dazar'alor, Zuldazar. Alliance hunters can tame this snake in the usual way, but it is friendly to Horde and can only be tamed by Horde hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Moult accompanies Stalker Mojica around the outside of Dazar'alor and probably shouldn't be tameable.]],
+    [987] = [[Located in Dazar'alor, Zuldazar. Alliance hunters can tame this snake in the usual way, but it is friendly to Horde and can only be tamed by Horde hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Moult accompanies Stalker Mojica around the outside of Dazar'alor and probably shouldn't be tameable.]],
 
     -- NPCs: 142610
-    [989] = [[Located in Deadwash, Stormsong Valley. Horde hunters can tame this Pack Mule the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
+    [988] = [[Located in Deadwash, Stormsong Valley. Horde hunters can tame this Pack Mule the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode.]],
 
     -- NPCs: 142717
-    [990] = [[Located in Witherbark Village, Arathi Highlands. Found in the Battle for Azeroth zone phase.]],
+    [989] = [[Located in Witherbark Village, Arathi Highlands. Found in the Battle for Azeroth zone phase.]],
 
     -- NPCs: 142935
-    [991] = [[Located in Nazmir; Vol'dun; Zuldazar. There is a chance this blood tick will spawn when players with the herbalism profession gather Siren's Sting in any of the zones of Zandalar. It's unconfirmed, but possible, that you have to have reached at least Rank 2 in Siren's Sting gathering for it to spawn.]],
+    [990] = [[Located in Nazmir; Vol'dun; Zuldazar. There is a chance this blood tick will spawn when players with the herbalism profession gather Siren's Sting in any of the zones of Zandalar. It's unconfirmed, but possible, that you have to have reached at least Rank 2 in Siren's Sting gathering for it to spawn.]],
 
     -- NPCs: 143416
-    [992] = [[Located in Molten Core (Dark Iron Dwarf Scenario). This version of the Ancient Core Hound is found in the scenario in which you recruit the Dark Iron Dwarves to the Alliance, so it's only accessible by Alliance players on that one occasion.]],
+    [991] = [[Located in Molten Core (Dark Iron Dwarf Scenario). This version of the Ancient Core Hound is found in the scenario in which you recruit the Dark Iron Dwarves to the Alliance, so it's only accessible by Alliance players on that one occasion.]],
 
     -- NPCs: 143510
-    [993] = [[Located in Drustvar; Tiragarde Sound; Stormsong Valley. There is a chance this bee will spawn when players with the herbalism profession gather Siren's Sting in any of the zones of Kul Tiras. It's unconfirmed, but possible, that you have to have reached at least Rank 2 in Siren's Sting gathering for it to spawn.]],
+    [992] = [[Located in Drustvar; Tiragarde Sound; Stormsong Valley. There is a chance this bee will spawn when players with the herbalism profession gather Siren's Sting in any of the zones of Kul Tiras. It's unconfirmed, but possible, that you have to have reached at least Rank 2 in Siren's Sting gathering for it to spawn.]],
 
     -- NPCs: 143700
-    [994] = [[Located in Boralus & Hatherford, Tiragarde Sound. Horde hunters can tame this alpaca the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. It can be found in several locations: (i) at a stable just south-east of Proudmoore Keep; (ii) at a stable by the Boralus Wall, just north of the harbor gates, and (iii) at the stables in Hatherord, to the north of Boralus.]],
+    [993] = [[Located in Boralus & Hatherford, Tiragarde Sound. Horde hunters can tame this alpaca the usual way, but it is friendly to Alliance and can only be tamed by Alliance hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. It can be found in several locations: (i) at a stable just south-east of Proudmoore Keep; (ii) at a stable by the Boralus Wall, just north of the harbor gates, and (iii) at the stables in Hatherord, to the north of Boralus.]],
 
     -- NPCs: 143718
-    [995] = [[Located in Stormsong Valley; Tiragarde Sound. Found sporadically in coastal areas of Tiragarde, especially outside Boralus, and in north-eastern waters of Stormsong.]],
+    [994] = [[Located in Stormsong Valley; Tiragarde Sound. Found sporadically in coastal areas of Tiragarde, especially outside Boralus, and in north-eastern waters of Stormsong.]],
 
     -- NPCs: 143740
-    [996] = [[Located in Vulpera Hideaway, Vol'dun. This alpaca is normally friendly to Horde and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The version of Dot with this ID appears at Vulpera Hideaway after completing the main zone quest chain. She doesn't appear to be visible to Alliance.]],
+    [995] = [[Located in Vulpera Hideaway, Vol'dun. This alpaca is normally friendly to Horde and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The version of Dot with this ID appears at Vulpera Hideaway after completing the main zone quest chain. She doesn't appear to be visible to Alliance.]],
 
     -- NPCs: 143741
-    [997] = [[Located in Vulpera Hideaway, Vol'dun. This alpaca is normally friendly to Horde and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The version of Dolly with this ID appears at Vulpera Hideaway after completing the main zone quest chain. She doesn't appear to be visible to Alliance.]],
+    [996] = [[Located in Vulpera Hideaway, Vol'dun. This alpaca is normally friendly to Horde and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The version of Dolly with this ID appears at Vulpera Hideaway after completing the main zone quest chain. She doesn't appear to be visible to Alliance.]],
 
     -- NPCs: 144246
-    [998] = [[Located in The Under Junk, Operation: Mechagon (Dungeon). The sixth boss in the Operation: Mechagon dungeon, K.U.-J.0. is the second boss of the underground section.]],
+    [997] = [[Located in The Under Junk, Operation: Mechagon (Dungeon). The sixth boss in the Operation: Mechagon dungeon, K.U.-J.0. is the second boss of the underground section.]],
 
     -- NPCs: 144477
-    [999] = [[Located in Sprucewood, Stormsong Valley. The Mountain Goat with this ID is carried by an Ettin Stoneflinger. The ettin will drop the goat if attacked, or if it decides to attack another NPC (which happens often), and the goat will flee to the west. It's possible to tame the goat before it despawns, but you must be extremely quick. It's best to wait by the path to the west of the ettin and target the goat as soon as the ettin drops it and decides to attacks something else.]],
+    [998] = [[Located in Sprucewood, Stormsong Valley. The Mountain Goat with this ID is carried by an Ettin Stoneflinger. The ettin will drop the goat if attacked, or if it decides to attack another NPC (which happens often), and the goat will flee to the west. It's possible to tame the goat before it despawns, but you must be extremely quick. It's best to wait by the path to the west of the ettin and target the goat as soon as the ettin drops it and decides to attacks something else.]],
 
     -- NPCs: 144638
-    [1000] = [[Located in Battle of Dazar'alor (Raid). This undead version of Grong only appears in the Alliance version of the raid, so cannot be tamed by Horde hunters. He's the third boss of the raid.]],
+    [999] = [[Located in Battle of Dazar'alor (Raid). This undead version of Grong only appears in the Alliance version of the raid, so cannot be tamed by Horde hunters. He's the third boss of the raid.]],
 
     -- NPCs: 144731
-    [1001] = [[Located in Horde Airship, Drustvar. Alliance hunters that are able to tame undead will be able to tame this skeletal hound in the usual way, but it is friendly to Horde and can only be tamed by Horde hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. These hounds only appear during Horde assaults on Drustvar. Two can be found on the Horde airship, just north-east of Arom's Stand, in the company of Kaldras Snape. They're located just below decks in the stern of the ship.]],
+    [1000] = [[Located in Horde Airship, Drustvar. Alliance hunters that are able to tame undead will be able to tame this skeletal hound in the usual way, but it is friendly to Horde and can only be tamed by Horde hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. These hounds only appear during Horde assaults on Drustvar. Two can be found on the Horde airship, just north-east of Arom's Stand, in the company of Kaldras Snape. They're located just below decks in the stern of the ship.]],
 
     -- NPCs: 144825
-    [1002] = [[Located in Island Expeditions (Scenario). A possible encounter on Crestfall, Havenswood, Molten Cay, Skittering Hollow, Un'gol Ruins, Verdant Wilds, Whispering Reef.]],
+    [1001] = [[Located in Island Expeditions (Scenario). A possible encounter on Crestfall, Havenswood, Molten Cay, Skittering Hollow, Un'gol Ruins, Verdant Wilds, Whispering Reef.]],
 
     -- NPCs: 144826, 144830
-    [1003] = [[Located in Island Expeditions (Scenario). A possible encounter on Molten Cay, Un'gol Ruins, Verdant Wilds.]],
+    [1002] = [[Located in Island Expeditions (Scenario). A possible encounter on Molten Cay, Un'gol Ruins, Verdant Wilds.]],
 
     -- NPCs: 144827
-    [1004] = [[Located in Island Expeditions (Scenario). A possible encounter on Havenswood, Molten Cay, Verdant Wilds.]],
+    [1003] = [[Located in Island Expeditions (Scenario). A possible encounter on Havenswood, Molten Cay, Verdant Wilds.]],
 
     -- NPCs: 144829
-    [1005] = [[Located in Island Expeditions (Scenario). A possible encounter on Havenswood, Verdant Wilds.]],
+    [1004] = [[Located in Island Expeditions (Scenario). A possible encounter on Havenswood, Verdant Wilds.]],
 
     -- NPCs: 144831
-    [1006] = [[Located in Island Expeditions (Scenario). A possible encounter on Havenswood, Molten Cay, Un'gol Ruins, Verdant Wilds.]],
+    [1005] = [[Located in Island Expeditions (Scenario). A possible encounter on Havenswood, Molten Cay, Un'gol Ruins, Verdant Wilds.]],
 
     -- NPCs: 144833
-    [1007] = [[Located in Island Expeditions (Scenario). A possible encounter on Un'gol Ruins, Verdant Wilds.]],
+    [1006] = [[Located in Island Expeditions (Scenario). A possible encounter on Un'gol Ruins, Verdant Wilds.]],
 
     -- NPCs: 144837
-    [1008] = [[Located in Darkshore. Found in the Battle for Azeroth zone phase, in many areas of the zone.]],
+    [1007] = [[Located in Darkshore. Found in the Battle for Azeroth zone phase, in many areas of the zone.]],
 
     -- NPCs: 144839
-    [1009] = [[Located in Darkshore. Found in many areas of the Battle for Azeroth zone phase.]],
+    [1008] = [[Located in Darkshore. Found in many areas of the Battle for Azeroth zone phase.]],
 
     -- NPCs: 144842
-    [1010] = [[Located in Darkshore. Found in the Battle for Azeroth zone phase, along most of the foreshore and sea areas.]],
+    [1009] = [[Located in Darkshore. Found in the Battle for Azeroth zone phase, along most of the foreshore and sea areas.]],
 
     -- NPCs: 144993
-    [1011] = [[Located in Darkshore. Found in many areas of the Battle for Azeroth zone phase. Covered in a dark curse aura which is lost upon taming.]],
+    [1010] = [[Located in Darkshore. Found in many areas of the Battle for Azeroth zone phase. Covered in a dark curse aura which is lost upon taming.]],
 
     -- NPCs: 145110, 145444, 145457
-    [1012] = [[Located in Mariner's Row, Boralus, Tiragarde Sound. Alliance hunters can tame this creature in the usual way, but it is friendly to Horde and can only be tamed by Horde hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. It is present when a Faction Assault is active in Tiragarde Sound, but only when the Alliance quest Not Too Sober Citizens Brigade is offered.]],
+    [1011] = [[Located in Mariner's Row, Boralus, Tiragarde Sound. Alliance hunters can tame this creature in the usual way, but it is friendly to Horde and can only be tamed by Horde hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. It is present when a Faction Assault is active in Tiragarde Sound, but only when the Alliance quest Not Too Sober Citizens Brigade is offered.]],
 
     -- NPCs: 145337
-    [1013] = [[Located in Nazjatar. Found throughout Nazjatar. The bronze colour does not seem to make sounds when clicked.]],
+    [1012] = [[Located in Nazjatar. Found throughout Nazjatar. The bronze colour does not seem to make sounds when clicked.]],
 
     -- NPCs: 145343, 152551, 154092
-    [1014] = [[Located in Chamber of the Harvesters, Nazjatar.]],
+    [1013] = [[Located in Chamber of the Harvesters, Nazjatar.]],
 
     -- NPCs: 145736
-    [1015] = [[Located in Dunwald Ruins, Twilight Highlands (Vulpera Allied Race Recruitment Phase). This saber is only available during the Vulpera Allied Race recruitment questline which means it's only ever available to Horde hunters, and possibly only once ever on your account. See Wowhead's Vulpera Allied Race Guide for more information on how to unlock this race. Of interest, this cat was originally mis-classed as a wolf, but that was fixed in the 9.0 pre-expansion patch.]],
+    [1014] = [[Located in Dunwald Ruins, Twilight Highlands (Vulpera Allied Race Recruitment Phase). This saber is only available during the Vulpera Allied Race recruitment questline which means it's only ever available to Horde hunters, and possibly only once ever on your account. Of interest, this cat was originally mis-classed as a wolf, but that was fixed in the 9.0 pre-expansion patch.]],
 
     -- NPCs: 145740
-    [1016] = [[Located in Newhome, Nazjatar. Normally friendly to both factions, but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Tinitoa wears a silver crown that is lost upon taming.]],
+    [1015] = [[Located in Newhome, Nazjatar. Normally friendly to both factions, but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Tinitoa wears a silver crown that is lost upon taming.]],
 
     -- NPCs: 146321
-    [1017] = [[Located in Twilight Vineyards, Suramar (Vulpera Allied Race Recruitment Phase). The version of the Tattered Silkwing with this ID is only available during the Vulpera Allied Race recruitment questline which means it's only ever available to Horde hunters, and possibly only once ever on your account. See Wowhead's Vulpera Allied Race Guide for more information on how to unlock this race.]],
+    [1016] = [[Located in Twilight Vineyards, Suramar (Vulpera Allied Race Recruitment Phase). The version of the Tattered Silkwing with this ID is only available during the Vulpera Allied Race recruitment questline which means it's only ever available to Horde hunters, and possibly only once ever on your account.]],
 
     -- NPCs: 146564
-    [1018] = [[Located in Shrine of the Eclipse, The Sunwell (Scenario). This unique beast first appeared in the Blood Elf Heritage quest chain (blood elf-only), but since Patch 11.2.7 other races can encounter it by running "The Children of Blood" chapter of the "Lorewalking: The Elves of Quel'thalas" campaign, given by Lorewalker Cho in Stormwind, Orgrimmar, and Dornogal. See Wowhead's Lorewalking Overview for more information.]],
+    [1017] = [[Located in Shrine of the Eclipse, The Sunwell (Scenario). This unique beast first appeared in the Blood Elf Heritage quest chain (blood elf-only), but since Patch 11.2.7 other races can encounter it by running "The Children of Blood" chapter of the "Lorewalking: The Elves of Quel'thalas" campaign, given by Lorewalker Cho in Stormwind, Orgrimmar, and Dornogal. See Wowhead's Lorewalking Overview for more information.]],
 
     -- NPCs: 147453
-    [1019] = [[Located in Vol'dun. This alpaca is normally friendly and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. It only appears during Alliance assaults on Vol'dun, and can be found at a Horde camp in the south-west of the zone, far to the south-west of Whistlebloom Oasis and north-west of Scorched Sands Outpost. Look for a zeppelin tethered at some ruins.]],
+    [1018] = [[Located in Vol'dun. This alpaca is normally friendly and can only be tamed by using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. It only appears during Alliance assaults on Vol'dun, and can be found at a Horde camp in the south-west of the zone, far to the south-west of Whistlebloom Oasis and north-west of Scorched Sands Outpost. Look for a zeppelin tethered at some ruins.]],
 
     -- NPCs: 148117
-    [1020] = [[Located in Battle of Dazar'alor (Raid). This version of Grong only appears in the Horde version of the raid, so cannot be tamed by Alliance hunters. He's the second boss of the raid.]],
+    [1019] = [[Located in Battle of Dazar'alor (Raid). This version of Grong only appears in the Horde version of the raid, so cannot be tamed by Alliance hunters. He's the second boss of the raid.]],
 
     -- NPCs: 148787
-    [1021] = [[Located in Darkshore. Found in the Battle for Azeroth zone phase at coordinates ~56,31. It perches on a ridge in the eastern border mountains, overlooking a waterfall, south-west of Ruins of Mathystra.]],
+    [1020] = [[Located in Darkshore. Found in the Battle for Azeroth zone phase at coordinates ~56,31. It perches on a ridge in the eastern border mountains, overlooking a waterfall, south-west of Ruins of Mathystra.]],
 
     -- NPCs: 149644
-    [1022] = [[Located in Darkshore. Found in the Battle for Azeroth zone phase. Located north-east of the Maw of the Void whirlpool, to the east of the crevasse and north of a waterfall.]],
+    [1021] = [[Located in Darkshore. Found in the Battle for Azeroth zone phase. Located north-east of the Maw of the Void whirlpool, to the east of the crevasse and north of a waterfall.]],
 
     -- NPCs: 149654
-    [1023] = [[Located in Darkshore. Appears in the Darkshore warfront phase, in a corner of the beach west of Lor'danel and north of Gloomtide Strand. Tameable by hunters of level 120, despite it being level 121.]],
+    [1022] = [[Located in Darkshore. Appears in the Darkshore warfront phase, in a corner of the beach west of Lor'danel and north of Gloomtide Strand.]],
 
     -- NPCs: 149663
-    [1024] = [[Located in Withering Thicket, Darkshore. Found in the Battle for Azeroth zone phase. Located north of Ruins of Auberdine and west of Bashal'Aran. Even though it is level 121 it is tameable by hunters of level 120.]],
+    [1023] = [[Located in Withering Thicket, Darkshore. Found in the Battle for Azeroth zone phase. Located north of Ruins of Auberdine and west of Bashal'Aran.]],
 
     -- NPCs: 149680
-    [1025] = [[Located in Darkshore. Found in the Battle for Azeroth zone phase. Located offshore in various parts of the zone, but only occurs sporadically.]],
+    [1024] = [[Located in Darkshore. Found in the Battle for Azeroth zone phase. Located offshore in various parts of the zone, but only occurs sporadically.]],
 
     -- NPCs: 149839
-    [1026] = [[Located in Mechagon. Normally found in western Mechagon, but also in other areas of the alternate timeline phase of Mechagon, which is accessible on days when Chromie is present in Rustbolt, or by activating a Personal Time Displacer.]],
+    [1025] = [[Located in Mechagon. Normally found in western Mechagon, but also in other areas of the alternate timeline phase of Mechagon, which is accessible on days when Chromie is present in Rustbolt, or by activating a Personal Time Displacer.]],
 
     -- NPCs: 150154
-    [1027] = [[Located in Scrapbone Den, Operation: Mechagon (Dungeon).]],
+    [1026] = [[Located in Scrapbone Den, Operation: Mechagon (Dungeon).]],
 
     -- NPCs: 150254
-    [1028] = [[Located in Operation: Mechagon (Dungeon).]],
+    [1027] = [[Located in Operation: Mechagon (Dungeon).]],
 
     -- NPCs: 150293
-    [1029] = [[Located in Operation: Mechagon (Dungeon). Stealthed.]],
+    [1028] = [[Located in Operation: Mechagon (Dungeon). Stealthed.]],
 
     -- NPCs: 150373
-    [1030] = [[Located in Coral Forest, Nazjatar. Found flying high above the area.]],
+    [1029] = [[Located in Coral Forest, Nazjatar. Found flying high above the area.]],
 
     -- NPCs: 150376
-    [1031] = [[Located in Coral Forest & Chitterspine Caverns, Nazjatar. This fathom ray occurs as an independent NPC, but it is also summoned as an add during combat with a Fathom Ray Broodkeeper.]],
+    [1030] = [[Located in Coral Forest & Chitterspine Caverns, Nazjatar. This fathom ray occurs as an independent NPC, but it is also summoned as an add during combat with a Fathom Ray Broodkeeper.]],
 
     -- NPCs: 150467
-    [1032] = [[Located in Dragon's Teeth Basin, Nazjatar. Found flying high above the area.]],
+    [1031] = [[Located in Dragon's Teeth Basin, Nazjatar. Found flying high above the area.]],
 
     -- NPCs: 151096
-    [1033] = [[Located in Spark of the Imagination (Hati quest phase), Ulduar. This version of Hati is the one you initially tame during the Spark of Genius quest chain. He sports the default appearance he had when he was bound to the artifact weapon, Titanstrike, during Legion. See our Saving Hati Guide for details, and for a list of other essences of Hati you can tame at the end of the chain.]],
+    [1032] = [[Located in Spark of the Imagination (Hati quest phase), Ulduar. This version of Hati is the one you initially tame during the Spark of Genius quest chain. He sports the default appearance he had when he was bound to the artifact weapon, Titanstrike, during Legion.]],
 
     -- NPCs: 151133
-    [1034] = [[Located in Temple of Storms, The Storm Peaks. 'Titanstrike' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain - see our Saving Hati Guide for details. The colour of this version is identical to the one you tame in the Spark of Imagination, in the previous stage of the quest chain, which was also the default appearance he had when he was bound to the artifact weapon, Titanstrike, during Legion. There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
+    [1033] = [[Located in Temple of Storms, The Storm Peaks. 'Titanstrike' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain . The colour of this version is identical to the one you tame in the Spark of Imagination, in the previous stage of the quest chain, which was also the default appearance he had when he was bound to the artifact weapon, Titanstrike, during Legion. There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
 
     -- NPCs: 151144
-    [1035] = [[Located in Temple of Storms, The Storm Peaks. 'Eaglewatch' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain - see our Saving Hati Guide for details. There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
+    [1034] = [[Located in Temple of Storms, The Storm Peaks. 'Eaglewatch' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain . There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
 
     -- NPCs: 151145
-    [1036] = [[Located in Temple of Storms, The Storm Peaks. 'Elekk's Thunder' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain - see our Saving Hati Guide for details. There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
+    [1035] = [[Located in Temple of Storms, The Storm Peaks. 'Elekk's Thunder' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain . There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
 
     -- NPCs: 151147
-    [1037] = [[Located in Temple of Storms, The Storm Peaks. 'Boarshot Cannon' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain - see our Saving Hati Guide for details. There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
+    [1036] = [[Located in Temple of Storms, The Storm Peaks. 'Boarshot Cannon' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain . There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
 
     -- NPCs: 151148
-    [1038] = [[Located in Temple of Storms, The Storm Peaks. 'Serpentbite' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain - see our Saving Hati Guide for details. There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
+    [1037] = [[Located in Temple of Storms, The Storm Peaks. 'Serpentbite' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain . There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
 
     -- NPCs: 151149
-    [1039] = [[Located in Temple of Storms, The Storm Peaks. 'Hati's Sacrifice' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain - see our Saving Hati Guide for details. There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
+    [1038] = [[Located in Temple of Storms, The Storm Peaks. 'Hati's Sacrifice' : One of the six essences of Hati that may be summoned and tamed at the Shrine of Storms after restoring Hati to life during the Spark of Genius quest chain . There's also a vendor, Clockwerk, in the Temple of Storms who sells toys and consumables to use with Hati.]],
 
     -- NPCs: 151159
-    [1040] = [[Located in Mechagon. This mechanical rocket chicken only appears on days when Oglethorpe Obnoticus is visiting Rustbolt. It runs rapidly and randomly over most of the island, usually following roads and paths. It runs very quickly so you'll have to be quick to tame or rely on stuns and slows.]],
+    [1039] = [[Located in Mechagon. This mechanical rocket chicken only appears on days when Oglethorpe Obnoticus is visiting Rustbolt. It runs rapidly and randomly over most of the island, usually following roads and paths. It runs very quickly so you'll have to be quick to tame or rely on stuns and slows.]],
 
     -- NPCs: 151353, 152708, 154030, 167485
-    [1041] = [[Located in Skoldus Hall, Torghast, Tower of the Damned (Dungeon).]],
+    [1040] = [[Located in Skoldus Hall, Torghast, Tower of the Damned (Dungeon).]],
 
     -- NPCs: 151634
-    [1042] = [[Located in The Heaps, Mechagon. This creature makes some very subtle mechanical sounds when clicked.]],
+    [1041] = [[Located in The Heaps, Mechagon. This creature makes some very subtle mechanical sounds when clicked.]],
 
     -- NPCs: 151672
-    [1043] = [[Located in Sparkweaver Point, Mechagon. A proper rare spawn that only appears occasionally.]],
+    [1042] = [[Located in Sparkweaver Point, Mechagon. A proper rare spawn that only appears occasionally.]],
 
     -- NPCs: 151709
-    [1044] = [[Located in The Heaps, Mechagon. Spawns during combat with the rare NPC, Jawbreaker.]],
+    [1043] = [[Located in The Heaps, Mechagon. Spawns during combat with the rare NPC, Jawbreaker.]],
 
     -- NPCs: 151773
-    [1045] = [[Located in The Under Junk, Operation: Mechagon (Dungeon). Two of these hounds can be found in the trash mobs before K.U.-J.O.]],
+    [1044] = [[Located in The Under Junk, Operation: Mechagon (Dungeon). Two of these hounds can be found in the trash mobs before K.U.-J.O.]],
 
     -- NPCs: 151809
-    [1046] = [[Located in Surveyors' Outpost, Uldum. Appears in all Assaults phases of the zone. Found south of the Halls of Origination.]],
+    [1045] = [[Located in Surveyors' Outpost, Uldum. Appears in all Assaults phases of the zone. Found south of the Halls of Origination.]],
 
     -- NPCs: 151811
-    [1047] = [[Located in The Steps of Fate, Uldum. Appears in all Assaults phases of the zone. It has a fiery aura that is lost upon taming.]],
+    [1046] = [[Located in The Steps of Fate, Uldum. Appears in all Assaults phases of the zone. It has a fiery aura that is lost upon taming.]],
 
     -- NPCs: 151859
-    [1048] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in various locations in eastern Uldum.]],
+    [1047] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in various locations in eastern Uldum.]],
 
     -- NPCs: 151883
-    [1049] = [[Located in Halls of Origination, Uldum. Anaua flies around the exterior of the Halls of Origination. She loses her transparent orange effect when tamed.]],
+    [1048] = [[Located in Halls of Origination, Uldum. Anaua flies around the exterior of the Halls of Origination. She loses her transparent orange effect when tamed.]],
 
     -- NPCs: 151933
-    [1050] = [[Located in Bondo's Yard, Mechagon. Retains its electrical effects after taming. The Malfunctioning Beastbot appears occasionally in the south-west corner of Bondo's Yard. It must be activated before it can be tamed, which requires a Beastbot Powerpack, which you can manufacture at Pascal-K1N6. The recipe for this item is granted for free as part of the area progression at Rustbolt.]],
+    [1049] = [[Located in Bondo's Yard, Mechagon. Retains its electrical effects after taming. The Malfunctioning Beastbot appears occasionally in the south-west corner of Bondo's Yard. It must be activated before it can be tamed, which requires a Beastbot Powerpack, which you can manufacture at Pascal-K1N6. The recipe for this item is granted for free as part of the area progression at Rustbolt.]],
 
     -- NPCs: 151945
-    [1051] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in the east of the zone.]],
+    [1050] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in the east of the zone.]],
 
     -- NPCs: 151948, 157121
-    [1052] = [[Located in Surveyors' Outpost, Uldum. Appears during Amathet Assaults.]],
+    [1051] = [[Located in Surveyors' Outpost, Uldum. Appears during Amathet Assaults.]],
 
     -- NPCs: 152136
-    [1053] = [[Located in Nordrassil, Mount Hyjal. Only appears during the Heart of Azeroth quest Healing Nordrassil.]],
+    [1052] = [[Located in Nordrassil, Mount Hyjal. Only appears during the Heart of Azeroth quest Healing Nordrassil.]],
 
     -- NPCs: 152288
-    [1054] = [[Located in Sparkweaver Point, Mechagon. Spawned by destroying Motospider Eggs.]],
+    [1053] = [[Located in Sparkweaver Point, Mechagon. Spawned by destroying Motospider Eggs.]],
 
     -- NPCs: 152290
-    [1055] = [[Located in Coral Forest, Nazjatar. Has been found in south-eastern and northern parts of the area. Found atop a tall coral formation and may require flying, a Gnomish Gravity Well, or something similar to reach.]],
+    [1054] = [[Located in Coral Forest, Nazjatar. Has been found in south-eastern and northern parts of the area. Found atop a tall coral formation and may require flying, a Gnomish Gravity Well, or something similar to reach.]],
 
     -- NPCs: 152291
-    [1056] = [[Located in Nazjatar. Appears in central Nazjatar.]],
+    [1055] = [[Located in Nazjatar. Appears in central Nazjatar.]],
 
     -- NPCs: 152296
-    [1057] = [[Located in Savagelands, Zuldazar. Can be found harassing your Child of Torcali in north-east Savagelands during the Horde "How to Train Your Direhorn" quest A Daughter of Torcali.]],
+    [1056] = [[Located in Savagelands, Zuldazar. Can be found harassing your Child of Torcali in north-east Savagelands during the Horde "How to Train Your Direhorn" quest A Daughter of Torcali.]],
 
     -- NPCs: 152319
-    [1058] = [[Located in The Heaps, Mechagon. This version is in the regular phase.]],
+    [1057] = [[Located in The Heaps, Mechagon. This version is in the regular phase.]],
 
     -- NPCs: 152359
-    [1059] = [[Located in Nar'anan, Nazjatar. Siltstalker can be found on the steps of a ruined building in the south-east of Nar'anan. She's tameable at level 120 despite being level 121.]],
+    [1058] = [[Located in Nar'anan, Nazjatar. Siltstalker can be found on the steps of a ruined building in the south-east of Nar'anan.]],
 
     -- NPCs: 152360
-    [1060] = [[Located in Nar'anan, Nazjatar. Toxigore can be tamed at level 120, despite being level 122.]],
+    [1059] = [[Located in Nar'anan, Nazjatar.]],
 
     -- NPCs: 152361
-    [1061] = [[Located in Nar'anan, Nazjatar. Banescale occasionally spawns immediately after Siltstalker the Packmother has been killed (but definitely not all the time). He appears on the path to the left of her location (when facing towards her), in south-east Nar'anan. He's tameable at level 120 despite being level 121.]],
+    [1060] = [[Located in Nar'anan, Nazjatar. Banescale occasionally spawns immediately after Siltstalker the Packmother has been killed (but definitely not all the time). He appears on the path to the left of her location (when facing towards her), in south-east Nar'anan.]],
 
     -- NPCs: 152448
-    [1062] = [[Located in Coral Forest & Dragon's Teeth Basin, Nazjatar. This rare can spawn in place of a Glimmershell Hulk. If you keep killing the latter, the Iridescent Glimmershell will eventually appear!]],
+    [1061] = [[Located in Coral Forest & Dragon's Teeth Basin, Nazjatar. This rare can spawn in place of a Glimmershell Hulk. If you keep killing the latter, the Iridescent Glimmershell will eventually appear!]],
 
     -- NPCs: 152462
-    [1063] = [[Located in Chitterspine Caverns, Chitterspine Grotto, & Deepcoil Tunnels, Nazjatar. Stealthed. Many may be found around Chitterspine Caverns and Chitterspine Grotto in north-west Nazjatar. A few are also located in an underwater cave at the base of a waterfall in Deepcoil Tunnels.]],
+    [1062] = [[Located in Chitterspine Caverns, Chitterspine Grotto, & Deepcoil Tunnels, Nazjatar. Stealthed. Many may be found around Chitterspine Caverns and Chitterspine Grotto in north-west Nazjatar. A few are also located in an underwater cave at the base of a waterfall in Deepcoil Tunnels.]],
 
     -- NPCs: 152463
-    [1064] = [[Located in Chitterspine Grotto & Deepcoil Tunnels, Nazjatar. A number may be found in the caverns of Chitterspine Grotto in north-west Nazjatar. One is also located in an underwater cave at the base of a waterfall in Deepcoil Tunnels.]],
+    [1063] = [[Located in Chitterspine Grotto & Deepcoil Tunnels, Nazjatar. A number may be found in the caverns of Chitterspine Grotto in north-west Nazjatar. One is also located in an underwater cave at the base of a waterfall in Deepcoil Tunnels.]],
 
     -- NPCs: 152465
-    [1065] = [[Located in Zanj'ir Terrace & Abyssal Pools, Nazjatar. Needlespine can appear in several different locations surrounding the Abyssal Pools, including both the northern and southern ends, and above on the rise to the west.]],
+    [1064] = [[Located in Zanj'ir Terrace & Abyssal Pools, Nazjatar. Needlespine can appear in several different locations surrounding the Abyssal Pools, including both the northern and southern ends, and above on the rise to the west.]],
 
     -- NPCs: 152552
-    [1066] = [[Located in Shassera's Lair, Nazjatar. Shassera's Lair is located in the far north-north-east of the zone. The cave entrance is at the north-east edge of Shirakess Repository, east of the Gate of the Queen.]],
+    [1065] = [[Located in Shassera's Lair, Nazjatar. Shassera's Lair is located in the far north-north-east of the zone. The cave entrance is at the north-east edge of Shirakess Repository, east of the Gate of the Queen.]],
 
     -- NPCs: 152553
-    [1067] = [[Located in Ashen Strand, Nazjatar. Appears at the base of a waterfall.]],
+    [1066] = [[Located in Ashen Strand, Nazjatar. Appears at the base of a waterfall.]],
 
     -- NPCs: 152556
-    [1068] = [[Located in The Forgotten Tunnel, Nazjatar. The Forgotten Tunnel is reached through an underwater entrance in the far south-eastern corner of Spears of Azshara.]],
+    [1067] = [[Located in The Forgotten Tunnel, Nazjatar. The Forgotten Tunnel is reached through an underwater entrance in the far south-eastern corner of Spears of Azshara.]],
 
     -- NPCs: 152642
-    [1069] = [[Located in Dragon's Teeth Basin, Nazjatar. Spawns when you click on your first sand pile during the Alliance-only quest Crab Marks The Spot. This quest is only available when you have Blademaster Inowari active as your bodyguard and is started by a piece of parchment on a rock not far from Braxicus in Dragon's Teth Basin.]],
+    [1068] = [[Located in Dragon's Teeth Basin, Nazjatar. Spawns when you click on your first sand pile during the Alliance-only quest Crab Marks The Spot. This quest is only available when you have Blademaster Inowari active as your bodyguard and is started by a piece of parchment on a rock not far from Braxicus in Dragon's Teth Basin.]],
 
     -- NPCs: 152657
-    [1070] = [[Located in Uldum. Appears during Amathet Assaults. Patrols south of the Obelisk of the Stars.]],
+    [1069] = [[Located in Uldum. Appears during Amathet Assaults. Patrols south of the Obelisk of the Stars.]],
 
     -- NPCs: 152768
-    [1071] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in the north of the zone.]],
+    [1070] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in the north of the zone.]],
 
     -- NPCs: 152795
-    [1072] = [[Located in Nazjatar. This NPC may appear in a number of different locations within the zone, including Lemor'athra Spire (south-west edge, by a fallen tower), Coral Forest (south of Ekka's Hideaway), Elun'Alor Temple (in the building to the east, close to the Horde flightmaster Gizzik Kelpears), Ashen Strand (just north-west of the Horde Flight Point), Kal'methir, and Highborne Estates. It will randomly appear in one of five gemstone colours each time, and if you're unlucky it could take a while to find the look you're after. Fortunately it appears to spawn frequently.]],
+    [1071] = [[Located in Nazjatar. This NPC may appear in a number of different locations within the zone, including Lemor'athra Spire (south-west edge, by a fallen tower), Coral Forest (south of Ekka's Hideaway), Elun'Alor Temple (in the building to the east, close to the Horde flightmaster Gizzik Kelpears), Ashen Strand (just north-west of the Horde Flight Point), Kal'methir, and Highborne Estates. It will randomly appear in one of five gemstone colours each time, and if you're unlucky it could take a while to find the look you're after. Fortunately it appears to spawn frequently.]],
 
     -- NPCs: 152992
-    [1073] = [[Located in Sparkweaver Point, Mechagon. Spawns when the daily Bugs, Lot of 'Em! is available. Also found in the alternate timeline phase of Mechagon, which is accessible on days when Chromie is present in Rustbolt, or by activating a Personal Time Displacer.]],
+    [1072] = [[Located in Sparkweaver Point, Mechagon. Spawns when the daily Bugs, Lot of 'Em! is available. Also found in the alternate timeline phase of Mechagon, which is accessible on days when Chromie is present in Rustbolt, or by activating a Personal Time Displacer.]],
 
     -- NPCs: 153096
-    [1074] = [[Located in Ruins of Guo-Lai, Vale of Eternal Blossoms. Appears in the Assaults phase, during all Assaults.]],
+    [1073] = [[Located in Ruins of Guo-Lai, Vale of Eternal Blossoms. Appears in the Assaults phase, during all Assaults.]],
 
     -- NPCs: 153208
-    [1075] = [[Located in Vale of Eternal Blossoms. Appears during Mogu Assaults, through most of the western half of the zone.]],
+    [1074] = [[Located in Vale of Eternal Blossoms. Appears during Mogu Assaults, through most of the western half of the zone.]],
 
     -- NPCs: 153238
-    [1076] = [[Located in Darkmaul Citadel, Exile's Reach. Found in a pen inside the citadel grounds.]],
+    [1075] = [[Located in Darkmaul Citadel, Exile's Reach. Found in a pen inside the citadel grounds.]],
 
     -- NPCs: 153266
-    [1077] = [[Located in Killclaw's Lair, Exile's Reach. The large tree-ogre-club in Killclaw's side is lost after taming.]],
+    [1076] = [[Located in Killclaw's Lair, Exile's Reach. The large tree-ogre-club in Killclaw's side is lost after taming.]],
 
     -- NPCs: 153268, 153278
-    [1078] = [[Located in Vale of Eternal Blossoms. Appears during Mantid Assaults, in the west of the zone.]],
+    [1077] = [[Located in Vale of Eternal Blossoms. Appears during Mantid Assaults, in the west of the zone.]],
 
     -- NPCs: 153465
-    [1079] = [[Located in Mechagon. The Abducted Scraphound is a chance spawn when you attempt to rescue abductees from a Mechagon Containment Crate during the quest Abduction Reduction.]],
+    [1078] = [[Located in Mechagon. The Abducted Scraphound is a chance spawn when you attempt to rescue abductees from a Mechagon Containment Crate during the quest Abduction Reduction.]],
 
     -- NPCs: 153473
-    [1080] = [[Located in Mechagon. The Abducted Motospider is a chance spawn when you attempt to rescue abductees from a Mechagon Containment Crate during the quest Abduction Reduction.]],
+    [1079] = [[Located in Mechagon. The Abducted Motospider is a chance spawn when you attempt to rescue abductees from a Mechagon Containment Crate during the quest Abduction Reduction.]],
 
     -- NPCs: 153694
-    [1081] = [[Located in Chamber of the Harvesters, Nazjatar. Sometimes spawns when Deepcoil Eggs are destroyed during the world quest Break a Few Eggs / Break a Few Eggs.]],
+    [1080] = [[Located in Chamber of the Harvesters, Nazjatar. Sometimes spawns when Deepcoil Eggs are destroyed during the world quest Break a Few Eggs / Break a Few Eggs.]],
 
     -- NPCs: 153764
-    [1082] = [[Located in Ashen Strand, Nazjatar. Alliance hunters can tame Wrinklefin in the usual way, but it is friendly to Horde and can only be tamed by Horde hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. This fathom ray is a faction hub NPC and probably shouldn't be tameable anyway. Also of note, its title, "Droobie's Companion" is incorrect, as it belongs to Dren Nautilin.]],
+    [1081] = [[Located in Ashen Strand, Nazjatar. Alliance hunters can tame Wrinklefin in the usual way, but it is friendly to Horde and can only be tamed by Horde hunters using the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. This fathom ray is a faction hub NPC and probably shouldn't be tameable anyway. Also of note, its title, "Droobie's Companion" is incorrect, as it belongs to Dren Nautilin.]],
 
     -- NPCs: 153812
-    [1083] = [[Located in Brinestone Cove, Nazjatar. Stealthed.]],
+    [1082] = [[Located in Brinestone Cove, Nazjatar. Stealthed.]],
 
     -- NPCs: 153959
-    [1084] = [[Located in Zanj'ir Terrace, Nazjatar. Its name changes to "Sated Snapdragon" after being fed on the quest Sating Snapdragons / Sating Snapdragons.]],
+    [1083] = [[Located in Zanj'ir Terrace, Nazjatar. Its name changes to "Sated Snapdragon" after being fed on the quest Sating Snapdragons / Sating Snapdragons.]],
 
     -- NPCs: 153971
-    [1085] = [[Located in Chitterspine Caverns, Nazjatar. Spawns occasionally when players open Chittershell Clams when on the quest Working With Purpose / Working With Purpose.]],
+    [1084] = [[Located in Chitterspine Caverns, Nazjatar. Spawns occasionally when players open Chittershell Clams when on the quest Working With Purpose / Working With Purpose.]],
 
     -- NPCs: 153980
-    [1086] = [[Located in Mechagon. Found in the alternate timeline phase of Mechagon, which is accessible on days when Chromie is present in Rustbolt, or by activating a Personal Time Displacer.]],
+    [1085] = [[Located in Mechagon. Found in the alternate timeline phase of Mechagon, which is accessible on days when Chromie is present in Rustbolt, or by activating a Personal Time Displacer.]],
 
     -- NPCs: 153992
-    [1087] = [[Located in The Heaps (alternate timeline), Mechagon. This version is found in the alternate timeline phase of Mechagon, which is accessible on days when Chromie is present in Rustbolt, or by activating a Personal Time Displacer.]],
+    [1086] = [[Located in The Heaps (alternate timeline), Mechagon. This version is found in the alternate timeline phase of Mechagon, which is accessible on days when Chromie is present in Rustbolt, or by activating a Personal Time Displacer.]],
 
     -- NPCs: 154181
-    [1088] = [[Located in Nar'anan, Nazjatar. Only spawns occasionally, as a pack, and attacks the Zan'jir Stalker naga.]],
+    [1087] = [[Located in Nar'anan, Nazjatar. Only spawns occasionally, as a pack, and attacks the Zan'jir Stalker naga.]],
 
     -- NPCs: 154219
-    [1089] = [[Located in Sparkweaver Point, Mechagon. Spawns during combat with the rare NPC, Mecharantula.]],
+    [1088] = [[Located in Sparkweaver Point, Mechagon. Spawns during combat with the rare NPC, Mecharantula.]],
 
     -- NPCs: 154353
-    [1090] = [[Located in Uldum. Found in dunes around Orsis, Ruins of Ammon, and the Cradle of the Ancients, in all Assaults phases of the zone.]],
+    [1089] = [[Located in Uldum. Found in dunes around Orsis, Ruins of Ammon, and the Cradle of the Ancients, in all Assaults phases of the zone.]],
 
     -- NPCs: 154354
-    [1091] = [[Located in Uldum. This tameable version of the Aqir Stinger is found in a number of locations in western Uldum, in all Assaults phases of the zone.]],
+    [1090] = [[Located in Uldum. This tameable version of the Aqir Stinger is found in a number of locations in western Uldum, in all Assaults phases of the zone.]],
 
     -- NPCs: 154367
-    [1092] = [[Located in Uldum. This wasp is found in many locations in western Uldum, in all Assaults phases of the zone. Note: there is an extremely small chance (maybe 1%) that the Aqir Impaler will spawn in its red colour. Most of the time it's blue, so if you're after a red wasp and the Aqir Unearthed Assault is active then you're better looking for the Corpse Swarmers that spawn with Corpse Eater.]],
+    [1091] = [[Located in Uldum. This wasp is found in many locations in western Uldum, in all Assaults phases of the zone. Note: there is an extremely small chance (maybe 1%) that the Aqir Impaler will spawn in its red colour. Most of the time it's blue, so if you're after a red wasp and the Aqir Unearthed Assault is active then you're better looking for the Corpse Swarmers that spawn with Corpse Eater.]],
 
     -- NPCs: 154576
-    [1093] = [[Located in Uldum. Located between Orsis and Ruins of Ammon in all Assaults phases of the zone.]],
+    [1092] = [[Located in Uldum. Located between Orsis and Ruins of Ammon in all Assaults phases of the zone.]],
 
     -- NPCs: 154604
-    [1094] = [[Located in Chamber of the Moon, Uldum. Appears during Aqir Unearthed Assaults.]],
+    [1093] = [[Located in Chamber of the Moon, Uldum. Appears during Aqir Unearthed Assaults.]],
 
     -- NPCs: 154761
-    [1095] = [[Located in Mistfall Village, Vale of Eternal Blossoms. Normally friendly, but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Appears in the Assaults phase of the zone, during all Assaults. Hovers near the entrance to the Silent Sanctuary.]],
+    [1094] = [[Located in Mistfall Village, Vale of Eternal Blossoms. Normally friendly, but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Appears in the Assaults phase of the zone, during all Assaults. Hovers near the entrance to the Silent Sanctuary.]],
 
     -- NPCs: 154935, 154936
-    [1096] = [[Located in Gorgonian Outlook, Nazjatar. These crabs may be phased. If so, they can still be viewed and pulled out of the area for taming from the adjacent area to the west: The Empress's Approach.]],
+    [1095] = [[Located in Gorgonian Outlook, Nazjatar. These crabs may be phased. If so, they can still be viewed and pulled out of the area for taming from the adjacent area to the west: The Empress's Approach.]],
 
     -- NPCs: 155238
-    [1097] = [[Located in The Upper Reaches; Twisting Corridors, Torghast, Tower of the Damned (Dungeon). Very rarely appears as a boss in various Torghast wings.]],
+    [1096] = [[Located in The Upper Reaches; Twisting Corridors, Torghast, Tower of the Damned (Dungeon). Very rarely appears as a boss in various Torghast wings.]],
 
     -- NPCs: 155483
-    [1098] = [[Located in Torghast, Tower of the Damned (Dungeon). Not always tameable for players level 60 and below. If it appears one level higher than you then you won't be able to tame it, as it's elite.]],
+    [1097] = [[Located in Torghast, Tower of the Damned (Dungeon). Not always tameable for players level 60 and below. If it appears one level higher than you then you won't be able to tame it, as it's elite.]],
 
     -- NPCs: 155583
-    [1099] = [[Located in Broken Point, Mechagon. Appears in the water, a short distance off-shore.]],
+    [1098] = [[Located in Broken Point, Mechagon. Appears in the water, a short distance off-shore.]],
 
     -- NPCs: 155703
-    [1100] = [[Located in Ruins of Ammon, Uldum. Appears in all Assaults phases of the zone.]],
+    [1099] = [[Located in Ruins of Ammon, Uldum. Appears in all Assaults phases of the zone.]],
 
     -- NPCs: 155770
-    [1101] = [[Located in Dredhollow, Revendreth. Spawns when you destroy a Crawler Egg, which is only present when Tomb Burster's event is active. Currently erroneously classed as a Humanoid.]],
+    [1100] = [[Located in Dredhollow, Revendreth. Spawns when you destroy a Crawler Egg, which is only present when Tomb Burster's event is active.]],
 
     -- NPCs: 155779
-    [1102] = [[Located in Dredhollow, Revendreth. When Tomb Burster's event is active you can spawn her by destroying a bunch of Crawler Eggs in Dredhollow.]],
+    [1101] = [[Located in Dredhollow, Revendreth. When Tomb Burster's event is active you can spawn her by destroying a bunch of Crawler Eggs in Dredhollow.]],
 
     -- NPCs: 156046
-    [1103] = [[Located in Mistfall Village, Vale of Eternal Blossoms. Appears in the Assaults phase, during Mogu Assaults.]],
+    [1102] = [[Located in Mistfall Village, Vale of Eternal Blossoms. Appears in the Assaults phase, during Mogu Assaults.]],
 
     -- NPCs: 156077
-    [1104] = [[Located in Various Locations, Revendreth. Found in Dredgewood, The Banewood, Ember Ward and Dominance Keep.]],
+    [1103] = [[Located in Various Locations, Revendreth. Found in Dredgewood, The Banewood, Ember Ward and Dominance Keep.]],
 
     -- NPCs: 156083
-    [1105] = [[Located in Jin Yang Road, Vale of Eternal Blossoms. Only present during Mogu Assaults. Found near Tu'shen Burial Ground, at the same place Cracklefang spawns in the earlier (non-Assaults) phase.]],
+    [1104] = [[Located in Jin Yang Road, Vale of Eternal Blossoms. Only present during Mogu Assaults. Found near Tu'shen Burial Ground, at the same place Cracklefang spawns in the earlier (non-Assaults) phase.]],
 
     -- NPCs: 156242
-    [1106] = [[Located in Coldheart Interstitia, Torghast, Tower of the Damned (Dungeon).]],
+    [1105] = [[Located in Coldheart Interstitia, Torghast, Tower of the Damned (Dungeon).]],
 
     -- NPCs: 156284
-    [1107] = [[Located in Revendreth. Found at various locations in the zone, including: Dredgewood, The Banewood, Briarbane Stables & The Old Gate.]],
+    [1106] = [[Located in Revendreth. Found at various locations in the zone, including: Dredgewood, The Banewood, Briarbane Stables & The Old Gate.]],
 
     -- NPCs: 156389
-    [1108] = [[Located in The Golden Stair, Vale of Eternal Blossoms. Normally friendly, but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Appears in the Assaults phase of the zone, only during Mogu Assaults on days when the quest event Zan-Tien Serpent Cage is active.]],
+    [1107] = [[Located in The Golden Stair, Vale of Eternal Blossoms. Normally friendly, but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. Appears in the Assaults phase of the zone, only during Mogu Assaults on days when the quest event Zan-Tien Serpent Cage is active.]],
 
     -- NPCs: 156756
-    [1109] = [[Located in Vale of Eternal Blossoms. Appears in the Assaults phase, during all Assaults. Found in various craggy areas.]],
+    [1108] = [[Located in Vale of Eternal Blossoms. Appears in the Assaults phase, during all Assaults. Found in various craggy areas.]],
 
     -- NPCs: 156759, 156780, 156788, 156931
-    [1110] = [[Located in The Summer Fields, Vale of Eternal Blossoms. Appears in the Assaults phase, during all Assaults.]],
+    [1109] = [[Located in The Summer Fields, Vale of Eternal Blossoms. Appears in the Assaults phase, during all Assaults.]],
 
     -- NPCs: 156760
-    [1111] = [[Located in Whitepetal Lake, Vale of Eternal Blossoms. Appears in the Assaults phase, during all Assaults.]],
+    [1110] = [[Located in Whitepetal Lake, Vale of Eternal Blossoms. Appears in the Assaults phase, during all Assaults.]],
 
     -- NPCs: 156778
-    [1112] = [[Located in Sunblossom Hill, Vale of Eternal Blossoms. Appears in the Assaults phase, during all Assaults.]],
+    [1111] = [[Located in Sunblossom Hill, Vale of Eternal Blossoms. Appears in the Assaults phase, during all Assaults.]],
 
     -- NPCs: 157083
-    [1113] = [[Located in The Upper Reaches, Torghast, Tower of the Damned (Dungeon).]],
+    [1112] = [[Located in The Upper Reaches, Torghast, Tower of the Damned (Dungeon).]],
 
     -- NPCs: 157143
-    [1114] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in a camp south of Khartut's Tomb.]],
+    [1113] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in a camp south of Khartut's Tomb.]],
 
     -- NPCs: 157162
-    [1115] = [[Located in The Hall of the Serpent, Vale of Eternal Blossoms. Appears in the Assaults phase of the zone, during Mogu Assaults.]],
+    [1114] = [[Located in The Hall of the Serpent, Vale of Eternal Blossoms. Appears in the Assaults phase of the zone, during Mogu Assaults.]],
 
     -- NPCs: 157279
-    [1116] = [[Located in Sunblossom Hill, Vale of Eternal Blossoms. Appears during Mogu Assaults.]],
+    [1115] = [[Located in Sunblossom Hill, Vale of Eternal Blossoms. Appears during Mogu Assaults.]],
 
     -- NPCs: 157290
-    [1117] = [[Located in Ruins Rise, Vale of Eternal Blossoms. Appears during Mogu Assaults.]],
+    [1116] = [[Located in Ruins Rise, Vale of Eternal Blossoms. Appears during Mogu Assaults.]],
 
     -- NPCs: 157301
-    [1118] = [[Located in Grand Palisade & Penance Bridge, Revendreth. Possibly only present during/after the quest I Don't Get My Hands Dirty.]],
+    [1117] = [[Located in Grand Palisade & Penance Bridge, Revendreth. Possibly only present during/after the quest I Don't Get My Hands Dirty.]],
 
     -- NPCs: 157341
-    [1119] = [[Located in Winterbough Glade, Vale of Eternal Blossoms. Appears in the Assaults phase of the zone, but only during Mogu Assaults, on days when the Serpent Binding event is up. Defeat the mogu restraining this cloud serpent in order to activate it.]],
+    [1118] = [[Located in Winterbough Glade, Vale of Eternal Blossoms. Appears in the Assaults phase of the zone, but only during Mogu Assaults, on days when the Serpent Binding event is up. Defeat the mogu restraining this cloud serpent in order to activate it.]],
 
     -- NPCs: 157466
-    [1120] = [[Located in Mistfall Village, Vale of Eternal Blossoms. Appears during Mogu Assaults.]],
+    [1119] = [[Located in Mistfall Village, Vale of Eternal Blossoms. Appears during Mogu Assaults.]],
 
     -- NPCs: 157565, 157567
-    [1121] = [[Located in Winterbough Glade, Vale of Eternal Blossoms. Appears around hives during the quest event Ravager Hive, which is only available during Mantid Assaults, and not every day.]],
+    [1120] = [[Located in Winterbough Glade, Vale of Eternal Blossoms. Appears around hives during the quest event Ravager Hive, which is only available during Mantid Assaults, and not every day.]],
 
     -- NPCs: 157589
-    [1122] = [[Located in Dunwald Ruins, Twilight Highlands (Vulpera Allied Race Recruitment Phase). This black worg is only available during the Vulpera Allied Race recruitment questline which means it's only ever available to Horde hunters, and possibly only once ever on your account. See Wowhead's Vulpera Allied Race Guide for more information on how to unlock this race.]],
+    [1121] = [[Located in Dunwald Ruins, Twilight Highlands (Vulpera Allied Race Recruitment Phase). This black worg is only available during the Vulpera Allied Race recruitment questline which means it's only ever available to Horde hunters, and possibly only once ever on your account.]],
 
     -- NPCs: 157662, 157665
-    [1123] = [[Located in Unfallen's Sanctum, Maldraxxus. In the north-east section of House of the Chosen. Friendly at first, it becomes hostile and tameable after completing the main story.]],
+    [1122] = [[Located in Unfallen's Sanctum, Maldraxxus. In the north-east section of House of the Chosen. Friendly at first, it becomes hostile and tameable after completing the main story.]],
 
     -- NPCs: 158254
-    [1124] = [[Located in Kala's Den, Bastion. This version of Kala must be subdued for the quest Tough Love. If tamed she will reset after about a minute so you can complete the quest.]],
+    [1123] = [[Located in Kala's Den, Bastion. This version of Kala must be subdued for the quest Tough Love. If tamed she will reset after about a minute so you can complete the quest.]],
 
     -- NPCs: 158256
-    [1125] = [[Located in Agthia's Repose, Bastion. Found during the quest Agthia's Path]],
+    [1124] = [[Located in Agthia's Repose, Bastion. Found during the quest Agthia's Path]],
 
     -- NPCs: 158409
-    [1126] = [[Located in Autumnshade Ridge, Vale of Eternal Blossoms. Appears during Mogu Assaults, summoned by Houndlord Ren during combat.]],
+    [1125] = [[Located in Autumnshade Ridge, Vale of Eternal Blossoms. Appears during Mogu Assaults, summoned by Houndlord Ren during combat.]],
 
     -- NPCs: 158465
-    [1127] = [[Located in Uldum. Appears during Amathet Assaults. Summoned during combat with two rare NPCs in the east of the zone: Scoutmaster Moswen (north of Halls of Origination, ~ 69.6, 42.0) and Fangtaker Orsa (in the south, ~75.0, 68.6).]],
+    [1126] = [[Located in Uldum. Appears during Amathet Assaults. Summoned during combat with two rare NPCs in the east of the zone: Scoutmaster Moswen (north of Halls of Origination, ~ 69.6, 42.0) and Fangtaker Orsa (in the south, ~75.0, 68.6).]],
 
     -- NPCs: 158530
-    [1128] = [[Located in Chamber of the Moon, Uldum. Found in the Assaults phase of the zone. Classed as an Aberration.]],
+    [1127] = [[Located in Chamber of the Moon, Uldum. Found in the Assaults phase of the zone. Classed as an Aberration.]],
 
     -- NPCs: 158702
-    [1129] = [[Located in Sinfall, Revendreth. Lurking Monitors phase out completely once you adjust the Scorching Mirror during the quest Securing Sinfall and so aren't available at all to hunters who select the Threads of Fate progress method. They initially look like statues. You have to aggro one to reveal which colour it is. Note that they don't appear on your beast tracker until aggroed.]],
+    [1128] = [[Located in Sinfall, Revendreth. Lurking Monitors phase out completely once you adjust the Scorching Mirror during the quest Securing Sinfall and so aren't available at all to hunters who select the Threads of Fate progress method. They initially look like statues. You have to aggro one to reveal which colour it is. Note that they don't appear on your beast tracker until aggroed.]],
 
     -- NPCs: 158771
-    [1130] = [[Located in Aspirant's Crucible, Bastion. Appears during the quest The Cycle of Anima: Drought Conditions.]],
+    [1129] = [[Located in Aspirant's Crucible, Bastion. Appears during the quest The Cycle of Anima: Drought Conditions.]],
 
     -- NPCs: 158976, 159178, 159265, 159441, 159460
-    [1131] = [[Located in Dominance Keep, Revendreth.]],
+    [1130] = [[Located in Dominance Keep, Revendreth.]],
 
     -- NPCs: 158978
-    [1132] = [[Located in Dominance Keep, Revendreth. Also found in the Ember Ward, just south of Dominance Keep.]],
+    [1131] = [[Located in Dominance Keep, Revendreth. Also found in the Ember Ward, just south of Dominance Keep.]],
 
     -- NPCs: 159177
-    [1133] = [[Located in Dominance Keep, Revendreth. This version of the Loyal Granitefur appears sporadically around the southern ramparts of Dominance Keep.]],
+    [1132] = [[Located in Dominance Keep, Revendreth. This version of the Loyal Granitefur appears sporadically around the southern ramparts of Dominance Keep.]],
 
     -- NPCs: 159323
-    [1134] = [[Located in The Upper Reaches; Twisting Corridors, Torghast, Tower of the Damned (Dungeon). May randomly appear as a rare boss in the aforementioned Torghast wings.]],
+    [1133] = [[Located in The Upper Reaches; Twisting Corridors, Torghast, Tower of the Damned (Dungeon). May randomly appear as a rare boss in the aforementioned Torghast wings.]],
 
     -- NPCs: 159610
-    [1135] = [[Located in Hall of Beasts & The Golden Pasture, Bastion. Flies high over the hills of the southernmost region of the zone.]],
+    [1134] = [[Located in Hall of Beasts & The Golden Pasture, Bastion. Flies high over the hills of the southernmost region of the zone.]],
 
     -- NPCs: 159756
-    [1136] = [[Located in Bony Spindles, Maldraxxus. Spawns when you destroy a Marrowbore Nest.]],
+    [1135] = [[Located in Bony Spindles, Maldraxxus. Spawns when you destroy a Marrowbore Nest.]],
 
     -- NPCs: 159886
-    [1137] = [[Located in Bony Spindles, Maldraxxus. Hidden in a cave, behind a shield of Intricate Webbing.]],
+    [1136] = [[Located in Bony Spindles, Maldraxxus. Hidden in a cave, behind a shield of Intricate Webbing.]],
 
     -- NPCs: 159895
-    [1138] = [[Located in Bony Spindles, Maldraxxus. Spawns when you attack the Intricate Webbing protecting Sister Chelicerae.]],
+    [1137] = [[Located in Bony Spindles, Maldraxxus. Spawns when you attack the Intricate Webbing protecting Sister Chelicerae.]],
 
     -- NPCs: 160089, 160110
-    [1139] = [[Located in Third Chamber of Kalliope, Bastion. Spawns during the quest, "You Go First".]],
+    [1138] = [[Located in Third Chamber of Kalliope, Bastion. Spawns during the quest, "You Go First".]],
 
     -- NPCs: 160341
-    [1140] = [[Located in Vision of Stormwind (Scenario). Can appear in the canals, at the intersection of the four areas.]],
+    [1139] = [[Located in Vision of Stormwind (Scenario). Can appear in the canals, at the intersection of the four areas.]],
 
     -- NPCs: 160401, 160402
-    [1141] = [[Located in Halls of Atonement (Non-Instanced), Revendreth. Situated in a tower above the Halls of Atonement dungeon entrance.]],
+    [1140] = [[Located in Halls of Atonement (Non-Instanced), Revendreth. Situated in a tower above the Halls of Atonement dungeon entrance.]],
 
     -- NPCs: 160872
-    [1142] = [[Located in Vale of Eternal Blossoms. Only appears during Mantid Assaults and can be found wandering in several locations in the west of the zone.]],
+    [1141] = [[Located in Vale of Eternal Blossoms. Only appears during Mantid Assaults and can be found wandering in several locations in the west of the zone.]],
 
     -- NPCs: 160970
-    [1143] = [[Located in Sahket Wastes, Uldum. Appears in the Assaults phase of the zone. Vuk'laz is a world boss that appears every second week.]],
+    [1142] = [[Located in Sahket Wastes, Uldum. Appears in the Assaults phase of the zone. Vuk'laz is a world boss that appears every second week.]],
 
     -- NPCs: 161130
-    [1144] = [[Located in Abandoned Camp, Exile's Reach. Appears to phase out during an advanced stage of the zone quest chain, but can be viewed and tamed from the very edge of Quilboar Briarpatch.]],
+    [1143] = [[Located in Abandoned Camp, Exile's Reach. Appears to phase out during an advanced stage of the zone quest chain, but can be viewed and tamed from the very edge of Quilboar Briarpatch.]],
 
     -- NPCs: 161131
-    [1145] = [[Located in Abandoned Camp, Exile's Reach. Appears to phase out during an advanced stage of the zone quest chain, but can be viewed and aggroed from the very edge of Quilboar Briarpatch.]],
+    [1144] = [[Located in Abandoned Camp, Exile's Reach. Appears to phase out during an advanced stage of the zone quest chain, but can be viewed and aggroed from the very edge of Quilboar Briarpatch.]],
 
     -- NPCs: 161133
-    [1146] = [[Located in Abandoned Camp, Exile's Reach. Appears to phase out during an advanced stage of the zone quest chain, but one can be viewed and aggroed from a point to the west of Abandoned Camp, near the waterfall. Stand right where the zone changes to "Jrokgar's Coast" and catch the one that circles nearby.]],
+    [1145] = [[Located in Abandoned Camp, Exile's Reach. Appears to phase out during an advanced stage of the zone quest chain, but one can be viewed and aggroed from a point to the west of Abandoned Camp, near the waterfall. Stand right where the zone changes to "Jrokgar's Coast" and catch the one that circles nearby.]],
 
     -- NPCs: 161256
-    [1147] = [[Located in Archivam, Revendreth. Found during the Venthyr-only quest, "Crypt Crashers".]],
+    [1146] = [[Located in Archivam, Revendreth. Found during the Venthyr-only quest, "Crypt Crashers".]],
 
     -- NPCs: 161280
-    [1148] = [[Located in Uldum. Found throughout most of western Uldum, in all Assaults phases. Note: the red variant of this scarab is extremely rare - perhaps 1-in-100 or more spawns. You may need to search for a while, even kill off the blue scarabs, in order to get one.]],
+    [1147] = [[Located in Uldum. Found throughout most of western Uldum, in all Assaults phases. Note: the red variant of this scarab is extremely rare - perhaps 1-in-100 or more spawns. You may need to search for a while, even kill off the blue scarabs, in order to get one.]],
 
     -- NPCs: 161527
-    [1149] = [[Located in Aspirant's Crucible, Bastion. Summoned by Orator Chloe during the "Beasts of Bastion: Sigilback" event.]],
+    [1148] = [[Located in Aspirant's Crucible, Bastion. Summoned by Orator Chloe during the "Beasts of Bastion: Sigilback" event.]],
 
     -- NPCs: 161528
-    [1150] = [[Located in Aspirant's Crucible, Bastion. Summoned by Orator Chloe during the "Beasts of Bastion: Aethon" event.]],
+    [1149] = [[Located in Aspirant's Crucible, Bastion. Summoned by Orator Chloe during the "Beasts of Bastion: Aethon" event.]],
 
     -- NPCs: 161529
-    [1151] = [[Located in Aspirant's Crucible, Bastion. Summoned by Orator Chloe during the "Beasts of Bastion: Nemaeus" event.]],
+    [1150] = [[Located in Aspirant's Crucible, Bastion. Summoned by Orator Chloe during the "Beasts of Bastion: Nemaeus" event.]],
 
     -- NPCs: 161530
-    [1152] = [[Located in Aspirant's Crucible, Bastion. Summoned by Orator Chloe during the "Beasts of Bastion: Cloudtail" event.]],
+    [1151] = [[Located in Aspirant's Crucible, Bastion. Summoned by Orator Chloe during the "Beasts of Bastion: Cloudtail" event.]],
 
     -- NPCs: 161541
-    [1153] = [[Located in Ruins of Ammon, Uldum. Spawns during the Vuk'laz the Earthbreaker encounter. Vuk'laz is a world boss that appears every second week in the Assaults phase of the zone.]],
+    [1152] = [[Located in Ruins of Ammon, Uldum. Spawns during the Vuk'laz the Earthbreaker encounter. Vuk'laz is a world boss that appears every second week in the Assaults phase of the zone.]],
 
     -- NPCs: 161672
-    [1154] = [[Located in Jin Yang Road, Vale of Eternal Blossoms. Appears during Mantid Assaults, in the west of the zone.]],
+    [1153] = [[Located in Jin Yang Road, Vale of Eternal Blossoms. Appears during Mantid Assaults, in the west of the zone.]],
 
     -- NPCs: 162140
-    [1155] = [[Located in Uldum. Appears during Aqir Unearthed Assaults and patrols the Ankhaten Harbor area.]],
+    [1154] = [[Located in Uldum. Appears during Aqir Unearthed Assaults and patrols the Ankhaten Harbor area.]],
 
     -- NPCs: 162142
-    [1156] = [[Located in Uldum. Appears during Aqir Unearthed Assaults, just west of Obelisk of the Sun. Classed as an Aberration.]],
+    [1155] = [[Located in Uldum. Appears during Aqir Unearthed Assaults, just west of Obelisk of the Sun. Classed as an Aberration.]],
 
     -- NPCs: 162147
-    [1157] = [[Located in Uldum. Appears during Aqir Unearthed Assaults. Located north of Ruins of Ammon and south-west of Orsis.]],
+    [1156] = [[Located in Uldum. Appears during Aqir Unearthed Assaults. Located north of Ruins of Ammon and south-west of Orsis.]],
 
     -- NPCs: 162150
-    [1158] = [[Located in Uldum. Spawned by Corpse Eater during combat. Corpse Eater is only found during Aqir Unearthed Assaults.]],
+    [1157] = [[Located in Uldum. Spawned by Corpse Eater during combat. Corpse Eater is only found during Aqir Unearthed Assaults.]],
 
     -- NPCs: 162173
-    [1159] = [[Located in Uldum. Appears during Aqir Unearthed Assaults. Patrols around the lake in the farm north-west of Uldum.]],
+    [1158] = [[Located in Uldum. Appears during Aqir Unearthed Assaults. Patrols around the lake in the farm north-west of Uldum.]],
 
     -- NPCs: 162237, 162300
-    [1160] = [[Located in House of Rituals, Maldraxxus. Found during the Venthyr-only scenario, "The Medallion of Dominion".]],
+    [1159] = [[Located in House of Rituals, Maldraxxus. Found during the Venthyr-only scenario, "The Medallion of Dominion".]],
 
     -- NPCs: 162334, 162373
-    [1161] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found along the rivers.]],
+    [1160] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found along the rivers.]],
 
     -- NPCs: 162335
-    [1162] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found along the mid-southern coast and northwestern region of the zone.]],
+    [1161] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found along the mid-southern coast and northwestern region of the zone.]],
 
     -- NPCs: 162336
-    [1163] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found along rivers in the south..]],
+    [1162] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found along rivers in the south..]],
 
     -- NPCs: 162360
-    [1164] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in the far west of the zone.]],
+    [1163] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in the far west of the zone.]],
 
     -- NPCs: 162361
-    [1165] = [[Located in Neferset City, Uldum. Found in the Assaults (N'Zoth Invasion) phase of the zone, except during Black Empire Assaults.]],
+    [1164] = [[Located in Neferset City, Uldum. Found in the Assaults (N'Zoth Invasion) phase of the zone, except during Black Empire Assaults.]],
 
     -- NPCs: 162364
-    [1166] = [[Located in Neferset City, Uldum. Found in the Assaults (N'Zoth Invasion) phase of the zone, except during Black Empire Assaults. Located at the southern end of Neferset City.]],
+    [1165] = [[Located in Neferset City, Uldum. Found in the Assaults (N'Zoth Invasion) phase of the zone, except during Black Empire Assaults. Located at the southern end of Neferset City.]],
 
     -- NPCs: 162374
-    [1167] = [[Located in Cradle of the Ancients, Uldum. Appears in all Assaults phases of the zone.]],
+    [1166] = [[Located in Cradle of the Ancients, Uldum. Appears in all Assaults phases of the zone.]],
 
     -- NPCs: 162375
-    [1168] = [[Located in Vir'naal River Delta, Uldum. Found in the Assaults phase of Uldum. Not present when the Black Empire Assault (which spans the centre of the zone) is active.]],
+    [1167] = [[Located in Vir'naal River Delta, Uldum. Found in the Assaults phase of Uldum. Not present when the Black Empire Assault (which spans the centre of the zone) is active.]],
 
     -- NPCs: 162378, 162381
-    [1169] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in the north-west of the zone.]],
+    [1168] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in the north-west of the zone.]],
 
     -- NPCs: 162380
-    [1170] = [[Located in Sahket Wastes, Uldum. Appears in all Assaults phases of the zone.]],
+    [1169] = [[Located in Sahket Wastes, Uldum. Appears in all Assaults phases of the zone.]],
 
     -- NPCs: 162382
-    [1171] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in northern Uldum.]],
+    [1170] = [[Located in Uldum. Appears in all Assaults phases of the zone. Found in northern Uldum.]],
 
     -- NPCs: 162399
-    [1172] = [[Located in Sepulcher of Knowledge, Maldraxxus. Can only be spawned during the quest, "Repeat After Me".]],
+    [1171] = [[Located in Sepulcher of Knowledge, Maldraxxus. Can only be spawned during the quest, "Repeat After Me".]],
 
     -- NPCs: 162428
-    [1173] = [[Located in Etheric Vault, Maldraxxus. Has a spectral effect that it retains. The Vault is located in the west of the House of Constructs.]],
+    [1172] = [[Located in Etheric Vault, Maldraxxus. Has a spectral effect that it retains. The Vault is located in the west of the House of Constructs.]],
 
     -- NPCs: 162588
-    [1174] = [[Located in Maldraxxus. Gristlebeak cannot initially be attacked, but circles an area east of the the Theater of Pain. She will descend and attack if you destroy her clutch of Unusual Eggs, found further east the foot of jagged, blackened peaks.]],
+    [1173] = [[Located in Maldraxxus. Gristlebeak cannot initially be attacked, but circles an area east of the the Theater of Pain. She will descend and attack if you destroy her clutch of Unusual Eggs, found further east the foot of jagged, blackened peaks.]],
 
     -- NPCs: 162681
-    [1175] = [[Located in Vol'dun. Normally friendly but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The Elusive Quickhoof is an alpaca that spawns rarely and can be found wandering in one of many different locations in Vol'dun. If you feed it some Seaside Leafy Greens Mix it will award you the Elusive Quickhoof mount. It's still possible to tame it afterwards, as the alpaca remains up for 10 minutes after spawning.]],
+    [1174] = [[Located in Vol'dun. Normally friendly but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The Elusive Quickhoof is an alpaca that spawns rarely and can be found wandering in one of many different locations in Vol'dun. If you feed it some Seaside Leafy Greens Mix it will award you the Elusive Quickhoof mount. It's still possible to tame it afterwards, as the alpaca remains up for 10 minutes after spawning.]],
 
     -- NPCs: 163025
-    [1176] = [[Located in Obelisk of the Moon, Uldum. Appears in the Assaults phase of the zone. Respawns frequently, not far inside the eastern entrance to the Obelisk of the Moon and immediately runs towards the entrance. Tame it as soon as it spawns, before the other NPCs attack and steal threat.]],
+    [1175] = [[Located in Obelisk of the Moon, Uldum. Appears in the Assaults phase of the zone. Respawns frequently, not far inside the eastern entrance to the Obelisk of the Moon and immediately runs towards the entrance. Tame it as soon as it spawns, before the other NPCs attack and steal threat.]],
 
     -- NPCs: 163042
-    [1177] = [[Located in Vale of Eternal Blossoms. Normally friendly, but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The Ivory Cloud Serpent appears only during Mogu Assaults. The Ivory Cloud Serpent spawns every ~1.5 - 3 hours at coordinates ~ 27,55, at roughly 2-3 times the height of the trees, and flies rapidly in clockwise circuits around the zone. The best place to tame it is at the southern end of the roof of the Gate of the Setting Sun.]],
+    [1176] = [[Located in Vale of Eternal Blossoms. Normally friendly, but can be tamed if you use the toy "N'lyeth, Sliver of N'Zoth" while in War Mode. The Ivory Cloud Serpent appears only during Mogu Assaults. The Ivory Cloud Serpent spawns every ~1.5 - 3 hours at coordinates ~ 27,55, at roughly 2-3 times the height of the trees, and flies rapidly in clockwise circuits around the zone. The best place to tame it is at the southern end of the roof of the Gate of the Setting Sun.]],
 
     -- NPCs: 163045
-    [1178] = [[Located in Obelisk of the Moon, Uldum. This untameable version of the Aqir Stinger is found only around the Obelisk of the Moon, during all Assaults phases.]],
+    [1177] = [[Located in Obelisk of the Moon, Uldum. This untameable version of the Aqir Stinger is found only around the Obelisk of the Moon, during all Assaults phases.]],
 
     -- NPCs: 163091
-    [1179] = [[Located in Uldum. Spawns continuously at the eastern entrance of the Obelisk of the Moon. Also spawns during the 'Ambushed Settlers' quest events, which only occur during Aqir Unearthed Assaults.]],
+    [1178] = [[Located in Uldum. Spawns continuously at the eastern entrance of the Obelisk of the Moon. Also spawns during the 'Ambushed Settlers' quest events, which only occur during Aqir Unearthed Assaults.]],
 
     -- NPCs: 163154
-    [1180] = [[Located in Orsis, Uldum. Spawns during the 'Ambushed Settlers' quest events, which only occur during Aqir Unearthed Assaults.]],
+    [1179] = [[Located in Orsis, Uldum. Spawns during the 'Ambushed Settlers' quest events, which only occur during Aqir Unearthed Assaults.]],
 
     -- NPCs: 163185
-    [1181] = [[Located in Gormhive Defense Wall, Ardenweald. Occasionally spawns and heads north through the area. Currently erroneously classed as a humanoid.]],
+    [1180] = [[Located in Gormhive Defense Wall, Ardenweald. Occasionally spawns and heads north through the area.]],
 
     -- NPCs: 163259
-    [1182] = [[Located in Ruins of Ammon, Uldum. Appears during Aqir Unearthed Assaults, but only on days when the quest event Titanus Egg is active (just west of the Ruins of Ammon). Spawns when you destroy Goliath Eggs.]],
+    [1181] = [[Located in Ruins of Ammon, Uldum. Appears during Aqir Unearthed Assaults, but only on days when the quest event Titanus Egg is active (just west of the Ruins of Ammon). Spawns when you destroy Goliath Eggs.]],
 
     -- NPCs: 163268
-    [1183] = [[Located in Ruins of Ammon, Uldum. Appears during Aqir Unearthed Assaults, but only on days when the quest event Titanus Egg is active (just west of the Ruins of Ammon). Spawns at the culmination of the quest.]],
+    [1182] = [[Located in Ruins of Ammon, Uldum. Appears during Aqir Unearthed Assaults, but only on days when the quest event Titanus Egg is active (just west of the Ruins of Ammon). Spawns at the culmination of the quest.]],
 
     -- NPCs: 163503, 163506
-    [1184] = [[Located in Spires of Ascension (Dungeon).]],
+    [1183] = [[Located in Spires of Ascension (Dungeon).]],
 
     -- NPCs: 163616
-    [1185] = [[Located in Ardenweald. Rootstinger Swarmlings continually spawn in northern Gormhive and fly north to Gormhive Defense Wall, Claw's Edge and Kaithe Overlook where they despawn. They can also appear by the land bridge at Tirna Scithe (~25,61) on days when the world quest "Swarm Defense" is up in that area.]],
+    [1184] = [[Located in Ardenweald. Rootstinger Swarmlings continually spawn in northern Gormhive and fly north to Gormhive Defense Wall, Claw's Edge and Kaithe Overlook where they despawn. They can also appear by the land bridge at Tirna Scithe (~25,61) on days when the world quest "Swarm Defense" is up in that area.]],
 
     -- NPCs: 164110
-    [1186] = [[Located in Mistveil Tangle, Ardenweald. Spawns after killing several Bristlecone Terrors (which can be attacked after killing the Deranged Guardians). Randomly, one of them will call out for Gormtamer Tizo to save them, which will spawn Chompy (with Tizo on its back). Taming or killing Chompy will spawn Tizo.]],
+    [1185] = [[Located in Mistveil Tangle, Ardenweald. Spawns after killing several Bristlecone Terrors (which can be attacked after killing the Deranged Guardians). Randomly, one of them will call out for Gormtamer Tizo to save them, which will spawn Chompy (with Tizo on its back). Taming or killing Chompy will spawn Tizo.]],
 
     -- NPCs: 164197
-    [1187] = [[Located in Halls of Atonement, Revendreth. Patrols the southern perimeter. Appears to phase out later in the zone quest chain and is probably unavailable for hunters who select the Threads of Fate advancement path.]],
+    [1186] = [[Located in Halls of Atonement, Revendreth. Patrols the southern perimeter. Appears to phase out later in the zone quest chain and is probably unavailable for hunters who select the Threads of Fate advancement path.]],
 
     -- NPCs: 164198
-    [1188] = [[Located in Halls of Atonement, Revendreth. Patrols the western perimeter. Appears to phase out later in the zone quest chain and is probably unavailable for hunters who select the Threads of Fate advancement path.]],
+    [1187] = [[Located in Halls of Atonement, Revendreth. Patrols the western perimeter. Appears to phase out later in the zone quest chain and is probably unavailable for hunters who select the Threads of Fate advancement path.]],
 
     -- NPCs: 164208
-    [1189] = [[Located in Halls of Atonement, Revendreth. Soul Monitors initially look like statues. They don't appear on your beast tracker, or in their proper colour, until aggroed. Appears to phase out later in the zone quest chain and is probably unavailable for hunters who select the Threads of Fate advancement path.]],
+    [1188] = [[Located in Halls of Atonement, Revendreth. Soul Monitors initially look like statues. They don't appear on your beast tracker, or in their proper colour, until aggroed. Appears to phase out later in the zone quest chain and is probably unavailable for hunters who select the Threads of Fate advancement path.]],
 
     -- NPCs: 164391
-    [1190] = [[Located in Shimmerbough, Ardenweald. Flies very high over the area. You can reach Old Ardeite by using the basket of fairy wings found in the first alcove to the left right as you enter Shimmerbough from the Heart of the Forest.]],
+    [1189] = [[Located in Shimmerbough, Ardenweald. Flies very high over the area. You can reach Old Ardeite by using the basket of fairy wings found in the first alcove to the left right as you enter Shimmerbough from the Heart of the Forest.]],
 
     -- NPCs: 164424
-    [1191] = [[Located in Cocyrus, The Maw. This Mawsworn Seeker is limited to a special phase which is part of two known Shadowlands zone quest chains. If you already completed these quests you can return if you quest sync with someone who is still on them.The quest chains are: (i) The later Maldraxxus story arc in which you rescue Darion Mograine from the Maw. The story begins with The Maw. (ii) The later Revendreth story arc in which you rescue Prince Renathal from the Maw. There's only ever one Mawsworn Seeker present at a time and it can be slow to respawn, so if you don't see one you may have to wait a few minutes.]],
+    [1190] = [[Located in Cocyrus, The Maw. This Mawsworn Seeker is limited to a special phase which is part of two known Shadowlands zone quest chains. If you already completed these quests you can return if you quest sync with someone who is still on them.The quest chains are: (i) The later Maldraxxus story arc in which you rescue Darion Mograine from the Maw. The story begins with The Maw. (ii) The later Revendreth story arc in which you rescue Prince Renathal from the Maw. There's only ever one Mawsworn Seeker present at a time and it can be slow to respawn, so if you don't see one you may have to wait a few minutes.]],
 
     -- NPCs: 164479
-    [1192] = [[Located in The Necrotic Wake (Dungeon). Bonefang is the mount of Amarth and serves as the second boss in The Necrotic Wake. Taming Bonefang will prevent you continuing with the dungeon and it probably shouldn't be tameable at all. Consider taming a Flayedwing Fleshripper instead.]],
+    [1191] = [[Located in The Necrotic Wake (Dungeon). Bonefang is the mount of Amarth and serves as the second boss in The Necrotic Wake. Taming Bonefang will prevent you continuing with the dungeon and it probably shouldn't be tameable at all. Consider taming a Flayedwing Fleshripper instead.]],
 
     -- NPCs: 164563
-    [1193] = [[Located in Halls of Atonement (Dungeon).]],
+    [1192] = [[Located in Halls of Atonement (Dungeon).]],
 
     -- NPCs: 164587
-    [1194] = [[Located in The Stabbing Wastes, Maldraxxus. Found in the west of the Stabbing Wastes, west of the Theater of Pain (43,48). Only one is ever up at a time, and will randomly spawn with or without horns.]],
+    [1193] = [[Located in The Stabbing Wastes, Maldraxxus. Found in the west of the Stabbing Wastes, west of the Theater of Pain (43,48). Only one is ever up at a time, and will randomly spawn with or without horns.]],
 
     -- NPCs: 164847
-    [1195] = [[Located in House of the Chosen, Maldraxxus. Found in multiple locations in the area. Friendly at first, it becomes hostile and tameable after completing the main story.]],
+    [1194] = [[Located in House of the Chosen, Maldraxxus. Found in multiple locations in the area. Friendly at first, it becomes hostile and tameable after completing the main story.]],
 
     -- NPCs: 164873, 165905, 167964, 168986, 171181, 171341, 171342
-    [1196] = [[Located in De Other Side (Dungeon).]],
+    [1195] = [[Located in De Other Side (Dungeon).]],
 
     -- NPCs: 165312
-    [1197] = [[Located in Vestibule of Eternity, Bastion. Spawns during the World Quest, "Assault on the Vestibule".]],
+    [1196] = [[Located in Vestibule of Eternity, Bastion. Spawns during the World Quest, "Assault on the Vestibule".]],
 
     -- NPCs: 165336
-    [1198] = [[Located in Hall of Chains, Maldraxxus. Found inside a hall in the north-east of the area.]],
+    [1197] = [[Located in Hall of Chains, Maldraxxus. Found inside a hall in the north-east of the area.]],
 
     -- NPCs: 165349
-    [1199] = [[Located in Hall of Chains & Separation Chamber, Maldraxxus.]],
+    [1198] = [[Located in Hall of Chains & Separation Chamber, Maldraxxus.]],
 
     -- NPCs: 165404
-    [1200] = [[Located in Ardenweald. Found north of the Glitterfall Basin flight point, close to the northern tip of the 'island'. It is the object of the quest What a Buzzkill.]],
+    [1199] = [[Located in Ardenweald. Found north of the Glitterfall Basin flight point, close to the northern tip of the 'island'. It is the object of the quest What a Buzzkill.]],
 
     -- NPCs: 165460
-    [1201] = [[Located in Tirna Vaal, Ardenweald. Spawns during the zone story quest Nightmares Manifest.]],
+    [1200] = [[Located in Tirna Vaal, Ardenweald. Spawns during the zone story quest Nightmares Manifest.]],
 
     -- NPCs: 165634
-    [1202] = [[Located in Temple of Courage, Bastion. Found during the Necrolord-only quest, "Death Rains".]],
+    [1201] = [[Located in Temple of Courage, Bastion. Found during the Necrolord-only quest, "Death Rains".]],
 
     -- NPCs: 165942
-    [1203] = [[Located in Dominance Keep, Revendreth. Venthyr Covenant-only. Found during the quest, "Harvester of Wrath".]],
+    [1202] = [[Located in Dominance Keep, Revendreth. Venthyr Covenant-only. Found during the quest, "Harvester of Wrath".]],
 
     -- NPCs: 165957
-    [1204] = [[Located in The Necrotic Wake, Bastion. Found during the Necrolord-only quest, "Aerial Absolution".]],
+    [1203] = [[Located in The Necrotic Wake, Bastion. Found during the Necrolord-only quest, "Aerial Absolution".]],
 
     -- NPCs: 165960
-    [1205] = [[Located in House of the Chosen, Maldraxxus. Only spawns during the world quest "The Spider on the Wall".]],
+    [1204] = [[Located in House of the Chosen, Maldraxxus. Only spawns during the world quest "The Spider on the Wall".]],
 
     -- NPCs: 165978
-    [1206] = [[Located in Planes of Torment & Calcis, The Maw. Found in both the regular and the introductory quest phase for Shadowlands.]],
+    [1205] = [[Located in Planes of Torment & Calcis, The Maw. Found in both the regular and the introductory quest phase for Shadowlands.]],
 
     -- NPCs: 166027, 171583
-    [1207] = [[Located in The Necropolis, Nazmir. Night Fae-only. Found during the Night Fae Chapter, "Deal for a Loa".]],
+    [1206] = [[Located in The Necropolis, Nazmir. Night Fae-only. Found during the Night Fae Chapter, "Deal for a Loa".]],
 
     -- NPCs: 166177, 166453, 170288
-    [1208] = [[Located in Citadel of Doubt, Bastion. Found during the Kyrian-only quest, "The Greater Good".]],
+    [1207] = [[Located in Citadel of Doubt, Bastion. Found during the Kyrian-only quest, "The Greater Good".]],
 
     -- NPCs: 166559
-    [1209] = [[Located in Maldraxxus. Found at the very back of a cave in the mountain range south-east of the Theater of Pain, near the Predatory Bloodtusks. The entrance is at coordinates 57,53.]],
+    [1208] = [[Located in Maldraxxus. Found at the very back of a cave in the mountain range south-east of the Theater of Pain, near the Predatory Bloodtusks. The entrance is at coordinates 57,53.]],
 
     -- NPCs: 166592
-    [1210] = [[Located in Theater of Pain, Maldraxxus. Found in the zone starting arena. Phases out after the quest Champion the Cause.]],
+    [1209] = [[Located in Theater of Pain, Maldraxxus. Found in the zone starting arena. Phases out after the quest Champion the Cause.]],
 
     -- NPCs: 166676
-    [1211] = [[Located in The Stitchyard, Maldraxxus. Kyrian and Necrolord Covenants only. Found during the quest "Charging the Blade".]],
+    [1210] = [[Located in The Stitchyard, Maldraxxus. Kyrian and Necrolord Covenants only. Found during the quest "Charging the Blade".]],
 
     -- NPCs: 166679
-    [1212] = [[Located in Chalice District, Revendreth. You can get Hopecrusher to appear by examining the 'Large Prey' bat corpse in a courtyard with a large tree in the south-east of the area.]],
+    [1211] = [[Located in Chalice District, Revendreth. You can get Hopecrusher to appear by examining the 'Large Prey' bat corpse in a courtyard with a large tree in the south-east of the area.]],
 
     -- NPCs: 166735
-    [1213] = [[Located in Mistveil Tangle, Ardenweald. Ridden by Bristlecone Terrors.]],
+    [1212] = [[Located in Mistveil Tangle, Ardenweald. Ridden by Bristlecone Terrors.]],
 
     -- NPCs: 167129
-    [1214] = [[Located in Witherfall Ruin, Revendreth. Reza, and its companion Geza are pets of the rare NPC Huntmaster Petrus and can appear in the Witherfall Ruin area of south-east Revendreth. They can only be tamed after Petrus is defeated. They must be present and still alive when you defeat Petrus and you must tame them immediately afterwards, or they won't be tameable. Note that sometimes they're buggy and the tameable version doesn't appear after he's defeated.]],
+    [1213] = [[Located in Witherfall Ruin, Revendreth. Reza, and its companion Geza are pets of the rare NPC Huntmaster Petrus and can appear in the Witherfall Ruin area of south-east Revendreth. They can only be tamed after Petrus is defeated. They must be present and still alive when you defeat Petrus and you must tame them immediately afterwards, or they won't be tameable. Note that sometimes they're buggy and the tameable version doesn't appear after he's defeated.]],
 
     -- NPCs: 167139
-    [1215] = [[Located in Witherfall Ruin, Revendreth. Geza, and its companion Reza are pets of the rare NPC Huntmaster Petrus and can appear in the Witherfall Ruin area of south-east Revendreth. They can only be tamed after Petrus is defeated. They must be present and still alive when you defeat Petrus and you must tame them immediately afterwards, or they won't be tameable. Note that sometimes they're buggy and the tameable version doesn't appear after he's defeated.]],
+    [1214] = [[Located in Witherfall Ruin, Revendreth. Geza, and its companion Reza are pets of the rare NPC Huntmaster Petrus and can appear in the Witherfall Ruin area of south-east Revendreth. They can only be tamed after Petrus is defeated. They must be present and still alive when you defeat Petrus and you must tame them immediately afterwards, or they won't be tameable. Note that sometimes they're buggy and the tameable version doesn't appear after he's defeated.]],
 
     -- NPCs: 167337
-    [1216] = [[Located in Exile's Reach. If you're a gnome this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1215] = [[Located in Exile's Reach. If you're a gnome this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167342
-    [1217] = [[Located in Exile's Reach. If you're a draenei this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1216] = [[Located in Exile's Reach. If you're a draenei this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167343
-    [1218] = [[Located in Exile's Reach. If you're a blood elf this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1217] = [[Located in Exile's Reach. If you're a blood elf this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167344
-    [1219] = [[Located in Exile's Reach. If you're a goblin this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1218] = [[Located in Exile's Reach. If you're a goblin this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167345
-    [1220] = [[Located in Exile's Reach. If you're a human this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1219] = [[Located in Exile's Reach. If you're a human this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167346
-    [1221] = [[Located in Exile's Reach. If you're an orc this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1220] = [[Located in Exile's Reach. If you're an orc this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167347
-    [1222] = [[Located in Exile's Reach. If you're a night elf or Alliance pandaren this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1221] = [[Located in Exile's Reach. If you're a night elf or Alliance pandaren this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167348
-    [1223] = [[Located in Exile's Reach. If you're a Horde pandaren this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1222] = [[Located in Exile's Reach. If you're a Horde pandaren this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167349
-    [1224] = [[Located in Exile's Reach. If you're a tauren this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1223] = [[Located in Exile's Reach. If you're a tauren this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167350
-    [1225] = [[Located in Exile's Reach. If you're a troll this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1224] = [[Located in Exile's Reach. If you're a troll this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167351
-    [1226] = [[Located in Exile's Reach. If you're undead this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1225] = [[Located in Exile's Reach. If you're undead this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167352
-    [1227] = [[Located in Exile's Reach. If you're a worgen this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1226] = [[Located in Exile's Reach. If you're a worgen this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167375
-    [1228] = [[Located in Exile's Reach. If you're a dwarf this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
+    [1227] = [[Located in Exile's Reach. If you're a dwarf this beast can be found on the ship during the intro to Exile's Reach. It's friendly at this stage, but can be tamed at a much later stage, during the quest The Art of Taming.]],
 
     -- NPCs: 167433
-    [1229] = [[Located in Shattered Span, Bastion. Spawns during the quest The Final Countdown. Taming it will reset this quest.]],
+    [1228] = [[Located in Shattered Span, Bastion. Spawns during the quest The Final Countdown. Taming it will reset this quest.]],
 
     -- NPCs: 167508
-    [1230] = [[Located in Vault of the Archon, Bastion. Spawns and attacks during the quest The Vault of the Archon.]],
+    [1229] = [[Located in Vault of the Archon, Bastion. Spawns and attacks during the quest The Vault of the Archon.]],
 
     -- NPCs: 167719
-    [1231] = [[Located in Halls of Atonement, Revendreth. Found in a hidden crypt below the parapets on the north-east side of the Halls of Atonement, coordinates ~ 66,43. Inside the arched gallery at this location one of the sconces on the wall can be activated, revealing a secret staircase down to the crypt.]],
+    [1230] = [[Located in Halls of Atonement, Revendreth. Found in a hidden crypt below the parapets on the north-east side of the Halls of Atonement, coordinates ~ 66,43. Inside the arched gallery at this location one of the sconces on the wall can be activated, revealing a secret staircase down to the crypt.]],
 
     -- NPCs: 167721
-    [1232] = [[Located in Ardenweald. Found in A Strange Cloud, just north of Hibernal Hollow.. Requires proper placement of a freezing trap in order to stun it before you fall asleep.]],
+    [1231] = [[Located in Ardenweald. Found in A Strange Cloud, just north of Hibernal Hollow.. Requires proper placement of a freezing trap in order to stun it before you fall asleep.]],
 
     -- NPCs: 167848
-    [1233] = [[Located in Dusky Grotto, Ardenweald. Found during the Night Fae-only quest "Cleansing the Forest".]],
+    [1232] = [[Located in Dusky Grotto, Ardenweald. Found during the Night Fae-only quest "Cleansing the Forest".]],
 
     -- NPCs: 167851
-    [1234] = [[Located in Dusty Burrows, Ardenweald. Spawns after you click on sufficient Quivering Gorm Eggs during the vignette event "Unguarded Gorm Eggs". This event may be found in a burrow in the west of the area.]],
+    [1233] = [[Located in Dusty Burrows, Ardenweald. Spawns after you click on sufficient Quivering Gorm Eggs during the vignette event "Unguarded Gorm Eggs". This event may be found in a burrow in the west of the area.]],
 
     -- NPCs: 168008
-    [1235] = [[Located in Gormhive Defense Wall, Ardenweald. This version of the Rootstinger Warrior spawns in northern Gormhive and flies north to Gormhive Defense Wall, Claw's Edge and Kaithe Overlook. It doesn't spawn as frequently as the Rootstinger Swarmlings it accompanies.]],
+    [1234] = [[Located in Gormhive Defense Wall, Ardenweald. This version of the Rootstinger Warrior spawns in northern Gormhive and flies north to Gormhive Defense Wall, Claw's Edge and Kaithe Overlook. It doesn't spawn as frequently as the Rootstinger Swarmlings it accompanies.]],
 
     -- NPCs: 168135
-    [1236] = [[Located in Dreamshrine Basin, Ardenweald. This rare NPC is normally invisible and requires a Dream Catcher to see. This item can be assembled as part of a special activity to obtain the Swift Gloomhoof mount. See that page for more information.]],
+    [1235] = [[Located in Dreamshrine Basin, Ardenweald. This rare NPC is normally invisible and requires a Dream Catcher to see. This item can be assembled as part of a special activity to obtain the Swift Gloomhoof mount. See that page for more information.]],
 
     -- NPCs: 168153
-    [1237] = [[Located in Plaguefall (Dungeon). Found in a number of locations throughout the dungeon.]],
+    [1236] = [[Located in Plaguefall (Dungeon). Found in a number of locations throughout the dungeon.]],
 
     -- NPCs: 168192
-    [1238] = [[Located in Valley of a Thousand Legs, Maldraxxus. Found in isolated locations: in the north-east corner of the Valley of a Thousand Legs (south-east of the Theater of Pain), and just to the west of the northern entrance of the Theater of Pain.]],
+    [1237] = [[Located in Valley of a Thousand Legs, Maldraxxus. Found in isolated locations: in the north-east corner of the Valley of a Thousand Legs (south-east of the Theater of Pain), and just to the west of the northern entrance of the Theater of Pain.]],
 
     -- NPCs: 168258
-    [1239] = [[Located in Maldraxxus. Gristled Hatchlings spawn when you destroy Unusual Eggs, found east of the Theater of Pain at the foot of jagged peaks.]],
+    [1238] = [[Located in Maldraxxus. Gristled Hatchlings spawn when you destroy Unusual Eggs, found east of the Theater of Pain at the foot of jagged peaks.]],
 
     -- NPCs: 168306
-    [1240] = [[Located in Shimmerbough, Ardenweald. Only spawns during the world quest "Pupa Trooper".]],
+    [1239] = [[Located in Shimmerbough, Ardenweald. Only spawns during the world quest "Pupa Trooper".]],
 
     -- NPCs: 168310
-    [1241] = [[Located in Plaguefall (Dungeon). Initially appears during a scripted event just inside the dungeon entrance, then circles the nearby plague lake.]],
+    [1240] = [[Located in Plaguefall (Dungeon). Initially appears during a scripted event just inside the dungeon entrance, then circles the nearby plague lake.]],
 
     -- NPCs: 168361
-    [1242] = [[Located in Plaguefall (Dungeon).]],
+    [1241] = [[Located in Plaguefall (Dungeon).]],
 
     -- NPCs: 168402
-    [1243] = [[Located in Greatwing Roost, Bastion. Darkwing can be summoned when you are on the quest WANTED: Darkwing. She isn't phased and can also be accessed if someone else summons her.]],
+    [1242] = [[Located in Greatwing Roost, Bastion. Darkwing can be summoned when you are on the quest WANTED: Darkwing. She isn't phased and can also be accessed if someone else summons her.]],
 
     -- NPCs: 168424
-    [1244] = [[Located in Maldraxxus. Flies circuits over Hall of Chains, House of Constructs, and The Stitchyard.]],
+    [1243] = [[Located in Maldraxxus. Flies circuits over Hall of Chains, House of Constructs, and The Stitchyard.]],
 
     -- NPCs: 168453
-    [1245] = [[Located in Glutharn's Decay, Maldraxxus. Has a unique green anima effect to it.]],
+    [1244] = [[Located in Glutharn's Decay, Maldraxxus. Has a unique green anima effect to it.]],
 
     -- NPCs: 168579
-    [1246] = [[Located in Plaguefall (Dungeon). Spawns when you attack a Hatchling Nest.]],
+    [1245] = [[Located in Plaguefall (Dungeon). Spawns when you attack a Hatchling Nest.]],
 
     -- NPCs: 168591, 171455
-    [1247] = [[Located in Sanguine Depths (Dungeon).]],
+    [1246] = [[Located in Sanguine Depths (Dungeon).]],
 
     -- NPCs: 168850
-    [1248] = [[Located in The Banewood, Revendreth. Spawns when you destroy a Fearspinner Sac.]],
+    [1247] = [[Located in The Banewood, Revendreth. Spawns when you destroy a Fearspinner Sac.]],
 
     -- NPCs: 169160
-    [1249] = [[Located in Dredhollow, Revendreth. Summoned by Hopebreaker Vilstav during combat.]],
+    [1248] = [[Located in Dredhollow, Revendreth. Summoned by Hopebreaker Vilstav during combat.]],
 
     -- NPCs: 169263
-    [1250] = [[Located in Bastion. Found in a grassy area just north of the entrance of Temple of Humility, and just across the road on the eastern border of The Golden Pasture.]],
+    [1249] = [[Located in Bastion. Found in a grassy area just north of the entrance of Temple of Humility, and just across the road on the eastern border of The Golden Pasture.]],
 
     -- NPCs: 169276
-    [1251] = [[Located in Dreamshrine Basin, Ardenweald. Spawns during the zone story quest The Restless Dreamer when you attune the shrine in Dreamshrine Basin.]],
+    [1250] = [[Located in Dreamshrine Basin, Ardenweald. Spawns during the zone story quest The Restless Dreamer when you attune the shrine in Dreamshrine Basin.]],
 
     -- NPCs: 169732
-    [1252] = [[Located in Separation Chamber, Maldraxxus. Found in the watery area to the north of the Hall of Chains.]],
+    [1251] = [[Located in Separation Chamber, Maldraxxus. Found in the watery area to the north of the Hall of Chains.]],
 
     -- NPCs: 169823, 173114
-    [1253] = [[Located in Torghast, Tower of the Damned (Dungeon).]],
+    [1252] = [[Located in Torghast, Tower of the Damned (Dungeon).]],
 
     -- NPCs: 169840, 169841
-    [1254] = [[Located in Forgotten Chamber, Revendreth. Only accessible during the world quest "Major Mirror Disruptions".]],
+    [1253] = [[Located in Forgotten Chamber, Revendreth. Only accessible during the world quest "Major Mirror Disruptions".]],
 
     -- NPCs: 169972, 169974, 169975, 169976, 169977
-    [1255] = [[Located in Crumbled Ridge, Ardenweald. Spawns when you get near the Decayed Husk treasure.]],
+    [1254] = [[Located in Crumbled Ridge, Ardenweald. Spawns when you get near the Decayed Husk treasure.]],
 
     -- NPCs: 170007
-    [1256] = [[Located in Bastion. Flies over a pool to the west of Shimmering Pools, in the north-west of Bastion.]],
+    [1255] = [[Located in Bastion. Flies over a pool to the west of Shimmering Pools, in the north-west of Bastion.]],
 
     -- NPCs: 170184
-    [1257] = [[Located in Bastion. Found along the cliffs north-west of The Eternal Forge, in small numbers. It can be hard to reach, but occasionally one flies lower.]],
+    [1256] = [[Located in Bastion. Found along the cliffs north-west of The Eternal Forge, in small numbers. It can be hard to reach, but occasionally one flies lower.]],
 
     -- NPCs: 170331, 170332
-    [1258] = [[Located in Bastion. Flitters close to the edge of the cliff on a rise north of Everdawn Terrace. There seems to be only one of this creature.]],
+    [1257] = [[Located in Bastion. Flitters close to the edge of the cliff on a rise north of Everdawn Terrace. There seems to be only one of this creature.]],
 
     -- NPCs: 170659
-    [1259] = [[Located in Bastion. May spawn on the hill directly south-west of Hero's Rest, among the Argentwing Larions. He will spawn if you are close to the top of the ridge and see a 'purple eyes' symbol above your character, at coordinates ~ 49,50. He takes a very long time to spawn, during which you'll receive four warning messages, starting with "You feel as if you are being watched from above." and ending with "A challenging roar echoes over the hills!".]],
+    [1258] = [[Located in Bastion. May spawn on the hill directly south-west of Hero's Rest, among the Argentwing Larions. He will spawn if you are close to the top of the ridge and see a 'purple eyes' symbol above your character, at coordinates ~ 49,50. He takes a very long time to spawn, during which you'll receive four warning messages, starting with "You feel as if you are being watched from above." and ending with "A challenging roar echoes over the hills!".]],
 
     -- NPCs: 170699
-    [1260] = [[Located in Furrowed Glen, Ardenweald. Found at a den set in the roots of a giant tree, in the north of Furrowed Glen.]],
+    [1259] = [[Located in Furrowed Glen, Ardenweald. Found at a den set in the roots of a giant tree, in the north of Furrowed Glen.]],
 
     -- NPCs: 170723
-    [1261] = [[Located in Shattered Grove. Shattered Grove is actually another realm, but can be reached through the Maldraxxus quest Working For The Living. It's possible that this realm is only accessible via that quest.]],
+    [1260] = [[Located in Shattered Grove. Shattered Grove is actually another realm, but can be reached through the Maldraxxus quest Working For The Living. It's possible that this realm is only accessible via that quest.]],
 
     -- NPCs: 170767
-    [1262] = [[Located in Dusty Burrows, Ardenweald. Spawns during the world quest "Gormageddon".]],
+    [1261] = [[Located in Dusty Burrows, Ardenweald. Spawns during the world quest "Gormageddon".]],
 
     -- NPCs: 170781, 170785
-    [1263] = [[Located in Bleak Redoubt, Maldraxxus. Only appears during the zone quest The Door to the Unknown, when the Seat of the Primus is under attack. Stay up on the Redoubt and wait for one to circle past and tame it quickly.]],
+    [1262] = [[Located in Bleak Redoubt, Maldraxxus. Only appears during the zone quest The Door to the Unknown, when the Seat of the Primus is under attack. Stay up on the Redoubt and wait for one to circle past and tame it quickly.]],
 
     -- NPCs: 170847
-    [1264] = [[Located in Mistveil Tangle, Ardenweald. Only spawns during the world quest "A Night in the Woods".]],
+    [1263] = [[Located in Mistveil Tangle, Ardenweald. Only spawns during the world quest "A Night in the Woods".]],
 
     -- NPCs: 170923
-    [1265] = [[Located in House of the Chosen, Maldraxxus. Friendly to begin with, this beast becomes hostile after nearly completing the main story.]],
+    [1264] = [[Located in House of the Chosen, Maldraxxus. Friendly to begin with, this beast becomes hostile after nearly completing the main story.]],
 
     -- NPCs: 170932
-    [1266] = [[Located in Garden of Respite, Bastion. Spawns after killing several Anima-Starved Cloudfeathers, then patrols the area.]],
+    [1265] = [[Located in Garden of Respite, Bastion. Spawns after killing several Anima-Starved Cloudfeathers, then patrols the area.]],
 
     -- NPCs: 170933
-    [1267] = [[Located in Mistveil Tangle, Ardenweald. Occasionally spawns during the world quest, A Night in the Woods. During this quest, the friendly Wild Hunt cycles through six clearings and defeats different attackers. This gorm has a chance of spawning in the north-west clearing, but since encounters can vary between cycles it might take a few rounds before they appear.]],
+    [1266] = [[Located in Mistveil Tangle, Ardenweald. Occasionally spawns during the world quest, A Night in the Woods. During this quest, the friendly Wild Hunt cycles through six clearings and defeats different attackers. This gorm has a chance of spawning in the north-west clearing, but since encounters can vary between cycles it might take a few rounds before they appear.]],
 
     -- NPCs: 170969
-    [1268] = [[Located in Unyielding Assembly, Maldraxxus. Friendly to begin with, this beast becomes hostile after nearly completing the main story.]],
+    [1267] = [[Located in Unyielding Assembly, Maldraxxus. Friendly to begin with, this beast becomes hostile after nearly completing the main story.]],
 
     -- NPCs: 171017
-    [1269] = [[Located in Bastion. In a cave just west of Hero's Rest. The cave contains the Abandoned Stockpile treasure.]],
+    [1268] = [[Located in Bastion. In a cave just west of Hero's Rest. The cave contains the Abandoned Stockpile treasure.]],
 
     -- NPCs: 171827
-    [1270] = [[Located in Dusty Burrows, Ardenweald. May spawn when you click on Quivering Gorm Eggs during the vignette event "Unguarded Gorm Eggs". This event may be found in a burrow in the west of the area.]],
+    [1269] = [[Located in Dusty Burrows, Ardenweald. May spawn when you click on Quivering Gorm Eggs during the vignette event "Unguarded Gorm Eggs". This event may be found in a burrow in the west of the area.]],
 
     -- NPCs: 172045
-    [1271] = [[Located in The Eonian Archives, Bastion. Perched on ridges around the area, these larions are very difficult to reach without flying.]],
+    [1270] = [[Located in The Eonian Archives, Bastion. Perched on ridges around the area, these larions are very difficult to reach without flying.]],
 
     -- NPCs: 172053
-    [1272] = [[Located in Bastion. Found just southeast of Hero's Rest attacking Heraclor. Only spawns during the World Quest, "March of the Eternal Protector".]],
+    [1271] = [[Located in Bastion. Found just southeast of Hero's Rest attacking Heraclor. Only spawns during the World Quest, "March of the Eternal Protector".]],
 
     -- NPCs: 172390
-    [1273] = [[Located in Unyielding Assembly, Maldraxxus. Available after completing the main story. Located at the back of the House of the Chosen.]],
+    [1272] = [[Located in Unyielding Assembly, Maldraxxus. Available after completing the main story. Located at the back of the House of the Chosen.]],
 
     -- NPCs: 172628
-    [1274] = [[Located in Ossein Foundry, Maldraxxus. Spawns during the Maldraxxi-only quest "Follow Me".]],
+    [1273] = [[Located in Ossein Foundry, Maldraxxus. Spawns during the Maldraxxi-only quest "Follow Me".]],
 
     -- NPCs: 172703, 172704
-    [1275] = [[Located in Firstborne's Bounty, Bastion. Spawns during the world quest, "Drought Conditions".]],
+    [1274] = [[Located in Firstborne's Bounty, Bastion. Spawns during the world quest, "Drought Conditions".]],
 
     -- NPCs: 173045, 173046
-    [1276] = [[Located in Bony Spindles, Maldraxxus. Spawns only during the world quest, "Drawing out the Poison".]],
+    [1275] = [[Located in Bony Spindles, Maldraxxus. Spawns only during the world quest, "Drawing out the Poison".]],
 
     -- NPCs: 173393
-    [1277] = [[Located in Forgotten Chamber, Revendreth. Found during the world quest, "Major Mirror Disruptions".]],
+    [1276] = [[Located in Forgotten Chamber, Revendreth. Found during the world quest, "Major Mirror Disruptions".]],
 
     -- NPCs: 173409
-    [1278] = [[Located in Gormhive, Ardenweald. This gorm is only available to players who join The Ascended (Kyrian) covenant, and only appears during a single covenant quest, Piercing the Shell, which is part of the "The Path of Ascension" storyline. It can be found at the southern end of Gormhive.]],
+    [1277] = [[Located in Gormhive, Ardenweald. This gorm is only available to players who join The Ascended (Kyrian) covenant, and only appears during a single covenant quest, Piercing the Shell, which is part of the "The Path of Ascension" storyline. It can be found at the southern end of Gormhive.]],
 
     -- NPCs: 173635
-    [1279] = [[Located in Ardenweald. Shadow Croaker appears randomly at one of at least eight possible locations around the edge of Ardenweald. See this map for known locations, but there are probably more we haven't found yet. It is initially stealthed and very hard to see, but it can be detected on your minimap if you have Track Hidden enabled. If you get too close it will run away and move to a different location. You need to approach just close enough to use a Freezing Trap on it, then tame away!]],
+    [1278] = [[Located in Ardenweald. Shadow Croaker appears randomly at one of at least eight possible locations around the edge of Ardenweald. It is initially stealthed and very hard to see, but it can be detected on your minimap if you have Track Hidden enabled. If you get too close it will run away and move to a different location. You need to approach just close enough to use a Freezing Trap on it, then tame away!]],
 
     -- NPCs: 173834
-    [1280] = [[Located in Chill's Reach. Found during the Necrolord-only quest, A Brokered Deal.]],
+    [1279] = [[Located in Chill's Reach. Found during the Necrolord-only quest, A Brokered Deal.]],
 
     -- NPCs: 173855
-    [1281] = [[Located in Dusky Grotto, Ardenweald. Appears during the Night Fae-only quest Cleansing the Forest, which is offered at renown level 8. These cobras appear later during the Dambala fight and you may need to use Aspect of the Turtle to avoid dying while taming. If you're in a shapeshifted form you'll also need to exit the form first. The quest appears to be phased to Night Fae only, so the Shadow of Dambala can only be tamed by a hunter in that covenant. If you miss out, it may be possible to tame one summoned during another Night Fae player's quest.]],
+    [1280] = [[Located in Dusky Grotto, Ardenweald. Appears during the Night Fae-only quest Cleansing the Forest, which is offered at renown level 8. These cobras appear later during the Dambala fight and you may need to use Aspect of the Turtle to avoid dying while taming. If you're in a shapeshifted form you'll also need to exit the form first. The quest appears to be phased to Night Fae only, so the Shadow of Dambala can only be tamed by a hunter in that covenant. If you miss out, it may be possible to tame one summoned during another Night Fae player's quest.]],
 
     -- NPCs: 173940
-    [1282] = [[Located in Banks of Life, Ardenweald. Found on the small patch of land between the two waterfalls at 48, 21. Spawns during the weekly Necrolord Abominable Stitching quest Asset Extraction, offered by Atticus. It can be seen and tamed by other players.]],
+    [1281] = [[Located in Banks of Life, Ardenweald. Found on the small patch of land between the two waterfalls at 48, 21. Spawns during the weekly Necrolord Abominable Stitching quest Asset Extraction, offered by Atticus. It can be seen and tamed by other players.]],
 
     -- NPCs: 174552
-    [1283] = [[Located in Maldraxxus. Necrolord-only initially. Can be created in the Abomination Stitchyard and summoned by the item, Construct's Best Friend. It will initially spawn as a guardian to the one whom summoned it, but can be released and made into a neutral NPC which can then be tamed.]],
+    [1282] = [[Located in Maldraxxus. Necrolord-only initially. Can be created in the Abomination Stitchyard and summoned by the item, Construct's Best Friend. It will initially spawn as a guardian to the one whom summoned it, but can be released and made into a neutral NPC which can then be tamed.]],
 
     -- NPCs: 175265
-    [1284] = [[Located in Maldraxxus. Found immediately east of The Stitchyard. Should retain its name.]],
+    [1283] = [[Located in Maldraxxus. Found immediately east of The Stitchyard. Should retain its name.]],
 
     -- NPCs: 175478
-    [1285] = [[Located in Maldraxxus. Spawns near the entrance to the House of Rituals and follows the path west to a point south of the House of Eyes.]],
+    [1284] = [[Located in Maldraxxus. Spawns near the entrance to the House of Rituals and follows the path west to a point south of the House of Eyes.]],
 
     -- NPCs: 175811
-    [1286] = [[Located in Desolate Hollow, The Maw. Desolate Hollow is a cave in the Calcis area, with entrance at coordinates ~ 21,39.]],
+    [1285] = [[Located in Desolate Hollow, The Maw. Desolate Hollow is a cave in the Calcis area, with entrance at coordinates ~ 21,39.]],
 
     -- NPCs: 175818, 175819, 175820
-    [1287] = [[Located in Desmotaeron, The Maw. Loses spectral effect upon taming.]],
+    [1286] = [[Located in Desmotaeron, The Maw. Loses spectral effect upon taming.]],
 
     -- NPCs: 175860
-    [1288] = [[Located in Cocyrus, The Maw. Has a unique spectral effect that it, sadly, loses upon being tamed.]],
+    [1287] = [[Located in Cocyrus, The Maw. Has a unique spectral effect that it, sadly, loses upon being tamed.]],
 
     -- NPCs: 176338
-    [1289] = [[Located in Mistveil Tangle, Ardenweald. Occasionally spawns during the world quest, A Night in the Woods. During this quest, the friendly Wild Hunt cycles through six clearings and defeats different attackers. This gorm has a chance of spawning in the south-west clearing, but since encounters can vary between cycles it might take a few rounds before they appear.]],
+    [1288] = [[Located in Mistveil Tangle, Ardenweald. Occasionally spawns during the world quest, A Night in the Woods. During this quest, the friendly Wild Hunt cycles through six clearings and defeats different attackers. This gorm has a chance of spawning in the south-west clearing, but since encounters can vary between cycles it might take a few rounds before they appear.]],
 
     -- NPCs: 177302
-    [1290] = [[Located in Windswept Aerie, Korthia. Found inside the caverns]],
+    [1289] = [[Located in Windswept Aerie, Korthia. Found inside the caverns]],
 
-    -- NPCs: 177334
-    [1291] = [[Located in Gromit Hollow, Korthia. The Gromit Hollow cave system can be entered from the Windswept Aerie. Nyemi was actually added in Patch 9.1, but a bug made her spawn underneath the terrain and she couldn't be reached. She was fixed in Patch 9.1.5.]],
-
-    -- NPCs: 177335, 180524
-    [1292] = [[Located in Gromit Hollow, Korthia. The Gromit Hollow cave system can be entered from the Windswept Aerie.]],
+    -- NPCs: 177334, 177335, 180524
+    [1290] = [[Located in Gromit Hollow, Korthia. The Gromit Hollow cave system can be entered from the Windswept Aerie.]],
 
     -- NPCs: 177336
-    [1293] = [[Located in Gromit Hollow, Korthia. The Gromit Hollow cave system can be entered from the Windswept Aerie. Zelnithop only seems to appear some days, and will be located on a rise at the very back of the cave.]],
+    [1291] = [[Located in Gromit Hollow, Korthia. The Gromit Hollow cave system can be entered from the Windswept Aerie. Zelnithop only seems to appear some days, and will be located on a rise at the very back of the cave.]],
 
     -- NPCs: 177422, 177441, 177442, 177443, 177444, 177445
-    [1294] = [[Located in Helgarde Keep, The Maw.]],
+    [1292] = [[Located in Helgarde Keep, The Maw.]],
 
     -- NPCs: 178050
-    [1295] = [[Located in Dominance Keep, Revendreth. This version of the Loyal Granitefur only appears during the quest, Hunting Huln, which is part of the Patch 9.1 campaign story. It is found on the eastern side of Dominance Keep and is easier to tame while you're not disguised, otherwise it may dispel your disguise and teleport you back to the start before you can finish the tame. The stone variant appears to be much rarer than the other two colours.]],
+    [1293] = [[Located in Dominance Keep, Revendreth. This version of the Loyal Granitefur only appears during the quest, Hunting Huln, which is part of the Patch 9.1 campaign story. It is found on the eastern side of Dominance Keep and is easier to tame while you're not disguised, otherwise it may dispel your disguise and teleport you back to the start before you can finish the tame. The stone variant appears to be much rarer than the other two colours.]],
 
     -- NPCs: 178148, 178149
-    [1296] = [[Located in The Tremaculum, The Maw. Found if a Venthyr Assault is active and the quest Fangcrack's Fan Club is offered (this doesn't happen every time). This is one of the random beasts that Fangcrack may pull out of the portal for you to kill.]],
+    [1294] = [[Located in The Tremaculum, The Maw. Found if a Venthyr Assault is active and the quest Fangcrack's Fan Club is offered (this doesn't happen every time). This is one of the random beasts that Fangcrack may pull out of the portal for you to kill.]],
 
     -- NPCs: 178283
-    [1297] = [[Located in Revendreth. Found on an isolated piece of land that floats off the south-west edge of the zone. You can reach there by flying, but it can also be reached via the Maw when a Venthyr Assault is active, by taking one of the mirrors surrounding the final boss of the Assault.]],
+    [1295] = [[Located in Revendreth. Found on an isolated piece of land that floats off the south-west edge of the zone. You can reach there by flying, but it can also be reached via the Maw when a Venthyr Assault is active, by taking one of the mirrors surrounding the final boss of the Assault.]],
 
     -- NPCs: 178507
-    [1298] = [[Located in Deserted Overlook, Zereth Mortis. Spawns during the quest Knocking On Death's Door. To remain in the phase with it, you need to use a cushion toy, and immediately click on it after clicking on Kbato. You will ride Kbato, but when you hop off you can then interact with the Tarachnid.]],
+    [1296] = [[Located in Deserted Overlook, Zereth Mortis. Spawns during the quest Knocking On Death's Door. To remain in the phase with it, you need to use a cushion toy, and immediately click on it after clicking on Kbato. You will ride Kbato, but when you hop off you can then interact with the Tarachnid.]],
 
     -- NPCs: 178626, 178630
-    [1299] = [[Located in Sanctum of Domination (Raid).]],
+    [1297] = [[Located in Sanctum of Domination (Raid).]],
 
     -- NPCs: 178743
-    [1300] = [[Located in Ardenweald. Only present during the "Battle for Ardenweald" scenario.]],
+    [1298] = [[Located in Ardenweald. Only present during the "Battle for Ardenweald" scenario.]],
 
     -- NPCs: 178937
-    [1301] = [[Located in Ta Repository, Bastion. Only found during the quest, Dead Drop, part of a Broker storyline added in Patch 9.1.]],
+    [1299] = [[Located in Ta Repository, Bastion. Only found during the quest, Dead Drop, part of a Broker storyline added in Patch 9.1.]],
 
     -- NPCs: 178963
-    [1302] = [[Located in The Sepulcher of the First Ones, Zereth Mortis. Found north of the raid entrance.]],
+    [1300] = [[Located in The Sepulcher of the First Ones, Zereth Mortis. Found north of the raid entrance.]],
 
     -- NPCs: 179043
-    [1303] = [[Located in Zereth Mortis. Found in the south-east of the zone, on a rise overlooking the main circular road. It will not be up at the same time as the Overgrown Helicid.]],
+    [1301] = [[Located in Zereth Mortis. Found in the south-east of the zone, on a rise overlooking the main circular road. It will not be up at the same time as the Overgrown Helicid.]],
 
     -- NPCs: 179939
-    [1304] = [[Located in Choral Residium, Zereth Mortis. Found in a cave in the cliffs to the south-east of the Forge of Afterlives. It loses its Maw-corruption effect upon taming.]],
+    [1302] = [[Located in Choral Residium, Zereth Mortis. Found in a cave in the cliffs to the south-east of the Forge of Afterlives. It loses its Maw-corruption effect upon taming.]],
 
     -- NPCs: 180678
-    [1305] = [[Located in Korthia. Found around the northern zone entrance, Keeper's Respite, and the nothern tip of Sanctuary of Guidance.]],
+    [1303] = [[Located in Korthia. Found around the northern zone entrance, Keeper's Respite, and the nothern tip of Sanctuary of Guidance.]],
 
     -- NPCs: 180705, 191509, 191672, 191903, 193925
-    [1306] = [[Located in Scalecracker Keep, The Waking Shores.]],
+    [1304] = [[Located in Scalecracker Keep, The Waking Shores.]],
 
     -- NPCs: 180924
-    [1307] = [[Located in Garudeon's Nest, Zereth Mortis. Summoning Garudeon requires finding three Energizing Leporids in the general area near Garudeon's nest. After feeding the three hatchlings the Leporids, Garudeon will appear.]],
+    [1305] = [[Located in Garudeon's Nest, Zereth Mortis. Summoning Garudeon requires finding three Energizing Leporids in the general area near Garudeon's nest. After feeding the three hatchlings the Leporids, Garudeon will appear.]],
 
     -- NPCs: 181211
-    [1308] = [[Located in House of Plagues, Maldraxxus. Can be found flying around the tops of mushrooms in the north-eastern section of the House of Plagues.]],
+    [1306] = [[Located in House of Plagues, Maldraxxus. Can be found flying around the tops of mushrooms in the north-eastern section of the House of Plagues.]],
 
     -- NPCs: 181212
-    [1309] = [[Located in Citadel of Loyalty, Bastion. Found at limited locations around the Citadel. Two can be found flying by the western edge of the main area and a third can be found sitting on the ground in a plaza further east.]],
+    [1307] = [[Located in Citadel of Loyalty, Bastion. Found at limited locations around the Citadel. Two can be found flying by the western edge of the main area and a third can be found sitting on the ground in a plaza further east.]],
 
     -- NPCs: 181213
-    [1310] = [[Located in The Eternal Forge, Bastion. These non-aggressive mechanical gryphons can be found at at least five locations around the Eternal Forge.]],
+    [1308] = [[Located in The Eternal Forge, Bastion. These non-aggressive mechanical gryphons can be found at at least five locations around the Eternal Forge.]],
 
     -- NPCs: 181359, 181383, 181484
-    [1311] = [[Located in Provis Fauna, Zereth Mortis. It loses its Maw-corruption effect upon taming.]],
+    [1309] = [[Located in Provis Fauna, Zereth Mortis. It loses its Maw-corruption effect upon taming.]],
 
     -- NPCs: 181861
-    [1312] = [[Located in Neltharus (Dungeon).]],
+    [1310] = [[Located in Neltharus (Dungeon).]],
 
     -- NPCs: 182363
-    [1313] = [[Located in Catalyst Gardens, Zereth Mortis. The red and bronze variants of this annelid seem to be far rarer than the other two colours (perhaps only a tenth of the frequency).]],
+    [1311] = [[Located in Catalyst Gardens, Zereth Mortis. The red and bronze variants of this annelid seem to be far rarer than the other two colours (perhaps only a tenth of the frequency).]],
 
     -- NPCs: 183265
-    [1314] = [[Located in Fissured Breach, Zereth Mortis. There appears to only be one NPC with this ID. It is found on the eastern side of Fissured Breach (at roughly 1 o'clock on the zone's circular road), on a pinnacle of rock off the south side of the road.]],
+    [1312] = [[Located in Fissured Breach, Zereth Mortis. There appears to only be one NPC with this ID. It is found on the eastern side of Fissured Breach (at roughly 1 o'clock on the zone's circular road), on a pinnacle of rock off the south side of the road.]],
 
     -- NPCs: 183291
-    [1315] = [[Located in Zereth Mortis. Can be found in at least four locations: One circles around the southeastern area of the zone. Another one flies between the main landmass and the Sepulcher of the First Ones. Another flies between the northern mountains and the center of the zone. Another flies between the center of the zone and the western mountains.]],
+    [1313] = [[Located in Zereth Mortis. Can be found in at least four locations: One circles around the southeastern area of the zone. Another one flies between the main landmass and the Sepulcher of the First Ones. Another flies between the northern mountains and the center of the zone. Another flies between the center of the zone and the western mountains.]],
 
     -- NPCs: 183340, 192351, 192486, 192487
-    [1316] = [[Located in Big Tree Hills, The Azure Span.]],
+    [1314] = [[Located in Big Tree Hills, The Azure Span.]],
 
     -- NPCs: 183610
-    [1317] = [[Located in The Sepulcher of the First Ones, Zereth Mortis. Found outside the raid entrance.]],
+    [1315] = [[Located in The Sepulcher of the First Ones, Zereth Mortis. Found outside the raid entrance.]],
 
     -- NPCs: 183764
-    [1318] = [[Located in Zovaal's Grasp, Zereth Mortis. Initially, Zatojin cannot be attacked. To activate it, you need to accumulate 20 stacks of Paralytic Sting from the nearby Menacing Vespoid Workers.]],
+    [1316] = [[Located in Zovaal's Grasp, Zereth Mortis. Initially, Zatojin cannot be attacked. To activate it, you need to accumulate 20 stacks of Paralytic Sting from the nearby Menacing Vespoid Workers.]],
 
     -- NPCs: 183925
-    [1319] = [[Located in Fissured Breach, Zereth Mortis. Found atop the high cliffs in northern Fissured Breach. In the absence of flying you will need to unlock teleporter points until you can reach it.]],
+    [1317] = [[Located in Fissured Breach, Zereth Mortis. Found atop the high cliffs in northern Fissured Breach. In the absence of flying you will need to unlock teleporter points until you can reach it.]],
 
     -- NPCs: 183984
-    [1320] = [[Located in Bluefeather Cliffs, Thaldraszus. Located in a cave on a terrace above most of the harpy caves in Bluefeather Cliffs. The cave entrance is around 47.5, 71.9. Follow the cave to the very back, where you'll find a goblin named Boomhooch the Lost. If you speak to Boomhooch and offer to rescue him it will induce the Vilomah to spawn.]],
+    [1318] = [[Located in Bluefeather Cliffs, Thaldraszus. Located in a cave on a terrace above most of the harpy caves in Bluefeather Cliffs. The cave entrance is around 47.5, 71.9. Follow the cave to the very back, where you'll find a goblin named Boomhooch the Lost. If you speak to Boomhooch and offer to rescue him it will induce the Vilomah to spawn.]],
 
     -- NPCs: 184023
-    [1321] = [[Located in Uldaman: Legacy of Tyr (Dungeon).]],
+    [1319] = [[Located in Uldaman: Legacy of Tyr (Dungeon).]],
 
     -- NPCs: 184403
-    [1322] = [[Located in The Great Veldt, Zereth Mortis. Summoned by Vexis during combat.]],
+    [1320] = [[Located in The Great Veldt, Zereth Mortis. Summoned by Vexis during combat.]],
 
     -- NPCs: 184804
-    [1323] = [[Located in Untamed Verdure, Zereth Mortis. The Unbroken spawns as a trio of worms, each with a different NPC ID, but only the one with this ID is tameable. They can appear in two colours, and if you're unlucky you may have to kill all of them and wait for respawns until your desired colour appears. Their respawn time is only a few minutes.]],
+    [1321] = [[Located in Untamed Verdure, Zereth Mortis. The Unbroken spawns as a trio of worms, each with a different NPC ID, but only the one with this ID is tameable. They can appear in two colours, and if you're unlucky you may have to kill all of them and wait for respawns until your desired colour appears. Their respawn time is only a few minutes.]],
 
     -- NPCs: 185266
-    [1324] = [[Located in Catalyst Gardens & Plain of Actualization, Zereth Mortis. Can spawn in various locations around Zereth Mortis.]],
+    [1322] = [[Located in Catalyst Gardens & Plain of Actualization, Zereth Mortis. Can spawn in various locations around Zereth Mortis.]],
 
     -- NPCs: 185451
-    [1325] = [[Located in Catalyst Gardens, Zereth Mortis. Upon reaching you, Gardens Avians with this ID will start to rise into the sky and despawn, so start to tame from a distance! A frost trap does not prevent them despawning.]],
+    [1323] = [[Located in Catalyst Gardens, Zereth Mortis. Upon reaching you, Gardens Avians with this ID will start to rise into the sky and despawn, so start to tame from a distance! A frost trap does not prevent them despawning.]],
 
     -- NPCs: 185487
-    [1326] = [[Located in Zereth Mortis. Found in the south-east of the zone, on a rise overlooking the main circular road. It will not be up at the same time as Orixal.]],
+    [1324] = [[Located in Zereth Mortis. Found in the south-east of the zone, on a rise overlooking the main circular road. It will not be up at the same time as Orixal.]],
 
     -- NPCs: 185505
-    [1327] = [[Located in Droning Precipice, Zereth Mortis. Summoned by Feasting during combat.]],
+    [1325] = [[Located in Droning Precipice, Zereth Mortis. Summoned by Feasting during combat.]],
 
     -- NPCs: 185944
-    [1328] = [[Located in Zovaal's Grasp, Zereth Mortis. Summoned by Zatojin during combat.]],
+    [1326] = [[Located in Zovaal's Grasp, Zereth Mortis. Summoned by Zatojin during combat.]],
 
     -- NPCs: 186399
-    [1329] = [[Located in Kauriq Gleamlet, The Azure Span. Spawns during the quest, "Ice Breakers".]],
+    [1327] = [[Located in Kauriq Gleamlet, The Azure Span. Spawns during the quest, "Ice Breakers".]],
 
     -- NPCs: 186622, 195448
-    [1330] = [[Located in Dragonbane Keep, The Waking Shores.]],
+    [1328] = [[Located in Dragonbane Keep, The Waking Shores.]],
 
     -- NPCs: 186684
-    [1331] = [[Located in Scalecracker Keep; Dragonheart Outpost, The Waking Shores.]],
+    [1329] = [[Located in Scalecracker Keep; Dragonheart Outpost, The Waking Shores.]],
 
     -- NPCs: 187111
-    [1332] = [[Located in Wild Coast, The Waking Shores. Found in a cave at the northern end of the Wild Coast.]],
+    [1330] = [[Located in Wild Coast, The Waking Shores. Found in a cave at the northern end of the Wild Coast.]],
 
     -- NPCs: 187336, 187337, 195635
-    [1333] = [[Located in The Flowing Forest, Thaldraszus. Loses Time Effect upon taming.]],
+    [1331] = [[Located in The Flowing Forest, Thaldraszus. Loses Time Effect upon taming.]],
 
     -- NPCs: 187415
-    [1334] = [[Located in Bluefeather Cliffs, Thaldraszus. In the eastern cave.]],
+    [1332] = [[Located in Bluefeather Cliffs, Thaldraszus. In the eastern cave.]],
 
     -- NPCs: 188128
-    [1335] = [[Located in Ohn'ahran Plains. Found in a cave west of Rusza'thar Reach]],
+    [1333] = [[Located in Ohn'ahran Plains. Found in a cave west of Rusza'thar Reach]],
 
     -- NPCs: 189744
-    [1336] = [[Located in Passage of Time, Thaldraszus. The green and white variants make sounds when clicked on, the orange does not.]],
+    [1334] = [[Located in Passage of Time, Thaldraszus. The green and white variants make sounds when clicked on, the orange does not.]],
 
     -- NPCs: 190708
-    [1337] = [[Located in Ohn'ahran Plains. Part of the zone story quest, "Connection to Ohn'ahra". Located at the river ford approximately mid-way between Maruukai and Rusza'thar Reach.]],
+    [1335] = [[Located in Ohn'ahran Plains. Part of the zone story quest, "Connection to Ohn'ahra". Located at the river ford approximately mid-way between Maruukai and Rusza'thar Reach.]],
 
     -- NPCs: 190730
-    [1338] = [[Located in The Azure Span. Just west of Three-Falls Lookout. Spawns during the quest, "Water Safety".]],
+    [1336] = [[Located in The Azure Span. Just west of Three-Falls Lookout. Spawns during the quest, "Water Safety".]],
 
     -- NPCs: 191496
-    [1339] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its lightning effect after taming.]],
+    [1337] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its lightning effect after taming.]],
 
     -- NPCs: 191541
-    [1340] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its lightning effect upon taming.]],
+    [1338] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its lightning effect upon taming.]],
 
     -- NPCs: 191545
-    [1341] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its electrical effect upon taming. The vultures with this ID are on the ground.]],
+    [1339] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its electrical effect upon taming. The vultures with this ID are on the ground.]],
 
     -- NPCs: 191551
-    [1342] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its electrical effect upon taming. The vultures with this ID are flying in the air.]],
+    [1340] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its electrical effect upon taming. The vultures with this ID are flying in the air.]],
 
     -- NPCs: 191621
-    [1343] = [[Located in The Waking Shores. In a cave roughly north of Dragonheart Outpost and south of Scalecracker Keep. Entrance is on the north side of the rocky hill.]],
+    [1341] = [[Located in The Waking Shores. In a cave roughly north of Dragonheart Outpost and south of Scalecracker Keep. Entrance is on the north side of the rocky hill.]],
 
     -- NPCs: 191628
-    [1344] = [[Located in The Waking Shores. Found in several volcanic locations: Burning Ascent, Conservatory Outpost, Scalecracker Keep, and the coast south of Dragonbane Keep.]],
+    [1342] = [[Located in The Waking Shores. Found in several volcanic locations: Burning Ascent, Conservatory Outpost, Scalecracker Keep, and the coast south of Dragonbane Keep.]],
 
     -- NPCs: 191637
-    [1345] = [[Located in The Waking Shores. To the south of Scalecracker Keep.]],
+    [1343] = [[Located in The Waking Shores. To the south of Scalecracker Keep.]],
 
     -- NPCs: 191639
-    [1346] = [[Located in Fluttering Cavern and the waterways north of Dragonheart Outpost, The Waking Shores. The blue butterflies make sounds when clicked on, the red and purple do not.]],
+    [1344] = [[Located in Fluttering Cavern and the waterways north of Dragonheart Outpost, The Waking Shores. The blue butterflies make sounds when clicked on, the red and purple do not.]],
 
     -- NPCs: 191645
-    [1347] = [[Located in The Waking Shores. On the green rise south of Scalecracker Keep, and on the ridges east and south of Hornswog Hollow.]],
+    [1345] = [[Located in The Waking Shores. On the green rise south of Scalecracker Keep, and on the ridges east and south of Hornswog Hollow.]],
 
     -- NPCs: 191647
-    [1348] = [[Located in The Waking Shores. On the green rise south of Scalecracker Keep.]],
+    [1346] = [[Located in The Waking Shores. On the green rise south of Scalecracker Keep.]],
 
     -- NPCs: 191665
-    [1349] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses electrical effect upon taming.]],
+    [1347] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses electrical effect upon taming.]],
 
     -- NPCs: 191678
-    [1350] = [[Located in Emberflow & Scalecracker Keep, The Waking Shores.]],
+    [1348] = [[Located in Emberflow & Scalecracker Keep, The Waking Shores.]],
 
     -- NPCs: 191790
-    [1351] = [[Located in The Waking Shores. Found in battle with Lava Snails at a couple of spots along the coastal inlet in the south-west of the zone - just south of Dragonbane Keep and north of Apex Canopy.]],
+    [1349] = [[Located in The Waking Shores. Found in battle with Lava Snails at a couple of spots along the coastal inlet in the south-west of the zone - just south of Dragonbane Keep and north of Apex Canopy.]],
 
     -- NPCs: 192430
-    [1352] = [[Located in Burning Ascent, The Waking Shores. Located at the very back of a cave in southern Burning Ascent.]],
+    [1350] = [[Located in Burning Ascent, The Waking Shores. Located at the very back of a cave in southern Burning Ascent.]],
 
     -- NPCs: 192739
-    [1353] = [[Located in Azure Archives, The Azure Span. Found on the top platform. Its name changes to "Soothed Wyrm" after you stabilize the platform, but it has the same ID.]],
+    [1351] = [[Located in Azure Archives, The Azure Span. Found on the top platform. Its name changes to "Soothed Wyrm" after you stabilize the platform, but it has the same ID.]],
 
     -- NPCs: 192949, 192950, 192951, 192952
-    [1354] = [[Located in Ohn'ahran Plains. Located in a cave on top of the cliff south of Primordial Vale. The vale is the forest roughly south of Broadhoof Outpost.]],
+    [1352] = [[Located in Ohn'ahran Plains. Located in a cave on top of the cliff south of Primordial Vale. The vale is the forest roughly south of Broadhoof Outpost.]],
 
     -- NPCs: 193063, 195708
-    [1355] = [[Located in Slyvern Plunge, The Azure Span. Loses its purple effect upon taming.]],
+    [1353] = [[Located in Slyvern Plunge, The Azure Span. Loses its purple effect upon taming.]],
 
     -- NPCs: 193139
-    [1356] = [[Located in Dragonbane Keep, The Waking Shores. Found along a lava course to the south of the keep, in the far west of the area.]],
+    [1354] = [[Located in Dragonbane Keep, The Waking Shores. Found along a lava course to the south of the keep, in the far west of the area.]],
 
     -- NPCs: 193177
-    [1357] = [[Located in Apex Canopy, The Waking Shores. Beakers appears rarely and runs circuits around the area. Despite being a named NPC, Beakers can appear in one of two colours - black or white. Like other pets, its colour becomes stable when tamed.]],
+    [1355] = [[Located in Apex Canopy, The Waking Shores. Beakers appears rarely and runs circuits around the area. Despite being a named NPC, Beakers can appear in one of two colours - black or white. Like other pets, its colour becomes stable when tamed.]],
 
     -- NPCs: 193201
-    [1358] = [[Located in Timbertooth Trail, The Azure Span. Not always present. Found on an island in the river, west of the 'N' in Camp Nowhere on the main map. Possibly spawned by attacking the Muckling NPCs.]],
+    [1356] = [[Located in Timbertooth Trail, The Azure Span. Not always present. Found on an island in the river, west of the 'N' in Camp Nowhere on the main map. Possibly spawned by attacking the Muckling NPCs.]],
 
     -- NPCs: 193217
-    [1359] = [[Located in Overflowing Rapids, The Waking Shores. Flies a long path through the area.]],
+    [1357] = [[Located in Overflowing Rapids, The Waking Shores. Flies a long path through the area.]],
 
     -- NPCs: 193236
-    [1360] = [[Located in Restless Wetlands, The Waking Shores. Spawns whenever Gorjo the Crab Shackler is up.]],
+    [1358] = [[Located in Restless Wetlands, The Waking Shores. Spawns whenever Gorjo the Crab Shackler is up.]],
 
     -- NPCs: 193254
-    [1361] = [[Located in Ohn'ahran Plains. Bloodgullet is invisible to you until you click on the Essence of Awakening, which is a pile of purple dust found in a hut at approximately 85.7,20.8 in the Ohn'ahran Plains (on the zone map, it's between the S and T in "TIMBERSTEP"). This gives you an hour-long buff that allows you to see Bloodgullet, who can be found wadering the meadows roughly south-east of the Maruukai flight point and north of the river (around 66.0,43.0).]],
+    [1359] = [[Located in Ohn'ahran Plains. Bloodgullet is invisible to you until you click on the Essence of Awakening, which is a pile of purple dust found in a hut at approximately 85.7,20.8 in the Ohn'ahran Plains (on the zone map, it's between the S and T in "TIMBERSTEP"). This gives you an hour-long buff that allows you to see Bloodgullet, who can be found wadering the meadows roughly south-east of the Maruukai flight point and north of the river (around 66.0,43.0).]],
 
     -- NPCs: 193266
-    [1362] = [[Located in Fluttering Cavern, The Waking Shores. Spawns after you collect a large number of of butterflies for Collector Zik, who is located at the cavern entrance. The entrance to Fluttering Cavern is in the upper rock face of the spur south of Wild Preserve, in the south-west of the zone. Speak to Collector Zik to begin collecting, or if you want some idea of your progress.]],
+    [1360] = [[Located in Fluttering Cavern, The Waking Shores. Spawns after you collect a large number of of butterflies for Collector Zik, who is located at the cavern entrance. The entrance to Fluttering Cavern is in the upper rock face of the spur south of Wild Preserve, in the south-west of the zone. Speak to Collector Zik to begin collecting, or if you want some idea of your progress.]],
 
     -- NPCs: 193427, 193429
-    [1363] = [[Located in Creektooth Den, The Azure Span. Loses the diseased effect upon being tamed.]],
+    [1361] = [[Located in Creektooth Den, The Azure Span. Loses the diseased effect upon being tamed.]],
 
     -- NPCs: 193428
-    [1364] = [[Located in Creektooth Den, The Azure Span. Loses its diseased effect upon being tamed.]],
+    [1362] = [[Located in Creektooth Den, The Azure Span. Loses its diseased effect upon being tamed.]],
 
     -- NPCs: 193521
-    [1365] = [[Located in The Waking Shores; Ohn'aran Plains. Found in the Cliffdrip Cave to the south of Wild Preserve in the Waking Shores, and Clearwater Basin in Ohn'aran Plains.]],
+    [1363] = [[Located in The Waking Shores; Ohn'aran Plains. Found in the Cliffdrip Cave to the south of Wild Preserve in the Waking Shores, and Clearwater Basin in Ohn'aran Plains.]],
 
     -- NPCs: 193596
-    [1366] = [[Located in The Waking Shores. Loses harpoons and anchor after taming.]],
+    [1364] = [[Located in The Waking Shores. Loses harpoons and anchor after taming.]],
 
     -- NPCs: 193723
-    [1367] = [[Located in Ohn'ahran Plains. Found in a cave east of Ohn'iri Springs.]],
+    [1365] = [[Located in Ohn'ahran Plains. Found in a cave east of Ohn'iri Springs.]],
 
     -- NPCs: 193725
-    [1368] = [[Located in Ohn'ahran Plains. Found in a large cave east of Ohn'iri Springs. There are Mossy Armoredons at the entrance.]],
+    [1366] = [[Located in Ohn'ahran Plains. Found in a large cave east of Ohn'iri Springs. There are Mossy Armoredons at the entrance.]],
 
     -- NPCs: 193854
-    [1369] = [[Located in Dragon Isles. There's a chance this beast will appear when you use an Elusive Creature Bait in some watery areas of the Dragon Isles, including The Waking Shores, Ohn'ahran Plains, Thaldraszus, Emerald Dream, and much of Zaralek Cavern (including drier areas). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1367] = [[Located in Dragon Isles. There's a chance this beast will appear when you use an Elusive Creature Bait in some watery areas of the Dragon Isles, including The Waking Shores, Ohn'ahran Plains, Thaldraszus, Emerald Dream, and much of Zaralek Cavern (including drier areas). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 193859
-    [1370] = [[Located in Ohn'ahran Plains; The Waking Shores. There's a chance this beast will appear when you use an Elusive Creature Bait in many parts of the Ohn'ahran Plains and The Waking Shores. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1368] = [[Located in Ohn'ahran Plains; The Waking Shores. There's a chance this beast will appear when you use an Elusive Creature Bait in many parts of the Ohn'ahran Plains and The Waking Shores. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 193861
-    [1371] = [[Located in Dragon Isles. There's a chance this beast will appear when you use an Elusive Creature Bait in areas of the Waking Shores that contain magma flows, or in the magma flows in the west of Zaralek Cavern (just east and below the Zaqali Caldera). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1369] = [[Located in Dragon Isles. There's a chance this beast will appear when you use an Elusive Creature Bait in areas of the Waking Shores that contain magma flows, or in the magma flows in the west of Zaralek Cavern (just east and below the Zaqali Caldera). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 193873
-    [1372] = [[Located in The Waking Shores; The Forbidden Reach. There's a chance this beast will appear when you use an Elusive Creature Bait in some watery areas of The Waking Shores and some coastal areas of The Forbidden Reach. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1370] = [[Located in The Waking Shores; The Forbidden Reach. There's a chance this beast will appear when you use an Elusive Creature Bait in some watery areas of The Waking Shores and some coastal areas of The Forbidden Reach. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 193891
-    [1373] = [[Located in Ohn'ahran Plains; The Azure Span. There's a chance this beast will appear when you use an Elusive Creature Bait in limited areas of the Ohn'ahran Plains and The Azure Span, including Emerald Gardens, Lilac Ramble, Primordial Vale, Cloverwood Hollow, Drake Eye's Pond, and Timbertooth Trail. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1371] = [[Located in Ohn'ahran Plains; The Azure Span. There's a chance this beast will appear when you use an Elusive Creature Bait in limited areas of the Ohn'ahran Plains and The Azure Span, including Emerald Gardens, Lilac Ramble, Primordial Vale, Cloverwood Hollow, Drake Eye's Pond, and Timbertooth Trail. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 193892
-    [1374] = [[Located in The Azure Span; Ohn'ahran Plains. There's a chance this beast will appear when you use an Elusive Creature Bait in The Azure Span and some forested parts of the Ohn'ahran Plains. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1372] = [[Located in The Azure Span; Ohn'ahran Plains. There's a chance this beast will appear when you use an Elusive Creature Bait in The Azure Span and some forested parts of the Ohn'ahran Plains. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 193986
-    [1375] = [[Located in The Azure Span; The Forbidden Reach. There's a chance this beast will appear when you use an Elusive Creature Bait in The Azure Span and the slyvern areas in the west of The Forbidden Reach (just across the water from Morqut Islet). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1373] = [[Located in The Azure Span; The Forbidden Reach. There's a chance this beast will appear when you use an Elusive Creature Bait in The Azure Span and the slyvern areas in the west of The Forbidden Reach (just across the water from Morqut Islet). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 194020
-    [1376] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its electrical effect upon taming.]],
+    [1374] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its electrical effect upon taming.]],
 
     -- NPCs: 194021
-    [1377] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its electrical effect upon taming. Found by cave in the eastern part of Sagecrest Pines.]],
+    [1375] = [[Located in Sagecrest Pines, Ohn'ahran Plains. Loses its electrical effect upon taming. Found by cave in the eastern part of Sagecrest Pines.]],
 
     -- NPCs: 194085
-    [1378] = [[Located in Ohn'ahran Plains; Thaldraszus. There's a chance this beast will appear when you use an Elusive Creature Bait in Thaldraszus and the Ohn'ahran Plains. This bait item can only be crafted and used by players with Dragon Isles Skinning. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1376] = [[Located in Ohn'ahran Plains; Thaldraszus. There's a chance this beast will appear when you use an Elusive Creature Bait in Thaldraszus and the Ohn'ahran Plains. This bait item can only be crafted and used by players with Dragon Isles Skinning. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 194102
-    [1379] = [[Located in The Azure Span. There's a chance this beast will appear when you use an Elusive Creature Bait in The Azure Span. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1377] = [[Located in The Azure Span. There's a chance this beast will appear when you use an Elusive Creature Bait in The Azure Span. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 194103
-    [1380] = [[Located in The Azure Span. There's a chance this beast will appear when a player with Dragon Isles Skinning uses an Elusive Creature Bait right outside the bear cave at Slyvern Plunge in The Azure Span (coords ~ 64.4,30.3). Note that this bear can spawn in any of 5 different colours, and it's also possible for quite a few other Elusive creatures to be summoned to this location, so it may take many, many tries to attract the one you want to tame! Also note that if you've placed 40 points into Bait Mastery (Dragon Isles Skinning specialisation) it's likely you'll first summon a rare Elusive Elder Frigidpelt - which you'll have to kill and skin before anything else has a chance of appearing. While the base cooldown on using the bait is 12 hours, you can reduce it by at least 10 minutes for every creature you skin (this reduction improves as you advance the Mastery skill). So if you go to a good skinning area you might be able to use a new bait in 15 minutes or less. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization and spend at least 10 points of Knowledge in it. It's also important to note that you must spend 20 points in the Mastery subspecialization in order to have a chance of summoning Elites. See Wowhead's Dragon Isles Skinning Guide for an overview of how Skinning (and Elusive Creature Bait) works.]],
+    [1378] = [[Located in The Azure Span. There's a chance this beast will appear when a player with Dragon Isles Skinning uses an Elusive Creature Bait right outside the bear cave at Slyvern Plunge in The Azure Span (coords ~ 64.4,30.3). Note that this bear can spawn in any of 5 different colours, and it's also possible for quite a few other Elusive creatures to be summoned to this location, so it may take many, many tries to attract the one you want to tame! Also note that if you've placed 40 points into Bait Mastery (Dragon Isles Skinning specialisation) it's likely you'll first summon a rare Elusive Elder Frigidpelt - which you'll have to kill and skin before anything else has a chance of appearing. While the base cooldown on using the bait is 12 hours, you can reduce it by at least 10 minutes for every creature you skin (this reduction improves as you advance the Mastery skill). So if you go to a good skinning area you might be able to use a new bait in 15 minutes or less. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization and spend at least 10 points of Knowledge in it. It's also important to note that you must spend 20 points in the Mastery subspecialization in order to have a chance of summoning Elites. See Wowhead's Dragon Isles Skinning Guide for an overview of how Skinning (and Elusive Creature Bait) works.]],
 
     -- NPCs: 194242
-    [1381] = [[Located in The Azure Span. Found in a cave east of Iskaara.]],
+    [1379] = [[Located in The Azure Span. Found in a cave east of Iskaara.]],
 
     -- NPCs: 194489
-    [1382] = [[Located in Drake Eye's Pond, The Azure Span. There's a chance this beast will appear when you use an Elusive Creature Bait around Drake Eye's Pond (coords ~ 23,33). Elusive Rares can only be summoned if you spend 40 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel), and they can normally be killed and skinned just once a day. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1380] = [[Located in Drake Eye's Pond, The Azure Span. There's a chance this beast will appear when you use an Elusive Creature Bait around Drake Eye's Pond (coords ~ 23,33). Elusive Rares can only be summoned if you spend 40 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel), and they can normally be killed and skinned just once a day. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 194568
-    [1383] = [[Located in Ohn'ahran Plains. Spawns during the Grand Hunt event, west of Pinewood Post.]],
+    [1381] = [[Located in Ohn'ahran Plains. Spawns during the Grand Hunt event, west of Pinewood Post.]],
 
     -- NPCs: 194750
-    [1384] = [[Located in Ohn'ahran Plains. Located west of Broadhoof Outpost. Found on the ground, not flying.]],
+    [1382] = [[Located in Ohn'ahran Plains. Located west of Broadhoof Outpost. Found on the ground, not flying.]],
 
     -- NPCs: 195409
-    [1385] = [[Located in Nokhudon Hold, Ohn'ahran Plains. Spawns on top of the forge in the far west of Nokhudon Hold. She only spawns on days when the Aylaag Camp is located at Eaglewatch Outpost (south of Maruukai and west of Cloverwood Hollow).]],
+    [1383] = [[Located in Nokhudon Hold, Ohn'ahran Plains. Spawns on top of the forge in the far west of Nokhudon Hold. She only spawns on days when the Aylaag Camp is located at Eaglewatch Outpost (south of Maruukai and west of Cloverwood Hollow).]],
 
     -- NPCs: 195709
-    [1386] = [[Located in Sylvan Glade, Ohn'ahran Plains. Only appears during the world quest, Low Hanging Fruit.]],
+    [1384] = [[Located in Sylvan Glade, Ohn'ahran Plains. Only appears during the world quest, Low Hanging Fruit.]],
 
     -- NPCs: 196398
-    [1387] = [[Located in Dragonbane Keep, The Waking Shores. Just southwest of Dragonbane Keep.]],
+    [1385] = [[Located in Dragonbane Keep, The Waking Shores. Just southwest of Dragonbane Keep.]],
 
     -- NPCs: 196523
-    [1388] = [[Located in Teerakai, Ohn'ahran Plains. Friendly.]],
+    [1386] = [[Located in Teerakai, Ohn'ahran Plains. Friendly.]],
 
     -- NPCs: 196674
-    [1389] = [[Located in Tyrhold Reservoir, Thaldraszus. Buffleheaded Waterfowl with this ID can be found flying about the reservoir.]],
+    [1387] = [[Located in Tyrhold Reservoir, Thaldraszus. Buffleheaded Waterfowl with this ID can be found flying about the reservoir.]],
 
     -- NPCs: 197914
-    [1390] = [[Located in Ohn'ahran Plains. Summoned by Norbett (Grand Hunt boss) during combat. When he appears, this boss spawns along the river north of Timberstep Outpost.]],
+    [1388] = [[Located in Ohn'ahran Plains. Summoned by Norbett (Grand Hunt boss) during combat. When he appears, this boss spawns along the river north of Timberstep Outpost.]],
 
     -- NPCs: 198313
-    [1391] = [[Located in Lev'al Rock Isle, The Azure Span. Can be found parading around the island with a drake skull on its back. The skull is lost upon taming. Lev'al Rock Isle is located a long distance south-west of the Azure Archives, beyond the fatigue line and close to the southern border of the map.]],
+    [1389] = [[Located in Lev'al Rock Isle, The Azure Span. Can be found parading around the island with a drake skull on its back. The skull is lost upon taming. Lev'al Rock Isle is located a long distance south-west of the Azure Archives, beyond the fatigue line and close to the southern border of the map.]],
 
     -- NPCs: 198314
-    [1392] = [[Located in Lev'al Rock Isle, The Azure Span. Can be found parading around the island with a large vertebra on its back. The vertebra is lost upon taming. Lev'al Rock Isle is located a long distance south-west of the Azure Archives, beyond the fatigue line and close to the southern border of the map.]],
+    [1390] = [[Located in Lev'al Rock Isle, The Azure Span. Can be found parading around the island with a large vertebra on its back. The vertebra is lost upon taming. Lev'al Rock Isle is located a long distance south-west of the Azure Archives, beyond the fatigue line and close to the southern border of the map.]],
 
     -- NPCs: 198428
-    [1393] = [[Located in Thaldraszus. Found in the east of The Temporal Conflux, on a cliff behind the northern side of the main building. The green and white variants make sounds when clicked on, the orange does not.]],
+    [1391] = [[Located in Thaldraszus. Found in the east of The Temporal Conflux, on a cliff behind the northern side of the main building. The green and white variants make sounds when clicked on, the orange does not.]],
 
     -- NPCs: 199194, 199195
-    [1394] = [[Located in Thaldraszus. Located in a cave southeast of Algeth'era.]],
+    [1392] = [[Located in Thaldraszus. Located in a cave southeast of Algeth'era.]],
 
     -- NPCs: 199248
-    [1395] = [[Located in Thaldraszus. Found in a limited range just south-west of Algeth'ar Academy. Only the white variant makes sounds when clicked.]],
+    [1393] = [[Located in Thaldraszus. Found in a limited range just south-west of Algeth'ar Academy. Only the white variant makes sounds when clicked.]],
 
     -- NPCs: 199533
-    [1396] = [[Located in The Lost Atheneum, The Forbidden Reach. Spawns during the quest, "Inheritance".]],
+    [1394] = [[Located in The Lost Atheneum, The Forbidden Reach. Spawns during the quest, "Inheritance".]],
 
     -- NPCs: 199544
-    [1397] = [[Located in Gelikyr Gardens & Tyrhold Reservoir, Thaldraszus. Found on rock ledges half way up the cliff on the east and north-east sides of Tyrhold Reservoir. They respawn quickly, so if the colour you're after isn't present you can just keep taming and releasing gryphons until it appears.]],
+    [1395] = [[Located in Gelikyr Gardens & Tyrhold Reservoir, Thaldraszus. Found on rock ledges half way up the cliff on the east and north-east sides of Tyrhold Reservoir. They respawn quickly, so if the colour you're after isn't present you can just keep taming and releasing gryphons until it appears.]],
 
     -- NPCs: 200450
-    [1398] = [[Located in Suffusion Camp: Frostburn, The Azure Span. Spawns during Fyrakk Assaults.]],
+    [1396] = [[Located in Suffusion Camp: Frostburn, The Azure Span. Spawns during Fyrakk Assaults.]],
 
     -- NPCs: 201579
-    [1399] = [[Located in Molten Crucible, Aberrus, the Shadowed Crucible (Raid). Magmorax can be reached quickly in solo LFR mode by speaking to the NPC, Luka Ferad right next to the stairs inside the Seat of the Aspects and queuing for 'Neltharion's Shadow'. But to reach Magmorax in the regular raid you have to defeat the first six bosses: the first is Kazzara, followed by Amalgamation Chamber and Forgotten Experiments on the left side of the raid, and Assault of the Zaqali and Rashok, the Elder on the right (it doesn't matter if you go left or right first). The doors to Zskarn (centre, top) will now be unlocked. After defeating Zskarn you can drop down through a slot in the balcony floor to the magma below. Kill all the Voracious Magma Worms surrounding the central platform to activate Magmorax. Note that this boss will respawn very soon after taming, so you can tame another, or kill it! It's possible that using the raid skip will prevent you reaching this boss.]],
+    [1397] = [[Located in Molten Crucible, Aberrus, the Shadowed Crucible (Raid). Magmorax can be reached quickly in solo LFR mode by speaking to the NPC, Luka Ferad right next to the stairs inside the Seat of the Aspects and queuing for 'Neltharion's Shadow'. But to reach Magmorax in the regular raid you have to defeat the first six bosses: the first is Kazzara, followed by Amalgamation Chamber and Forgotten Experiments on the left side of the raid, and Assault of the Zaqali and Rashok, the Elder on the right (it doesn't matter if you go left or right first). The doors to Zskarn (centre, top) will now be unlocked. After defeating Zskarn you can drop down through a slot in the balcony floor to the magma below. Kill all the Voracious Magma Worms surrounding the central platform to activate Magmorax. Note that this boss will respawn very soon after taming, so you can tame another, or kill it! It's possible that using the raid skip will prevent you reaching this boss.]],
 
     -- NPCs: 202317
-    [1400] = [[Located in Sulfur Wastes, Zaralek Cavern. Can spawn during the Researchers Under Fire event, during the "Neutralizing the Contaminant" and "Hostile Investigators" phases. You'll have to be quick and tame it before others doing the event grab threat.]],
+    [1398] = [[Located in Sulfur Wastes, Zaralek Cavern. Can spawn during the Researchers Under Fire event, during the "Neutralizing the Contaminant" and "Hostile Investigators" phases. You'll have to be quick and tame it before others doing the event grab threat.]],
 
     -- NPCs: 202339, 202341
-    [1401] = [[Located in Zul'Gurub (Dungeon). Found throughout the instance.]],
+    [1399] = [[Located in Zul'Gurub (Dungeon). Found throughout the instance.]],
 
     -- NPCs: 202506
-    [1402] = [[Located in Caldera of the Menders, The Forbidden Reach. There's a chance this beast will appear when you use an Elusive Creature Bait at the Caldera of the Menders in The Forbidden Reach. Note that if you have your Bait Mastery subspecialisation maxxed you'll summon an Elusive Auric Argali which you'll need to kill and skin before you can summon this beast. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1400] = [[Located in Caldera of the Menders, The Forbidden Reach. There's a chance this beast will appear when you use an Elusive Creature Bait at the Caldera of the Menders in The Forbidden Reach. Note that if you have your Bait Mastery subspecialisation maxxed you'll summon an Elusive Auric Argali which you'll need to kill and skin before you can summon this beast. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 202510
-    [1403] = [[Located in Caldera of the Menders, The Forbidden Reach. There's a chance this beast will appear when you use an Elusive Creature Bait at the Caldera of the Menders in The Forbidden Reach. Note that if you've placed 40 points into Bait Mastery (Dragon Isles Skinning) it's likely you'll first summon an Elusive Auric Argali - which you'll have to kill and skin before you can summon anything else. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1401] = [[Located in Caldera of the Menders, The Forbidden Reach. There's a chance this beast will appear when you use an Elusive Creature Bait at the Caldera of the Menders in The Forbidden Reach. Note that if you've placed 40 points into Bait Mastery (Dragon Isles Skinning) it's likely you'll first summon an Elusive Auric Argali - which you'll have to kill and skin before you can summon anything else. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 203342, 203343
-    [1404] = [[Located in The Crystal Fields, Zaralek Cavern. Found in a cave in western Crystal Fields.]],
+    [1402] = [[Located in The Crystal Fields, Zaralek Cavern. Found in a cave in western Crystal Fields.]],
 
     -- NPCs: 203348
-    [1405] = [[Located in Zaralek Cavern. Found in a cave in western Crystal Fields.]],
+    [1403] = [[Located in Zaralek Cavern. Found in a cave in western Crystal Fields.]],
 
     -- NPCs: 203625
-    [1406] = [[Located in Zaralek Cavern. Found north of Glimmerogg. Rares in Zaralek Cavern do not spawn every day, and don't even begin to spawn until the zone has been loaded for at least half an hour.]],
+    [1404] = [[Located in Zaralek Cavern. Found north of Glimmerogg. Rares in Zaralek Cavern do not spawn every day, and don't even begin to spawn until the zone has been loaded for at least half an hour.]],
 
     -- NPCs: 203734
-    [1407] = [[Located in The War Creche, The Forbidden Reach. Found in the first of the smaller chambers south-west of the main chamber (Earth Warder's Cauldron) in the War Creche, as well as the corridor between the two smaller chambers. The entrance to these areas is elevated and can be reached via a Spellsworn Gateway on the western side of the main chamber. The entrance to the War Creche is in the Old Weyrn Grounds and is marked on the main map.]],
+    [1405] = [[Located in The War Creche, The Forbidden Reach. Found in the first of the smaller chambers south-west of the main chamber (Earth Warder's Cauldron) in the War Creche, as well as the corridor between the two smaller chambers. The entrance to these areas is elevated and can be reached via a Spellsworn Gateway on the western side of the main chamber. The entrance to the War Creche is in the Old Weyrn Grounds and is marked on the main map.]],
 
     -- NPCs: 204311, 204316
-    [1408] = [[Located in Sulfur Wastes, Zaralek Cavern. Can spawn during the Researchers Under Fire event, during the "Affected Wildlife" phase. You'll have to be quick and tame it before others doing the event grab threat.]],
+    [1406] = [[Located in Sulfur Wastes, Zaralek Cavern. Can spawn during the Researchers Under Fire event, during the "Affected Wildlife" phase. You'll have to be quick and tame it before others doing the event grab threat.]],
 
     -- NPCs: 204435
-    [1409] = [[Located in Mysterious Cave, Zaralek Cavern. Can be found during the Sniffenseek dig, "Thieving Critters". Spawns when you click on the 'Wriggling Webs' in the northern branch of the tunnels. Note that taming this spider (instead of killing it for the key) will temporarily delay completion of the dig, but it's possible for new webs to spawn (leaving and re-entering the dig may help reset them).]],
+    [1407] = [[Located in Mysterious Cave, Zaralek Cavern. Can be found during the Sniffenseek dig, "Thieving Critters". Spawns when you click on the 'Wriggling Webs' in the northern branch of the tunnels. Note that taming this spider (instead of killing it for the key) will temporarily delay completion of the dig, but it's possible for new webs to spawn (leaving and re-entering the dig may help reset them).]],
 
     -- NPCs: 204611
-    [1410] = [[Located in Fanged Pasture, Zaralek Cavern. Spawns during the quest, "Agrulculture".]],
+    [1408] = [[Located in Fanged Pasture, Zaralek Cavern. Spawns during the quest, "Agrulculture".]],
 
     -- NPCs: 204825
-    [1411] = [[Located in Zaralek Cavern. There's a chance this beast will appear when you use an Elusive Creature Bait in the magma and sulfur areas in the central west of Zaralek Cavern (the low areas east of Zaqali Caldera). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1409] = [[Located in Zaralek Cavern. There's a chance this beast will appear when you use an Elusive Creature Bait in the magma and sulfur areas in the central west of Zaralek Cavern (the low areas east of Zaqali Caldera). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 204828
-    [1412] = [[Located in Zaralek Cavern. There's a chance this beast will appear when you use an Elusive Creature Bait in the magma and sulfur areas in the central west of Zaralek Cavern (the low areas east of Zaqali Caldera). To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1410] = [[Located in Zaralek Cavern. There's a chance this beast will appear when you use an Elusive Creature Bait in the magma and sulfur areas in the central west of Zaralek Cavern (the low areas east of Zaqali Caldera). To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 204837
-    [1413] = [[Located in Zaralek Cavern. There's a chance this beast will appear when you use an Elusive Creature Bait in Zaralek Cavern, except for the extreme western and northern parts. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1411] = [[Located in Zaralek Cavern. There's a chance this beast will appear when you use an Elusive Creature Bait in Zaralek Cavern, except for the extreme western and northern parts. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 204839
-    [1414] = [[Located in Zaralek Cavern. There's a chance this beast will appear when you use an Elusive Creature Bait in Zaralek Cavern, except for the extreme western and northern parts. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1412] = [[Located in Zaralek Cavern. There's a chance this beast will appear when you use an Elusive Creature Bait in Zaralek Cavern, except for the extreme western and northern parts. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 205001
-    [1415] = [[Located in Mysterious Cave, Zaralek Cavern. To find this pet, you first need to reach renown 9 with Loamm Niffen so that you gain "Myrrit Affinity". Once you've done so, you can spawn Treasurewhiskers during a Sniffenseek dig. In the dig caverns, command Myrrit to use his Sniff ability. If he detects an unusual patch of scent, you can burrow and uncover it, possibly revealing Treasurewhiskers. As this mouse can spawn as either purple or gold - and gold is MUCH rarer - there's a chance you may not get the colour you desire first time.]],
+    [1413] = [[Located in Mysterious Cave, Zaralek Cavern. To find this pet, you first need to reach renown 9 with Loamm Niffen so that you gain "Myrrit Affinity". Once you've done so, you can spawn Treasurewhiskers during a Sniffenseek dig. In the dig caverns, command Myrrit to use his Sniff ability. If he detects an unusual patch of scent, you can burrow and uncover it, possibly revealing Treasurewhiskers. As this mouse can spawn as either purple or gold - and gold is MUCH rarer - there's a chance you may not get the colour you desire first time.]],
 
     -- NPCs: 205300
-    [1416] = [[Located in Mysterious Cave, Zaralek Cavern. Can be found during the Sniffenseek dig, "Vertical Anomaly".]],
+    [1414] = [[Located in Mysterious Cave, Zaralek Cavern. Can be found during the Sniffenseek dig, "Vertical Anomaly".]],
 
     -- NPCs: 205763
-    [1417] = [[Located in The Flowing Forest, Thaldraszus. Located on a small, green rise on the north-west side of the Temporal Conflux. It seems to be linked to the daily quest Squeaky Toy of Time and Space from the Everywhen Inn at Eon's Fringe.]],
+    [1415] = [[Located in The Flowing Forest, Thaldraszus. Located on a small, green rise on the north-west side of the Temporal Conflux. It seems to be linked to the daily quest Squeaky Toy of Time and Space from the Everywhen Inn at Eon's Fringe.]],
 
     -- NPCs: 206073
-    [1418] = [[Located in Winterpelt Hollow, The Azure Span. Found in the north-east of the Azure Span, along a frozen waterway just south of the 'RA' in 'THALDRASZUS' on the zone map. These ducks are the objective of the daily quest, Fowl Beasts, offered by Nathanos Marris in the Everywhen Inn, on the cliff by Eon's Fringe and the Temporal Conflux in Thaldrazsus.]],
+    [1416] = [[Located in Winterpelt Hollow, The Azure Span. Found in the north-east of the Azure Span, along a frozen waterway just south of the 'RA' in 'THALDRASZUS' on the zone map. These ducks are the objective of the daily quest, Fowl Beasts, offered by Nathanos Marris in the Everywhen Inn, on the cliff by Eon's Fringe and the Temporal Conflux in Thaldrazsus.]],
 
     -- NPCs: 206094
-    [1419] = [[Located in Stillstone Pond & Light's Blooming, Hallowfall. Can spawn when you destroy a Threadling Egg.]],
+    [1417] = [[Located in Stillstone Pond & Light's Blooming, Hallowfall. Can spawn when you destroy a Threadling Egg.]],
 
     -- NPCs: 206180
-    [1420] = [[Located in Little Scales Daycare, Valdrakken, Thaldraszus. You can spawn this spectral spider during the Off the Page daily quest at Little Scales Daycare in Valdrakken. Daily quests in this area are only available after you unlock them by completing the "Whelp Daycare" storyline (added in Patch 10.1.5) up to the quest: What's a Duck?. The 'Off the Page' daily only appears every now and then, so you'll most likely have to keep checking for it. During this quest, you read from a storybook and summon a random NPC. You need for Osthilde to appear, as she's the one who summons Death Skitterers in combat, otherwise you can feign death and the NPC will despawn after about 10 seconds and you can try again (if you keep a small distance from the spawning NPC it's possible to avoid aggroing it so it'll despawn after about 10 seconds anyway!) You may have to fight Osthilde for a while before the Death Skitterers spawn, so beware of killing her too quickly. Note that if you haven't unlocked the Daycare dailies yet, it's possible to get someone else to do the summon, as the quest isn't phased.]],
+    [1418] = [[Located in Little Scales Daycare, Valdrakken, Thaldraszus. You can spawn this spectral spider during the Off the Page daily quest at Little Scales Daycare in Valdrakken. Daily quests in this area are only available after you unlock them by completing the "Whelp Daycare" storyline (added in Patch 10.1.5) up to the quest: What's a Duck?. The 'Off the Page' daily only appears every now and then, so you'll most likely have to keep checking for it. During this quest, you read from a storybook and summon a random NPC. You need for Osthilde to appear, as she's the one who summons Death Skitterers in combat, otherwise you can feign death and the NPC will despawn after about 10 seconds and you can try again (if you keep a small distance from the spawning NPC it's possible to avoid aggroing it so it'll despawn after about 10 seconds anyway!) You may have to fight Osthilde for a while before the Death Skitterers spawn, so beware of killing her too quickly. Note that if you haven't unlocked the Daycare dailies yet, it's possible to get someone else to do the summon, as the quest isn't phased.]],
 
     -- NPCs: 207072
-    [1421] = [[Located in Sor'theril Barrow Den, The Emerald Dream. Its orange flame aura is lost upon taming. The entry to Sor'theril Barrow Den is on the south-eastern side of Haven Cascades.]],
+    [1419] = [[Located in Sor'theril Barrow Den, The Emerald Dream. Its orange flame aura is lost upon taming. The entry to Sor'theril Barrow Den is on the south-eastern side of Haven Cascades.]],
 
     -- NPCs: 207300
-    [1422] = [[Located in Thaldraszus. Only appears during the once-off quest, Cavern Cleaning, which is part of the quest chain to recruit the Netherwing Dragonflight, added in Patch 10.2. Found in caverns high up in the mountains on the north side of the Shifting Sands / Temporal Conflux area.]],
+    [1420] = [[Located in Thaldraszus. Only appears during the once-off quest, Cavern Cleaning, which is part of the quest chain to recruit the Netherwing Dragonflight, added in Patch 10.2. Found in caverns high up in the mountains on the north side of the Shifting Sands / Temporal Conflux area.]],
 
     -- NPCs: 207625
-    [1423] = [[Located in Barrows of Reverie, The Emerald Dream. Only appears during the world quest, Dryad Fire Drill. Its orange flame aura is lost upon taming.]],
+    [1421] = [[Located in Barrows of Reverie, The Emerald Dream. Only appears during the world quest, Dryad Fire Drill. Its orange flame aura is lost upon taming.]],
 
     -- NPCs: 207626
-    [1424] = [[Located in The Emerald Dream. Found around waters just north of Amirdrassil. The lighter yellow variant does not make sounds when clicked.]],
+    [1422] = [[Located in The Emerald Dream. Found around waters just north of Amirdrassil. The lighter yellow variant does not make sounds when clicked.]],
 
     -- NPCs: 207789
-    [1425] = [[Located in Root-Bound Sanctuary, The Emerald Dream. Its purple aura is lost upon taming.]],
+    [1423] = [[Located in Root-Bound Sanctuary, The Emerald Dream. Its purple aura is lost upon taming.]],
 
     -- NPCs: 209909, 210106
-    [1426] = [[Located in The Emerald Dream. Found under a large, arching tree root just east of Shoreline Roots and south of Shallow Crossing.]],
+    [1424] = [[Located in The Emerald Dream. Found under a large, arching tree root just east of Shoreline Roots and south of Shallow Crossing.]],
 
     -- NPCs: 209929
-    [1427] = [[Located in Shiversnap Grove, The Emerald Dream. When the Envoy is ready to appear, a silver quest icon will appear on the zone map at its location in Shiversnap Grove. Players can summon it by collecting and handing in Shiversnap Blossoms. If you tame it, it appears a new one will spawn soon after!]],
+    [1425] = [[Located in Shiversnap Grove, The Emerald Dream. When the Envoy is ready to appear, a silver quest icon will appear on the zone map at its location in Shiversnap Grove. Players can summon it by collecting and handing in Shiversnap Blossoms. If you tame it, it appears a new one will spawn soon after!]],
 
     -- NPCs: 209936
-    [1428] = [[Located in Haven Cascades, The Emerald Dream. When she's ready to be spawned a silver quest icon will appear on the zone map at her location in the south of Haven Cascades. To get her to appear: collect picnic ingredients from around the area and deposit them in the baskets until the fill bar is complete. Once summoned, she rampages about the area.]],
+    [1426] = [[Located in Haven Cascades, The Emerald Dream. When she's ready to be spawned a silver quest icon will appear on the zone map at her location in the south of Haven Cascades. To get her to appear: collect picnic ingredients from around the area and deposit them in the baskets until the fill bar is complete. Once summoned, she rampages about the area.]],
 
     -- NPCs: 210045, 210848
-    [1429] = [[Located in Whorlwing Basin, The Emerald Dream. Found in the cavern beneath the large tree in the south of the area.]],
+    [1427] = [[Located in Whorlwing Basin, The Emerald Dream. Found in the cavern beneath the large tree in the south of the area.]],
 
     -- NPCs: 210051
-    [1430] = [[Located in The Emerald Dream. Found in the south-west, in a cave inland from Summerjoy Shoal.]],
+    [1428] = [[Located in The Emerald Dream. Found in the south-west, in a cave inland from Summerjoy Shoal.]],
 
     -- NPCs: 210070
-    [1431] = [[Located in Meandering Rootlands, The Emerald Dream. Found in a cave in the side of a cliff that is reached from Haven Cascades, to the west of the Rootlands.]],
+    [1429] = [[Located in Meandering Rootlands, The Emerald Dream. Found in a cave in the side of a cliff that is reached from Haven Cascades, to the west of the Rootlands.]],
 
     -- NPCs: 210075
-    [1432] = [[Located in Haven Cascades, The Emerald Dream. In a cave on the western side of the falls area.]],
+    [1430] = [[Located in Haven Cascades, The Emerald Dream. In a cave on the western side of the falls area.]],
 
     -- NPCs: 210395, 210397
-    [1433] = [[Located in Bloodmyst Isle. It can be found in can be found in Bloodmyst Isle during the Draenei Heritage Armor Questline.]],
+    [1431] = [[Located in Bloodmyst Isle. It can be found in can be found in Bloodmyst Isle during the Draenei Heritage Armor Questline.]],
 
     -- NPCs: 210478
-    [1434] = [[Located in Mycomancer Cavern (Delve); Fungal Folly (Delve).]],
+    [1432] = [[Located in Mycomancer Cavern (Delve); Fungal Folly (Delve).]],
 
     -- NPCs: 210508
-    [1435] = [[Located in Springrain River, The Emerald Dream. Found in a cave by the watercourse.]],
+    [1433] = [[Located in Springrain River, The Emerald Dream. Found in a cave by the watercourse.]],
 
     -- NPCs: 210795
-    [1436] = [[Located in Singing Fen & Meandering Rootlands, The Emerald Dream. The lighter yellow variant does not make sounds when clicked.]],
+    [1434] = [[Located in Singing Fen & Meandering Rootlands, The Emerald Dream. The lighter yellow variant does not make sounds when clicked.]],
 
     -- NPCs: 210868
-    [1437] = [[Located in The Emerald Dream. Sul'raka is a tracking tame. She is stealthed and can't be detected or tamed without using a flare in her vicinity, but she also leaves footprints that last for a little while and you can use them to track and find her location. We're currently trying to work out her path.]],
+    [1435] = [[Located in The Emerald Dream. Sul'raka is a tracking tame. She is stealthed and can't be detected or tamed without using a flare in her vicinity, but she also leaves footprints that last for a little while and you can use them to track and find her location.]],
 
     -- NPCs: 210882
-    [1438] = [[Located in Springrain River, The Emerald Dream. Can spawn and attack during the World Quest, Carpe Diem.]],
+    [1436] = [[Located in Springrain River, The Emerald Dream. Can spawn and attack during the World Quest, Carpe Diem.]],
 
     -- NPCs: 210908
-    [1439] = [[Located in Amirdrassil, The Emerald Dream. Nah'qi flies counterclockwise around Amirdrassil, but very high up, just below the tree's canopy. She isn't flagged as a rare, so you won't see a rare marker on your map. Taming this unique owl requires a special skill which is taught by the Cinder of Companionship. The Cinder is awarded when you learn the mount item Reins of Anu'relos, Flame's Guidance which is a rare drop from Mythic Fyrakk in the Amirdrassil raid. Using the Cinder creates an account-wide unlock for you to tame Nah'qi, so you don't have to specifically obtain it on your hunter.]],
+    [1437] = [[Located in Amirdrassil, The Emerald Dream. Nah'qi flies counterclockwise around Amirdrassil, but very high up, just below the tree's canopy. She isn't flagged as a rare, so you won't see a rare marker on your map. Taming this unique owl requires a special skill which is taught by the Cinder of Companionship. The Cinder is awarded when you learn the mount item Reins of Anu'relos, Flame's Guidance which is a rare drop from Mythic Fyrakk in the Amirdrassil raid. Using the Cinder creates an account-wide unlock for you to tame Nah'qi, so you don't have to specifically obtain it on your hunter.]],
 
     -- NPCs: 210953
-    [1440] = [[Located in Root-Bound Sanctuary, The Emerald Dream. Found in a cave on a high rise by the sea.]],
+    [1438] = [[Located in Root-Bound Sanctuary, The Emerald Dream. Found in a cave on a high rise by the sea.]],
 
     -- NPCs: 210981, 210982, 210983
-    [1441] = [[Located in Sprigling Gloam, The Emerald Dream. Liliuna initially appears as an untameable regular dreamsaber and turning her into a tameable thornclaw requires a small adventure. Firstly, obtain a Thorn-Laden Heart, which has a low chance of dropping from dreamsabers and flamecats in the Emerald Dream zone in the Dragon Isles (this heart will mention 'saber' in its description - there are also stag and bear versions, but they're for taming other thornbeasts). Once you have the heart, proceed to Drustvar in Kul Tiras and visit Athainne who is sometimes found in Ulfar's Den in the mountains far south-west of Fallhaven (approx. 46,45), and sometimes she wanders along the river below the den (around 52,40) with Athair. If she's not present in either location then you may have to wait - her schedule is unpredictable and it's also possible she disappears completely during daylight hours. Present the heart to her and she'll give you some Moontouched Thorns. Then speak to Ulfar, select his 'I have seen some animals...' dialog, then the dialog about Athainne, and he'll give you a Thornspeaker Ritual Knife. With the knife, proceed to Liliuna's cave at 57,49 in Sprigling Gloam in the Emerald Dream. If Liliuna isn't present (as a dreamsaber), wait a little while and she should appear. Her colour will determine which thornclaw you'll end up with: if she's initially a blue dreamsaber she'll turn into a pale thornclaw, purple becomes black, and teal green becomes green, so you may need to kill and reset her if she's not currently in the colour you need. After you kill her as a saber, use the ritual knife on her corpse and she'll resurrect as a thornclaw which you can tame!]],
+    [1439] = [[Located in Sprigling Gloam, The Emerald Dream. Liliuna initially appears as an untameable regular dreamsaber and turning her into a tameable thornclaw requires a small adventure. Firstly, obtain a Thorn-Laden Heart, which has a low chance of dropping from dreamsabers and flamecats in the Emerald Dream zone in the Dragon Isles (this heart will mention 'saber' in its description - there are also stag and bear versions, but they're for taming other thornbeasts). Once you have the heart, proceed to Drustvar in Kul Tiras and visit Athainne who is sometimes found in Ulfar's Den in the mountains far south-west of Fallhaven (approx. 46,45), and sometimes she wanders along the river below the den (around 52,40) with Athair. If she's not present in either location then you may have to wait - her schedule is unpredictable and it's also possible she disappears completely during daylight hours. Present the heart to her and she'll give you some Moontouched Thorns. Then speak to Ulfar, select his 'I have seen some animals...' dialog, then the dialog about Athainne, and he'll give you a Thornspeaker Ritual Knife. With the knife, proceed to Liliuna's cave at 57,49 in Sprigling Gloam in the Emerald Dream. If Liliuna isn't present (as a dreamsaber), wait a little while and she should appear. Her colour will determine which thornclaw you'll end up with: if she's initially a blue dreamsaber she'll turn into a pale thornclaw, purple becomes black, and teal green becomes green, so you may need to kill and reset her if she's not currently in the colour you need. After you kill her as a saber, use the ritual knife on her corpse and she'll resurrect as a thornclaw which you can tame!]],
 
     -- NPCs: 210984, 210985, 210986
-    [1442] = [[Located in The Emerald Dream. Argyr initially appears as an untameable regular dreamstag and turning him into a tameable thornbuck requires a small adventure. Firstly, obtain a Thorn-Laden Heart, which has a low chance of dropping from stags in the Emerald Dream zone in the Dragon Isles (this heart will mention 'stag' in its description - there are also bear and saber versions, but they're for taming other thornbeasts). Once you have the heart, proceed to Drustvar in Kul Tiras and visit Athainne who is sometimes found in Ulfar's Den in the mountains far south-west of Fallhaven (approx. 46,45), and sometimes she wanders along the river below the den (around 52,40) with Athair. If she's not present in either location then you may have to wait - her schedule is unpredictable and it's also possible she disappears completely during daylight hours. Present the heart to her and she'll give you some Moontouched Thorns. Then speak to Ulfar, select his 'I have seen some animals...' dialog, then the dialog about Athainne, and he'll give you a Thornspeaker Ritual Knife. With the knife, proceed to a glade just south-west of Amirdrassil (44,64) in the Emerald Dream and look for a dreamstag named Argyr. He wanders back and forth a bit, so check the general area, but if you can't see him, wait a little while and he should respawn. His colour will determine which thornbuck you'll end up with: if he's initially a dark brown dreamstag he'll turn into a black thornbuck, golden brown becomes brown, and green & tan becomes green, so you may need to kill and reset him if he's not currently in the colour you need. After you kill him as a stag, use the ritual knife on his corpse and he'll resurrect as a thornbuck which you can tame!]],
+    [1440] = [[Located in The Emerald Dream. Argyr initially appears as an untameable regular dreamstag and turning him into a tameable thornbuck requires a small adventure. Firstly, obtain a Thorn-Laden Heart, which has a low chance of dropping from stags in the Emerald Dream zone in the Dragon Isles (this heart will mention 'stag' in its description - there are also bear and saber versions, but they're for taming other thornbeasts). Once you have the heart, proceed to Drustvar in Kul Tiras and visit Athainne who is sometimes found in Ulfar's Den in the mountains far south-west of Fallhaven (approx. 46,45), and sometimes she wanders along the river below the den (around 52,40) with Athair. If she's not present in either location then you may have to wait - her schedule is unpredictable and it's also possible she disappears completely during daylight hours. Present the heart to her and she'll give you some Moontouched Thorns. Then speak to Ulfar, select his 'I have seen some animals...' dialog, then the dialog about Athainne, and he'll give you a Thornspeaker Ritual Knife. With the knife, proceed to a glade just south-west of Amirdrassil (44,64) in the Emerald Dream and look for a dreamstag named Argyr. He wanders back and forth a bit, so check the general area, but if you can't see him, wait a little while and he should respawn. His colour will determine which thornbuck you'll end up with: if he's initially a dark brown dreamstag he'll turn into a black thornbuck, golden brown becomes brown, and green & tan becomes green, so you may need to kill and reset him if he's not currently in the colour you need. After you kill him as a stag, use the ritual knife on his corpse and he'll resurrect as a thornbuck which you can tame!]],
 
     -- NPCs: 210988, 210989, 210990
-    [1443] = [[Located in Springrain River, The Emerald Dream. Astera initially appears as an untameable dream bear and turning her into a tameable thornbear requires a small adventure. Firstly, obtain a Thorn-Laden Heart, which has a low chance of dropping from bears in the Emerald Dream zone in the Dragon Isles (this heart will mention 'bear' in its description - there are also stag and saber versions, but they're for taming other thornbeasts). Once you have the heart, proceed to Drustvar in Kul Tiras and visit Athainne who is sometimes found in Ulfar's Den in the mountains far south-west of Fallhaven (approx. 46,45), and sometimes she wanders along the river below the den (around 52,40) with Athair. If she's not present in either location then you may have to wait - her schedule is unpredictable and it's also possible she disappears completely during daylight hours. Present the heart to her and she'll give you some Moontouched Thorns. Then speak to Ulfar, select his 'I have seen some animals...' dialog, then the dialog about Athainne, and he'll give you a Thornspeaker Ritual Knife. With the knife, proceed to the banks of the Springrain River, west of Amirdrassil in the Emerald Dream and look for a dreambear named Displaced Bristlebruin. She should be sleeping on some grass on the south bank of the river at 37,62 (near a cave with a pair of Invasive Podlings). Her colour will determine which thornbear you'll end up with: if she's initially a dark brown dream bear she'll turn into a dark thornbear, golden brown becomes brown, and green & brown becomes green, so you may need to kill and reset her if she's not currently in the colour you need. After you kill her as a bear, use the ritual knife on her corpse and she'll resurrect as a thornbear which you can tame!]],
+    [1441] = [[Located in Springrain River, The Emerald Dream. Astera initially appears as an untameable dream bear and turning her into a tameable thornbear requires a small adventure. Firstly, obtain a Thorn-Laden Heart, which has a low chance of dropping from bears in the Emerald Dream zone in the Dragon Isles (this heart will mention 'bear' in its description - there are also stag and saber versions, but they're for taming other thornbeasts). Once you have the heart, proceed to Drustvar in Kul Tiras and visit Athainne who is sometimes found in Ulfar's Den in the mountains far south-west of Fallhaven (approx. 46,45), and sometimes she wanders along the river below the den (around 52,40) with Athair. If she's not present in either location then you may have to wait - her schedule is unpredictable and it's also possible she disappears completely during daylight hours. Present the heart to her and she'll give you some Moontouched Thorns. Then speak to Ulfar, select his 'I have seen some animals...' dialog, then the dialog about Athainne, and he'll give you a Thornspeaker Ritual Knife. With the knife, proceed to the banks of the Springrain River, west of Amirdrassil in the Emerald Dream and look for a dreambear named Displaced Bristlebruin. She should be sleeping on some grass on the south bank of the river at 37,62 (near a cave with a pair of Invasive Podlings). Her colour will determine which thornbear you'll end up with: if she's initially a dark brown dream bear she'll turn into a dark thornbear, golden brown becomes brown, and green & brown becomes green, so you may need to kill and reset her if she's not currently in the colour you need. After you kill her as a bear, use the ritual knife on her corpse and she'll resurrect as a thornbear which you can tame!]],
 
     -- NPCs: 211176
-    [1444] = [[Located in The Emerald Dream. Found in the south-west, flying above the glades north-east of Summerjoy Shoal.]],
+    [1442] = [[Located in The Emerald Dream. Found in the south-west, flying above the glades north-east of Summerjoy Shoal.]],
 
     -- NPCs: 211651, 211755
-    [1445] = [[Located in Eye of Ysera, The Emerald Dream. Appears in several locations around the main hovering island of the Eye of Ysera during the Emerald Dream campaign quest, Might of the Forest.]],
+    [1443] = [[Located in Eye of Ysera, The Emerald Dream. Appears in several locations around the main hovering island of the Eye of Ysera during the Emerald Dream campaign quest, Might of the Forest.]],
 
     -- NPCs: 211990
-    [1446] = [[Located in Eye of Ysera, The Emerald Dream. Friendly.]],
+    [1444] = [[Located in Eye of Ysera, The Emerald Dream. Friendly.]],
 
     -- NPCs: 212040, 212041, 212061, 212062, 212090
-    [1447] = [[Located in The Emerald Dream. There's a chance this beast will appear when you use an Elusive Creature Bait in the Emerald Dream zone of the Dragon Isles. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1445] = [[Located in The Emerald Dream. There's a chance this beast will appear when you use an Elusive Creature Bait in the Emerald Dream zone of the Dragon Isles. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 212043
-    [1448] = [[Located in The Emerald Dream. There's a chance this beast will appear when you use an Elusive Creature Bait in the Emerald Dream zone of the Dragon Isles, possibly more frequently in the south of the zone. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1446] = [[Located in The Emerald Dream. There's a chance this beast will appear when you use an Elusive Creature Bait in the Emerald Dream zone of the Dragon Isles, possibly more frequently in the south of the zone. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 212065, 212066, 212069
-    [1449] = [[Located in The Emerald Dream. There's a chance this beast will appear when you use an Elusive Creature Bait in the Emerald Dream zone of the Dragon Isles. This bait item can only be crafted and used by players with Dragon Isles Skinning. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1447] = [[Located in The Emerald Dream. There's a chance this beast will appear when you use an Elusive Creature Bait in the Emerald Dream zone of the Dragon Isles. This bait item can only be crafted and used by players with Dragon Isles Skinning. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 212070
-    [1450] = [[Located in The Emerald Dream. There's a chance this beast will appear when you use an Elusive Creature Bait in the Emerald Dream zone of the Dragon Isles. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1448] = [[Located in The Emerald Dream. There's a chance this beast will appear when you use an Elusive Creature Bait in the Emerald Dream zone of the Dragon Isles. To have a chance to summon an Elite Elusive creature you must spend 20 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel). To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 212133
-    [1451] = [[Located in The Emerald Dream. There's a chance this beast will appear when you use an Elusive Creature Bait in the Emerald Dream zone of the Dragon Isles. Elusive Rares can only be summoned if you spend 40 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel), and they can normally be killed and skinned just once a day. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
+    [1449] = [[Located in The Emerald Dream. There's a chance this beast will appear when you use an Elusive Creature Bait in the Emerald Dream zone of the Dragon Isles. Elusive Rares can only be summoned if you spend 40 points in the Mastery subspecialization of Bait Crafter (Dragon Isles Skinning - see your Skinning journal in your professions panel), and they can normally be killed and skinned just once a day. To create Elusive Creature Bait you must have levelled Dragon Isles Skinning to the point where you can select the Bait Crafter specialization (see your skinning journal inside your professions panel) and spend at least 10 points of Knowledge in it.]],
 
     -- NPCs: 212292
-    [1452] = [[Located in Azj-Kahet. Summoned during combat by Vilewing (rare NPC at Ruptured Lake) and Patrolling Swarmers (City of Threads).]],
+    [1450] = [[Located in Azj-Kahet. Summoned during combat by Vilewing (rare NPC at Ruptured Lake) and Patrolling Swarmers (City of Threads).]],
 
     -- NPCs: 212425
-    [1453] = [[Located in Rambleshire, Isle of Dorn. Found underneath the mining bridge west of Rambleshire. It doesn't appear to respawn often.]],
+    [1451] = [[Located in Rambleshire, Isle of Dorn. Found underneath the mining bridge west of Rambleshire. It doesn't appear to respawn often.]],
 
     -- NPCs: 212704
-    [1454] = [[Located in Boskroot Basin, Isle of Dorn. Inhabits Boskroot Basin forest, in the south of the isle. Mycotic Shalehorns with this ID often serve as mounts for Boskroot Brutes, but they can be tamed right out from under their rider.]],
+    [1452] = [[Located in Boskroot Basin, Isle of Dorn. Inhabits Boskroot Basin forest, in the south of the isle. Mycotic Shalehorns with this ID often serve as mounts for Boskroot Brutes, but they can be tamed right out from under their rider.]],
 
     -- NPCs: 212710
-    [1455] = [[Located in Boskroot Basin, Isle of Dorn. Inhabits Boskroot Basin forest, in the south of the isle. Only the blue variant makes sounds when clicked.]],
+    [1453] = [[Located in Boskroot Basin, Isle of Dorn. Inhabits Boskroot Basin forest, in the south of the isle. Only the blue variant makes sounds when clicked.]],
 
     -- NPCs: 213428
-    [1456] = [[Located in The Rookery Landing, The Rookery (Dungeon). Aradan spawns after Kyrioss (the first boss of the dungeon) is defeated and can be tamed on any difficulty, including follower mode (fortunately, followers won't interfere with your tame!). But before you enter the dungeon you must collect the Void-Scarred Stormhammer from the bottom of the sea off the west coast of the Isle of Dorn. Without the hammer, Aradan cannot be tamed or attacked. The hammer lies near a stand of brown and green kelp at around 29.1,36.2 (a bit west of the 'W' in "Storm's Watch" on the zone map); it doesn't glow and can be difficult to see between the rocks. Once you've collected the hammer, enter the dungeon and defeat Kyrioss, jump down to the bottom of the shaft, then head a little south and east (past Stormrider Vokmar) and head up the stairs to the east. This takes you to an exterior landing where Aradan can be seen in the sky to the north. Target Aradan and click on the hammer, which causes the stormrook to land and become tameable. Aradan will spawn with one of 5 possible appearances (all are blue, but with subtly different features) so you may need to run the dungeon a number of times before you find the one you want. Credit goes to waiting4paul of the Secret Finders Discord for discovering how to tame this creature]],
+    [1454] = [[Located in The Rookery Landing, The Rookery (Dungeon). Aradan spawns after Kyrioss (the first boss of the dungeon) is defeated and can be tamed on any difficulty, including follower mode (fortunately, followers won't interfere with your tame!). But before you enter the dungeon you must collect the Void-Scarred Stormhammer from the bottom of the sea off the west coast of the Isle of Dorn. Without the hammer, Aradan cannot be tamed or attacked. The hammer lies near a stand of brown and green kelp at around 29.1,36.2 (a bit west of the 'W' in "Storm's Watch" on the zone map); it doesn't glow and can be difficult to see between the rocks. Once you've collected the hammer, enter the dungeon and defeat Kyrioss, jump down to the bottom of the shaft, then head a little south and east (past Stormrider Vokmar) and head up the stairs to the east. This takes you to an exterior landing where Aradan can be seen in the sky to the north. Target Aradan and click on the hammer, which causes the stormrook to land and become tameable. Aradan will spawn with one of 5 possible appearances (all are blue, but with subtly different features) so you may need to run the dungeon a number of times before you find the one you want. Credit goes to waiting4paul of the Secret Finders Discord for discovering how to tame this creature]],
 
     -- NPCs: 213539, 213542
-    [1457] = [[Located in Meandering Rootlands, The Emerald Dream. Found in caverns that have their entrance on the east side of the swamp that lies above the southern end of Haven Cascades (around 55,40).]],
+    [1455] = [[Located in Meandering Rootlands, The Emerald Dream. Found in caverns that have their entrance on the east side of the swamp that lies above the southern end of Haven Cascades (around 55,40).]],
 
     -- NPCs: 213545
-    [1458] = [[Located in Meandering Rootlands & The Char, The Emerald Dream. The black variant with crescent antlers, large ears, horned brows, and a long tail is 25 times more likely to appear than any other look!]],
+    [1456] = [[Located in Meandering Rootlands & The Char, The Emerald Dream. The black variant with crescent antlers, large ears, horned brows, and a long tail is 25 times more likely to appear than any other look!]],
 
     -- NPCs: 213608
-    [1459] = [[Located in Meandering Rootlands, The Emerald Dream. Tula'rhun can be found at the very back of a set of caverns that have their entrance on the east side of the swamp that lies above the southern end of Haven Cascades (around 55,40).]],
+    [1457] = [[Located in Meandering Rootlands, The Emerald Dream. Tula'rhun can be found at the very back of a set of caverns that have their entrance on the east side of the swamp that lies above the southern end of Haven Cascades (around 55,40).]],
 
     -- NPCs: 213647
-    [1460] = [[Located in The Emerald Dream. This fey darter can spawn during Superbloom events when someone chooses the ability Fae Lens from a dreamfruit. This ability isn't offered every Superbloom. You may have trouble taming one of these darters before someone kills it, but it's also not a unique colour.]],
+    [1458] = [[Located in The Emerald Dream. This fey darter can spawn during Superbloom events when someone chooses the ability Fae Lens from a dreamfruit. This ability isn't offered every Superbloom. You may have trouble taming one of these darters before someone kills it, but it's also not a unique colour.]],
 
     -- NPCs: 213668
-    [1461] = [[Located in The Emerald Dream. These tarantulas spawn during Superbloom events if someone chooses the ability Arachnid Annihilation from a dreamfruit and then clicks on an Invasive Spider Sac. This ability isn't offered every Superbloom. You may have trouble taming one of these spiders before someone kills it, but it's also not a unique colour.]],
+    [1459] = [[Located in The Emerald Dream. These tarantulas spawn during Superbloom events if someone chooses the ability Arachnid Annihilation from a dreamfruit and then clicks on an Invasive Spider Sac. This ability isn't offered every Superbloom. You may have trouble taming one of these spiders before someone kills it, but it's also not a unique colour.]],
 
     -- NPCs: 213922
-    [1462] = [[Located in The Wormlands, Azj-Kahet. Initially appears as a rumbling patch of earth.]],
+    [1460] = [[Located in The Wormlands, Azj-Kahet. Initially appears as a rumbling patch of earth.]],
 
     -- NPCs: 214397
-    [1463] = [[Located in Hallowfall. Can be found during the A Light in the Dark questline of The War Within campaign.]],
+    [1461] = [[Located in Hallowfall. Can be found during the A Light in the Dark questline of The War Within campaign.]],
 
     -- NPCs: 214757
-    [1464] = [[Located in Stillstone Pond, Hallowfall. Found in a cave on the east side of the pond. Initially inactive, but can be rendered attackable but tossing 10 Shadowblind Grouper at it. These can be fished from the eponymous pools in the waters nearby.]],
+    [1462] = [[Located in Stillstone Pond, Hallowfall. Found in a cave on the east side of the pond. Initially inactive, but can be rendered attackable but tossing 10 Shadowblind Grouper at it. These can be fished from the eponymous pools in the waters nearby.]],
 
     -- NPCs: 215411
-    [1465] = [[Located in The Silken Path, Azj-Kahet. Spawns on the bridge as part of an ambush during the zone campaign quest, 'A Guiding Thread'. If you've completed this quest you can still see the spawns that other players trigger.]],
+    [1463] = [[Located in The Silken Path, Azj-Kahet. Spawns on the bridge as part of an ambush during the zone campaign quest, 'A Guiding Thread'. If you've completed this quest you can still see the spawns that other players trigger.]],
 
     -- NPCs: 215608
-    [1466] = [[Located in Siegehold, Azj-Kahet. Siegehold Drones with this ID are not hostile.]],
+    [1464] = [[Located in Siegehold, Azj-Kahet. Siegehold Drones with this ID are not hostile.]],
 
     -- NPCs: 215733
-    [1467] = [[Located in Shadowvein Extraction Site, The Ringing Deeps. Initially submerged, but surfaces when you approach its rumbling dust patch.]],
+    [1465] = [[Located in Shadowvein Extraction Site, The Ringing Deeps. Initially submerged, but surfaces when you approach its rumbling dust patch.]],
 
     -- NPCs: 215772
-    [1468] = [[Located in Chittering Den, The Ringing Deeps. Found inside a cave in the central part of the area. Look for the corpses of 'devoured' creatures outside.]],
+    [1466] = [[Located in Chittering Den, The Ringing Deeps. Found inside a cave in the central part of the area. Look for the corpses of 'devoured' creatures outside.]],
 
     -- NPCs: 215990
-    [1469] = [[Located in Azj-Kahet. Flies about the high Eastern Span walkways in the east of the zone and also in The Transformatory in the south-east of the City of Threads.]],
+    [1467] = [[Located in Azj-Kahet. Flies about the high Eastern Span walkways in the east of the zone and also in The Transformatory in the south-east of the City of Threads.]],
 
     -- NPCs: 215991
-    [1470] = [[Located in Eastern Span, Azj-Kahet. Patrols north of the large covered platform situated roughly midway along the high Eastern Span walkway, in the east of the zone. There's possibly only one up at a time.]],
+    [1468] = [[Located in Eastern Span, Azj-Kahet. Patrols north of the large covered platform situated roughly midway along the high Eastern Span walkway, in the east of the zone. There's possibly only one up at a time.]],
 
     -- NPCs: 216037
-    [1471] = [[Located in Ruptured Lake, Azj-Kahet. Flies about in the eastern part of the area.]],
+    [1469] = [[Located in Ruptured Lake, Azj-Kahet. Flies about in the eastern part of the area.]],
 
     -- NPCs: 216039
-    [1472] = [[Located in Pillar-nest Xesh, Azj-Kahet. Located on the west side of the pit, by the city wall. Has a black aura that is retained upon taming.]],
+    [1470] = [[Located in Pillar-nest Xesh, Azj-Kahet. Located on the west side of the pit, by the city wall. Has a black aura that is retained upon taming.]],
 
     -- NPCs: 216044
-    [1473] = [[Located in Azj-Kahet. Flies rapidly about wilds in the east of the zone, west of Mmarl.]],
+    [1471] = [[Located in Azj-Kahet. Flies rapidly about wilds in the east of the zone, west of Mmarl.]],
 
     -- NPCs: 216078
-    [1474] = [[Located in Shadowmire, Hallowfall. Dwells in a small cave in the east of the area.]],
+    [1472] = [[Located in Shadowmire, Hallowfall. Dwells in a small cave in the east of the area.]],
 
     -- NPCs: 216197
-    [1475] = [[Located in The Proscenium, Isle of Dorn. Only present during the campaign quest chain when the area is under attack, i.e. during 'The Cavalry is Here', etc.]],
+    [1473] = [[Located in The Proscenium, Isle of Dorn. Only present during the campaign quest chain when the area is under attack, i.e. during 'The Cavalry is Here', etc.]],
 
     -- NPCs: 216249, 216288, 229812, 229813, 229814, 229816, 229817, 229820, 229821
-    [1476] = [[Located in Isle of Dorn; The Ringing Deeps; Hallowfall; Azj-Kahet. Has a chance to spawn when you dig up a patch of Disturbed Earth around any of the main Khaz Algar ('The War Within') zones. To unlock this you need to complete the quest Everyday I'm Snufflin in The Ringing Deeps.]],
+    [1474] = [[Located in Isle of Dorn; The Ringing Deeps; Hallowfall; Azj-Kahet. Has a chance to spawn when you dig up a patch of Disturbed Earth around any of the main Khaz Algar ('The War Within') zones. To unlock this you need to complete the quest Everyday I'm Snufflin in The Ringing Deeps.]],
 
     -- NPCs: 216340
-    [1477] = [[Located in Echoing Overlook, Ara-Kara, City of Echoes (Dungeon).]],
+    [1475] = [[Located in Echoing Overlook, Ara-Kara, City of Echoes (Dungeon).]],
 
     -- NPCs: 216387
-    [1478] = [[Located in The Wormlands, Azj-Kahet. Summoned by Wormcaller Iz'tikrine during combat.]],
+    [1476] = [[Located in The Wormlands, Azj-Kahet. Summoned by Wormcaller Iz'tikrine during combat.]],
 
     -- NPCs: 216555
-    [1479] = [[Located in The Burrows, Azj-Kahet. Spawns as part of the "Escape the Burrows!" phase of the "Kaheti Hospitality" zone campaign quest. These NPCs appear in the first wave and will be mowed down very quickly by Alleria and Anduin, so your best strategy is to stand well away from your companions and draw one of these spiders off as soon as it appears. You can abandon and restart the quest as many times as you like until you successfully tame the colours you want. This is a once-only campaign instance, though it's uncertain if party sync will allow you to repeat it.]],
+    [1477] = [[Located in The Burrows, Azj-Kahet. Spawns as part of the "Escape the Burrows!" phase of the "Kaheti Hospitality" zone campaign quest. These NPCs appear in the first wave and will be mowed down very quickly by Alleria and Anduin, so your best strategy is to stand well away from your companions and draw one of these spiders off as soon as it appears. You can abandon and restart the quest as many times as you like until you successfully tame the colours you want. This is a once-only campaign instance, though it's uncertain if party sync will allow you to repeat it.]],
 
     -- NPCs: 217121, 221065
-    [1480] = [[Located in The Three Shields (Quest Phase), Isle of Dorn. Found in a special phase for the Ringing Deeps quest, 'The Wickless Candle'.]],
+    [1478] = [[Located in The Three Shields (Quest Phase), Isle of Dorn. Found in a special phase for the Ringing Deeps quest, 'The Wickless Candle'.]],
 
     -- NPCs: 217379
-    [1481] = [[Located in Chittering Den, The Ringing Deeps. Covered in spider eggs that are lost upon taming.]],
+    [1479] = [[Located in Chittering Den, The Ringing Deeps. Covered in spider eggs that are lost upon taming.]],
 
     -- NPCs: 217417
-    [1482] = [[Located in Chittering Den, Azj-Kahet. Covered in spider eggs that are lost upon taming.]],
+    [1480] = [[Located in Chittering Den, Azj-Kahet. Covered in spider eggs that are lost upon taming.]],
 
     -- NPCs: 217939, 217949
-    [1483] = [[Located in Tranquil Strand, Isle of Dorn. Found during the intro quest phase for the beach, but gone after completing "To Dornogal".]],
+    [1481] = [[Located in Tranquil Strand, Isle of Dorn. Found during the intro quest phase for the beach, but gone after completing "To Dornogal".]],
 
     -- NPCs: 218066
-    [1484] = [[Located in Pillar-nest Xesh, Azj-Kahet. Spawns when egg sacs are destroyed in this area.]],
+    [1482] = [[Located in Pillar-nest Xesh, Azj-Kahet. Spawns when egg sacs are destroyed in this area.]],
 
     -- NPCs: 219246, 219425
-    [1485] = [[Located in Taelloch Mine, The Ringing Deeps. Found inside the mines, in the east of the area.]],
+    [1483] = [[Located in Taelloch Mine, The Ringing Deeps. Found inside the mines, in the east of the area.]],
 
     -- NPCs: 219265
-    [1486] = [[Located in The Opalcreg, Isle of Dorn. Found deep in the mine tunnels.]],
+    [1484] = [[Located in The Opalcreg, Isle of Dorn. Found deep in the mine tunnels.]],
 
     -- NPCs: 219365
-    [1487] = [[Located in Hallowfall. Found by the shores north of the Veneration Grounds. Its glow effect is lost upon taming.]],
+    [1485] = [[Located in Hallowfall. Found by the shores north of the Veneration Grounds. Its glow effect is lost upon taming.]],
 
     -- NPCs: 219397
-    [1488] = [[Located in The Opalcreg, Isle of Dorn. The serpents with this ID are found inside the mine tunnels.]],
+    [1486] = [[Located in The Opalcreg, Isle of Dorn. The serpents with this ID are found inside the mine tunnels.]],
 
     -- NPCs: 219653, 219662, 219664
-    [1489] = [[Located in Dalaran (Khaz Algar intro quest phase). Only appears during the Breach intro quest for The War Within, when Dalaran first arrives at the Isle of Dorn and is under siege.]],
+    [1487] = [[Located in Dalaran (Khaz Algar intro quest phase). Only appears during the Breach intro quest for The War Within, when Dalaran first arrives at the Isle of Dorn and is under siege.]],
 
     -- NPCs: 219654
-    [1490] = [[Located in Dalaran (Khaz Algar intro quest phase). Only appears during the Breach intro quest for The War Within, when Dalaran first arrives at the Isle of Dorn and is under siege. Flies high, so you'll need to find a suitable location and possibly shoot it to bring it into taming range. Only the black and the green variants make sounds when clicked.]],
+    [1488] = [[Located in Dalaran (Khaz Algar intro quest phase). Only appears during the Breach intro quest for The War Within, when Dalaran first arrives at the Isle of Dorn and is under siege. Flies high, so you'll need to find a suitable location and possibly shoot it to bring it into taming range. Only the black and the green variants make sounds when clicked.]],
 
     -- NPCs: 219790
-    [1491] = [[Located in The Hallowfall Gate & Candleslag Quarry, The Ringing Deeps. Initially, this magma snail cannot be interacted with or tamed due to it being ridden by a kobold: either a Kobold Trapper (Candleslag Quarry) or a Brightrock Shellvalier (inside the Hallowfall Gate mines). Once the kobold is dead the snail becomes a standalone NPC and can be tamed.]],
+    [1489] = [[Located in The Hallowfall Gate & Candleslag Quarry, The Ringing Deeps. Initially, this magma snail cannot be interacted with or tamed due to it being ridden by a kobold: either a Kobold Trapper (Candleslag Quarry) or a Brightrock Shellvalier (inside the Hallowfall Gate mines). Once the kobold is dead the snail becomes a standalone NPC and can be tamed.]],
 
     -- NPCs: 219949
-    [1492] = [[Located in The Ringing Deeps. Found in regions south and east of The Earthenworks and north of Brunwin's Terrace, up to the entrance to the Lost Mines area.]],
+    [1490] = [[Located in The Ringing Deeps. Found in regions south and east of The Earthenworks and north of Brunwin's Terrace, up to the entrance to the Lost Mines area.]],
 
     -- NPCs: 220059
-    [1493] = [[Located in Hallowfall. Found by the pond outside Tenir's Ascent.]],
+    [1491] = [[Located in Hallowfall. Found by the pond outside Tenir's Ascent.]],
 
     -- NPCs: 220300
-    [1494] = [[Located in Dornogal, Isle of Dorn. Occasionally found around the hills in the west of the city. It appears to be buggy as even though you can attack it or cast tame, it ignores you and the tame fails, and then it despawns.]],
+    [1492] = [[Located in Dornogal, Isle of Dorn. Occasionally found around the hills in the west of the city. It appears to be buggy as even though you can attack it or cast tame, it ignores you and the tame fails, and then it despawns.]],
 
     -- NPCs: 220399
-    [1495] = [[Located in Rak-Zakaz, Azj-Kahet. Often found carrying a package on its back that is lost upon taming.]],
+    [1493] = [[Located in Rak-Zakaz, Azj-Kahet. Often found carrying a package on its back that is lost upon taming.]],
 
     -- NPCs: 220483
-    [1496] = [[Located in Pillar-nest Xesh, Azj-Kahet. Located in the pit on the east side of the City of Threads. Often found carrying a container on its back that is lost upon taming.]],
+    [1494] = [[Located in Pillar-nest Xesh, Azj-Kahet. Located in the pit on the east side of the City of Threads. Often found carrying a container on its back that is lost upon taming.]],
 
     -- NPCs: 220707
-    [1497] = [[Located in Azj-Kahet. Summoned by Battelfront Haulers during combat in Arathi's End in the north-east of the zone. Also summoned by the rare Kaheti Silkhauler during combat. This rare follows the north-south road in the north-east of the zone. Its range extends from Azj-Kahet in the far north-east (east of Faerin's Advance), south past Rak-Zakaz, and probably as far south as the road to the south-west of Rak-Ahat.]],
+    [1495] = [[Located in Azj-Kahet. Summoned by Battelfront Haulers during combat in Arathi's End in the north-east of the zone. Also summoned by the rare Kaheti Silkhauler during combat. This rare follows the north-south road in the north-east of the zone. Its range extends from Azj-Kahet in the far north-east (east of Faerin's Advance), south past Rak-Zakaz, and probably as far south as the road to the south-west of Rak-Ahat.]],
 
     -- NPCs: 221126
-    [1498] = [[Located in Cinderwold, Isle of Dorn. BUG: this pet is erroneously classed as Exotic, so currently only usable by Beast Masters. It has been reported and hopefully will be fixed at some stage.]],
+    [1496] = [[Located in Cinderwold, Isle of Dorn. BUG: this pet is erroneously classed as Exotic, so currently only usable by Beast Masters. It has been reported and hopefully will be fixed at some stage.]],
 
     -- NPCs: 221131
-    [1499] = [[Located in Tenir's Ascent, Hallowfall. There's a chance this creature will appear when you destroy an Arathi Crate during the world quest, Recovery Job.]],
+    [1497] = [[Located in Tenir's Ascent, Hallowfall. There's a chance this creature will appear when you destroy an Arathi Crate during the world quest, Recovery Job.]],
 
     -- NPCs: 221474
-    [1500] = [[Located in Morgaen's Tears, Hallowfall. In the wilds west of Veneration Grounds. It appears sporadically to the west of Morgaen's Tears.]],
+    [1498] = [[Located in Morgaen's Tears, Hallowfall. In the wilds west of Veneration Grounds. It appears sporadically to the west of Morgaen's Tears.]],
 
     -- NPCs: 221528
-    [1501] = [[Located in Isle of Dorn. Found in several locations on the isle. Soaring Plainshawks with this ID are usually perched on rocky pinnacles rather than flying.]],
+    [1499] = [[Located in Isle of Dorn. Found in several locations on the isle. Soaring Plainshawks with this ID are usually perched on rocky pinnacles rather than flying.]],
 
     -- NPCs: 221648
-    [1502] = [[Located in Velhan's Claim, Hallowfall. Velhan's Claim consists of the two islands just north-east of the Priory of the Sacred Flame. The Perchfather can be found on the highest rock peak of the western island.]],
+    [1500] = [[Located in Velhan's Claim, Hallowfall. Velhan's Claim consists of the two islands just north-east of the Priory of the Sacred Flame. The Perchfather can be found on the highest rock peak of the western island.]],
 
     -- NPCs: 221704
-    [1503] = [[Located in Siegehold, Azj-Kahet. Siegehold Drones with this ID are hostile.]],
+    [1501] = [[Located in Siegehold, Azj-Kahet. Siegehold Drones with this ID are hostile.]],
 
     -- NPCs: 222019
-    [1504] = [[Located in The Opalcreg, Isle of Dorn. The serpents with this ID are found outside (above) the mines.]],
+    [1502] = [[Located in The Opalcreg, Isle of Dorn. The serpents with this ID are found outside (above) the mines.]],
 
     -- NPCs: 222040
-    [1505] = [[Located in Isle of Dorn. Found by a beach north of Freywold VIllage and the Earthcrawl Mines, near the rocky islets. The NPC with this ID is found a bit further south than the other Opalooze Mollusc. Prior to taming this one appears smaller than the other, but they're the same size as pets.]],
+    [1503] = [[Located in Isle of Dorn. Found by a beach north of Freywold VIllage and the Earthcrawl Mines, near the rocky islets. The NPC with this ID is found a bit further south than the other Opalooze Mollusc. Prior to taming this one appears smaller than the other, but they're the same size as pets.]],
 
     -- NPCs: 222155
-    [1506] = [[Located in Isle of Dorn. The NPC with this ID is found a bit further north than the other Opalooze Mollusc. Prior to taming this one appears larger than the other, but they're the same size as pets.]],
+    [1504] = [[Located in Isle of Dorn. The NPC with this ID is found a bit further north than the other Opalooze Mollusc. Prior to taming this one appears larger than the other, but they're the same size as pets.]],
 
     -- NPCs: 222248
-    [1507] = [[Located in Hallowfall. Packs of this ray periodically circle over parts of the zone, including Tenir's Ascent, Sanguine Grasps, Priory of the Sacred Flame, and The Aegis Wall. Has a shadow-sparkling effect, but unsure if this would be retained if it were tameable.]],
+    [1505] = [[Located in Hallowfall. Packs of this ray periodically circle over parts of the zone, including Tenir's Ascent, Sanguine Grasps, Priory of the Sacred Flame, and The Aegis Wall.]],
 
     -- NPCs: 222690
-    [1508] = [[Located in Ancient Falls, The Ringing Deeps. This spectral devilsaur can only be found when the event, "Worldsoul Memory: Primal Predators" is up, located roughly north-west of Opportunity Point in The Ringing Deeps. The zone in which the Worldsoul Memory is active rotates daily, starting with Isle of Dorn, then The Ringing Depths, then Hallowfall, finally Azj-Kahet. You require one Radiant Echo in order to enter the event phase and cannot use another player to access it.]],
+    [1506] = [[Located in Ancient Falls, The Ringing Deeps. This spectral devilsaur can only be found when the event, "Worldsoul Memory: Primal Predators" is up, located roughly north-west of Opportunity Point in The Ringing Deeps. The zone in which the Worldsoul Memory is active rotates daily, starting with Isle of Dorn, then The Ringing Depths, then Hallowfall, finally Azj-Kahet. You require one Radiant Echo in order to enter the event phase and cannot use another player to access it.]],
 
     -- NPCs: 222936
-    [1509] = [[Located in Sanctified Grounds, Priory of the Sacred Flame (Dungeon). Around the northern exterior of the Priory grounds.]],
+    [1507] = [[Located in Sanctified Grounds, Priory of the Sacred Flame (Dungeon). Around the northern exterior of the Priory grounds.]],
 
     -- NPCs: 223042
-    [1510] = [[Located in Hallowfall; Isle of Dorn. There's a chance this beast will appear when you use an Elusive Creature Lure in this zone. To learn how to create a lure you must earn at least 25 points in Khaz Algar Skinning and select the Luring specialization (see your skinning journal inside your professions panel). See Wowhead's The War Within Skinning Guide for more information on how luring works.]],
+    [1508] = [[Located in Hallowfall; Isle of Dorn. There's a chance this beast will appear when you use an Elusive Creature Lure in this zone. To learn how to create a lure you must earn at least 25 points in Khaz Algar Skinning and select the Luring specialization (see your skinning journal inside your professions panel). See Wowhead's The War Within Skinning Guide for more information on how luring works.]],
 
     -- NPCs: 223056, 223058
-    [1511] = [[Located in The Ringing Deeps. There's a chance this beast will appear when you use an Elusive Creature Lure in this zone. To learn how to create a lure you must earn at least 25 points in Khaz Algar Skinning and select the Luring specialization (see your skinning journal inside your professions panel). See Wowhead's The War Within Skinning Guide for more information on how luring works.]],
+    [1509] = [[Located in The Ringing Deeps. There's a chance this beast will appear when you use an Elusive Creature Lure in this zone. To learn how to create a lure you must earn at least 25 points in Khaz Algar Skinning and select the Luring specialization (see your skinning journal inside your professions panel). See Wowhead's The War Within Skinning Guide for more information on how luring works.]],
 
     -- NPCs: 223060, 223067
-    [1512] = [[Located in Azj-Kahet. There's a chance this beast will appear when you use an Elusive Creature Lure in this zone. To learn how to create a lure you must earn at least 25 points in Khaz Algar Skinning and select the Luring specialization (see your skinning journal inside your professions panel). See Wowhead's The War Within Skinning Guide for more information on how luring works.]],
+    [1510] = [[Located in Azj-Kahet. There's a chance this beast will appear when you use an Elusive Creature Lure in this zone. To learn how to create a lure you must earn at least 25 points in Khaz Algar Skinning and select the Luring specialization (see your skinning journal inside your professions panel). See Wowhead's The War Within Skinning Guide for more information on how luring works.]],
 
     -- NPCs: 223091
-    [1513] = [[Located in Shadowvein Extraction Site, The Ringing Deeps. Found outside a mine entrance in the west of the Extraction Site.]],
+    [1511] = [[Located in Shadowvein Extraction Site, The Ringing Deeps. Found outside a mine entrance in the west of the Extraction Site.]],
 
     -- NPCs: 223117, 223905
-    [1514] = [[Located in Maddening Deep, Azj-Kahet. You must have the Unseeming Shift debuff in order to see this creature. This debuff is bestowed during the Melody of Madness quest chain, but you can also gain stacks of it in the Maddening Deeps by clicking on the Black Blood Extractors or standing in the ashen-red pools.]],
+    [1512] = [[Located in Maddening Deep, Azj-Kahet. You must have the Unseeming Shift debuff in order to see this creature. This debuff is bestowed during the Melody of Madness quest chain, but you can also gain stacks of it in the Maddening Deeps by clicking on the Black Blood Extractors or standing in the ashen-red pools.]],
 
     -- NPCs: 223613
-    [1515] = [[Located in The Spiral Weave (Delve). Summoned by Overseer Kasel, during combat. It can be challening to tame one during the fight.]],
+    [1513] = [[Located in The Spiral Weave (Delve). Summoned by Overseer Kasel, during combat. It can be challening to tame one during the fight.]],
 
     -- NPCs: 223782, 223783
-    [1516] = [[Located in Rak-Ush, Azj-Kahet. Found in a cave inside the large pit in the west of the area.]],
+    [1514] = [[Located in Rak-Ush, Azj-Kahet. Found in a cave inside the large pit in the west of the area.]],
 
     -- NPCs: 224099, 224410, 225912, 226128
-    [1517] = [[Located in Hallowfall. Found in grassy areas in the far east of Hallowfall (west of Lothar's Landing / entrance to The Ringing Deeps).]],
+    [1515] = [[Located in Hallowfall. Found in grassy areas in the far east of Hallowfall (west of Lothar's Landing / entrance to The Ringing Deeps).]],
 
     -- NPCs: 224101
-    [1518] = [[Located in Hallowfall. Found in grassy areas in the far east of Hallowfall (west of Lothar's Landing / entrance to The Ringing Deeps). Also found in the fields that stretch from west of Tenir's Ascent to south of Mereldar.]],
+    [1516] = [[Located in Hallowfall. Found in grassy areas in the far east of Hallowfall (west of Lothar's Landing / entrance to The Ringing Deeps). Also found in the fields that stretch from west of Tenir's Ascent to south of Mereldar.]],
 
     -- NPCs: 224133
-    [1519] = [[Located in Sunrise Shadow, Isle of Dorn. Found in a grove just north of the Cinderbrew Meadery entrance.]],
+    [1517] = [[Located in Sunrise Shadow, Isle of Dorn. Found in a grove just north of the Cinderbrew Meadery entrance.]],
 
     -- NPCs: 224409
-    [1520] = [[Located in Hallowfall. Found in the fields just to the west of the entrance to Hallowfall from The Ringing Deeps.]],
+    [1518] = [[Located in Hallowfall. Found in the fields just to the west of the entrance to Hallowfall from The Ringing Deeps.]],
 
     -- NPCs: 224464
-    [1521] = [[Located in Hallowfall. Found by a pool in the far east of Hallowfall (below Lothar's Landing / entrance to The Ringing Deeps).]],
+    [1519] = [[Located in Hallowfall. Found by a pool in the far east of Hallowfall (below Lothar's Landing / entrance to The Ringing Deeps).]],
 
     -- NPCs: 224521
-    [1522] = [[Located in Eastern Span, Azj-Kahet. Flies about the western sections of the Eastern Span walkway.]],
+    [1520] = [[Located in Eastern Span, Azj-Kahet. Flies about the western sections of the Eastern Span walkway.]],
 
     -- NPCs: 224551
-    [1523] = [[Located in Hallowfall. Found in grassy areas in the far east of Hallowfall (below Lothar's Landing / entrance to The Ringing Deeps).]],
+    [1521] = [[Located in Hallowfall. Found in grassy areas in the far east of Hallowfall (below Lothar's Landing / entrance to The Ringing Deeps).]],
 
     -- NPCs: 224663
-    [1524] = [[Located in The Burrows, Azj-Kahet. Periodically spawns during combat with Swarm-Maven Donmiss as part of Stage 2 of the "Escape the Burrows!" phase of the "Kaheti Hospitality" zone campaign quest.]],
+    [1522] = [[Located in The Burrows, Azj-Kahet. Periodically spawns during combat with Swarm-Maven Donmiss as part of Stage 2 of the "Escape the Burrows!" phase of the "Kaheti Hospitality" zone campaign quest.]],
 
     -- NPCs: 224725
-    [1525] = [[Located in Camp Murroch, The Ringing Deeps. Can spawn during the quest, "Antifogmatic".]],
+    [1523] = [[Located in Camp Murroch, The Ringing Deeps. Can spawn during the quest, "Antifogmatic".]],
 
     -- NPCs: 224751
-    [1526] = [[Located in Growling Hollow, Hallowfall. Found not far from the Mycomancer Cavern delve.]],
+    [1524] = [[Located in Growling Hollow, Hallowfall. Found not far from the Mycomancer Cavern delve.]],
 
     -- NPCs: 224958
-    [1527] = [[Located in Hallowfall. There's a chance this beast will appear when you use an Elusive Creature Lure in this zone. To learn how to create a lure you must earn at least 25 points in Khaz Algar Skinning and select the Luring specialization (see your skinning journal inside your professions panel). See Wowhead's The War Within Skinning Guide for more information on how luring works.]],
+    [1525] = [[Located in Hallowfall. There's a chance this beast will appear when you use an Elusive Creature Lure in this zone. To learn how to create a lure you must earn at least 25 points in Khaz Algar Skinning and select the Luring specialization (see your skinning journal inside your professions panel). See Wowhead's The War Within Skinning Guide for more information on how luring works.]],
 
     -- NPCs: 225244
-    [1528] = [[Located in Rak-Ush, Azj-Kahet. Spawns during the quest, "Bug Test".]],
+    [1526] = [[Located in Rak-Ush, Azj-Kahet. Spawns during the quest, "Bug Test".]],
 
     -- NPCs: 225271
-    [1529] = [[Located in Isle of Dorn. Found in small numbers outside the northern & eastern borders of the Boskroot Basin forest. Dazzling Peafowl with this ID are often found leading around a brood of peafowl chicks.]],
+    [1527] = [[Located in Isle of Dorn. Found in small numbers outside the northern & eastern borders of the Boskroot Basin forest. Dazzling Peafowl with this ID are often found leading around a brood of peafowl chicks.]],
 
     -- NPCs: 225391
-    [1530] = [[Located in The Hallowfall Gate, The Ringing Deeps. Found inside the mines north of the gateway to Hallowfall.]],
+    [1528] = [[Located in The Hallowfall Gate, The Ringing Deeps. Found inside the mines north of the gateway to Hallowfall.]],
 
     -- NPCs: 225393
-    [1531] = [[Located in The Hallowfall Gate, The Ringing Deeps. Found in the deepest cavern in the mines north of the gateway to Hallowfall.]],
+    [1529] = [[Located in The Hallowfall Gate, The Ringing Deeps. Found in the deepest cavern in the mines north of the gateway to Hallowfall.]],
 
     -- NPCs: 225488
-    [1532] = [[Located in Azj-Kahet. Found south of The Wormlands. It is ridden by a Fungari Myconite, but it can be tamed out from under them!]],
+    [1530] = [[Located in Azj-Kahet. Found south of The Wormlands. It is ridden by a Fungari Myconite, but it can be tamed out from under them!]],
 
     -- NPCs: 225815
-    [1533] = [[Located in The Heaps, Undermine. Can be found in the Revolution phase of Undermine after getting the quest, Get Out There. You can no longer access this phase after completing the campaign.]],
+    [1531] = [[Located in The Heaps, Undermine. Can be found in the Revolution phase of Undermine after getting the quest, Get Out There. You can no longer access this phase after completing the campaign.]],
 
     -- NPCs: 225865
-    [1534] = [[Located in Azj-Kahet. Found in the wilds east and south of The Wormlands and south of Siegehold. Emerald Stagshells with this ID are often found flying.]],
+    [1532] = [[Located in Azj-Kahet. Found in the wilds east and south of The Wormlands and south of Siegehold. Emerald Stagshells with this ID are often found flying.]],
 
     -- NPCs: 225913
-    [1535] = [[Located in Hallowfall. Found in grassy areas in the far east of Hallowfall (below Lothar's Landing / entrance to The Ringing Deeps). The Shalehorn Calves with this ID are running about.]],
+    [1533] = [[Located in Hallowfall. Found in grassy areas in the far east of Hallowfall (below Lothar's Landing / entrance to The Ringing Deeps). The Shalehorn Calves with this ID are running about.]],
 
     -- NPCs: 226005
-    [1536] = [[Located in Azj-Kahet. Found across the central north and north-east of the zone. Scavenger Stagshells with this ID seem to be mostly found flying.]],
+    [1534] = [[Located in Azj-Kahet. Found across the central north and north-east of the zone. Scavenger Stagshells with this ID seem to be mostly found flying.]],
 
     -- NPCs: 226028
-    [1537] = [[Located in Azj-Kahet. Found occasionally in waterways in the zone, including those outside Siegehold in the north and Twitching Gorge to the west.]],
+    [1535] = [[Located in Azj-Kahet. Found occasionally in waterways in the zone, including those outside Siegehold in the north and Twitching Gorge to the west.]],
 
     -- NPCs: 226101
-    [1538] = [[Located in Pillar-nest Vosh, Azj-Kahet. Summoned by Agaricus Festerbloom (located in the back of the fungal cave) during combat. Its name changes to 'Confused Swarmite' if Agaricus dies.]],
+    [1536] = [[Located in Pillar-nest Vosh, Azj-Kahet. Summoned by Agaricus Festerbloom (located in the back of the fungal cave) during combat. Its name changes to 'Confused Swarmite' if Agaricus dies.]],
 
     -- NPCs: 226176
-    [1539] = [[Located in Untamed Valley, Azj-Kahet. Horned Stagshells with this ID are usually found flying. Found in wilds south-east of The Weaver's Lair and west of Rak-Ahat.]],
+    [1537] = [[Located in Untamed Valley, Azj-Kahet. Horned Stagshells with this ID are usually found flying. Found in wilds south-east of The Weaver's Lair and west of Rak-Ahat.]],
 
     -- NPCs: 226381, 226417
-    [1540] = [[Located in The Cataract River, The Ringing Deeps. Can spawn during the quest, "Stone Tracing".]],
+    [1538] = [[Located in The Cataract River, The Ringing Deeps. Can spawn during the quest, "Stone Tracing".]],
 
     -- NPCs: 226562
-    [1541] = [[Located in Bilgewater Flats, Undermine. This peafowl requires a large amount of money to tame! It can be spawned after completing The Perfect Wedding storyline in Undermine, beginning with Or Else and ending with Ad-Hoc Wedding Planner. After the wedding is over and the storyline is complete, gather 500,000 gold and return to Grelik Greaseguard at the Exotics Market in Bilgewater Flats (north-west of Demolition Dome). He'll now have a new dialogue option: 'Can you get me a blazefeather peacock?'. Once you agree and pay him, you can get him to summon as many tameable Blazefeather Peacocks as you want, with no extra fee. And don't worry: there should be no risk of them being attacked or tamed by other players, as only you can see them.]],
+    [1539] = [[Located in Bilgewater Flats, Undermine. This peafowl requires a large amount of money to tame! It can be spawned after completing The Perfect Wedding storyline in Undermine, beginning with Or Else and ending with Ad-Hoc Wedding Planner. After the wedding is over and the storyline is complete, gather 500,000 gold and return to Grelik Greaseguard at the Exotics Market in Bilgewater Flats (north-west of Demolition Dome). He'll now have a new dialogue option: 'Can you get me a blazefeather peacock?'. Once you agree and pay him, you can get him to summon as many tameable Blazefeather Peacocks as you want, with no extra fee. And don't worry: there should be no risk of them being attacked or tamed by other players, as only you can see them.]],
 
     -- NPCs: 226625
-    [1542] = [[Located in Khaz Algar Delves. Found in five delve instances: Nightfall Sanctum, Mycomancer Cavern, Fungal Folly, The Sinkhole, and Tak-Rethan Abyss.]],
+    [1540] = [[Located in Khaz Algar Delves. Found in five delve instances: Nightfall Sanctum, Mycomancer Cavern, Fungal Folly, The Sinkhole, and Tak-Rethan Abyss.]],
 
     -- NPCs: 227026
-    [1543] = [[Located in Eastern Span, Azj-Kahet. Flies along the high Eastern Span walkways in the east of the zone.]],
+    [1541] = [[Located in Eastern Span, Azj-Kahet. Flies along the high Eastern Span walkways in the east of the zone.]],
 
     -- NPCs: 227198
-    [1544] = [[Located in The Three Shields, Isle of Dorn. Inhabits the largest of the three small, rocky islands off the north-east coast of Dorn. Only the blue variant makes sounds when clicked.]],
+    [1542] = [[Located in The Three Shields, Isle of Dorn. Inhabits the largest of the three small, rocky islands off the north-east coast of Dorn. Only the blue variant makes sounds when clicked.]],
 
     -- NPCs: 227367
-    [1545] = [[Located in Salien Gutters, Azj-Kahet. It seems likely this sea slug started out as an unintended tameable creature, but it was left that way!]],
+    [1543] = [[Located in Salien Gutters, Azj-Kahet. It seems likely this sea slug started out as an unintended tameable creature, but it was left that way!]],
 
     -- NPCs: 227373
-    [1546] = [[Located in Khaz Algar Delves. Can spawn if NPCs in delves are killed when they have the buff, 'Zekvir's Infestation' from Zekvir. Zekvir is an additional surprise encounter that can appear in any delve.]],
+    [1544] = [[Located in Khaz Algar Delves. Can spawn if NPCs in delves are killed when they have the buff, 'Zekvir's Infestation' from Zekvir. Zekvir is an additional surprise encounter that can appear in any delve.]],
 
     -- NPCs: 227569
-    [1547] = [[Located in Stormtide Dregs, Flotsam Shoal, Siren Isle. Found in a special 'storm' phase of Siren Isle that you can access after completing the zone's weekly quest (by participating in activities and killing various NPCs around Siren Isle) and unlocking Special Assignment: Storm's a Brewin. Once unlocked, speak to Suzie Boltwrench at Flotsam Shoal to enter or leave the storm phase at any time, even after you complete the assignment.]],
+    [1545] = [[Located in Stormtide Dregs, Flotsam Shoal, Siren Isle. Found in a special 'storm' phase of Siren Isle that you can access after completing the zone's weekly quest (by participating in activities and killing various NPCs around Siren Isle) and unlocking Special Assignment: Storm's a Brewin. Once unlocked, speak to Suzie Boltwrench at Flotsam Shoal to enter or leave the storm phase at any time, even after you complete the assignment.]],
 
     -- NPCs: 227572
-    [1548] = [[Located in Hallowfall. Found in the far south of the zone, just before the Ruptured Lake entrance to Azj-Kahet, on the cliffs to the east of the river.]],
+    [1546] = [[Located in Hallowfall. Found in the far south of the zone, just before the Ruptured Lake entrance to Azj-Kahet, on the cliffs to the east of the river.]],
 
     -- NPCs: 227627
-    [1549] = [[Located in Isle of Dorn. Possibly found in a single location: flying high over a beach to the south-east of Earthcrawl Mines and Freywold Village.]],
+    [1547] = [[Located in Isle of Dorn. Possibly found in a single location: flying high over a beach to the south-east of Earthcrawl Mines and Freywold Village.]],
 
     -- NPCs: 227799
-    [1550] = [[Located in Isle of Dorn. Flies about the cliffs east of Cinderbrew Meadery.]],
+    [1548] = [[Located in Isle of Dorn. Flies about the cliffs east of Cinderbrew Meadery.]],
 
     -- NPCs: 227808
-    [1551] = [[Located in Light's Blooming, Hallowfall. Spawns during combat with Ravageant.]],
+    [1549] = [[Located in Light's Blooming, Hallowfall. Spawns during combat with Ravageant.]],
 
     -- NPCs: 228427
-    [1552] = [[Located in Dalaran. Spawned by Queensguard An'Jak Shabtir during the War Within Intro questline in Dalaran.]],
+    [1550] = [[Located in Dalaran. Spawned by Queensguard An'Jak Shabtir during the War Within Intro questline in Dalaran.]],
 
     -- NPCs: 228465
-    [1553] = [[Located in The Heaps, Undermine. Spawns from the quest, "G.E.T.A. The Captain". It is surrounded by smaller mudskippers that act like they are part of the model, but they're lost upon taming.]],
+    [1551] = [[Located in The Heaps, Undermine. Spawns from the quest, "G.E.T.A. The Captain". It is surrounded by smaller mudskippers that act like they are part of the model, but they're lost upon taming.]],
 
     -- NPCs: 229060
-    [1554] = [[Located in Hallowfall. Found where the rivers converge south-west of Mereldar during the quest, "Fishing is Good for the Soul".]],
+    [1552] = [[Located in Hallowfall. Found where the rivers converge south-west of Mereldar during the quest, "Fishing is Good for the Soul".]],
 
     -- NPCs: 229532
-    [1555] = [[Located in Siren Isle. Found in a special 'storm' phase of Siren Isle that you can access after completing the zone's weekly quest (by participating in activities and killing various NPCs around Siren Isle) and unlocking Special Assignment: Storm's a Brewin. Once unlocked, speak to Suzie Boltwrench at Flotsam Shoal to enter or leave the storm phase at any time, even after you complete the assignment.]],
+    [1553] = [[Located in Siren Isle. Found in a special 'storm' phase of Siren Isle that you can access after completing the zone's weekly quest (by participating in activities and killing various NPCs around Siren Isle) and unlocking Special Assignment: Storm's a Brewin. Once unlocked, speak to Suzie Boltwrench at Flotsam Shoal to enter or leave the storm phase at any time, even after you complete the assignment.]],
 
     -- NPCs: 229617, 229620
-    [1556] = [[Located in Hallowfall. Found in the wilds east of Dunelle's Kindness, down from the zone entrance from The Ringing Deeps.]],
+    [1554] = [[Located in Hallowfall. Found in the wilds east of Dunelle's Kindness, down from the zone entrance from The Ringing Deeps.]],
 
     -- NPCs: 229638
-    [1557] = [[Located in Isle of Dorn. Found on Sunken Shield - a rocky island off the south-east coast of Dorn, and also on an island in the far west - in the strait between Storm's Watch and Dhar Oztan. The cloudrooks on Sunken Shield appear in all three colours, but the ones on the western island only seem to appear in the mid-grey, despite having the same NPC ID.]],
+    [1555] = [[Located in Isle of Dorn. Found on Sunken Shield - a rocky island off the south-east coast of Dorn, and also on an island in the far west - in the strait between Storm's Watch and Dhar Oztan. The cloudrooks on Sunken Shield appear in all three colours, but the ones on the western island only seem to appear in the mid-grey, despite having the same NPC ID.]],
 
     -- NPCs: 229688
-    [1558] = [[Located in Old Sacrificial Pit - City of Threads, Azj-Kahet. Flies high over the pit, situated in the far west of the city.]],
+    [1556] = [[Located in Old Sacrificial Pit - City of Threads, Azj-Kahet. Flies high over the pit, situated in the far west of the city.]],
 
     -- NPCs: 229856
-    [1559] = [[Located in Stormtide Dregs, Siren Isle. Spawns with the rare NPC, Coralweaver Calliso. Its chain collar disappears when attacked.]],
+    [1557] = [[Located in Stormtide Dregs, Siren Isle. Spawns with the rare NPC, Coralweaver Calliso. Its chain collar disappears when attacked.]],
 
     -- NPCs: 230141
-    [1560] = [[Located in Siren Isle. Spawns on days when Vrykul are invading the isle. Found around the central part of the isle.]],
+    [1558] = [[Located in Siren Isle. Spawns on days when Vrykul are invading the isle. Found around the central part of the isle.]],
 
     -- NPCs: 230830
-    [1561] = [[Located in Deadfin Mire, Siren Isle. Found in a special 'storm' phase of Siren Isle that you can access after completing the zone's weekly quest (by participating in activities and killing various NPCs around Siren Isle) and unlocking Special Assignment: Storm's a Brewin. Once unlocked, speak to Suzie Boltwrench at Flotsam Shoal to enter or leave the storm phase at any time, even after you complete the assignment.]],
+    [1559] = [[Located in Deadfin Mire, Siren Isle. Found in a special 'storm' phase of Siren Isle that you can access after completing the zone's weekly quest (by participating in activities and killing various NPCs around Siren Isle) and unlocking Special Assignment: Storm's a Brewin. Once unlocked, speak to Suzie Boltwrench at Flotsam Shoal to enter or leave the storm phase at any time, even after you complete the assignment.]],
 
     -- NPCs: 230971
-    [1562] = [[Located in Pei-Wu Forest, The Wandering Isle (Open Zone). The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
+    [1560] = [[Located in Pei-Wu Forest, The Wandering Isle (Open Zone). The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
 
     -- NPCs: 231053
-    [1563] = [[Located in Pei-Wu Forest & Wreck of the Skyseeker, The Wandering Isle (Open Zone). The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
+    [1561] = [[Located in Pei-Wu Forest & Wreck of the Skyseeker, The Wandering Isle (Open Zone). The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
 
     -- NPCs: 231115
-    [1564] = [[Located in Slam Central Station, Undermine. Has a chance of spawning when you click on Questionable Crates during the world quest, Contraband Banned. This quest is only available if you've signed a weekly contract with the Blackwater Cartel but you can choose a new contract after each weekly reset. It's also possible to get someone with access to the quest to spawn the crab for you but you'd have to tame it before it was killed.]],
+    [1562] = [[Located in Slam Central Station, Undermine. Has a chance of spawning when you click on Questionable Crates during the world quest, Contraband Banned. This quest is only available if you've signed a weekly contract with the Blackwater Cartel but you can choose a new contract after each weekly reset. It's also possible to get someone with access to the quest to spawn the crab for you but you'd have to tame it before it was killed.]],
 
     -- NPCs: 231146
-    [1565] = [[Located in The Wandering Isle (Open Zone). Found in the southern portion of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
+    [1563] = [[Located in The Wandering Isle (Open Zone). Found in the southern portion of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
 
     -- NPCs: 231153
-    [1566] = [[Located in The Dawning Valley, The Wandering Isle (Open Zone). The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
+    [1564] = [[Located in The Dawning Valley, The Wandering Isle (Open Zone). The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
 
     -- NPCs: 231194, 231195
-    [1567] = [[Located in The Dawning Valley, The Wandering Isle (Open Zone). Widespread in the northern section of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
+    [1565] = [[Located in The Dawning Valley, The Wandering Isle (Open Zone). Widespread in the northern section of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
 
     -- NPCs: 231217
-    [1568] = [[Located in Undermine. Can be found when digging through S.C.R.A.P. piles.]],
+    [1566] = [[Located in Undermine. Can be found when digging through S.C.R.A.P. piles.]],
 
     -- NPCs: 231257, 231258
-    [1569] = [[Located in Ridge of Laughing Winds, The Wandering Isle (Open Zone). Roams the ridge to the west of Pool of the Paw, south of Morning Breeze Village. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
+    [1567] = [[Located in Ridge of Laughing Winds, The Wandering Isle (Open Zone). Roams the ridge to the west of Pool of the Paw, south of Morning Breeze Village. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
 
     -- NPCs: 231259
-    [1570] = [[Located in The Wandering Isle (Open Zone). Flies around the northern portion of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
+    [1568] = [[Located in The Wandering Isle (Open Zone). Flies around the northern portion of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
 
     -- NPCs: 231315
-    [1571] = [[Located in The Wandering Isle (Open Zone). Flies around the center of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
+    [1569] = [[Located in The Wandering Isle (Open Zone). Flies around the center of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
 
     -- NPCs: 231324
-    [1572] = [[Located in The Wandering Isle (Open Zone). Flies around the central east and central west portions of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
+    [1570] = [[Located in The Wandering Isle (Open Zone). Flies around the central east and central west portions of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
 
     -- NPCs: 231340
-    [1573] = [[Located in The Wandering Isle (Open Zone). Flies around the western part of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
+    [1571] = [[Located in The Wandering Isle (Open Zone). Flies around the western part of the Isle. The Wandering Isle is open to any character on your account after you complete the Pandaren Heritage quest chain. You reach it via the same balloon you used at the start of the chain.]],
 
     -- NPCs: 231380
-    [1574] = [[Located in The Waterworks, Operation: Floodgate (Dungeon).]],
+    [1572] = [[Located in The Waterworks, Operation: Floodgate (Dungeon).]],
 
     -- NPCs: 231808, 231809
-    [1575] = [[Located in The Maw. Found only during the Midnight Prologue quest chain added in Patch 11.2.7. The involved storyline begins with a summons from Arator: Meet Arator.]],
+    [1573] = [[Located in The Maw. Found only during the Midnight Prologue quest chain added in Patch 11.2.7. The involved storyline begins with a summons from Arator: Meet Arator.]],
 
     -- NPCs: 231986
-    [1576] = [[Located in Stormtide Dregs, Siren Isle. Found in a special 'storm' phase of Siren Isle that you can access after completing the zone's weekly quest (by participating in activities and killing various NPCs around Siren Isle) and unlocking Special Assignment: Storm's a Brewin. Once unlocked, speak to Suzie Boltwrench at Flotsam Shoal to enter or leave the storm phase at any time, even after you complete the assignment.]],
+    [1574] = [[Located in Stormtide Dregs, Siren Isle. Found in a special 'storm' phase of Siren Isle that you can access after completing the zone's weekly quest (by participating in activities and killing various NPCs around Siren Isle) and unlocking Special Assignment: Storm's a Brewin. Once unlocked, speak to Suzie Boltwrench at Flotsam Shoal to enter or leave the storm phase at any time, even after you complete the assignment.]],
 
     -- NPCs: 232098
-    [1577] = [[Located in Scrapdrift Sands, K'aresh. Runs around in southeastern Scrapdrift Sands. Loses their pink heart ribbon upon taming.]],
+    [1575] = [[Located in Scrapdrift Sands, K'aresh. Runs around in southeastern Scrapdrift Sands. Loses their pink heart ribbon upon taming.]],
 
     -- NPCs: 232106
-    [1578] = [[Located in Magisters' Terrace (Midnight) (Dungeon).]],
+    [1576] = [[Located in Magisters' Terrace (Midnight) (Dungeon).]],
 
     -- NPCs: 232111
-    [1579] = [[Located in K'aresh. Can only be found while Phase Diving.]],
+    [1577] = [[Located in K'aresh. Can only be found while Phase Diving.]],
 
     -- NPCs: 232193
-    [1580] = [[Located in The Merciless Wastes, K'aresh. Can only be found while Phase Diving.]],
+    [1578] = [[Located in The Merciless Wastes, K'aresh. Can only be found while Phase Diving.]],
 
     -- NPCs: 232195
-    [1581] = [[Located in K'aresh. Just north of Eco-Dome: Rhovan. Can only be found while Phase Diving.]],
+    [1579] = [[Located in K'aresh. Just north of Eco-Dome: Rhovan. Can only be found while Phase Diving.]],
 
     -- NPCs: 233213
-    [1582] = [[Located in North Sufaad, K'aresh. Spawns during the quest, We Are Our Words.]],
+    [1580] = [[Located in North Sufaad, K'aresh. Spawns during the quest, We Are Our Words.]],
 
     -- NPCs: 233612
-    [1583] = [[Located in Emerald Hills Golf Course & Blackwater Marina, Undermine. Spawns when changing batteries during the world quest, What Plants Crave in Undermine.]],
+    [1581] = [[Located in Emerald Hills Golf Course & Blackwater Marina, Undermine. Spawns when changing batteries during the world quest, What Plants Crave in Undermine.]],
 
     -- NPCs: 233938
-    [1584] = [[Located in Kaja'Coast, Zuldazar. To tame this crab you need to locate and click on five large, yellow Kaja'mite Chunks in the vicinity and then quickly tame him before the effect goes away. If you try to tame him without clicking on the kaja'mite you'll be told you're unworthy.]],
+    [1582] = [[Located in Kaja'Coast, Zuldazar. To tame this crab you need to locate and click on five large, yellow Kaja'mite Chunks in the vicinity and then quickly tame him before the effect goes away. If you try to tame him without clicking on the kaja'mite you'll be told you're unworthy.]],
 
     -- NPCs: 234197
-    [1585] = [[Located in Eco-Dome: Primus, K'aresh. Spawns during the quest, Give me Fuel".]],
+    [1583] = [[Located in Eco-Dome: Primus, K'aresh. Spawns during the quest, Give me Fuel".]],
 
     -- NPCs: 235095
-    [1586] = [[Located in Old Hillsbrad Foothills (Dungeon). This reindeer can only be found during the Feast of Winter Veil. To tame it you need to have your gear transmogged to a full, four-piece 'Festive Holiday' transmog set, including the coat, pants, boots, belt (either Red or Green - but not a mix; and the vest versions don't seem to work currently, but the shorts do). These items can be purchased from Wulmort Jinglepocket or Penney Copperpinch near Greatfather Winter in Ironforge and Orgrimmar, respectively. Alternatively, you can also use the 'Disposable Winter Veil Suits' toy, though currently the green appearance doesn't seem to work, just the red one (but you can keep swapping). If you're not using the full appearance, the reindeer cannot be seen. Inside the dungeon, the solitary reindeer can be found atop the large spur to the east of the entrance, sleeping in a tree hollow at the southern end (around 36.0,39.0). The red-nosed version is much rarer, so you may need to reset the dungeon a number of times to find one but you can '/tar dreaming festive reindeer' from a short way into the entrance tunnel (a bit past the first bend) and its portrait will reveal which appearance it has (but if you enter the instance before donning the transmog set it won't appear until you reach its location!). Much of this information comes from Paryah and PigeonD at Wowhead.]],
+    [1584] = [[Located in Old Hillsbrad Foothills (Dungeon). This reindeer can only be found during the Feast of Winter Veil. To tame it you need to have your gear transmogged to a full, four-piece 'Festive Holiday' transmog set, including the coat, pants, boots, belt (either Red or Green - but not a mix; and the vest versions don't seem to work currently, but the shorts do). These items can be purchased from Wulmort Jinglepocket or Penney Copperpinch near Greatfather Winter in Ironforge and Orgrimmar, respectively. Alternatively, you can also use the 'Disposable Winter Veil Suits' toy, though currently the green appearance doesn't seem to work, just the red one (but you can keep swapping). If you're not using the full appearance, the reindeer cannot be seen. Inside the dungeon, the solitary reindeer can be found atop the large spur to the east of the entrance, sleeping in a tree hollow at the southern end (around 36.0,39.0). The red-nosed version is much rarer, so you may need to reset the dungeon a number of times to find one but you can '/tar dreaming festive reindeer' from a short way into the entrance tunnel (a bit past the first bend) and its portrait will reveal which appearance it has (but if you enter the instance before donning the transmog set it won't appear until you reach its location!).]],
 
     -- NPCs: 235230
-    [1587] = [[Located in Kaja'Coast, Zuldazar. Spawned by the Saltwind Matriarch during combat.]],
+    [1585] = [[Located in Kaja'Coast, Zuldazar. Spawned by the Saltwind Matriarch during combat.]],
 
     -- NPCs: 236539
-    [1588] = [[Located in Amani Pass, Eversong Woods. Found during the quest, Light Guide Us.]],
+    [1586] = [[Located in Amani Pass, Eversong Woods. Found during the quest, Light Guide Us.]],
 
     -- NPCs: 237282
-    [1589] = [[Located in The Heaps, Undermine. Spawned by The Captain.]],
+    [1587] = [[Located in The Heaps, Undermine. Spawned by The Captain.]],
 
     -- NPCs: 237750
-    [1590] = [[Located in Fracture of Laacuna, K'aresh. Spawns during the quest, The Void Hunter. Note that an untameable version appears early in the quest and this tameable version appears towards the end.]],
+    [1588] = [[Located in Fracture of Laacuna, K'aresh. Spawns during the quest, The Void Hunter. Note that an untameable version appears early in the quest and this tameable version appears towards the end.]],
 
     -- NPCs: 237753
-    [1591] = [[Located in Voidscar Cavern, K'aresh. Spawns during the quest, "Distilled Darkness".]],
+    [1589] = [[Located in Voidscar Cavern, K'aresh. Spawns during the quest, "Distilled Darkness".]],
 
     -- NPCs: 238478
-    [1592] = [[Located in Tazavesh, the Veiled Market, K'aresh. Can only be found while Phase Diving.]],
+    [1590] = [[Located in Tazavesh, the Veiled Market, K'aresh. Can only be found while Phase Diving.]],
 
     -- NPCs: 238547
-    [1593] = [[Located in Lunnall River, K'aresh. Can only be found while Phase Diving. Loses Ethereal effect upon taming.]],
+    [1591] = [[Located in Lunnall River, K'aresh. Can only be found while Phase Diving. Loses Ethereal effect upon taming.]],
 
     -- NPCs: 238625
-    [1594] = [[Located in Tailgate Park, Undermine. Found in a sewer in Tailgate Park. The entrance is an openable sewer lid at coordinates 50.5, 41.2.]],
+    [1592] = [[Located in Tailgate Park, Undermine. Found in a sewer in Tailgate Park. The entrance is an openable sewer lid at coordinates 50.5, 41.2.]],
 
     -- NPCs: 239207
-    [1595] = [[Located in Bilgewater Flats, Undermine. Found in a sewer in Bilgewater Flats. The entrance is an openable sewer lid at coordinates 40.5, 28.6.]],
+    [1593] = [[Located in Bilgewater Flats, Undermine. Found in a sewer in Bilgewater Flats. The entrance is an openable sewer lid at coordinates 40.5, 28.6.]],
 
     -- NPCs: 239210
-    [1596] = [[Located in Hovel Hill, Undermine. Found in a sewer near the center of Hovel Hill. The entrance is an openable sewer lid at coordinates 36.0, 37.4.]],
+    [1594] = [[Located in Hovel Hill, Undermine. Found in a sewer near the center of Hovel Hill. The entrance is an openable sewer lid at coordinates 36.0, 37.4.]],
 
     -- NPCs: 239229
-    [1597] = [[Located in The Vatworks, Undermine. Found in a sewer in the north-eastern edge of The Vatworks. The entrance is an openable sewer lid at coordinates 33.8, 57.5.]],
+    [1595] = [[Located in The Vatworks, Undermine. Found in a sewer in the north-eastern edge of The Vatworks. The entrance is an openable sewer lid at coordinates 33.8, 57.5.]],
 
     -- NPCs: 239325
-    [1598] = [[Located in The Vatworks, Undermine. This rat can be found on the roof of one of the round, green tank-like buildings in the west of The Vatworks right above the entrance to Steamwheedle Laboratories, around 28, 71. Reaching it isn't trivial but one of the most reliable methods found so far is to obtain a Back-Strapped Missile and use it to reach the roof. These reusable rockets can be found occasionally in Undermine delves, in either the end chests or mislaid curiosities. Once you have one, you can stand at an optimal distance from the building, such as the ground around 32.2, 76.7 (there's often a Noggenfogger Recall Technician on a metal platform nearby), face directly at the building and launch. It may take a few tries to get it right.]],
+    [1596] = [[Located in The Vatworks, Undermine. This rat can be found on the roof of one of the round, green tank-like buildings in the west of The Vatworks right above the entrance to Steamwheedle Laboratories, around 28, 71. Reaching it isn't trivial but one of the most reliable methods found so far is to obtain a Back-Strapped Missile and use it to reach the roof. These reusable rockets can be found occasionally in Undermine delves, in either the end chests or mislaid curiosities. Once you have one, you can stand at an optimal distance from the building, such as the ground around 32.2, 76.7 (there's often a Noggenfogger Recall Technician on a metal platform nearby), face directly at the building and launch. It may take a few tries to get it right.]],
 
     -- NPCs: 239832
-    [1599] = [[Located in Eco-Dome: Rhovan, K'aresh. Can only be found while Phase Diving. Loses its ethereal effect upon taming.]],
+    [1597] = [[Located in Eco-Dome: Rhovan, K'aresh. Can only be found while Phase Diving. Loses its ethereal effect upon taming.]],
 
     -- NPCs: 240511, 240544
-    [1600] = [[Located in Atal'Aman, Zul'Aman. Found during the Zul'Aman intro quest chain, "Dis Was Our Land" but disappears afterwards]],
+    [1598] = [[Located in Atal'Aman, Zul'Aman. Found during the Zul'Aman intro quest chain, "Dis Was Our Land" but disappears afterwards]],
 
     -- NPCs: 241360, 241363
-    [1601] = [[Located in K'aresh. Found west of Eco-Dome: Primus during the world quest, Endangered Specimens.]],
+    [1599] = [[Located in K'aresh. Found west of Eco-Dome: Primus during the world quest, Endangered Specimens.]],
 
     -- NPCs: 242034, 246074
-    [1602] = [[Located in Broken Throne, Zul'Aman. To the north-west of the main area. Loses its Void-corruption effect when tamed.]],
+    [1600] = [[Located in Broken Throne, Zul'Aman. To the north-west of the main area. Loses its Void-corruption effect when tamed.]],
 
     -- NPCs: 242773
-    [1603] = [[Located in Dreth'amar Cavern, Harandar. Spawns during the quest, Skyglass Scavenging.]],
+    [1601] = [[Located in Dreth'amar Cavern, Harandar. Spawns during the quest, Skyglass Scavenging.]],
 
     -- NPCs: 242998
-    [1604] = [[Located in Hallowfall. Found at the base of a cliff on the north bank of the river north-east of Dunelle's Kindness, around 71.0, 39.7 (look for a path down to the river, a bit east of the bridge). This lynx is initially friendly, but when you interact to try and comfort it, it'll push you away and become tameable. It has a respawn time of around 30 minutes]],
+    [1602] = [[Located in Hallowfall. Found at the base of a cliff on the north bank of the river north-east of Dunelle's Kindness, around 71.0, 39.7 (look for a path down to the river, a bit east of the bridge). This lynx is initially friendly, but when you interact to try and comfort it, it'll push you away and become tameable. It has a respawn time of around 30 minutes]],
 
     -- NPCs: 243658
-    [1605] = [[Located in Voidstorm. Surrounding Obscurion Citadel. It loses its Void effect and metal collar when tamed.]],
+    [1603] = [[Located in Voidstorm. Surrounding Obscurion Citadel. It loses its Void effect and metal collar when tamed.]],
 
     -- NPCs: 243778
-    [1606] = [[Located in The Grudge Pit (Non-Instanced), Harandar. If it isn't present try killing the existing NPCs until it spawns.]],
+    [1604] = [[Located in The Grudge Pit (Non-Instanced), Harandar. If it isn't present try killing the existing NPCs until it spawns.]],
 
     -- NPCs: 243780, 246162, 254203, 256344, 256349, 256353, 256354, 256361
-    [1607] = [[Located in The Grudge Pit (Non-Instanced), Harandar.]],
+    [1605] = [[Located in The Grudge Pit (Non-Instanced), Harandar.]],
 
     -- NPCs: 244029
-    [1608] = [[Located in Dawnstar Spire, Eversong Woods. Spawns during the Runestone Defense event at Tranquil Repose.]],
+    [1606] = [[Located in Dawnstar Spire, Eversong Woods. Spawns during the Runestone Defense event at Tranquil Repose.]],
 
     -- NPCs: 244048
-    [1609] = [[Located in Lightbloom Ath'Ran, Eversong Woods. Spawns when defending the Runestone at Lightbloom Ath'Ran during the Runestone Defense event.]],
+    [1607] = [[Located in Lightbloom Ath'Ran, Eversong Woods. Spawns when defending the Runestone at Lightbloom Ath'Ran during the Runestone Defense event.]],
 
     -- NPCs: 244060
-    [1610] = [[Located in Fairbreeze Village, Eversong Woods. Spawns during the quest, Displaced Denizens.]],
+    [1608] = [[Located in Fairbreeze Village, Eversong Woods. Spawns during the quest, Displaced Denizens.]],
 
     -- NPCs: 245997
-    [1611] = [[Located in K'aresh. Found southeast of The Atrium. You have to jump on the ground where it's submerged to get it to spawn.]],
+    [1609] = [[Located in K'aresh. Found southeast of The Atrium. You have to jump on the ground where it's submerged to get it to spawn.]],
 
     -- NPCs: 246633
-    [1612] = [[Located in Eversong Woods. Found running around to the south-west of Tranquillien. Loses Void effect upon taming.]],
+    [1610] = [[Located in Eversong Woods. Found running around to the south-west of Tranquillien. Loses Void effect upon taming.]],
 
     -- NPCs: 247090
-    [1613] = [[Located in Dreth'amar Cavern, Harandar. Spawns during the quest, Carry On, Wayward Kuri.]],
+    [1611] = [[Located in Dreth'amar Cavern, Harandar. Spawns during the quest, Carry On, Wayward Kuri.]],
 
     -- NPCs: 247559
-    [1614] = [[Located in Den of Predaxus, Voidstorm. Found in a cave on the northern edge of the area.]],
+    [1612] = [[Located in Den of Predaxus, Voidstorm. Found in a cave on the northern edge of the area.]],
 
     -- NPCs: 248016
-    [1615] = [[Located in Voidscar Arena , Voidstorm. It loses its collar and void effect when tamed.]],
+    [1613] = [[Located in Voidscar Arena , Voidstorm. It loses its collar and void effect when tamed.]],
 
     -- NPCs: 248070
-    [1616] = [[Located in Blooming Lattice, Harandar. Spawns during the quest, Memories in Stone.]],
+    [1614] = [[Located in Blooming Lattice, Harandar. Spawns during the quest, Memories in Stone.]],
 
     -- NPCs: 248577
-    [1617] = [[Located in Harandar. Summoned by various Rutaani in Harandar.]],
+    [1615] = [[Located in Harandar. Summoned by various Rutaani in Harandar.]],
 
     -- NPCs: 249358, 249359, 254815
-    [1618] = [[Located in Eversong Woods. Found near the southern entrance to Zul'Aman.]],
+    [1616] = [[Located in Eversong Woods. Found near the southern entrance to Zul'Aman.]],
 
     -- NPCs: 249392
-    [1619] = [[Located in North Sanctum, Eversong Woods. Spawns during the Saltheril's Haven Magisters' quest, Fit for a Magister.]],
+    [1617] = [[Located in North Sanctum, Eversong Woods. Spawns during the Saltheril's Haven Magisters' quest, Fit for a Magister.]],
 
     -- NPCs: 249797, 249799
-    [1620] = [[Located in The Oasis, Eco-Dome: Primus, K'aresh. Can only be found while Phase Diving.]],
+    [1618] = [[Located in The Oasis, Eco-Dome: Primus, K'aresh. Can only be found while Phase Diving.]],
 
     -- NPCs: 249798
-    [1621] = [[Located in Eco-Dome: Primus, K'aresh. Found patroling the inside of Eco-Dome: Primus. Has a long respawn timer. Can only be found while Phase Diving.]],
+    [1619] = [[Located in Eco-Dome: Primus, K'aresh. Found patroling the inside of Eco-Dome: Primus. Has a long respawn timer. Can only be found while Phase Diving.]],
 
     -- NPCs: 249806
-    [1622] = [[Located in The Oasis, Eco-Dome: Primus, K'aresh. Flies around the Eco-Domes, but can only be found while Phase Diving. Requires standing on high cliffs in order to be able to get closer enough to tame them. One such cliff is northwest of The Oasis.]],
+    [1620] = [[Located in The Oasis, Eco-Dome: Primus, K'aresh. Flies around the Eco-Domes, but can only be found while Phase Diving. Requires standing on high cliffs in order to be able to get closer enough to tame them. One such cliff is northwest of The Oasis.]],
 
     -- NPCs: 249849
-    [1623] = [[Located in Harandar. Circles the higher ground to the west of The Grudge Pit (non-instanced).]],
+    [1621] = [[Located in Harandar. Circles the higher ground to the west of The Grudge Pit (non-instanced).]],
 
     -- NPCs: 250030
-    [1624] = [[Located in Windrunner Spire, Eversong Woods. Spawns during the Runestone Defense event at Dawnstar Spire.]],
+    [1622] = [[Located in Windrunner Spire, Eversong Woods. Spawns during the Runestone Defense event at Dawnstar Spire.]],
 
     -- NPCs: 250321
-    [1625] = [[Located in The Blinding Bloom, Harandar. Found in a cave in the northern edge of the area.]],
+    [1623] = [[Located in The Blinding Bloom, Harandar. Found in a cave in the northern edge of the area.]],
 
     -- NPCs: 250341
-    [1626] = [[Located in Encroaching Bloom & The Blinding Bloom, Harandar. In the Blinding Bloom, it can be found in a cave in the south-east of the area.]],
+    [1624] = [[Located in Encroaching Bloom & The Blinding Bloom, Harandar. In the Blinding Bloom, it can be found in a cave in the south-east of the area.]],
 
     -- NPCs: 250366
-    [1627] = [[Located in Underground Burrows, Voidstorm. The cave entrance is located near the Sunkiller Sanctum delve.]],
+    [1625] = [[Located in Underground Burrows, Voidstorm. The cave entrance is located near the Sunkiller Sanctum delve.]],
 
     -- NPCs: 250822, 250824
-    [1628] = [[Located in Dawnstar Spire, Eversong Woods. Spawns during the quest, And Then They Came.]],
+    [1626] = [[Located in Dawnstar Spire, Eversong Woods. Spawns during the quest, And Then They Came.]],
 
     -- NPCs: 251593
-    [1629] = [[Located in The Grudge Pit (Delve).]],
+    [1627] = [[Located in The Grudge Pit (Delve).]],
 
     -- NPCs: 251756, 251758
-    [1630] = [[Located in The Grudge Pit (Non-Instanced), Harandar. Spawns during the quest, To the Ring.]],
+    [1628] = [[Located in The Grudge Pit (Non-Instanced), Harandar. Spawns during the quest, To the Ring.]],
 
     -- NPCs: 252466
-    [1631] = [[Located in Torment's Rise (Delve). Spawns during combat with Nullaeus.]],
+    [1629] = [[Located in Torment's Rise (Delve). Spawns during combat with Nullaeus.]],
 
     -- NPCs: 252693
-    [1632] = [[Located in Tranquil Repose, Eversong Woods. Appears during the "Void Rift: Tranquil Repose" Void Strike event.]],
+    [1630] = [[Located in Tranquil Repose, Eversong Woods. Appears during the "Void Rift: Tranquil Repose" Void Strike event.]],
 
     -- NPCs: 252773
-    [1633] = [[Located in The Grudge Pit (Non-Instanced), Harandar. Found during the quest, Not-yet Defeated Champions.]],
+    [1631] = [[Located in The Grudge Pit (Non-Instanced), Harandar. Found during the quest, Not-yet Defeated Champions.]],
 
     -- NPCs: 252994, 252997, 252998, 255847
-    [1634] = [[Located in Shrouded Grove, Harandar. Found during the quest, The Stroke of Storms.]],
+    [1632] = [[Located in Shrouded Grove, Harandar. Found during the quest, The Stroke of Storms.]],
 
     -- NPCs: 253305
-    [1635] = [[Located in Atal'Aman (Delve).]],
+    [1633] = [[Located in Atal'Aman (Delve).]],
 
     -- NPCs: 253316
-    [1636] = [[Located in Nordrassil Roots, Harandar. Loses flower on back when tamed.]],
+    [1634] = [[Located in Nordrassil Roots, Harandar. Loses flower on back when tamed.]],
 
     -- NPCs: 253499
-    [1637] = [[Located in Zul'Aman. Found just west outside of Maisara Deeps.]],
+    [1635] = [[Located in Zul'Aman. Found just west outside of Maisara Deeps.]],
 
     -- NPCs: 254709, 254720, 260954
-    [1638] = [[Located in Eversong Woods. Appears during various Void Strike events in Eversong.]],
+    [1636] = [[Located in Eversong Woods. Appears during various Void Strike events in Eversong.]],
 
     -- NPCs: 254795
-    [1639] = [[Located in Eversong Woods. Found south of the Horde entrance to Silvermoon City.]],
+    [1637] = [[Located in Eversong Woods. Found south of the Horde entrance to Silvermoon City.]],
 
     -- NPCs: 254972
-    [1640] = [[Located in Sunstrider Isle, Eversong Woods. Appears during various Void Strike events on Sunstrider Isle.]],
+    [1638] = [[Located in Sunstrider Isle, Eversong Woods. Appears during various Void Strike events on Sunstrider Isle.]],
 
     -- NPCs: 255079
-    [1641] = [[Located in Nordrassil Roots, Harandar. Found during the quest, Re-Hydra-ted.]],
+    [1639] = [[Located in Nordrassil Roots, Harandar. Found during the quest, Re-Hydra-ted.]],
 
     -- NPCs: 255194
-    [1642] = [[Located in Sunstrider Isle, Eversong Woods. Appears during the "Voidstrider Isle" Void Strike event.]],
+    [1640] = [[Located in Sunstrider Isle, Eversong Woods. Appears during the "Voidstrider Isle" Void Strike event.]],
 
     -- NPCs: 255709
-    [1643] = [[Located in Murder Row (Dungeon). Spawned from an Empty Felwyrm Core (purchased from an vendor in the instance). Once you use it, you place it down on the ground (only in the instance), and requires a Warlock or Demon Hunter to infuse it with Fel, spawning the Felwyrm.]],
+    [1641] = [[Located in Murder Row (Dungeon). Spawned from an Empty Felwyrm Core (purchased from an vendor in the instance). Once you use it, you place it down on the ground (only in the instance), and requires a Warlock or Demon Hunter to infuse it with Fel, spawning the Felwyrm.]],
 
     -- NPCs: 255886
-    [1644] = [[Located in K'aresh. Found only during the Midnight Prologue quest chain added in Patch 11.2.7. The involved storyline begins with a summons from Arator: Meet Arator.]],
+    [1642] = [[Located in K'aresh. Found only during the Midnight Prologue quest chain added in Patch 11.2.7. The involved storyline begins with a summons from Arator: Meet Arator.]],
 
     -- NPCs: 255957, 259914
-    [1645] = [[Located in Ritual Site: Broken Throne (Scenario). Appears during the Broken Temple Ritual Site event.]],
+    [1643] = [[Located in Ritual Site: Broken Throne (Scenario). Appears during the Broken Temple Ritual Site event.]],
 
     -- NPCs: 256095
-    [1646] = [[Located in The Blinding Bloom, Harandar. Found flying around the western edge of the area.]],
+    [1644] = [[Located in The Blinding Bloom, Harandar. Found flying around the western edge of the area.]],
 
     -- NPCs: 256230, 256853
-    [1647] = [[Located in Suncrown Tree, Eversong Woods.]],
+    [1645] = [[Located in Suncrown Tree, Eversong Woods.]],
 
     -- NPCs: 256345
-    [1648] = [[Located in Vale of Mists & The Grudge Pit (Non-Instanced), Harandar.]],
+    [1646] = [[Located in Vale of Mists & The Grudge Pit (Non-Instanced), Harandar.]],
 
     -- NPCs: 256357
-    [1649] = [[Located in Vale of Mists & The Grudge Pit (Non-Instanced), Harandar. Also found in the higher area to the west of The Grudge Pit.]],
+    [1647] = [[Located in Vale of Mists & The Grudge Pit (Non-Instanced), Harandar. Also found in the higher area to the west of The Grudge Pit.]],
 
     -- NPCs: 256844
-    [1650] = [[Located in Eversong Woods. Possibly only found as a couple of isolated individuals: one north of Fairbreeze Village and one in the woods a fair way east of East Sanctum and south of Farstrider Hold.]],
+    [1648] = [[Located in Eversong Woods. Possibly only found as a couple of isolated individuals: one north of Fairbreeze Village and one in the woods a fair way east of East Sanctum and south of Farstrider Hold.]],
 
     -- NPCs: 256847
-    [1651] = [[Located in Eversong Woods. Only known to occur as a single individual that runs along the beach to the west of Lightbloom Ath'Ran and south of Sunset Strand, by a larger number of Glistening Hawkstriders.]],
+    [1649] = [[Located in Eversong Woods. Only known to occur as a single individual that runs along the beach to the west of Lightbloom Ath'Ran and south of Sunset Strand, by a larger number of Glistening Hawkstriders.]],
 
     -- NPCs: 256858
-    [1652] = [[Located in Tranquil Repose, Eversong Woods. Found at Tranquil Repose (a glade west of Tranquillien) and also to the north-west of the southern entrance to Zul'Aman.]],
+    [1650] = [[Located in Tranquil Repose, Eversong Woods. Found at Tranquil Repose (a glade west of Tranquillien) and also to the north-west of the southern entrance to Zul'Aman.]],
 
     -- NPCs: 256898
-    [1653] = [[Located in Harandar. Found in various, very high-up places throughout the zone.]],
+    [1651] = [[Located in Harandar. Found in various, very high-up places throughout the zone.]],
 
     -- NPCs: 257127
-    [1654] = [[Located in Midnight Delves. Can spawn as a part of a Nemesis group only during the first season of Midnight Delves.]],
+    [1652] = [[Located in Midnight Delves. Can spawn as a part of a Nemesis group only during the first season of Midnight Delves.]],
 
     -- NPCs: 257265
-    [1655] = [[Located in Nalorakk's Prowl, Zul'Aman. Spawns during the quest, Crab Clues.]],
+    [1653] = [[Located in Nalorakk's Prowl, Zul'Aman. Spawns during the quest, Crab Clues.]],
 
     -- NPCs: 257491
-    [1656] = [[Located in Leech Bog , Zul'Aman. Found hidden in a bear den in the centre of the Leech Bog, around 41.2, 59.7. A swarm of these will appear when you approach the corpses in the back of the cave.]],
+    [1654] = [[Located in Leech Bog , Zul'Aman. Found hidden in a bear den in the centre of the Leech Bog, around 41.2, 59.7. A swarm of these will appear when you approach the corpses in the back of the cave.]],
 
     -- NPCs: 257830, 262321
-    [1657] = [[Located in Ritual Site: Daggerspine Point (Scenario). Appears during the Daggerspine Point Ritual Site event.]],
+    [1655] = [[Located in Ritual Site: Daggerspine Point (Scenario). Appears during the Daggerspine Point Ritual Site event.]],
 
     -- NPCs: 258215
-    [1658] = [[Located in Zul'Aman. Found to the north of Shadebasin Watch. Only found during the quest, A Quiet Walk Interrupted.]],
+    [1656] = [[Located in Zul'Aman. Found to the north of Shadebasin Watch. Only found during the quest, A Quiet Walk Interrupted.]],
 
     -- NPCs: 258216
-    [1659] = [[Located in Zul'Aman. Found to the east of Shadebasin Watch. Only found during the quest, A Quiet Walk Interrupted.]],
+    [1657] = [[Located in Zul'Aman. Found to the east of Shadebasin Watch. Only found during the quest, A Quiet Walk Interrupted.]],
 
     -- NPCs: 258269
-    [1660] = [[Located in Storm Fields, Voidstorm. Located in the caves beneath Storm Fields. Requires the quest, "Buried in the Dark" to access.]],
+    [1658] = [[Located in Storm Fields, Voidstorm. Located in the caves beneath Storm Fields. Requires the quest, "Buried in the Dark" to access.]],
 
     -- NPCs: 259106
-    [1661] = [[Located in Zeb'Nowa, Eversong Woods. This warp stalker appears during several Void Assaults in Zul'Aman and Eversong Woods, if Hal'hadar ethereals are present. Void Assaults switch between the two zones weekly. A good source in ZA is the Void Incursion event that occurs at Speaker's Rest when the zone's Void Assaults tally reaches 100%. During this event, the Hal'hadar Leystalkers are stealthed but easily detected by hunters. An event in Eversong where they occur is the "Cryptic Operations" Void Strike in the crypts at the southern end of the Zeb'Nowa ruins (in the far south-east of the zone, south-west of the entrance to Zul'Aman). This strike appears to be less frequent than most so you may have to clear a number of them before it pops, but when it does be quick to tame one as other players engaging with the event will probably kill them quickly.]],
+    [1659] = [[Located in Zeb'Nowa, Eversong Woods. This warp stalker appears during several Void Assaults in Zul'Aman and Eversong Woods, if Hal'hadar ethereals are present. Void Assaults switch between the two zones weekly. A good source in ZA is the Void Incursion event that occurs at Speaker's Rest when the zone's Void Assaults tally reaches 100%. During this event, the Hal'hadar Leystalkers are stealthed but easily detected by hunters. An event in Eversong where they occur is the "Cryptic Operations" Void Strike in the crypts at the southern end of the Zeb'Nowa ruins (in the far south-east of the zone, south-west of the entrance to Zul'Aman). This strike appears to be less frequent than most so you may have to clear a number of them before it pops, but when it does be quick to tame one as other players engaging with the event will probably kill them quickly.]],
 
     -- NPCs: 259955, 259960
-    [1662] = [[Located in Maisara Deeps, Zul'Aman. Appears during the "Battery Rush: Maisara Deeps" Void Strike event.]],
+    [1660] = [[Located in Maisara Deeps, Zul'Aman. Appears during the "Battery Rush: Maisara Deeps" Void Strike event.]],
 
     -- NPCs: 260031
-    [1663] = [[Located in Ahl'ua Wetland , Harandar . Latticewing Sporegliders with this ID patrol the zone in a small pack.]],
+    [1661] = [[Located in Ahl'ua Wetland , Harandar . Latticewing Sporegliders with this ID patrol the zone in a small pack.]],
 
     -- NPCs: 261337
-    [1664] = [[Located in Eversong Woods. Appears during the 'Tranquil Repose' and 'South Eversong Woods' Void Strike events in Eversong Woods. Only one of these beasts seems to appear at a time but another may spawn as the event continues. These events only occur when Void Assaults are set in Eversong Woods, which is every second week. Void Strike locations seem to cycle randomly, so keep completing them until one of these two appears.]],
+    [1662] = [[Located in Eversong Woods. Appears during the 'Tranquil Repose' and 'South Eversong Woods' Void Strike events in Eversong Woods. Only one of these beasts seems to appear at a time but another may spawn as the event continues. These events only occur when Void Assaults are set in Eversong Woods, which is every second week. Void Strike locations seem to cycle randomly, so keep completing them until one of these two appears.]],
 
     -- NPCs: 263617
-    [1665] = [[Located in Ritual Site: Daggerspine Point (Scenario). There's a chance of summoning this snapdragon while running the Daggerspine Point Ritual Site. This instance is open every second week in Eversong Woods (check for the purple ritual site mark on the zone map) and is soloable. Inside the instance you can find occasional piles of Washed Up Kelp. Interacting with these has a chance of spawning a Void-Touched Snapdragon (which can also drop a mount of the same name).]],
+    [1663] = [[Located in Ritual Site: Daggerspine Point (Scenario). There's a chance of summoning this snapdragon while running the Daggerspine Point Ritual Site. This instance is open every second week in Eversong Woods (check for the purple ritual site mark on the zone map) and is soloable. Inside the instance you can find occasional piles of Washed Up Kelp. Interacting with these has a chance of spawning a Void-Touched Snapdragon (which can also drop a mount of the same name).]],
 }
 
 PSM.NPCNotes = {
@@ -6038,1062 +6032,1061 @@ PSM.NPCNotes = {
     [127479] = notes[797],
     [127482] = notes[798],
     [127569] = notes[799],
-    [127572] = notes[800],
-    [127602] = notes[801],
+    [127602] = notes[800],
     [127611] = notes[799],
-    [127615] = notes[802],
-    [127630] = notes[803],
-    [127651] = notes[804],
-    [127768] = notes[805],
-    [127800] = notes[806],
-    [127847] = notes[807],
-    [127873] = notes[808],
-    [128093] = notes[809],
-    [128099] = notes[810],
-    [128115] = notes[810],
-    [128361] = notes[811],
+    [127615] = notes[801],
+    [127630] = notes[802],
+    [127651] = notes[803],
+    [127768] = notes[804],
+    [127800] = notes[805],
+    [127847] = notes[806],
+    [127873] = notes[807],
+    [128093] = notes[808],
+    [128099] = notes[809],
+    [128115] = notes[809],
+    [128361] = notes[810],
     [128434] = notes[757],
-    [128435] = notes[812],
-    [128441] = notes[813],
-    [128476] = notes[813],
-    [128478] = notes[813],
-    [128551] = notes[814],
-    [128587] = notes[815],
-    [128612] = notes[810],
-    [128622] = notes[810],
-    [128838] = notes[816],
-    [128848] = notes[817],
-    [128849] = notes[818],
-    [129070] = notes[819],
-    [129124] = notes[820],
-    [129283] = notes[821],
-    [129298] = notes[822],
-    [129482] = notes[823],
-    [129500] = notes[824],
-    [129517] = notes[825],
-    [129626] = notes[826],
-    [129764] = notes[827],
-    [129805] = notes[828],
-    [129833] = notes[829],
-    [129835] = notes[830],
-    [129857] = notes[819],
-    [129950] = notes[831],
-    [130022] = notes[832],
-    [130023] = notes[832],
-    [130085] = notes[833],
-    [130147] = notes[834],
-    [130191] = notes[835],
-    [130338] = notes[836],
-    [130350] = notes[837],
-    [130401] = notes[838],
-    [130439] = notes[839],
-    [130443] = notes[840],
-    [130512] = notes[841],
-    [130581] = notes[836],
-    [130584] = notes[836],
-    [130643] = notes[842],
-    [130889] = notes[843],
-    [130935] = notes[844],
-    [130937] = notes[845],
-    [130943] = notes[846],
-    [130953] = notes[847],
-    [131136] = notes[848],
-    [131695] = notes[849],
-    [131817] = notes[850],
-    [131890] = notes[851],
-    [131892] = notes[851],
-    [131893] = notes[851],
-    [131895] = notes[852],
-    [131897] = notes[851],
-    [132194] = notes[853],
-    [132195] = notes[853],
-    [132211] = notes[854],
-    [132275] = notes[819],
-    [132341] = notes[855],
-    [132526] = notes[851],
-    [132578] = notes[856],
-    [132580] = notes[857],
-    [132584] = notes[858],
-    [132653] = notes[859],
-    [133163] = notes[860],
-    [133298] = notes[861],
-    [133321] = notes[862],
-    [133356] = notes[863],
-    [133384] = notes[864],
-    [133527] = notes[865],
-    [133562] = notes[866],
-    [133835] = notes[867],
-    [133988] = notes[868],
-    [134005] = notes[869],
-    [134046] = notes[870],
-    [134047] = notes[870],
-    [134048] = notes[871],
-    [134057] = notes[872],
-    [134147] = notes[873],
-    [134296] = notes[874],
-    [134307] = notes[875],
-    [134390] = notes[876],
-    [134433] = notes[877],
-    [134450] = notes[878],
-    [134507] = notes[879],
-    [134519] = notes[880],
-    [134562] = notes[881],
-    [134686] = notes[882],
-    [134780] = notes[883],
-    [134782] = notes[884],
-    [134798] = notes[836],
-    [134799] = notes[885],
-    [134852] = notes[886],
-    [134896] = notes[887],
-    [134906] = notes[888],
-    [134907] = notes[888],
-    [134934] = notes[889],
-    [135048] = notes[890],
-    [135049] = notes[891],
-    [135052] = notes[892],
-    [135234] = notes[891],
-    [135293] = notes[893],
-    [135304] = notes[894],
-    [135322] = notes[895],
-    [135433] = notes[896],
-    [135450] = notes[897],
-    [135490] = notes[898],
-    [135508] = notes[899],
-    [135510] = notes[900],
-    [135632] = notes[901],
-    [135743] = notes[902],
-    [135769] = notes[903],
-    [135846] = notes[882],
-    [136183] = notes[904],
-    [136280] = notes[905],
-    [136311] = notes[906],
-    [136417] = notes[907],
-    [136418] = notes[907],
-    [136426] = notes[908],
-    [136469] = notes[909],
-    [136548] = notes[910],
-    [136653] = notes[911],
-    [136667] = notes[912],
-    [136914] = notes[913],
-    [136976] = notes[914],
-    [136984] = notes[915],
-    [137025] = notes[916],
-    [137098] = notes[917],
-    [137181] = notes[918],
-    [137182] = notes[919],
-    [137183] = notes[920],
-    [137233] = notes[921],
-    [137336] = notes[922],
-    [137338] = notes[923],
-    [137340] = notes[924],
-    [137342] = notes[924],
-    [137349] = notes[925],
-    [137353] = notes[926],
-    [137487] = notes[927],
-    [137681] = notes[928],
-    [137713] = notes[929],
-    [137714] = notes[930],
-    [137716] = notes[931],
-    [137720] = notes[932],
-    [137829] = notes[933],
-    [137836] = notes[934],
-    [137840] = notes[935],
-    [137885] = notes[936],
-    [138086] = notes[937],
-    [138286] = notes[938],
-    [138342] = notes[939],
-    [138491] = notes[940],
-    [138540] = notes[941],
-    [138660] = notes[942],
-    [138794] = notes[943],
-    [138812] = notes[944],
-    [138851] = notes[945],
-    [138963] = notes[946],
-    [138971] = notes[947],
-    [138972] = notes[948],
-    [139194] = notes[949],
-    [139298] = notes[950],
-    [139328] = notes[951],
-    [139335] = notes[952],
-    [139336] = notes[952],
-    [139356] = notes[952],
-    [139359] = notes[952],
-    [139483] = notes[953],
-    [139486] = notes[954],
-    [139562] = notes[955],
-    [139563] = notes[956],
-    [139709] = notes[957],
-    [139980] = notes[958],
-    [140034] = notes[888],
-    [140038] = notes[959],
-    [140070] = notes[960],
-    [140071] = notes[836],
-    [140072] = notes[836],
-    [140275] = notes[961],
-    [140296] = notes[836],
-    [140298] = notes[836],
-    [140300] = notes[836],
-    [140301] = notes[960],
-    [140560] = notes[962],
-    [140591] = notes[963],
-    [140594] = notes[963],
-    [140604] = notes[964],
-    [140689] = notes[836],
-    [140690] = notes[836],
-    [140691] = notes[836],
-    [140692] = notes[885],
-    [140699] = notes[965],
-    [140735] = notes[966],
-    [140738] = notes[966],
-    [140756] = notes[967],
-    [141051] = notes[968],
-    [141118] = notes[969],
-    [141239] = notes[970],
-    [141643] = notes[971],
-    [141935] = notes[972],
-    [141977] = notes[973],
-    [141981] = notes[974],
-    [141988] = notes[975],
-    [142016] = notes[976],
-    [142198] = notes[977],
-    [142312] = notes[978],
-    [142333] = notes[979],
-    [142337] = notes[980],
-    [142338] = notes[980],
-    [142339] = notes[980],
-    [142340] = notes[979],
-    [142341] = notes[980],
-    [142342] = notes[980],
-    [142347] = notes[981],
-    [142361] = notes[982],
-    [142403] = notes[983],
-    [142435] = notes[984],
-    [142437] = notes[985],
-    [142438] = notes[986],
-    [142440] = notes[987],
-    [142464] = notes[988],
-    [142610] = notes[989],
-    [142713] = notes[966],
-    [142717] = notes[990],
-    [142935] = notes[991],
-    [143416] = notes[992],
-    [143510] = notes[993],
-    [143700] = notes[994],
-    [143718] = notes[995],
-    [143740] = notes[996],
-    [143741] = notes[997],
-    [144246] = notes[998],
-    [144477] = notes[999],
-    [144638] = notes[1000],
-    [144731] = notes[1001],
-    [144825] = notes[1002],
-    [144826] = notes[1003],
-    [144827] = notes[1004],
-    [144829] = notes[1005],
-    [144830] = notes[1003],
-    [144831] = notes[1006],
-    [144833] = notes[1007],
-    [144837] = notes[1008],
-    [144839] = notes[1009],
-    [144842] = notes[1010],
-    [144993] = notes[1011],
-    [145110] = notes[1012],
-    [145337] = notes[1013],
-    [145343] = notes[1014],
-    [145444] = notes[1012],
-    [145457] = notes[1012],
-    [145736] = notes[1015],
-    [145740] = notes[1016],
-    [146321] = notes[1017],
-    [146564] = notes[1018],
-    [147453] = notes[1019],
-    [148117] = notes[1020],
-    [148787] = notes[1021],
-    [149644] = notes[1022],
-    [149654] = notes[1023],
-    [149663] = notes[1024],
-    [149680] = notes[1025],
-    [149839] = notes[1026],
-    [150154] = notes[1027],
-    [150254] = notes[1028],
-    [150293] = notes[1029],
-    [150373] = notes[1030],
-    [150376] = notes[1031],
-    [150467] = notes[1032],
-    [151096] = notes[1033],
-    [151133] = notes[1034],
-    [151144] = notes[1035],
-    [151145] = notes[1036],
-    [151147] = notes[1037],
-    [151148] = notes[1038],
-    [151149] = notes[1039],
-    [151159] = notes[1040],
-    [151353] = notes[1041],
-    [151634] = notes[1042],
-    [151672] = notes[1043],
-    [151709] = notes[1044],
-    [151773] = notes[1045],
-    [151809] = notes[1046],
-    [151811] = notes[1047],
-    [151859] = notes[1048],
-    [151883] = notes[1049],
-    [151933] = notes[1050],
-    [151945] = notes[1051],
-    [151948] = notes[1052],
-    [152136] = notes[1053],
-    [152148] = notes[866],
-    [152288] = notes[1054],
-    [152290] = notes[1055],
-    [152291] = notes[1056],
-    [152296] = notes[1057],
-    [152319] = notes[1058],
-    [152359] = notes[1059],
-    [152360] = notes[1060],
-    [152361] = notes[1061],
-    [152448] = notes[1062],
-    [152462] = notes[1063],
-    [152463] = notes[1064],
-    [152465] = notes[1065],
-    [152551] = notes[1014],
-    [152552] = notes[1066],
-    [152553] = notes[1067],
-    [152556] = notes[1068],
-    [152642] = notes[1069],
-    [152657] = notes[1070],
-    [152708] = notes[1041],
-    [152768] = notes[1071],
-    [152795] = notes[1072],
-    [152992] = notes[1073],
-    [153096] = notes[1074],
-    [153208] = notes[1075],
-    [153238] = notes[1076],
-    [153266] = notes[1077],
-    [153268] = notes[1078],
-    [153278] = notes[1078],
-    [153465] = notes[1079],
-    [153473] = notes[1080],
-    [153694] = notes[1081],
-    [153764] = notes[1082],
-    [153812] = notes[1083],
-    [153959] = notes[1084],
-    [153971] = notes[1085],
-    [153980] = notes[1086],
-    [153992] = notes[1087],
-    [154030] = notes[1041],
-    [154092] = notes[1014],
-    [154181] = notes[1088],
-    [154219] = notes[1089],
-    [154353] = notes[1090],
-    [154354] = notes[1091],
-    [154367] = notes[1092],
-    [154576] = notes[1093],
-    [154604] = notes[1094],
-    [154761] = notes[1095],
-    [154935] = notes[1096],
-    [154936] = notes[1096],
-    [155238] = notes[1097],
-    [155483] = notes[1098],
-    [155583] = notes[1099],
-    [155703] = notes[1100],
-    [155770] = notes[1101],
-    [155779] = notes[1102],
-    [156046] = notes[1103],
-    [156077] = notes[1104],
-    [156083] = notes[1105],
-    [156242] = notes[1106],
-    [156284] = notes[1107],
-    [156389] = notes[1108],
-    [156756] = notes[1109],
-    [156759] = notes[1110],
-    [156760] = notes[1111],
-    [156778] = notes[1112],
-    [156780] = notes[1110],
-    [156788] = notes[1110],
-    [156931] = notes[1110],
-    [157083] = notes[1113],
-    [157121] = notes[1052],
-    [157143] = notes[1114],
-    [157162] = notes[1115],
-    [157279] = notes[1116],
-    [157290] = notes[1117],
-    [157301] = notes[1118],
-    [157341] = notes[1119],
-    [157466] = notes[1120],
-    [157565] = notes[1121],
-    [157567] = notes[1121],
-    [157589] = notes[1122],
-    [157662] = notes[1123],
-    [157665] = notes[1123],
-    [158254] = notes[1124],
-    [158256] = notes[1125],
-    [158409] = notes[1126],
-    [158465] = notes[1127],
-    [158530] = notes[1128],
-    [158702] = notes[1129],
-    [158771] = notes[1130],
-    [158976] = notes[1131],
-    [158978] = notes[1132],
-    [159177] = notes[1133],
-    [159178] = notes[1131],
-    [159265] = notes[1131],
-    [159323] = notes[1134],
-    [159441] = notes[1131],
-    [159460] = notes[1131],
-    [159610] = notes[1135],
-    [159756] = notes[1136],
-    [159886] = notes[1137],
-    [159895] = notes[1138],
-    [160089] = notes[1139],
-    [160110] = notes[1139],
-    [160341] = notes[1140],
-    [160401] = notes[1141],
-    [160402] = notes[1141],
-    [160872] = notes[1142],
-    [160970] = notes[1143],
-    [161130] = notes[1144],
-    [161131] = notes[1145],
-    [161133] = notes[1146],
-    [161256] = notes[1147],
-    [161280] = notes[1148],
-    [161527] = notes[1149],
-    [161528] = notes[1150],
-    [161529] = notes[1151],
-    [161530] = notes[1152],
-    [161541] = notes[1153],
-    [161672] = notes[1154],
-    [162140] = notes[1155],
-    [162142] = notes[1156],
-    [162147] = notes[1157],
-    [162150] = notes[1158],
-    [162173] = notes[1159],
-    [162237] = notes[1160],
-    [162300] = notes[1160],
-    [162334] = notes[1161],
-    [162335] = notes[1162],
-    [162336] = notes[1163],
-    [162360] = notes[1164],
-    [162361] = notes[1165],
-    [162364] = notes[1166],
-    [162373] = notes[1161],
-    [162374] = notes[1167],
-    [162375] = notes[1168],
-    [162378] = notes[1169],
-    [162380] = notes[1170],
-    [162381] = notes[1169],
-    [162382] = notes[1171],
-    [162399] = notes[1172],
-    [162428] = notes[1173],
-    [162588] = notes[1174],
-    [162681] = notes[1175],
-    [163025] = notes[1176],
-    [163042] = notes[1177],
-    [163045] = notes[1178],
-    [163091] = notes[1179],
-    [163154] = notes[1180],
-    [163185] = notes[1181],
-    [163259] = notes[1182],
-    [163268] = notes[1183],
-    [163503] = notes[1184],
-    [163506] = notes[1184],
-    [163616] = notes[1185],
-    [164110] = notes[1186],
-    [164197] = notes[1187],
-    [164198] = notes[1188],
-    [164208] = notes[1189],
-    [164391] = notes[1190],
-    [164424] = notes[1191],
-    [164479] = notes[1192],
-    [164563] = notes[1193],
-    [164587] = notes[1194],
-    [164847] = notes[1195],
-    [164873] = notes[1196],
-    [165312] = notes[1197],
-    [165336] = notes[1198],
-    [165349] = notes[1199],
-    [165404] = notes[1200],
-    [165460] = notes[1201],
-    [165634] = notes[1202],
-    [165905] = notes[1196],
-    [165942] = notes[1203],
-    [165957] = notes[1204],
-    [165960] = notes[1205],
-    [165978] = notes[1206],
-    [166027] = notes[1207],
-    [166177] = notes[1208],
-    [166453] = notes[1208],
-    [166559] = notes[1209],
-    [166592] = notes[1210],
-    [166676] = notes[1211],
-    [166679] = notes[1212],
-    [166735] = notes[1213],
-    [167129] = notes[1214],
-    [167139] = notes[1215],
-    [167337] = notes[1216],
-    [167342] = notes[1217],
-    [167343] = notes[1218],
-    [167344] = notes[1219],
-    [167345] = notes[1220],
-    [167346] = notes[1221],
-    [167347] = notes[1222],
-    [167348] = notes[1223],
-    [167349] = notes[1224],
-    [167350] = notes[1225],
-    [167351] = notes[1226],
-    [167352] = notes[1227],
-    [167375] = notes[1228],
-    [167433] = notes[1229],
-    [167485] = notes[1041],
-    [167508] = notes[1230],
-    [167719] = notes[1231],
-    [167721] = notes[1232],
-    [167848] = notes[1233],
-    [167851] = notes[1234],
-    [167964] = notes[1196],
-    [168008] = notes[1235],
-    [168135] = notes[1236],
-    [168153] = notes[1237],
-    [168192] = notes[1238],
-    [168258] = notes[1239],
-    [168306] = notes[1240],
-    [168310] = notes[1241],
-    [168361] = notes[1242],
-    [168402] = notes[1243],
-    [168424] = notes[1244],
-    [168453] = notes[1245],
-    [168579] = notes[1246],
-    [168591] = notes[1247],
-    [168850] = notes[1248],
-    [168986] = notes[1196],
-    [169160] = notes[1249],
-    [169263] = notes[1250],
-    [169276] = notes[1251],
-    [169732] = notes[1252],
-    [169823] = notes[1253],
-    [169840] = notes[1254],
-    [169841] = notes[1254],
-    [169972] = notes[1255],
-    [169974] = notes[1255],
-    [169975] = notes[1255],
-    [169976] = notes[1255],
-    [169977] = notes[1255],
-    [170007] = notes[1256],
-    [170184] = notes[1257],
-    [170288] = notes[1208],
-    [170331] = notes[1258],
-    [170332] = notes[1258],
-    [170659] = notes[1259],
-    [170699] = notes[1260],
-    [170723] = notes[1261],
-    [170767] = notes[1262],
-    [170781] = notes[1263],
-    [170785] = notes[1263],
-    [170847] = notes[1264],
-    [170923] = notes[1265],
-    [170932] = notes[1266],
-    [170933] = notes[1267],
-    [170969] = notes[1268],
-    [171017] = notes[1269],
-    [171181] = notes[1196],
-    [171341] = notes[1196],
-    [171342] = notes[1196],
-    [171455] = notes[1247],
-    [171583] = notes[1207],
-    [171827] = notes[1270],
-    [172045] = notes[1271],
-    [172053] = notes[1272],
-    [172390] = notes[1273],
-    [172628] = notes[1274],
-    [172703] = notes[1275],
-    [172704] = notes[1275],
-    [173045] = notes[1276],
-    [173046] = notes[1276],
-    [173114] = notes[1253],
-    [173393] = notes[1277],
-    [173409] = notes[1278],
-    [173635] = notes[1279],
-    [173834] = notes[1280],
-    [173855] = notes[1281],
-    [173940] = notes[1282],
-    [174552] = notes[1283],
-    [175265] = notes[1284],
-    [175478] = notes[1285],
-    [175811] = notes[1286],
-    [175818] = notes[1287],
-    [175819] = notes[1287],
-    [175820] = notes[1287],
-    [175860] = notes[1288],
-    [176338] = notes[1289],
-    [177302] = notes[1290],
-    [177334] = notes[1291],
-    [177335] = notes[1292],
-    [177336] = notes[1293],
-    [177422] = notes[1294],
-    [177441] = notes[1294],
-    [177442] = notes[1294],
-    [177443] = notes[1294],
-    [177444] = notes[1294],
-    [177445] = notes[1294],
-    [178050] = notes[1295],
-    [178148] = notes[1296],
-    [178149] = notes[1296],
-    [178283] = notes[1297],
-    [178507] = notes[1298],
-    [178626] = notes[1299],
-    [178630] = notes[1299],
-    [178743] = notes[1300],
-    [178937] = notes[1301],
-    [178963] = notes[1302],
-    [179043] = notes[1303],
-    [179939] = notes[1304],
-    [180524] = notes[1292],
-    [180678] = notes[1305],
-    [180705] = notes[1306],
-    [180924] = notes[1307],
-    [181211] = notes[1308],
-    [181212] = notes[1309],
-    [181213] = notes[1310],
-    [181359] = notes[1311],
-    [181383] = notes[1311],
-    [181484] = notes[1311],
-    [181861] = notes[1312],
-    [182363] = notes[1313],
-    [183265] = notes[1314],
-    [183291] = notes[1315],
-    [183340] = notes[1316],
-    [183610] = notes[1317],
-    [183764] = notes[1318],
-    [183925] = notes[1319],
-    [183984] = notes[1320],
-    [184023] = notes[1321],
-    [184403] = notes[1322],
-    [184804] = notes[1323],
-    [185266] = notes[1324],
-    [185451] = notes[1325],
-    [185487] = notes[1326],
-    [185505] = notes[1327],
-    [185944] = notes[1328],
-    [186399] = notes[1329],
-    [186622] = notes[1330],
-    [186684] = notes[1331],
-    [187111] = notes[1332],
-    [187336] = notes[1333],
-    [187337] = notes[1333],
-    [187415] = notes[1334],
-    [188128] = notes[1335],
-    [189744] = notes[1336],
-    [190708] = notes[1337],
-    [190730] = notes[1338],
-    [191496] = notes[1339],
-    [191509] = notes[1306],
-    [191541] = notes[1340],
-    [191545] = notes[1341],
-    [191551] = notes[1342],
-    [191621] = notes[1343],
-    [191628] = notes[1344],
-    [191637] = notes[1345],
-    [191639] = notes[1346],
-    [191645] = notes[1347],
-    [191647] = notes[1348],
-    [191665] = notes[1349],
-    [191672] = notes[1306],
-    [191678] = notes[1350],
-    [191790] = notes[1351],
-    [191903] = notes[1306],
-    [192351] = notes[1316],
-    [192430] = notes[1352],
-    [192486] = notes[1316],
-    [192487] = notes[1316],
-    [192739] = notes[1353],
-    [192949] = notes[1354],
-    [192950] = notes[1354],
-    [192951] = notes[1354],
-    [192952] = notes[1354],
-    [193063] = notes[1355],
-    [193139] = notes[1356],
-    [193177] = notes[1357],
-    [193201] = notes[1358],
-    [193217] = notes[1359],
-    [193236] = notes[1360],
-    [193254] = notes[1361],
-    [193266] = notes[1362],
-    [193427] = notes[1363],
-    [193428] = notes[1364],
-    [193429] = notes[1363],
-    [193521] = notes[1365],
-    [193596] = notes[1366],
-    [193723] = notes[1367],
-    [193725] = notes[1368],
-    [193854] = notes[1369],
-    [193859] = notes[1370],
-    [193861] = notes[1371],
-    [193873] = notes[1372],
-    [193891] = notes[1373],
-    [193892] = notes[1374],
-    [193925] = notes[1306],
-    [193986] = notes[1375],
-    [194020] = notes[1376],
-    [194021] = notes[1377],
-    [194085] = notes[1378],
-    [194102] = notes[1379],
-    [194103] = notes[1380],
-    [194242] = notes[1381],
-    [194489] = notes[1382],
-    [194568] = notes[1383],
-    [194750] = notes[1384],
-    [195409] = notes[1385],
-    [195448] = notes[1330],
-    [195635] = notes[1333],
-    [195708] = notes[1355],
-    [195709] = notes[1386],
-    [196398] = notes[1387],
-    [196523] = notes[1388],
-    [196674] = notes[1389],
-    [197914] = notes[1390],
-    [198313] = notes[1391],
-    [198314] = notes[1392],
-    [198428] = notes[1393],
-    [199194] = notes[1394],
-    [199195] = notes[1394],
-    [199248] = notes[1395],
-    [199533] = notes[1396],
-    [199544] = notes[1397],
-    [200450] = notes[1398],
-    [201579] = notes[1399],
-    [202317] = notes[1400],
-    [202339] = notes[1401],
-    [202341] = notes[1401],
-    [202506] = notes[1402],
-    [202510] = notes[1403],
-    [203342] = notes[1404],
-    [203343] = notes[1404],
-    [203348] = notes[1405],
-    [203625] = notes[1406],
-    [203734] = notes[1407],
-    [204311] = notes[1408],
-    [204316] = notes[1408],
-    [204435] = notes[1409],
-    [204611] = notes[1410],
-    [204825] = notes[1411],
-    [204828] = notes[1412],
-    [204837] = notes[1413],
-    [204839] = notes[1414],
-    [205001] = notes[1415],
-    [205300] = notes[1416],
-    [205763] = notes[1417],
-    [206073] = notes[1418],
-    [206094] = notes[1419],
-    [206180] = notes[1420],
-    [207072] = notes[1421],
-    [207300] = notes[1422],
-    [207625] = notes[1423],
-    [207626] = notes[1424],
-    [207789] = notes[1425],
-    [209909] = notes[1426],
-    [209929] = notes[1427],
-    [209936] = notes[1428],
-    [210045] = notes[1429],
-    [210051] = notes[1430],
-    [210070] = notes[1431],
-    [210075] = notes[1432],
-    [210106] = notes[1426],
-    [210395] = notes[1433],
-    [210397] = notes[1433],
-    [210478] = notes[1434],
-    [210508] = notes[1435],
-    [210795] = notes[1436],
-    [210848] = notes[1429],
-    [210868] = notes[1437],
-    [210882] = notes[1438],
-    [210908] = notes[1439],
-    [210953] = notes[1440],
-    [210981] = notes[1441],
-    [210982] = notes[1441],
-    [210983] = notes[1441],
-    [210984] = notes[1442],
-    [210985] = notes[1442],
-    [210986] = notes[1442],
-    [210988] = notes[1443],
-    [210989] = notes[1443],
-    [210990] = notes[1443],
-    [211176] = notes[1444],
-    [211651] = notes[1445],
-    [211755] = notes[1445],
-    [211990] = notes[1446],
-    [212040] = notes[1447],
-    [212041] = notes[1447],
-    [212043] = notes[1448],
-    [212061] = notes[1447],
-    [212062] = notes[1447],
-    [212065] = notes[1449],
-    [212066] = notes[1449],
-    [212069] = notes[1449],
-    [212070] = notes[1450],
-    [212090] = notes[1447],
-    [212133] = notes[1451],
-    [212292] = notes[1452],
-    [212425] = notes[1453],
-    [212704] = notes[1454],
-    [212710] = notes[1455],
-    [213428] = notes[1456],
-    [213539] = notes[1457],
-    [213542] = notes[1457],
-    [213545] = notes[1458],
-    [213608] = notes[1459],
-    [213647] = notes[1460],
-    [213668] = notes[1461],
-    [213922] = notes[1462],
-    [214397] = notes[1463],
-    [214757] = notes[1464],
-    [215411] = notes[1465],
-    [215608] = notes[1466],
-    [215733] = notes[1467],
-    [215772] = notes[1468],
-    [215990] = notes[1469],
-    [215991] = notes[1470],
-    [216037] = notes[1471],
-    [216039] = notes[1472],
-    [216044] = notes[1473],
-    [216078] = notes[1474],
-    [216197] = notes[1475],
-    [216249] = notes[1476],
-    [216288] = notes[1476],
-    [216340] = notes[1477],
-    [216387] = notes[1478],
-    [216555] = notes[1479],
-    [217121] = notes[1480],
-    [217379] = notes[1481],
-    [217417] = notes[1482],
-    [217939] = notes[1483],
-    [217949] = notes[1483],
-    [218066] = notes[1484],
-    [219246] = notes[1485],
-    [219265] = notes[1486],
-    [219365] = notes[1487],
-    [219397] = notes[1488],
-    [219425] = notes[1485],
-    [219653] = notes[1489],
-    [219654] = notes[1490],
-    [219662] = notes[1489],
-    [219664] = notes[1489],
-    [219790] = notes[1491],
-    [219949] = notes[1492],
-    [220059] = notes[1493],
-    [220300] = notes[1494],
-    [220399] = notes[1495],
-    [220483] = notes[1496],
-    [220707] = notes[1497],
-    [221065] = notes[1480],
-    [221126] = notes[1498],
-    [221131] = notes[1499],
-    [221474] = notes[1500],
-    [221528] = notes[1501],
-    [221648] = notes[1502],
-    [221704] = notes[1503],
-    [222019] = notes[1504],
-    [222040] = notes[1505],
-    [222155] = notes[1506],
-    [222248] = notes[1507],
-    [222690] = notes[1508],
-    [222936] = notes[1509],
-    [223042] = notes[1510],
-    [223056] = notes[1511],
-    [223058] = notes[1511],
-    [223060] = notes[1512],
-    [223067] = notes[1512],
-    [223091] = notes[1513],
-    [223117] = notes[1514],
-    [223613] = notes[1515],
-    [223782] = notes[1516],
-    [223783] = notes[1516],
-    [223905] = notes[1514],
-    [224099] = notes[1517],
-    [224101] = notes[1518],
-    [224133] = notes[1519],
-    [224409] = notes[1520],
-    [224410] = notes[1517],
-    [224464] = notes[1521],
-    [224521] = notes[1522],
-    [224551] = notes[1523],
-    [224663] = notes[1524],
-    [224725] = notes[1525],
-    [224751] = notes[1526],
-    [224958] = notes[1527],
-    [225244] = notes[1528],
-    [225271] = notes[1529],
-    [225391] = notes[1530],
-    [225393] = notes[1531],
-    [225488] = notes[1532],
-    [225815] = notes[1533],
-    [225865] = notes[1534],
-    [225912] = notes[1517],
-    [225913] = notes[1535],
-    [226005] = notes[1536],
-    [226028] = notes[1537],
-    [226101] = notes[1538],
-    [226128] = notes[1517],
-    [226176] = notes[1539],
-    [226381] = notes[1540],
-    [226417] = notes[1540],
-    [226562] = notes[1541],
-    [226625] = notes[1542],
-    [227026] = notes[1543],
-    [227198] = notes[1544],
-    [227367] = notes[1545],
-    [227373] = notes[1546],
-    [227569] = notes[1547],
-    [227572] = notes[1548],
-    [227627] = notes[1549],
-    [227799] = notes[1550],
-    [227808] = notes[1551],
-    [228427] = notes[1552],
-    [228465] = notes[1553],
-    [229060] = notes[1554],
-    [229532] = notes[1555],
-    [229617] = notes[1556],
-    [229620] = notes[1556],
-    [229638] = notes[1557],
-    [229688] = notes[1558],
-    [229812] = notes[1476],
-    [229813] = notes[1476],
-    [229814] = notes[1476],
-    [229816] = notes[1476],
-    [229817] = notes[1476],
-    [229820] = notes[1476],
-    [229821] = notes[1476],
-    [229856] = notes[1559],
-    [230141] = notes[1560],
-    [230830] = notes[1561],
-    [230971] = notes[1562],
-    [231053] = notes[1563],
-    [231115] = notes[1564],
-    [231146] = notes[1565],
-    [231153] = notes[1566],
-    [231194] = notes[1567],
-    [231195] = notes[1567],
-    [231217] = notes[1568],
-    [231257] = notes[1569],
-    [231258] = notes[1569],
-    [231259] = notes[1570],
-    [231315] = notes[1571],
-    [231324] = notes[1572],
-    [231340] = notes[1573],
-    [231380] = notes[1574],
-    [231808] = notes[1575],
-    [231809] = notes[1575],
-    [231986] = notes[1576],
-    [232098] = notes[1577],
-    [232106] = notes[1578],
-    [232111] = notes[1579],
-    [232193] = notes[1580],
-    [232195] = notes[1581],
-    [233213] = notes[1582],
-    [233612] = notes[1583],
-    [233938] = notes[1584],
-    [234197] = notes[1585],
-    [235095] = notes[1586],
-    [235230] = notes[1587],
-    [236539] = notes[1588],
-    [237282] = notes[1589],
-    [237750] = notes[1590],
-    [237753] = notes[1591],
-    [238478] = notes[1592],
-    [238547] = notes[1593],
-    [238625] = notes[1594],
-    [239207] = notes[1595],
-    [239210] = notes[1596],
-    [239229] = notes[1597],
-    [239325] = notes[1598],
-    [239832] = notes[1599],
-    [240511] = notes[1600],
-    [240544] = notes[1600],
-    [241360] = notes[1601],
-    [241363] = notes[1601],
-    [242034] = notes[1602],
-    [242773] = notes[1603],
-    [242998] = notes[1604],
-    [243658] = notes[1605],
-    [243778] = notes[1606],
-    [243780] = notes[1607],
-    [244029] = notes[1608],
-    [244048] = notes[1609],
-    [244060] = notes[1610],
-    [245997] = notes[1611],
-    [246074] = notes[1602],
-    [246162] = notes[1607],
-    [246633] = notes[1612],
-    [247090] = notes[1613],
-    [247559] = notes[1614],
-    [248016] = notes[1615],
-    [248070] = notes[1616],
-    [248577] = notes[1617],
-    [249358] = notes[1618],
-    [249359] = notes[1618],
-    [249392] = notes[1619],
-    [249797] = notes[1620],
-    [249798] = notes[1621],
-    [249799] = notes[1620],
-    [249806] = notes[1622],
-    [249849] = notes[1623],
-    [250030] = notes[1624],
-    [250321] = notes[1625],
-    [250341] = notes[1626],
-    [250366] = notes[1627],
-    [250822] = notes[1628],
-    [250824] = notes[1628],
-    [251593] = notes[1629],
-    [251756] = notes[1630],
-    [251758] = notes[1630],
-    [252466] = notes[1631],
-    [252693] = notes[1632],
-    [252773] = notes[1633],
-    [252994] = notes[1634],
-    [252997] = notes[1634],
-    [252998] = notes[1634],
-    [253305] = notes[1635],
-    [253316] = notes[1636],
-    [253499] = notes[1637],
-    [254203] = notes[1607],
-    [254709] = notes[1638],
-    [254720] = notes[1638],
-    [254795] = notes[1639],
-    [254815] = notes[1618],
-    [254972] = notes[1640],
-    [255079] = notes[1641],
-    [255194] = notes[1642],
-    [255709] = notes[1643],
-    [255847] = notes[1634],
-    [255886] = notes[1644],
-    [255957] = notes[1645],
-    [256095] = notes[1646],
-    [256230] = notes[1647],
-    [256344] = notes[1607],
-    [256345] = notes[1648],
-    [256349] = notes[1607],
-    [256353] = notes[1607],
-    [256354] = notes[1607],
-    [256357] = notes[1649],
-    [256361] = notes[1607],
-    [256844] = notes[1650],
-    [256847] = notes[1651],
-    [256853] = notes[1647],
-    [256858] = notes[1652],
-    [256898] = notes[1653],
-    [257127] = notes[1654],
-    [257265] = notes[1655],
-    [257491] = notes[1656],
-    [257830] = notes[1657],
-    [258215] = notes[1658],
-    [258216] = notes[1659],
-    [258269] = notes[1660],
-    [259106] = notes[1661],
-    [259914] = notes[1645],
-    [259955] = notes[1662],
-    [259960] = notes[1662],
-    [260031] = notes[1663],
-    [260954] = notes[1638],
-    [261337] = notes[1664],
-    [262321] = notes[1657],
-    [263617] = notes[1665],
+    [128435] = notes[811],
+    [128441] = notes[812],
+    [128476] = notes[812],
+    [128478] = notes[812],
+    [128551] = notes[813],
+    [128587] = notes[814],
+    [128612] = notes[809],
+    [128622] = notes[809],
+    [128838] = notes[815],
+    [128848] = notes[816],
+    [128849] = notes[817],
+    [129070] = notes[818],
+    [129124] = notes[819],
+    [129283] = notes[820],
+    [129298] = notes[821],
+    [129482] = notes[822],
+    [129500] = notes[823],
+    [129517] = notes[824],
+    [129626] = notes[825],
+    [129764] = notes[826],
+    [129805] = notes[827],
+    [129833] = notes[828],
+    [129835] = notes[829],
+    [129857] = notes[818],
+    [129950] = notes[830],
+    [130022] = notes[831],
+    [130023] = notes[831],
+    [130085] = notes[832],
+    [130147] = notes[833],
+    [130191] = notes[834],
+    [130338] = notes[835],
+    [130350] = notes[836],
+    [130401] = notes[837],
+    [130439] = notes[838],
+    [130443] = notes[839],
+    [130512] = notes[840],
+    [130581] = notes[835],
+    [130584] = notes[835],
+    [130643] = notes[841],
+    [130889] = notes[842],
+    [130935] = notes[843],
+    [130937] = notes[844],
+    [130943] = notes[845],
+    [130953] = notes[846],
+    [131136] = notes[847],
+    [131695] = notes[848],
+    [131817] = notes[849],
+    [131890] = notes[850],
+    [131892] = notes[850],
+    [131893] = notes[850],
+    [131895] = notes[851],
+    [131897] = notes[850],
+    [132194] = notes[852],
+    [132195] = notes[852],
+    [132211] = notes[853],
+    [132275] = notes[818],
+    [132341] = notes[854],
+    [132526] = notes[850],
+    [132578] = notes[855],
+    [132580] = notes[856],
+    [132584] = notes[857],
+    [132653] = notes[858],
+    [133163] = notes[859],
+    [133298] = notes[860],
+    [133321] = notes[861],
+    [133356] = notes[862],
+    [133384] = notes[863],
+    [133527] = notes[864],
+    [133562] = notes[865],
+    [133835] = notes[866],
+    [133988] = notes[867],
+    [134005] = notes[868],
+    [134046] = notes[869],
+    [134047] = notes[869],
+    [134048] = notes[870],
+    [134057] = notes[871],
+    [134147] = notes[872],
+    [134296] = notes[873],
+    [134307] = notes[874],
+    [134390] = notes[875],
+    [134433] = notes[876],
+    [134450] = notes[877],
+    [134507] = notes[878],
+    [134519] = notes[879],
+    [134562] = notes[880],
+    [134686] = notes[881],
+    [134780] = notes[882],
+    [134782] = notes[883],
+    [134798] = notes[835],
+    [134799] = notes[884],
+    [134852] = notes[885],
+    [134896] = notes[886],
+    [134906] = notes[887],
+    [134907] = notes[887],
+    [134934] = notes[888],
+    [135048] = notes[889],
+    [135049] = notes[890],
+    [135052] = notes[891],
+    [135234] = notes[890],
+    [135293] = notes[892],
+    [135304] = notes[893],
+    [135322] = notes[894],
+    [135433] = notes[895],
+    [135450] = notes[896],
+    [135490] = notes[897],
+    [135508] = notes[898],
+    [135510] = notes[899],
+    [135632] = notes[900],
+    [135743] = notes[901],
+    [135769] = notes[902],
+    [135846] = notes[881],
+    [136183] = notes[903],
+    [136280] = notes[904],
+    [136311] = notes[905],
+    [136417] = notes[906],
+    [136418] = notes[906],
+    [136426] = notes[907],
+    [136469] = notes[908],
+    [136548] = notes[909],
+    [136653] = notes[910],
+    [136667] = notes[911],
+    [136914] = notes[912],
+    [136976] = notes[913],
+    [136984] = notes[914],
+    [137025] = notes[915],
+    [137098] = notes[916],
+    [137181] = notes[917],
+    [137182] = notes[918],
+    [137183] = notes[919],
+    [137233] = notes[920],
+    [137336] = notes[921],
+    [137338] = notes[922],
+    [137340] = notes[923],
+    [137342] = notes[923],
+    [137349] = notes[924],
+    [137353] = notes[925],
+    [137487] = notes[926],
+    [137681] = notes[927],
+    [137713] = notes[928],
+    [137714] = notes[929],
+    [137716] = notes[930],
+    [137720] = notes[931],
+    [137829] = notes[932],
+    [137836] = notes[933],
+    [137840] = notes[934],
+    [137885] = notes[935],
+    [138086] = notes[936],
+    [138286] = notes[937],
+    [138342] = notes[938],
+    [138491] = notes[939],
+    [138540] = notes[940],
+    [138660] = notes[941],
+    [138794] = notes[942],
+    [138812] = notes[943],
+    [138851] = notes[944],
+    [138963] = notes[945],
+    [138971] = notes[946],
+    [138972] = notes[947],
+    [139194] = notes[948],
+    [139298] = notes[949],
+    [139328] = notes[950],
+    [139335] = notes[951],
+    [139336] = notes[951],
+    [139356] = notes[951],
+    [139359] = notes[951],
+    [139483] = notes[952],
+    [139486] = notes[953],
+    [139562] = notes[954],
+    [139563] = notes[955],
+    [139709] = notes[956],
+    [139980] = notes[957],
+    [140034] = notes[887],
+    [140038] = notes[958],
+    [140070] = notes[959],
+    [140071] = notes[835],
+    [140072] = notes[835],
+    [140275] = notes[960],
+    [140296] = notes[835],
+    [140298] = notes[835],
+    [140300] = notes[835],
+    [140301] = notes[959],
+    [140560] = notes[961],
+    [140591] = notes[962],
+    [140594] = notes[962],
+    [140604] = notes[963],
+    [140689] = notes[835],
+    [140690] = notes[835],
+    [140691] = notes[835],
+    [140692] = notes[884],
+    [140699] = notes[964],
+    [140735] = notes[965],
+    [140738] = notes[965],
+    [140756] = notes[966],
+    [141051] = notes[967],
+    [141118] = notes[968],
+    [141239] = notes[969],
+    [141643] = notes[970],
+    [141935] = notes[971],
+    [141977] = notes[972],
+    [141981] = notes[973],
+    [141988] = notes[974],
+    [142016] = notes[975],
+    [142198] = notes[976],
+    [142312] = notes[977],
+    [142333] = notes[978],
+    [142337] = notes[979],
+    [142338] = notes[979],
+    [142339] = notes[979],
+    [142340] = notes[978],
+    [142341] = notes[979],
+    [142342] = notes[979],
+    [142347] = notes[980],
+    [142361] = notes[981],
+    [142403] = notes[982],
+    [142435] = notes[983],
+    [142437] = notes[984],
+    [142438] = notes[985],
+    [142440] = notes[986],
+    [142464] = notes[987],
+    [142610] = notes[988],
+    [142713] = notes[965],
+    [142717] = notes[989],
+    [142935] = notes[990],
+    [143416] = notes[991],
+    [143510] = notes[992],
+    [143700] = notes[993],
+    [143718] = notes[994],
+    [143740] = notes[995],
+    [143741] = notes[996],
+    [144246] = notes[997],
+    [144477] = notes[998],
+    [144638] = notes[999],
+    [144731] = notes[1000],
+    [144825] = notes[1001],
+    [144826] = notes[1002],
+    [144827] = notes[1003],
+    [144829] = notes[1004],
+    [144830] = notes[1002],
+    [144831] = notes[1005],
+    [144833] = notes[1006],
+    [144837] = notes[1007],
+    [144839] = notes[1008],
+    [144842] = notes[1009],
+    [144993] = notes[1010],
+    [145110] = notes[1011],
+    [145337] = notes[1012],
+    [145343] = notes[1013],
+    [145444] = notes[1011],
+    [145457] = notes[1011],
+    [145736] = notes[1014],
+    [145740] = notes[1015],
+    [146321] = notes[1016],
+    [146564] = notes[1017],
+    [147453] = notes[1018],
+    [148117] = notes[1019],
+    [148787] = notes[1020],
+    [149644] = notes[1021],
+    [149654] = notes[1022],
+    [149663] = notes[1023],
+    [149680] = notes[1024],
+    [149839] = notes[1025],
+    [150154] = notes[1026],
+    [150254] = notes[1027],
+    [150293] = notes[1028],
+    [150373] = notes[1029],
+    [150376] = notes[1030],
+    [150467] = notes[1031],
+    [151096] = notes[1032],
+    [151133] = notes[1033],
+    [151144] = notes[1034],
+    [151145] = notes[1035],
+    [151147] = notes[1036],
+    [151148] = notes[1037],
+    [151149] = notes[1038],
+    [151159] = notes[1039],
+    [151353] = notes[1040],
+    [151634] = notes[1041],
+    [151672] = notes[1042],
+    [151709] = notes[1043],
+    [151773] = notes[1044],
+    [151809] = notes[1045],
+    [151811] = notes[1046],
+    [151859] = notes[1047],
+    [151883] = notes[1048],
+    [151933] = notes[1049],
+    [151945] = notes[1050],
+    [151948] = notes[1051],
+    [152136] = notes[1052],
+    [152148] = notes[865],
+    [152288] = notes[1053],
+    [152290] = notes[1054],
+    [152291] = notes[1055],
+    [152296] = notes[1056],
+    [152319] = notes[1057],
+    [152359] = notes[1058],
+    [152360] = notes[1059],
+    [152361] = notes[1060],
+    [152448] = notes[1061],
+    [152462] = notes[1062],
+    [152463] = notes[1063],
+    [152465] = notes[1064],
+    [152551] = notes[1013],
+    [152552] = notes[1065],
+    [152553] = notes[1066],
+    [152556] = notes[1067],
+    [152642] = notes[1068],
+    [152657] = notes[1069],
+    [152708] = notes[1040],
+    [152768] = notes[1070],
+    [152795] = notes[1071],
+    [152992] = notes[1072],
+    [153096] = notes[1073],
+    [153208] = notes[1074],
+    [153238] = notes[1075],
+    [153266] = notes[1076],
+    [153268] = notes[1077],
+    [153278] = notes[1077],
+    [153465] = notes[1078],
+    [153473] = notes[1079],
+    [153694] = notes[1080],
+    [153764] = notes[1081],
+    [153812] = notes[1082],
+    [153959] = notes[1083],
+    [153971] = notes[1084],
+    [153980] = notes[1085],
+    [153992] = notes[1086],
+    [154030] = notes[1040],
+    [154092] = notes[1013],
+    [154181] = notes[1087],
+    [154219] = notes[1088],
+    [154353] = notes[1089],
+    [154354] = notes[1090],
+    [154367] = notes[1091],
+    [154576] = notes[1092],
+    [154604] = notes[1093],
+    [154761] = notes[1094],
+    [154935] = notes[1095],
+    [154936] = notes[1095],
+    [155238] = notes[1096],
+    [155483] = notes[1097],
+    [155583] = notes[1098],
+    [155703] = notes[1099],
+    [155770] = notes[1100],
+    [155779] = notes[1101],
+    [156046] = notes[1102],
+    [156077] = notes[1103],
+    [156083] = notes[1104],
+    [156242] = notes[1105],
+    [156284] = notes[1106],
+    [156389] = notes[1107],
+    [156756] = notes[1108],
+    [156759] = notes[1109],
+    [156760] = notes[1110],
+    [156778] = notes[1111],
+    [156780] = notes[1109],
+    [156788] = notes[1109],
+    [156931] = notes[1109],
+    [157083] = notes[1112],
+    [157121] = notes[1051],
+    [157143] = notes[1113],
+    [157162] = notes[1114],
+    [157279] = notes[1115],
+    [157290] = notes[1116],
+    [157301] = notes[1117],
+    [157341] = notes[1118],
+    [157466] = notes[1119],
+    [157565] = notes[1120],
+    [157567] = notes[1120],
+    [157589] = notes[1121],
+    [157662] = notes[1122],
+    [157665] = notes[1122],
+    [158254] = notes[1123],
+    [158256] = notes[1124],
+    [158409] = notes[1125],
+    [158465] = notes[1126],
+    [158530] = notes[1127],
+    [158702] = notes[1128],
+    [158771] = notes[1129],
+    [158976] = notes[1130],
+    [158978] = notes[1131],
+    [159177] = notes[1132],
+    [159178] = notes[1130],
+    [159265] = notes[1130],
+    [159323] = notes[1133],
+    [159441] = notes[1130],
+    [159460] = notes[1130],
+    [159610] = notes[1134],
+    [159756] = notes[1135],
+    [159886] = notes[1136],
+    [159895] = notes[1137],
+    [160089] = notes[1138],
+    [160110] = notes[1138],
+    [160341] = notes[1139],
+    [160401] = notes[1140],
+    [160402] = notes[1140],
+    [160872] = notes[1141],
+    [160970] = notes[1142],
+    [161130] = notes[1143],
+    [161131] = notes[1144],
+    [161133] = notes[1145],
+    [161256] = notes[1146],
+    [161280] = notes[1147],
+    [161527] = notes[1148],
+    [161528] = notes[1149],
+    [161529] = notes[1150],
+    [161530] = notes[1151],
+    [161541] = notes[1152],
+    [161672] = notes[1153],
+    [162140] = notes[1154],
+    [162142] = notes[1155],
+    [162147] = notes[1156],
+    [162150] = notes[1157],
+    [162173] = notes[1158],
+    [162237] = notes[1159],
+    [162300] = notes[1159],
+    [162334] = notes[1160],
+    [162335] = notes[1161],
+    [162336] = notes[1162],
+    [162360] = notes[1163],
+    [162361] = notes[1164],
+    [162364] = notes[1165],
+    [162373] = notes[1160],
+    [162374] = notes[1166],
+    [162375] = notes[1167],
+    [162378] = notes[1168],
+    [162380] = notes[1169],
+    [162381] = notes[1168],
+    [162382] = notes[1170],
+    [162399] = notes[1171],
+    [162428] = notes[1172],
+    [162588] = notes[1173],
+    [162681] = notes[1174],
+    [163025] = notes[1175],
+    [163042] = notes[1176],
+    [163045] = notes[1177],
+    [163091] = notes[1178],
+    [163154] = notes[1179],
+    [163185] = notes[1180],
+    [163259] = notes[1181],
+    [163268] = notes[1182],
+    [163503] = notes[1183],
+    [163506] = notes[1183],
+    [163616] = notes[1184],
+    [164110] = notes[1185],
+    [164197] = notes[1186],
+    [164198] = notes[1187],
+    [164208] = notes[1188],
+    [164391] = notes[1189],
+    [164424] = notes[1190],
+    [164479] = notes[1191],
+    [164563] = notes[1192],
+    [164587] = notes[1193],
+    [164847] = notes[1194],
+    [164873] = notes[1195],
+    [165312] = notes[1196],
+    [165336] = notes[1197],
+    [165349] = notes[1198],
+    [165404] = notes[1199],
+    [165460] = notes[1200],
+    [165634] = notes[1201],
+    [165905] = notes[1195],
+    [165942] = notes[1202],
+    [165957] = notes[1203],
+    [165960] = notes[1204],
+    [165978] = notes[1205],
+    [166027] = notes[1206],
+    [166177] = notes[1207],
+    [166453] = notes[1207],
+    [166559] = notes[1208],
+    [166592] = notes[1209],
+    [166676] = notes[1210],
+    [166679] = notes[1211],
+    [166735] = notes[1212],
+    [167129] = notes[1213],
+    [167139] = notes[1214],
+    [167337] = notes[1215],
+    [167342] = notes[1216],
+    [167343] = notes[1217],
+    [167344] = notes[1218],
+    [167345] = notes[1219],
+    [167346] = notes[1220],
+    [167347] = notes[1221],
+    [167348] = notes[1222],
+    [167349] = notes[1223],
+    [167350] = notes[1224],
+    [167351] = notes[1225],
+    [167352] = notes[1226],
+    [167375] = notes[1227],
+    [167433] = notes[1228],
+    [167485] = notes[1040],
+    [167508] = notes[1229],
+    [167719] = notes[1230],
+    [167721] = notes[1231],
+    [167848] = notes[1232],
+    [167851] = notes[1233],
+    [167964] = notes[1195],
+    [168008] = notes[1234],
+    [168135] = notes[1235],
+    [168153] = notes[1236],
+    [168192] = notes[1237],
+    [168258] = notes[1238],
+    [168306] = notes[1239],
+    [168310] = notes[1240],
+    [168361] = notes[1241],
+    [168402] = notes[1242],
+    [168424] = notes[1243],
+    [168453] = notes[1244],
+    [168579] = notes[1245],
+    [168591] = notes[1246],
+    [168850] = notes[1247],
+    [168986] = notes[1195],
+    [169160] = notes[1248],
+    [169263] = notes[1249],
+    [169276] = notes[1250],
+    [169732] = notes[1251],
+    [169823] = notes[1252],
+    [169840] = notes[1253],
+    [169841] = notes[1253],
+    [169972] = notes[1254],
+    [169974] = notes[1254],
+    [169975] = notes[1254],
+    [169976] = notes[1254],
+    [169977] = notes[1254],
+    [170007] = notes[1255],
+    [170184] = notes[1256],
+    [170288] = notes[1207],
+    [170331] = notes[1257],
+    [170332] = notes[1257],
+    [170659] = notes[1258],
+    [170699] = notes[1259],
+    [170723] = notes[1260],
+    [170767] = notes[1261],
+    [170781] = notes[1262],
+    [170785] = notes[1262],
+    [170847] = notes[1263],
+    [170923] = notes[1264],
+    [170932] = notes[1265],
+    [170933] = notes[1266],
+    [170969] = notes[1267],
+    [171017] = notes[1268],
+    [171181] = notes[1195],
+    [171341] = notes[1195],
+    [171342] = notes[1195],
+    [171455] = notes[1246],
+    [171583] = notes[1206],
+    [171827] = notes[1269],
+    [172045] = notes[1270],
+    [172053] = notes[1271],
+    [172390] = notes[1272],
+    [172628] = notes[1273],
+    [172703] = notes[1274],
+    [172704] = notes[1274],
+    [173045] = notes[1275],
+    [173046] = notes[1275],
+    [173114] = notes[1252],
+    [173393] = notes[1276],
+    [173409] = notes[1277],
+    [173635] = notes[1278],
+    [173834] = notes[1279],
+    [173855] = notes[1280],
+    [173940] = notes[1281],
+    [174552] = notes[1282],
+    [175265] = notes[1283],
+    [175478] = notes[1284],
+    [175811] = notes[1285],
+    [175818] = notes[1286],
+    [175819] = notes[1286],
+    [175820] = notes[1286],
+    [175860] = notes[1287],
+    [176338] = notes[1288],
+    [177302] = notes[1289],
+    [177334] = notes[1290],
+    [177335] = notes[1290],
+    [177336] = notes[1291],
+    [177422] = notes[1292],
+    [177441] = notes[1292],
+    [177442] = notes[1292],
+    [177443] = notes[1292],
+    [177444] = notes[1292],
+    [177445] = notes[1292],
+    [178050] = notes[1293],
+    [178148] = notes[1294],
+    [178149] = notes[1294],
+    [178283] = notes[1295],
+    [178507] = notes[1296],
+    [178626] = notes[1297],
+    [178630] = notes[1297],
+    [178743] = notes[1298],
+    [178937] = notes[1299],
+    [178963] = notes[1300],
+    [179043] = notes[1301],
+    [179939] = notes[1302],
+    [180524] = notes[1290],
+    [180678] = notes[1303],
+    [180705] = notes[1304],
+    [180924] = notes[1305],
+    [181211] = notes[1306],
+    [181212] = notes[1307],
+    [181213] = notes[1308],
+    [181359] = notes[1309],
+    [181383] = notes[1309],
+    [181484] = notes[1309],
+    [181861] = notes[1310],
+    [182363] = notes[1311],
+    [183265] = notes[1312],
+    [183291] = notes[1313],
+    [183340] = notes[1314],
+    [183610] = notes[1315],
+    [183764] = notes[1316],
+    [183925] = notes[1317],
+    [183984] = notes[1318],
+    [184023] = notes[1319],
+    [184403] = notes[1320],
+    [184804] = notes[1321],
+    [185266] = notes[1322],
+    [185451] = notes[1323],
+    [185487] = notes[1324],
+    [185505] = notes[1325],
+    [185944] = notes[1326],
+    [186399] = notes[1327],
+    [186622] = notes[1328],
+    [186684] = notes[1329],
+    [187111] = notes[1330],
+    [187336] = notes[1331],
+    [187337] = notes[1331],
+    [187415] = notes[1332],
+    [188128] = notes[1333],
+    [189744] = notes[1334],
+    [190708] = notes[1335],
+    [190730] = notes[1336],
+    [191496] = notes[1337],
+    [191509] = notes[1304],
+    [191541] = notes[1338],
+    [191545] = notes[1339],
+    [191551] = notes[1340],
+    [191621] = notes[1341],
+    [191628] = notes[1342],
+    [191637] = notes[1343],
+    [191639] = notes[1344],
+    [191645] = notes[1345],
+    [191647] = notes[1346],
+    [191665] = notes[1347],
+    [191672] = notes[1304],
+    [191678] = notes[1348],
+    [191790] = notes[1349],
+    [191903] = notes[1304],
+    [192351] = notes[1314],
+    [192430] = notes[1350],
+    [192486] = notes[1314],
+    [192487] = notes[1314],
+    [192739] = notes[1351],
+    [192949] = notes[1352],
+    [192950] = notes[1352],
+    [192951] = notes[1352],
+    [192952] = notes[1352],
+    [193063] = notes[1353],
+    [193139] = notes[1354],
+    [193177] = notes[1355],
+    [193201] = notes[1356],
+    [193217] = notes[1357],
+    [193236] = notes[1358],
+    [193254] = notes[1359],
+    [193266] = notes[1360],
+    [193427] = notes[1361],
+    [193428] = notes[1362],
+    [193429] = notes[1361],
+    [193521] = notes[1363],
+    [193596] = notes[1364],
+    [193723] = notes[1365],
+    [193725] = notes[1366],
+    [193854] = notes[1367],
+    [193859] = notes[1368],
+    [193861] = notes[1369],
+    [193873] = notes[1370],
+    [193891] = notes[1371],
+    [193892] = notes[1372],
+    [193925] = notes[1304],
+    [193986] = notes[1373],
+    [194020] = notes[1374],
+    [194021] = notes[1375],
+    [194085] = notes[1376],
+    [194102] = notes[1377],
+    [194103] = notes[1378],
+    [194242] = notes[1379],
+    [194489] = notes[1380],
+    [194568] = notes[1381],
+    [194750] = notes[1382],
+    [195409] = notes[1383],
+    [195448] = notes[1328],
+    [195635] = notes[1331],
+    [195708] = notes[1353],
+    [195709] = notes[1384],
+    [196398] = notes[1385],
+    [196523] = notes[1386],
+    [196674] = notes[1387],
+    [197914] = notes[1388],
+    [198313] = notes[1389],
+    [198314] = notes[1390],
+    [198428] = notes[1391],
+    [199194] = notes[1392],
+    [199195] = notes[1392],
+    [199248] = notes[1393],
+    [199533] = notes[1394],
+    [199544] = notes[1395],
+    [200450] = notes[1396],
+    [201579] = notes[1397],
+    [202317] = notes[1398],
+    [202339] = notes[1399],
+    [202341] = notes[1399],
+    [202506] = notes[1400],
+    [202510] = notes[1401],
+    [203342] = notes[1402],
+    [203343] = notes[1402],
+    [203348] = notes[1403],
+    [203625] = notes[1404],
+    [203734] = notes[1405],
+    [204311] = notes[1406],
+    [204316] = notes[1406],
+    [204435] = notes[1407],
+    [204611] = notes[1408],
+    [204825] = notes[1409],
+    [204828] = notes[1410],
+    [204837] = notes[1411],
+    [204839] = notes[1412],
+    [205001] = notes[1413],
+    [205300] = notes[1414],
+    [205763] = notes[1415],
+    [206073] = notes[1416],
+    [206094] = notes[1417],
+    [206180] = notes[1418],
+    [207072] = notes[1419],
+    [207300] = notes[1420],
+    [207625] = notes[1421],
+    [207626] = notes[1422],
+    [207789] = notes[1423],
+    [209909] = notes[1424],
+    [209929] = notes[1425],
+    [209936] = notes[1426],
+    [210045] = notes[1427],
+    [210051] = notes[1428],
+    [210070] = notes[1429],
+    [210075] = notes[1430],
+    [210106] = notes[1424],
+    [210395] = notes[1431],
+    [210397] = notes[1431],
+    [210478] = notes[1432],
+    [210508] = notes[1433],
+    [210795] = notes[1434],
+    [210848] = notes[1427],
+    [210868] = notes[1435],
+    [210882] = notes[1436],
+    [210908] = notes[1437],
+    [210953] = notes[1438],
+    [210981] = notes[1439],
+    [210982] = notes[1439],
+    [210983] = notes[1439],
+    [210984] = notes[1440],
+    [210985] = notes[1440],
+    [210986] = notes[1440],
+    [210988] = notes[1441],
+    [210989] = notes[1441],
+    [210990] = notes[1441],
+    [211176] = notes[1442],
+    [211651] = notes[1443],
+    [211755] = notes[1443],
+    [211990] = notes[1444],
+    [212040] = notes[1445],
+    [212041] = notes[1445],
+    [212043] = notes[1446],
+    [212061] = notes[1445],
+    [212062] = notes[1445],
+    [212065] = notes[1447],
+    [212066] = notes[1447],
+    [212069] = notes[1447],
+    [212070] = notes[1448],
+    [212090] = notes[1445],
+    [212133] = notes[1449],
+    [212292] = notes[1450],
+    [212425] = notes[1451],
+    [212704] = notes[1452],
+    [212710] = notes[1453],
+    [213428] = notes[1454],
+    [213539] = notes[1455],
+    [213542] = notes[1455],
+    [213545] = notes[1456],
+    [213608] = notes[1457],
+    [213647] = notes[1458],
+    [213668] = notes[1459],
+    [213922] = notes[1460],
+    [214397] = notes[1461],
+    [214757] = notes[1462],
+    [215411] = notes[1463],
+    [215608] = notes[1464],
+    [215733] = notes[1465],
+    [215772] = notes[1466],
+    [215990] = notes[1467],
+    [215991] = notes[1468],
+    [216037] = notes[1469],
+    [216039] = notes[1470],
+    [216044] = notes[1471],
+    [216078] = notes[1472],
+    [216197] = notes[1473],
+    [216249] = notes[1474],
+    [216288] = notes[1474],
+    [216340] = notes[1475],
+    [216387] = notes[1476],
+    [216555] = notes[1477],
+    [217121] = notes[1478],
+    [217379] = notes[1479],
+    [217417] = notes[1480],
+    [217939] = notes[1481],
+    [217949] = notes[1481],
+    [218066] = notes[1482],
+    [219246] = notes[1483],
+    [219265] = notes[1484],
+    [219365] = notes[1485],
+    [219397] = notes[1486],
+    [219425] = notes[1483],
+    [219653] = notes[1487],
+    [219654] = notes[1488],
+    [219662] = notes[1487],
+    [219664] = notes[1487],
+    [219790] = notes[1489],
+    [219949] = notes[1490],
+    [220059] = notes[1491],
+    [220300] = notes[1492],
+    [220399] = notes[1493],
+    [220483] = notes[1494],
+    [220707] = notes[1495],
+    [221065] = notes[1478],
+    [221126] = notes[1496],
+    [221131] = notes[1497],
+    [221474] = notes[1498],
+    [221528] = notes[1499],
+    [221648] = notes[1500],
+    [221704] = notes[1501],
+    [222019] = notes[1502],
+    [222040] = notes[1503],
+    [222155] = notes[1504],
+    [222248] = notes[1505],
+    [222690] = notes[1506],
+    [222936] = notes[1507],
+    [223042] = notes[1508],
+    [223056] = notes[1509],
+    [223058] = notes[1509],
+    [223060] = notes[1510],
+    [223067] = notes[1510],
+    [223091] = notes[1511],
+    [223117] = notes[1512],
+    [223613] = notes[1513],
+    [223782] = notes[1514],
+    [223783] = notes[1514],
+    [223905] = notes[1512],
+    [224099] = notes[1515],
+    [224101] = notes[1516],
+    [224133] = notes[1517],
+    [224409] = notes[1518],
+    [224410] = notes[1515],
+    [224464] = notes[1519],
+    [224521] = notes[1520],
+    [224551] = notes[1521],
+    [224663] = notes[1522],
+    [224725] = notes[1523],
+    [224751] = notes[1524],
+    [224958] = notes[1525],
+    [225244] = notes[1526],
+    [225271] = notes[1527],
+    [225391] = notes[1528],
+    [225393] = notes[1529],
+    [225488] = notes[1530],
+    [225815] = notes[1531],
+    [225865] = notes[1532],
+    [225912] = notes[1515],
+    [225913] = notes[1533],
+    [226005] = notes[1534],
+    [226028] = notes[1535],
+    [226101] = notes[1536],
+    [226128] = notes[1515],
+    [226176] = notes[1537],
+    [226381] = notes[1538],
+    [226417] = notes[1538],
+    [226562] = notes[1539],
+    [226625] = notes[1540],
+    [227026] = notes[1541],
+    [227198] = notes[1542],
+    [227367] = notes[1543],
+    [227373] = notes[1544],
+    [227569] = notes[1545],
+    [227572] = notes[1546],
+    [227627] = notes[1547],
+    [227799] = notes[1548],
+    [227808] = notes[1549],
+    [228427] = notes[1550],
+    [228465] = notes[1551],
+    [229060] = notes[1552],
+    [229532] = notes[1553],
+    [229617] = notes[1554],
+    [229620] = notes[1554],
+    [229638] = notes[1555],
+    [229688] = notes[1556],
+    [229812] = notes[1474],
+    [229813] = notes[1474],
+    [229814] = notes[1474],
+    [229816] = notes[1474],
+    [229817] = notes[1474],
+    [229820] = notes[1474],
+    [229821] = notes[1474],
+    [229856] = notes[1557],
+    [230141] = notes[1558],
+    [230830] = notes[1559],
+    [230971] = notes[1560],
+    [231053] = notes[1561],
+    [231115] = notes[1562],
+    [231146] = notes[1563],
+    [231153] = notes[1564],
+    [231194] = notes[1565],
+    [231195] = notes[1565],
+    [231217] = notes[1566],
+    [231257] = notes[1567],
+    [231258] = notes[1567],
+    [231259] = notes[1568],
+    [231315] = notes[1569],
+    [231324] = notes[1570],
+    [231340] = notes[1571],
+    [231380] = notes[1572],
+    [231808] = notes[1573],
+    [231809] = notes[1573],
+    [231986] = notes[1574],
+    [232098] = notes[1575],
+    [232106] = notes[1576],
+    [232111] = notes[1577],
+    [232193] = notes[1578],
+    [232195] = notes[1579],
+    [233213] = notes[1580],
+    [233612] = notes[1581],
+    [233938] = notes[1582],
+    [234197] = notes[1583],
+    [235095] = notes[1584],
+    [235230] = notes[1585],
+    [236539] = notes[1586],
+    [237282] = notes[1587],
+    [237750] = notes[1588],
+    [237753] = notes[1589],
+    [238478] = notes[1590],
+    [238547] = notes[1591],
+    [238625] = notes[1592],
+    [239207] = notes[1593],
+    [239210] = notes[1594],
+    [239229] = notes[1595],
+    [239325] = notes[1596],
+    [239832] = notes[1597],
+    [240511] = notes[1598],
+    [240544] = notes[1598],
+    [241360] = notes[1599],
+    [241363] = notes[1599],
+    [242034] = notes[1600],
+    [242773] = notes[1601],
+    [242998] = notes[1602],
+    [243658] = notes[1603],
+    [243778] = notes[1604],
+    [243780] = notes[1605],
+    [244029] = notes[1606],
+    [244048] = notes[1607],
+    [244060] = notes[1608],
+    [245997] = notes[1609],
+    [246074] = notes[1600],
+    [246162] = notes[1605],
+    [246633] = notes[1610],
+    [247090] = notes[1611],
+    [247559] = notes[1612],
+    [248016] = notes[1613],
+    [248070] = notes[1614],
+    [248577] = notes[1615],
+    [249358] = notes[1616],
+    [249359] = notes[1616],
+    [249392] = notes[1617],
+    [249797] = notes[1618],
+    [249798] = notes[1619],
+    [249799] = notes[1618],
+    [249806] = notes[1620],
+    [249849] = notes[1621],
+    [250030] = notes[1622],
+    [250321] = notes[1623],
+    [250341] = notes[1624],
+    [250366] = notes[1625],
+    [250822] = notes[1626],
+    [250824] = notes[1626],
+    [251593] = notes[1627],
+    [251756] = notes[1628],
+    [251758] = notes[1628],
+    [252466] = notes[1629],
+    [252693] = notes[1630],
+    [252773] = notes[1631],
+    [252994] = notes[1632],
+    [252997] = notes[1632],
+    [252998] = notes[1632],
+    [253305] = notes[1633],
+    [253316] = notes[1634],
+    [253499] = notes[1635],
+    [254203] = notes[1605],
+    [254709] = notes[1636],
+    [254720] = notes[1636],
+    [254795] = notes[1637],
+    [254815] = notes[1616],
+    [254972] = notes[1638],
+    [255079] = notes[1639],
+    [255194] = notes[1640],
+    [255709] = notes[1641],
+    [255847] = notes[1632],
+    [255886] = notes[1642],
+    [255957] = notes[1643],
+    [256095] = notes[1644],
+    [256230] = notes[1645],
+    [256344] = notes[1605],
+    [256345] = notes[1646],
+    [256349] = notes[1605],
+    [256353] = notes[1605],
+    [256354] = notes[1605],
+    [256357] = notes[1647],
+    [256361] = notes[1605],
+    [256844] = notes[1648],
+    [256847] = notes[1649],
+    [256853] = notes[1645],
+    [256858] = notes[1650],
+    [256898] = notes[1651],
+    [257127] = notes[1652],
+    [257265] = notes[1653],
+    [257491] = notes[1654],
+    [257830] = notes[1655],
+    [258215] = notes[1656],
+    [258216] = notes[1657],
+    [258269] = notes[1658],
+    [259106] = notes[1659],
+    [259914] = notes[1643],
+    [259955] = notes[1660],
+    [259960] = notes[1660],
+    [260031] = notes[1661],
+    [260954] = notes[1636],
+    [261337] = notes[1662],
+    [262321] = notes[1655],
+    [263617] = notes[1663],
 }
 
 function PSM.NPCNotes.Get(npcID)

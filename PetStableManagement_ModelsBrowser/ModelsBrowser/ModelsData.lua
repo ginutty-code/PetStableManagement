@@ -27,7 +27,7 @@ ModelsData = {
         },
         [3195] = {
             taming = {"Exotic"},
-            [5454] = {"Hazzali Sandreaver", "Tanaris", "Vanilla", "Normal", "[-1,-1]"}
+            [5454] = {"Hazzali Sandreaver", "Tanaris, The Gaping Chasm", "Vanilla", "Normal", "[-1,-1]"}
         },
         [6633] = {
             taming = {"Exotic"},
@@ -39,7 +39,7 @@ ModelsData = {
         },
         [11084] = {
             taming = {"Exotic"},
-            [6582] = {"Clutchmother Zavas", "Un'Goro Crater", "Vanilla", "Rare", "[-1,-1]"},
+            [6582] = {"Clutchmother Zavas", "The Slithering Scar, Un'Goro Crater", "Vanilla", "Rare", "[-1,-1]"},
             [15323] = {"Hive'Zara Sandstalker", "Ruins of Ahn'Qiraj", "Vanilla", "Elite", "[-1,-1]"}
         },
         [11085] = {
@@ -48,7 +48,7 @@ ModelsData = {
         },
         [11087] = {
             taming = {"Exotic"},
-            [6553] = {"Gorishi Reaver", "Un'Goro Crater", "Vanilla", "Normal", "[-1,-1]"}
+            [6553] = {"Gorishi Reaver", "The Slithering Scar, Un'Goro Crater", "Vanilla", "Normal", "[-1,-1]"}
         },
         [11091] = {
             taming = {"Exotic"},
@@ -94,13 +94,13 @@ ModelsData = {
         },
         [14521] = {
             taming = {"Exotic"},
-            [8204] = {"Soriid the Devourer", "Tanaris", "Vanilla", "Rare", "[-1,-1]"},
+            [8204] = {"Soriid the Devourer", "Tanaris, The Noxious Lair", "Vanilla", "Rare", "[-1,-1]"},
             [15233] = {"Vekniss Guardian", "Temple of Ahn'Qiraj", "Vanilla", "Elite", "[-1,-1]"}
         },
         [15334] = {
             taming = {"Exotic"},
             [15230] = {"Vekniss Warrior", "Temple of Ahn'Qiraj", "Vanilla", "Elite", "[-1,-1]"},
-            [50747] = {"Tix", "Silithus", "Mists of Pandaria", "Rare", "[-1,-1]"}
+            [50747] = {"Tix", "Ahn'Qiraj: The Fallen Kingdom, Silithus", "Mists of Pandaria", "Rare", "[-1,-1]"}
         },
         [15362] = {
             taming = {"Exotic"},
@@ -113,7 +113,7 @@ ModelsData = {
         },
         [15439] = {
             taming = {"Exotic"},
-            [8205] = {"Haarka the Ravenous", "Tanaris", "Vanilla", "Rare", "[-1,-1]"},
+            [8205] = {"Haarka the Ravenous", "Tanaris, The Gaping Chasm", "Vanilla", "Rare", "[-1,-1]"},
             [15320] = {"Hive'Zara Soldier", "Ruins of Ahn'Qiraj", "Vanilla", "Elite", "[-1,-1]"}
         },
         [15483] = {
@@ -157,7 +157,7 @@ ModelsData = {
         },
         [31045] = {
             taming = {"Exotic"},
-            [38305] = {"Gorishi Fledgling Colossus", "Un'Goro Crater", "Cataclysm", "Elite", "[-1,-1]"}
+            [38305] = {"Gorishi Fledgling Colossus", "The Slithering Scar, Un'Goro Crater", "Cataclysm", "Elite", "[-1,-1]"}
         },
         [35577] = {
             taming = {"Exotic"},
@@ -214,7 +214,7 @@ ModelsData = {
         },
         [43843] = {
             taming = {"Exotic"},
-            [56703] = {"Ik'thik Colossus", "Valley of the Four Winds", "Mists of Pandaria", "Elite", "[-1,-1]"}
+            [56703] = {"Ik'thik Colossus", "Dread Wastes, Valley of the Four Winds", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [43963] = {
             taming = {"Exotic"},
@@ -229,6 +229,7 @@ ModelsData = {
             [64717] = {"Dread Kunchong", "Dread Wastes", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [44517] = {
+            taming = {"Exotic"},
             [62269] = {"Voress'thalik", "Townlong Steppes", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [45415] = {
@@ -361,7 +362,7 @@ ModelsData = {
             [20925] = {"Scalded Basilisk", "Blade's Edge Mountains", "The Burning Crusade", "Normal", "[-1,-1]"}
         },
         [16878] = {
-            [21854] = {"Ironspine Petrifier", "Terokkar Forest", "The Burning Crusade", "Normal", "[-1,-1]"},
+            [21854] = {"Ironspine Petrifier", "Shattrath City, Terokkar Forest", "The Burning Crusade", "Normal", "[-1,-1]"},
             [70858] = {"Daggermaw Icegazer", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[0,0]"}
         },
         [16879] = {
@@ -397,7 +398,7 @@ ModelsData = {
             [85694] = {"Mire Basilisk", "Gorgrond", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [44843] = {
-            [66188] = {"Amberscale Basilisk", "Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [66188] = {"Amberscale Basilisk", "Dread Wastes, Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [72329] = {"Lavalisk", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [45441] = {
@@ -512,7 +513,7 @@ ModelsData = {
             [85694] = {"Mire Basilisk", "Gorgrond", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [65050] = {
-            [97991] = {"Misthunter Basilisk", "Stormheim", "Legion", "Normal", "[-1,-1]"},
+            [97991] = {"Misthunter Basilisk", "Helmouth Shallows, Stormheim", "Legion", "Normal", "[-1,-1]"},
             [101785] = {"Steelgaze Basilisk", "Highmountain", "Legion", "Normal", "[-1,-1]"},
             [108185] = {"Coldscale Gazecrawler", "Highmountain", "Legion", "Normal", "[-1,-1]"},
             [108529] = {"Seascale Basilisk", "Highmountain", "Legion", "Normal", "[-1,-1]"},
@@ -536,7 +537,7 @@ ModelsData = {
             [96878] = {"Catacomb Gazecrawler", "Highmountain", "Legion", "Normal", "[-1,-1]"}
         },
         [66414] = {
-            [130338] = {"Dustfang", "Crestfall", "Battle for Azeroth", "Rare", "[-1,-1]"}
+            [130338] = {"Dustfang", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [66542] = {
             [99598] = {"Axetail Basilisk Matriarch", "Azsuna", "Legion", "Normal", "[-1,-1]"},
@@ -550,11 +551,11 @@ ModelsData = {
             [91128] = {"Lagoon Basilisk", "Azsuna", "Legion", "Normal", "[-1,-1]"},
             [98653] = {"Manaspine Basilisk", "Highmountain", "Legion", "Normal", "[-1,-1]"},
             [98957] = {"Coldscale Deatheye", "Highmountain", "Legion", "Normal", "[-1,-1]"},
-            [103514] = {"Leystone Basilisk", "Azsuna", "Legion", "Normal", "[0,0]"}
+            [103514] = {"Leystone Basilisk", "Azsuna, Highmountain, Stormheim, Suramar, Val'sharah", "Legion", "Normal", "[0,0]"}
         },
         [67022] = {
             [101868] = {"Felfire Basilisk", "Suramar", "Legion", "Normal", "[0,0]"},
-            [104895] = {"Felslate Basilisk", "Azsuna", "Legion", "Normal", "[0,0]"},
+            [104895] = {"Felslate Basilisk", "Antoran Wastes, Azsuna, Broken Shore, Highmountain, Stormheim, Suramar, Val'sharah", "Legion", "Normal", "[0,0]"},
             [114113] = {"Felslate Basilisk", "Suramar", "Legion", "Normal", "[0,0]"},
             [118252] = {"Darkstone Basilisk", "Broken Shore", "Legion", "Normal", "[0,0]"},
             [119139] = {"Stoneblood Basilisk", "Broken Shore", "Legion", "Normal", "[-1,-1]"},
@@ -563,19 +564,19 @@ ModelsData = {
         [68392] = {
             [99793] = {"Leyscale Manalisk", "Suramar", "Legion", "Normal", "[-1,-1]"},
             [103808] = {"Managazer", "Suramar", "Legion", "Normal", "[-1,-1]"},
-            [130581] = {"Sand-Eye", "Crestfall", "Battle for Azeroth", "Rare", "[-1,-1]"}
+            [130581] = {"Sand-Eye", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [70340] = {
             [107914] = {"Stonefang", "Stormheim", "Legion", "Elite", "[-1,-1]"}
         },
         [83894] = {
-            [130584] = {"Gorespike", "Crestfall", "Battle for Azeroth", "Rare", "[-1,-1]"}
+            [130584] = {"Gorespike", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [103338] = {
             [184023] = {"Vicious Basilisk", "Uldaman", "Dragonflight", "Elite", "[-1,-1]"},
             [188128] = {"Stonejaw Basilisk", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [191695] = {"Stalking Basilisk", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [193893] = {"Elusive Stonegazer", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [193893] = {"Elusive Stonegazer", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [219949] = {"Cavern Basilisk", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [219967] = {"Devoured Basilisk", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [226369] = {"Warmslink Gator", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
@@ -587,7 +588,7 @@ ModelsData = {
             [191695] = {"Stalking Basilisk", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [193579] = {"Muckjaw Basilisk", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [193702] = {"Blistered Basilisk", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
-            [193893] = {"Elusive Stonegazer", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [193893] = {"Elusive Stonegazer", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [199194] = {"Cave Basilisk", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
             [217523] = {"Riplisk Hatchling", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [219949] = {"Cavern Basilisk", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
@@ -602,7 +603,7 @@ ModelsData = {
             [191695] = {"Stalking Basilisk", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192466] = {"Thornsided Basilisk", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
             [193702] = {"Blistered Basilisk", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
-            [193893] = {"Elusive Stonegazer", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [193893] = {"Elusive Stonegazer", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [195359] = {"Thornsided Basilisk", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
             [199194] = {"Cave Basilisk", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
             [219949] = {"Cavern Basilisk", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
@@ -671,7 +672,7 @@ ModelsData = {
             [16354] = {"Vampiric Mistbat", "Ghostlands", "The Burning Crusade", "Normal", "[-1,-1]"}
         },
         [4734] = {
-            [1512] = {"Duskbat", "Deathknell", "Vanilla", "Normal", "[0,0]"}
+            [1512] = {"Duskbat", "Deathknell, Tirisfal Glades", "Vanilla", "Normal", "[0,0]"}
         },
         [4735] = {
             [61415] = {"Giant Cave Bat", "Mogu'shan Palace", "Mists of Pandaria", "Normal", "[0,0]"}
@@ -681,7 +682,7 @@ ModelsData = {
             [48456] = {"Rabid Screecher", "Felwood", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [7896] = {
-            [8601] = {"Noxious Plaguebat", "Eastern Plaguelands", "Vanilla", "Normal", "[-1,-1]"}
+            [8601] = {"Noxious Plaguebat", "Eastern Plaguelands, Plaguelands: The Scarlet Enclave", "Vanilla", "Normal", "[-1,-1]"}
         },
         [7897] = {
             [8602] = {"Monstrous Plaguebat", "Eastern Plaguelands", "Vanilla", "Normal", "[-1,-1]"},
@@ -694,7 +695,7 @@ ModelsData = {
         },
         [11032] = {
             [23959] = {"Darkclaw Bat", "Howling Fjord", "Wrath of the Lich King", "Normal", "[-1,-1]"},
-            [59197] = {"Canopy Screecher", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [59197] = {"Canopy Screecher", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [14562] = {
             [16353] = {"Mistbat", "Ghostlands", "The Burning Crusade", "Normal", "[-1,-1]"},
@@ -709,7 +710,7 @@ ModelsData = {
             [28233] = {"Zul'Drak Bat", "Zul'Drak", "Wrath of the Lich King", "Normal", "[0,0]"}
         },
         [26751] = {
-            [59197] = {"Canopy Screecher", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [59197] = {"Canopy Screecher", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [32927] = {
             [42523] = {"Stone Bat", "Deepholm", "Cataclysm", "Normal", "[0,0]"}
@@ -753,7 +754,7 @@ ModelsData = {
             [79895] = {"Echo Hunter", "Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [55571] = {
-            [80192] = {"Icecave Bat", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"}
+            [80192] = {"Icecave Bat", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [55604] = {
             [87085] = {"Rakkiri", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[0,0]"}
@@ -774,7 +775,7 @@ ModelsData = {
         },
         [60055] = {
             [126353] = {"Woodland Bat", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
-            [157109] = {"Vampire Bat", "Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"}
+            [157109] = {"Vampire Bat", "The Upper Reaches, Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"}
         },
         [61181] = {
             [79643] = {"Frostwing Screecher", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"}
@@ -807,16 +808,16 @@ ModelsData = {
             [169154] = {"Famished Fangling", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"}
         },
         [92703] = {
-            [157149] = {"Heartseeker", "Torghast, Tower of the Damned", "Shadowlands", "Rare Elite", "[-1,-1]"},
+            [157149] = {"Heartseeker", "The Upper Reaches, Torghast, Tower of the Damned", "Shadowlands", "Rare Elite", "[-1,-1]"},
             [158976] = {"Shrieking Evedweller", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
             [178283] = {"Scorched Dredbat", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
-            [185125] = {"Heartseeker", "Skoldus Hall", "Shadowlands", "Rare Elite", "[-1,-1]"}
+            [185125] = {"Heartseeker", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Adamant Vaults, The Soulforges, The Upper Reaches", "Shadowlands", "Rare Elite", "[-1,-1]"}
         },
         [92704] = {
-            [157083] = {"Stonewing Ravager", "Torghast, Tower of the Damned", "Shadowlands", "Elite", "[-1,-1]"},
+            [157083] = {"Stonewing Ravager", "The Upper Reaches, Torghast, Tower of the Damned", "Shadowlands", "Elite", "[-1,-1]"},
             [163893] = {"Fanged Dredbat", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
             [168591] = {"Ravenous Dreadbat", "Sanguine Depths", "Shadowlands", "Elite", "[-1,-1]"},
-            [185254] = {"Stonewing Ravager", "Skoldus Hall", "Shadowlands", "Elite", "[-1,-1]"},
+            [185254] = {"Stonewing Ravager", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Adamant Vaults, The Soulforges, The Upper Reaches", "Shadowlands", "Elite", "[-1,-1]"},
             [214162] = {"The Ringing Death", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"}
         },
         [112045] = {
@@ -954,7 +955,7 @@ ModelsData = {
             [40819] = {"Pacified Hyjal Bear", "Mount Hyjal", "Cataclysm", "Normal", "[0,0]"}
         },
         [3200] = {
-            [7446] = {"Rabid Shardtooth", "Mount Hyjal", "Vanilla", "Normal", "[-1,-1]"}
+            [7446] = {"Rabid Shardtooth", "Mount Hyjal, Winterspring", "Vanilla", "Normal", "[-1,-1]"}
         },
         [3201] = {
             [2356] = {"Elder Gray Bear", "Hillsbrad Foothills", "Vanilla", "Normal", "[-1,-1]"},
@@ -995,7 +996,7 @@ ModelsData = {
         },
         [10618] = {
             [26482] = {"Arctic Grizzly", "Dragonblight", "Wrath of the Lich King", "Normal", "[-1,-1]"},
-            [29319] = {"Icepaw Bear", "Zul'Drak", "Wrath of the Lich King", "Normal", "[-1,-1]"}
+            [29319] = {"Icepaw Bear", "The Storm Peaks, Zul'Drak", "Wrath of the Lich King", "Normal", "[-1,-1]"}
         },
         [11908] = {
             [129002] = {"Scruffhide Bear", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"}
@@ -1037,7 +1038,7 @@ ModelsData = {
         },
         [23966] = {
             [26643] = {"Rabid Grizzly", "Dragonblight", "Wrath of the Lich King", "Normal", "[-1,-1]"},
-            [51962] = {"Tirisfal Bear", "Silverpine Forest", "Cataclysm", "Normal", "[-1,-1]"},
+            [51962] = {"Tirisfal Bear", "Silverpine Forest, Tirisfal Glades", "Cataclysm", "Normal", "[-1,-1]"},
             [95270] = {"Bewitched Bear", "Highmountain", "Legion", "Normal", "[-1,-1]"}
         },
         [23992] = {
@@ -1181,20 +1182,20 @@ ModelsData = {
             [193062] = {"Prowling Frigidpelt", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [101247] = {
-            [194171] = {"Frostcoat Bear", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
+            [194171] = {"Frostcoat Bear", "The Azure Span, The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"},
             [195743] = {"Roaming Frigidpelt", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [199354] = {"Frostsnout Bear", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [203976] = {"Frostcoat Bear", "The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [105552] = {
-            [189741] = {"Lumbering Mauler", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
+            [189741] = {"Lumbering Mauler", "Thaldraszus, Valdrakken", "Dragonflight", "Normal", "[-1,-1]"},
             [190663] = {"Shadehide Mauler", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
             [191199] = {"Hillside Forager", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
             [191240] = {"Hillside Forager", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
             [191535] = {"Blackpaw Bear", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [192377] = {"Mountainside Grizzly", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
             [195635] = {"Time-Charged Bear", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
-            [197436] = {"Shadehide Forager", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
+            [197436] = {"Shadehide Forager", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[-1,-1]"},
             [197663] = {"Grizzled Mauler", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [212499] = {"Dapplecoat Bear", "Amirdrassil", "Dragonflight", "Normal", "[0,null]"}
         },
@@ -1242,18 +1243,23 @@ ModelsData = {
             [193063] = {"Frigidpelt Matriarch", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [110093] = {
+            taming = {"Elusive Creature Bait"},
             [194103] = {"Elusive Rimeclaw Bear", "The Azure Span", "Dragonflight", "Elite", "[-1,null]"}
         },
         [110094] = {
+            taming = {"Elusive Creature Bait"},
             [194103] = {"Elusive Rimeclaw Bear", "The Azure Span", "Dragonflight", "Elite", "[-1,null]"}
         },
         [110097] = {
+            taming = {"Elusive Creature Bait"},
             [194103] = {"Elusive Rimeclaw Bear", "The Azure Span", "Dragonflight", "Elite", "[-1,null]"}
         },
         [110098] = {
+            taming = {"Elusive Creature Bait"},
             [194103] = {"Elusive Rimeclaw Bear", "The Azure Span", "Dragonflight", "Elite", "[-1,null]"}
         },
         [110099] = {
+            taming = {"Elusive Creature Bait"},
             [194103] = {"Elusive Rimeclaw Bear", "The Azure Span", "Dragonflight", "Elite", "[-1,null]"}
         },
         [112874] = {
@@ -1263,12 +1269,14 @@ ModelsData = {
             [211141] = {"Cragcoat Bristlebruin", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"}
         },
         [112875] = {
+            taming = {"Elusive Creature Bait"},
             [209614] = {"Enraged Bristlebruin", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [210953] = {"Serene Bristlebruin", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [212041] = {"Elusive Bristlebruin", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [216697] = {"Efflorescent Bristlebruin", "Amirdrassil", "Dragonflight", "Normal", "[0,0]"}
         },
         [112876] = {
+            taming = {"Elusive Creature Bait"},
             [207789] = {"Agitated Bristlebruin", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [209614] = {"Enraged Bristlebruin", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [210593] = {"Verdant Bristlebruin", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
@@ -1285,11 +1293,13 @@ ModelsData = {
             [213542] = {"Dreambellow Matriarch", "Emerald Dream", "Dragonflight", "Elite", "[-1,-1]"}
         },
         [112879] = {
+            taming = {"Elusive Creature Bait"},
             [209616] = {"Rampaging Bristlebruin", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [209936] = {"Greedy Gessie", "Emerald Dream", "Dragonflight", "Rare Elite", "[-1,-1]"},
             [212070] = {"Elusive Bramblehide Bristlebruin", "Emerald Dream", "Dragonflight", "Elite", "[-1,null]"}
         },
         [112880] = {
+            taming = {"Elusive Creature Bait"},
             [207619] = {"Evergreen Bristlebruin", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [209616] = {"Rampaging Bristlebruin", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [210045] = {"Moragh the Slothful", "Emerald Dream", "Dragonflight", "Rare", "[-1,-1]"},
@@ -1364,7 +1374,7 @@ ModelsData = {
             [10699] = {"Carrion Scarab", "Eastern Plaguelands", "Vanilla", "Normal", "[-1,-1]"}
         },
         [11089] = {
-            [6555] = {"Gorishi Tunneler", "Un'Goro Crater", "Vanilla", "Normal", "[-1,-1]"},
+            [6555] = {"Gorishi Tunneler", "The Slithering Scar, Un'Goro Crater", "Vanilla", "Normal", "[-1,-1]"},
             [140591] = {"Qiraji Scarab", "Uldir", "Battle for Azeroth", "Elite", "[-1,-1]"}
         },
         [11093] = {
@@ -1381,7 +1391,7 @@ ModelsData = {
             [15621] = {"Yauj Brood", "Temple of Ahn'Qiraj", "Vanilla", "Elite", "[-1,-1]"}
         },
         [11108] = {
-            [5459] = {"Centipaar Tunneler", "Tanaris", "Vanilla", "Normal", "[-1,-1]"},
+            [5459] = {"Centipaar Tunneler", "Tanaris, The Noxious Lair", "Vanilla", "Normal", "[-1,-1]"},
             [15718] = {"Ouro Scarab", "Temple of Ahn'Qiraj", "Vanilla", "Elite", "[-1,-1]"},
             [141720] = {"Ridge Crawler", "Vol'dun", "Battle for Azeroth", "Normal", "[0,0]"},
             [141755] = {"Ridge Skimmer", "Vol'dun", "Battle for Azeroth", "Normal", "[0,0]"}
@@ -1779,7 +1789,7 @@ ModelsData = {
         },
         [115708] = {
             [214397] = {"Frenzied Swarmer", "Hallowfall", "The War Within", "Normal", "[0,0]"},
-            [220707] = {"Staglette", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
+            [220707] = {"Staglette", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [222729] = {"Stagshell Mite", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [230448] = {"Stagshell Swarmer", "Hallowfall", "The War Within", "Normal", "[0,0]"}
         },
@@ -1787,13 +1797,13 @@ ModelsData = {
             [215991] = {"Seige Sniffer", "Azj-Kahet", "The War Within", "Normal", "[0,0]"}
         },
         [116409] = {
-            [220707] = {"Staglette", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
+            [220707] = {"Staglette", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [222729] = {"Stagshell Mite", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [230448] = {"Stagshell Swarmer", "Hallowfall", "The War Within", "Normal", "[0,0]"}
         },
         [116478] = {
             [215608] = {"Siegehold Drone", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
-            [220707] = {"Staglette", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
+            [220707] = {"Staglette", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [221704] = {"Siegehold Drone", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [222729] = {"Stagshell Mite", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [223613] = {"Weave Drone", "The Spiral Weave", "The War Within", "Normal", "[-1,-1]"},
@@ -1802,7 +1812,7 @@ ModelsData = {
             [230448] = {"Stagshell Swarmer", "Hallowfall", "The War Within", "Normal", "[0,0]"}
         },
         [116479] = {
-            [220707] = {"Staglette", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
+            [220707] = {"Staglette", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [222729] = {"Stagshell Mite", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [230448] = {"Stagshell Swarmer", "Hallowfall", "The War Within", "Normal", "[0,0]"}
         },
@@ -1829,32 +1839,32 @@ ModelsData = {
         },
         [116490] = {
             [220714] = {"Harvest Hauler", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
-            [223066] = {"Elusive Kaheti Burrower", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
+            [223066] = {"Elusive Kaheti Burrower", "Azj-Kahet, Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [223433] = {"Isolated Crawler", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [223458] = {"Pet Stagshell", "Azj-Kahet", "The War Within", "Normal", "[0,0]"}
         },
         [116491] = {
-            [223066] = {"Elusive Kaheti Burrower", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
+            [223066] = {"Elusive Kaheti Burrower", "Azj-Kahet, Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [223433] = {"Isolated Crawler", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [223458] = {"Pet Stagshell", "Azj-Kahet", "The War Within", "Normal", "[0,0]"}
         },
         [116492] = {
             [214935] = {"Stalwart Hauler", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [216044] = {"Maddened Siegebomber", "Azj-Kahet", "The War Within", "Rare", "[0,0]"},
-            [223066] = {"Elusive Kaheti Burrower", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
+            [223066] = {"Elusive Kaheti Burrower", "Azj-Kahet, Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [223433] = {"Isolated Crawler", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [223458] = {"Pet Stagshell", "Azj-Kahet", "The War Within", "Normal", "[0,0]"}
         },
         [116493] = {
-            [223066] = {"Elusive Kaheti Burrower", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
+            [223066] = {"Elusive Kaheti Burrower", "Azj-Kahet, Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [223433] = {"Isolated Crawler", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [223458] = {"Pet Stagshell", "Azj-Kahet", "The War Within", "Normal", "[0,0]"}
         },
         [116538] = {
-            [216144] = {"Siege Hauler", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
+            [216144] = {"Siege Hauler", "Azj-Kahet, City of Threads", "The War Within", "Normal", "[0,0]"},
             [221939] = {"Spinneret Silkbearer", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [222719] = {"Battlefront Hauler", "Azj-Kahet", "The War Within", "Elite", "[0,0]"},
-            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"},
+            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"},
             [224963] = {"Elusive Kaheti Battle Tank", "Hallowfall", "The War Within", "Rare", "[-1,-1]"}
         },
         [119181] = {
@@ -1863,31 +1873,31 @@ ModelsData = {
             [226176] = {"Horned Stagshell", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"}
         },
         [120229] = {
-            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"},
+            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"},
             [224963] = {"Elusive Kaheti Battle Tank", "Hallowfall", "The War Within", "Rare", "[-1,-1]"}
         },
         [120230] = {
-            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"},
+            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"},
             [224963] = {"Elusive Kaheti Battle Tank", "Hallowfall", "The War Within", "Rare", "[-1,-1]"}
         },
         [120231] = {
-            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"},
+            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"},
             [224963] = {"Elusive Kaheti Battle Tank", "Hallowfall", "The War Within", "Rare", "[-1,-1]"}
         },
         [120232] = {
-            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"},
+            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"},
             [224963] = {"Elusive Kaheti Battle Tank", "Hallowfall", "The War Within", "Rare", "[-1,-1]"}
         },
         [120233] = {
-            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"},
+            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"},
             [224963] = {"Elusive Kaheti Battle Tank", "Hallowfall", "The War Within", "Rare", "[-1,-1]"}
         },
         [120234] = {
-            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"},
+            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"},
             [224963] = {"Elusive Kaheti Battle Tank", "Hallowfall", "The War Within", "Rare", "[-1,-1]"}
         },
         [120235] = {
-            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"},
+            [223075] = {"Elusive Kaheti Stoneborer", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"},
             [224963] = {"Elusive Kaheti Battle Tank", "Hallowfall", "The War Within", "Rare", "[-1,-1]"}
         }
     },
@@ -2027,7 +2037,7 @@ ModelsData = {
             [59112] = {"Dawnfeather Flyer", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"},
             [91717] = {"Azsunian Oliveback", "Azsuna", "Legion", "Normal", "[0,0]"},
             [97976] = {"Bonebeak Hawk", "Highmountain", "Legion", "Normal", "[-1,-1]"},
-            [103079] = {"Highmountain Eagle", "Highmountain", "Legion", "Normal", "[0,0]"},
+            [103079] = {"Highmountain Eagle", "Highmountain, Val'sharah", "Legion", "Normal", "[0,0]"},
             [103592] = {"Bonebeak Hawk", "Highmountain", "Legion", "Normal", "[-1,-1]"},
             [107928] = {"Cliffdiver Eagle", "Stormheim", "Legion", "Normal", "[0,0]"}
         },
@@ -2035,7 +2045,7 @@ ModelsData = {
             [23693] = {"Duskwing Eagle", "Howling Fjord", "Wrath of the Lich King", "Normal", "[0,0]"},
             [28004] = {"Goretalon Roc", "Sholazar Basin", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [57215] = {"Grainhunter Hawk", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"},
-            [59700] = {"Northwind Hawk", "Vale of Eternal Blossoms", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [59700] = {"Northwind Hawk", "Kun-Lai Summit, Shrine of Two Moons, Vale of Eternal Blossoms", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [103480] = {"Northwind Hawk", "Kun-Lai Summit", "Legion", "Normal", "[null,-1]"}
         },
         [22633] = {
@@ -2075,7 +2085,7 @@ ModelsData = {
         },
         [26255] = {
             taming = {"Undead"},
-            [29453] = {"Vargul Plaguetalon", "Crystalsong Forest", "Wrath of the Lich King", "Normal", "[-1,-1]"},
+            [29453] = {"Vargul Plaguetalon", "Crystalsong Forest, Zul'Drak", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [29894] = {"Vargul Plaguetalon", "Zul'Drak", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [30988] = {"Scourgebeak Fleshripper", "Icecrown", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [50335] = {"Alitus", "Hillsbrad Foothills", "Mists of Pandaria", "Rare", "[-1,-1]"},
@@ -2087,7 +2097,7 @@ ModelsData = {
         [26566] = {
             [58457] = {"Silkfeather Hawk", "Vale of Eternal Blossoms", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [94708] = {"Storm Hawk", "Stormheim", "Legion", "Normal", "[null,0]"},
-            [103079] = {"Highmountain Eagle", "Highmountain", "Legion", "Normal", "[0,0]"},
+            [103079] = {"Highmountain Eagle", "Highmountain, Val'sharah", "Legion", "Normal", "[0,0]"},
             [156931] = {"Silkfeather Hawk", "Vale of Eternal Blossoms", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [231146] = {"Saltwing Petrel", "The Wandering Isle", "The War Within", "Normal", "[]"}
         },
@@ -2117,7 +2127,7 @@ ModelsData = {
             [56751] = {"Emperor Tern", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
             [97809] = {"Coastal Seagull", "Stormheim", "Legion", "Normal", "[0,0]"},
             [102741] = {"Highcliff Gull", "Highmountain", "Legion", "Normal", "[0,0]"},
-            [111404] = {"Salty Seagull", "Azsuna", "Legion", "Normal", "[0,0]"},
+            [111404] = {"Salty Seagull", "Azsuna, Dalaran Sewers", "Legion", "Normal", "[0,0]"},
             [118275] = {"Isle Seagull", "Broken Shore", "Legion", "Normal", "[0,0]"},
             [123210] = {"Seabreeze Gull", "Boralus", "Battle for Azeroth", "Normal", "[0,0]"},
             [124996] = {"Alabaster Gull", "Nazmir", "Battle for Azeroth", "Normal", "[0,0]"},
@@ -2160,7 +2170,7 @@ ModelsData = {
         },
         [39490] = {
             [66451] = {"Gilded Tern", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
-            [70172] = {"Shrimp Stuffed Seagull", "Townlong Steppes", "Mists of Pandaria", "Normal", "[0,0]"},
+            [70172] = {"Shrimp Stuffed Seagull", "Dread Wastes, Townlong Steppes", "Mists of Pandaria", "Normal", "[0,0]"},
             [92912] = {"Swoopfisher Gull", "Tanaan Jungle", "Warlords of Draenor", "Normal", "[0,0]"},
             [111643] = {"Cove Seagull", "Eye of Azshara", "Legion", "Normal", "[0,0]"}
         },
@@ -2225,23 +2235,23 @@ ModelsData = {
         },
         [55921] = {
             [91050] = {"Canopy Axebeak", "Tanaan Jungle", "Warlords of Draenor", "Normal", "[0,0]"},
-            [130575] = {"Wandering Axebeak", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
-            [130577] = {"Wandering Axebeak", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
+            [130575] = {"Wandering Axebeak", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [130577] = {"Wandering Axebeak", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [55922] = {
-            [130832] = {"Salteyed Axebeak", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
-            [130846] = {"Salteyed Axebeak", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [130832] = {"Salteyed Axebeak", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [130846] = {"Salteyed Axebeak", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [134780] = {"Enticed Axebeak", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [55923] = {
             [91050] = {"Canopy Axebeak", "Tanaan Jungle", "Warlords of Draenor", "Normal", "[0,0]"},
-            [131598] = {"Cliff Axebeak", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [131598] = {"Cliff Axebeak", "Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [131695] = {"Cliff Axebeak", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [55924] = {
             [83436] = {"Putrid Axebeak", "Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"},
-            [130575] = {"Wandering Axebeak", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
-            [130577] = {"Wandering Axebeak", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
+            [130575] = {"Wandering Axebeak", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [130577] = {"Wandering Axebeak", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [56838] = {
             [76253] = {"Dread Raven Hatchling", "Skyreach", "Warlords of Draenor", "Elite", "[-1,-1]"}
@@ -2280,7 +2290,7 @@ ModelsData = {
             [213546] = {"Protected Dream Raven", "Emerald Dream", "Dragonflight", "Normal", "[]"}
         },
         [58832] = {
-            [82354] = {"Seacliff Kaliri", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
+            [82354] = {"Seacliff Kaliri", "Lunarfall, Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [84919] = {"Seacliff Kaliri", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[1,1]"}
         },
         [58833] = {
@@ -2338,11 +2348,11 @@ ModelsData = {
             [80226] = {"Monstrous Shadowglade Kaliri", "Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [59726] = {
-            [79285] = {"Lunarfall Matriarch", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,null]"},
+            [79285] = {"Lunarfall Matriarch", "Lunarfall, Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,null]"},
             [82411] = {"Darktalon", "Shadowmoon Valley", "Warlords of Draenor", "Rare", "[-1,-1]"}
         },
         [59727] = {
-            [82037] = {"Lunarfall Raven", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,null]"}
+            [82037] = {"Lunarfall Raven", "Lunarfall, Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,null]"}
         },
         [59729] = {
             [82514] = {"Darktalon Young", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"}
@@ -2368,7 +2378,7 @@ ModelsData = {
         },
         [62207] = {
             [89829] = {"Highcrag Eagle", "Stormheim", "Legion", "Normal", "[0,0]"},
-            [103079] = {"Highmountain Eagle", "Highmountain", "Legion", "Normal", "[0,0]"}
+            [103079] = {"Highmountain Eagle", "Highmountain, Val'sharah", "Legion", "Normal", "[0,0]"}
         },
         [62494] = {
             [91539] = {"Fel Raven", "Hellfire Citadel", "Warlords of Draenor", "Elite", "[-1,-1]"},
@@ -2433,7 +2443,7 @@ ModelsData = {
         },
         [68157] = {
             [97755] = {"Galecrested Eagle", "Stormheim", "Legion", "Normal", "[0,0]"},
-            [103079] = {"Highmountain Eagle", "Highmountain", "Legion", "Normal", "[0,0]"},
+            [103079] = {"Highmountain Eagle", "Highmountain, Val'sharah", "Legion", "Normal", "[0,0]"},
             [112444] = {"Highland Skyraptor", "Suramar", "Legion", "Normal", "[0,0]"}
         },
         [68393] = {
@@ -2467,7 +2477,7 @@ ModelsData = {
             [191532] = {"Black-footed Gull", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"}
         },
         [77902] = {
-            [128625] = {"Harbor Gull", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [128625] = {"Harbor Gull", "Drustvar, Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"},
             [161133] = {"Coastal Albatross", "Exile's Reach", "Shadowlands", "Normal", "[0,0]"}
         },
         [77903] = {
@@ -2475,7 +2485,7 @@ ModelsData = {
             [127493] = {"Coastal Swooper", "Nazmir", "Battle for Azeroth", "Normal", "[0,0]"},
             [136280] = {"Agitated Albatross", "Boralus", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [137182] = {"Honey-Crazed Gull", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [138186] = {"Vicious Albatross", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [138186] = {"Vicious Albatross", "Drustvar, Nazmir, Stormsong Valley, Tiragarde Sound, Vol'dun, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [161133] = {"Coastal Albatross", "Exile's Reach", "Shadowlands", "Normal", "[0,0]"},
             [197944] = {"Crusty Seawing", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
         },
@@ -2492,7 +2502,7 @@ ModelsData = {
         },
         [79477] = {
             [127530] = {"Ravenous Gull", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [128625] = {"Harbor Gull", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [128625] = {"Harbor Gull", "Drustvar, Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"},
             [128938] = {"Great Sea Albatross", "Nazmir", "Battle for Azeroth", "Normal", "[0,0]"},
             [129482] = {"Great Sea Albatross", "Nazmir", "Battle for Azeroth", "Normal", "[0,0]"},
             [137575] = {"South Sea Albatross", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
@@ -2523,6 +2533,7 @@ ModelsData = {
             [128389] = {"Vale Falcon", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [81083] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [135632] = {"Mountain Hawk", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"},
             [136311] = {"Mountain Hawk", "Stormsong Valley", "Battle for Azeroth", "Normal", "[1,-1]"},
             [229534] = {"Stormfeather Falcon", "Siren Isle", "The War Within", "Normal", "[0,0]"}
@@ -2812,20 +2823,20 @@ ModelsData = {
             [193430] = {"Prowling Vulture", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [106697] = {
-            [214772] = {"Limestone Falcon", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
-            [215070] = {"Ashwhite Kestrel", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
+            [214772] = {"Limestone Falcon", "Dornogal, Isle of Dorn", "The War Within", "Normal", "[0,0]"},
+            [215070] = {"Ashwhite Kestrel", "Dornogal, Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [220295] = {"Fallside Falcon", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [221528] = {"Soaring Plainshawk", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
-            [221644] = {"Soaring Plainshawk", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
+            [221644] = {"Soaring Plainshawk", "Dornogal, Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [221646] = {"Hungry Plainshawk", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
             [222322] = {"Hungry Plainshawk", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"}
         },
         [106698] = {
-            [195470] = {"Dappled Cragdiver", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
+            [195470] = {"Dappled Cragdiver", "Thaldraszus, Valdrakken", "Dragonflight", "Normal", "[0,0]"},
             [215036] = {"Redwing Falcon", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [217428] = {"Agitated Rockpercher", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [220295] = {"Fallside Falcon", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
-            [222223] = {"Watchful Falcon", "Isle of Dorn", "The War Within", "Normal", "[0,0]"}
+            [222223] = {"Watchful Falcon", "Isle of Dorn, The Proscenium", "The War Within", "Normal", "[0,0]"}
         },
         [106699] = {
             [195324] = {"Shifting Falcon", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
@@ -3004,8 +3015,8 @@ ModelsData = {
             [227668] = {"Seafeather Albatross", "Siren Isle", "The War Within", "Normal", "[0,0]"}
         },
         [124212] = {
-            [250055] = {"Mountain Rocktalon", "Zul'Aman", "Midnight", "Normal", "[]"},
-            [253173] = {"Keen-Eye Riptalon", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
+            [250055] = {"Mountain Rocktalon", "Atal'Aman, Eversong Woods, Zul'Aman", "Midnight", "Normal", "[]"},
+            [253173] = {"Keen-Eye Riptalon", "Atal'Aman, Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [254628] = {"Mountain Rocktalon", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"},
             [254629] = {"Mountain Rocktalon", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"}
         },
@@ -3014,7 +3025,7 @@ ModelsData = {
         },
         [124214] = {
             [236539] = {"Giant Goldeneye", "Eversong Woods", "Midnight", "Normal", "[0,0]"},
-            [250055] = {"Mountain Rocktalon", "Zul'Aman", "Midnight", "Normal", "[]"},
+            [250055] = {"Mountain Rocktalon", "Atal'Aman, Eversong Woods, Zul'Aman", "Midnight", "Normal", "[]"},
             [250120] = {"Keen-Eye Riptalon", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [254628] = {"Mountain Rocktalon", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"},
             [254629] = {"Mountain Rocktalon", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"}
@@ -3025,7 +3036,7 @@ ModelsData = {
         [124217] = {
             [244763] = {"Blush Pinebeak", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [245619] = {"Watchful Nestguard", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
-            [250055] = {"Mountain Rocktalon", "Zul'Aman", "Midnight", "Normal", "[]"},
+            [250055] = {"Mountain Rocktalon", "Atal'Aman, Eversong Woods, Zul'Aman", "Midnight", "Normal", "[]"},
             [254628] = {"Mountain Rocktalon", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"},
             [254629] = {"Mountain Rocktalon", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"}
         },
@@ -3202,8 +3213,8 @@ ModelsData = {
             [128699] = {"Bloodbulge", "Zuldazar", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [89889] = {
-            taming = {"Blood Beast"},
-            [142935] = {"Pollen-Coated Swarmer", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
+            taming = {"Blood Beast","Siren's Sting"},
+            [142935] = {"Pollen-Coated Swarmer", "Dazar'alor, Nazmir, Vol'dun, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [112727] = {
             taming = {"Blood Beast"},
@@ -3212,7 +3223,7 @@ ModelsData = {
             [217371] = {"Siege Webwing", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [218094] = {"Rak-Ush Bombadier", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [219654] = {"Drone Bomber", "Dalaran", "The War Within", "Normal", "[-1,-1]"},
-            [222722] = {"Venomous Flyer", "Khaz Algar", "The War Within", "Normal", "[0,0]"},
+            [222722] = {"Venomous Flyer", "Azj-Kahet, Khaz Algar", "The War Within", "Normal", "[0,0]"},
             [224521] = {"Frenzied Siege Artillery", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [224663] = {"Mesmerized Flyer", "Khaz Algar", "The War Within", "Normal", "[-1,-1]"}
         },
@@ -3223,7 +3234,7 @@ ModelsData = {
             [218380] = {"Vigilant Nestguard", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [219654] = {"Drone Bomber", "Dalaran", "The War Within", "Normal", "[-1,-1]"},
             [220399] = {"Cache Courier", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
-            [222722] = {"Venomous Flyer", "Khaz Algar", "The War Within", "Normal", "[0,0]"},
+            [222722] = {"Venomous Flyer", "Azj-Kahet, Khaz Algar", "The War Within", "Normal", "[0,0]"},
             [223966] = {"Swift Courier", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [224663] = {"Mesmerized Flyer", "Khaz Algar", "The War Within", "Normal", "[-1,-1]"}
         },
@@ -3233,7 +3244,7 @@ ModelsData = {
             [219271] = {"Twice-Stinger the Wretched", "Isle of Dorn", "The War Within", "Rare", "[-1,-1]"},
             [219654] = {"Drone Bomber", "Dalaran", "The War Within", "Normal", "[-1,-1]"},
             [220399] = {"Cache Courier", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
-            [222722] = {"Venomous Flyer", "Khaz Algar", "The War Within", "Normal", "[0,0]"},
+            [222722] = {"Venomous Flyer", "Azj-Kahet, Khaz Algar", "The War Within", "Normal", "[0,0]"},
             [224521] = {"Frenzied Siege Artillery", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [224663] = {"Mesmerized Flyer", "Khaz Algar", "The War Within", "Normal", "[-1,-1]"}
         },
@@ -3244,14 +3255,14 @@ ModelsData = {
             [216300] = {"Spored Stinger", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [219654] = {"Drone Bomber", "Dalaran", "The War Within", "Normal", "[-1,-1]"},
             [220399] = {"Cache Courier", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
-            [222722] = {"Venomous Flyer", "Khaz Algar", "The War Within", "Normal", "[0,0]"},
+            [222722] = {"Venomous Flyer", "Azj-Kahet, Khaz Algar", "The War Within", "Normal", "[0,0]"},
             [223961] = {"Meandering Courier", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
             [224663] = {"Mesmerized Flyer", "Khaz Algar", "The War Within", "Normal", "[-1,-1]"}
         },
         [114509] = {
             taming = {"Blood Beast"},
-            [212292] = {"Nerubian Swarmite", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
-            [215990] = {"Frenzied Siege-Swarmer", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
+            [212292] = {"Nerubian Swarmite", "Azj-Kahet, City of Threads", "The War Within", "Normal", "[0,0]"},
+            [215990] = {"Frenzied Siege-Swarmer", "Azj-Kahet, City of Threads", "The War Within", "Normal", "[0,0]"},
             [216197] = {"Nerubian Swarmer", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
             [219653] = {"Pestilent Drone", "Dalaran", "The War Within", "Normal", "[-1,-1]"},
             [220708] = {"Summoned Swarmite", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
@@ -3261,8 +3272,8 @@ ModelsData = {
         },
         [114510] = {
             taming = {"Blood Beast"},
-            [212292] = {"Nerubian Swarmite", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
-            [215990] = {"Frenzied Siege-Swarmer", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
+            [212292] = {"Nerubian Swarmite", "Azj-Kahet, City of Threads", "The War Within", "Normal", "[0,0]"},
+            [215990] = {"Frenzied Siege-Swarmer", "Azj-Kahet, City of Threads", "The War Within", "Normal", "[0,0]"},
             [216197] = {"Nerubian Swarmer", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
             [219653] = {"Pestilent Drone", "Dalaran", "The War Within", "Normal", "[-1,-1]"},
             [220708] = {"Summoned Swarmite", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
@@ -3273,8 +3284,8 @@ ModelsData = {
         },
         [114511] = {
             taming = {"Blood Beast"},
-            [212292] = {"Nerubian Swarmite", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
-            [215990] = {"Frenzied Siege-Swarmer", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
+            [212292] = {"Nerubian Swarmite", "Azj-Kahet, City of Threads", "The War Within", "Normal", "[0,0]"},
+            [215990] = {"Frenzied Siege-Swarmer", "Azj-Kahet, City of Threads", "The War Within", "Normal", "[0,0]"},
             [216197] = {"Nerubian Swarmer", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
             [219653] = {"Pestilent Drone", "Dalaran", "The War Within", "Normal", "[-1,-1]"},
             [220708] = {"Summoned Swarmite", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
@@ -3285,8 +3296,8 @@ ModelsData = {
         },
         [114512] = {
             taming = {"Blood Beast"},
-            [212292] = {"Nerubian Swarmite", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
-            [215990] = {"Frenzied Siege-Swarmer", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
+            [212292] = {"Nerubian Swarmite", "Azj-Kahet, City of Threads", "The War Within", "Normal", "[0,0]"},
+            [215990] = {"Frenzied Siege-Swarmer", "Azj-Kahet, City of Threads", "The War Within", "Normal", "[0,0]"},
             [216197] = {"Nerubian Swarmer", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
             [217796] = {"Noth Swarmer", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [217939] = {"Swarming Drone", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
@@ -3297,8 +3308,8 @@ ModelsData = {
             [225702] = {"Nerubian Swarmite", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
             [226101] = {"Confused Swarmite", "Azj-Kahet", "The War Within", "Normal", "[0,-1]"},
             [227280] = {"Feasting Mite", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
-            [229816] = {"Ambushing Swarmer", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
-            [229817] = {"Ambushing Swarmer", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"}
+            [229816] = {"Ambushing Swarmer", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
+            [229817] = {"Ambushing Swarmer", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"}
         },
         [114986] = {
             taming = {"Blood Beast"},
@@ -3309,7 +3320,7 @@ ModelsData = {
             [219670] = {"Venomous Scavenger", "City of Threads", "The War Within", "Normal", "[0,0]"},
             [220087] = {"Swarming Screamer", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [222235] = {"Bloodthirsty Swarmer", "Nerub-ar Palace", "The War Within", "Elite", "[-1,-1]"},
-            [225642] = {"Leeching Swarmite", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"}
+            [225642] = {"Leeching Swarmite", "Azj-Kahet, Hallowfall", "The War Within", "Normal", "[-1,-1]"}
         },
         [114987] = {
             taming = {"Blood Beast"},
@@ -3333,7 +3344,7 @@ ModelsData = {
             taming = {"Blood Beast"},
             [213320] = {"Dreadstrike Flitterer", "Hallowfall", "The War Within", "Normal", "[0,0]"},
             [217916] = {"Dreadstrike Defender", "Hallowfall", "The War Within", "Normal", "[0,0]"},
-            [218082] = {"Xesh Skystinger", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
+            [218082] = {"Xesh Skystinger", "Azj-Kahet, City of Threads", "The War Within", "Normal", "[-1,-1]"},
             [219670] = {"Venomous Scavenger", "City of Threads", "The War Within", "Normal", "[0,0]"},
             [220087] = {"Swarming Screamer", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [222235] = {"Bloodthirsty Swarmer", "Nerub-ar Palace", "The War Within", "Elite", "[-1,-1]"},
@@ -3435,7 +3446,7 @@ ModelsData = {
     },
     ["Boar"] = {
         [193] = {
-            [1689] = {"Scarred Crag Boar", "Dun Morogh", "Vanilla", "Normal", "[0,0]"},
+            [1689] = {"Scarred Crag Boar", "Dun Morogh, Loch Modan", "Vanilla", "Normal", "[0,0]"},
             [3100] = {"Elder Mottled Boar", "Durotar", "Vanilla", "Normal", "[0,0]"},
             [42504] = {"Mature Swine", "Durotar", "Cataclysm", "Normal", "[0,0]"},
             [42859] = {"Wild Mature Swine", "Durotar", "Cataclysm", "Normal", "[0,0]"}
@@ -3449,12 +3460,12 @@ ModelsData = {
         },
         [503] = {
             [113] = {"Stonetusk Boar", "Elwynn Forest", "Vanilla", "Normal", "[0,0]"},
-            [3098] = {"Mottled Boar", "Durotar", "Vanilla", "Normal", "[0,0]"},
+            [3098] = {"Mottled Boar", "Durotar, Valley of Trials", "Vanilla", "Normal", "[0,0]"},
             [34647] = {"Barrens Boar", "Northern Barrens", "Cataclysm", "Normal", "[0,0]"},
             [50302] = {"Imported Mottled Boar", "Azshara", "Cataclysm", "Normal", "[0,0]"}
         },
         [607] = {
-            [708] = {"Small Crag Boar", "Dun Morogh", "Vanilla", "Normal", "[0,0]"},
+            [708] = {"Small Crag Boar", "Coldridge Valley, Dun Morogh", "Vanilla", "Normal", "[0,0]"},
             [1125] = {"Crag Boar", "Dun Morogh", "Vanilla", "Normal", "[0,0]"},
             [34647] = {"Barrens Boar", "Northern Barrens", "Cataclysm", "Normal", "[0,0]"}
         },
@@ -3504,7 +3515,7 @@ ModelsData = {
             [50937] = {"Hamhide", "Western Plaguelands", "Mists of Pandaria", "Rare", "[-1,-1]"}
         },
         [6807] = {
-            [1985] = {"Thistle Boar", "Teldrassil", "Vanilla", "Normal", "[0,0]"}
+            [1985] = {"Thistle Boar", "Shadowglen, Teldrassil", "Vanilla", "Normal", "[0,0]"}
         },
         [8869] = {
             [1984] = {"Young Thistle Boar", "Shadowglen", "Vanilla", "Normal", "[0,0]"},
@@ -3521,7 +3532,7 @@ ModelsData = {
         },
         [16356] = {
             [25362] = {"Warsong Swine", "Borean Tundra", "Wrath of the Lich King", "Normal", "[0,0]"},
-            [124316] = {"Pig", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [124316] = {"Pig", "Arathi Highlands, Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [129501] = {"Stockyard Pig", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [137457] = {"Stray Truffle-Hunter", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [137873] = {"Slaughtered Pig", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
@@ -3536,7 +3547,7 @@ ModelsData = {
         },
         [16358] = {
             [25362] = {"Warsong Swine", "Borean Tundra", "Wrath of the Lich King", "Normal", "[0,0]"},
-            [124316] = {"Pig", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [124316] = {"Pig", "Arathi Highlands, Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [129501] = {"Stockyard Pig", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [137457] = {"Stray Truffle-Hunter", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [137873] = {"Slaughtered Pig", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"}
@@ -3566,7 +3577,7 @@ ModelsData = {
             [8303] = {"Grunter", "Blasted Lands", "Vanilla", "Rare", "[-1,-1]"}
         },
         [26685] = {
-            [36696] = {"Armored Battleboar", "Mulgore", "Cataclysm", "Normal", "[0,0]"},
+            [36696] = {"Armored Battleboar", "Camp Narache, Mulgore", "Cataclysm", "Normal", "[0,0]"},
             [74620] = {"Battle Boar", "Razorfen Kraul", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [30964] = {
@@ -3607,13 +3618,13 @@ ModelsData = {
             [77129] = {"Elder Crag Goretusk", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [52656] = {
-            [75037] = {"Unbroken Goresnout", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[null,0]"},
+            [75037] = {"Unbroken Goresnout", "Bladespire Citadel, Frostfire Ridge", "Warlords of Draenor", "Normal", "[null,0]"},
             [83719] = {"Wild Goreger", "Ashran", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [127699] = {"Tamed Boar", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [153238] = {"Tamed Boar", "Exile's Reach", "Shadowlands", "Normal", "[-1,-1]"}
         },
         [52659] = {
-            [75241] = {"Bladespire Goresnout", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[null,-1]"}
+            [75241] = {"Bladespire Goresnout", "Bladespire Citadel, Frostfire Ridge", "Warlords of Draenor", "Normal", "[null,-1]"}
         },
         [52668] = {
             [77124] = {"Crag Goretusk", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"}
@@ -3622,19 +3633,19 @@ ModelsData = {
             [84893] = {"Goregore", "Ashran", "Warlords of Draenor", "Rare Elite", "[-1,-1]"}
         },
         [52706] = {
-            [75416] = {"Coldsnout Boar", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"},
+            [75416] = {"Coldsnout Boar", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [77478] = {"Shardtusk Boar", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[0,0]"},
             [77994] = {"Bloodmaul Dire Boar", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[0,0]"},
             [80174] = {"Pack Boar", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [52707] = {
-            [72934] = {"Trained Coldsnout", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"}
+            [72934] = {"Trained Coldsnout", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [52736] = {
             [86151] = {"Razorback Sow", "Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [52737] = {
-            [72934] = {"Trained Coldsnout", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"},
+            [72934] = {"Trained Coldsnout", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [77298] = {"Trained Coldsnout", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [52738] = {
@@ -3658,7 +3669,7 @@ ModelsData = {
             [127699] = {"Tamed Boar", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [55316] = {
-            [79756] = {"Coldsnout Sow", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"}
+            [79756] = {"Coldsnout Sow", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [55858] = {
             [138675] = {"Gorged Boar", "Drustvar", "Battle for Azeroth", "Rare", "[-1,-1]"}
@@ -3684,7 +3695,7 @@ ModelsData = {
             [86153] = {"Juvenile Razorback", "Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [62708] = {
-            [100846] = {"Leytusk", "Azsuna", "Legion", "Elite", "[-1,-1]"}
+            [100846] = {"Leytusk", "Azsuna, Suramar", "Legion", "Elite", "[-1,-1]"}
         },
         [62722] = {
             [107503] = {"Spinetusk Piglet", "Highmountain", "Legion", "Normal", "[-1,-1]"},
@@ -3721,7 +3732,7 @@ ModelsData = {
             [142403] = {"Wild Hog", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [81145] = {
-            [130130] = {"Hungry Warswine", "Stormsong Valley", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [130130] = {"Hungry Warswine", "Stormsong Valley, Thornheart", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [130164] = {"Highland Boar", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [81154] = {
@@ -3841,7 +3852,7 @@ ModelsData = {
             [243532] = {"Grazing Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [243631] = {"Agitated Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [248500] = {"Backwoods Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
-            [250116] = {"Mudwallow Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
+            [250116] = {"Mudwallow Boar", "Atal'Aman, Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [255012] = {"Mudwallow Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [257880] = {"Backwoods Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [257881] = {"Backwoods Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
@@ -3849,7 +3860,7 @@ ModelsData = {
         },
         [125538] = {
             [248500] = {"Backwoods Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
-            [250116] = {"Mudwallow Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
+            [250116] = {"Mudwallow Boar", "Atal'Aman, Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [255012] = {"Mudwallow Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [257880] = {"Backwoods Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [257881] = {"Backwoods Boar", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
@@ -3922,6 +3933,7 @@ ModelsData = {
             [162360] = {"Camel", "Uldum", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [87962] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [126627] = {"Lost Alpaca", "Vol'dun", "Battle for Azeroth", "Normal", "[0,0]"},
             [136354] = {"Alpaca", "Vol'dun", "Battle for Azeroth", "Normal", "[null,0]"},
             [162681] = {"Elusive Quickhoof", "Vol'dun", "Battle for Azeroth", "Normal", "[1,1]"}
@@ -3953,6 +3965,7 @@ ModelsData = {
             [162765] = {"Friendly Alpaca", "Uldum", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [88594] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [126217] = {"Dot", "Vol'dun", "Battle for Azeroth", "Normal", "[null,1]"},
             [126219] = {"Dolly", "Vol'dun", "Battle for Azeroth", "Normal", "[null,1]"},
             [128848] = {"Dolly", "Vol'dun", "Battle for Azeroth", "Normal", "[null,1]"},
@@ -4022,7 +4035,7 @@ ModelsData = {
             [241360] = {"Dustback Burrower", "K'aresh", "The War Within", "Normal", "[-1,-1]"}
         },
         [75598] = {
-            taming = {"Exotic"},
+            taming = {"Elusive Creature Lure","Exotic"},
             [223056] = {"Elusive Krolusk", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [223074] = {"Elusive Razortusk Krolusk", "The Ringing Deeps", "The War Within", "Elite", "[-1,-1]"},
             [223091] = {"Grimlurk", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
@@ -4054,6 +4067,7 @@ ModelsData = {
             [127479] = {"The Sand Queen", "Tol Dagor", "Battle for Azeroth", "Elite", "[-1,-1]"}
         },
         [83788] = {
+            taming = {"Exotic"},
             [204189] = {"Deep Krolusk", "Zaralek Cavern", "Dragonflight", "Normal", "[0,0]"}
         },
         [83789] = {
@@ -4185,8 +4199,8 @@ ModelsData = {
             [169974] = {"Corrosive Gorm", "Ardenweald", "Shadowlands", "Normal", "[-1,-1]"},
             [169975] = {"Gorm Spitter", "Ardenweald", "Shadowlands", "Normal", "[-1,-1]"},
             [170766] = {"Gorm Spewer", "Ardenweald", "Shadowlands", "Normal", "[-1,-1]"},
-            [171074] = {"Subdued Gorm", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
-            [171081] = {"Hungry Gorm", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
+            [171074] = {"Subdued Gorm", "Revendreth, The Ember Court", "Shadowlands", "Normal", "[-1,-1]"},
+            [171081] = {"Hungry Gorm", "Revendreth, The Ember Court", "Shadowlands", "Normal", "[-1,-1]"},
             [172108] = {"Dustwilt Husk", "Ardenweald", "Shadowlands", "Elite", "[-1,-1]"},
             [173940] = {"Izik the Dissolver", "Ardenweald", "Shadowlands", "Normal", "[-1,-1]"}
         },
@@ -4229,11 +4243,11 @@ ModelsData = {
             [163186] = {"Gorm Secretor", "Ardenweald", "Shadowlands", "Normal", "[-1,-1]"},
             [164038] = {"Darkwarren Spitter", "Ardenweald", "Shadowlands", "Normal", "[-1,-1]"},
             [165190] = {"Enraged Gorm Rampager", "Ardenweald", "Shadowlands", "Normal", "[-1,-1]"},
-            [169823] = {"Gorm Behemoth", "Torghast, Tower of the Damned", "Shadowlands", "Rare Elite", "[-1,-1]"},
+            [169823] = {"Gorm Behemoth", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Adamant Vaults, The Fracture Chambers, The Soulforges, The Upper Reaches, Torghast, Tower of the Damned", "Shadowlands", "Rare Elite", "[-1,-1]"},
             [169974] = {"Corrosive Gorm", "Ardenweald", "Shadowlands", "Normal", "[-1,-1]"},
             [169975] = {"Gorm Spitter", "Ardenweald", "Shadowlands", "Normal", "[-1,-1]"},
             [170766] = {"Gorm Spewer", "Ardenweald", "Shadowlands", "Normal", "[-1,-1]"},
-            [185113] = {"Gorm Behemoth", "Skoldus Hall", "Shadowlands", "Rare Elite", "[-1,-1]"}
+            [185113] = {"Gorm Behemoth", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Adamant Vaults, The Soulforges, The Upper Reaches", "Shadowlands", "Rare Elite", "[-1,-1]"}
         },
         [98846] = {
             taming = {"Exotic"},
@@ -4317,6 +4331,7 @@ ModelsData = {
             [251548] = {"Deeprock Snail", "Harandar", "Midnight", "Normal", "[0,0]"}
         },
         [107719] = {
+            taming = {"Exotic"},
             [216058] = {"Rock Snail", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"}
         },
         [107720] = {
@@ -4372,15 +4387,19 @@ ModelsData = {
             [203239] = {"Primordial Infused Rock Snail", "Zaralek Cavern", "Dragonflight", "Normal", "[0,0]"}
         },
         [112176] = {
+            taming = {"Exotic"},
             [205594] = {"Kithguard Crawlers", "Zaralek Cavern", "Dragonflight", "Normal", "[]"}
         },
         [112177] = {
+            taming = {"Exotic"},
             [205594] = {"Kithguard Crawlers", "Zaralek Cavern", "Dragonflight", "Normal", "[]"}
         },
         [112178] = {
+            taming = {"Exotic"},
             [205594] = {"Kithguard Crawlers", "Zaralek Cavern", "Dragonflight", "Normal", "[]"}
         },
         [112179] = {
+            taming = {"Exotic"},
             [205594] = {"Kithguard Crawlers", "Zaralek Cavern", "Dragonflight", "Normal", "[]"}
         },
         [114558] = {
@@ -4396,7 +4415,7 @@ ModelsData = {
         [118036] = {
             taming = {"Exotic"},
             [220155] = {"Shaleshell Clicker", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [229813] = {"Disturbed Krolusk", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229813] = {"Disturbed Krolusk", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [230922] = {"Darkchasm Krolusk", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [232699] = {"Juvenile Dustback", "K'aresh", "The War Within", "Normal", "[-1,-1]"}
         },
@@ -4453,11 +4472,11 @@ ModelsData = {
             [2969] = {"Wiry Swoop", "Mulgore", "Vanilla", "Normal", "[-1,-1]"}
         },
         [1229] = {
-            [2970] = {"Swoop", "Dun Morogh", "Vanilla", "Normal", "[-1,-1]"}
+            [2970] = {"Swoop", "Dun Morogh, Mulgore", "Vanilla", "Normal", "[-1,-1]"}
         },
         [2305] = {
             [1109] = {"Fleshripper", "Westfall", "Vanilla", "Normal", "[-1,-1]"},
-            [51726] = {"Greater Roc", "Silithus", "Cataclysm", "Normal", "[-1,-1]"},
+            [51726] = {"Greater Roc", "Feralas, Silithus", "Cataclysm", "Normal", "[-1,-1]"},
             [142400] = {"Farmland Scavenger", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"},
             [157143] = {"Arid Bonepicker", "Uldum", "Battle for Azeroth", "Normal", "[0,0]"}
         },
@@ -4475,12 +4494,12 @@ ModelsData = {
         [10824] = {
             [2578] = {"Young Mesa Buzzard", "Arathi Highlands", "Vanilla", "Normal", "[0,0]"},
             [2829] = {"Starving Buzzard", "Badlands", "Vanilla", "Normal", "[-1,-1]"},
-            [2971] = {"Taloned Swoop", "Thunder Bluff", "Vanilla", "Normal", "[-1,-1]"},
+            [2971] = {"Taloned Swoop", "Mulgore, Thunder Bluff", "Vanilla", "Normal", "[-1,-1]"},
             [124527] = {"Bonebeak Scavenger", "Vol'dun", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [126502] = {"Fattened Buzzard", "Vol'dun", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [130070] = {"Canyon Vulture", "Vol'dun", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [130248] = {"Bonebeak Scavenger", "Vol'dun", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [131188] = {"Sandtalon Vulture", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [131188] = {"Sandtalon Vulture", "Nazmir, Vol'dun", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [131229] = {"Bonescrape Scavenger", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [132758] = {"Young Mesa Buzzard", "Arathi Highlands", "Battle for Azeroth", "Normal", "[null,0]"},
             [135726] = {"Starving Buzzard", "Vol'dun", "Battle for Azeroth", "Normal", "[-1,-1]"},
@@ -4547,7 +4566,7 @@ ModelsData = {
             [26483] = {"Dragonbone Condor", "Dragonblight", "Wrath of the Lich King", "Normal", "[-1,-1]"}
         },
         [23985] = {
-            [57851] = {"Thunderbird", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [57851] = {"Thunderbird", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [58111] = {"Thunderbird", "Krasarang Wilds", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [59782] = {"Cypress Condor", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"}
         },
@@ -4556,7 +4575,7 @@ ModelsData = {
         },
         [25868] = {
             [14268] = {"Lord Condar", "Loch Modan", "Vanilla", "Rare", "[-1,-1]"},
-            [59251] = {"Trenchwing Scavenger", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [59251] = {"Trenchwing Scavenger", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [31979] = {
             [39833] = {"Twilight Buzzard", "Mount Hyjal", "Cataclysm", "Normal", "[-1,-1]"},
@@ -4573,7 +4592,7 @@ ModelsData = {
             [124921] = {"Harbor Raven", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [126695] = {"Baleful Raven", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [134774] = {"Hexed Raven", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [135574] = {"Coastal Raven", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"}
+            [135574] = {"Coastal Raven", "Drustvar, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [34048] = {
             [8207] = {"Emberwing", "Tanaris", "Vanilla", "Rare", "[-1,-1]"}
@@ -4934,7 +4953,7 @@ ModelsData = {
             [70595] = {"Frostmane Prowler", "Blood in the Snow", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [917] = {
-            [2734] = {"Ridge Stalker Patriarch", "Badlands", "Vanilla", "Normal", "[-1,-1]"}
+            [2734] = {"Ridge Stalker Patriarch", "Badlands, Searing Gorge", "Vanilla", "Normal", "[-1,-1]"}
         },
         [954] = {
             [1201] = {"Snow Leopard", "Dun Morogh", "Vanilla", "Normal", "[-1,-1]"},
@@ -4942,27 +4961,27 @@ ModelsData = {
         },
         [1043] = {
             [5865] = {"Dishu", "Northern Barrens", "Vanilla", "Rare", "[-1,-1]"},
-            [62131] = {"Plainsland Cheetah", "Northern Barrens", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [62131] = {"Plainsland Cheetah", "Northern Barrens, Southern Barrens", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [1055] = {
             [2732] = {"Ridge Huntress", "Badlands", "Vanilla", "Normal", "[-1,-1]"}
         },
         [1056] = {
             [3415] = {"Savannah Huntress", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"},
-            [3566] = {"Flatland Prowler", "Dun Morogh", "Vanilla", "Normal", "[-1,-1]"}
+            [3566] = {"Flatland Prowler", "Dun Morogh, Mulgore, Thunder Bluff", "Vanilla", "Normal", "[-1,-1]"}
         },
         [1058] = {
             [3416] = {"Savannah Matriarch", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"}
         },
         [1059] = {
-            [3035] = {"Flatland Cougar", "Thunder Bluff", "Vanilla", "Normal", "[-1,-1]"}
+            [3035] = {"Flatland Cougar", "Mulgore, Thunder Bluff", "Vanilla", "Normal", "[-1,-1]"}
         },
         [1934] = {
             [3475] = {"Echeyakee", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"}
         },
         [1973] = {
             [3243] = {"Savannah Highmane", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"},
-            [3425] = {"Savannah Prowler", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"},
+            [3425] = {"Savannah Prowler", "Northern Barrens, Southern Barrens", "Vanilla", "Normal", "[-1,-1]"},
             [5807] = {"The Rake", "Mulgore", "Vanilla", "Rare", "[-1,-1]"}
         },
         [1977] = {
@@ -5016,7 +5035,7 @@ ModelsData = {
             [202339] = {"Ancient Tiger", "Zul'Gurub", "Dragonflight", "Normal", "[0,0]"}
         },
         [11448] = {
-            [2032] = {"Mangy Nightsaber", "Teldrassil", "Vanilla", "Normal", "[0,0]"}
+            [2032] = {"Mangy Nightsaber", "Shadowglen, Teldrassil", "Vanilla", "Normal", "[0,0]"}
         },
         [11449] = {
             [2070] = {"Moonstalker Runt", "Darkshore", "Vanilla", "Normal", "[-1,-1]"}
@@ -5031,17 +5050,17 @@ ModelsData = {
             [4067] = {"Twilight Runner", "Stonetalon Mountains", "Vanilla", "Normal", "[0,0]"}
         },
         [11454] = {
-            [2031] = {"Young Nightsaber", "Teldrassil", "Vanilla", "Normal", "[0,0]"}
+            [2031] = {"Young Nightsaber", "Shadowglen, Teldrassil", "Vanilla", "Normal", "[0,0]"}
         },
         [14318] = {
             [2043] = {"Nightsaber Stalker", "Teldrassil", "Vanilla", "Normal", "[-1,-1]"}
         },
         [15506] = {
-            [15372] = {"Springpaw Lynx", "Eversong Woods (Burning Crusade)", "Vanilla", "Normal", "[0,0]"},
+            [15372] = {"Springpaw Lynx", "Eversong Woods (Burning Crusade), Sunstrider Isle", "Vanilla", "Normal", "[0,0]"},
             [15651] = {"Springpaw Stalker", "Eversong Woods (Burning Crusade)", "The Burning Crusade", "Normal", "[-1,-1]"}
         },
         [15507] = {
-            [15366] = {"Springpaw Cub", "Eversong Woods (Burning Crusade)", "Vanilla", "Normal", "[0,0]"}
+            [15366] = {"Springpaw Cub", "Eversong Woods (Burning Crusade), Sunstrider Isle", "Vanilla", "Normal", "[0,0]"}
         },
         [15592] = {
             [16349] = {"Ghostclaw Ravager", "Ghostlands", "The Burning Crusade", "Normal", "[-1,-1]"}
@@ -5067,7 +5086,7 @@ ModelsData = {
             [52839] = {"Amani Lynx", "Zul'Aman", "Cataclysm", "Elite", "[-1,-1]"}
         },
         [20424] = {
-            [21723] = {"Blackwind Sabercat", "Terokkar Forest", "The Burning Crusade", "Normal", "[-1,-1]"}
+            [21723] = {"Blackwind Sabercat", "Shadowmoon Valley, Terokkar Forest", "The Burning Crusade", "Normal", "[-1,-1]"}
         },
         [20425] = {
             [21724] = {"Hawkbane", "Terokkar Forest", "The Burning Crusade", "Rare", "[-1,-1]"}
@@ -5099,14 +5118,14 @@ ModelsData = {
         },
         [30963] = {
             [24064] = {"Amani Lynx Cub", "Zul'Aman", "The Burning Crusade", "Normal", "[-1,-1]"},
-            [38046] = {"Wildmane Cat", "Durotar", "Cataclysm", "Normal", "[-1,-1]"},
+            [38046] = {"Wildmane Cat", "Durotar, Echo Isles", "Cataclysm", "Normal", "[-1,-1]"},
             [44188] = {"Bobcat", "Loch Modan", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [32702] = {
             [42171] = {"Snow Leopard Cub", "Dun Morogh", "Cataclysm", "Normal", "[0,0]"}
         },
         [32764] = {
-            [42286] = {"Young Snow Leopard", "Dun Morogh", "Cataclysm", "Normal", "[0,0]"}
+            [42286] = {"Young Snow Leopard", "Dun Morogh, New Tinkertown", "Cataclysm", "Normal", "[0,0]"}
         },
         [34248] = {
             [45096] = {"Tamed Tol'vir Prowler", "Lost City of the Tol'vir", "Cataclysm", "Normal", "[-1,-1]"},
@@ -5210,7 +5229,7 @@ ModelsData = {
         },
         [40848] = {
             [58070] = {"Krasari Huntress", "Krasarang Wilds", "Mists of Pandaria", "Normal", "[-1,-1]"},
-            [58641] = {"Krasari Prowler", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [58641] = {"Krasari Prowler", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [59116] = {"Krasari Huntress", "Krasarang Wilds", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [59196] = {"Krasari Prowler", "Krasarang Wilds", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [59753] = {"Golden Tiger", "The Jade Forest", "Mists of Pandaria", "Normal", "[-1,-1]"},
@@ -5222,7 +5241,7 @@ ModelsData = {
         },
         [41928] = {
             [58221] = {"Krasari Stalker", "Krasarang Wilds", "Mists of Pandaria", "Normal", "[-1,-1]"},
-            [66184] = {"Dread Stalker", "Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [66184] = {"Dread Stalker", "Dread Wastes, Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [88579] = {"Pridelands Stalker", "Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [41931] = {
@@ -5348,19 +5367,19 @@ ModelsData = {
             [100328] = {"Bound Prowler", "Highmountain", "Legion", "Normal", "[-1,-1]"}
         },
         [64387] = {
-            [101077] = {"Sekhan", "Highmountain", "Legion", "Rare", "[-1,-1]"}
+            [101077] = {"Sekhan", "Highmountain, Thunder Totem", "Legion", "Rare", "[-1,-1]"}
         },
         [64541] = {
             [99749] = {"Moonlight Hunter", "Suramar", "Legion", "Normal", "[-1,-1]"}
         },
         [64595] = {
             [94149] = {"Pinerock Prowler", "Highmountain", "Legion", "Normal", "[-1,-1]"},
-            [96268] = {"Mountain Prowler", "Highmountain", "Legion", "Normal", "[-1,-1]"},
+            [96268] = {"Mountain Prowler", "Highmountain, Thunder Totem", "Legion", "Normal", "[-1,-1]"},
             [99481] = {"Pinerock Stalker", "Highmountain", "Legion", "Normal", "[-1,-1]"}
         },
         [68398] = {
             [103616] = {"Moonwhisper Stalker", "Suramar", "Legion", "Normal", "[-1,-1]"},
-            [109807] = {"Wild Nightsaber", "Azsuna", "Legion", "Normal", "[-1,-1]"}
+            [109807] = {"Wild Nightsaber", "Azsuna, Val'sharah", "Legion", "Normal", "[-1,-1]"}
         },
         [70974] = {
             [109320] = {"Starlight Saber", "Suramar", "Legion", "Normal", "[-1,-1]"}
@@ -5490,7 +5509,8 @@ ModelsData = {
             [192949] = {"Skaara", "Ohn'ahran Plains", "Dragonflight", "Rare", "[-1,-1]"}
         },
         [106316] = {
-            [194085] = {"Elusive Elder Rockfang", "Ohn'ahran Plains", "Dragonflight", "Elite", "[-1,-1]"}
+            taming = {"Elusive Creature Bait"},
+            [194085] = {"Elusive Elder Rockfang", "Ohn'ahran Plains, Thaldraszus", "Dragonflight", "Elite", "[-1,-1]"}
         },
         [110308] = {
             [193536] = {"Rockfang Cub", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
@@ -5507,6 +5527,7 @@ ModelsData = {
             [196515] = {"Tallpeak Cub", "Thaldraszus", "Dragonflight", "Normal", "[]"}
         },
         [112933] = {
+            taming = {"Elusive Creature Bait"},
             [206551] = {"Dreamsaber", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [212062] = {"Elusive Dreamsaber", "Emerald Dream", "Dragonflight", "Normal", "[-1,null]"},
             [212588] = {"Shiversnap Prowler", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
@@ -5514,6 +5535,7 @@ ModelsData = {
             [216843] = {"Awakened Dreamsaber", "Amirdrassil", "Dragonflight", "Normal", "[]"}
         },
         [112934] = {
+            taming = {"Elusive Creature Bait"},
             [206551] = {"Dreamsaber", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [207624] = {"Prowling Dreamsaber", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [210594] = {"Verdant Dreamsaber", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
@@ -5522,18 +5544,22 @@ ModelsData = {
             [216843] = {"Awakened Dreamsaber", "Amirdrassil", "Dragonflight", "Normal", "[]"}
         },
         [112935] = {
+            taming = {"Elusive Creature Bait"},
             [206551] = {"Dreamsaber", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [212062] = {"Elusive Dreamsaber", "Emerald Dream", "Dragonflight", "Normal", "[-1,null]"},
             [212588] = {"Shiversnap Prowler", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [216691] = {"Efflorescent Dreamsaber", "Amirdrassil", "Dragonflight", "Normal", "[0,0]"}
         },
         [112937] = {
+            taming = {"Elusive Creature Bait"},
             [212066] = {"Elusive Moonfang Dreamsaber", "Emerald Dream", "Dragonflight", "Elite", "[-1,null]"}
         },
         [112938] = {
+            taming = {"Elusive Creature Bait"},
             [212066] = {"Elusive Moonfang Dreamsaber", "Emerald Dream", "Dragonflight", "Elite", "[-1,null]"}
         },
         [112939] = {
+            taming = {"Elusive Creature Bait"},
             [210046] = {"Keen-Eyed Cian", "Emerald Dream", "Dragonflight", "Rare", "[-1,-1]"},
             [210335] = {"Hunting Dreamsaber", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [212066] = {"Elusive Moonfang Dreamsaber", "Emerald Dream", "Dragonflight", "Elite", "[-1,null]"}
@@ -5737,9 +5763,10 @@ ModelsData = {
         },
         [39009] = {
             taming = {"Exotic"},
-            [54533] = {"Prince Lakma", "Silithus", "Cataclysm", "Rare", "[-1,-1]"}
+            [54533] = {"Prince Lakma", "Feralas, Silithus", "Cataclysm", "Rare", "[-1,-1]"}
         },
         [52403] = {
+            taming = {"Exotic"},
             [85888] = {"Howling Rylak", "Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [53327] = {
@@ -5761,6 +5788,7 @@ ModelsData = {
             [80227] = {"Icewing Drift-Hunter", "Frostwall", "Warlords of Draenor", "Normal", "[null,-1]"}
         },
         [53817] = {
+            taming = {"Exotic"},
             [76477] = {"Chilltongue", "Frostfire Ridge", "Warlords of Draenor", "Elite", "[null,-1]"}
         },
         [53862] = {
@@ -5774,7 +5802,7 @@ ModelsData = {
         },
         [54957] = {
             taming = {"Exotic"},
-            [80241] = {"Blazing Pyreclaw", "Frostfire Ridge", "Warlords of Draenor", "Elite", "[-1,-1]"}
+            [80241] = {"Blazing Pyreclaw", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Elite", "[-1,-1]"}
         },
         [55092] = {
             taming = {"Exotic"},
@@ -5790,7 +5818,7 @@ ModelsData = {
         },
         [55603] = {
             taming = {"Exotic"},
-            [78314] = {"Glacial Icemaw", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"}
+            [78314] = {"Glacial Icemaw", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [55671] = {
             taming = {"Exotic"},
@@ -5861,6 +5889,7 @@ ModelsData = {
             [84927] = {"Darkwing Whelpling", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [61271] = {
+            taming = {"Exotic"},
             [78508] = {"Darkwing Rylak", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [78521] = {"Darkwing Rylak", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
@@ -5916,6 +5945,7 @@ ModelsData = {
             [170823] = {"Flayedwing Wraith", "Bastion", "Shadowlands", "Normal", "[0,0]"}
         },
         [94920] = {
+            taming = {"Exotic"},
             [170780] = {"Flayedwing Wraith", "Bastion", "Shadowlands", "Normal", "[0,0]"},
             [170822] = {"Flayedwing Wraith", "Bastion", "Shadowlands", "Normal", "[0,0]"},
             [170823] = {"Flayedwing Wraith", "Bastion", "Shadowlands", "Normal", "[0,0]"}
@@ -6103,13 +6133,13 @@ ModelsData = {
             taming = {"Exotic"},
             [78575] = {"Leatherhide Clefthoof", "Nagrand", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [79034] = {"Tamed Clefthoof", "Nagrand", "Warlords of Draenor", "Normal", "[-1,-1]"},
-            [86000] = {"Gentle Clefthoof", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[0,0]"}
+            [86000] = {"Gentle Clefthoof", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[0,0]"}
         },
         [52374] = {
             taming = {"Exotic"},
             [72162] = {"Wooly Clefthoof", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [76326] = {"Broken Clefthoof", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[null,-1]"},
-            [86000] = {"Gentle Clefthoof", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[0,0]"}
+            [86000] = {"Gentle Clefthoof", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[0,0]"}
         },
         [52375] = {
             taming = {"Exotic"},
@@ -6129,6 +6159,7 @@ ModelsData = {
             [77513] = {"Coldstomp the Griever", "Frostfire Ridge", "Warlords of Draenor", "Rare", "[0,0]"}
         },
         [52896] = {
+            taming = {"Exotic"},
             [75771] = {"Trained Clefthoof", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [76389] = {"Thunderhoof", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[null,-1]"}
         },
@@ -6178,7 +6209,6 @@ ModelsData = {
         },
         [54590] = {
             taming = {"Exotic"},
-            [75680] = {"Frosthoof", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[null,1]"},
             [76710] = {"Ashmane Clefthoof", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [78576] = {"Leatherhide Calf", "Nagrand", "Warlords of Draenor", "Normal", "[0,0]"},
             [78918] = {"Icehoof Calf", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[0,0]"},
@@ -6233,11 +6263,11 @@ ModelsData = {
         },
         [61638] = {
             taming = {"Exotic"},
-            [80420] = {"Icehoof Calf", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[null,0]"}
+            [80420] = {"Icehoof Calf", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[null,0]"}
         },
         [61639] = {
             taming = {"Exotic"},
-            [80420] = {"Icehoof Calf", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[null,0]"}
+            [80420] = {"Icehoof Calf", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[null,0]"}
         },
         [61678] = {
             taming = {"Exotic"},
@@ -6245,6 +6275,7 @@ ModelsData = {
             [90124] = {"Emberhide Warbeast", "Tanaan Jungle", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [61679] = {
+            taming = {"Exotic"},
             [85537] = {"Grom'kar Warbeast", "Talador", "Warlords of Draenor", "Elite", "[0,0]"}
         },
         [104123] = {
@@ -6321,7 +6352,7 @@ ModelsData = {
         },
         [29539] = {
             taming = {"Exotic"},
-            [50839] = {"Chromehound", "Blackrock Mountain", "Mists of Pandaria", "Rare", "[-1,-1]"}
+            [50839] = {"Chromehound", "Blackrock Mountain, Burning Steppes, Searing Gorge", "Mists of Pandaria", "Rare", "[-1,-1]"}
         },
         [54190] = {
             taming = {"Exotic"},
@@ -6334,7 +6365,7 @@ ModelsData = {
         [110320] = {
             taming = {"Exotic"},
             [199962] = {"Massive Corebeast", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
-            [200450] = {"Smoldering Hound", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [200450] = {"Smoldering Hound", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [202770] = {"Crackling Hound", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [204377] = {"Blaze Hound Pup", "Zaralek Cavern", "Dragonflight", "Normal", "[0,0]"},
             [204378] = {"Blaze Hound Matron", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
@@ -6347,24 +6378,24 @@ ModelsData = {
     },
     ["Courser"] = {
         [65] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [26472] = {"Highland Mustang", "Grizzly Hills", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [28605] = {"Havenshire Stallion", "Plaguelands: The Scarlet Enclave", "Wrath of the Lich King", "Normal", "[0,0]"},
             [48180] = {"Wild Horse", "Hillsbrad Foothills", "Cataclysm", "Normal", "[0,0]"},
             [81306] = {"Preston", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[1,-1]"},
             [123604] = {"Kul Tiran Horse", "Boralus", "Battle for Azeroth", "Normal", "[1,-1]"},
-            [127572] = {"Kul Tiran Horse", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,null]"},
             [134307] = {"Hexthralled Courser", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [137836] = {"Wild Horse", "Arathi Highlands", "Battle for Azeroth", "Normal", "[0,0]"},
             [142347] = {"Wild Horse", "Arathi Highlands", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [229] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [27626] = {"Tatjana's Horse", "Grizzly Hills", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [28605] = {"Havenshire Stallion", "Plaguelands: The Scarlet Enclave", "Wrath of the Lich King", "Normal", "[0,0]"},
             [37785] = {"Wild Horse", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
             [48180] = {"Wild Horse", "Hillsbrad Foothills", "Cataclysm", "Normal", "[0,0]"},
             [123212] = {"Fjord Mustang", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [123604] = {"Kul Tiran Horse", "Boralus", "Battle for Azeroth", "Normal", "[1,-1]"},
-            [127572] = {"Kul Tiran Horse", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,null]"},
             [129139] = {"Freehold Colt", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [137836] = {"Wild Horse", "Arathi Highlands", "Battle for Azeroth", "Normal", "[0,0]"},
             [142347] = {"Wild Horse", "Arathi Highlands", "Battle for Azeroth", "Normal", "[0,0]"}
@@ -6373,6 +6404,7 @@ ModelsData = {
             [3864] = {"Fel Steed", "Shadowfang Keep", "Vanilla", "Elite", "[0,0]"}
         },
         [236] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [37785] = {"Wild Horse", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
             [137340] = {"Mara", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"}
         },
@@ -6382,6 +6414,7 @@ ModelsData = {
             [142455] = {"Riverland Bronco", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [238] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [37785] = {"Wild Horse", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
             [48180] = {"Wild Horse", "Hillsbrad Foothills", "Cataclysm", "Normal", "[0,0]"},
             [128441] = {"Magoo", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
@@ -6390,7 +6423,7 @@ ModelsData = {
             [174412] = {"Freckles", "Tiragarde Sound", "Shadowlands", "Normal", "[-1,null]"}
         },
         [2187] = {
-            [3426] = {"Zhevra Charger", "Northern Barrens", "Vanilla", "Normal", "[0,0]"}
+            [3426] = {"Zhevra Charger", "Northern Barrens, Southern Barrens", "Vanilla", "Normal", "[0,0]"}
         },
         [2189] = {
             [105644] = {"Penned 'Monohorn'", "Suramar", "Legion", "Normal", "[-1,-1]"}
@@ -6437,15 +6470,16 @@ ModelsData = {
         },
         [69274] = {
             [89384] = {"Wild Manarunner", "Azsuna", "Legion", "Normal", "[0,0]"},
-            [117206] = {"Strange Horse", "Deeprun Tram", "Legion", "Normal", "[-1,-1]"},
+            [117206] = {"Strange Horse", "Brawl'gar Arena, Deeprun Tram", "Legion", "Normal", "[-1,-1]"},
             [157973] = {"Cloudrift Runner", "Bastion", "Shadowlands", "Normal", "[0,0]"}
         },
         [69275] = {
             [109349] = {"Veil Shadowrunner", "Azsuna", "Legion", "Normal", "[-1,-1]"},
             [110350] = {"Tormented Shadowrunner", "Val'sharah", "Legion", "Normal", "[-1,-1]"},
-            [117206] = {"Strange Horse", "Deeprun Tram", "Legion", "Normal", "[-1,-1]"}
+            [117206] = {"Strange Horse", "Brawl'gar Arena, Deeprun Tram", "Legion", "Normal", "[-1,-1]"}
         },
         [69430] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [104815] = {"Jojo the Palestrider", "Azsuna", "Legion", "Normal", "[0,0]"},
             [112636] = {"Sinister Leyrunner", "Azsuna", "Legion", "Rare", "[-1,-1]"},
             [130350] = {"Guardian of the Spring", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,1]"},
@@ -6453,11 +6487,11 @@ ModelsData = {
         },
         [69709] = {
             [91308] = {"Equine Sunrunner", "Azsuna", "Legion", "Normal", "[0,0]"},
-            [117206] = {"Strange Horse", "Deeprun Tram", "Legion", "Normal", "[-1,-1]"}
+            [117206] = {"Strange Horse", "Brawl'gar Arena, Deeprun Tram", "Legion", "Normal", "[-1,-1]"}
         },
         [69710] = {
             [109819] = {"Wild Dreamrunner", "Val'sharah", "Legion", "Normal", "[0,0]"},
-            [117206] = {"Strange Horse", "Deeprun Tram", "Legion", "Normal", "[-1,-1]"}
+            [117206] = {"Strange Horse", "Brawl'gar Arena, Deeprun Tram", "Legion", "Normal", "[-1,-1]"}
         },
         [72132] = {
             [112637] = {"Devious Sunrunner", "Azsuna", "Legion", "Rare", "[-1,-1]"}
@@ -6466,6 +6500,7 @@ ModelsData = {
             [121112] = {"Somber Dawn", "Broken Shore", "Legion", "Rare Elite", "[-1,-1]"}
         },
         [76855] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [123212] = {"Fjord Mustang", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [129139] = {"Freehold Colt", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [137342] = {"Korthos", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"}
@@ -6474,11 +6509,13 @@ ModelsData = {
             [123212] = {"Fjord Mustang", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [76857] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [128476] = {"Goldie", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
             [134307] = {"Hexthralled Courser", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [76858] = {
-            [124845] = {"Kul Tiran Horse", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
+            taming = {"N'lyeth, Sliver of N'Zoth"},
+            [124845] = {"Kul Tiran Horse", "Boralus, Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
             [134307] = {"Hexthralled Courser", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [174412] = {"Freckles", "Tiragarde Sound", "Shadowlands", "Normal", "[-1,null]"}
         },
@@ -6486,6 +6523,7 @@ ModelsData = {
             [134307] = {"Hexthralled Courser", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [76860] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [142610] = {"Pack Mule", "Stormsong Valley", "Battle for Azeroth", "Normal", "[1,-1]"},
             [174412] = {"Freckles", "Tiragarde Sound", "Shadowlands", "Normal", "[-1,null]"}
         },
@@ -6496,21 +6534,24 @@ ModelsData = {
             [210835] = {"Wild Horse", "Ruins of Gilneas", "Dragonflight", "Normal", "[]"}
         },
         [76870] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [123212] = {"Fjord Mustang", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [137338] = {"Rose", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,null]"},
             [210835] = {"Wild Horse", "Ruins of Gilneas", "Dragonflight", "Normal", "[]"}
         },
         [76871] = {
-            [123604] = {"Kul Tiran Horse", "Boralus", "Battle for Azeroth", "Normal", "[1,-1]"},
-            [127572] = {"Kul Tiran Horse", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,null]"}
+            taming = {"N'lyeth, Sliver of N'Zoth"},
+            [123604] = {"Kul Tiran Horse", "Boralus", "Battle for Azeroth", "Normal", "[1,-1]"}
         },
         [76873] = {
-            [124845] = {"Kul Tiran Horse", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
+            taming = {"N'lyeth, Sliver of N'Zoth"},
+            [124845] = {"Kul Tiran Horse", "Boralus, Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
             [174412] = {"Freckles", "Tiragarde Sound", "Shadowlands", "Normal", "[-1,null]"}
         },
         [76875] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [127702] = {"Trader's Mule", "Drustvar", "Battle for Azeroth", "Normal", "[1,-1]"},
-            [128838] = {"Pack Mule", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
+            [128838] = {"Pack Mule", "Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
             [174412] = {"Freckles", "Tiragarde Sound", "Shadowlands", "Normal", "[-1,null]"}
         },
         [76877] = {
@@ -6525,36 +6566,42 @@ ModelsData = {
             [210835] = {"Wild Horse", "Ruins of Gilneas", "Dragonflight", "Normal", "[]"}
         },
         [76888] = {
-            [124845] = {"Kul Tiran Horse", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
+            taming = {"N'lyeth, Sliver of N'Zoth"},
+            [124845] = {"Kul Tiran Horse", "Boralus, Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
             [174412] = {"Freckles", "Tiragarde Sound", "Shadowlands", "Normal", "[-1,null]"}
         },
         [76889] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [123212] = {"Fjord Mustang", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
-            [124845] = {"Kul Tiran Horse", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
+            [124845] = {"Kul Tiran Horse", "Boralus, Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
             [142455] = {"Riverland Bronco", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"},
             [174412] = {"Freckles", "Tiragarde Sound", "Shadowlands", "Normal", "[-1,null]"}
         },
         [76890] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [123604] = {"Kul Tiran Horse", "Boralus", "Battle for Azeroth", "Normal", "[1,-1]"},
-            [127572] = {"Kul Tiran Horse", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,null]"},
             [210835] = {"Wild Horse", "Ruins of Gilneas", "Dragonflight", "Normal", "[]"}
         },
         [79504] = {
             [127615] = {"Ephemeral Runner", "Invasion Point: Bonich", "Legion", "Normal", "[]"}
         },
         [79952] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [128478] = {"Scout", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
             [174412] = {"Freckles", "Tiragarde Sound", "Shadowlands", "Normal", "[-1,null]"}
         },
         [81465] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [130889] = {"Workhorse", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
             [174412] = {"Freckles", "Tiragarde Sound", "Shadowlands", "Normal", "[-1,null]"}
         },
         [81466] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [130889] = {"Workhorse", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
             [174412] = {"Freckles", "Tiragarde Sound", "Shadowlands", "Normal", "[-1,null]"}
         },
         [81467] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [130889] = {"Workhorse", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[1,-1]"},
             [174412] = {"Freckles", "Tiragarde Sound", "Shadowlands", "Normal", "[-1,null]"}
         },
@@ -6647,13 +6694,13 @@ ModelsData = {
     },
     ["Crab"] = {
         [342] = {
-            [830] = {"Sand Crawler", "Azshara", "Vanilla", "Normal", "[0,0]"},
+            [830] = {"Sand Crawler", "Azshara, Westfall", "Vanilla", "Normal", "[0,0]"},
             [922] = {"Silt Crawler", "Swamp of Sorrows", "Vanilla", "Normal", "[-1,-1]"},
             [17217] = {"Barbed Crawler", "Azuremyst Isle", "The Burning Crusade", "Normal", "[0,0]"},
             [40764] = {"Desert Crawler", "Tanaris", "Cataclysm", "Normal", "[0,0]"},
             [51714] = {"King Crawler", "Feralas", "Cataclysm", "Normal", "[0,0]"},
             [104585] = {"Brinescuttle Crab", "Highmountain", "Legion", "Normal", "[0,0]"},
-            [126642] = {"Sandyback Crab", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [126642] = {"Sandyback Crab", "Boralus, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [128623] = {"Harbor Crab", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [129318] = {"Sandskitter Crab", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [145337] = {"Sandclaw Crab", "Nazjatar", "Battle for Azeroth", "Normal", "[0,0]"},
@@ -6662,7 +6709,7 @@ ModelsData = {
             [198313] = {"Le'val Skulltler", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
         },
         [641] = {
-            [17216] = {"Skittering Crawler", "Azuremyst Isle", "The Burning Crusade", "Normal", "[0,0]"},
+            [17216] = {"Skittering Crawler", "Azuremyst Isle, The Veiled Sea", "The Burning Crusade", "Normal", "[0,0]"},
             [33712] = {"Golden Crawler", "Eversong Woods (Burning Crusade)", "Wrath of the Lich King", "Normal", "[0,0]"},
             [40685] = {"Splitclaw Skitterer", "Kelp'thar Forest", "Cataclysm", "Normal", "[0,0]"},
             [87283] = {"Elder Sunset Crawler", "Talador", "Warlords of Draenor", "Normal", "[0,0]"},
@@ -6676,17 +6723,17 @@ ModelsData = {
         [979] = {
             [831] = {"Sea Crawler", "Westfall", "Vanilla", "Normal", "[0,0]"},
             [2233] = {"Encrusted Tide Crawler", "Darkshore", "Vanilla", "Normal", "[0,0]"},
-            [3812] = {"Clattering Crawler", "Darkshore", "Vanilla", "Normal", "[0,0]"}
+            [3812] = {"Clattering Crawler", "Ashenvale, Blackfathom Deeps, Darkshore", "Vanilla", "Normal", "[0,0]"}
         },
         [981] = {
-            [3814] = {"Spined Crawler", "Darkshore", "Vanilla", "Normal", "[0,0]"},
+            [3814] = {"Spined Crawler", "Ashenvale, Blackfathom Deeps, Darkshore", "Vanilla", "Normal", "[0,0]"},
             [12347] = {"Enraged Reef Crawler", "Desolace", "Vanilla", "Normal", "[0,0]"},
             [123810] = {"Hardshell Sand Sifter", "Nazmir", "Battle for Azeroth", "Normal", "[0,0]"},
-            [126642] = {"Sandyback Crab", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [126642] = {"Sandyback Crab", "Boralus, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [131013] = {"Dazarian Snapper", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [131221] = {"River Softshell", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [137255] = {"Derelict Hexapod", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
-            [137763] = {"Coral Snapper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [137763] = {"Coral Snapper", "Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [145337] = {"Sandclaw Crab", "Nazjatar", "Battle for Azeroth", "Normal", "[0,0]"},
             [153462] = {"Coral Snapper", "Mechagon", "Battle for Azeroth", "Normal", "[0,0]"},
             [198313] = {"Le'val Skulltler", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
@@ -6699,12 +6746,12 @@ ModelsData = {
         },
         [1938] = {
             [3106] = {"Surf Crawler", "Durotar", "Vanilla", "Normal", "[0,0]"},
-            [3107] = {"Mature Surf Crawler", "Durotar", "Vanilla", "Normal", "[0,0]"},
+            [3107] = {"Mature Surf Crawler", "Durotar, Echo Isles", "Vanilla", "Normal", "[0,0]"},
             [32935] = {"Corrupted Tide Crawler", "Darkshore", "Cataclysm", "Normal", "[0,0]"},
             [40527] = {"Duneshore Crab", "Tanaris", "Cataclysm", "Normal", "[0,0]"}
         },
         [1939] = {
-            [137763] = {"Coral Snapper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [137763] = {"Coral Snapper", "Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [144842] = {"Tide Crawler", "Darkshore", "Battle for Azeroth", "Normal", "[0,0]"},
             [145337] = {"Sandclaw Crab", "Nazjatar", "Battle for Azeroth", "Normal", "[0,0]"},
             [153462] = {"Coral Snapper", "Mechagon", "Battle for Azeroth", "Normal", "[0,0]"},
@@ -6713,7 +6760,7 @@ ModelsData = {
         [9573] = {
             [2544] = {"Southern Sand Crawler", "The Cape of Stranglethorn", "Vanilla", "Normal", "[0,0]"},
             [34369] = {"Hermit Tide Crawler", "Darkshore", "Cataclysm", "Normal", "[-1,-1]"},
-            [41295] = {"Ocean Crawler", "Wetlands", "Cataclysm", "Normal", "[0,0]"},
+            [41295] = {"Ocean Crawler", "Arathi Highlands, Wetlands", "Cataclysm", "Normal", "[0,0]"},
             [111784] = {"Great Sea Crab", "Val'sharah", "Legion", "Normal", "[0,0]"}
         },
         [18117] = {
@@ -6725,7 +6772,7 @@ ModelsData = {
         [21936] = {
             [23929] = {"Giant Tidecrawler", "Howling Fjord", "Wrath of the Lich King", "Normal", "[0,0]"},
             [127651] = {"Vicemaul", "Drustvar", "Battle for Azeroth", "Rare", "[-1,-1]"},
-            [143718] = {"Overfed Snapper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [143718] = {"Overfed Snapper", "Boralus, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [144460] = {"Overfed Snapper", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [22458] = {
@@ -6741,7 +6788,7 @@ ModelsData = {
             [111784] = {"Great Sea Crab", "Val'sharah", "Legion", "Normal", "[0,0]"}
         },
         [28507] = {
-            [39004] = {"Pygmy Surf Crawler", "Durotar", "Cataclysm", "Normal", "[0,0]"}
+            [39004] = {"Pygmy Surf Crawler", "Durotar, Echo Isles", "Cataclysm", "Normal", "[0,0]"}
         },
         [31993] = {
             [39418] = {"Green Sand Crab", "Shimmering Expanse", "Cataclysm", "Normal", "[0,0]"},
@@ -6749,7 +6796,7 @@ ModelsData = {
             [111571] = {"Siltshore Crab", "Azsuna", "Legion", "Normal", "[0,0]"}
         },
         [32021] = {
-            [111387] = {"Deep Water Clacker", "Stormheim", "Legion", "Normal", "[0,0]"},
+            [111387] = {"Deep Water Clacker", "Broken Shore, Stormheim", "Legion", "Normal", "[0,0]"},
             [111887] = {"Young Deep Water Clacker", "Broken Shore", "Legion", "Normal", "[0,0]"},
             [154935] = {"Gorgonian Scavenger", "Nazjatar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [219365] = {"Strange Shore Crawler", "Hallowfall", "The War Within", "Normal", "[0,0]"}
@@ -6779,9 +6826,9 @@ ModelsData = {
             [40798] = {"Spineshell Pincer", "Shimmering Expanse", "Cataclysm", "Normal", "[0,0]"},
             [46369] = {"Enthralled Crustacean", "Swamp of Sorrows", "Cataclysm", "Normal", "[-1,-1]"},
             [46606] = {"Spiny Tidecrawler", "Tol Barad Peninsula", "Cataclysm", "Normal", "[-1,-1]"},
-            [107667] = {"Crimson Rockshell", "Stormheim", "Legion", "Normal", "[0,0]"},
+            [107667] = {"Crimson Rockshell", "Eye of Azshara, Stormheim", "Legion", "Normal", "[0,0]"},
             [108702] = {"Crimson Rockshell", "Stormheim", "Legion", "Normal", "[-1,-1]"},
-            [111387] = {"Deep Water Clacker", "Stormheim", "Legion", "Normal", "[0,0]"},
+            [111387] = {"Deep Water Clacker", "Broken Shore, Stormheim", "Legion", "Normal", "[0,0]"},
             [111887] = {"Young Deep Water Clacker", "Broken Shore", "Legion", "Normal", "[0,0]"},
             [113508] = {"Crimson Rockshell", "Azsuna", "Legion", "Normal", "[-1,-1]"},
             [137713] = {"Big Money Crab", "The MOTHERLODE!!", "Battle for Azeroth", "Normal", "[0,0]"},
@@ -6811,8 +6858,8 @@ ModelsData = {
         },
         [32061] = {
             [41922] = {"Pyreshell Scuttler", "Abyssal Depths", "Cataclysm", "Normal", "[0,0]"},
-            [109803] = {"Leyscar Scuttler", "Azsuna", "Legion", "Normal", "[-1,-1]"},
-            [111387] = {"Deep Water Clacker", "Stormheim", "Legion", "Normal", "[0,0]"},
+            [109803] = {"Leyscar Scuttler", "Azsuna, Suramar", "Legion", "Normal", "[-1,-1]"},
+            [111387] = {"Deep Water Clacker", "Broken Shore, Stormheim", "Legion", "Normal", "[0,0]"},
             [111887] = {"Young Deep Water Clacker", "Broken Shore", "Legion", "Normal", "[0,0]"}
         },
         [32064] = {
@@ -6837,8 +6884,8 @@ ModelsData = {
         },
         [34670] = {
             [83840] = {"Sand Snapper", "Ashran", "Warlords of Draenor", "Normal", "[-1,-1]"},
-            [88076] = {"Sand Scavenger", "Ashran", "Warlords of Draenor", "Normal", "[0,0]"},
-            [107667] = {"Crimson Rockshell", "Stormheim", "Legion", "Normal", "[0,0]"},
+            [88076] = {"Sand Scavenger", "Ashran, Stormshield, Warspear", "Warlords of Draenor", "Normal", "[0,0]"},
+            [107667] = {"Crimson Rockshell", "Eye of Azshara, Stormheim", "Legion", "Normal", "[0,0]"},
             [108702] = {"Crimson Rockshell", "Stormheim", "Legion", "Normal", "[-1,-1]"},
             [113508] = {"Crimson Rockshell", "Azsuna", "Legion", "Normal", "[-1,-1]"}
         },
@@ -6962,7 +7009,7 @@ ModelsData = {
         },
         [61702] = {
             [101554] = {"Spikebacked Scuttler", "Azsuna", "Legion", "Normal", "[0,0]"},
-            [102516] = {"Tidescuttler", "Val'sharah", "Legion", "Normal", "[-1,-1]"},
+            [102516] = {"Tidescuttler", "Gloaming Reef, Val'sharah", "Legion", "Normal", "[-1,-1]"},
             [154935] = {"Gorgonian Scavenger", "Nazjatar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [154936] = {"Hungry Nibbler", "Nazjatar", "Battle for Azeroth", "Normal", "[0,0]"},
             [219365] = {"Strange Shore Crawler", "Hallowfall", "The War Within", "Normal", "[0,0]"}
@@ -6986,7 +7033,7 @@ ModelsData = {
         },
         [70524] = {
             [97928] = {"Tamed Coralback", "Highmountain", "Legion", "Rare", "[-1,-1]"},
-            [110824] = {"Tideclaw", "Azsuna", "Legion", "Rare", "[-1,-1]"}
+            [110824] = {"Tideclaw", "Azsuna, Suramar", "Legion", "Rare", "[-1,-1]"}
         },
         [74864] = {
             [118725] = {"Felshore Crab", "Broken Shore", "Legion", "Normal", "[0,0]"},
@@ -6999,12 +7046,12 @@ ModelsData = {
             [74508] = {"Guardian of the Deep", "Blackfathom Deeps", "Warlords of Draenor", "Elite", "[-1,-1]"}
         },
         [75365] = {
-            [126642] = {"Sandyback Crab", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [127496] = {"Sandy Snapper", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [126642] = {"Sandyback Crab", "Boralus, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [127496] = {"Sandy Snapper", "Nazmir, Vol'dun, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [128942] = {"Mudfisher Crab", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [131013] = {"Dazarian Snapper", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [137255] = {"Derelict Hexapod", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
-            [137763] = {"Coral Snapper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [137763] = {"Coral Snapper", "Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [141872] = {"Shallows Softshell", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"},
             [145337] = {"Sandclaw Crab", "Nazjatar", "Battle for Azeroth", "Normal", "[0,0]"},
             [149680] = {"Overfed Crawler", "Darkshore", "Battle for Azeroth", "Normal", "[0,0]"},
@@ -7033,9 +7080,9 @@ ModelsData = {
             [152795] = {"Sandclaw Stoneshell", "Nazjatar", "Battle for Azeroth", "Rare", "[0,0]"}
         },
         [75372] = {
-            [123236] = {"Scuttlestep Crab", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [123236] = {"Scuttlestep Crab", "Drustvar, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [123814] = {"Clampclaw Clacker", "Vol'dun", "Battle for Azeroth", "Normal", "[0,0]"},
-            [127496] = {"Sandy Snapper", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [127496] = {"Sandy Snapper", "Nazmir, Vol'dun, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [130042] = {"Stoneclaw Crab", "Vol'dun", "Battle for Azeroth", "Normal", "[0,0]"},
             [137885] = {"Ravenous Crab", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [151327] = {"Sandclaw Scuttler", "Nazjatar", "Battle for Azeroth", "Normal", "[0,0]"}
@@ -7044,7 +7091,7 @@ ModelsData = {
             [151327] = {"Sandclaw Scuttler", "Nazjatar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [75374] = {
-            [123236] = {"Scuttlestep Crab", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [123236] = {"Scuttlestep Crab", "Drustvar, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [127526] = {"Scavenging Snapclaw", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [129318] = {"Sandskitter Crab", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [130812] = {"Coral Scuttler", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"},
@@ -7056,11 +7103,11 @@ ModelsData = {
             [151327] = {"Sandclaw Scuttler", "Nazjatar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [75376] = {
-            [127496] = {"Sandy Snapper", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [127496] = {"Sandy Snapper", "Nazmir, Vol'dun, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [151327] = {"Sandclaw Scuttler", "Nazjatar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [75377] = {
-            [123236] = {"Scuttlestep Crab", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [123236] = {"Scuttlestep Crab", "Drustvar, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [130042] = {"Stoneclaw Crab", "Vol'dun", "Battle for Azeroth", "Normal", "[0,0]"},
             [141872] = {"Shallows Softshell", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"},
             [145337] = {"Sandclaw Crab", "Nazjatar", "Battle for Azeroth", "Normal", "[0,0]"}
@@ -7093,7 +7140,7 @@ ModelsData = {
             [127630] = {"Agitated Snapclaw", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [78928] = {
-            [143718] = {"Overfed Snapper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [143718] = {"Overfed Snapper", "Boralus, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [144460] = {"Overfed Snapper", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [80265] = {
@@ -7112,7 +7159,7 @@ ModelsData = {
             [131693] = {"Freshwater Hermit", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [82550] = {
-            [137763] = {"Coral Snapper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [137763] = {"Coral Snapper", "Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [153462] = {"Coral Snapper", "Mechagon", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [82593] = {
@@ -7123,10 +7170,10 @@ ModelsData = {
             [209909] = {"Crabtankerous", "Emerald Dream", "Dragonflight", "Rare", "[-1,-1]"}
         },
         [83879] = {
-            [134798] = {"Abyss Crawler", "Crestfall", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
+            [134798] = {"Abyss Crawler", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
         },
         [83880] = {
-            [134799] = {"Fathomclaw", "Crestfall", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
+            [134799] = {"Fathomclaw", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
         },
         [85339] = {
             [128631] = {"Tidal Clickshell", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
@@ -7136,7 +7183,7 @@ ModelsData = {
             [137681] = {"King Clickyclack", "Vol'dun", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [85664] = {
-            [137763] = {"Coral Snapper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [137763] = {"Coral Snapper", "Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [153462] = {"Coral Snapper", "Mechagon", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [86218] = {
@@ -7149,7 +7196,7 @@ ModelsData = {
             [224799] = {"Shimmering Hermit", "Isle of Dorn", "The War Within", "Normal", "[0,0]"}
         },
         [88259] = {
-            [143928] = {"Cursed Snapclaw", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"}
+            [143928] = {"Cursed Snapclaw", "Drustvar, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [88834] = {
             [50959] = {"Karkin", "Molten Front", "Cataclysm", "Rare", "[-1,-1]"}
@@ -7158,6 +7205,7 @@ ModelsData = {
             [149654] = {"Glimmerspine", "Darkshore", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [89128] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [145740] = {"Tinitoa", "Nazjatar", "Battle for Azeroth", "Normal", "[null,1]"},
             [154935] = {"Gorgonian Scavenger", "Nazjatar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
@@ -7250,7 +7298,7 @@ ModelsData = {
             [193604] = {"Sandsifting Crawler", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [197955] = {"Snipshell Nibbler", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [198314] = {"Le'val Spineshell", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
-            [199773] = {"Softshell Skitterer", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
+            [199773] = {"Softshell Skitterer", "Emerald Dream, The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [200249] = {"Weathered Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [214436] = {"Pearlfin Clawclacker", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"}
         },
@@ -7264,7 +7312,7 @@ ModelsData = {
             [197898] = {"Shore Crab", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [197955] = {"Snipshell Nibbler", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [198314] = {"Le'val Spineshell", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
-            [199773] = {"Softshell Skitterer", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
+            [199773] = {"Softshell Skitterer", "Emerald Dream, The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [200249] = {"Weathered Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [250105] = {"Nibbler Crab", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [254198] = {"Kelp Crab", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
@@ -7365,7 +7413,7 @@ ModelsData = {
             [193236] = {"Shackled Crab", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [193604] = {"Sandsifting Crawler", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [197955] = {"Snipshell Nibbler", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
-            [199773] = {"Softshell Skitterer", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
+            [199773] = {"Softshell Skitterer", "Emerald Dream, The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [200249] = {"Weathered Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [227664] = {"Tidal Sandskitter", "Siren Isle", "The War Within", "Normal", "[0,0]"}
         },
@@ -7436,7 +7484,7 @@ ModelsData = {
             [193604] = {"Sandsifting Crawler", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [197955] = {"Snipshell Nibbler", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [198314] = {"Le'val Spineshell", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
-            [199773] = {"Softshell Skitterer", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
+            [199773] = {"Softshell Skitterer", "Emerald Dream, The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [200249] = {"Weathered Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [227664] = {"Tidal Sandskitter", "Siren Isle", "The War Within", "Normal", "[0,0]"},
             [254198] = {"Kelp Crab", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
@@ -7456,7 +7504,7 @@ ModelsData = {
             [192123] = {"Hermit Crab", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192454] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[null,0]"},
             [193605] = {"Scavenging Hardshell", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [197000] = {"Island Crab", "Dragon Isles", "Dragonflight", "Normal", "[0,0]"},
+            [197000] = {"Island Crab", "Dragon Isles, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [197954] = {"Scavenging Snipshell", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [198783] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [199776] = {"Hermit Crawler", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
@@ -7469,7 +7517,7 @@ ModelsData = {
             [192123] = {"Hermit Crab", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192454] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[null,0]"},
             [193605] = {"Scavenging Hardshell", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [197000] = {"Island Crab", "Dragon Isles", "Dragonflight", "Normal", "[0,0]"},
+            [197000] = {"Island Crab", "Dragon Isles, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [197954] = {"Scavenging Snipshell", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [198783] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [199776] = {"Hermit Crawler", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
@@ -7492,7 +7540,7 @@ ModelsData = {
             [192123] = {"Hermit Crab", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192454] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[null,0]"},
             [193605] = {"Scavenging Hardshell", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [197000] = {"Island Crab", "Dragon Isles", "Dragonflight", "Normal", "[0,0]"},
+            [197000] = {"Island Crab", "Dragon Isles, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [197954] = {"Scavenging Snipshell", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [198783] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [199776] = {"Hermit Crawler", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
@@ -7504,7 +7552,7 @@ ModelsData = {
             [192123] = {"Hermit Crab", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192454] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[null,0]"},
             [193605] = {"Scavenging Hardshell", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [197000] = {"Island Crab", "Dragon Isles", "Dragonflight", "Normal", "[0,0]"},
+            [197000] = {"Island Crab", "Dragon Isles, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [197954] = {"Scavenging Snipshell", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [198783] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [199776] = {"Hermit Crawler", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
@@ -7539,7 +7587,7 @@ ModelsData = {
             [192123] = {"Hermit Crab", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192454] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[null,0]"},
             [193605] = {"Scavenging Hardshell", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [197000] = {"Island Crab", "Dragon Isles", "Dragonflight", "Normal", "[0,0]"},
+            [197000] = {"Island Crab", "Dragon Isles, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [197954] = {"Scavenging Snipshell", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [198783] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [199776] = {"Hermit Crawler", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
@@ -7616,7 +7664,7 @@ ModelsData = {
             [192123] = {"Hermit Crab", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192454] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[null,0]"},
             [193605] = {"Scavenging Hardshell", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [197000] = {"Island Crab", "Dragon Isles", "Dragonflight", "Normal", "[0,0]"},
+            [197000] = {"Island Crab", "Dragon Isles, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [197954] = {"Scavenging Snipshell", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [198783] = {"Hermit Crab", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [199776] = {"Hermit Crawler", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
@@ -7643,12 +7691,13 @@ ModelsData = {
             [250103] = {"Seaside Crab", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
         },
         [114816] = {
+            taming = {"Disturbed Earth"},
             [215548] = {"Crabby Relic-Seeker", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [222156] = {"Scavenging Sandsnapper", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
             [222312] = {"Scavenging Sandsnapper", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
             [224454] = {"Scuttling Sandshell", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [224876] = {"Scavenging Sandsnapper", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
-            [229820] = {"Wandering Scuttleshell", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"}
+            [229820] = {"Wandering Scuttleshell", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"}
         },
         [114817] = {
             [222156] = {"Scavenging Sandsnapper", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
@@ -7670,12 +7719,13 @@ ModelsData = {
             [227201] = {"Tidal Sandsnapper", "Isle of Dorn", "The War Within", "Normal", "[0,0]"}
         },
         [114820] = {
+            taming = {"Disturbed Earth"},
             [215548] = {"Crabby Relic-Seeker", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [222156] = {"Scavenging Sandsnapper", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
             [222312] = {"Scavenging Sandsnapper", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
             [224454] = {"Scuttling Sandshell", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [224876] = {"Scavenging Sandsnapper", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
-            [229820] = {"Wandering Scuttleshell", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"}
+            [229820] = {"Wandering Scuttleshell", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"}
         },
         [114821] = {
             [222156] = {"Scavenging Sandsnapper", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
@@ -8152,7 +8202,7 @@ ModelsData = {
             [4341] = {"Drywallow Crocolisk", "Dustwallow Marsh", "Vanilla", "Normal", "[-1,-1]"}
         },
         [1250] = {
-            [3110] = {"Dreadmaw Crocolisk", "Durotar", "Vanilla", "Normal", "[-1,-1]"}
+            [3110] = {"Dreadmaw Crocolisk", "Durotar, Northern Barrens", "Vanilla", "Normal", "[-1,-1]"}
         },
         [2548] = {
             [4344] = {"Mottled Drywallow Crocolisk", "Dustwallow Marsh", "Vanilla", "Normal", "[-1,-1]"}
@@ -8238,7 +8288,7 @@ ModelsData = {
         },
         [33450] = {
             [36882] = {"Swamp Crocolisk", "Gilneas", "Cataclysm", "Normal", "[-1,null]"},
-            [37078] = {"Swamp Crocolisk", "Gilneas", "Cataclysm", "Normal", "[-1,null]"},
+            [37078] = {"Swamp Crocolisk", "Gilneas, Ruins of Gilneas City", "Cataclysm", "Normal", "[-1,null]"},
             [43658] = {"Frenzied Crocolisk", "Lost City of the Tol'vir", "Cataclysm", "Normal", "[-1,-1]"},
             [44108] = {"Swamp Crocolisk", "Gilneas", "Cataclysm", "Normal", "[-1,null]"},
             [210841] = {"Swamp Crocolisk", "Ruins of Gilneas", "Dragonflight", "Normal", "[]"}
@@ -8560,7 +8610,7 @@ ModelsData = {
         },
         [47383] = {
             taming = {"Direhorn"},
-            [69246] = {"Hatchling Direhorn", "Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"}
+            [69246] = {"Hatchling Direhorn", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [47441] = {
             taming = {"Direhorn"},
@@ -8962,6 +9012,7 @@ ModelsData = {
             [121623] = {"Varoudnir", "Eye of Azshara", "Legion", "Elite", "[0,0]"}
         },
         [81338] = {
+            taming = {"Feathermane"},
             [140433] = {"Wild Gryphon", "Tiragarde Sound", "Battle for Azeroth", "Elite", "[0,null]"}
         },
         [82019] = {
@@ -9052,7 +9103,7 @@ ModelsData = {
             taming = {"Feathermane"},
             [191051] = {"Nimblewing Slyvern", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [193353] = {"Plainsbound Slyvern", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [197871] = {"Canyon Glider", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
+            [197871] = {"Canyon Glider", "Thaldraszus, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [197962] = {"Valley Slyvern", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [102064] = {
@@ -9065,7 +9116,7 @@ ModelsData = {
             [190742] = {"Swooping Slyvern", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [192168] = {"Docile Slyvern", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192385] = {"Fox Wyvern", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [193986] = {"Elusive Slyvern", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
+            [193986] = {"Elusive Slyvern", "The Azure Span, The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [197962] = {"Valley Slyvern", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [199785] = {"Amberfur Slyvern", "The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"}
         },
@@ -9079,7 +9130,7 @@ ModelsData = {
             [193438] = {"Snowypelt Slyvern", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [193784] = {"Dead Slyvern", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [195708] = {"Ailing Snowypelt Slyvern", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
-            [197871] = {"Canyon Glider", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
+            [197871] = {"Canyon Glider", "Thaldraszus, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [199786] = {"Amberfur Alpha", "The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [104702] = {
@@ -9172,8 +9223,7 @@ ModelsData = {
             [216712] = {"Awakened Umbraclaw", "Amirdrassil", "Dragonflight", "Normal", "[0,null]"}
         },
         [112871] = {
-            taming = {"Feathermane"},
-            [206472] = {"Tamed Umbraclaw", "Emerald Dream", "Dragonflight", "Normal", "[1,1]"},
+            taming = {"Elusive Creature Bait","Feathermane"},
             [212040] = {"Elusive Umbraclaw", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [212779] = {"Umbraclaw", "Amirdrassil, the Dream's Hope", "Dragonflight", "Normal", "[]"},
             [216695] = {"Efflorescent Umbraclaw", "Amirdrassil", "Dragonflight", "Normal", "[0,0]"},
@@ -9247,7 +9297,7 @@ ModelsData = {
             [55565] = {"Crane Hunter", "The Jade Forest", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [89385] = {"Azsuna Fox", "Azsuna", "Legion", "Normal", "[0,0]"},
             [91265] = {"Llothien Fox", "Azsuna", "Legion", "Normal", "[0,0]"},
-            [96265] = {"Ashpaw Fox", "Highmountain", "Legion", "Normal", "[0,0]"},
+            [96265] = {"Ashpaw Fox", "Highmountain, Thunder Totem", "Legion", "Normal", "[0,0]"},
             [111487] = {"Bloodthirsty Fox", "Azsuna", "Legion", "Normal", "[-1,-1]"},
             [112008] = {"Cliffdweller Fox", "Azsuna", "Legion", "Normal", "[0,0]"},
             [113184] = {"Cunning Bushtail", "Suramar", "Legion", "Normal", "[0,0]"},
@@ -9257,13 +9307,13 @@ ModelsData = {
         },
         [30257] = {
             [58548] = {"Sly Fox", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"},
-            [96265] = {"Ashpaw Fox", "Highmountain", "Legion", "Normal", "[0,0]"},
+            [96265] = {"Ashpaw Fox", "Highmountain, Thunder Totem", "Legion", "Normal", "[0,0]"},
             [131387] = {"Coppertail Fox", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"},
             [139080] = {"Timbershore Fox", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [142198] = {"Void-Touched Fox", "Stormsong Valley", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [30301] = {
-            [36512] = {"Fox", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
+            [36512] = {"Fox", "Gilneas, Gilneas City", "Cataclysm", "Normal", "[0,null]"},
             [37492] = {"Blackwald Fox", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
             [38881] = {"Fox", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
             [44474] = {"Whitetail Fox", "Western Plaguelands", "Cataclysm", "Normal", "[0,0]"},
@@ -9272,7 +9322,7 @@ ModelsData = {
             [58549] = {"Sly Pup", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [30302] = {
-            [36512] = {"Fox", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
+            [36512] = {"Fox", "Gilneas, Gilneas City", "Cataclysm", "Normal", "[0,null]"},
             [37492] = {"Blackwald Fox", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
             [38881] = {"Fox", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
             [43083] = {"Redridge Fox", "Redridge Mountains", "Cataclysm", "Normal", "[0,0]"},
@@ -9440,10 +9490,10 @@ ModelsData = {
         },
         [80326] = {
             [129005] = {"King Kooba", "Nazmir", "Battle for Azeroth", "Rare", "[-1,-1]"},
-            [139435] = {"Ridgeback Gorilla", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
+            [139435] = {"Ridgeback Gorilla", "Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [81834] = {
-            [139483] = {"Ridgeback Alpha", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
+            [139483] = {"Ridgeback Alpha", "Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [81835] = {
             [130948] = {"King Da'ka", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
@@ -9452,7 +9502,7 @@ ModelsData = {
             [130954] = {"Da'kani Highbrow", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [86302] = {
-            [139435] = {"Ridgeback Gorilla", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
+            [139435] = {"Ridgeback Gorilla", "Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [86313] = {
             [139484] = {"Ridgeback Elder", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"}
@@ -9468,33 +9518,33 @@ ModelsData = {
     },
     ["Gruffhorn"] = {
         [10000] = {
-            [2098] = {"Ram", "Wetlands", "Vanilla", "Normal", "[0,0]"},
+            [2098] = {"Ram", "Arathi Highlands, Hillsbrad Foothills, Loch Modan, Ruins of Gilneas, Wetlands", "Vanilla", "Normal", "[0,0]"},
             [168387] = {"Steelfur Bighorn", "Bastion", "Shadowlands", "Normal", "[0,0]"},
             [169252] = {"Steelfur Charger", "Bastion", "Shadowlands", "Normal", "[-1,-1]"}
         },
         [10001] = {
-            [2098] = {"Ram", "Wetlands", "Vanilla", "Normal", "[0,0]"}
+            [2098] = {"Ram", "Arathi Highlands, Hillsbrad Foothills, Loch Modan, Ruins of Gilneas, Wetlands", "Vanilla", "Normal", "[0,0]"}
         },
         [10002] = {
-            [2098] = {"Ram", "Wetlands", "Vanilla", "Normal", "[0,0]"},
+            [2098] = {"Ram", "Arathi Highlands, Hillsbrad Foothills, Loch Modan, Ruins of Gilneas, Wetlands", "Vanilla", "Normal", "[0,0]"},
             [46393] = {"Billy Goat", "Badlands", "Cataclysm", "Normal", "[0,0]"},
             [168333] = {"Gildfur Bighorn", "Bastion", "Shadowlands", "Normal", "[0,0]"},
             [172060] = {"Gildfur Roamer", "Bastion", "Shadowlands", "Normal", "[0,0]"},
             [172061] = {"Gildfur Charger", "Bastion", "Shadowlands", "Normal", "[-1,-1]"}
         },
         [10003] = {
-            [2098] = {"Ram", "Wetlands", "Vanilla", "Normal", "[0,0]"}
+            [2098] = {"Ram", "Arathi Highlands, Hillsbrad Foothills, Loch Modan, Ruins of Gilneas, Wetlands", "Vanilla", "Normal", "[0,0]"}
         },
         [13340] = {
             [10990] = {"Alterac Ram", "Alterac Valley", "Vanilla", "Normal", "[0,0]"},
-            [26426] = {"Arctic Ram", "Wintergrasp", "Wrath of the Lich King", "Normal", "[0,0]"}
+            [26426] = {"Arctic Ram", "Dragonblight, Wintergrasp", "Wrath of the Lich King", "Normal", "[0,0]"}
         },
         [22318] = {
             [34894] = {"Stonetalon Ram", "Stonetalon Mountains", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [22673] = {
-            [23740] = {"Frosthorn Ram", "Grizzly Hills", "Wrath of the Lich King", "Normal", "[-1,-1]"},
-            [24901] = {"Maddened Frosthorn", "Grizzly Hills", "Wrath of the Lich King", "Normal", "[-1,-1]"}
+            [23740] = {"Frosthorn Ram", "Grizzly Hills, Howling Fjord", "Wrath of the Lich King", "Normal", "[-1,-1]"},
+            [24901] = {"Maddened Frosthorn", "Grizzly Hills, Howling Fjord", "Wrath of the Lich King", "Normal", "[-1,-1]"}
         },
         [22674] = {
             [24863] = {"Frosthorn Kid", "Howling Fjord", "Wrath of the Lich King", "Normal", "[-1,-1]"}
@@ -9503,7 +9553,7 @@ ModelsData = {
             [29958] = {"Tundra Ram", "The Storm Peaks", "Wrath of the Lich King", "Normal", "[-1,-1]"}
         },
         [40020] = {
-            [58892] = {"Wild Shaghorn", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
+            [58892] = {"Wild Shaghorn", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
             [94198] = {"Soothoof Hillstrider", "Highmountain", "Legion", "Normal", "[0,0]"},
             [98808] = {"Sated Hillstrider", "Highmountain", "Legion", "Normal", "[0,0]"},
             [116975] = {"Soothoof Hillstrider", "Highmountain", "Legion", "Normal", "[0,0]"},
@@ -9513,8 +9563,8 @@ ModelsData = {
             [141313] = {"Hillcrest Goat", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [40021] = {
-            [60242] = {"Wild Mountain Goat", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[0,0]"},
-            [69523] = {"Fatty Goat", "Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"},
+            [60242] = {"Wild Mountain Goat", "Kun-Lai Summit, The Veiled Stair", "Mists of Pandaria", "Normal", "[0,0]"},
+            [69523] = {"Fatty Goat", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"},
             [99636] = {"Highpeak Goat", "Highmountain", "Legion", "Normal", "[0,0]"},
             [107663] = {"Domesticated Goat", "Stormheim", "Legion", "Normal", "[-1,-1]"},
             [112453] = {"Black Phillip", "Val'sharah", "Legion", "Normal", "[0,0]"},
@@ -9526,7 +9576,7 @@ ModelsData = {
             [50998] = {"Stompy", "Kun-Lai Summit", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [40024] = {
-            [60242] = {"Wild Mountain Goat", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[0,0]"},
+            [60242] = {"Wild Mountain Goat", "Kun-Lai Summit, The Veiled Stair", "Mists of Pandaria", "Normal", "[0,0]"},
             [91824] = {"Bluffwalker Goat", "Stormheim", "Legion", "Normal", "[0,0]"},
             [92707] = {"Lowlands Goat", "Val'sharah", "Legion", "Normal", "[0,0]"},
             [94198] = {"Soothoof Hillstrider", "Highmountain", "Legion", "Normal", "[0,0]"},
@@ -9542,15 +9592,15 @@ ModelsData = {
             [189937] = {"Domestic Blackhoof", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"}
         },
         [40025] = {
-            [60242] = {"Wild Mountain Goat", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[0,0]"},
+            [60242] = {"Wild Mountain Goat", "Kun-Lai Summit, The Veiled Stair", "Mists of Pandaria", "Normal", "[0,0]"},
             [60493] = {"Kafa-Crazed Mountain Goat", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[-1,-1]"},
-            [69523] = {"Fatty Goat", "Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"},
+            [69523] = {"Fatty Goat", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"},
             [127822] = {"Alpine Goat", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [138316] = {"Highland Goat", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [154505] = {"Wild Mountain Goat", "The Veiled Stair", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [40075] = {
-            [58892] = {"Wild Shaghorn", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
+            [58892] = {"Wild Shaghorn", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
             [91824] = {"Bluffwalker Goat", "Stormheim", "Legion", "Normal", "[0,0]"},
             [94198] = {"Soothoof Hillstrider", "Highmountain", "Legion", "Normal", "[0,0]"},
             [98808] = {"Sated Hillstrider", "Highmountain", "Legion", "Normal", "[0,0]"},
@@ -9578,7 +9628,7 @@ ModelsData = {
             [60668] = {"Furious Goat", "Kun-Lai Summit", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [41323] = {
-            [58892] = {"Wild Shaghorn", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
+            [58892] = {"Wild Shaghorn", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
             [59139] = {"Stout Shaghorn", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [41462] = {
@@ -9594,7 +9644,7 @@ ModelsData = {
             [66208] = {"Wild Shaghorn Calf", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [45138] = {
-            [58892] = {"Wild Shaghorn", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
+            [58892] = {"Wild Shaghorn", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
             [59139] = {"Stout Shaghorn", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [45139] = {
@@ -9602,15 +9652,15 @@ ModelsData = {
         },
         [45149] = {
             [58448] = {"Black Bengal Goat", "Vale of Eternal Blossoms", "Mists of Pandaria", "Normal", "[0,0]"},
-            [69523] = {"Fatty Goat", "Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"},
+            [69523] = {"Fatty Goat", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"},
             [72275] = {"Black Bengal Goat", "Vale of Eternal Blossoms", "Mists of Pandaria", "Normal", "[0,0]"},
             [98808] = {"Sated Hillstrider", "Highmountain", "Legion", "Normal", "[0,0]"},
-            [129742] = {"Tufted Craghopper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [129742] = {"Tufted Craghopper", "Drustvar, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [156756] = {"Black Bengal Goat", "Vale of Eternal Blossoms", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [45162] = {
-            [60242] = {"Wild Mountain Goat", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[0,0]"},
-            [69523] = {"Fatty Goat", "Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"},
+            [60242] = {"Wild Mountain Goat", "Kun-Lai Summit, The Veiled Stair", "Mists of Pandaria", "Normal", "[0,0]"},
+            [69523] = {"Fatty Goat", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"},
             [154505] = {"Wild Mountain Goat", "The Veiled Stair", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [45163] = {
@@ -9625,7 +9675,7 @@ ModelsData = {
         [66292] = {
             [99636] = {"Highpeak Goat", "Highmountain", "Legion", "Normal", "[0,0]"},
             [112453] = {"Black Phillip", "Val'sharah", "Legion", "Normal", "[0,0]"},
-            [129742] = {"Tufted Craghopper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [129742] = {"Tufted Craghopper", "Drustvar, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [136939] = {"Mother Goat", "Stormsong Valley", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [139796] = {"Wayward Goat", "Stormsong Valley", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [144477] = {"Mountain Goat", "Stormsong Valley", "Battle for Azeroth", "Normal", "[-1,null]"},
@@ -9645,10 +9695,11 @@ ModelsData = {
             [34894] = {"Stonetalon Ram", "Stonetalon Mountains", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [98676] = {
-            [26426] = {"Arctic Ram", "Wintergrasp", "Wrath of the Lich King", "Normal", "[0,0]"}
+            [26426] = {"Arctic Ram", "Dragonblight, Wintergrasp", "Wrath of the Lich King", "Normal", "[0,0]"}
         },
         [104133] = {
-            [191553] = {"Wild Argali", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            taming = {"Elusive Creature Bait"},
+            [191553] = {"Wild Argali", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [193309] = {"Wild Argali", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [194726] = {"Shoreside Argali", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [194809] = {"Cliffside Argali", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
@@ -9661,8 +9712,9 @@ ModelsData = {
             [214222] = {"Golddown Argali", "Amirdrassil", "Dragonflight", "Normal", "[0,null]"}
         },
         [104134] = {
+            taming = {"Elusive Creature Bait"},
             [187975] = {"Fleecepelt Argali", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
-            [191553] = {"Wild Argali", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [191553] = {"Wild Argali", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [193309] = {"Wild Argali", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [194726] = {"Shoreside Argali", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [194809] = {"Cliffside Argali", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
@@ -9673,7 +9725,8 @@ ModelsData = {
             [202510] = {"Elusive Elder Argali", "The Forbidden Reach", "Dragonflight", "Elite", "[]"}
         },
         [104135] = {
-            [191553] = {"Wild Argali", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            taming = {"Elusive Creature Bait"},
+            [191553] = {"Wild Argali", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [193309] = {"Wild Argali", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [194726] = {"Shoreside Argali", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [194809] = {"Cliffside Argali", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
@@ -9709,7 +9762,7 @@ ModelsData = {
         [106543] = {
             [190220] = {"Headbutting Caprine", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [193427] = {"Tired Goat", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
-            [193612] = {"Highpeaks Goat", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
+            [193612] = {"Highpeaks Goat", "Ohn'ahran Plains, The Azure Span, Traitor's Rest", "Dragonflight", "Normal", "[0,0]"},
             [194697] = {"Headbutting Caprine", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [194704] = {"Headbutting Caprine", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [195196] = {"Highpeaks Goat", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
@@ -9726,7 +9779,7 @@ ModelsData = {
         },
         [106545] = {
             [193427] = {"Tired Goat", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
-            [193612] = {"Highpeaks Goat", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
+            [193612] = {"Highpeaks Goat", "Ohn'ahran Plains, The Azure Span, Traitor's Rest", "Dragonflight", "Normal", "[0,0]"},
             [193980] = {"Icehorn Goat", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [195196] = {"Highpeaks Goat", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [198348] = {"Highpeaks Goat", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
@@ -9922,7 +9975,7 @@ ModelsData = {
             [72777] = {"Gulp Frog", "Timeless Isle", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [51815] = {
-            [73805] = {"Corrupted Toad", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
+            [73805] = {"Corrupted Toad", "Lunarfall, Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [74176] = {"Gloomshade Gulper", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[0,0]"},
             [79660] = {"Shimmering Croaker", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[0,0]"},
             [105014] = {"Territorial Croaker", "Suramar", "Legion", "Normal", "[0,0]"}
@@ -9958,17 +10011,17 @@ ModelsData = {
             [79524] = {"Hypnocroak", "Shadowmoon Valley", "Warlords of Draenor", "Rare", "[-1,-1]"}
         },
         [76788] = {
-            [144829] = {"Thundercroak", "Verdant Wilds", "Battle for Azeroth", "Rare", "[-1,-1]"},
-            [144833] = {"Whiptongue", "Verdant Wilds", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
+            [144829] = {"Thundercroak", "Havenswood, Verdant Wilds", "Battle for Azeroth", "Rare", "[-1,-1]"},
+            [144833] = {"Whiptongue", "Un'gol Ruins, Verdant Wilds", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
         },
         [76789] = {
-            [144825] = {"Toxinbelly Croaker", "Crestfall", "Battle for Azeroth", "Elite", "[-1,-1]"},
-            [144826] = {"Man-Eater", "Verdant Wilds", "Battle for Azeroth", "Rare", "[-1,-1]"},
-            [144831] = {"Colossal Spadefoot", "Verdant Wilds", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
+            [144825] = {"Toxinbelly Croaker", "Crestfall, Havenswood, Molten Cay, Skittering Hollow, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Elite", "[-1,-1]"},
+            [144826] = {"Man-Eater", "Molten Cay, Un'gol Ruins, Verdant Wilds", "Battle for Azeroth", "Rare", "[-1,-1]"},
+            [144831] = {"Colossal Spadefoot", "Havenswood, Molten Cay, Un'gol Ruins, Verdant Wilds", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
         },
         [76790] = {
-            [144827] = {"Bogbelcher", "Verdant Wilds", "Battle for Azeroth", "Rare", "[-1,-1]"},
-            [144830] = {"Yaz'za the Devourer", "Verdant Wilds", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
+            [144827] = {"Bogbelcher", "Havenswood, Molten Cay, Verdant Wilds", "Battle for Azeroth", "Rare", "[-1,-1]"},
+            [144830] = {"Yaz'za the Devourer", "Molten Cay, Un'gol Ruins, Verdant Wilds", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
         },
         [77552] = {
             [135052] = {"Blight Toad", "Waycrest Manor", "Battle for Azeroth", "Normal", "[-1,-1]"}
@@ -10049,6 +10102,7 @@ ModelsData = {
             [214406] = {"Shadowstarved Bullfrog", "Hallowfall", "The War Within", "Normal", "[-1,-1]"}
         },
         [112410] = {
+            taming = {"Disturbed Earth"},
             [213700] = {"Stream Skipper", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [214801] = {"Skipper", "Nerub-ar Palace", "The War Within", "Normal", "[0,0]"},
             [214960] = {"Bubbling Mudskip", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
@@ -10062,7 +10116,7 @@ ModelsData = {
             [226417] = {"Furious Skipper", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [227325] = {"Bubbling Mudskip", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [228465] = {"The Captain", "Undermine", "The War Within", "Normal", "[-1,-1]"},
-            [229812] = {"Warbling Mudskip", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229812] = {"Warbling Mudskip", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [230917] = {"Briny Skipfin", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [237282] = {"Lil' Skipper", "Undermine", "The War Within", "Normal", "[-1,-1]"},
             [237583] = {"Gurgling Skipper", "Harandar", "Midnight", "Normal", "[0,0]"},
@@ -10070,6 +10124,7 @@ ModelsData = {
             [256365] = {"Valeflow Skipper", "Harandar", "Midnight", "Normal", "[0,0]"}
         },
         [112411] = {
+            taming = {"Disturbed Earth"},
             [213700] = {"Stream Skipper", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [214801] = {"Skipper", "Nerub-ar Palace", "The War Within", "Normal", "[0,0]"},
             [214960] = {"Bubbling Mudskip", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
@@ -10082,13 +10137,14 @@ ModelsData = {
             [226417] = {"Furious Skipper", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [227325] = {"Bubbling Mudskip", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [228465] = {"The Captain", "Undermine", "The War Within", "Normal", "[-1,-1]"},
-            [229812] = {"Warbling Mudskip", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229812] = {"Warbling Mudskip", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [230917] = {"Briny Skipfin", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [237282] = {"Lil' Skipper", "Undermine", "The War Within", "Normal", "[-1,-1]"},
             [237583] = {"Gurgling Skipper", "Harandar", "Midnight", "Normal", "[0,0]"},
             [250333] = {"Stream Skipper", "Harandar", "Midnight", "Normal", "[0,0]"}
         },
         [112412] = {
+            taming = {"Disturbed Earth"},
             [214801] = {"Skipper", "Nerub-ar Palace", "The War Within", "Normal", "[0,0]"},
             [214960] = {"Bubbling Mudskip", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [219962] = {"Glowshade Skipper", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
@@ -10097,7 +10153,7 @@ ModelsData = {
             [226421] = {"Stonepool Skipper", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [226929] = {"Stonepool Skipper", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [228465] = {"The Captain", "Undermine", "The War Within", "Normal", "[-1,-1]"},
-            [229812] = {"Warbling Mudskip", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229812] = {"Warbling Mudskip", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [230917] = {"Briny Skipfin", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [237282] = {"Lil' Skipper", "Undermine", "The War Within", "Normal", "[-1,-1]"},
             [237583] = {"Gurgling Skipper", "Harandar", "Midnight", "Normal", "[0,0]"},
@@ -10105,6 +10161,7 @@ ModelsData = {
             [256365] = {"Valeflow Skipper", "Harandar", "Midnight", "Normal", "[0,0]"}
         },
         [112413] = {
+            taming = {"Disturbed Earth"},
             [214801] = {"Skipper", "Nerub-ar Palace", "The War Within", "Normal", "[0,0]"},
             [214960] = {"Bubbling Mudskip", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [219843] = {"Terrace Skipper", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
@@ -10114,11 +10171,12 @@ ModelsData = {
             [226929] = {"Stonepool Skipper", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [227325] = {"Bubbling Mudskip", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [228465] = {"The Captain", "Undermine", "The War Within", "Normal", "[-1,-1]"},
-            [229812] = {"Warbling Mudskip", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229812] = {"Warbling Mudskip", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [237583] = {"Gurgling Skipper", "Harandar", "Midnight", "Normal", "[0,0]"},
             [250333] = {"Stream Skipper", "Harandar", "Midnight", "Normal", "[0,0]"}
         },
         [112414] = {
+            taming = {"Disturbed Earth"},
             [214801] = {"Skipper", "Nerub-ar Palace", "The War Within", "Normal", "[0,0]"},
             [214960] = {"Bubbling Mudskip", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [215790] = {"Grotto Skipper", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
@@ -10129,37 +10187,37 @@ ModelsData = {
             [226929] = {"Stonepool Skipper", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [227325] = {"Bubbling Mudskip", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [228465] = {"The Captain", "Undermine", "The War Within", "Normal", "[-1,-1]"},
-            [229812] = {"Warbling Mudskip", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229812] = {"Warbling Mudskip", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [237583] = {"Gurgling Skipper", "Harandar", "Midnight", "Normal", "[0,0]"},
             [250333] = {"Stream Skipper", "Harandar", "Midnight", "Normal", "[0,0]"}
         },
         [114829] = {
             [224789] = {"Juvenile Sandskipper", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [225933] = {"Glowshade Ambusher", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
-            [226625] = {"Cave Skipper", "Fungal Folly", "The War Within", "Normal", "[0,0]"},
+            [226625] = {"Cave Skipper", "Fungal Folly, Mycomancer Cavern, Nightfall Sanctum, Tak-Rethan Abyss, The Sinkhole", "The War Within", "Normal", "[0,0]"},
             [256227] = {"Tiny Cavern Skipper", "Harandar", "Midnight", "Normal", "[]"}
         },
         [114830] = {
             [217629] = {"Speckled Skipper", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [224789] = {"Juvenile Sandskipper", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
-            [226625] = {"Cave Skipper", "Fungal Folly", "The War Within", "Normal", "[0,0]"},
+            [226625] = {"Cave Skipper", "Fungal Folly, Mycomancer Cavern, Nightfall Sanctum, Tak-Rethan Abyss, The Sinkhole", "The War Within", "Normal", "[0,0]"},
             [256227] = {"Tiny Cavern Skipper", "Harandar", "Midnight", "Normal", "[]"}
         },
         [114831] = {
             [224789] = {"Juvenile Sandskipper", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
-            [226625] = {"Cave Skipper", "Fungal Folly", "The War Within", "Normal", "[0,0]"},
+            [226625] = {"Cave Skipper", "Fungal Folly, Mycomancer Cavern, Nightfall Sanctum, Tak-Rethan Abyss, The Sinkhole", "The War Within", "Normal", "[0,0]"},
             [230918] = {"Briny Skippling", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [256227] = {"Tiny Cavern Skipper", "Harandar", "Midnight", "Normal", "[]"}
         },
         [114832] = {
             [224789] = {"Juvenile Sandskipper", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
-            [226625] = {"Cave Skipper", "Fungal Folly", "The War Within", "Normal", "[0,0]"},
+            [226625] = {"Cave Skipper", "Fungal Folly, Mycomancer Cavern, Nightfall Sanctum, Tak-Rethan Abyss, The Sinkhole", "The War Within", "Normal", "[0,0]"},
             [230918] = {"Briny Skippling", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [256227] = {"Tiny Cavern Skipper", "Harandar", "Midnight", "Normal", "[]"}
         },
         [114833] = {
             [224789] = {"Juvenile Sandskipper", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
-            [226625] = {"Cave Skipper", "Fungal Folly", "The War Within", "Normal", "[0,0]"},
+            [226625] = {"Cave Skipper", "Fungal Folly, Mycomancer Cavern, Nightfall Sanctum, Tak-Rethan Abyss, The Sinkhole", "The War Within", "Normal", "[0,0]"},
             [230918] = {"Briny Skippling", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"},
             [256227] = {"Tiny Cavern Skipper", "Harandar", "Midnight", "Normal", "[]"}
         },
@@ -10411,6 +10469,7 @@ ModelsData = {
             [137152] = {"Company Watchdog", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [30211] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [37718] = {"Mountain Mastiff", "Gilneas", "Cataclysm", "Normal", "[-1,null]"},
             [41561] = {"Wary Mastiff", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
             [92956] = {"Attack Mastiff", "Stormheim", "Legion", "Normal", "[1,-1]"},
@@ -10422,6 +10481,7 @@ ModelsData = {
             [142016] = {"Newstead Hound", "Arathi Highlands", "Battle for Azeroth", "Normal", "[1,-1]"}
         },
         [30212] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [37718] = {"Mountain Mastiff", "Gilneas", "Cataclysm", "Normal", "[-1,null]"},
             [41561] = {"Wary Mastiff", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
             [58876] = {"Starving Hound", "Scarlet Halls", "Mists of Pandaria", "Elite", "[-1,-1]"},
@@ -10485,7 +10545,7 @@ ModelsData = {
             [8598] = {"Frenzied Plaguehound", "Eastern Plaguelands", "Vanilla", "Normal", "[-1,-1]"}
         },
         [37408] = {
-            [8597] = {"Plaguehound", "Eastern Plaguelands", "Vanilla", "Normal", "[-1,-1]"}
+            [8597] = {"Plaguehound", "Eastern Plaguelands, Plaguelands: The Scarlet Enclave", "Vanilla", "Normal", "[-1,-1]"}
         },
         [37409] = {
             [8596] = {"Plaguehound Runt", "Eastern Plaguelands", "Vanilla", "Normal", "[-1,-1]"}
@@ -10585,12 +10645,12 @@ ModelsData = {
         },
         [54243] = {
             taming = {"Undead"},
-            [94191] = {"Burning Terrorhound", "Broken Shore", "Legion", "Normal", "[0,0]"},
+            [94191] = {"Burning Terrorhound", "Broken Shore, Dalaran Sewers", "Legion", "Normal", "[0,0]"},
             [108611] = {"Vicious Felhunter", "The Oculus", "Legion", "Normal", "[-1,-1]"},
-            [113132] = {"Burning Terrorhound", "Broken Shore", "Legion", "Normal", "[0,0]"},
+            [113132] = {"Burning Terrorhound", "Broken Shore, Dalaran Sewers", "Legion", "Normal", "[0,0]"},
             [115601] = {"Infernal Hound", "Broken Shore", "Legion", "Normal", "[-1,-1]"},
             [118645] = {"Burning Terrorhound", "Assault on Broken Shore", "Legion", "Normal", "[0,0]"},
-            [125936] = {"Burning Hound", "Invasion Point: Naigtal", "Legion", "Normal", "[-1,-1]"},
+            [125936] = {"Burning Hound", "Greater Invasion Point: Matron Folnuna, Greater Invasion Point: Mistress Alluradel, Greater Invasion Point: Occularus, Greater Invasion Point: Pit Lord Vilemus, Invasion Point: Bonich, Invasion Point: Cen'gar, Invasion Point: Naigtal", "Legion", "Normal", "[-1,-1]"},
             [126072] = {"Felspawn Soulstalker", "Antoran Wastes", "Legion", "Normal", "[-1,-1]"}
         },
         [54244] = {
@@ -10630,14 +10690,14 @@ ModelsData = {
             [98069] = {"Mist Watchhound", "Stormheim", "Legion", "Normal", "[-1,-1]"},
             [101971] = {"Skeletal Misthound", "Highmountain", "Legion", "Normal", "[-1,-1]"},
             [105532] = {"Helhound", "Stormheim", "Legion", "Normal", "[-1,-1]"},
-            [115026] = {"Helhound", "Azsuna", "Legion", "Normal", "[-1,-1]"},
-            [138851] = {"Soul Hunter", "Crestfall", "Battle for Azeroth", "Rare", "[-1,-1]"}
+            [115026] = {"Helhound", "Azsuna, Stormheim", "Legion", "Normal", "[-1,-1]"},
+            [138851] = {"Soul Hunter", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [64471] = {
             taming = {"Undead"},
             [91847] = {"Risen Hound", "Val'sharah", "Legion", "Normal", "[-1,-1]"},
             [118754] = {"Risen Hound", "Val'sharah", "Legion", "Normal", "[-1,-1]"},
-            [138660] = {"Mist Hound", "Crestfall", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [138660] = {"Mist Hound", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [156214] = {"Fire Hound", "The Maw", "Shadowlands", "Normal", "[]"},
             [161390] = {"Darkhound Hunter", "Maldraxxus", "Shadowlands", "Normal", "[0,0]"}
         },
@@ -10649,7 +10709,7 @@ ModelsData = {
         [67530] = {
             taming = {"Undead"},
             [102191] = {"Dreadhound", "Azsuna", "Legion", "Normal", "[-1,-1]"},
-            [144731] = {"Forsaken Bonechewer", "Boralus", "Battle for Azeroth", "Normal", "[-1,1]"}
+            [144731] = {"Forsaken Bonechewer", "Boralus, Drustvar", "Battle for Azeroth", "Normal", "[-1,1]"}
         },
         [69811] = {
             [106660] = {"Fel Mongrel", "Suramar", "Legion", "Normal", "[-1,-1]"}
@@ -10688,7 +10748,7 @@ ModelsData = {
         },
         [86773] = {
             taming = {"Undead"},
-            [140560] = {"Blazeseeker", "Crestfall", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
+            [140560] = {"Blazeseeker", "Crestfall, Jorundall, Molten Cay, Skittering Hollow, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
         },
         [89658] = {
             taming = {"Undead"},
@@ -10707,12 +10767,12 @@ ModelsData = {
             [177328] = {"Rampaging Shadehound", "The Maw", "Shadowlands", "Normal", "[-1,-1]"}
         },
         [92628] = {
-            [152708] = {"Mawsworn Seeker", "Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"},
+            [152708] = {"Mawsworn Seeker", "Skoldus Hall, The Fracture Chambers, The Soulforges, The Upper Reaches, Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"},
             [160785] = {"Shadehound Spirithunter", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
             [166933] = {"Ventun the Ravenous", "Skoldus Hall", "Shadowlands", "Normal", "[-1,-1]"},
             [166934] = {"Lor the Loyal", "Skoldus Hall", "Shadowlands", "Normal", "[-1,-1]"},
             [168673] = {"Starving Shadehound", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
-            [170093] = {"Mawsworn Seeker", "Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"},
+            [170093] = {"Mawsworn Seeker", "Skoldus Hall, Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"},
             [175720] = {"Rune Hunter", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
             [178630] = {"Mawsworn Seeker", "Sanctum of Domination", "Shadowlands", "Elite", "[-1,-1]"},
             [183651] = {"Anima Seeker", "Zereth Mortis", "Shadowlands", "Normal", "[-1,-1]"}
@@ -10734,7 +10794,7 @@ ModelsData = {
             [168862] = {"Hulking Doomfang", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"}
         },
         [96893] = {
-            [174552] = {"Stitch", "Revendreth", "Shadowlands", "Normal", "[0,0]"}
+            [174552] = {"Stitch", "Ardenweald, Bastion, Maldraxxus, Revendreth", "Shadowlands", "Normal", "[0,0]"}
         },
         [96897] = {
             [169702] = {"Sutured Fleshfeaster", "Maldraxxus", "Shadowlands", "Normal", "[0,0]"},
@@ -10775,7 +10835,7 @@ ModelsData = {
             [192951] = {"Bankai", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [192952] = {"Edai", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [193208] = {"Scavenging Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [194786] = {"Cliffside Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [195221] = {"Grasslands Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [195753] = {"Bloodcrazed Warhound", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
@@ -10786,7 +10846,7 @@ ModelsData = {
         },
         [101602] = {
             [193208] = {"Scavenging Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [194290] = {"Feral Bakar", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [194786] = {"Cliffside Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [195221] = {"Grasslands Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
@@ -10795,7 +10855,7 @@ ModelsData = {
         },
         [101603] = {
             [193208] = {"Scavenging Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [194786] = {"Cliffside Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [195221] = {"Grasslands Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [203941] = {"Scavenging Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[]"}
@@ -10803,14 +10863,14 @@ ModelsData = {
         [101605] = {
             [193208] = {"Scavenging Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [193545] = {"Feral Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [196082] = {"Coastal Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [203941] = {"Scavenging Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[]"}
         },
         [101606] = {
             [193208] = {"Scavenging Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [193545] = {"Feral Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [194802] = {"Suntuft Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [203941] = {"Scavenging Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[]"},
             [212480] = {"Murkfur Bakar", "Amirdrassil", "Dragonflight", "Normal", "[0,null]"}
@@ -10819,7 +10879,7 @@ ModelsData = {
             [191565] = {"Nokhud Warhound", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [193208] = {"Scavenging Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [193545] = {"Feral Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [193882] = {"Elusive Feral Bakar", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [203941] = {"Scavenging Bakar", "Ohn'ahran Plains", "Dragonflight", "Normal", "[]"}
         },
         [101614] = {
@@ -10916,7 +10976,7 @@ ModelsData = {
             [117672] = {"Lord Skwol", "Silithus", "Legion", "Elite", "[-1,-1]"}
         },
         [1092] = {
-            [3652] = {"Trigore the Lasher", "Northern Barrens", "Vanilla", "Rare", "[-1,-1]"}
+            [3652] = {"Trigore the Lasher", "Northern Barrens, Wailing Caverns", "Vanilla", "Rare", "[-1,-1]"}
         },
         [1397] = {
             [3398] = {"Gesharahan", "Northern Barrens", "Vanilla", "Rare", "[-1,-1]"}
@@ -10994,8 +11054,8 @@ ModelsData = {
         },
         [55461] = {
             [85693] = {"Lernaea Vilescale", "Gorgrond", "Warlords of Draenor", "Normal", "[-1,-1]"},
-            [111383] = {"Lytheron Gloomscale", "Azsuna", "Legion", "Normal", "[-1,-1]"},
-            [112861] = {"Marsh Hydra", "Azsuna", "Legion", "Normal", "[-1,-1]"}
+            [111383] = {"Lytheron Gloomscale", "Azsuna, Val'sharah", "Legion", "Normal", "[-1,-1]"},
+            [112861] = {"Marsh Hydra", "Azsuna, Val'sharah", "Legion", "Normal", "[-1,-1]"}
         },
         [55485] = {
             taming = {"Florafaun"},
@@ -11071,7 +11131,7 @@ ModelsData = {
             [132068] = {"Bashmu", "Tiragarde Sound", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [55833] = {
-            [80559] = {"Echidnaean Monitor", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"}
+            [80559] = {"Echidnaean Monitor", "Shadowmoon Valley, Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [55931] = {
             taming = {"Florafaun"},
@@ -11140,7 +11200,7 @@ ModelsData = {
             [93010] = {"Ancient Matriarch", "Tanaan Jungle", "Warlords of Draenor", "Elite", "[0,0]"}
         },
         [67032] = {
-            [128710] = {"Shattered Hydra", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
+            [128710] = {"Shattered Hydra", "Boralus, Nazmir, Tiragarde Sound, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [76904] = {
             [129027] = {"Golanar", "Vol'dun", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
@@ -11179,32 +11239,32 @@ ModelsData = {
         },
         [126013] = {
             taming = {"Florafaun"},
-            [248577] = {"Rootbound Horror", "Harandar", "Midnight", "Normal", "[-1,-1]"},
+            [248577] = {"Rootbound Horror", "Harandar, Voidstorm", "Midnight", "Normal", "[-1,-1]"},
             [250324] = {"Rootcoil Hydra", "Harandar", "Midnight", "Normal", "[-1,-1]"}
         },
         [126014] = {
             taming = {"Florafaun"},
-            [248577] = {"Rootbound Horror", "Harandar", "Midnight", "Normal", "[-1,-1]"},
+            [248577] = {"Rootbound Horror", "Harandar, Voidstorm", "Midnight", "Normal", "[-1,-1]"},
             [252847] = {"Drooling Thornbloom", "Harandar", "Midnight", "Normal", "[-1,-1]"}
         },
         [126015] = {
             taming = {"Florafaun"},
-            [248577] = {"Rootbound Horror", "Harandar", "Midnight", "Normal", "[-1,-1]"},
+            [248577] = {"Rootbound Horror", "Harandar, Voidstorm", "Midnight", "Normal", "[-1,-1]"},
             [252847] = {"Drooling Thornbloom", "Harandar", "Midnight", "Normal", "[-1,-1]"}
         },
         [126016] = {
             taming = {"Florafaun"},
-            [248577] = {"Rootbound Horror", "Harandar", "Midnight", "Normal", "[-1,-1]"},
+            [248577] = {"Rootbound Horror", "Harandar, Voidstorm", "Midnight", "Normal", "[-1,-1]"},
             [250324] = {"Rootcoil Hydra", "Harandar", "Midnight", "Normal", "[-1,-1]"}
         },
         [126017] = {
             taming = {"Florafaun"},
-            [248577] = {"Rootbound Horror", "Harandar", "Midnight", "Normal", "[-1,-1]"},
+            [248577] = {"Rootbound Horror", "Harandar, Voidstorm", "Midnight", "Normal", "[-1,-1]"},
             [250324] = {"Rootcoil Hydra", "Harandar", "Midnight", "Normal", "[-1,-1]"}
         },
         [126018] = {
             taming = {"Florafaun"},
-            [248577] = {"Rootbound Horror", "Harandar", "Midnight", "Normal", "[-1,-1]"},
+            [248577] = {"Rootbound Horror", "Harandar, Voidstorm", "Midnight", "Normal", "[-1,-1]"},
             [252847] = {"Drooling Thornbloom", "Harandar", "Midnight", "Normal", "[-1,-1]"}
         },
         [126026] = {
@@ -11296,7 +11356,7 @@ ModelsData = {
             [162381] = {"Rabid Hyena", "Uldum", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [2712] = {
-            [12418] = {"Gordok Hyena", "Dire Maul", "Vanilla", "Normal", "[-1,-1]"}
+            [12418] = {"Gordok Hyena", "Dire Maul, Feralas", "Vanilla", "Normal", "[-1,-1]"}
         },
         [2714] = {
             [5985] = {"Snickerfang Hyena", "Blasted Lands", "Vanilla", "Normal", "[-1,-1]"},
@@ -11473,6 +11533,7 @@ ModelsData = {
             [59788] = {"Spirit Darter", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [19728] = {
+            taming = {"Lesser Dragonkin"},
             [20713] = {"Fey Drake", "Blade's Edge Mountains", "The Burning Crusade", "Normal", "[0,0]"}
         },
         [39492] = {
@@ -11520,28 +11581,31 @@ ModelsData = {
         },
         [42426] = {
             taming = {"Cloud Serpent"},
-            [138971] = {"Zian-Ti Serpent", "Crestfall", "Battle for Azeroth", "Normal", "[-1,-1]"}
+            [138971] = {"Zian-Ti Serpent", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [42437] = {
             taming = {"Cloud Serpent"},
             [63895] = {"Shan'ze Cloudrider", "Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [42438] = {
+            taming = {"Cloud Serpent"},
             [62309] = {"Hei Feng", "Townlong Steppes", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [42496] = {
             taming = {"Cloud Serpent"},
             [62448] = {"Onyx Stormclaw", "Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"},
-            [69580] = {"Onyx Stormclaw", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [69580] = {"Onyx Stormclaw", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [42532] = {
             taming = {"Cloud Serpent"},
             [62442] = {"Tsulong", "Terrace of Endless Spring", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [42567] = {
+            taming = {"Cloud Serpent"},
             [62599] = {"Wild Cloudrunner", "Townlong Steppes", "Mists of Pandaria", "Normal", "[1,-1]"}
         },
         [43586] = {
+            taming = {"Cloud Serpent"},
             [64403] = {"Alani", "Vale of Eternal Blossoms", "Mists of Pandaria", "Elite", "[-1,-1]"},
             [163386] = {"Alani", "Vale of Eternal Blossoms", "Battle for Azeroth", "Elite", "[-1,-1]"}
         },
@@ -11550,15 +11614,19 @@ ModelsData = {
             [64965] = {"Milau", "Vale of Eternal Blossoms", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [44278] = {
+            taming = {"Cloud Serpent"},
             [65559] = {"Vision of Zhao-Ren", "The Wandering Isle", "Mists of Pandaria", "Elite", "[]"}
         },
         [44619] = {
+            taming = {"Cloud Serpent"},
             [58575] = {"Golden Cloud Serpent", "The Jade Forest", "Mists of Pandaria", "Normal", "[]"}
         },
         [44622] = {
+            taming = {"Cloud Serpent"},
             [58581] = {"Azure Cloud Serpent", "The Jade Forest", "Mists of Pandaria", "Normal", "[]"}
         },
         [44623] = {
+            taming = {"Cloud Serpent"},
             [58582] = {"Jade Cloud Serpent", "The Jade Forest", "Mists of Pandaria", "Normal", "[]"}
         },
         [47227] = {
@@ -11575,22 +11643,23 @@ ModelsData = {
             [73167] = {"Huolon", "Timeless Isle", "Mists of Pandaria", "Rare Elite", "[-1,-1]"}
         },
         [71624] = {
+            taming = {"Cloud Serpent"},
             [110675] = {"Thunder Serpent Nalak'Ra", "Vale of Eternal Blossoms", "Legion", "Normal", "[-1,-1]"}
         },
         [86286] = {
             taming = {"Cloud Serpent"},
-            [138972] = {"Zian-Ti Cloudbreaker", "Verdant Wilds", "Battle for Azeroth", "Elite", "[-1,-1]"}
+            [138972] = {"Zian-Ti Cloudbreaker", "Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Elite", "[-1,-1]"}
         },
         [86315] = {
             taming = {"Cloud Serpent"},
-            [139486] = {"Skycrack", "Crestfall", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
+            [139486] = {"Skycrack", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
         },
         [91729] = {
-            taming = {"Cloud Serpent"},
+            taming = {"Cloud Serpent","N'lyeth, Sliver of N'Zoth"},
             [163042] = {"Ivory Cloud Serpent", "Vale of Eternal Blossoms", "Battle for Azeroth", "Elite", "[1,1]"}
         },
         [92139] = {
-            taming = {"Cloud Serpent"},
+            taming = {"Cloud Serpent","N'lyeth, Sliver of N'Zoth"},
             [154761] = {"Rajani Warserpent", "Vale of Eternal Blossoms", "Battle for Azeroth", "Elite", "[1,1]"},
             [156389] = {"Rajani Warserpent", "Vale of Eternal Blossoms", "Battle for Azeroth", "Elite", "[1,1]"}
         },
@@ -11622,51 +11691,52 @@ ModelsData = {
             [167442] = {"Fledgeling Mistfeather", "Ardenweald", "Shadowlands", "Normal", "[0,0]"}
         },
         [102557] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [102558] = {
             taming = {"Lesser Dragonkin"},
             [189026] = {"Nibbling Hornswog", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [189314] = {"Encroaching Hornswog", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [191561] = {"Cascade Swog", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
         },
         [102559] = {
             taming = {"Lesser Dragonkin"},
             [187324] = {"Time-Charged Hornswog", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191561] = {"Cascade Swog", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [192374] = {"Mountain Boghopper", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [196571] = {"Reservoir Spadefoot", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
+            [192374] = {"Mountain Boghopper", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[0,0]"},
+            [196571] = {"Reservoir Spadefoot", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[0,0]"},
             [198419] = {"Cliffside Bullyswog", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
         },
         [102560] = {
             taming = {"Lesser Dragonkin"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [189570] = {"Garden Bullswog", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [191561] = {"Cascade Swog", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [192374] = {"Mountain Boghopper", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [196571] = {"Reservoir Spadefoot", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
+            [192374] = {"Mountain Boghopper", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[0,0]"},
+            [196571] = {"Reservoir Spadefoot", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[0,0]"}
         },
         [102561] = {
             taming = {"Lesser Dragonkin"},
             [181831] = {"Invasive Hornswog", "The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"},
             [181833] = {"Shimmermaw", "The Forbidden Reach", "Dragonflight", "Rare", "[-1,-1]"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [189570] = {"Garden Bullswog", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [200275] = {"Invasive Hornswog", "The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [102562] = {
             taming = {"Lesser Dragonkin"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191618] = {"River Hornswog", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [191880] = {"Lounging Hornswog", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [192374] = {"Mountain Boghopper", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
+            [192374] = {"Mountain Boghopper", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[0,0]"},
             [198419] = {"Cliffside Bullyswog", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
         },
         [103563] = {
             taming = {"Lesser Dragonkin"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191005] = {"Hornswog Matriarch", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191619] = {"Mature Hornswog", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
         },
@@ -11674,15 +11744,15 @@ ModelsData = {
             taming = {"Lesser Dragonkin"},
             [186834] = {"Stubborn Hornswog", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [187140] = {"Cantankerous Hornswog", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191479] = {"Charred Hornspike", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [196398] = {"Blind Hornspike", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [103580] = {
             taming = {"Lesser Dragonkin"},
-            [185642] = {"Hungry Swoglet", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [185642] = {"Hungry Swoglet", "Ohn'ahran Plains, Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
             [187652] = {"Skitterfly Gulper", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [190783] = {"Rapid Leaper", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191563] = {"Swoglet", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [191620] = {"River Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
@@ -11692,7 +11762,7 @@ ModelsData = {
             [184867] = {"Fussy Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [186828] = {"Hornswog", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [188043] = {"Bloatbelly Croaker", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191060] = {"Fussy Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191563] = {"Swoglet", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [191604] = {"Brackish Hornswog", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
@@ -11701,12 +11771,12 @@ ModelsData = {
         [103584] = {
             taming = {"Lesser Dragonkin"},
             [187111] = {"Ancient Hornswog", "The Waking Shores", "Dragonflight", "Rare", "[-1,-1]"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192430] = {"Spiked Matriarch", "The Waking Shores", "Dragonflight", "Elite", "[-1,-1]"}
         },
         [103585] = {
             taming = {"Lesser Dragonkin"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191606] = {"Gargantuan Hornswog", "Ohn'ahran Plains", "Dragonflight", "Elite", "[0,0]"},
             [191621] = {"Elder Hornswog", "The Waking Shores", "Dragonflight", "Elite", "[-1,-1]"}
         },
@@ -11719,144 +11789,178 @@ ModelsData = {
             [199548] = {"Cave Faerie", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [106894] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [107557] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [107858] = {
             taming = {"Lesser Dragonkin"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191563] = {"Swoglet", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
         },
         [107977] = {
             taming = {"Lesser Dragonkin"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191563] = {"Swoglet", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [192441] = {"Invasive Swoglet", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"},
             [193521] = {"Shy Croaklet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [108215] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [108296] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [108297] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [108800] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [108957] = {
             taming = {"Lesser Dragonkin"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191563] = {"Swoglet", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [195712] = {"Mossy Hornswog", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"}
         },
         [108983] = {
             taming = {"Lesser Dragonkin"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [195762] = {"Mossy Gulper", "Ohn'ahran Plains", "Dragonflight", "Elite", "[0,0]"}
         },
         [109044] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [109051] = {
             taming = {"Lesser Dragonkin"},
             [185715] = {"Insatiable Hornswog", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [109107] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [109264] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [109641] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [109965] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [109966] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [109967] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [109968] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [109969] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [109970] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [109979] = {
             taming = {"Lesser Dragonkin"},
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [191563] = {"Swoglet", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [200276] = {"Invasive Swoglet", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"}
         },
         [109982] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110479] = {
             taming = {"Lesser Dragonkin"},
             [5912] = {"Deviate Faerie Dragon", "Wailing Caverns", "Vanilla", "Rare Elite", "[-1,-1]"}
         },
         [110521] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110522] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110523] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110524] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110525] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110526] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110527] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110528] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110529] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110530] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110531] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110532] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110533] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110534] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110535] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [110536] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [111255] = {
-            [189104] = {"Swoglet", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
+            taming = {"Lesser Dragonkin"},
+            [189104] = {"Swoglet", "Ohn'ahran Plains, Thaldraszus, The Azure Span, The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [114571] = {
             taming = {"Lesser Dragonkin"},
@@ -11895,11 +11999,13 @@ ModelsData = {
             [113041] = {"Infected Diemetradon", "The Emerald Nightmare", "Legion", "Elite", "[-1,-1]"}
         },
         [76834] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [123098] = {"Venomous Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [144496] = {"Venomous Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [145457] = {"Venomous Diemetradon", "Boralus", "Battle for Azeroth", "Normal", "[-1,1]"}
         },
         [76835] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [13323] = {"Subterranean Diemetradon", "Maraudon", "Vanilla", "Elite", "[-1,-1]"},
             [123098] = {"Venomous Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [135510] = {"Azuresail the Ancient", "Zuldazar", "Battle for Azeroth", "Elite", "[-1,-1]"},
@@ -11909,20 +12015,20 @@ ModelsData = {
         [76836] = {
             [126562] = {"Irritable Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [126722] = {"Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [130753] = {"Vicious Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [130756] = {"Vicious Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [130753] = {"Vicious Diemetradon", "Dazar'alor, Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [130756] = {"Vicious Diemetradon", "Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [149262] = {"Irritable Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,null]"}
         },
         [76837] = {
             [126562] = {"Irritable Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [126722] = {"Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [130753] = {"Vicious Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [130756] = {"Vicious Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [130753] = {"Vicious Diemetradon", "Dazar'alor, Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [130756] = {"Vicious Diemetradon", "Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [149262] = {"Irritable Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,null]"}
         },
         [76838] = {
-            [130753] = {"Vicious Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [130756] = {"Vicious Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
+            [130753] = {"Vicious Diemetradon", "Dazar'alor, Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [130756] = {"Vicious Diemetradon", "Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [76839] = {
             [126722] = {"Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
@@ -11943,8 +12049,8 @@ ModelsData = {
         [76844] = {
             [9162] = {"Young Diemetradon", "Un'Goro Crater", "Vanilla", "Normal", "[-1,-1]"},
             [126722] = {"Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [130753] = {"Vicious Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [130756] = {"Vicious Diemetradon", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
+            [130753] = {"Vicious Diemetradon", "Dazar'alor, Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [130756] = {"Vicious Diemetradon", "Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [77464] = {
             [123868] = {"Lichenjaw Saurolisk", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
@@ -11987,8 +12093,8 @@ ModelsData = {
             [151998] = {"Saurolisk Bonenipper", "Mechagon", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [77489] = {
-            [123647] = {"Saurolisk", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [123714] = {"Hillborn Saurolisk", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [123647] = {"Saurolisk", "Nazmir, Vol'dun", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [123714] = {"Hillborn Saurolisk", "Boralus, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [124300] = {"Saurolisk Patriarch", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [127132] = {"Infected Saurolisk", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [127854] = {"Hardtongue Ambusher", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
@@ -11998,7 +12104,7 @@ ModelsData = {
             [151998] = {"Saurolisk Bonenipper", "Mechagon", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [77491] = {
-            [123647] = {"Saurolisk", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [123647] = {"Saurolisk", "Nazmir, Vol'dun", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [124300] = {"Saurolisk Patriarch", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [124301] = {"Saurolisk Matriarch", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [133862] = {"Horned Leguaan", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
@@ -12089,14 +12195,14 @@ ModelsData = {
         },
         [86800] = {
             [123135] = {"Wild Sabertusk", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [130489] = {"Dazarian Stalker", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [130489] = {"Dazarian Stalker", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [130774] = {"Dazarian Stalker", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [132022] = {"Wild Sabertusk", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [140664] = {"Southern Sabertusk", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [86801] = {
             [129337] = {"Sabertusk", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [130489] = {"Dazarian Stalker", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [130489] = {"Dazarian Stalker", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [130774] = {"Dazarian Stalker", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [137829] = {"Dazarian Stalker", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
@@ -12153,39 +12259,47 @@ ModelsData = {
             [124301] = {"Saurolisk Matriarch", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [103357] = {
-            [193873] = {"Elusive Snapdragon", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            taming = {"Elusive Creature Bait"},
+            [193873] = {"Elusive Snapdragon", "The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [257830] = {"Deeplurk Snapdragon", "Ritual Site: Daggerspine Point (Scenario)", "Midnight", "Normal", "[]"}
         },
         [103358] = {
-            [193873] = {"Elusive Snapdragon", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            taming = {"Elusive Creature Bait"},
+            [193873] = {"Elusive Snapdragon", "The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [244048] = {"Trained Snapdragon", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"},
             [247553] = {"Daggerspine Snapdragon", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"},
             [257830] = {"Deeplurk Snapdragon", "Ritual Site: Daggerspine Point (Scenario)", "Midnight", "Normal", "[]"}
         },
         [103359] = {
-            [193873] = {"Elusive Snapdragon", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            taming = {"Elusive Creature Bait"},
+            [193873] = {"Elusive Snapdragon", "The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [257830] = {"Deeplurk Snapdragon", "Ritual Site: Daggerspine Point (Scenario)", "Midnight", "Normal", "[]"},
             [262321] = {"Depthstalker Snapdragon", "Ritual Site: Daggerspine Point (Scenario)", "Midnight", "Elite", "[]"}
         },
         [103360] = {
-            [193873] = {"Elusive Snapdragon", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            taming = {"Elusive Creature Bait"},
+            [193873] = {"Elusive Snapdragon", "The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [257830] = {"Deeplurk Snapdragon", "Ritual Site: Daggerspine Point (Scenario)", "Midnight", "Normal", "[]"}
         },
         [103361] = {
-            [193873] = {"Elusive Snapdragon", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            taming = {"Elusive Creature Bait"},
+            [193873] = {"Elusive Snapdragon", "The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [244048] = {"Trained Snapdragon", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"},
             [257830] = {"Deeplurk Snapdragon", "Ritual Site: Daggerspine Point (Scenario)", "Midnight", "Normal", "[]"}
         },
         [103362] = {
-            [193873] = {"Elusive Snapdragon", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            taming = {"Elusive Creature Bait"},
+            [193873] = {"Elusive Snapdragon", "The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [257830] = {"Deeplurk Snapdragon", "Ritual Site: Daggerspine Point (Scenario)", "Midnight", "Normal", "[]"}
         },
         [103363] = {
-            [193873] = {"Elusive Snapdragon", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            taming = {"Elusive Creature Bait"},
+            [193873] = {"Elusive Snapdragon", "The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [257830] = {"Deeplurk Snapdragon", "Ritual Site: Daggerspine Point (Scenario)", "Midnight", "Normal", "[]"}
         },
         [103364] = {
-            [193873] = {"Elusive Snapdragon", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            taming = {"Elusive Creature Bait"},
+            [193873] = {"Elusive Snapdragon", "The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [229856] = {"Coralclaw Ravager", "Siren Isle", "The War Within", "Normal", "[-1,-1]"},
             [244048] = {"Trained Snapdragon", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"},
             [247553] = {"Daggerspine Snapdragon", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"},
@@ -12250,33 +12364,33 @@ ModelsData = {
             [211165] = {"Webbed Kelpchomper", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"}
         },
         [103570] = {
-            [186701] = {"Summoned Scalebiter", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [186701] = {"Summoned Scalebiter", "Ohn'ahran Plains, Zaralek Cavern, Zul'Aman", "Dragonflight", "Normal", "[-1,-1]"},
             [190242] = {"Slippery Salamanther", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [198376] = {"Bitey Hatchling", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [198376] = {"Bitey Hatchling", "Ohn'ahran Plains, Thaldraszus, The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [251394] = {"Hungry Scalebiter", "Zul'Aman", "Midnight", "Normal", "[-1,-1]"}
         },
         [103571] = {
-            [186701] = {"Summoned Scalebiter", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [186701] = {"Summoned Scalebiter", "Ohn'ahran Plains, Zaralek Cavern, Zul'Aman", "Dragonflight", "Normal", "[-1,-1]"},
             [190242] = {"Slippery Salamanther", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [198376] = {"Bitey Hatchling", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [198376] = {"Bitey Hatchling", "Ohn'ahran Plains, Thaldraszus, The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [251394] = {"Hungry Scalebiter", "Zul'Aman", "Midnight", "Normal", "[-1,-1]"}
         },
         [103572] = {
-            [186701] = {"Summoned Scalebiter", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [186701] = {"Summoned Scalebiter", "Ohn'ahran Plains, Zaralek Cavern, Zul'Aman", "Dragonflight", "Normal", "[-1,-1]"},
             [190242] = {"Slippery Salamanther", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [198376] = {"Bitey Hatchling", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [198376] = {"Bitey Hatchling", "Ohn'ahran Plains, Thaldraszus, The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [251394] = {"Hungry Scalebiter", "Zul'Aman", "Midnight", "Normal", "[-1,-1]"}
         },
         [103573] = {
-            [186701] = {"Summoned Scalebiter", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [186701] = {"Summoned Scalebiter", "Ohn'ahran Plains, Zaralek Cavern, Zul'Aman", "Dragonflight", "Normal", "[-1,-1]"},
             [190242] = {"Slippery Salamanther", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [198376] = {"Bitey Hatchling", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [198376] = {"Bitey Hatchling", "Ohn'ahran Plains, Thaldraszus, The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [251394] = {"Hungry Scalebiter", "Zul'Aman", "Midnight", "Normal", "[-1,-1]"}
         },
         [103574] = {
-            [186701] = {"Summoned Scalebiter", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [186701] = {"Summoned Scalebiter", "Ohn'ahran Plains, Zaralek Cavern, Zul'Aman", "Dragonflight", "Normal", "[-1,-1]"},
             [190242] = {"Slippery Salamanther", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [198376] = {"Bitey Hatchling", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [198376] = {"Bitey Hatchling", "Ohn'ahran Plains, Thaldraszus, The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [251394] = {"Hungry Scalebiter", "Zul'Aman", "Midnight", "Normal", "[-1,-1]"}
         },
         [104625] = {
@@ -12300,36 +12414,40 @@ ModelsData = {
             [193700] = {"Squelchy Salamanther", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
         },
         [104630] = {
+            taming = {"Elusive Creature Bait"},
             [186705] = {"Geyser Salamanther", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [191653] = {"Coastal Salamanther", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
-            [193854] = {"Elusive Salamanther", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [193854] = {"Elusive Salamanther", "Emerald Dream, Ohn'ahran Plains, Thaldraszus, The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [211003] = {"Coldscale Salamanther", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [214835] = {"Stillpond Tidewader", "Hallowfall", "The War Within", "Normal", "[0,0]"},
             [217720] = {"Drooling Salamuncher", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [225919] = {"Thieving Salamanther", "Hallowfall", "The War Within", "Normal", "[-1,-1]"}
         },
         [104631] = {
+            taming = {"Elusive Creature Bait"},
             [186705] = {"Geyser Salamanther", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [191653] = {"Coastal Salamanther", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
-            [193854] = {"Elusive Salamanther", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [193854] = {"Elusive Salamanther", "Emerald Dream, Ohn'ahran Plains, Thaldraszus, The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [214835] = {"Stillpond Tidewader", "Hallowfall", "The War Within", "Normal", "[0,0]"},
             [224464] = {"Venomous Salamanther", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [229067] = {"Coastal Foulbiter", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [229068] = {"Coastal Foulbiter", "Hallowfall", "The War Within", "Normal", "[-1,-1]"}
         },
         [104632] = {
+            taming = {"Elusive Creature Bait"},
             [191653] = {"Coastal Salamanther", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
-            [193854] = {"Elusive Salamanther", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [193854] = {"Elusive Salamanther", "Emerald Dream, Ohn'ahran Plains, Thaldraszus, The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [214835] = {"Stillpond Tidewader", "Hallowfall", "The War Within", "Normal", "[0,0]"},
             [224464] = {"Venomous Salamanther", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [229067] = {"Coastal Foulbiter", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [229068] = {"Coastal Foulbiter", "Hallowfall", "The War Within", "Normal", "[-1,-1]"}
         },
         [104633] = {
+            taming = {"Elusive Creature Bait"},
             [191653] = {"Coastal Salamanther", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
-            [193854] = {"Elusive Salamanther", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [193854] = {"Elusive Salamanther", "Emerald Dream, Ohn'ahran Plains, Thaldraszus, The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [205079] = {"Crystal Snapper", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
-            [210478] = {"Infected Beast", "Fungal Folly", "The War Within", "Normal", "[-1,-1]"},
+            [210478] = {"Infected Beast", "Fungal Folly, Mycomancer Cavern, The Spiral Weave, The Waterworks", "The War Within", "Normal", "[-1,-1]"},
             [214835] = {"Stillpond Tidewader", "Hallowfall", "The War Within", "Normal", "[0,0]"},
             [217720] = {"Drooling Salamuncher", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [225919] = {"Thieving Salamanther", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
@@ -12337,11 +12455,12 @@ ModelsData = {
             [226112] = {"Highland Salamanther", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [227608] = {"Undersea Salamanther", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [228823] = {"Undersea Salamanther", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
-            [251593] = {"Infected Beast", "Harandar", "Midnight", "Normal", "[]"}
+            [251593] = {"Infected Beast", "Harandar, The Grudge Pit (Delve)", "Midnight", "Normal", "[]"}
         },
         [104634] = {
+            taming = {"Elusive Creature Bait"},
             [191653] = {"Coastal Salamanther", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
-            [193854] = {"Elusive Salamanther", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [193854] = {"Elusive Salamanther", "Emerald Dream, Ohn'ahran Plains, Thaldraszus, The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [205079] = {"Crystal Snapper", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [205223] = {"Leatherscale Salamander", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [214835] = {"Stillpond Tidewader", "Hallowfall", "The War Within", "Normal", "[0,0]"},
@@ -12577,11 +12696,11 @@ ModelsData = {
             [77212] = {"Pearltusk Bull", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,null]"}
         },
         [54464] = {
-            [80997] = {"Elekk", "Talador", "Warlords of Draenor", "Normal", "[1,-1]"},
+            [80997] = {"Elekk", "Shadowmoon Valley, Talador", "Warlords of Draenor", "Normal", "[1,-1]"},
             [81745] = {"Elekk", "Talador", "Warlords of Draenor", "Normal", "[1,-1]"}
         },
         [54465] = {
-            [80997] = {"Elekk", "Talador", "Warlords of Draenor", "Normal", "[1,-1]"},
+            [80997] = {"Elekk", "Shadowmoon Valley, Talador", "Warlords of Draenor", "Normal", "[1,-1]"},
             [81745] = {"Elekk", "Talador", "Warlords of Draenor", "Normal", "[1,-1]"}
         },
         [54467] = {
@@ -12597,7 +12716,7 @@ ModelsData = {
         },
         [54486] = {
             [73960] = {"Elekk", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[1,-1]"},
-            [80997] = {"Elekk", "Talador", "Warlords of Draenor", "Normal", "[1,-1]"},
+            [80997] = {"Elekk", "Shadowmoon Valley, Talador", "Warlords of Draenor", "Normal", "[1,-1]"},
             [81083] = {"Elekk Grazer", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[1,-1]"},
             [81084] = {"Elekk", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[1,-1]"},
             [81745] = {"Elekk", "Talador", "Warlords of Draenor", "Normal", "[1,-1]"}
@@ -12655,7 +12774,7 @@ ModelsData = {
             [76624] = {"Vicious Longtusk", "Frostfire Ridge", "Warlords of Draenor", "Elite", "[null,-1]"}
         },
         [61586] = {
-            [89244] = {"Ironhoof Trampler", "Frostwall", "Warlords of Draenor", "Elite", "[-1,-1]"}
+            [89244] = {"Ironhoof Trampler", "Frostwall, Lunarfall", "Warlords of Draenor", "Elite", "[-1,-1]"}
         },
         [100219] = {
             [242168] = {"Jubilant Calf", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
@@ -12689,28 +12808,34 @@ ModelsData = {
             [253098] = {"Tamed Mammoth", "Zul'Aman", "Midnight", "Normal", "[]"}
         },
         [102596] = {
+            taming = {"Elusive Creature Bait"},
             [191678] = {"Magmammoth Crusher", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
-            [193861] = {"Elusive Magmammoth", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
+            [193861] = {"Elusive Magmammoth", "The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [102597] = {
+            taming = {"Elusive Creature Bait"},
             [191678] = {"Magmammoth Crusher", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
-            [193861] = {"Elusive Magmammoth", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
+            [193861] = {"Elusive Magmammoth", "The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [102598] = {
+            taming = {"Elusive Creature Bait"},
             [191678] = {"Magmammoth Crusher", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
-            [193861] = {"Elusive Magmammoth", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
+            [193861] = {"Elusive Magmammoth", "The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [102599] = {
+            taming = {"Elusive Creature Bait"},
             [191678] = {"Magmammoth Crusher", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
-            [193861] = {"Elusive Magmammoth", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
+            [193861] = {"Elusive Magmammoth", "The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [102600] = {
+            taming = {"Elusive Creature Bait"},
             [191678] = {"Magmammoth Crusher", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
-            [193861] = {"Elusive Magmammoth", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
+            [193861] = {"Elusive Magmammoth", "The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [102601] = {
+            taming = {"Elusive Creature Bait"},
             [191678] = {"Magmammoth Crusher", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
-            [193861] = {"Elusive Magmammoth", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
+            [193861] = {"Elusive Magmammoth", "The Waking Shores, Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [102602] = {
             [186728] = {"Magmammoth Bull", "The Waking Shores", "Dragonflight", "Elite", "[-1,-1]"},
@@ -13097,7 +13222,7 @@ ModelsData = {
             [63725] = {"Bonedust Moth", "Dread Wastes", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [19771] = {
-            [20611] = {"Shimmerwing Moth", "Netherstorm", "The Burning Crusade", "Normal", "[0,0]"}
+            [20611] = {"Shimmerwing Moth", "Gorgrond, Netherstorm", "The Burning Crusade", "Normal", "[0,0]"}
         },
         [19999] = {
             [56172] = {"Ash Moth", "The Wandering Isle", "Mists of Pandaria", "Normal", "[]"},
@@ -13122,8 +13247,8 @@ ModelsData = {
             [57232] = {"Dappled Moth", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [37566] = {
-            [16520] = {"Vale Moth", "Azuremyst Isle", "The Burning Crusade", "Normal", "[0,0]"},
-            [66319] = {"Fear-Touched Moth", "Townlong Steppes", "Mists of Pandaria", "Normal", "[0,0]"}
+            [16520] = {"Vale Moth", "Ammen Vale, Azuremyst Isle", "The Burning Crusade", "Normal", "[0,0]"},
+            [66319] = {"Fear-Touched Moth", "Dread Wastes, Townlong Steppes", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [42343] = {
             [56172] = {"Ash Moth", "The Wandering Isle", "Mists of Pandaria", "Normal", "[]"}
@@ -13247,14 +13372,14 @@ ModelsData = {
             [174248] = {"Ardenmoth", "Ardenweald", "Shadowlands", "Normal", "[0,0]"}
         },
         [95199] = {
-            [155483] = {"Faeleaf Shimmerwing", "Torghast, Tower of the Damned", "Shadowlands", "Rare Elite", "[-1,-1]"},
+            [155483] = {"Faeleaf Shimmerwing", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Adamant Vaults, The Fracture Chambers, The Soulforges, The Upper Reaches, Torghast, Tower of the Damned", "Shadowlands", "Rare Elite", "[-1,-1]"},
             [166019] = {"Shimmermoth", "Ardenweald", "Shadowlands", "Normal", "[0,0]"},
             [169798] = {"Illusory Ardenmoth", "Ardenweald", "Shadowlands", "Normal", "[0,0]"},
             [170526] = {"Silky Ardenmoth", "Ardenweald", "Shadowlands", "Normal", "[0,0]"},
             [170859] = {"Silentwing Ardenmoth", "Ardenweald", "Shadowlands", "Normal", "[0,0]"},
             [174248] = {"Ardenmoth", "Ardenweald", "Shadowlands", "Normal", "[0,0]"},
             [174713] = {"Twilight Glitterwing", "Ardenweald", "Shadowlands", "Normal", "[0,0]"},
-            [185114] = {"Faeleaf Shimmerwing", "Skoldus Hall", "Shadowlands", "Rare Elite", "[-1,-1]"}
+            [185114] = {"Faeleaf Shimmerwing", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Adamant Vaults, The Soulforges, The Upper Reaches", "Shadowlands", "Rare Elite", "[-1,-1]"}
         },
         [95200] = {
             [168306] = {"Territorial Shimmermoth", "Ardenweald", "Shadowlands", "Normal", "[-1,-1]"},
@@ -13473,7 +13598,7 @@ ModelsData = {
             [227205] = {"Young Jeweled Flutterwing", "Isle of Dorn", "The War Within", "Normal", "[0,0]"}
         },
         [114791] = {
-            [221519] = {"Fluttering Sapphire", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
+            [221519] = {"Fluttering Sapphire", "Dornogal, Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [227205] = {"Young Jeweled Flutterwing", "Isle of Dorn", "The War Within", "Normal", "[0,0]"}
         },
         [114792] = {
@@ -13483,7 +13608,7 @@ ModelsData = {
             [227205] = {"Young Jeweled Flutterwing", "Isle of Dorn", "The War Within", "Normal", "[0,0]"}
         },
         [114794] = {
-            [221519] = {"Fluttering Sapphire", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
+            [221519] = {"Fluttering Sapphire", "Dornogal, Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [227205] = {"Young Jeweled Flutterwing", "Isle of Dorn", "The War Within", "Normal", "[0,0]"}
         },
         [114795] = {
@@ -13558,13 +13683,13 @@ ModelsData = {
             [66595] = {"Wasteland Calf", "Dread Wastes", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [40694] = {
-            [58415] = {"Mountain Yak", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
+            [58415] = {"Mountain Yak", "Kun-Lai Summit, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
             [59319] = {"Escaped Yak", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[0,0]"},
             [59339] = {"Terrified Yak", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[0,0]"},
             [59367] = {"Hijacked Yak", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [40695] = {
-            [58415] = {"Mountain Yak", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
+            [58415] = {"Mountain Yak", "Kun-Lai Summit, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
             [59319] = {"Escaped Yak", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[0,0]"},
             [59339] = {"Terrified Yak", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[0,0]"},
             [59367] = {"Hijacked Yak", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[-1,-1]"}
@@ -13574,11 +13699,11 @@ ModelsData = {
             [59367] = {"Hijacked Yak", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [41672] = {
-            [58415] = {"Mountain Yak", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
+            [58415] = {"Mountain Yak", "Kun-Lai Summit, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
             [65773] = {"Ordo Yak", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [41673] = {
-            [58415] = {"Mountain Yak", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"}
+            [58415] = {"Mountain Yak", "Kun-Lai Summit, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [41674] = {
             [60860] = {"Young Mountain Yak", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[0,0]"}
@@ -13754,7 +13879,7 @@ ModelsData = {
         [47548] = {
             taming = {"Exotic"},
             [69162] = {"Juvenile Skyscreamer", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
-            [69207] = {"Young Skyscreamer", "Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"}
+            [69207] = {"Young Skyscreamer", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [47565] = {
             taming = {"Exotic"},
@@ -13778,32 +13903,32 @@ ModelsData = {
         },
         [48084] = {
             taming = {"Exotic"},
-            [70120] = {"Pterrorwing", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [70120] = {"Pterrorwing", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [70494] = {"Pterrorwing", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [88208] = {"Pit Beast", "Nagrand", "Warlords of Draenor", "Rare", "[-1,-1]"}
         },
         [48085] = {
             taming = {"Exotic"},
-            [70120] = {"Pterrorwing", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [70120] = {"Pterrorwing", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [70494] = {"Pterrorwing", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [48086] = {
             taming = {"Exotic"},
-            [70120] = {"Pterrorwing", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [70120] = {"Pterrorwing", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [70494] = {"Pterrorwing", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [48128] = {
             taming = {"Exotic"},
-            [70558] = {"Young Pterrorwing", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [70558] = {"Young Pterrorwing", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [73223] = {"Pterrordax", "Siege of Orgrimmar", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [48129] = {
             taming = {"Exotic"},
-            [70558] = {"Young Pterrorwing", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [70558] = {"Young Pterrorwing", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [48130] = {
             taming = {"Exotic"},
-            [70558] = {"Young Pterrorwing", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [70558] = {"Young Pterrorwing", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [73223] = {"Pterrordax", "Siege of Orgrimmar", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [51183] = {
@@ -13886,7 +14011,7 @@ ModelsData = {
         },
         [77967] = {
             taming = {"Exotic"},
-            [120593] = {"Nazmani Skyterror", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [120593] = {"Nazmani Skyterror", "Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [126702] = {"Primal Skyterror", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [78372] = {
@@ -13896,7 +14021,7 @@ ModelsData = {
         },
         [79547] = {
             taming = {"Exotic"},
-            [126618] = {"Bloodraged Pterrordax", "Dazar'alor", "Battle for Azeroth", "Normal", "[-1,-1]"}
+            [126618] = {"Bloodraged Pterrordax", "Dazar'alor, Zanchul", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [79629] = {
             taming = {"Exotic"},
@@ -13944,7 +14069,7 @@ ModelsData = {
         },
         [82392] = {
             taming = {"Exotic"},
-            [139493] = {"Monstrous Pterrordax", "Zuldazar", "Battle for Azeroth", "Elite", "[-1,-1]"}
+            [139493] = {"Monstrous Pterrordax", "Nazmir, Zuldazar", "Battle for Azeroth", "Elite", "[-1,-1]"}
         },
         [86372] = {
             taming = {"Exotic"},
@@ -13985,7 +14110,7 @@ ModelsData = {
             [37084] = {"Terrortooth Scytheclaw", "Southern Barrens", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [949] = {
-            [3633] = {"Deviate Slayer", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"}
+            [3633] = {"Deviate Slayer", "Northern Barrens, Wailing Caverns", "Vanilla", "Normal", "[-1,-1]"}
         },
         [960] = {
             [41343] = {"Mottled Raptor", "Wetlands", "Cataclysm", "Normal", "[-1,-1]"}
@@ -14006,11 +14131,11 @@ ModelsData = {
         },
         [1744] = {
             [3254] = {"Sunscale Lashtail", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"},
-            [3632] = {"Deviate Creeper", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"},
+            [3632] = {"Deviate Creeper", "Northern Barrens, Wailing Caverns", "Vanilla", "Normal", "[-1,-1]"},
             [44165] = {"Sunscale Consort", "Northern Barrens", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [1746] = {
-            [3634] = {"Deviate Stalker", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"},
+            [3634] = {"Deviate Stalker", "Northern Barrens, Wailing Caverns", "Vanilla", "Normal", "[-1,-1]"},
             [50876] = {"Avis", "Searing Gorge", "Mists of Pandaria", "Rare", "[-1,-1]"}
         },
         [1747] = {
@@ -14024,7 +14149,7 @@ ModelsData = {
         },
         [1960] = {
             [3122] = {"Bloodtalon Taillasher", "Durotar", "Vanilla", "Normal", "[-1,-1]"},
-            [37956] = {"Bloodtalon Raptor", "Durotar", "Cataclysm", "Normal", "[-1,-1]"}
+            [37956] = {"Bloodtalon Raptor", "Durotar, Echo Isles", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [1962] = {
             [4352] = {"Bloodfen Screecher", "Dustwallow Marsh", "Vanilla", "Normal", "[-1,-1]"},
@@ -14140,7 +14265,7 @@ ModelsData = {
             [36740] = {"Teraptor Hatchling", "The Lost Isles", "Cataclysm", "Normal", "[null,-1]"}
         },
         [30847] = {
-            [37961] = {"Corrupted Bloodtalon", "Durotar", "Cataclysm", "Normal", "[0,0]"}
+            [37961] = {"Corrupted Bloodtalon", "Durotar, Echo Isles", "Cataclysm", "Normal", "[0,0]"}
         },
         [33733] = {
             taming = {"Undead"},
@@ -14297,6 +14422,7 @@ ModelsData = {
             [115678] = {"Young Direbeak", "Stormheim", "Legion", "Normal", "[-1,-1]"}
         },
         [77288] = {
+            taming = {"Undead"},
             [123443] = {"Bloodbound Raptor", "Nazmir", "Battle for Azeroth", "Normal", "[null,-1]"}
         },
         [77289] = {
@@ -14312,7 +14438,7 @@ ModelsData = {
             [139326] = {"Invasive Eggsnatcher", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [78159] = {
-            [126023] = {"Harbor Saurid", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [126023] = {"Harbor Saurid", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [126653] = {"Hungry Saurid", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [128585] = {"Shore Saurid", "Nazmir", "Battle for Azeroth", "Normal", "[0,0]"}
         },
@@ -14335,12 +14461,12 @@ ModelsData = {
             [69244] = {"Fierce Anklebiter", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [126631] = {"Wild Saurid", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [127278] = {"Skittering Feeder", "Nazmir", "Battle for Azeroth", "Normal", "[0,0]"},
-            [130589] = {"Roaming Nibbler", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [130589] = {"Roaming Nibbler", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [137545] = {"Coastal Saurid", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [139488] = {"Roaming Saurid", "Nazmir", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [78163] = {
-            [130589] = {"Roaming Nibbler", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [130589] = {"Roaming Nibbler", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [131623] = {"Xibalan Saurid", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [134046] = {"Enthralled Saurid", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [134047] = {"Enthralled Saurid", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
@@ -14399,36 +14525,40 @@ ModelsData = {
             [140699] = {"Bonescreamer", "Zuldazar", "Battle for Azeroth", "Normal", "[null,-1]"}
         },
         [83646] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [123096] = {"Frogmarsh Razormaw", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [130727] = {"Fenclaw Runner", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [133812] = {"Zanxib", "Nazmir", "Battle for Azeroth", "Rare", "[-1,-1]"},
             [136426] = {"Fenclaw Leaper", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [145110] = {"Ravasaur Sniffer", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,1]"}
+            [145110] = {"Ravasaur Sniffer", "Boralus, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,1]"}
         },
         [83647] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [120587] = {"Rivermarsh Raptor", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [122504] = {"Savagemane Ravasaur", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [123096] = {"Frogmarsh Razormaw", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [124226] = {"Raptor Matriarch", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [131560] = {"Feral Ravasaur", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [145110] = {"Ravasaur Sniffer", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,1]"}
+            [145110] = {"Ravasaur Sniffer", "Boralus, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,1]"}
         },
         [83648] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [124217] = {"Raptor Patriarch", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [124226] = {"Raptor Matriarch", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [125206] = {"Sharptooth Scavenger", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [127869] = {"Coastal Scrounger", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [127873] = {"Scrounger Patriarch", "Nazmir", "Battle for Azeroth", "Rare", "[-1,-1]"},
-            [130722] = {"Fenclaw Stalker", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [130722] = {"Fenclaw Stalker", "Nazmir, Vol'dun", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [131560] = {"Feral Ravasaur", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [131624] = {"Xibalan Ravasaur", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [145110] = {"Ravasaur Sniffer", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,1]"},
+            [145110] = {"Ravasaur Sniffer", "Boralus, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,1]"},
             [149147] = {"N'chala the Egg Thief", "Zuldazar", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [83649] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [120587] = {"Rivermarsh Raptor", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [139365] = {"Queenfeather", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [145444] = {"Ravasaur Fleshripper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,1]"}
+            [145444] = {"Ravasaur Fleshripper", "Boralus, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,1]"}
         },
         [84273] = {
             taming = {"Undead"},
@@ -14447,6 +14577,7 @@ ModelsData = {
             [126117] = {"Bound Scavenger", "Nazmir", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [112883] = {
+            taming = {"Elusive Creature Bait"},
             [210229] = {"Mischievous Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [210892] = {"Striped Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [211316] = {"Listless Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
@@ -14456,6 +14587,7 @@ ModelsData = {
             [212781] = {"Dreamtalon", "Amirdrassil, the Dream's Hope", "Dragonflight", "Normal", "[]"}
         },
         [112884] = {
+            taming = {"Elusive Creature Bait"},
             [210229] = {"Mischievous Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [211194] = {"Stunned Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [211195] = {"Inspired Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
@@ -14464,6 +14596,7 @@ ModelsData = {
             [212781] = {"Dreamtalon", "Amirdrassil, the Dream's Hope", "Dragonflight", "Normal", "[]"}
         },
         [112885] = {
+            taming = {"Elusive Creature Bait"},
             [210229] = {"Mischievous Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [211316] = {"Listless Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [211447] = {"Rowdy Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
@@ -14472,6 +14605,7 @@ ModelsData = {
             [212781] = {"Dreamtalon", "Amirdrassil, the Dream's Hope", "Dragonflight", "Normal", "[]"}
         },
         [112886] = {
+            taming = {"Elusive Creature Bait"},
             [210229] = {"Mischievous Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [211447] = {"Rowdy Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [212043] = {"Elusive Dreamtalon", "Emerald Dream", "Dragonflight", "Normal", "[-1,null]"},
@@ -14605,7 +14739,7 @@ ModelsData = {
             [50730] = {"Venomspine", "Burning Steppes", "Mists of Pandaria", "Rare", "[-1,-1]"}
         },
         [20308] = {
-            [19349] = {"Thornfang Ravager", "Hellfire Peninsula", "The Burning Crusade", "Normal", "[-1,-1]"},
+            [19349] = {"Thornfang Ravager", "Hellfire Peninsula, Zangarmarsh", "The Burning Crusade", "Normal", "[-1,-1]"},
             [50728] = {"Deathstrike", "Badlands", "Mists of Pandaria", "Rare", "[-1,-1]"}
         },
         [20309] = {
@@ -14692,7 +14826,7 @@ ModelsData = {
             [92429] = {"Broodlord Ixkor", "Tanaan Jungle", "Warlords of Draenor", "Rare", "[-1,-1]"}
         },
         [61121] = {
-            [80779] = {"Icespine Ravager", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[null,-1]"}
+            [80779] = {"Icespine Ravager", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[null,-1]"}
         },
         [61795] = {
             [89741] = {"Bloodfang Ravager", "Tanaan Jungle", "Warlords of Draenor", "Normal", "[-1,-1]"}
@@ -14722,7 +14856,7 @@ ModelsData = {
             [23501] = {"Netherwing Ray", "Shadowmoon Valley", "The Burning Crusade", "Normal", "[-1,-1]"}
         },
         [19401] = {
-            [18131] = {"Marshfang Slicer", "Nagrand", "The Burning Crusade", "Normal", "[-1,-1]"},
+            [18131] = {"Marshfang Slicer", "Nagrand, Zangarmarsh", "The Burning Crusade", "Normal", "[-1,-1]"},
             [75487] = {"Razorfang Hunter", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [88962] = {"Razorfang Hunter", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[0,null]"}
         },
@@ -14823,6 +14957,7 @@ ModelsData = {
             [223492] = {"Flatcram Grandame", "Azj-Kahet", "The War Within", "Normal", "[0,0]"}
         },
         [90738] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [150696] = {"Fathom Ray Broodkeeper", "Nazjatar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [153764] = {"Wrinklefin", "Nazjatar", "Battle for Azeroth", "Normal", "[-1,1]"},
             [223492] = {"Flatcram Grandame", "Azj-Kahet", "The War Within", "Normal", "[0,0]"}
@@ -14954,14 +15089,14 @@ ModelsData = {
         },
         [115332] = {
             [222248] = {"Canyon Devilfish", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
-            [255918] = {"Fathom Ray", "Razorwind Shores", "The War Within", "Normal", "[0,0]"}
+            [255918] = {"Fathom Ray", "Founder's Point, Razorwind Shores", "The War Within", "Normal", "[0,0]"}
         },
         [115336] = {
-            [255918] = {"Fathom Ray", "Razorwind Shores", "The War Within", "Normal", "[0,0]"}
+            [255918] = {"Fathom Ray", "Founder's Point, Razorwind Shores", "The War Within", "Normal", "[0,0]"}
         },
         [115339] = {
             [222248] = {"Canyon Devilfish", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
-            [255918] = {"Fathom Ray", "Razorwind Shores", "The War Within", "Normal", "[0,0]"}
+            [255918] = {"Fathom Ray", "Founder's Point, Razorwind Shores", "The War Within", "Normal", "[0,0]"}
         },
         [115340] = {
             [222248] = {"Canyon Devilfish", "Hallowfall", "The War Within", "Normal", "[-1,-1]"}
@@ -15086,7 +15221,7 @@ ModelsData = {
         },
         [56949] = {
             [82310] = {"Stonehide Riverbeast", "Ashran", "Warlords of Draenor", "Normal", "[0,0]"},
-            [88075] = {"Stonehide Riverbeast", "Ashran", "Warlords of Draenor", "Normal", "[0,0]"}
+            [88075] = {"Stonehide Riverbeast", "Ashran, Stormshield, Warspear", "Warlords of Draenor", "Normal", "[0,0]"}
         },
         [57324] = {
             [75468] = {"Twilight Riverbeast", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
@@ -15157,13 +15292,13 @@ ModelsData = {
         },
         [81405] = {
             [123651] = {"Muddy Riverbeast", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
-            [130754] = {"Muddy Riverbeast", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [130754] = {"Muddy Riverbeast", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [130757] = {"Muddy Riverbeast", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [82697] = {
             [123651] = {"Muddy Riverbeast", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [130022] = {"Saltscale Riverbeast", "Vol'dun", "Battle for Azeroth", "Normal", "[0,0]"},
-            [130754] = {"Muddy Riverbeast", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
+            [130754] = {"Muddy Riverbeast", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"},
             [130757] = {"Muddy Riverbeast", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [82989] = {
@@ -15432,14 +15567,14 @@ ModelsData = {
             [124278] = {"Felscarred Marsuul", "Krokuun", "Legion", "Normal", "[0,0]"}
         },
         [95749] = {
-            [151353] = {"Mawrat", "Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"},
-            [154030] = {"Oddly Large Mawrat", "Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"},
+            [151353] = {"Mawrat", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Fracture Chambers, The Soulforges, The Upper Reaches, Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"},
+            [154030] = {"Oddly Large Mawrat", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Adamant Vaults, The Fracture Chambers, The Soulforges, The Upper Reaches, Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"},
             [165342] = {"Mawrat", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
             [165343] = {"Scurrying Mawrat", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
             [165345] = {"Giant Mawrat", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
             [165978] = {"Scavenging Mawrat", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
             [167485] = {"Starving Mawrat", "Skoldus Hall", "Shadowlands", "Normal", "[-1,-1]"},
-            [169871] = {"Hungry Mawrat", "Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"},
+            [169871] = {"Hungry Mawrat", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Fracture Chambers, The Soulforges, The Upper Reaches, Torghast, Tower of the Damned", "Shadowlands", "Normal", "[-1,-1]"},
             [172948] = {"Scurrying Mawrat", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
             [172950] = {"Giant Mawrat", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
             [174310] = {"Scavenging Mawrat", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
@@ -15451,7 +15586,7 @@ ModelsData = {
             [179308] = {"Voracious Mawrat", "Korthia", "Shadowlands", "Normal", "[-1,-1]"},
             [183323] = {"Invading Vermin", "Zereth Mortis", "Shadowlands", "Normal", "[-1,-1]"},
             [231808] = {"Pilfering Mawrat", "The Maw", "The War Within", "Normal", "[-1,-1]"},
-            [231809] = {"Emboldened Mawrat", "The Shadowlands", "The War Within", "Normal", "[-1,-1]"}
+            [231809] = {"Emboldened Mawrat", "The Maw, The Shadowlands", "The War Within", "Normal", "[-1,-1]"}
         },
         [96556] = {
             [172524] = {"Skittering Broodmother", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
@@ -15467,49 +15602,54 @@ ModelsData = {
         [96558] = {
             [175811] = {"Feasting Mawrat", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
             [175826] = {"Gushing Mawrat", "The Maw", "Shadowlands", "Normal", "[-1,-1]"},
-            [179458] = {"Protective Mawrat", "Skoldus Hall", "Shadowlands", "Normal", "[]"}
+            [179458] = {"Protective Mawrat", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Adamant Vaults, The Soulforges, The Upper Reaches", "Shadowlands", "Normal", "[]"}
         },
         [98968] = {
             [178913] = {"Grasslands Vombata", "Zereth Mortis", "Shadowlands", "Normal", "[0,0]"},
             [181359] = {"Mawtouched Bull", "Zereth Mortis", "Shadowlands", "Normal", "[-1,-1]"}
         },
         [100222] = {
-            [193891] = {"Elusive Crystalspine", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
+            taming = {"Elusive Creature Bait"},
+            [193891] = {"Elusive Crystalspine", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [195305] = {"Crystalspine Forager", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [203668] = {"Shimmering Crystalspine", "Zaralek Cavern", "Dragonflight", "Normal", "[0,0]"},
             [206008] = {"Shimmering Crystalspine", "Aberrus, the Shadowed Crucible", "Dragonflight", "Normal", "[0,null]"}
         },
         [100335] = {
+            taming = {"Elusive Creature Bait"},
             [187515] = {"Crystalspine Snuffler", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [187536] = {"Baby Crystalspine", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [190743] = {"Frosty Flowerpine", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [193511] = {"Woadspine", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [193864] = {"Wild Crystalspine", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
-            [193891] = {"Elusive Crystalspine", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
+            [193891] = {"Elusive Crystalspine", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [195189] = {"Wild Crystalspine", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [212493] = {"Drowsy Crystalspine", "Amirdrassil", "Dragonflight", "Normal", "[-1,null]"}
         },
         [100336] = {
+            taming = {"Elusive Creature Bait"},
             [190743] = {"Frosty Flowerpine", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [192882] = {"Snowy Crystalspine", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
-            [193891] = {"Elusive Crystalspine", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
+            [193891] = {"Elusive Crystalspine", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [195305] = {"Crystalspine Forager", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
         },
         [100337] = {
+            taming = {"Elusive Creature Bait"},
             [186375] = {"Violet Pineback", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [190317] = {"Snowspine Sniffer", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [190743] = {"Frosty Flowerpine", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [192882] = {"Snowy Crystalspine", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
-            [193891] = {"Elusive Crystalspine", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
+            [193891] = {"Elusive Crystalspine", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [194414] = {"Snowspine Snuffler", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [198887] = {"Pineback Pup", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [203668] = {"Shimmering Crystalspine", "Zaralek Cavern", "Dragonflight", "Normal", "[0,0]"},
             [206008] = {"Shimmering Crystalspine", "Aberrus, the Shadowed Crucible", "Dragonflight", "Normal", "[0,null]"}
         },
         [100338] = {
+            taming = {"Elusive Creature Bait"},
             [187515] = {"Crystalspine Snuffler", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [187536] = {"Baby Crystalspine", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
-            [193891] = {"Elusive Crystalspine", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
+            [193891] = {"Elusive Crystalspine", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [195305] = {"Crystalspine Forager", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [198887] = {"Pineback Pup", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"}
         },
@@ -15594,16 +15734,18 @@ ModelsData = {
             [198812] = {"River Ottuk", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"}
         },
         [103565] = {
+            taming = {"Ottuk"},
             [191616] = {"Young Ottuk", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [103566] = {
+            taming = {"Ottuk"},
             [191616] = {"Young Ottuk", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [103567] = {
             taming = {"Ottuk"},
             [191616] = {"Young Ottuk", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [193491] = {"Thickfur Ottuk", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
-            [196524] = {"Mudpaw Pup", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"}
+            [196524] = {"Mudpaw Pup", "Ohn'ahran Plains, Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
         },
         [103568] = {
             taming = {"Ottuk"},
@@ -15612,6 +15754,7 @@ ModelsData = {
             [194242] = {"Icecling Ottuk", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [103569] = {
+            taming = {"Ottuk"},
             [191616] = {"Young Ottuk", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"}
         },
         [104967] = {
@@ -15724,8 +15867,9 @@ ModelsData = {
             [227346] = {"Dirtsnoot Tunneler", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"}
         },
         [112385] = {
+            taming = {"Disturbed Earth"},
             [215743] = {"Waxtail Snuffler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [229814] = {"Enraged Snuffler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229814] = {"Enraged Snuffler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [230919] = {"Sporenose Burrower", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"}
         },
         [112386] = {
@@ -15757,35 +15901,41 @@ ModelsData = {
             [227346] = {"Dirtsnoot Tunneler", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"}
         },
         [112393] = {
+            taming = {"Disturbed Earth"},
             [215743] = {"Waxtail Snuffler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [229814] = {"Enraged Snuffler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229814] = {"Enraged Snuffler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [230919] = {"Sporenose Burrower", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"}
         },
         [112394] = {
+            taming = {"Disturbed Earth"},
             [215743] = {"Waxtail Snuffler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [229814] = {"Enraged Snuffler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229814] = {"Enraged Snuffler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [230919] = {"Sporenose Burrower", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"}
         },
         [112395] = {
+            taming = {"Disturbed Earth"},
             [215743] = {"Waxtail Snuffler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [229814] = {"Enraged Snuffler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229814] = {"Enraged Snuffler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [230919] = {"Sporenose Burrower", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"}
         },
         [112396] = {
+            taming = {"Disturbed Earth"},
             [215743] = {"Waxtail Snuffler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [229814] = {"Enraged Snuffler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229814] = {"Enraged Snuffler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [230919] = {"Sporenose Burrower", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"}
         },
         [112397] = {
+            taming = {"Disturbed Earth"},
             [215743] = {"Waxtail Snuffler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [219799] = {"Sweetsnuffler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [229814] = {"Enraged Snuffler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229814] = {"Enraged Snuffler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [230919] = {"Sporenose Burrower", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"}
         },
         [112398] = {
+            taming = {"Disturbed Earth"},
             [215743] = {"Waxtail Snuffler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [219799] = {"Sweetsnuffler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [229814] = {"Enraged Snuffler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [229814] = {"Enraged Snuffler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [230919] = {"Sporenose Burrower", "The Ringing Deeps", "The War Within", "Normal", "[0,0]"}
         },
         [112716] = {
@@ -15949,7 +16099,7 @@ ModelsData = {
             [255124] = {"Chitterfang Scurrier", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
         },
         [125343] = {
-            [250125] = {"Scavenging Chitterfang", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
+            [250125] = {"Scavenging Chitterfang", "Atal'Aman, Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [255121] = {"Scavenging Chitterfang", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
         },
         [125344] = {
@@ -15959,18 +16109,18 @@ ModelsData = {
             [239325] = {"Radioactive Subject", "Undermine", "The War Within", "Normal", "[]"}
         },
         [131945] = {
-            [250100] = {"Kapara Pup", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
+            [250100] = {"Kapara Pup", "Atal'Aman, Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [258216] = {"Kapara Pup", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
         },
         [131948] = {
-            [255136] = {"Kapara", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
+            [255136] = {"Kapara", "Atal'Aman, Zul'Aman", "Midnight", "Normal", "[0,0]"}
         },
         [131949] = {
-            [250101] = {"Kapara", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
+            [250101] = {"Kapara", "Atal'Aman, Zul'Aman", "Midnight", "Normal", "[0,0]"},
             [258215] = {"Kapara", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
         },
         [131951] = {
-            [250101] = {"Kapara", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
+            [250101] = {"Kapara", "Atal'Aman, Zul'Aman", "Midnight", "Normal", "[0,0]"}
         }
     },
     ["Scalehide"] = {
@@ -16066,7 +16216,7 @@ ModelsData = {
         },
         [10918] = {
             [2974] = {"Kodo Matriarch", "Mulgore", "Vanilla", "Normal", "[0,0]"},
-            [3234] = {"Lost Barrens Kodo", "Northern Barrens", "Vanilla", "Normal", "[0,0]"},
+            [3234] = {"Lost Barrens Kodo", "Northern Barrens, Southern Barrens", "Vanilla", "Normal", "[0,0]"},
             [37555] = {"Landquaker Kodo", "Southern Barrens", "Cataclysm", "Normal", "[0,0]"}
         },
         [10933] = {
@@ -16231,7 +16381,7 @@ ModelsData = {
             [68560] = {"Greyhoof", "Valley of the Four Winds", "Mists of Pandaria", "Elite", "[0,0]"}
         },
         [45087] = {
-            [58895] = {"Sungraze Behemoth", "The Jade Forest", "Mists of Pandaria", "Elite", "[0,0]"},
+            [58895] = {"Sungraze Behemoth", "The Jade Forest, The Veiled Stair", "Mists of Pandaria", "Elite", "[0,0]"},
             [68560] = {"Greyhoof", "Valley of the Four Winds", "Mists of Pandaria", "Elite", "[0,0]"}
         },
         [45100] = {
@@ -16326,8 +16476,9 @@ ModelsData = {
             [194082] = {"Elusive Storm Lizard", "Ohn'ahran Plains", "Dragonflight", "Elite", "[-1,-1]"}
         },
         [104066] = {
+            taming = {"Elusive Creature Bait"},
             [191827] = {"Thunder Lizard", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [193859] = {"Elusive Thunder Lizard", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
+            [193859] = {"Elusive Thunder Lizard", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [104067] = {
             [181364] = {"Primal Thunder Lizard", "The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"},
@@ -16355,25 +16506,29 @@ ModelsData = {
             [200421] = {"Spiked Shocker", "The Forbidden Reach", "Dragonflight", "Normal", "[0,0]"}
         },
         [104072] = {
+            taming = {"Elusive Creature Bait"},
             [191827] = {"Thunder Lizard", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192941] = {"Thunderspine Rumbler", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [193859] = {"Elusive Thunder Lizard", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
+            [193859] = {"Elusive Thunder Lizard", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [104073] = {
+            taming = {"Elusive Creature Bait"},
             [191827] = {"Thunder Lizard", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192941] = {"Thunderspine Rumbler", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [193859] = {"Elusive Thunder Lizard", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [193859] = {"Elusive Thunder Lizard", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [195716] = {"Cragstrike Stomper", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [104074] = {
+            taming = {"Elusive Creature Bait"},
             [181363] = {"Fledgling Thunder Lizard", "The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"},
             [191827] = {"Thunder Lizard", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [193859] = {"Elusive Thunder Lizard", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
+            [193859] = {"Elusive Thunder Lizard", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"},
             [198815] = {"Trained Lizard", "The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [104075] = {
+            taming = {"Elusive Creature Bait"},
             [191827] = {"Thunder Lizard", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [193859] = {"Elusive Thunder Lizard", "The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
+            [193859] = {"Elusive Thunder Lizard", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [104076] = {
             [191825] = {"Thunder Lizard Alpha", "The Waking Shores", "Dragonflight", "Elite", "[-1,-1]"},
@@ -16464,7 +16619,7 @@ ModelsData = {
         },
         [125021] = {
             [253993] = {"Scaly Scratcher", "Zul'Aman", "Midnight", "Normal", "[-1,-1]"},
-            [257508] = {"Juvenile Pango", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
+            [257508] = {"Juvenile Pango", "Atal'Aman, Zul'Aman", "Midnight", "Normal", "[0,0]"}
         },
         [125022] = {
             [237959] = {"Pangopup", "Zul'Aman", "Midnight", "Normal", "[0,0]"},
@@ -16492,7 +16647,7 @@ ModelsData = {
             [252526] = {"Yoked Pangolin", "Eversong Woods", "Midnight", "Elite", "[0,0]"}
         },
         [125033] = {
-            [244239] = {"Frightened Hauler", "Eversong Woods", "Midnight", "Normal", "[-1,-1]"},
+            [244239] = {"Frightened Hauler", "Atal'Aman, Eversong Woods", "Midnight", "Normal", "[-1,-1]"},
             [245778] = {"Calmed Wagonlin", "Atal'Aman", "Midnight", "Normal", "[-1,-1]"},
             [252526] = {"Yoked Pangolin", "Eversong Woods", "Midnight", "Elite", "[0,0]"}
         },
@@ -16545,7 +16700,7 @@ ModelsData = {
             [7803] = {"Scorpid Duneburrower", "Tanaris", "Vanilla", "Normal", "[-1,-1]"}
         },
         [2485] = {
-            [3124] = {"Scorpid Worker", "Dun Morogh", "Vanilla", "Normal", "[0,0]"}
+            [3124] = {"Scorpid Worker", "Dun Morogh, Durotar, Valley of Trials", "Vanilla", "Normal", "[0,0]"}
         },
         [2486] = {
             [3125] = {"Clattering Scorpid", "Durotar", "Vanilla", "Normal", "[-1,-1]"}
@@ -16571,7 +16726,7 @@ ModelsData = {
             [162364] = {"Sand Scorpid", "Uldum", "Battle for Azeroth", "Normal", "[]"}
         },
         [2730] = {
-            [48130] = {"Scorpid Cliffcrawler", "Dustwallow Marsh", "Cataclysm", "Normal", "[-1,-1]"}
+            [48130] = {"Scorpid Cliffcrawler", "Dustwallow Marsh, Tanaris, Thousand Needles", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [2732] = {
             [3127] = {"Venomtail Scorpid", "Durotar", "Vanilla", "Normal", "[-1,-1]"}
@@ -16819,16 +16974,16 @@ ModelsData = {
             [24338] = {"Amani Snake", "Zul'Aman", "The Burning Crusade", "Normal", "[-1,-1]"},
             [29444] = {"Drakkari Snake", "Zul'Drak", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [29637] = {"Crafty Snake", "Gundrak", "Wrath of the Lich King", "Normal", "[0,0]"},
-            [44180] = {"Viper", "Wetlands", "Cataclysm", "Normal", "[-1,-1]"},
+            [44180] = {"Viper", "Assault on Broken Shore, Eastern Plaguelands, The Jade Forest, Wetlands", "Cataclysm", "Normal", "[-1,-1]"},
             [65604] = {"Viper", "Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [1986] = {
-            [140691] = {"Giant Dreadfang", "Verdant Wilds", "Battle for Azeroth", "Elite", "[-1,-1]"}
+            [140691] = {"Giant Dreadfang", "Havenswood, Jorundall, Molten Cay, Skittering Hollow, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Elite", "[-1,-1]"}
         },
         [1987] = {
             [29630] = {"Fanged Pit Viper", "Gundrak", "Wrath of the Lich King", "Normal", "[0,0]"},
-            [140689] = {"Dreadfang Slitherer", "Crestfall", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [140690] = {"Dreadfang Viper", "Verdant Wilds", "Battle for Azeroth", "Normal", "[-1,-1]"}
+            [140689] = {"Dreadfang Slitherer", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [140690] = {"Dreadfang Viper", "Havenswood, Jorundall, Molten Cay, Skittering Hollow, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [2954] = {
             [29630] = {"Fanged Pit Viper", "Gundrak", "Wrath of the Lich King", "Normal", "[0,0]"},
@@ -16844,7 +16999,7 @@ ModelsData = {
             [24338] = {"Amani Snake", "Zul'Aman", "The Burning Crusade", "Normal", "[-1,-1]"},
             [29444] = {"Drakkari Snake", "Zul'Drak", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [29637] = {"Crafty Snake", "Gundrak", "Wrath of the Lich King", "Normal", "[0,0]"},
-            [44180] = {"Viper", "Wetlands", "Cataclysm", "Normal", "[-1,-1]"},
+            [44180] = {"Viper", "Assault on Broken Shore, Eastern Plaguelands, The Jade Forest, Wetlands", "Cataclysm", "Normal", "[-1,-1]"},
             [65604] = {"Viper", "Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [85979] = {"Gorgrond Water Snake", "Gorgrond", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
@@ -16852,7 +17007,7 @@ ModelsData = {
             [24338] = {"Amani Snake", "Zul'Aman", "The Burning Crusade", "Normal", "[-1,-1]"},
             [29444] = {"Drakkari Snake", "Zul'Drak", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [29637] = {"Crafty Snake", "Gundrak", "Wrath of the Lich King", "Normal", "[0,0]"},
-            [44180] = {"Viper", "Wetlands", "Cataclysm", "Normal", "[-1,-1]"},
+            [44180] = {"Viper", "Assault on Broken Shore, Eastern Plaguelands, The Jade Forest, Wetlands", "Cataclysm", "Normal", "[-1,-1]"},
             [65604] = {"Viper", "Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [85979] = {"Gorgrond Water Snake", "Gorgrond", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [158465] = {"Poisonous Snake", "Uldum", "Battle for Azeroth", "Normal", "[-1,-1]"}
@@ -16879,7 +17034,7 @@ ModelsData = {
             [50735] = {"Blinkeye the Rattler", "Dustwallow Marsh", "Mists of Pandaria", "Rare", "[-1,-1]"}
         },
         [4768] = {
-            [5225] = {"Murk Spitter", "Sunken Temple", "Vanilla", "Normal", "[-1,-1]"}
+            [5225] = {"Murk Spitter", "Sunken Temple, Swamp of Sorrows", "Vanilla", "Normal", "[-1,-1]"}
         },
         [6303] = {
             [24338] = {"Amani Snake", "Zul'Aman", "The Burning Crusade", "Normal", "[-1,-1]"},
@@ -16887,9 +17042,9 @@ ModelsData = {
             [29630] = {"Fanged Pit Viper", "Gundrak", "Wrath of the Lich King", "Normal", "[0,0]"},
             [29637] = {"Crafty Snake", "Gundrak", "Wrath of the Lich King", "Normal", "[0,0]"},
             [40280] = {"Swarming Serpent", "Shimmering Expanse", "Cataclysm", "Normal", "[0,0]"},
-            [44180] = {"Viper", "Wetlands", "Cataclysm", "Normal", "[-1,-1]"},
+            [44180] = {"Viper", "Assault on Broken Shore, Eastern Plaguelands, The Jade Forest, Wetlands", "Cataclysm", "Normal", "[-1,-1]"},
             [65604] = {"Viper", "Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"},
-            [140692] = {"Bloodbore", "Crestfall", "Battle for Azeroth", "Rare", "[-1,-1]"},
+            [140692] = {"Bloodbore", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare", "[-1,-1]"},
             [158465] = {"Poisonous Snake", "Uldum", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [7409] = {
@@ -16904,7 +17059,7 @@ ModelsData = {
             [8886] = {"Deviate Python", "Wailing Caverns", "Vanilla", "Normal", "[-1,-1]"}
         },
         [14557] = {
-            [48131] = {"Needlespine Cobra", "Feralas", "Cataclysm", "Normal", "[-1,-1]"}
+            [48131] = {"Needlespine Cobra", "Feralas, Tanaris, Thousand Needles", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [14559] = {
             [19784] = {"Coilskar Cobra", "Shadowmoon Valley", "The Burning Crusade", "Normal", "[-1,-1]"}
@@ -16916,7 +17071,7 @@ ModelsData = {
             [16310] = {"Mana Shifter", "Ghostlands", "The Burning Crusade", "Normal", "[-1,-1]"}
         },
         [16217] = {
-            [15274] = {"Mana Wyrm", "Eversong Woods (Burning Crusade)", "Vanilla", "Normal", "[0,0]"},
+            [15274] = {"Mana Wyrm", "Eversong Woods (Burning Crusade), Sunstrider Isle", "Vanilla", "Normal", "[0,0]"},
             [19306] = {"Mana Leech", "Mana-Tombs", "The Burning Crusade", "Normal", "[-1,-1]"},
             [24761] = {"Brightscale Wyrm", "Magisters' Terrace", "The Burning Crusade", "Normal", "[-1,-1]"},
             [232106] = {"Brightscale Wyrm", "Magisters' Terrace (Midnight) (Dungeon)", "Midnight", "Normal", "[]"}
@@ -17004,11 +17159,12 @@ ModelsData = {
             [47740] = {"Viper", "Uldum", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [35804] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [47740] = {"Viper", "Uldum", "Cataclysm", "Normal", "[-1,-1]"},
-            [142464] = {"Moult", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,1]"}
+            [142464] = {"Moult", "Dazar'alor, Zuldazar", "Battle for Azeroth", "Normal", "[-1,1]"}
         },
         [36273] = {
-            [48132] = {"Needlespine Shimmerback", "Thousand Needles", "Cataclysm", "Normal", "[-1,-1]"}
+            [48132] = {"Needlespine Shimmerback", "Tanaris, Thousand Needles", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [36578] = {
             [85979] = {"Gorgrond Water Snake", "Gorgrond", "Warlords of Draenor", "Normal", "[-1,-1]"}
@@ -17027,7 +17183,7 @@ ModelsData = {
         [37607] = {
             [51676] = {"Marsh Serpent", "Uldum", "Cataclysm", "Normal", "[-1,-1]"},
             [52402] = {"Venomtooth", "Zul'Gurub", "Cataclysm", "Normal", "[0,0]"},
-            [67770] = {"Acidfang Slitherer", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [67770] = {"Acidfang Slitherer", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [162375] = {"Marsh Serpent", "Uldum", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [38277] = {
@@ -17152,10 +17308,10 @@ ModelsData = {
             [126672] = {"Cove Eel", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [139285] = {"Shiverscale the Toxic", "Tiragarde Sound", "Battle for Azeroth", "Rare", "[-1,-1]"},
             [152556] = {"Chasm-Haunter", "Nazjatar", "Battle for Azeroth", "Rare", "[-1,-1]"},
-            [198782] = {"Coastal Eel", "The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"}
+            [198782] = {"Coastal Eel", "Emerald Dream, The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [78241] = {
-            [130232] = {"Venomous Coilscale", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [130232] = {"Venomous Coilscale", "Drustvar, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [145338] = {"Abyssal Eel", "Nazjatar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [78242] = {
@@ -17168,11 +17324,11 @@ ModelsData = {
         [78243] = {
             [126672] = {"Cove Eel", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [152555] = {"Elderspawn Nalaada", "Nazjatar", "Battle for Azeroth", "Rare Elite", "[-1,-1]"},
-            [198782] = {"Coastal Eel", "The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"}
+            [198782] = {"Coastal Eel", "Emerald Dream, The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [78244] = {
             [149707] = {"Coral Slitherer", "Nazjatar", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [198782] = {"Coastal Eel", "The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"}
+            [198782] = {"Coastal Eel", "Emerald Dream, The Forbidden Reach", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [78245] = {
             [125299] = {"Soultainted Cobra", "Vol'dun", "Battle for Azeroth", "Normal", "[-1,-1]"}
@@ -17283,6 +17439,7 @@ ModelsData = {
             [192739] = {"Feasting Wyrm", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [108917] = {
+            taming = {"Elusive Creature Bait"},
             [203053] = {"Invasive Rock Viper", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [203783] = {"Hunting Rock Viper", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [204158] = {"Hunting Rock Viper", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
@@ -17291,6 +17448,7 @@ ModelsData = {
             [222019] = {"Shalescale Striker", "Isle of Dorn", "The War Within", "Normal", "[0,0]"}
         },
         [108918] = {
+            taming = {"Elusive Creature Bait"},
             [203053] = {"Invasive Rock Viper", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [203783] = {"Hunting Rock Viper", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [204158] = {"Hunting Rock Viper", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
@@ -17303,6 +17461,7 @@ ModelsData = {
             [219265] = {"Emperor Pitfang", "Isle of Dorn", "The War Within", "Rare", "[-1,-1]"}
         },
         [109364] = {
+            taming = {"Elusive Creature Bait"},
             [202302] = {"Embertail Rock Cobra", "Zaralek Cavern", "Dragonflight", "Elite", "[-1,-1]"},
             [203327] = {"Sizzle Fang", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [204825] = {"Elusive Viper", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
@@ -17315,6 +17474,7 @@ ModelsData = {
             [219397] = {"Shalescale Striker", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"}
         },
         [112174] = {
+            taming = {"Elusive Creature Bait"},
             [204316] = {"Contaminated Rock Cobra", "Zaralek Cavern", "Dragonflight", "Elite", "[-1,-1]"},
             [204825] = {"Elusive Viper", "Zaralek Cavern", "Dragonflight", "Normal", "[-1,-1]"},
             [204828] = {"Elusive Lavafang", "Zaralek Cavern", "Dragonflight", "Elite", "[]"}
@@ -17492,6 +17652,9 @@ ModelsData = {
         [142221] = {
             taming = {"Florafaun"},
             [250231] = {"Dracaena", "Harandar", "Midnight", "Rare", "[-1,-1]"}
+        },
+        [144230] = {
+            [232106] = {"Brightscale Wyrm", "Magisters' Terrace", "Midnight", "Normal", "[]"}
         }
     },
     ["Shale Beast"] = {
@@ -17517,6 +17680,7 @@ ModelsData = {
             [44259] = {"Gorged Gyreworm", "Deepholm", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [33760] = {
+            taming = {"Exotic"},
             [44258] = {"Colossal Gyreworm", "Deepholm", "Cataclysm", "Elite", "[-1,-1]"}
         },
         [33863] = {
@@ -17524,7 +17688,7 @@ ModelsData = {
             [42845] = {"Rock Borer", "The Stonecore", "Cataclysm", "Normal", "[-1,-1]"},
             [43917] = {"Rock Borer", "The Stonecore", "Cataclysm", "Normal", "[-1,-1]"},
             [49816] = {"Deep Spider", "Deepholm", "Cataclysm", "Normal", "[0,0]"},
-            [51066] = {"Crystalfang", "Blackrock Mountain", "Mists of Pandaria", "Rare", "[-1,-1]"},
+            [51066] = {"Crystalfang", "Blackrock Mountain, Searing Gorge", "Mists of Pandaria", "Rare", "[-1,-1]"},
             [134521] = {"Enraged Nibbler", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [34067] = {
@@ -17533,7 +17697,7 @@ ModelsData = {
         },
         [34068] = {
             taming = {"Exotic"},
-            [123713] = {"Azerite Nibbler", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"}
+            [123713] = {"Azerite Nibbler", "Drustvar, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [34069] = {
             taming = {"Exotic"},
@@ -17559,6 +17723,7 @@ ModelsData = {
             [34865] = {"Tunneling Worm", "Kezan", "Cataclysm", "Normal", "[null,0]"}
         },
         [36219] = {
+            taming = {"Exotic"},
             [48639] = {"Ruby Gemstone Cluster", "Deepholm", "Cataclysm", "Normal", "[0,0]"}
         },
         [36634] = {
@@ -17619,6 +17784,7 @@ ModelsData = {
             [67759] = {"Agitated Shale Spider", "Krasarang Wilds", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [48163] = {
+            taming = {"Exotic"},
             [101062] = {"Corrupted Shale Spider", "Deepholm", "Legion", "Normal", "[-1,-1]"}
         },
         [48169] = {
@@ -17642,6 +17808,7 @@ ModelsData = {
             [101580] = {"Tanzanite Skitterer", "Suramar", "Legion", "Normal", "[-1,-1]"}
         },
         [66919] = {
+            taming = {"Exotic"},
             [98382] = {"Corrupted Gyreworm", "Deepholm", "Legion", "Normal", "[-1,-1]"}
         },
         [67007] = {
@@ -17705,14 +17872,14 @@ ModelsData = {
             [43] = {"Mine Spider", "Elwynn Forest", "Vanilla", "Normal", "[-1,-1]"},
             [930] = {"Black Widow Hatchling", "Duskwood", "Vanilla", "Normal", "[-1,-1]"},
             [1555] = {"Vicious Night Web Spider", "Tirisfal Glades", "Vanilla", "Normal", "[-1,-1]"},
-            [1688] = {"Night Web Matriarch", "Night Web's Hollow", "Vanilla", "Normal", "[null,0]"}
+            [1688] = {"Night Web Matriarch", "Deathknell, Night Web's Hollow, Tirisfal Glades", "Vanilla", "Normal", "[null,0]"}
         },
         [418] = {
-            [1505] = {"Night Web Spider", "Deathknell", "Vanilla", "Normal", "[null,0]"},
+            [1505] = {"Night Web Spider", "Deathknell, Tirisfal Glades", "Vanilla", "Normal", "[null,0]"},
             [45582] = {"Black Widow", "Duskwood", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [513] = {
-            [1504] = {"Young Night Web Spider", "Deathknell", "Vanilla", "Normal", "[null,0]"},
+            [1504] = {"Young Night Web Spider", "Deathknell, Tirisfal Glades", "Vanilla", "Normal", "[null,0]"},
             [141981] = {"Damplight Skitterer", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [520] = {
@@ -17742,10 +17909,10 @@ ModelsData = {
             [52146] = {"Chitter", "Redridge Mountains", "Cataclysm", "Rare", "[-1,-1]"}
         },
         [955] = {
-            [217] = {"Venom Web Spider", "Duskwood", "Vanilla", "Normal", "[-1,-1]"},
+            [217] = {"Venom Web Spider", "Duskwood, Redridge Mountains", "Vanilla", "Normal", "[-1,-1]"},
             [16350] = {"Spindleweb Spider", "Ghostlands", "The Burning Crusade", "Normal", "[-1,-1]"},
             [16351] = {"Spindleweb Lurker", "Ghostlands", "The Burning Crusade", "Normal", "[-1,-1]"},
-            [36813] = {"Vilebrood Skitterer", "Gilneas", "Cataclysm", "Normal", "[-1,null]"},
+            [36813] = {"Vilebrood Skitterer", "Gilneas, Gilneas City", "Cataclysm", "Normal", "[-1,null]"},
             [44130] = {"Vilebrood Webspinner", "Gilneas", "Cataclysm", "Normal", "[-1,null]"},
             [210832] = {"Vilebrood Skitterer", "Ruins of Gilneas", "Dragonflight", "Normal", "[]"}
         },
@@ -17765,7 +17932,7 @@ ModelsData = {
             [160433] = {"Barrow Spiderling", "Exile's Reach", "Shadowlands", "Normal", "[-1,-1]"}
         },
         [1103] = {
-            [2563] = {"Plains Creeper", "Hillsbrad Foothills", "Vanilla", "Normal", "[-1,-1]"},
+            [2563] = {"Plains Creeper", "Arathi Highlands, Hillsbrad Foothills", "Vanilla", "Normal", "[-1,-1]"},
             [3819] = {"Wildthorn Stalker", "Ashenvale", "Vanilla", "Normal", "[-1,-1]"},
             [4005] = {"Deepmoss Creeper", "Stonetalon Mountains", "Vanilla", "Normal", "[-1,-1]"},
             [132760] = {"Plains Creeper", "Arathi Highlands", "Battle for Azeroth", "Normal", "[-1,-1]"},
@@ -17782,9 +17949,9 @@ ModelsData = {
         [1157] = {
             [16352] = {"Greater Spindleweb", "Ghostlands", "The Burning Crusade", "Normal", "[-1,-1]"},
             [42879] = {"Spawn of Shadra", "The Hinterlands", "Cataclysm", "Normal", "[-1,-1]"},
-            [51983] = {"Deadwind Widow", "Duskwood", "Cataclysm", "Normal", "[-1,-1]"},
+            [51983] = {"Deadwind Widow", "Deadwind Pass, Duskwood", "Cataclysm", "Normal", "[-1,-1]"},
             [51987] = {"Deadwind Widow", "Deadwind Pass", "Cataclysm", "Normal", "[-1,-1]"},
-            [137967] = {"Tunnel Stalker", "Stormsong Valley", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [137967] = {"Tunnel Stalker", "Saltstone Mine, Stormsong Valley", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [160394] = {"Barrow Spider", "Exile's Reach", "Shadowlands", "Normal", "[-1,-1]"},
             [160433] = {"Barrow Spiderling", "Exile's Reach", "Shadowlands", "Normal", "[-1,-1]"}
         },
@@ -17825,7 +17992,7 @@ ModelsData = {
         },
         [8014] = {
             [8933] = {"Cave Creeper", "Blackrock Depths", "Vanilla", "Normal", "[-1,-1]"},
-            [11738] = {"Sand Skitterer", "Dun Morogh", "Vanilla", "Normal", "[-1,-1]"},
+            [11738] = {"Sand Skitterer", "Dun Morogh, Silithus", "Vanilla", "Normal", "[-1,-1]"},
             [129913] = {"Lurking Tarantula", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [147222] = {"Gnollfeaster", "Redridge Mountains", "Battle for Azeroth", "Rare", "[-1,-1]"},
             [168724] = {"Engorged Fearspinner", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
@@ -17925,13 +18092,13 @@ ModelsData = {
         },
         [26775] = {
             [46508] = {"Darkwood Lurker", "Tol Barad Peninsula", "Cataclysm", "Normal", "[-1,-1]"},
-            [58459] = {"Ashweb Weaver", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[-1,-1]"},
-            [58588] = {"Ashweb Weaver", "The Jade Forest", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [58459] = {"Ashweb Weaver", "Kun-Lai Summit, Temple of Kotmogu", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [58588] = {"Ashweb Weaver", "Dread Wastes, Kun-Lai Summit, The Jade Forest, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [112370] = {"Ruins Recluse", "Suramar", "Legion", "Normal", "[-1,-1]"}
         },
         [27683] = {
             [31747] = {"Necrotic Webspinner", "Icecrown", "Wrath of the Lich King", "Normal", "[-1,-1]"},
-            [32475] = {"Terror Spinner", "Zul'Drak", "Wrath of the Lich King", "Rare", "[-1,-1]"},
+            [32475] = {"Terror Spinner", "The Storm Peaks, Zul'Drak", "Wrath of the Lich King", "Rare", "[-1,-1]"},
             [50765] = {"Miasmiss", "Hillsbrad Foothills", "Mists of Pandaria", "Rare", "[-1,-1]"}
         },
         [27718] = {
@@ -17975,7 +18142,7 @@ ModelsData = {
             [132318] = {"Bilefang Skitterer", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [36505] = {
-            [471] = {"Mother Fang", "Elwynn Forest", "Vanilla", "Rare", "[-1,-1]"},
+            [471] = {"Mother Fang", "Elwynn Forest, The Jasperlode Mine", "Vanilla", "Rare", "[-1,-1]"},
             [67099] = {"Succula", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [36506] = {
@@ -18001,7 +18168,7 @@ ModelsData = {
         },
         [38425] = {
             [52648] = {"Cinderweb Creeper", "Molten Front", "Cataclysm", "Normal", "[-1,-1]"},
-            [64321] = {"Echoweb Spinner", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [64321] = {"Echoweb Spinner", "Cavern of Endless Echoes, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [105049] = {"Cinderweb Creeper", "Firelands", "Legion", "Normal", "[-1,-1]"}
         },
         [38426] = {
@@ -18023,7 +18190,7 @@ ModelsData = {
             [54321] = {"Solix", "Molten Front", "Cataclysm", "Rare", "[-1,-1]"}
         },
         [40209] = {
-            [65622] = {"Weeping Widow", "The Jade Forest", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [65622] = {"Weeping Widow", "The Jade Forest, The Widow's Wail", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [65653] = {"Weeping Widow", "The Jade Forest", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [40321] = {
@@ -18038,13 +18205,13 @@ ModelsData = {
             [58568] = {"Ashweb Hatchling", "Vale of Eternal Blossoms", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [45288] = {
-            [64323] = {"Echoweb Toxiclaw", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [64323] = {"Echoweb Toxiclaw", "Cavern of Endless Echoes, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [45296] = {
             [66695] = {"Echoweb Hatchling", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [45297] = {
-            [66686] = {"Echoweb Cinderfang", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [66686] = {"Echoweb Cinderfang", "Cavern of Endless Echoes, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [45570] = {
             [75258] = {"Deathweb Hatchling", "Talador", "Warlords of Draenor", "Normal", "[-1,-1]"},
@@ -18057,11 +18224,11 @@ ModelsData = {
         },
         [45906] = {
             [78864] = {"Deathweb Hatchling", "Talador", "Warlords of Draenor", "Normal", "[-1,-1]"},
-            [82356] = {"Deathweb Hatchling", "Talador", "Warlords of Draenor", "Normal", "[-1,-1]"},
+            [82356] = {"Deathweb Hatchling", "Antoran Wastes, Spires of Arak, Talador, Tanaan Jungle", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [125132] = {"Skittering Spiderling", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [46232] = {
-            [50770] = {"Zorn", "Hillsbrad Foothills", "Mists of Pandaria", "Rare", "[-1,-1]"},
+            [50770] = {"Zorn", "Arathi Highlands, Hillsbrad Foothills", "Mists of Pandaria", "Rare", "[-1,-1]"},
             [142301] = {"Venomarus", "Arathi Highlands", "Battle for Azeroth", "Rare Elite", "[-1,-1]"},
             [142438] = {"Venomarus", "Arathi Highlands", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
         },
@@ -18074,7 +18241,7 @@ ModelsData = {
             [97494] = {"Thornback Spinner", "Highmountain", "Legion", "Elite", "[-1,-1]"}
         },
         [46898] = {
-            [65658] = {"Widowspawn", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"},
+            [65658] = {"Widowspawn", "The Jade Forest, The Widow's Wail", "Mists of Pandaria", "Normal", "[0,0]"},
             [84097] = {"Boneshallow Spider", "Ashran", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [84190] = {"Boneshallow Spider", "Ashran", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
@@ -18133,7 +18300,7 @@ ModelsData = {
         [66613] = {
             [100333] = {"Skittering Broodling", "Mardum, the Shattered Abyss", "Legion", "Normal", "[-1,-1]"},
             [107778] = {"Mana-Engorged Spiderling", "Dalaran", "Legion", "Normal", "[-1,-1]"},
-            [111469] = {"Skitterer", "Azsuna", "Legion", "Normal", "[-1,-1]"},
+            [111469] = {"Skitterer", "Azsuna, Broken Shore", "Legion", "Normal", "[-1,-1]"},
             [119721] = {"Hatched Broodling", "Broken Shore", "Legion", "Normal", "[-1,-1]"},
             [121178] = {"Felcrawler Skitterer", "Azsuna", "Legion", "Normal", "[-1,-1]"},
             [121277] = {"Ravenous Broodling", "Broken Shore", "Legion", "Normal", "[-1,-1]"}
@@ -18356,23 +18523,26 @@ ModelsData = {
             [203343] = {"Bone Collector", "Zaralek Cavern", "Dragonflight", "Normal", "[0,0]"}
         },
         [112446] = {
+            taming = {"Disturbed Earth"},
             [214962] = {"Undercrawler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [216249] = {"Understalker Tunneler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [216249] = {"Understalker Tunneler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [218014] = {"Xesh Cavewalker", "City of Threads", "The War Within", "Normal", "[-1,-1]"},
             [219854] = {"Xesh Slasher", "City of Threads", "The War Within", "Normal", "[-1,-1]"},
             [231380] = {"Undercrawler", "Operation: Floodgate", "The War Within", "Elite", "[-1,-1]"}
         },
         [112447] = {
+            taming = {"Disturbed Earth"},
             [214962] = {"Undercrawler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [216249] = {"Understalker Tunneler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
-            [227373] = {"Vicious Spiderling", "Fungal Folly", "The War Within", "Normal", "[-1,-1]"},
+            [216249] = {"Understalker Tunneler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
+            [227373] = {"Vicious Spiderling", "Earthcrawl Mines, Excavation Site 9, Fungal Folly, Kriegval's Rest, Mycomancer Cavern, Nightfall Sanctum, Sidestreet Sluice, Skittering Breach, Tak-Rethan Abyss, The Dread Pit, The Sinkhole, The Spiral Weave, The Underkeep, The Waterworks", "The War Within", "Normal", "[-1,-1]"},
             [229605] = {"Deepwalking Ambusher", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [231380] = {"Undercrawler", "Operation: Floodgate", "The War Within", "Elite", "[-1,-1]"}
         },
         [112448] = {
+            taming = {"Disturbed Earth"},
             [214962] = {"Undercrawler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [215739] = {"Invasive Undercrawler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [216249] = {"Understalker Tunneler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [216249] = {"Understalker Tunneler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [220257] = {"Captured Undercrawler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [222173] = {"Invasive Undercrawler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [222183] = {"Freed Undercrawler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
@@ -18380,9 +18550,10 @@ ModelsData = {
             [231380] = {"Undercrawler", "Operation: Floodgate", "The War Within", "Elite", "[-1,-1]"}
         },
         [112449] = {
+            taming = {"Disturbed Earth"},
             [214962] = {"Undercrawler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [215739] = {"Invasive Undercrawler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [216249] = {"Understalker Tunneler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [216249] = {"Understalker Tunneler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [219857] = {"Xesh Creeper", "City of Threads", "The War Within", "Normal", "[-1,-1]"},
             [220257] = {"Captured Undercrawler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [222173] = {"Invasive Undercrawler", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
@@ -18462,24 +18633,28 @@ ModelsData = {
             [219662] = {"Small Threadling", "Dalaran", "The War Within", "Normal", "[-1,-1]"}
         },
         [116510] = {
+            taming = {"Elusive Creature Lure"},
             [218725] = {"Arachnoid Scrounger", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
-            [223067] = {"Elusive Kaheti Skitterer", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
-            [223076] = {"Elusive Kaheti Undercrawler", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"}
+            [223067] = {"Elusive Kaheti Skitterer", "Azj-Kahet, Hallowfall", "The War Within", "Normal", "[-1,-1]"},
+            [223076] = {"Elusive Kaheti Undercrawler", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"}
         },
         [116511] = {
+            taming = {"Elusive Creature Lure"},
             [218725] = {"Arachnoid Scrounger", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
-            [223067] = {"Elusive Kaheti Skitterer", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
-            [223076] = {"Elusive Kaheti Undercrawler", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"}
+            [223067] = {"Elusive Kaheti Skitterer", "Azj-Kahet, Hallowfall", "The War Within", "Normal", "[-1,-1]"},
+            [223076] = {"Elusive Kaheti Undercrawler", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"}
         },
         [116512] = {
-            [223067] = {"Elusive Kaheti Skitterer", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
-            [223076] = {"Elusive Kaheti Undercrawler", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"}
+            taming = {"Elusive Creature Lure"},
+            [223067] = {"Elusive Kaheti Skitterer", "Azj-Kahet, Hallowfall", "The War Within", "Normal", "[-1,-1]"},
+            [223076] = {"Elusive Kaheti Undercrawler", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"}
         },
         [116513] = {
+            taming = {"Elusive Creature Lure"},
             [216844] = {"Spored Skitterer", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [218012] = {"Silkweaver Hollowguard", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
-            [223067] = {"Elusive Kaheti Skitterer", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
-            [223076] = {"Elusive Kaheti Undercrawler", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"}
+            [223067] = {"Elusive Kaheti Skitterer", "Azj-Kahet, Hallowfall", "The War Within", "Normal", "[-1,-1]"},
+            [223076] = {"Elusive Kaheti Undercrawler", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"}
         },
         [117942] = {
             [216039] = {"Xishorr", "City of Threads", "The War Within", "Rare", "[-1,-1]"}
@@ -18634,7 +18809,7 @@ ModelsData = {
             [193254] = {"Bloodgullet", "Ohn'ahran Plains", "Dragonflight", "Rare", "[-1,-1]"}
         },
         [113164] = {
-            taming = {"Exotic","Fire Owl"},
+            taming = {"Exotic"},
             [210908] = {"Nah'qi", "Emerald Dream", "Dragonflight", "Elite", "[0,0]"}
         },
         [114500] = {
@@ -18769,15 +18944,15 @@ ModelsData = {
     },
     ["Stag"] = {
         [1547] = {
-            [4166] = {"Gazelle", "Northern Barrens", "Vanilla", "Normal", "[0,0]"},
+            [4166] = {"Gazelle", "Camp Narache, Desolace, Mulgore, Northern Barrens, Southern Barrens", "Vanilla", "Normal", "[0,0]"},
             [62763] = {"Rikkilea Strider", "Dread Wastes", "Mists of Pandaria", "Normal", "[0,0]"},
             [134690] = {"Ambermane Gazelle", "Vol'dun", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [1917] = {
-            [3816] = {"Wild Buck", "Darkshore", "Vanilla", "Normal", "[0,0]"},
+            [3816] = {"Wild Buck", "Ashenvale, Darkshore", "Vanilla", "Normal", "[0,0]"},
             [4018] = {"Antlered Courser", "Stonetalon Mountains", "Vanilla", "Normal", "[0,0]"},
             [35096] = {"Weakened Mosshoof Stag", "Azshara", "Cataclysm", "Normal", "[0,0]"},
-            [37786] = {"Brown Stag", "Gilneas", "Cataclysm", "Normal", "[0,null]"},
+            [37786] = {"Brown Stag", "Gilneas, Gilneas City, Ruins of Gilneas City", "Cataclysm", "Normal", "[0,null]"},
             [46970] = {"Highland Elk", "Twilight Highlands", "Cataclysm", "Normal", "[-1,-1]"},
             [47263] = {"Fleeing Stag", "Mount Hyjal", "Cataclysm", "Normal", "[0,0]"},
             [99119] = {"Weakened Mosshoof Stag", "Azshara", "Legion", "Normal", "[0,0]"}
@@ -18796,10 +18971,10 @@ ModelsData = {
             [140735] = {"Whitetail Stag", "Darkshore", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [2193] = {
-            [3248] = {"Barrens Giraffe", "Northern Barrens", "Vanilla", "Normal", "[0,0]"}
+            [3248] = {"Barrens Giraffe", "Northern Barrens, Southern Barrens", "Vanilla", "Normal", "[0,0]"}
         },
         [2237] = {
-            [4166] = {"Gazelle", "Northern Barrens", "Vanilla", "Normal", "[0,0]"},
+            [4166] = {"Gazelle", "Camp Narache, Desolace, Mulgore, Northern Barrens, Southern Barrens", "Vanilla", "Normal", "[0,0]"},
             [45302] = {"Sunchaser Gazelle", "Uldum", "Cataclysm", "Normal", "[0,0]"},
             [58454] = {"Fairlands Gazelle", "Vale of Eternal Blossoms", "Mists of Pandaria", "Normal", "[0,0]"},
             [156788] = {"Fairlands Gazelle", "Vale of Eternal Blossoms", "Battle for Azeroth", "Normal", "[0,0]"}
@@ -18808,7 +18983,7 @@ ModelsData = {
             [37082] = {"Dusthoof Giraffe", "Southern Barrens", "Cataclysm", "Normal", "[0,0]"}
         },
         [4473] = {
-            [3248] = {"Barrens Giraffe", "Northern Barrens", "Vanilla", "Normal", "[0,0]"},
+            [3248] = {"Barrens Giraffe", "Northern Barrens, Southern Barrens", "Vanilla", "Normal", "[0,0]"},
             [18739] = {"Giraffe", "Northern Barrens", "Cataclysm", "Normal", "[0,0]"}
         },
         [8013] = {
@@ -18832,7 +19007,7 @@ ModelsData = {
             [25750] = {"Oil-soaked Caribou", "Borean Tundra", "Wrath of the Lich King", "Normal", "[0,0]"}
         },
         [16872] = {
-            [17200] = {"Moongraze Stag", "Azuremyst Isle", "The Burning Crusade", "Normal", "[0,0]"},
+            [17200] = {"Moongraze Stag", "Azuremyst Isle, The Exodar", "The Burning Crusade", "Normal", "[0,0]"},
             [48918] = {"Winterhorn Stag", "Winterspring", "Cataclysm", "Normal", "[0,-1]"}
         },
         [16873] = {
@@ -18864,7 +19039,7 @@ ModelsData = {
         },
         [23952] = {
             [26616] = {"Blighted Elk", "Dragonblight", "Wrath of the Lich King", "Normal", "[-1,-1]"},
-            [51961] = {"Tirisfal Stag", "Scarlet Monastery Entrance", "Cataclysm", "Normal", "[-1,-1]"}
+            [51961] = {"Tirisfal Stag", "Scarlet Monastery Entrance, Tirisfal Glades", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [25120] = {
             [28129] = {"Longneck Grazer", "Sholazar Basin", "Wrath of the Lich King", "Normal", "[0,0]"}
@@ -18876,13 +19051,13 @@ ModelsData = {
             [93316] = {"Gleamhoof Fawn", "Val'sharah", "Legion", "Normal", "[0,0]"}
         },
         [29316] = {
-            [3248] = {"Barrens Giraffe", "Northern Barrens", "Vanilla", "Normal", "[0,0]"}
+            [3248] = {"Barrens Giraffe", "Northern Barrens, Southern Barrens", "Vanilla", "Normal", "[0,0]"}
         },
         [37779] = {
             [20610] = {"Talbuk Doe", "Netherstorm", "The Burning Crusade", "Normal", "[0,0]"}
         },
         [39166] = {
-            [68250] = {"Unguloxx", "Deeprun Tram", "Mists of Pandaria", "Elite", "[-1,-1]"}
+            [68250] = {"Unguloxx", "Brawl'gar Arena, Deeprun Tram", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [40169] = {
             [58454] = {"Fairlands Gazelle", "Vale of Eternal Blossoms", "Mists of Pandaria", "Normal", "[0,0]"},
@@ -18894,7 +19069,7 @@ ModelsData = {
             [156788] = {"Fairlands Gazelle", "Vale of Eternal Blossoms", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [43948] = {
-            [4166] = {"Gazelle", "Northern Barrens", "Vanilla", "Normal", "[0,0]"},
+            [4166] = {"Gazelle", "Camp Narache, Desolace, Mulgore, Northern Barrens, Southern Barrens", "Vanilla", "Normal", "[0,0]"},
             [62763] = {"Rikkilea Strider", "Dread Wastes", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [43949] = {
@@ -18962,7 +19137,7 @@ ModelsData = {
             [78278] = {"Breezestrider Talbuk", "Nagrand", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [53117] = {
-            [78275] = {"Silverpelt Doe", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"}
+            [78275] = {"Silverpelt Doe", "Shadowmoon Valley, Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [53222] = {
             [76442] = {"Maa'run", "Shadowmoon Valley", "Warlords of Draenor", "Elite", "[-1,-1]"}
@@ -18974,27 +19149,27 @@ ModelsData = {
             [86727] = {"Thorncoat Talbuk", "Nagrand", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [53741] = {
-            [78274] = {"Silverpelt Calf", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"}
+            [78274] = {"Silverpelt Calf", "Shadowmoon Valley, Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [53744] = {
             [82778] = {"Gnarlhoof the Rabid", "Nagrand", "Warlords of Draenor", "Rare", "[-1,-1]"}
         },
         [53764] = {
-            [78275] = {"Silverpelt Doe", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
-            [82031] = {"Pearlfur Grazer", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[0,null]"}
+            [78275] = {"Silverpelt Doe", "Shadowmoon Valley, Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"},
+            [82031] = {"Pearlfur Grazer", "Lunarfall, Shadowmoon Valley", "Warlords of Draenor", "Normal", "[0,null]"}
         },
         [54406] = {
-            [78276] = {"Silverpelt Charger", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
+            [78276] = {"Silverpelt Charger", "Shadowmoon Valley, Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [82513] = {"Void-Touched Charger", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [54407] = {
-            [78274] = {"Silverpelt Calf", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"}
+            [78274] = {"Silverpelt Calf", "Shadowmoon Valley, Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [54409] = {
-            [78274] = {"Silverpelt Calf", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"}
+            [78274] = {"Silverpelt Calf", "Shadowmoon Valley, Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [54411] = {
-            [78276] = {"Silverpelt Charger", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
+            [78276] = {"Silverpelt Charger", "Shadowmoon Valley, Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [82513] = {"Void-Touched Charger", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"}
         },
         [54412] = {
@@ -19027,7 +19202,7 @@ ModelsData = {
             [152092] = {"Bronzefur Elk", "Mechagon", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [63607] = {
-            [96266] = {"Pale Elderhorn", "Highmountain", "Legion", "Normal", "[0,0]"},
+            [96266] = {"Pale Elderhorn", "Highmountain, Thunder Totem", "Legion", "Normal", "[0,0]"},
             [110503] = {"Young Snowstrider", "Highmountain", "Legion", "Normal", "[0,0]"},
             [139790] = {"Highland Proudhorn", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"},
             [152092] = {"Bronzefur Elk", "Mechagon", "Battle for Azeroth", "Normal", "[-1,-1]"}
@@ -19083,7 +19258,7 @@ ModelsData = {
             [128361] = {"Hexcrazed Greatstag", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [128384] = {"Lowlands Greatstag", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [137349] = {"Ashenwood Stag", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
-            [142195] = {"Riverland Stag", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [142195] = {"Riverland Stag", "Boralus, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [144837] = {"Darkshore Stag", "Darkshore", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [70443] = {
@@ -19100,13 +19275,13 @@ ModelsData = {
         },
         [70445] = {
             [127806] = {"Mountain Greatstag", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
-            [142195] = {"Riverland Stag", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [142195] = {"Riverland Stag", "Boralus, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [149138] = {"Trapped Stag", "Darkshore", "Battle for Azeroth", "Normal", "[0,null]"}
         },
         [70446] = {
             [103805] = {"Sablehorn Doe", "Suramar", "Legion", "Normal", "[-1,-1]"},
             [107755] = {"Amberfall Doe", "Stormheim", "Legion", "Normal", "[0,0]"},
-            [126709] = {"Noblehoof Doe", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [126709] = {"Noblehoof Doe", "Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [128385] = {"Lowlands Doe", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
             [129764] = {"Hexcrazed Doe", "Drustvar", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [137336] = {"Ashenwood Doe", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"},
@@ -19130,7 +19305,7 @@ ModelsData = {
         },
         [70449] = {
             [108891] = {"Runewood Doe", "Stormheim", "Legion", "Normal", "[0,0]"},
-            [126709] = {"Noblehoof Doe", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
+            [126709] = {"Noblehoof Doe", "Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
             [127807] = {"Mountain Doe", "Drustvar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [70450] = {
@@ -19245,7 +19420,7 @@ ModelsData = {
         },
         [79059] = {
             [126708] = {"Noblehoof Stag", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"},
-            [142195] = {"Riverland Stag", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"}
+            [142195] = {"Riverland Stag", "Boralus, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [80884] = {
             [129835] = {"Gorehorn", "Drustvar", "Battle for Azeroth", "Rare", "[-1,-1]"}
@@ -19312,7 +19487,7 @@ ModelsData = {
             [170674] = {"Runestag", "Ardenweald", "Shadowlands", "Normal", "[0,0]"}
         },
         [93786] = {
-            [155238] = {"Guardian of the Leaf", "Skoldus Hall", "Shadowlands", "Elite", "[-1,-1]"},
+            [155238] = {"Guardian of the Leaf", "Coldheart Interstitia, Skoldus Hall, The Adamant Vaults, The Fracture Chambers, The Soulforges", "Shadowlands", "Elite", "[-1,-1]"},
             [159030] = {"Runestag", "Ardenweald", "Shadowlands", "Normal", "[0,0]"},
             [165907] = {"Runestag", "Ardenweald", "Shadowlands", "Normal", "[0,0]"},
             [170145] = {"Runestag", "Ardenweald", "Shadowlands", "Normal", "[0,0]"},
@@ -19431,11 +19606,12 @@ ModelsData = {
             [195530] = {"Proudhorn Wanderer", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"}
         },
         [100342] = {
+            taming = {"Elusive Creature Bait"},
             [187727] = {"Rustpine Bruffalon", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [190322] = {"Highhorn Bull", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [193429] = {"Ravaged Bruffalon", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [193738] = {"Forkriver Bull", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [193892] = {"Elusive Bull", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
+            [193892] = {"Elusive Bull", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [193968] = {"Cliffhoof Bruffalon", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [194220] = {"Pinefrost Bruffalon", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [194272] = {"Highlands Bruffalon", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
@@ -19459,14 +19635,14 @@ ModelsData = {
         [104647] = {
             [181432] = {"Vorquin", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [187336] = {"Time-Charged Vorquin", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [191203] = {"Pleasant Hart", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
+            [191203] = {"Pleasant Hart", "Ohn'ahran Plains, Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [191204] = {"Pleasant Yearling", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [191748] = {"Burnished Ledgehopper", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [193752] = {"Elegant Vorquin", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [195047] = {"Tranquil Vorquin", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [195048] = {"Sparring Vorquin", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [196517] = {"Serene Vorquin", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [196632] = {"Reservoir Dapple", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
+            [196632] = {"Reservoir Dapple", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[0,0]"},
             [197438] = {"Mountainside Dapple", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [198387] = {"Pleasant Hart", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [198388] = {"Pleasant Yearling", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
@@ -19492,7 +19668,7 @@ ModelsData = {
             [191624] = {"Tranquil Vorquin", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192639] = {"Skittish Herdmare", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [196517] = {"Serene Vorquin", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [196632] = {"Reservoir Dapple", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
+            [196632] = {"Reservoir Dapple", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[0,0]"},
             [197438] = {"Mountainside Dapple", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [198416] = {"Tyrhold Broodmare", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [199777] = {"Azure Vorquin", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
@@ -19565,7 +19741,7 @@ ModelsData = {
             [188294] = {"Lushmeadow Grazer", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [190944] = {"Vorquin Strider", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
             [191317] = {"Creekside Grazer", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [192640] = {"Mountain Herdstallion", "Thaldraszus", "Dragonflight", "Normal", "[-1,-1]"},
+            [192640] = {"Mountain Herdstallion", "Thaldraszus, Valdrakken", "Dragonflight", "Normal", "[-1,-1]"},
             [193966] = {"Seaspan Runner", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
         },
         [110014] = {
@@ -19605,12 +19781,14 @@ ModelsData = {
             [216698] = {"Efflorescent Gladehind", "Amirdrassil", "Dragonflight", "Normal", "[0,0]"}
         },
         [112903] = {
+            taming = {"Elusive Creature Bait"},
             [210283] = {"Shoreline Gladehart", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [210775] = {"Fenblossom Gladehart", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [212069] = {"Elusive Swifthoof Gladehart", "Emerald Dream", "Dragonflight", "Elite", "[]"},
             [216699] = {"Efflorescent Gladehart", "Amirdrassil", "Dragonflight", "Normal", "[0,0]"}
         },
         [112904] = {
+            taming = {"Elusive Creature Bait"},
             [208231] = {"Bough Gladehart", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [210284] = {"Shoreline Gladehind", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [210774] = {"Fenblossom Gladehind", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
@@ -19622,6 +19800,7 @@ ModelsData = {
             [216699] = {"Efflorescent Gladehart", "Amirdrassil", "Dragonflight", "Normal", "[0,0]"}
         },
         [112905] = {
+            taming = {"Elusive Creature Bait"},
             [208231] = {"Bough Gladehart", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [210284] = {"Shoreline Gladehind", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [210774] = {"Fenblossom Gladehind", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
@@ -19634,6 +19813,7 @@ ModelsData = {
             [216698] = {"Efflorescent Gladehind", "Amirdrassil", "Dragonflight", "Normal", "[0,0]"}
         },
         [112906] = {
+            taming = {"Elusive Creature Bait"},
             [207620] = {"Resilient Gladehart", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [207785] = {"Irate Gladehart", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [210283] = {"Shoreline Gladehart", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
@@ -19643,6 +19823,7 @@ ModelsData = {
             [216699] = {"Efflorescent Gladehart", "Amirdrassil", "Dragonflight", "Normal", "[0,0]"}
         },
         [112907] = {
+            taming = {"Elusive Creature Bait"},
             [208231] = {"Bough Gladehart", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [210596] = {"Verdant Gladehart", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [210774] = {"Fenblossom Gladehind", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
@@ -19654,6 +19835,7 @@ ModelsData = {
             [216699] = {"Efflorescent Gladehart", "Amirdrassil", "Dragonflight", "Normal", "[0,0]"}
         },
         [112908] = {
+            taming = {"Elusive Creature Bait"},
             [207621] = {"Watchful Gladehind", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [207784] = {"Distressed Gladehind", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [208231] = {"Bough Gladehart", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
@@ -19688,7 +19870,7 @@ ModelsData = {
         },
         [114303] = {
             [212702] = {"Mycotic Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
-            [214764] = {"Rustmane Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
+            [214764] = {"Rustmane Shalehorn", "Dornogal, Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [224588] = {"Spooked Cow", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [226115] = {"Upland Shalehorn", "Hallowfall", "The War Within", "Normal", "[0,0]"},
             [226116] = {"Upland Shalehorn", "Hallowfall", "The War Within", "Normal", "[0,0]"}
@@ -19716,45 +19898,50 @@ ModelsData = {
             [229117] = {"Highrock Cow", "Hallowfall", "The War Within", "Normal", "[0,0]"}
         },
         [114652] = {
+            taming = {"Elusive Creature Lure"},
             [212701] = {"Elder Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [219263] = {"Warphorn", "Isle of Dorn", "The War Within", "Rare", "[-1,-1]"},
-            [223042] = {"Elusive Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
-            [223079] = {"Elusive Swifthoof Shalehorn", "Isle of Dorn", "The War Within", "Elite", "[-1,-1]"},
+            [223042] = {"Elusive Shalehorn", "Hallowfall, Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [223079] = {"Elusive Swifthoof Shalehorn", "Hallowfall, Isle of Dorn", "The War Within", "Elite", "[-1,-1]"},
             [228120] = {"Wary Bull", "Hallowfall", "The War Within", "Normal", "[-1,-1]"}
         },
         [114653] = {
+            taming = {"Elusive Creature Lure"},
             [212701] = {"Elder Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [212704] = {"Mycotic Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
-            [214973] = {"Shalehorn Bull", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
+            [214973] = {"Shalehorn Bull", "Dornogal, Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [217121] = {"Brightland Hornface", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [222618] = {"Alert Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
-            [223042] = {"Elusive Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
-            [223079] = {"Elusive Swifthoof Shalehorn", "Isle of Dorn", "The War Within", "Elite", "[-1,-1]"},
+            [223042] = {"Elusive Shalehorn", "Hallowfall, Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [223079] = {"Elusive Swifthoof Shalehorn", "Hallowfall, Isle of Dorn", "The War Within", "Elite", "[-1,-1]"},
             [227934] = {"Penumbral Bull", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [228000] = {"Penumbral Bull", "Hallowfall", "The War Within", "Normal", "[-1,-1]"}
         },
         [114654] = {
+            taming = {"Elusive Creature Lure"},
             [212701] = {"Elder Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [218188] = {"Meandering Gorger", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
-            [223042] = {"Elusive Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
-            [223079] = {"Elusive Swifthoof Shalehorn", "Isle of Dorn", "The War Within", "Elite", "[-1,-1]"},
+            [223042] = {"Elusive Shalehorn", "Hallowfall, Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [223079] = {"Elusive Swifthoof Shalehorn", "Hallowfall, Isle of Dorn", "The War Within", "Elite", "[-1,-1]"},
             [224551] = {"Immature Shalehorn", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [226118] = {"Upland Bull", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [226120] = {"Upland Bull", "Hallowfall", "The War Within", "Normal", "[-1,-1]"}
         },
         [114655] = {
+            taming = {"Elusive Creature Lure"},
             [212701] = {"Elder Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [221786] = {"Pride of Beledar", "Hallowfall", "The War Within", "Rare", "[-1,-1]"},
-            [223042] = {"Elusive Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
-            [223079] = {"Elusive Swifthoof Shalehorn", "Isle of Dorn", "The War Within", "Elite", "[-1,-1]"},
+            [223042] = {"Elusive Shalehorn", "Hallowfall, Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [223079] = {"Elusive Swifthoof Shalehorn", "Hallowfall, Isle of Dorn", "The War Within", "Elite", "[-1,-1]"},
             [224586] = {"Daunted Bull", "Hallowfall", "The War Within", "Normal", "[0,0]"}
         },
         [114656] = {
+            taming = {"Elusive Creature Lure"},
             [212701] = {"Elder Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [217121] = {"Brightland Hornface", "Isle of Dorn", "The War Within", "Normal", "[0,0]"},
             [221024] = {"Enraged Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
-            [223042] = {"Elusive Shalehorn", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
-            [223079] = {"Elusive Swifthoof Shalehorn", "Isle of Dorn", "The War Within", "Elite", "[-1,-1]"},
+            [223042] = {"Elusive Shalehorn", "Hallowfall, Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [223079] = {"Elusive Swifthoof Shalehorn", "Hallowfall, Isle of Dorn", "The War Within", "Elite", "[-1,-1]"},
             [224099] = {"Shalehorn Bull", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [224410] = {"Shalehorn Bull", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [228450] = {"Highrock Bull", "Hallowfall", "The War Within", "Normal", "[-1,-1]"}
@@ -19945,6 +20132,7 @@ ModelsData = {
             [153096] = {"Animated Warden", "Vale of Eternal Blossoms", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [42537] = {
+            taming = {"Exotic"},
             [64186] = {"Stonebound Quilen", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [42644] = {
@@ -19960,6 +20148,7 @@ ModelsData = {
             [63510] = {"Wulon", "Vale of Eternal Blossoms", "Mists of Pandaria", "Rare", "[-1,-1]"}
         },
         [43333] = {
+            taming = {"Exotic"},
             [64186] = {"Stonebound Quilen", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [44513] = {
@@ -19976,11 +20165,12 @@ ModelsData = {
             [50843] = {"Portent", "Vale of Eternal Blossoms", "Mists of Pandaria", "Elite", "[-1,-1]"}
         },
         [45431] = {
+            taming = {"Exotic"},
             [64686] = {"Granite Fragment", "Vale of Eternal Blossoms", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [45432] = {
             taming = {"Exotic"},
-            [60573] = {"Terracotta Defender", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [60573] = {"Terracotta Defender", "Kun-Lai Summit, Tomb of Conquerors", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [45433] = {
             taming = {"Exotic"},
@@ -20071,10 +20261,10 @@ ModelsData = {
         [93165] = {
             taming = {"Exotic","Gargon"},
             [159177] = {"Loyal Granitefur", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
-            [159323] = {"Stoneward Trampler", "Torghast, Tower of the Damned", "Shadowlands", "Rare Elite", "[-1,-1]"},
+            [159323] = {"Stoneward Trampler", "The Upper Reaches, Torghast, Tower of the Damned", "Shadowlands", "Rare Elite", "[-1,-1]"},
             [159441] = {"Rockbreaker", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
             [178050] = {"Loyal Granitefur", "Revendreth", "Shadowlands", "Normal", "[0,0]"},
-            [185126] = {"Stoneward Trampler", "Skoldus Hall", "Shadowlands", "Rare Elite", "[-1,-1]"}
+            [185126] = {"Stoneward Trampler", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Adamant Vaults, The Soulforges, The Upper Reaches", "Shadowlands", "Rare Elite", "[-1,-1]"}
         },
         [93166] = {
             taming = {"Exotic","Gargon"},
@@ -20092,10 +20282,11 @@ ModelsData = {
             [160402] = {"Grond", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
             [168457] = {"Stonewall Gargon", "Sanguine Depths", "Shadowlands", "Normal", "[-1,-1]"},
             [171455] = {"Stonewall Gargon", "Sanguine Depths", "Shadowlands", "Normal", "[-1,-1]"},
-            [171651] = {"Uninvited Intimidator", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
+            [171651] = {"Uninvited Intimidator", "Revendreth, The Ember Court", "Shadowlands", "Normal", "[-1,-1]"},
             [176117] = {"Silent Proctor", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"}
         },
         [94496] = {
+            taming = {"Exotic","Gargon"},
             [172785] = {"Unfinished Granitefur", "Revendreth", "Shadowlands", "Normal", "[0,0]"}
         },
         [95362] = {
@@ -20134,7 +20325,7 @@ ModelsData = {
             [168457] = {"Stonewall Gargon", "Sanguine Depths", "Shadowlands", "Normal", "[-1,-1]"},
             [169771] = {"Soul Monitor", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
             [171455] = {"Stonewall Gargon", "Sanguine Depths", "Shadowlands", "Normal", "[-1,-1]"},
-            [171651] = {"Uninvited Intimidator", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"},
+            [171651] = {"Uninvited Intimidator", "Revendreth, The Ember Court", "Shadowlands", "Normal", "[-1,-1]"},
             [176106] = {"Carved Intimidator", "Revendreth", "Shadowlands", "Normal", "[-1,-1]"}
         },
         [96119] = {
@@ -20167,7 +20358,8 @@ ModelsData = {
             [167139] = {"Geza", "Revendreth", "Shadowlands", "Normal", "[]"}
         },
         [97710] = {
-            [171633] = {"Uninvited Bonecrusher", "Revendreth", "Shadowlands", "Elite", "[-1,-1]"}
+            taming = {"Exotic","Gargon"},
+            [171633] = {"Uninvited Bonecrusher", "Revendreth, The Ember Court", "Shadowlands", "Elite", "[-1,-1]"}
         }
     },
     ["Tallstrider"] = {
@@ -20187,12 +20379,12 @@ ModelsData = {
             [39337] = {"Wayward Plainstrider", "Durotar", "Cataclysm", "Normal", "[0,0]"}
         },
         [1220] = {
-            [2956] = {"Adult Plainstrider", "Thunder Bluff", "Vanilla", "Normal", "[0,0]"},
+            [2956] = {"Adult Plainstrider", "Mulgore, Thunder Bluff", "Vanilla", "Normal", "[0,0]"},
             [24740] = {"Goodie", "Ashenvale", "The Burning Crusade", "Normal", "[1,-1]"},
             [39337] = {"Wayward Plainstrider", "Durotar", "Cataclysm", "Normal", "[0,0]"}
         },
         [1221] = {
-            [2957] = {"Elder Plainstrider", "Thunder Bluff", "Vanilla", "Normal", "[0,0]"}
+            [2957] = {"Elder Plainstrider", "Mulgore, Thunder Bluff", "Vanilla", "Normal", "[0,0]"}
         },
         [1281] = {
             [22807] = {"Lost Torranche", "Terokkar Forest", "The Burning Crusade", "Normal", "[-1,-1]"}
@@ -20388,7 +20580,7 @@ ModelsData = {
         },
         [104104] = {
             [183595] = {"Primal Hornstrider", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [192176] = {"Hornstrider Hatchling", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [192176] = {"Hornstrider Hatchling", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [193308] = {"Hornstrider Chick", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [194673] = {"Sprightly Hornstrider", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [195458] = {"Sprightly Hornstrider", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
@@ -20396,7 +20588,7 @@ ModelsData = {
         },
         [104105] = {
             [183595] = {"Primal Hornstrider", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [192176] = {"Hornstrider Hatchling", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [192176] = {"Hornstrider Hatchling", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [193308] = {"Hornstrider Chick", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [194673] = {"Sprightly Hornstrider", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [195458] = {"Sprightly Hornstrider", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
@@ -20404,7 +20596,7 @@ ModelsData = {
         },
         [104106] = {
             [183595] = {"Primal Hornstrider", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
-            [192176] = {"Hornstrider Hatchling", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [192176] = {"Hornstrider Hatchling", "Ohn'ahran Plains, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [193308] = {"Hornstrider Chick", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [194673] = {"Sprightly Hornstrider", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [195458] = {"Sprightly Hornstrider", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
@@ -20551,10 +20743,10 @@ ModelsData = {
         },
         [5126] = {
             [3653] = {"Kresh", "Wailing Caverns", "Vanilla", "Elite", "[0,0]"},
-            [102515] = {"Saltbeak Snapper", "Val'sharah", "Legion", "Normal", "[-1,-1]"}
+            [102515] = {"Saltbeak Snapper", "Gloaming Reef, Val'sharah", "Legion", "Normal", "[-1,-1]"}
         },
         [6368] = {
-            [3461] = {"Oasis Snapjaw", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"},
+            [3461] = {"Oasis Snapjaw", "Northern Barrens, Southern Barrens", "Vanilla", "Normal", "[-1,-1]"},
             [13599] = {"Stolid Snapjaw", "Maraudon", "Vanilla", "Normal", "[0,0]"}
         },
         [7046] = {
@@ -20568,7 +20760,7 @@ ModelsData = {
             [4397] = {"Mudrock Spikeshell", "Dustwallow Marsh", "Vanilla", "Normal", "[0,0]"}
         },
         [7837] = {
-            [51014] = {"Terrapis", "Duskwood", "Mists of Pandaria", "Rare", "[-1,-1]"}
+            [51014] = {"Terrapis", "Duskwood, Elwynn Forest", "Mists of Pandaria", "Rare", "[-1,-1]"}
         },
         [14661] = {
             [25482] = {"Sand Turtle", "Borean Tundra", "Wrath of the Lich King", "Normal", "[0,0]"}
@@ -20694,11 +20886,11 @@ ModelsData = {
             [113125] = {"Lowland Hardshell", "Suramar", "Legion", "Normal", "[-1,-1]"}
         },
         [45490] = {
-            [127626] = {"Freshwater Snapper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"}
+            [127626] = {"Freshwater Snapper", "Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [45491] = {
-            [113189] = {"Coastal Snapper", "Azsuna", "Legion", "Normal", "[0,0]"},
-            [127626] = {"Freshwater Snapper", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"}
+            [113189] = {"Coastal Snapper", "Azsuna, Suramar", "Legion", "Normal", "[0,0]"},
+            [127626] = {"Freshwater Snapper", "Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [45691] = {
             [58431] = {"Bulgeback Tortoise", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"}
@@ -20723,21 +20915,20 @@ ModelsData = {
             [56833] = {"Krosh", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [47799] = {
-            [67703] = {"Slateshell Wanderer", "Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"},
-            [156376] = {"River Terrapin", "Bastion", "Shadowlands", "Normal", "[1,1]"},
+            [67703] = {"Slateshell Wanderer", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"},
             [169124] = {"Glimmerpool Terrapin", "Bastion", "Shadowlands", "Normal", "[0,0]"},
             [169826] = {"Glimmerpool Snapjaw", "Bastion", "Shadowlands", "Normal", "[0,0]"},
             [170334] = {"Glimmerpool Snapper", "Bastion", "Shadowlands", "Normal", "[0,0]"}
         },
         [47800] = {
-            [67703] = {"Slateshell Wanderer", "Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"}
+            [67703] = {"Slateshell Wanderer", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [47803] = {
-            [67763] = {"Slateshell Ancient", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [67763] = {"Slateshell Ancient", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [131520] = {"Kulett the Ornery", "Tiragarde Sound", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [47804] = {
-            [67763] = {"Slateshell Ancient", "Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [67763] = {"Slateshell Ancient", "Fall of Shan Bu, Isle of Thunder", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [47809] = {
             [69998] = {"Goda", "Isle of Thunder", "Mists of Pandaria", "Rare Elite", "[-1,-1]"}
@@ -20840,7 +21031,7 @@ ModelsData = {
             [210782] = {"Singing Shore Snapper", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [211184] = {"Petalmuncher Tortoise", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [212143] = {"Cerulean Greyback", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
-            [214214] = {"Vigilant Turtle", "Dragon Isles", "Dragonflight", "Normal", "[0,null]"},
+            [214214] = {"Vigilant Turtle", "Amirdrassil, Dragon Isles", "Dragonflight", "Normal", "[0,null]"},
             [240676] = {"Cautious Turtle", "Atal'Aman", "Midnight", "Normal", "[0,0]"}
         },
         [105962] = {
@@ -20856,7 +21047,7 @@ ModelsData = {
             [210195] = {"Cantankerous Turtle", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [210449] = {"Slumberpod Turtle", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [210782] = {"Singing Shore Snapper", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
-            [214214] = {"Vigilant Turtle", "Dragon Isles", "Dragonflight", "Normal", "[0,null]"},
+            [214214] = {"Vigilant Turtle", "Amirdrassil, Dragon Isles", "Dragonflight", "Normal", "[0,null]"},
             [250163] = {"Spikeshell Snapper", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
         },
         [105963] = {
@@ -20865,7 +21056,7 @@ ModelsData = {
             [191404] = {"Cascadia Fickleshell", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [192678] = {"Clearwater Snapper", "Ohn'ahran Plains", "Dragonflight", "Normal", "[-1,-1]"},
             [194045] = {"Coastal Scaleshell", "The Azure Span", "Dragonflight", "Normal", "[0,0]"},
-            [197866] = {"Dragonshell Tyrant", "The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
+            [197866] = {"Dragonshell Tyrant", "Thaldraszus, The Azure Span", "Dragonflight", "Normal", "[-1,-1]"},
             [210195] = {"Cantankerous Turtle", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
             [210272] = {"Lucidshell Tortoise", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [210449] = {"Slumberpod Turtle", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
@@ -20873,7 +21064,7 @@ ModelsData = {
             [210826] = {"Blueslate Tortoise", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [211145] = {"Dewdrop Tortoise", "Emerald Dream", "Dragonflight", "Normal", "[0,0]"},
             [212143] = {"Cerulean Greyback", "Emerald Dream", "Dragonflight", "Normal", "[-1,-1]"},
-            [214215] = {"Vigilant Snapper", "Dragon Isles", "Dragonflight", "Normal", "[-1,null]"},
+            [214215] = {"Vigilant Snapper", "Amirdrassil, Dragon Isles", "Dragonflight", "Normal", "[-1,null]"},
             [240676] = {"Cautious Turtle", "Atal'Aman", "Midnight", "Normal", "[0,0]"}
         },
         [105964] = {
@@ -21069,7 +21260,7 @@ ModelsData = {
             [15327] = {"Hive'Zara Stinger", "Ruins of Ahn'Qiraj", "Vanilla", "Elite", "[-1,-1]"}
         },
         [11088] = {
-            [6554] = {"Gorishi Stinger", "Un'Goro Crater", "Vanilla", "Normal", "[-1,-1]"},
+            [6554] = {"Gorishi Stinger", "The Slithering Scar, Un'Goro Crater", "Vanilla", "Normal", "[-1,-1]"},
             [11727] = {"Hive'Zora Wasp", "Silithus", "Vanilla", "Normal", "[-1,-1]"}
         },
         [11090] = {
@@ -21105,8 +21296,8 @@ ModelsData = {
             [18132] = {"Umbraglow Stinger", "Zangarmarsh", "The Burning Crusade", "Normal", "[-1,-1]"},
             [59351] = {"Emerald Fenfly", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"},
             [59768] = {"Jadeglow Wasp", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"},
-            [173114] = {"Invasive Decayfly", "Torghast, Tower of the Damned", "Shadowlands", "Rare Elite", "[-1,-1]"},
-            [185112] = {"Invasive Decayfly", "Skoldus Hall", "Shadowlands", "Rare Elite", "[-1,-1]"}
+            [173114] = {"Invasive Decayfly", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Adamant Vaults, The Fracture Chambers, The Soulforges, The Upper Reaches, Torghast, Tower of the Damned", "Shadowlands", "Rare Elite", "[-1,-1]"},
+            [185112] = {"Invasive Decayfly", "Coldheart Interstitia, Mort'regar, Skoldus Hall, The Adamant Vaults, The Soulforges, The Upper Reaches", "Shadowlands", "Rare Elite", "[-1,-1]"}
         },
         [18723] = {
             [20197] = {"Bogflare Needler", "Zangarmarsh", "The Burning Crusade", "Normal", "[-1,-1]"},
@@ -21130,7 +21321,7 @@ ModelsData = {
             [59351] = {"Emerald Fenfly", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"}
         },
         [20042] = {
-            [66194] = {"Waste Scavenger", "Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [66194] = {"Waste Scavenger", "Dread Wastes, Townlong Steppes", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [25857] = {
             [14661] = {"Stinglasher", "Feralas", "Vanilla", "Normal", "[-1,-1]"},
@@ -21389,8 +21580,9 @@ ModelsData = {
             [130443] = {"Hivemother Kraxi", "Vol'dun", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [81964] = {
+            taming = {"Siren's Sting"},
             [141901] = {"Bumbling Bee", "Stormsong Valley", "Battle for Azeroth", "Normal", "[0,0]"},
-            [143510] = {"Pollen-Coated Drone", "Mechagon", "Battle for Azeroth", "Normal", "[-1,-1]"},
+            [143510] = {"Pollen-Coated Drone", "Boralus, Drustvar, Mechagon, Stormsong Valley, Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
             [190543] = {"Bothersome Bee", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [193809] = {"Productive Pollinator", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [200815] = {"Honeyfreeze Buzzer", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
@@ -21565,7 +21757,8 @@ ModelsData = {
             [224096] = {"Agitated Hive Worker", "Isle of Dorn", "The War Within", "Normal", "[0,0]"}
         },
         [114802] = {
-            [216288] = {"Pupating Stinger", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            taming = {"Disturbed Earth"},
+            [216288] = {"Pupating Stinger", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [250548] = {"Venomous Netherwasp", "Voidstorm", "Midnight", "Normal", "[-1,-1]"},
             [253620] = {"Netherwasp Drone", "Voidstorm", "Midnight", "Normal", "[0,0]"},
             [254681] = {"Venomous Netherwasp", "Voidstorm", "Midnight", "Normal", "[-1,-1]"},
@@ -21591,7 +21784,8 @@ ModelsData = {
             [221126] = {"Tephratennae", "Isle of Dorn", "The War Within", "Rare Elite", "[-1,-1]"}
         },
         [115073] = {
-            [216288] = {"Pupating Stinger", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            taming = {"Disturbed Earth"},
+            [216288] = {"Pupating Stinger", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [223178] = {"Shacklefang Hornet", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [224501] = {"Berrybuzz Stinger", "Hallowfall", "The War Within", "Normal", "[0,0]"},
             [226128] = {"Berrybuzz Harvester", "Hallowfall", "The War Within", "Normal", "[0,0]"},
@@ -21627,7 +21821,8 @@ ModelsData = {
             [257946] = {"Stinger Hatchling", "Zul'Aman", "Midnight", "Normal", "[0,0]"}
         },
         [115078] = {
-            [216288] = {"Pupating Stinger", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            taming = {"Disturbed Earth"},
+            [216288] = {"Pupating Stinger", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [244618] = {"Hunting Netherwasp", "Voidstorm", "Midnight", "Normal", "[-1,-1]"},
             [250127] = {"Mudcoat Borer", "Zul'Aman", "Midnight", "Normal", "[-1,-1]"},
             [250548] = {"Venomous Netherwasp", "Voidstorm", "Midnight", "Normal", "[-1,-1]"},
@@ -21636,7 +21831,8 @@ ModelsData = {
             [259955] = {"Murderous Mudcoat", "Zul'Aman", "Midnight", "Normal", "[-1,-1]"}
         },
         [115079] = {
-            [216288] = {"Pupating Stinger", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            taming = {"Disturbed Earth"},
+            [216288] = {"Pupating Stinger", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [252683] = {"Scavenging Netherwasp", "Slayer's Rise", "Midnight", "Normal", "[-1,-1]"},
             [253620] = {"Netherwasp Drone", "Voidstorm", "Midnight", "Normal", "[0,0]"},
             [254099] = {"Scavenging Netherwasp", "Slayer's Rise", "Midnight", "Normal", "[]"},
@@ -21644,8 +21840,9 @@ ModelsData = {
             [257221] = {"Hatesting Netherwasp", "Voidstorm", "Midnight", "Normal", "[-1,-1]"}
         },
         [115080] = {
+            taming = {"Disturbed Earth"},
             [216065] = {"Bloatrot Stinger", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
-            [216288] = {"Pupating Stinger", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            [216288] = {"Pupating Stinger", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [220502] = {"Invasive Sweet-Sting", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [223178] = {"Shacklefang Hornet", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [224501] = {"Berrybuzz Stinger", "Hallowfall", "The War Within", "Normal", "[0,0]"},
@@ -21658,7 +21855,8 @@ ModelsData = {
             [257150] = {"Spitesting Netherwasp", "Voidstorm", "Midnight", "Normal", "[-1,-1]"}
         },
         [115081] = {
-            [216288] = {"Pupating Stinger", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"},
+            taming = {"Disturbed Earth"},
+            [216288] = {"Pupating Stinger", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [250127] = {"Mudcoat Borer", "Zul'Aman", "Midnight", "Normal", "[-1,-1]"},
             [252683] = {"Scavenging Netherwasp", "Slayer's Rise", "Midnight", "Normal", "[-1,-1]"},
             [253620] = {"Netherwasp Drone", "Voidstorm", "Midnight", "Normal", "[0,0]"},
@@ -21672,6 +21870,7 @@ ModelsData = {
             [216078] = {"Fallowbarb", "Hallowfall", "The War Within", "Normal", "[-1,-1]"}
         },
         [115083] = {
+            taming = {"Elusive Creature Lure"},
             [224958] = {"Elusive Gloomstinger", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [224959] = {"Elusive Terrorwing Stinger", "Hallowfall", "The War Within", "Elite", "[-1,-1]"},
             [227282] = {"Sweetstinger Soldier", "Hallowfall", "The War Within", "Normal", "[-1,-1]"}
@@ -21815,7 +22014,7 @@ ModelsData = {
         },
         [46086] = {
             taming = {"Exotic"},
-            [58067] = {"Jungle Skitterer", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
+            [58067] = {"Jungle Skitterer", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
             [112334] = {"Frenzied Riverbug", "Suramar", "Legion", "Normal", "[-1,-1]"}
         },
         [58406] = {
@@ -21838,7 +22037,7 @@ ModelsData = {
             taming = {"Exotic"},
             [183541] = {"Dragonfly", "Thaldraszus", "Dragonflight", "Normal", "[]"},
             [184855] = {"Salty Skitterfly", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [185644] = {"Wispy Skimmer", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [185644] = {"Wispy Skimmer", "Ohn'ahran Plains, Thaldraszus, The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [189614] = {"Grimy Skimmer", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [191365] = {"Proto-Dragonfly", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [193302] = {"Proto-Dragonfly", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
@@ -21847,7 +22046,7 @@ ModelsData = {
             taming = {"Exotic"},
             [183541] = {"Dragonfly", "Thaldraszus", "Dragonflight", "Normal", "[]"},
             [184855] = {"Salty Skitterfly", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [185644] = {"Wispy Skimmer", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [185644] = {"Wispy Skimmer", "Ohn'ahran Plains, Thaldraszus, The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [189368] = {"Oasis Damselfly", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [189614] = {"Grimy Skimmer", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [191365] = {"Proto-Dragonfly", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
@@ -21858,7 +22057,7 @@ ModelsData = {
         [103531] = {
             taming = {"Exotic"},
             [183541] = {"Dragonfly", "Thaldraszus", "Dragonflight", "Normal", "[]"},
-            [185644] = {"Wispy Skimmer", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [185644] = {"Wispy Skimmer", "Ohn'ahran Plains, Thaldraszus, The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [189368] = {"Oasis Damselfly", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [189614] = {"Grimy Skimmer", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [192376] = {"Sprightly Darner", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
@@ -21867,7 +22066,7 @@ ModelsData = {
         [103532] = {
             taming = {"Exotic"},
             [183541] = {"Dragonfly", "Thaldraszus", "Dragonflight", "Normal", "[]"},
-            [185644] = {"Wispy Skimmer", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [185644] = {"Wispy Skimmer", "Ohn'ahran Plains, Thaldraszus, The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [189614] = {"Grimy Skimmer", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [191365] = {"Proto-Dragonfly", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [193302] = {"Proto-Dragonfly", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
@@ -21875,7 +22074,7 @@ ModelsData = {
         [103533] = {
             taming = {"Exotic"},
             [183541] = {"Dragonfly", "Thaldraszus", "Dragonflight", "Normal", "[]"},
-            [185644] = {"Wispy Skimmer", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
+            [185644] = {"Wispy Skimmer", "Ohn'ahran Plains, Thaldraszus, The Forbidden Reach, The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [189368] = {"Oasis Damselfly", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [189614] = {"Grimy Skimmer", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [192376] = {"Sprightly Darner", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
@@ -21906,12 +22105,12 @@ ModelsData = {
         },
         [103841] = {
             taming = {"Exotic"},
-            [189051] = {"Reservoir Darter", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
+            [189051] = {"Reservoir Darter", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[0,0]"},
             [198592] = {"Hot Springs Damselfly", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
         },
         [103842] = {
             taming = {"Exotic"},
-            [189051] = {"Reservoir Darter", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
+            [189051] = {"Reservoir Darter", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[0,0]"},
             [198592] = {"Hot Springs Damselfly", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"}
         },
         [113119] = {
@@ -21953,7 +22152,7 @@ ModelsData = {
     ["Waterfowl"] = {
         [39553] = {
             [55015] = {"Whitefeather Crane", "The Wandering Isle", "Mists of Pandaria", "Normal", "[]"},
-            [56752] = {"Whitefisher Crane", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
+            [56752] = {"Whitefisher Crane", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
             [58450] = {"White Crane", "Vale of Eternal Blossoms", "Mists of Pandaria", "Normal", "[0,0]"},
             [58694] = {"Ink-Tipped Crane", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"},
             [89014] = {"Grassland Heron", "Azsuna", "Legion", "Normal", "[0,0]"},
@@ -21967,7 +22166,7 @@ ModelsData = {
         },
         [39554] = {
             [55015] = {"Whitefeather Crane", "The Wandering Isle", "Mists of Pandaria", "Normal", "[]"},
-            [56752] = {"Whitefisher Crane", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
+            [56752] = {"Whitefisher Crane", "Krasarang Wilds, Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
             [58450] = {"White Crane", "Vale of Eternal Blossoms", "Mists of Pandaria", "Normal", "[0,0]"},
             [72761] = {"Windfeather Nestkeeper", "Timeless Isle", "Mists of Pandaria", "Normal", "[0,0]"},
             [156780] = {"White Crane", "Vale of Eternal Blossoms", "Battle for Azeroth", "Normal", "[0,0]"}
@@ -21975,14 +22174,14 @@ ModelsData = {
         [39725] = {
             [59665] = {"Crested Bandit Crane", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"},
             [63584] = {"Corrupted Crane", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"},
-            [139456] = {"Mistdown Riverhunter", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
+            [139456] = {"Mistdown Riverhunter", "Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [39726] = {
             [58741] = {"Glade Sprinter", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [59786] = {"Lotus Crane", "The Jade Forest", "Mists of Pandaria", "Normal", "[0,0]"},
             [65819] = {"Violetdown Songspinner", "Krasarang Wilds", "Mists of Pandaria", "Normal", "[0,0]"},
             [133285] = {"Riverbottom Hunter", "Tiragarde Sound", "Battle for Azeroth", "Normal", "[-1,-1]"},
-            [139456] = {"Mistdown Riverhunter", "Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
+            [139456] = {"Mistdown Riverhunter", "Nazmir, Zuldazar", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [39727] = {
             [57299] = {"Glade Hunter", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"},
@@ -22096,8 +22295,8 @@ ModelsData = {
             [193636] = {"Pinewing Mallard", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [195008] = {"Emerald Mallard", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [195014] = {"Adventurous Mallard", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [196609] = {"Buffleheaded Waterfowl", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [196674] = {"Buffleheaded Waterfowl", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
+            [196609] = {"Buffleheaded Waterfowl", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[0,0]"},
+            [196674] = {"Buffleheaded Waterfowl", "Thaldraszus, Tyrhold Reservoir", "Dragonflight", "Normal", "[0,0]"},
             [197355] = {"Duck", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [197685] = {"Cliffs Mallard", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
             [212495] = {"Shadelapper Duck", "Amirdrassil", "Dragonflight", "Normal", "[0,null]"}
@@ -22122,14 +22321,14 @@ ModelsData = {
             [192953] = {"Thicket Mallard", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [193436] = {"Ruby Mallard", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [195117] = {"Pond Duck", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
-            [206073] = {"Fowl Beast", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
+            [206073] = {"Fowl Beast", "Thaldraszus, The Azure Span", "Dragonflight", "Normal", "[0,0]"}
         },
         [104677] = {
             [189992] = {"Restless Wildfowl", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192953] = {"Thicket Mallard", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [195117] = {"Pond Duck", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
-            [196240] = {"Whitecrested Waddler", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
-            [206073] = {"Fowl Beast", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
+            [196240] = {"Whitecrested Waddler", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
+            [206073] = {"Fowl Beast", "Thaldraszus, The Azure Span", "Dragonflight", "Normal", "[0,0]"}
         },
         [104678] = {
             [187442] = {"Waking Duck", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
@@ -22137,23 +22336,24 @@ ModelsData = {
             [189992] = {"Restless Wildfowl", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [190708] = {"Jadethroat Mallard", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [195117] = {"Pond Duck", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
-            [198246] = {"Restful Mallard", "Thaldraszus", "Dragonflight", "Normal", "[0,0]"},
-            [206073] = {"Fowl Beast", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
+            [198246] = {"Restful Mallard", "Thaldraszus, Valdrakken", "Dragonflight", "Normal", "[0,0]"},
+            [206073] = {"Fowl Beast", "Thaldraszus, The Azure Span", "Dragonflight", "Normal", "[0,0]"}
         },
         [104679] = {
             [189992] = {"Restless Wildfowl", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [190660] = {"Cautious Duck", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [192947] = {"Bluebill Waddler", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
             [195513] = {"Bluebill Waddler", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
-            [196240] = {"Whitecrested Waddler", "Ohn'ahran Plains", "Dragonflight", "Normal", "[0,0]"},
-            [206073] = {"Fowl Beast", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
+            [196240] = {"Whitecrested Waddler", "Ohn'ahran Plains, The Azure Span", "Dragonflight", "Normal", "[0,0]"},
+            [206073] = {"Fowl Beast", "Thaldraszus, The Azure Span", "Dragonflight", "Normal", "[0,0]"}
         },
         [104680] = {
             [189992] = {"Restless Wildfowl", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
             [193436] = {"Ruby Mallard", "The Waking Shores", "Dragonflight", "Normal", "[0,0]"},
-            [206073] = {"Fowl Beast", "The Azure Span", "Dragonflight", "Normal", "[0,0]"}
+            [206073] = {"Fowl Beast", "Thaldraszus, The Azure Span", "Dragonflight", "Normal", "[0,0]"}
         },
         [106631] = {
+            taming = {"Elusive Creature Bait"},
             [194489] = {"Elusive Elder Drake", "The Azure Span", "Dragonflight", "Rare", "[-1,-1]"}
         },
         [107218] = {
@@ -22278,7 +22478,7 @@ ModelsData = {
             [129128] = {"Crackling Razorwing", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [1742] = {
-            [3630] = {"Deviate Coiler", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"},
+            [3630] = {"Deviate Coiler", "Northern Barrens, Wailing Caverns", "Vanilla", "Normal", "[-1,-1]"},
             [4346] = {"Noxious Flayer", "Dustwallow Marsh", "Vanilla", "Normal", "[-1,-1]"}
         },
         [1974] = {
@@ -22322,7 +22522,7 @@ ModelsData = {
             [134048] = {"Vukuba", "Zuldazar", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [4091] = {
-            [3631] = {"Deviate Stinglash", "Northern Barrens", "Vanilla", "Normal", "[-1,-1]"}
+            [3631] = {"Deviate Stinglash", "Northern Barrens, Wailing Caverns", "Vanilla", "Normal", "[-1,-1]"}
         },
         [7569] = {
             [5291] = {"Hakkari Frostwing", "Sunken Temple", "Vanilla", "Elite", "[-1,-1]"},
@@ -22355,7 +22555,7 @@ ModelsData = {
             [46146] = {"Stagalbog Serpent", "Swamp of Sorrows", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [16901] = {
-            [26446] = {"Ice Serpent", "Grizzly Hills", "Wrath of the Lich King", "Normal", "[-1,-1]"}
+            [26446] = {"Ice Serpent", "Dragonblight, Grizzly Hills", "Wrath of the Lich King", "Normal", "[-1,-1]"}
         },
         [19704] = {
             [20673] = {"Swiftwing Shredder", "Netherstorm", "The Burning Crusade", "Normal", "[-1,-1]"}
@@ -22531,7 +22731,7 @@ ModelsData = {
         [161] = {
             [833] = {"Coyote Packleader", "Westfall", "Vanilla", "Normal", "[-1,-1]"},
             [2730] = {"Rabid Crag Coyote", "Badlands", "Vanilla", "Normal", "[-1,-1]"},
-            [2960] = {"Prairie Wolf Alpha", "Dun Morogh", "Vanilla", "Normal", "[-1,-1]"},
+            [2960] = {"Prairie Wolf Alpha", "Dun Morogh, Mulgore, Thunder Bluff", "Vanilla", "Normal", "[-1,-1]"},
             [42002] = {"Wolf", "Abyssal Depths", "Cataclysm", "Normal", "[-1,1]"},
             [42104] = {"Wolf", "Abyssal Depths", "Cataclysm", "Normal", "[-1,1]"}
         },
@@ -22545,7 +22745,7 @@ ModelsData = {
             [144052] = {"Wolf Pup", "Arathi Highlands", "Battle for Azeroth", "Normal", "[0,0]"}
         },
         [447] = {
-            [1508] = {"Young Scavenger", "Deathknell", "Vanilla", "Normal", "[0,0]"}
+            [1508] = {"Young Scavenger", "Deathknell, Tirisfal Glades", "Vanilla", "Normal", "[0,0]"}
         },
         [557] = {
             [2728] = {"Feral Crag Coyote", "Badlands", "Vanilla", "Normal", "[-1,-1]"}
@@ -22556,7 +22756,7 @@ ModelsData = {
         },
         [643] = {
             [834] = {"Coyote", "Westfall", "Vanilla", "Normal", "[-1,-1]"},
-            [2959] = {"Prairie Stalker", "Thunder Bluff", "Vanilla", "Normal", "[-1,-1]"}
+            [2959] = {"Prairie Stalker", "Mulgore, Thunder Bluff", "Vanilla", "Normal", "[-1,-1]"}
         },
         [720] = {
             [3056] = {"Ghost Howl", "Mulgore", "Vanilla", "Normal", "[-1,-1]"}
@@ -22583,7 +22783,7 @@ ModelsData = {
             [2681] = {"Vilebranch Raiding Wolf", "The Hinterlands", "Vanilla", "Normal", "[-1,-1]"}
         },
         [785] = {
-            [42290] = {"Winter Wolf", "Dun Morogh", "Cataclysm", "Normal", "[0,0]"}
+            [42290] = {"Winter Wolf", "Dun Morogh, New Tinkertown", "Cataclysm", "Normal", "[0,0]"}
         },
         [801] = {
             [132644] = {"Wolf Pup", "Arathi Highlands", "Battle for Azeroth", "Normal", "[0,0]"},
@@ -22591,21 +22791,21 @@ ModelsData = {
         },
         [802] = {
             [3823] = {"Ghostpaw Runner", "Ashenvale", "Vanilla", "Normal", "[-1,-1]"},
-            [43704] = {"Dire Wolf", "Duskwood", "Cataclysm", "Normal", "[-1,-1]"},
+            [43704] = {"Dire Wolf", "Duskwood, Redridge Mountains", "Cataclysm", "Normal", "[-1,-1]"},
             [45517] = {"Ravaged Dire Wolf", "Duskwood", "Cataclysm", "Normal", "[-1,-1]"}
         },
         [855] = {
-            [705] = {"Ragged Young Wolf", "Dun Morogh", "Vanilla", "Normal", "[0,0]"}
+            [705] = {"Ragged Young Wolf", "Coldridge Valley, Dun Morogh", "Vanilla", "Normal", "[0,0]"}
         },
         [903] = {
             [525] = {"Mangy Wolf", "Elwynn Forest", "Vanilla", "Normal", "[-1,-1]"}
         },
         [1100] = {
-            [2958] = {"Prairie Wolf", "Dun Morogh", "Vanilla", "Normal", "[-1,-1]"},
+            [2958] = {"Prairie Wolf", "Dun Morogh, Mulgore", "Vanilla", "Normal", "[-1,-1]"},
             [4950] = {"Spot", "Dustwallow Marsh", "Vanilla", "Normal", "[1,-1]"}
         },
         [1164] = {
-            [2729] = {"Elder Crag Coyote", "Badlands", "Vanilla", "Normal", "[-1,-1]"},
+            [2729] = {"Elder Crag Coyote", "Badlands, Loch Modan", "Vanilla", "Normal", "[-1,-1]"},
             [47190] = {"Shaggy Desert Coyote", "Uldum", "Cataclysm", "Normal", "[-1,-1]"},
             [162374] = {"Shaggy Desert Coyote", "Uldum", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
@@ -22668,7 +22868,7 @@ ModelsData = {
             [118] = {"Prowler", "Elwynn Forest", "Vanilla", "Normal", "[-1,-1]"}
         },
         [11416] = {
-            [704] = {"Ragged Timber Wolf", "Dun Morogh", "Vanilla", "Normal", "[0,null]"}
+            [704] = {"Ragged Timber Wolf", "Coldridge Valley, Dun Morogh", "Vanilla", "Normal", "[0,null]"}
         },
         [11417] = {
             [2925] = {"Silvermane Howler", "The Hinterlands", "Vanilla", "Normal", "[-1,-1]"},
@@ -22711,7 +22911,7 @@ ModelsData = {
             [23232] = {"Mutant War Hound", "Black Temple (Raid)", "The Burning Crusade", "Elite", "[-1,-1]"}
         },
         [22003] = {
-            [24026] = {"Fanggore Worg", "Grizzly Hills", "Wrath of the Lich King", "Normal", "[-1,-1]"},
+            [24026] = {"Fanggore Worg", "Grizzly Hills, Howling Fjord", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [24128] = {"Wild Worg", "Howling Fjord", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [25791] = {"Oil-stained Wolf", "Borean Tundra", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [30430] = {"Sentry Worg", "Icecrown", "Wrath of the Lich King", "Normal", "[-1,-1]"},
@@ -22787,6 +22987,7 @@ ModelsData = {
             [58891] = {"Longfang Cub", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [29283] = {
+            taming = {"N'lyeth, Sliver of N'Zoth"},
             [103563] = {"Riding Wolf", "Stormsong Valley", "Legion", "Normal", "[-1,1]"}
         },
         [32926] = {
@@ -22814,7 +23015,7 @@ ModelsData = {
             [10077] = {"Deathmaw", "Burning Steppes", "Vanilla", "Rare", "[-1,-1]"}
         },
         [40147] = {
-            [49871] = {"Blackrock Worg", "Elwynn Forest", "Cataclysm", "Normal", "[0,0]"}
+            [49871] = {"Blackrock Worg", "Elwynn Forest, Northshire", "Cataclysm", "Normal", "[0,0]"}
         },
         [41238] = {
             [60131] = {"Spirit Worg", "Kun-Lai Summit", "Mists of Pandaria", "Normal", "[-1,-1]"}
@@ -22868,8 +23069,8 @@ ModelsData = {
             [73619] = {"Frost Wolf", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,1]"},
             [74748] = {"Frost Wolf", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[0,0]"},
             [76150] = {"Frost Wolf", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,1]"},
-            [76337] = {"Frost Wolf", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,1]"},
-            [76593] = {"Frost Wolf", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"},
+            [76337] = {"Frost Wolf", "Frostfire Ridge, Grulloc's Grotto", "Warlords of Draenor", "Normal", "[-1,1]"},
+            [76593] = {"Frost Wolf", "Frostfire Ridge, Frostwall", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [76705] = {"Frostfang Howler", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [77886] = {"Frost Wolf", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[-1,1]"},
             [84793] = {"Frost Wolf", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[1,1]"},
@@ -22907,7 +23108,7 @@ ModelsData = {
         [52602] = {
             [81718] = {"Warsong Wolf", "Nagrand", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [81774] = {"Injured Stalker", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
-            [82308] = {"Shadowmoon Stalker", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
+            [82308] = {"Shadowmoon Stalker", "Shadowmoon Valley, Spires of Arak", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [82535] = {"Void-Touched Stalker", "Shadowmoon Valley", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [95305] = {"Ironfang Stalker", "Tanaan Jungle", "Warlords of Draenor", "Normal", "[-1,-1]"},
             [112661] = {"Dreamway Prowler", "Emerald Dreamway", "Legion", "Normal", "[0,0]"},
@@ -23105,30 +23306,30 @@ ModelsData = {
             [136697] = {"The Rime Huntress", "Drustvar", "Battle for Azeroth", "Elite", "[-1,-1]"}
         },
         [86623] = {
-            [140072] = {"Direprowl the Ravager", "Crestfall", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
+            [140072] = {"Direprowl the Ravager", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
         },
         [86624] = {
-            [140070] = {"Bloodscent the Tracker", "Crestfall", "Battle for Azeroth", "Rare Elite", "[-1,-1]"},
+            [140070] = {"Bloodscent the Tracker", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare Elite", "[-1,-1]"},
             [167346] = {"Wolf", "Exile's Reach", "Shadowlands", "Normal", "[null,0]"}
         },
         [86625] = {
-            [140071] = {"Old One-Fang", "Crestfall", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
+            [140071] = {"Old One-Fang", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
         },
         [86626] = {
-            [140300] = {"Ripshread", "Crestfall", "Battle for Azeroth", "Rare", "[-1,-1]"}
+            [140300] = {"Ripshread", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [86627] = {
-            [140298] = {"Gol'kun the Vicious", "Crestfall", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
+            [140298] = {"Gol'kun the Vicious", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare Elite", "[-1,-1]"}
         },
         [86628] = {
             [129124] = {"Son of Xolotal", "Zuldazar", "Battle for Azeroth", "Normal", "[-1,-1]"}
         },
         [86629] = {
-            [140296] = {"Dampfur the Musky", "Crestfall", "Battle for Azeroth", "Rare Elite", "[-1,-1]"},
+            [140296] = {"Dampfur the Musky", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare Elite", "[-1,-1]"},
             [167345] = {"Wolf", "Exile's Reach", "Shadowlands", "Normal", "[0,null]"}
         },
         [86630] = {
-            [140301] = {"Scarpaw", "Crestfall", "Battle for Azeroth", "Rare", "[-1,-1]"}
+            [140301] = {"Scarpaw", "Crestfall, Havenswood, Jorundall, Molten Cay, Skittering Hollow, Snowblossom Village, The Dread Chain, The Rotting Mire, Un'gol Ruins, Verdant Wilds, Whispering Reef", "Battle for Azeroth", "Rare", "[-1,-1]"}
         },
         [100448] = {
             [178096] = {"Lupine Animate", "Zereth Mortis", "Shadowlands", "Normal", "[-1,-1]"},
@@ -23152,6 +23353,7 @@ ModelsData = {
     },
     ["Worm"] = {
         [7572] = {
+            taming = {"Exotic"},
             [9498] = {"Gorishi Grub", "Un'Goro Crater", "Vanilla", "Normal", "[-1,-1]"}
         },
         [8182] = {
@@ -23180,7 +23382,7 @@ ModelsData = {
         },
         [12335] = {
             taming = {"Exotic"},
-            [11787] = {"Rock Borer", "Maraudon", "Vanilla", "Normal", "[-1,-1]"},
+            [11787] = {"Rock Borer", "Desolace, Maraudon", "Vanilla", "Normal", "[-1,-1]"},
             [51025] = {"Dilennaa", "Felwood", "Mists of Pandaria", "Rare", "[-1,-1]"}
         },
         [12336] = {
@@ -23189,7 +23391,7 @@ ModelsData = {
         },
         [13009] = {
             taming = {"Exotic"},
-            [11788] = {"Rock Worm", "Maraudon", "Vanilla", "Normal", "[-1,-1]"}
+            [11788] = {"Rock Worm", "Desolace, Maraudon", "Vanilla", "Normal", "[-1,-1]"}
         },
         [13211] = {
             taming = {"Exotic"},
@@ -23201,13 +23403,14 @@ ModelsData = {
         },
         [14524] = {
             taming = {"Exotic"},
-            [11741] = {"Dredge Crusher", "Dun Morogh", "Vanilla", "Normal", "[-1,-1]"}
+            [11741] = {"Dredge Crusher", "Dun Morogh, Silithus", "Vanilla", "Normal", "[-1,-1]"}
         },
         [15386] = {
             taming = {"Exotic"},
-            [11740] = {"Dredge Striker", "Dun Morogh", "Vanilla", "Normal", "[-1,-1]"}
+            [11740] = {"Dredge Striker", "Dun Morogh, Silithus", "Vanilla", "Normal", "[-1,-1]"}
         },
         [15582] = {
+            taming = {"Exotic"},
             [15630] = {"Spawn of Fankriss", "Temple of Ahn'Qiraj", "Vanilla", "Elite", "[-1,-1]"}
         },
         [20329] = {
@@ -23262,7 +23465,7 @@ ModelsData = {
         },
         [37551] = {
             taming = {"Exotic"},
-            [26359] = {"Ice Heart Jormungar Spawn", "Crystalsong Forest", "Wrath of the Lich King", "Normal", "[-1,-1]"},
+            [26359] = {"Ice Heart Jormungar Spawn", "Crystalsong Forest, Dragonblight", "Wrath of the Lich King", "Normal", "[-1,-1]"},
             [51028] = {"The Deep Tunneler", "Winterspring", "Mists of Pandaria", "Rare", "[-1,-1]"},
             [84799] = {"Adolescent Snow Lurker", "Frostfire Ridge", "Warlords of Draenor", "Normal", "[1,1]"},
             [106192] = {"Pale Icecarver", "Highmountain", "Legion", "Normal", "[-1,-1]"},
@@ -23272,28 +23475,29 @@ ModelsData = {
         },
         [37553] = {
             taming = {"Exotic"},
-            [26358] = {"Ice Heart Jormungar Feeder", "Crystalsong Forest", "Wrath of the Lich King", "Normal", "[-1,-1]"}
+            [26358] = {"Ice Heart Jormungar Feeder", "Crystalsong Forest, Dragonblight", "Wrath of the Lich King", "Normal", "[-1,-1]"}
         },
         [37554] = {
             taming = {"Exotic"},
             [26360] = {"Rattlebore", "Dragonblight", "Wrath of the Lich King", "Normal", "[-1,-1]"}
         },
         [38731] = {
+            taming = {"Exotic"},
             [63865] = {"Amber Parasite", "Dread Wastes", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [40228] = {
             taming = {"Exotic"},
-            [65650] = {"Frenzied Caterpillar", "The Jade Forest", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [65650] = {"Frenzied Caterpillar", "The Jade Forest, The Widow's Wail", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [40229] = {
             taming = {"Exotic"},
-            [65650] = {"Frenzied Caterpillar", "The Jade Forest", "Mists of Pandaria", "Normal", "[-1,-1]"},
+            [65650] = {"Frenzied Caterpillar", "The Jade Forest, The Widow's Wail", "Mists of Pandaria", "Normal", "[-1,-1]"},
             [246574] = {"Sungrub", "Eversong Woods", "Midnight", "Normal", "[0,0]"}
         },
         [40520] = {
             taming = {"Exotic"},
             [59002] = {"Mutated Silkworm", "Valley of the Four Winds", "Mists of Pandaria", "Normal", "[0,0]"},
-            [65650] = {"Frenzied Caterpillar", "The Jade Forest", "Mists of Pandaria", "Normal", "[-1,-1]"}
+            [65650] = {"Frenzied Caterpillar", "The Jade Forest, The Widow's Wail", "Mists of Pandaria", "Normal", "[-1,-1]"}
         },
         [43324] = {
             taming = {"Exotic"},
@@ -23520,8 +23724,8 @@ ModelsData = {
         [114483] = {
             taming = {"Exotic"},
             [218010] = {"Broodmother Jawcrawler", "Azj-Kahet", "The War Within", "Normal", "[0,0]"},
-            [223060] = {"Elusive Cavern Borer", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
-            [223080] = {"Elusive Steelclaw Borer", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"},
+            [223060] = {"Elusive Cavern Borer", "Azj-Kahet, Hallowfall", "The War Within", "Normal", "[-1,-1]"},
+            [223080] = {"Elusive Steelclaw Borer", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"},
             [226232] = {"Elusive Razormouth Steelhide", "Azj-Kahet", "The War Within", "Rare", "[-1,-1]"},
             [227470] = {"Siltbrood Jawcrawler", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
             [228045] = {"Hilltop Broodmother", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
@@ -23536,18 +23740,18 @@ ModelsData = {
             [229072] = {"Acidbreath Jawcrawler", "Hallowfall", "The War Within", "Normal", "[0,0]"}
         },
         [114836] = {
-            taming = {"Exotic"},
+            taming = {"Elusive Creature Lure","Exotic"},
             [223058] = {"Elusive Lurker", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [223078] = {"Elusive Stormfathom Worm", "The Ringing Deeps", "The War Within", "Elite", "[-1,-1]"}
         },
         [114837] = {
-            taming = {"Exotic"},
+            taming = {"Elusive Creature Lure","Exotic"},
             [223058] = {"Elusive Lurker", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [223078] = {"Elusive Stormfathom Worm", "The Ringing Deeps", "The War Within", "Elite", "[-1,-1]"},
             [224779] = {"Galvanized Lurker", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"}
         },
         [114838] = {
-            taming = {"Exotic"},
+            taming = {"Elusive Creature Lure","Exotic"},
             [223058] = {"Elusive Lurker", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [223078] = {"Elusive Stormfathom Worm", "The Ringing Deeps", "The War Within", "Elite", "[-1,-1]"}
         },
@@ -23564,7 +23768,7 @@ ModelsData = {
             [223078] = {"Elusive Stormfathom Worm", "The Ringing Deeps", "The War Within", "Elite", "[-1,-1]"}
         },
         [114841] = {
-            taming = {"Exotic"},
+            taming = {"Elusive Creature Lure","Exotic"},
             [223058] = {"Elusive Lurker", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [223078] = {"Elusive Stormfathom Worm", "The Ringing Deeps", "The War Within", "Elite", "[-1,-1]"}
         },
@@ -23591,7 +23795,7 @@ ModelsData = {
             [226216] = {"Hungry Jawcrawler", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [227777] = {"Sandboring Jawcrawler", "Hallowfall", "The War Within", "Normal", "[0,0]"},
             [229205] = {"Thickhide Jawcrawler", "Hallowfall", "The War Within", "Normal", "[0,0]"},
-            [229821] = {"Burrowing Jawcrawler", "Isle of Dorn", "The War Within", "Normal", "[-1,-1]"}
+            [229821] = {"Burrowing Jawcrawler", "Azj-Kahet, City of Threads, Hallowfall, Isle of Dorn, The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"}
         },
         [115096] = {
             taming = {"Exotic"},
@@ -23609,15 +23813,15 @@ ModelsData = {
             taming = {"Exotic"},
             [217379] = {"Infested Jawgrub", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [217417] = {"Infested Jawgrub", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [218083] = {"Off-Duty Silkhauler", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
+            [218083] = {"Off-Duty Silkhauler", "Azj-Kahet, City of Threads", "The War Within", "Normal", "[-1,-1]"},
             [220483] = {"Attentive Silkhauler", "City of Threads", "The War Within", "Normal", "[-1,-1]"}
         },
         [115100] = {
             taming = {"Exotic"},
             [217379] = {"Infested Jawgrub", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
             [217417] = {"Infested Jawgrub", "The Ringing Deeps", "The War Within", "Normal", "[-1,-1]"},
-            [223060] = {"Elusive Cavern Borer", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
-            [223080] = {"Elusive Steelclaw Borer", "Azj-Kahet", "The War Within", "Elite", "[-1,null]"},
+            [223060] = {"Elusive Cavern Borer", "Azj-Kahet, Hallowfall", "The War Within", "Normal", "[-1,-1]"},
+            [223080] = {"Elusive Steelclaw Borer", "Azj-Kahet, Hallowfall", "The War Within", "Elite", "[-1,null]"},
             [225488] = {"Mycotic Jawcrawler", "Azj-Kahet", "The War Within", "Normal", "[-1,-1]"},
             [226232] = {"Elusive Razormouth Steelhide", "Azj-Kahet", "The War Within", "Rare", "[-1,-1]"},
             [227778] = {"Sandgorged Jawcrawler", "Hallowfall", "The War Within", "Normal", "[-1,-1]"},
@@ -23638,15 +23842,19 @@ ModelsData = {
             [242260] = {"Toxic Ridgeworm", "K'aresh", "The War Within", "Normal", "[0,0]"}
         },
         [125275] = {
+            taming = {"Exotic"},
             [256408] = {"Spawn of Ix", "Twilight Highlands", "Midnight", "Normal", "[-1,-1]"}
         },
         [125277] = {
+            taming = {"Exotic"},
             [256408] = {"Spawn of Ix", "Twilight Highlands", "Midnight", "Normal", "[-1,-1]"}
         },
         [125279] = {
+            taming = {"Exotic"},
             [256408] = {"Spawn of Ix", "Twilight Highlands", "Midnight", "Normal", "[-1,-1]"}
         },
         [125282] = {
+            taming = {"Exotic"},
             [256408] = {"Spawn of Ix", "Twilight Highlands", "Midnight", "Normal", "[-1,-1]"}
         },
         [125295] = {
@@ -23721,7 +23929,7 @@ ModelsData = {
             taming = {"Exotic"},
             [250562] = {"Consumptor", "Voidstorm", "Midnight", "Normal", "[-1,-1]"},
             [250635] = {"Consumptor", "Voidstorm", "Midnight", "Normal", "[-1,-1]"},
-            [257185] = {"Insatiable Consumptor", "Voidstorm", "Midnight", "Normal", "[-1,-1]"}
+            [257185] = {"Insatiable Consumptor", "Slayer's Rise, Voidstorm", "Midnight", "Normal", "[-1,-1]"}
         },
         [131270] = {
             taming = {"Exotic"},
@@ -23729,7 +23937,7 @@ ModelsData = {
             [250562] = {"Consumptor", "Voidstorm", "Midnight", "Normal", "[-1,-1]"},
             [255547] = {"Ambush Consumptor", "Voidstorm", "Midnight", "Normal", "[-1,-1]"},
             [257181] = {"Ridgecrawler Consumptor", "Voidstorm", "Midnight", "Normal", "[-1,-1]"},
-            [257185] = {"Insatiable Consumptor", "Voidstorm", "Midnight", "Normal", "[-1,-1]"}
+            [257185] = {"Insatiable Consumptor", "Slayer's Rise, Voidstorm", "Midnight", "Normal", "[-1,-1]"}
         },
         [131271] = {
             taming = {"Exotic"},
