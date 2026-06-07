@@ -22,6 +22,8 @@ local CFG = {
     BUTTON_WIDTH   = 100,
     PADDING        = 10,
     CARD_PADDING   = 8,
+    GRID_COLS      = 3,
+    GRID_SPACING   = 8,
 }
 
 -- ─────────────────────────────────────────────
@@ -195,10 +197,10 @@ local function CreateRuleRow(parent, ruleKey, ruleData, yOffset)
     return row
 end
 
-local function CreateConditionRow(parent, conditionName, yOffset)
+local function CreateConditionRow(parent, conditionName, xOffset, yOffset, width)
     local row = CreateFrame("Frame", nil, parent, "BackdropTemplate")
-    row:SetSize(CFG.PANEL_WIDTH - 2 * CFG.PADDING - 50, CFG.ROW_HEIGHT + CFG.CARD_PADDING * 2)
-    row:SetPoint("TOPLEFT", parent, "TOPLEFT", 0, -yOffset)
+    row:SetSize(width, CFG.ROW_HEIGHT + CFG.CARD_PADDING * 2)
+    row:SetPoint("TOPLEFT", parent, "TOPLEFT", xOffset, -yOffset)
     row:EnableMouse(true)
 
     row:SetBackdrop({
@@ -214,9 +216,49 @@ local function CreateConditionRow(parent, conditionName, yOffset)
     local checkbox = CreateFrame("CheckButton", nil, row, "UICheckButtonTemplate")
     checkbox:SetSize(CFG.CHECKBOX_SIZE, CFG.CHECKBOX_SIZE)
     checkbox:SetPoint("LEFT", row, "LEFT", P, 0)
-    checkbox:SetChecked(selectedConditions[conditionName] or false)
+
+    row.UpdateVisual = function()
+        local state = selectedConditions[conditionName]
+        local check = checkbox:GetCheckedTexture()
+        if state == nil then
+            checkbox:SetChecked(false)
+            check:SetAlpha(1)
+            if checkbox.invertedTexture then checkbox.invertedTexture:Hide() end
+        elseif state == true then
+            checkbox:SetChecked(true)
+            check:SetAlpha(1)
+            if checkbox.invertedTexture then checkbox.invertedTexture:Hide() end
+        elseif state == "inverted" then
+            checkbox:SetChecked(true)
+            check:SetAlpha(0)
+            if not checkbox.invertedTexture then
+                checkbox.invertedTexture = checkbox:CreateTexture(nil, "OVERLAY")
+                checkbox.invertedTexture:SetTexture("Interface\\Buttons\\UI-GroupLoot-Pass-Up")
+                checkbox.invertedTexture:SetSize(CFG.CHECKBOX_SIZE, CFG.CHECKBOX_SIZE)
+                checkbox.invertedTexture:SetPoint("CENTER", checkbox, "CENTER", 0, 0)
+            end
+            checkbox.invertedTexture:Show()
+        end
+    end
+
+    row.UpdateVisual()
+
     checkbox:SetScript("OnClick", function(self)
-        selectedConditions[conditionName] = self:GetChecked()
+        local state = selectedConditions[conditionName]
+        if state == nil then
+            selectedConditions[conditionName] = true
+        elseif state == true then
+            selectedConditions[conditionName] = "inverted"
+        else
+            selectedConditions[conditionName] = nil
+        end
+        row.UpdateVisual()
+
+        local p = row:GetParent() and row:GetParent():GetParent() and row:GetParent():GetParent():GetParent()
+        if p and p.selectionNote then
+            UpdateSelectionNote(p)
+            UpdateSelectAllButton(p)
+        end
     end)
 
     local label = row:CreateFontString(nil, "OVERLAY", "GameFontNormal")
@@ -225,6 +267,19 @@ local function CreateConditionRow(parent, conditionName, yOffset)
     label:SetJustifyH("LEFT")
     label:SetText("|cffffffff" .. conditionName .. "|r")
     label:SetWordWrap(false)
+
+    row:SetScript("OnEnter", function(self)
+        self:SetBackdropBorderColor(0.5, 0.5, 0.5, 1)
+    end)
+    row:SetScript("OnLeave", function(self)
+        self:SetBackdropBorderColor(0.25, 0.25, 0.25, 1)
+    end)
+
+    row:SetScript("OnMouseUp", function(self, button)
+        if button == "LeftButton" and self.checkbox then
+            self.checkbox:Click()
+        end
+    end)
 
     row.checkbox = checkbox
     row.isCondition = true
@@ -273,26 +328,13 @@ local function UpdateSelectAllButton(panel)
     if not panel.selectAllBtn then return end
     local anySelected = false
     for ruleKey, selected in pairs(selectedRules) do
-        if selected and panel.ruleRows then
-            for _, row in ipairs(panel.ruleRows) do
-                if row.ruleKey == ruleKey and not row.isCondition then
-                    anySelected = true
-                    break
-                end
-            end
-            if anySelected then break end
-        end
+        if selected then anySelected = true; break end
     end
     if not anySelected then
-        for ruleKey, selected in pairs(selectedConditions) do
-            if selected and panel.ruleRows then
-                for _, row in ipairs(panel.ruleRows) do
-                    if row.ruleKey == ruleKey and row.isCondition then
-                        anySelected = true
-                        break
-                    end
-                end
-                if anySelected then break end
+        for _, state in pairs(selectedConditions) do
+            if state ~= nil then
+                anySelected = true
+                break
             end
         end
     end
@@ -333,17 +375,31 @@ local function RepopulateRows(panel, query, activeTag)
         end
         table.sort(conditionNames)
 
+        local numCols = CFG.GRID_COLS
+        local colSpacing = CFG.GRID_SPACING
+        local rowSpacing = 4
+        local availableWidth = CFG.PANEL_WIDTH - 50
+        local colWidth = (availableWidth - (numCols - 1) * colSpacing) / numCols
+        local rowH = CFG.ROW_HEIGHT + CFG.CARD_PADDING * 2
+
+        local visibleIdx = 0
         for _, condName in ipairs(conditionNames) do
             if RowMatchesQueryCondition(condName, query) then
-                ruleCount = ruleCount + 1
-                local rowH = CFG.ROW_HEIGHT + CFG.CARD_PADDING * 2
-                local row  = CreateConditionRow(scrollChild, condName, yOffset)
+                local col = visibleIdx % numCols
+                local rowInGrid = math.floor(visibleIdx / numCols)
+                local xOff = col * (colWidth + colSpacing)
+                local yOff = yOffset + rowInGrid * (rowH + rowSpacing)
+
+                local row = CreateConditionRow(scrollChild, condName, xOff, yOff, colWidth)
                 row.ruleKey = condName
                 row.isCondition = true
+                ruleCount = ruleCount + 1
                 panel.ruleRows[ruleCount] = row
-                yOffset = yOffset + rowH + 4
+                visibleIdx = visibleIdx + 1
             end
         end
+        local totalGridRows = math.ceil(visibleIdx / numCols)
+        yOffset = yOffset + (totalGridRows * (rowH + rowSpacing))
     else
         for ruleKey, ruleData in pairs(PSM.TamingRules) do
             if RowMatchesQuery(ruleKey, ruleData, query) and RowMatchesTag(ruleKey, activeTag) then
@@ -363,11 +419,11 @@ local function RepopulateRows(panel, query, activeTag)
     -- Update footer selection note
     if panel.selectionNote then
         local n = 0
-        for ruleKey, selected in pairs(selectedRules) do
+        for _, selected in pairs(selectedRules) do
             if selected then n = n + 1 end
         end
-        for _, selected in pairs(selectedConditions) do
-            if selected then n = n + 1 end
+        for _, state in pairs(selectedConditions) do
+            if state ~= nil then n = n + 1 end
         end
         panel.selectionNote:SetText(n .. " " .. (n == 1 and "item" or "items") .. " selected")
     end
@@ -479,8 +535,8 @@ local function UpdateSelectionNote(panel)
     for _, selected in pairs(selectedRules) do
         if selected then n = n + 1 end
     end
-    for _, selected in pairs(selectedConditions) do
-        if selected then n = n + 1 end
+    for _, state in pairs(selectedConditions) do
+        if state ~= nil then n = n + 1 end
     end
     panel.selectionNote:SetText(n .. " " .. (n == 1 and "item" or "items") .. " selected")
 end
@@ -492,21 +548,22 @@ end
 local function OnSelectAllClick(panel)
     local anySelected = false
     for _, row in ipairs(panel.ruleRows or {}) do
-        if row.ruleKey then
-            local stateMap = row.isCondition and selectedConditions or selectedRules
-            if stateMap[row.ruleKey] then
-                anySelected = true
-                break
-            end
+        if not row.isCondition then
+            if selectedRules[row.ruleKey] then anySelected = true; break end
+        else
+            if selectedConditions[row.ruleKey] ~= nil then anySelected = true; break end
         end
     end
+
     local newState = not anySelected
     for _, row in ipairs(panel.ruleRows or {}) do
         if row.ruleKey then
-            local stateMap = row.isCondition and selectedConditions or selectedRules
-            stateMap[row.ruleKey] = newState
-            if row.checkbox then
-                row.checkbox:SetChecked(newState)
+            if row.isCondition then
+                selectedConditions[row.ruleKey] = newState and true or nil
+                if row.UpdateVisual then row.UpdateVisual() end
+            else
+                selectedRules[row.ruleKey] = newState
+                if row.checkbox then row.checkbox:SetChecked(newState) end
             end
         end
     end
@@ -523,10 +580,8 @@ local function OnApplyClick(panel)
     end
 
     local selectedConditionNames = {}
-    for cond, selected in pairs(selectedConditions) do
-        if selected then
-            selectedConditionNames[cond] = true
-        end
+    for cond, state in pairs(selectedConditions) do
+        if state ~= nil then selectedConditionNames[cond] = state end
     end
     PSM.state.selectedConditions = selectedConditionNames
 
@@ -576,13 +631,17 @@ local function OnApplyClick(panel)
                             for _, npc in ipairs(displayData.npcs) do
                                 local npcID = tonumber(npc.npcId)
                                 local condList = PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
-                                if condList then
-                                    for _, cond in ipairs(condList) do
-                                        if selectedConditionNames[cond] then
-                                            match = true; break
-                                        end
+                                local condSet = {}
+                                if condList then for _, c in ipairs(condList) do condSet[c] = true end end
+
+                                for condName, state in pairs(selectedConditionNames) do
+                                    if state == true then
+                                        if condSet[condName] then match = true; break end
+                                    elseif state == "inverted" then
+                                        if not condSet[condName] then match = true; break end
                                     end
                                 end
+
                                 if match then break end
                             end
                         end
@@ -691,8 +750,8 @@ function ST:CreateSpecialTamesPanel()
     selectedConditions = {}
     local savedConditions = PSM.state.selectedConditions or (PetStableManagementDB and PetStableManagementDB.filters and PetStableManagementDB.filters.selectedConditions)
     if savedConditions then
-        for cond, _ in pairs(savedConditions) do
-            selectedConditions[cond] = true
+        for cond, val in pairs(savedConditions) do
+            selectedConditions[cond] = val
         end
     end
 
