@@ -54,11 +54,13 @@ local FILTER_KEYS = {
     "sortBy", "exoticFilter", "duplicatesOnlyFilter",
     "selectedSpecs", "selectedFamilies", "selectedTamers",
     "selectedModelsFamilies", "selectedExpansions", "selectedLocations",
+    "selectedTamingRules", "selectedConditions",
 }
 
 local TABLE_FILTER_KEYS = {
     selectedSpecs = true, selectedFamilies = true, selectedTamers = true,
     selectedModelsFamilies = true, selectedExpansions = true, selectedLocations = true,
+    selectedTamingRules = true, selectedConditions = true,
 }
 
 local NIL_FILTER_KEYS = {
@@ -138,6 +140,8 @@ function PSM.Data:SaveSettings()
             selectedModelsFamilies = PSM.Utils.DeepCopy(PSM.state.selectedModelsFamilies) or {},
             selectedExpansions     = PSM.Utils.DeepCopy(PSM.state.selectedExpansions) or {},
             selectedLocations      = PSM.Utils.DeepCopy(PSM.state.selectedLocations) or {},
+            selectedTamingRules    = PSM.Utils.DeepCopy(PSM.state.selectedTamingRules) or {},
+            selectedConditions     = PSM.Utils.DeepCopy(PSM.state.selectedConditions) or {},
             modelsPanelCurrentPage = currentPage or savedPage or 1,
             tamerSelectionInitialized = PSM.state.tamerSelectionInitialized or false,
             minimapButton = (db.settings and db.settings.minimapButton) or {
@@ -560,6 +564,8 @@ function PSM.Data:ClearMemory(preserveFilters)
         PSM.state.selectedSpecs    = {}
         PSM.state.selectedFamilies = {}
         PSM.state.selectedTamers   = {}
+        PSM.state.selectedTamingRules = {}
+        PSM.state.selectedConditions  = {}
     end
 
     if PSM.Config.FORCE_GC_ON_CLEAR then
