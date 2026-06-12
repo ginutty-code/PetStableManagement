@@ -120,7 +120,7 @@ end
 -- Returns the [+] note link for an NPC line, colored by note state.
 -- grey = no notes, yellow = seed note only, green = user note exists
 local function BuildNoteLink(npcId)
-    local hasSeed = PSM.NPCNotes and PSM.NPCNotes[npcId]
+    local hasSeed = PSM.NotesData and PSM.NotesData[npcId]
     local hasUser = PSM_UserNotes and PSM_UserNotes[npcId] and PSM_UserNotes[npcId] ~= ""
     local color
     if hasUser then
@@ -468,14 +468,14 @@ function PSM.PopUpManager:CreateModelPopup(config)
             GameTooltip:SetText("Click to view TomTom waypoints")
         elseif linkType == "psmnote" then
             local npcId = tonumber(data)
-            local hasSeed = npcId and PSM.NPCNotes and PSM.NPCNotes[npcId]
+            local hasSeed = npcId and PSM.NotesData and PSM.NotesData[npcId]
             local hasUser = npcId and PSM_UserNotes and PSM_UserNotes[npcId] and PSM_UserNotes[npcId] ~= ""
             if hasUser then
                 GameTooltip:SetText("Edit note")
                 GameTooltip:AddLine(PSM_UserNotes[npcId], 1, 1, 0, 1, true)
             elseif hasSeed then
                 GameTooltip:SetText("Add your own note")
-                GameTooltip:AddLine(PSM.NPCNotes[npcId], 0.8, 0.8, 0.8, 1, true)
+                GameTooltip:AddLine(PSM.NotesData[npcId], 0.8, 0.8, 0.8, 1, true)
             else
                 GameTooltip:SetText("Add a note for this NPC")
             end
@@ -1203,7 +1203,7 @@ function PSM.PopUpManager:ShowNoteEditor(npcId, npcName, parentPopup)
     local f = self.noteEditor
 
     -- Populate seed note section
-    local seedNote = PSM.NPCNotes and PSM.NPCNotes[npcId]
+    local seedNote = PSM.NotesData and PSM.NotesData[npcId]
     if seedNote then
         f.seedLabel:Show()
         f.seedText:Show()
@@ -1231,7 +1231,7 @@ function PSM.PopUpManager:ShowNoteEditor(npcId, npcName, parentPopup)
     -- Save wires up per-call npcId and refreshes the parent popup's NPC text
     f.saveButton:SetScript("OnClick", function()
         local text = f.editBox:GetText()
-        PSM.NPCNotes.SetUserNote(npcId, text)
+        PSM.NotesData.SetUserNote(npcId, text)
         f:Hide()
         -- Refresh [+] colors in the parent popup by re-triggering its NPC text
         if parentPopup and parentPopup.npcPlainText then

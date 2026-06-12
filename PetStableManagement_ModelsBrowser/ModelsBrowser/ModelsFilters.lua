@@ -318,12 +318,17 @@ function PSM.ModelsFilters:ResetAllFilters(panel)
     PSM.state.showPetsInMyZone = nil
     PSM.state.showHideOwned = nil
     PSM.state.selectedTamingRules = nil
+    PSM.state.selectedConditions = nil
 
     -- Persist resets to SavedVariables
-    PetStableManagementDB.filters.showRares = nil
-    PetStableManagementDB.filters.showFavorites = nil
-    PetStableManagementDB.filters.showPetsInMyZone = nil
-    PetStableManagementDB.filters.showHideOwned = nil
+    if PetStableManagementDB and PetStableManagementDB.filters then
+        PetStableManagementDB.filters.showRares = nil
+        PetStableManagementDB.filters.showFavorites = nil
+        PetStableManagementDB.filters.showPetsInMyZone = nil
+        PetStableManagementDB.filters.showHideOwned = nil
+        PetStableManagementDB.filters.selectedTamingRules = nil
+        PetStableManagementDB.filters.selectedConditions = nil
+    end
 
     ResetTristateCheckbox(panel.raresToggle)
     ResetTristateCheckbox(panel.favoritesToggle)
@@ -338,6 +343,10 @@ function PSM.ModelsFilters:ResetAllFilters(panel)
 
     RepopulateAllTabs(panel)
     ReloadAndSummarise()
+
+    if PSM.SpecialTames and PSM.SpecialTames.ResetInternalState then
+        PSM.SpecialTames:ResetInternalState()
+    end
 
     if panel.currentPage and panel.currentPage ~= 1 then
         panel.currentPage = 1
@@ -753,53 +762,97 @@ function PSM.ModelsFilters:GenerateFilterSummary()
     if not panel then return "" end
 
     local filters = {}
+    local hasRules = PSM.state.selectedTamingRules and next(PSM.state.selectedTamingRules)
+    local hasConds = PSM.state.selectedConditions and next(PSM.state.selectedConditions)
 
-    -- Families
-    local selected, exoticOnly, nonExoticOnly = 0, true, true
-    for name, on in pairs(PSM.state.selectedModelsFamilies) do
-        if on then
-            selected = selected + 1
-            if   self:IsFamilyExotic(name) then nonExoticOnly = false
-            else                                exoticOnly    = false end
+    -- Families (Suppress family summary if Special Tames are active, as they auto-populate the family list)
+    if not (hasRules or hasConds) then
+        local selected, exoticOnly, nonExoticOnly = 0, true, true
+        for name, on in pairs(PSM.state.selectedModelsFamilies) do
+            if on then
+                selected = selected + 1
+                if   self:IsFamilyExotic(name) then nonExoticOnly = false
+                else                                exoticOnly    = false end
+            end
         end
-    end
-    local total = #PSM.PetModels:GetAvailableFamilies()
-    if selected ~= total then
-        if   exoticOnly    and selected > 0 then table.insert(filters, "Families (Exotic only)")
-        elseif nonExoticOnly and selected > 0 then table.insert(filters, "Families (not Exotic)")
-        else                                       table.insert(filters, "Families") end
+        local total = #PSM.PetModels:GetAvailableFamilies()
+        if selected ~= total then
+            if   exoticOnly    and selected > 0 then table.insert(filters, "Families (Exotic only)")
+            elseif nonExoticOnly and selected > 0 then table.insert(filters, "Families (not Exotic)")
+            else                                       table.insert(filters, "Families") end
+        end
     end
 
     -- Expansions
-    local expCount = 0
-    for _, on in pairs(PSM.state.selectedExpansions) do if on then expCount = expCount + 1 end end
-    if expCount ~= #panel.expansionList then table.insert(filters, "Expansions") end
+    if panel.expansionList then
+        local expCount = 0
+        for _, on in pairs(PSM.state.selectedExpansions) do if on then expCount = expCount + 1 end end
+        if expCount ~= #panel.expansionList then table.insert(filters, "Expansions") end
+    end
 
     -- Locations
-    local locCount = 0
-    for _, on in pairs(PSM.state.selectedLocations) do if on then locCount = locCount + 1 end end
-    if locCount ~= #panel.locationList then table.insert(filters, "Locations") end
+    if panel.locationList then
+        local locCount = 0
+        for _, on in pairs(PSM.state.selectedLocations) do if on then locCount = locCount + 1 end end
+        if locCount ~= #panel.locationList then table.insert(filters, "Locations") end
+    end
 
     -- Tristate toggles
-    if     panel.showRares == true          then table.insert(filters, "Rares")
-    elseif panel.showRares == "inverted"    then table.insert(filters, "Not Rares") end
-    if     panel.showFavorites == true      then table.insert(filters, "Favorites")
+    if panel.showRares == true then table.insert(filters, "Rares")
+    elseif panel.showRares == "inverted" then table.insert(filters, "Not Rares") end
+
+    if panel.showFavorites == true then table.insert(filters, "Favorites")
     elseif panel.showFavorites == "inverted" then table.insert(filters, "Not Favorites") end
+
     if panel.showPetsInMyZone and panel.currentPlayerZone then
         local prefix = panel.showPetsInMyZone == "inverted" and "Not My Zone" or "My Zone"
         table.insert(filters, prefix .. " (" .. panel.currentPlayerZone .. ")")
     end
-    if     panel.showHideOwned == "inverted" then table.insert(filters, "Owned")
-    elseif panel.showHideOwned == true      then table.insert(filters, "Not Owned") end
+
+    if panel.showHideOwned == "inverted" then table.insert(filters, "Owned")
+    elseif panel.showHideOwned == true then table.insert(filters, "Not Owned") end
 
     -- Search
     if (panel.searchBox:GetText() or "") ~= "" then table.insert(filters, "Search") end
 
-    -- Special Tames (Rules + Conditions)
-    local hasRules = PSM.state.selectedTamingRules and #PSM.state.selectedTamingRules > 0
-    local hasConds = PSM.state.selectedConditions and next(PSM.state.selectedConditions)
+    -- Special Tames (Specific formatting for Unlocks and Conditions)
     if hasRules or hasConds then
-        table.insert(filters, "Special Tames")
+        local stParts = {}
+
+        if hasRules then
+            local rCount = 0
+            local lastRuleKey, lastRuleState
+            for k, v in pairs(PSM.state.selectedTamingRules) do
+                rCount = rCount + 1
+                lastRuleKey, lastRuleState = k, v
+            end
+            if rCount == 1 then
+                local rule = PSM.TamingRules and PSM.TamingRules[lastRuleKey]
+                local label = rule and rule.label or lastRuleKey
+                if lastRuleState == "inverted" then label = "Not " .. label end
+                table.insert(stParts, label)
+            else
+                table.insert(stParts, "Unlocks")
+            end
+        end
+
+        if hasConds then
+            local cCount = 0
+            local lastCondKey, lastCondState
+            for k, v in pairs(PSM.state.selectedConditions) do
+                cCount = cCount + 1
+                lastCondKey, lastCondState = k, v
+            end
+            if cCount == 1 then
+                local label = lastCondKey
+                if lastCondState == "inverted" then label = "Not " .. label end
+                table.insert(stParts, label)
+            else
+                table.insert(stParts, "Other")
+            end
+        end
+
+        table.insert(filters, "Special Tames - " .. table.concat(stParts, "; "))
     end
 
     return #filters > 0 and ("Filters: " .. table.concat(filters, ", ")) or ""

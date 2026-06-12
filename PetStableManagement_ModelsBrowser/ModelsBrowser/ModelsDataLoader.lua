@@ -206,28 +206,36 @@ local function DisplayPassesFilters(panel, displayData)
     -- Conditions filter (NPC level data from ConditionsData.lua)
     local selectedConds = PSM.state.selectedConditions
     if selectedConds and next(selectedConds) then
-        local hasActive, matchActive = false, false
+        local userHasActive = false
+        for _, state in pairs(selectedConds) do
+            if state == true then userHasActive = true; break end
+        end
+
+        local atLeastOneNpcPasses = false
         if displayData.npcs then
             for _, npc in ipairs(displayData.npcs) do
                 local npcID = tonumber(npc.npcId)
                 if npcID then
                     local condList = PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
+                    local npcDisqualified = false
+                    local npcMatchedActive = false
+
                     if condList then
-                        local condSet = {}
-                        for _, c in ipairs(condList) do condSet[c] = true end
-                        for cName, state in pairs(selectedConds) do
-                            if state == true then
-                                hasActive = true
-                                if condSet[cName] then matchActive = true end
-                            elseif state == "inverted" then
-                                if condSet[cName] then return false end -- Disqualified
-                            end
+                        for _, cName in ipairs(condList) do
+                            local state = selectedConds[cName]
+                            if state == "inverted" then npcDisqualified = true; break end
+                            if state == true then npcMatchedActive = true end
                         end
+                    end
+
+                    if not npcDisqualified and (not userHasActive or npcMatchedActive) then
+                        atLeastOneNpcPasses = true
+                        break
                     end
                 end
             end
         end
-        if hasActive and not matchActive then return false end
+        if not atLeastOneNpcPasses then return false end
     end
 
     return true
