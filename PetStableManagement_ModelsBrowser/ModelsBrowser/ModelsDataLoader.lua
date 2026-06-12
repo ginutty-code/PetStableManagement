@@ -366,20 +366,10 @@ local function npcDescription(npc)
     local classification = (npc.classification and npc.classification ~= "Normal")
         and string.format("%s, ", npc.classification)
         or  ""
-
-    -- Check for special conditions to add as a hint
-    local conditionHint = ""
-    local npcID = tonumber(npc.npcId)
-    local condList = npcID and PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
-    if condList and #condList > 0 then
-        conditionHint = " |cffff8800(" .. table.concat(condList, ", ") .. ")|r"
-    end
-
     local factionStr = formatFactionIndicator(npc.factionReaction)
     local factionPart = factionStr ~= "" and ", " .. factionStr or ""
-    return string.format("%s%s: %s%s, %s, %s%s",
+    return string.format("%s: %s%s, %s, %s%s",
         npc.name,
-        conditionHint,
         classification,
         npc.npcId    or "?",
         npc.location or "Unknown",

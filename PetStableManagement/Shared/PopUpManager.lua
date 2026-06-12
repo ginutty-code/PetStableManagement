@@ -466,6 +466,15 @@ function PSM.PopUpManager:CreateModelPopup(config)
         GameTooltip:SetOwner(popup.npcsText, "ANCHOR_CURSOR")
         if linkType == "psmcoords" then
             GameTooltip:SetText("Click to view TomTom waypoints")
+        elseif linkType == "psmcond" then
+            local npcId = tonumber(data)
+            local condList = npcId and PSM.ConditionsData and PSM.ConditionsData.Get(npcId)
+            if condList and #condList > 0 then
+                GameTooltip:SetText("Special Conditions")
+                for _, cond in ipairs(condList) do
+                    GameTooltip:AddLine(cond, 1, 1, 1)
+                end
+            end
         elseif linkType == "psmnote" then
             local npcId = tonumber(data)
             local hasSeed = npcId and PSM.NotesData and PSM.NotesData[npcId]
@@ -973,10 +982,11 @@ function PSM.PopUpManager:PopulateModelPopup(popup, displayId, petData, npcs)
     if tamingData and PSM.TamingChecker then
         local parts = {}
         for _, ruleKey in ipairs(tamingData) do
-            -- Sliver of N'Zoth is an NPC-level condition, skip displaying at model level
-            if ruleKey ~= "Sliver of N'Zoth" then
+            local rule = PSM.TamingRules and PSM.TamingRules[ruleKey]
+            
+            -- Only display formal taming unlocks at the model level; skip situational conditions
+            if rule and not rule.isCondition then
                 local status = PSM.TamingChecker.GetRuleStatus(ruleKey)
-                local rule   = PSM.TamingRules and PSM.TamingRules[ruleKey]
                 local label  = rule and rule.label or ruleKey
                 local hint   = rule and rule.hint
                 local color  = status == "met" and "ff00ff00" or "ffff4444"
@@ -1058,7 +1068,7 @@ function PSM.PopUpManager:PopulateModelPopup(popup, displayId, petData, npcs)
         local npcID = tonumber(npc.npcId)
         local condList = npcID and PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
         if condList and #condList > 0 then
-            conditionHint = " |cffff8800(" .. table.concat(condList, ", ") .. ")|r"
+            conditionHint = "|cffff8800|Hpsmcond:" .. npcID .. "|h[*]|h|r"
         end
 
         local factionStr  = formatFactionIndicator(npc.factionReaction)
@@ -1253,12 +1263,20 @@ function PSM.PopUpManager:ShowNoteEditor(npcId, npcName, parentPopup)
                 for _, npc in ipairs(parentPopup.currentNPCs) do
                     local id          = npc.npcId or "?"
                     local cls         = (npc.classification and npc.classification ~= "Normal") and npc.classification .. ", " or ""
+                    
+                    local conditionHint = ""
+                    local npcID = tonumber(npc.npcId)
+                    local condList = npcID and PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
+                    if condList and #condList > 0 then
+                        conditionHint = "|cffff8800|Hpsmcond:" .. npcID .. "|h[*]|h|r"
+                    end
+
                     local factionStr  = formatFactionIndicator(npc.factionReaction)
                     local factionPart = factionStr ~= "" and ", " .. factionStr or ""
                     local noteLink    = npc.npcId and (" " .. BuildNoteLink(npc.npcId)) or ""
                     lines[#lines + 1] = string.format(
-                        "%s: %s|Hnpc:%s|h|cff00ff00%s|h|r, %s, %s%s%s",
-                        npc.name, cls, id, id,
+                        "%s%s: %s|Hnpc:%s|h|cff00ff00%s|h|r, %s, %s%s%s",
+                        npc.name, conditionHint, cls, id, id,
                         PSM.PopUpManager:BuildCoordsLocationLabel(npc.npcId, npc.location) or "Unknown",
                         npc.expansion or "Unknown",
                         factionPart,
