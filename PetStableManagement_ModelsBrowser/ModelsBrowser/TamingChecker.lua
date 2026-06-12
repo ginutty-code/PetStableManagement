@@ -162,9 +162,9 @@ PSM.TamingRules = {
         },
     },
 
-    ["Friendly"] = {
-        label       = "Friendly Taming",
-        desc        = "Requires the toy N'lyeth, Sliver of N'Zoth. Activate it while in War Mode to tame. Account-wide.",
+    ["Sliver of N'Zoth"] = {
+        label       = "N'lyeth, Sliver of N'Zoth",
+        desc        = "Allows taming of specific friendly/neutral NPCs. Requires the toy N'lyeth, Sliver of N'Zoth used while in War Mode. Account-wide.",
         hint        = { itemID = 173951, itemName = "N'lyeth, Sliver of N'Zoth", suffix = "+ War Mode" },
         itemID      = 173951,
         accountWide = true,

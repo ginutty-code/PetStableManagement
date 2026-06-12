@@ -419,7 +419,11 @@ RepopulateRows = function(panel, query, activeTag)
         end
         local conditionNames = {}
         for cond in pairs(uniqueConditions) do
-            table.insert(conditionNames, cond)
+            -- Unify UI: If the condition is already a formal Taming Rule (like Nlyeth), 
+            -- skip it here so it only shows in the Unlocks section.
+            if not PSM.TamingRules[cond] then
+                table.insert(conditionNames, cond)
+            end
         end
         table.sort(conditionNames)
 

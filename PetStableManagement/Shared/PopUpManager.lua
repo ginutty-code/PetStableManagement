@@ -973,64 +973,67 @@ function PSM.PopUpManager:PopulateModelPopup(popup, displayId, petData, npcs)
     if tamingData and PSM.TamingChecker then
         local parts = {}
         for _, ruleKey in ipairs(tamingData) do
-            local status = PSM.TamingChecker.GetRuleStatus(ruleKey)
-            local rule   = PSM.TamingRules and PSM.TamingRules[ruleKey]
-            local label  = rule and rule.label or ruleKey
-            local hint   = rule and rule.hint
-            local color  = status == "met" and "ff00ff00" or "ffff4444"
+            -- Sliver of N'Zoth is an NPC-level condition, skip displaying at model level
+            if ruleKey ~= "Sliver of N'Zoth" then
+                local status = PSM.TamingChecker.GetRuleStatus(ruleKey)
+                local rule   = PSM.TamingRules and PSM.TamingRules[ruleKey]
+                local label  = rule and rule.label or ruleKey
+                local hint   = rule and rule.hint
+                local color  = status == "met" and "ff00ff00" or "ffff4444"
 
-            -- Build hint string with proper joining logic
-            local hintStr = ""
-            if hint then
-                if hint.plain then
-                    hintStr = " (" .. hint.plain .. ")"
-                else
-                    local mainParts = {}
-                    local suffixPart = nil
+                -- Build hint string with proper joining logic
+                local hintStr = ""
+                if hint then
+                    if hint.plain then
+                        hintStr = " (" .. hint.plain .. ")"
+                    else
+                        local mainParts = {}
+                        local suffixPart = nil
 
-                    -- Collect main alternatives (race or item or quest)
-                    if hint.autoRace then
-                        mainParts[#mainParts + 1] = hint.autoRace .. " (auto)"
-                    end
-                    if hint.itemID then
-                        mainParts[#mainParts + 1] = string.format(
-                            "|cff0070dd|Hpsmtaming:%s|h%s|h|r",
-                            ruleKey,
-                            hint.itemName or ("Item #" .. hint.itemID))
-                    end
-                    if hint.questID then
-                        mainParts[#mainParts + 1] = string.format(
-                            "|cff0070dd|Hpsmtaming:%s|h%s|h|r",
-                            ruleKey,
-                            hint.questName or ("Quest #" .. hint.questID))
-                    end
+                        -- Collect main alternatives (race or item or quest)
+                        if hint.autoRace then
+                            mainParts[#mainParts + 1] = hint.autoRace .. " (auto)"
+                        end
+                        if hint.itemID then
+                            mainParts[#mainParts + 1] = string.format(
+                                "|cff0070dd|Hpsmtaming:%s|h%s|h|r",
+                                ruleKey,
+                                hint.itemName or ("Item #" .. hint.itemID))
+                        end
+                        if hint.questID then
+                            mainParts[#mainParts + 1] = string.format(
+                                "|cff0070dd|Hpsmtaming:%s|h%s|h|r",
+                                ruleKey,
+                                hint.questName or ("Quest #" .. hint.questID))
+                        end
 
-                    -- Suffix is separate (not an alternative)
-                    if hint.suffix then
-                        suffixPart = hint.suffix
-                    end
+                        -- Suffix is separate (not an alternative)
+                        if hint.suffix then
+                            suffixPart = hint.suffix
+                        end
 
-                    -- Build the hint string
-                    if #mainParts > 0 then
-                        hintStr = table.concat(mainParts, " or ")
-                    end
-                    if suffixPart then
+                        -- Build the hint string
+                        if #mainParts > 0 then
+                            hintStr = table.concat(mainParts, " or ")
+                        end
+                        if suffixPart then
+                            if hintStr ~= "" then
+                                hintStr = hintStr .. " " .. suffixPart
+                            else
+                                hintStr = suffixPart
+                            end
+                        end
                         if hintStr ~= "" then
-                            hintStr = hintStr .. " " .. suffixPart
-                        else
-                            hintStr = suffixPart
+                            hintStr = " (" .. hintStr .. ")"
                         end
                     end
-                    if hintStr ~= "" then
-                        hintStr = " (" .. hintStr .. ")"
-                    end
                 end
-            end
 
-            parts[#parts + 1] = string.format("|c%s%s|r%s",
-                color,
-                label,
-                hintStr)
+                parts[#parts + 1] = string.format("|c%s%s|r%s",
+                    color,
+                    label,
+                    hintStr)
+            end
         end
         local line = table.concat(parts, " and ")
         local html = "<html><body><p align='center'>" .. line .. "</p></body></html>"
@@ -1049,12 +1052,21 @@ function PSM.PopUpManager:PopulateModelPopup(popup, displayId, petData, npcs)
     for _, npc in ipairs(npcs) do
         local id          = npc.npcId or "?"
         local cls         = (npc.classification and npc.classification ~= "Normal") and npc.classification .. ", " or ""
+
+        -- Check for special conditions to add as a hint
+        local conditionHint = ""
+        local npcID = tonumber(npc.npcId)
+        local condList = npcID and PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
+        if condList and #condList > 0 then
+            conditionHint = " |cffff8800(" .. table.concat(condList, ", ") .. ")|r"
+        end
+
         local factionStr  = formatFactionIndicator(npc.factionReaction)
         local factionPart = factionStr ~= "" and ", " .. factionStr or ""
         local noteLink    = npc.npcId and (" " .. BuildNoteLink(npc.npcId)) or ""
         lines[#lines + 1] = string.format(
-            "%s: %s|Hnpc:%s|h|cff00ff00%s|h|r, %s, %s%s%s",
-            npc.name, cls, id, id,
+            "%s%s: %s|Hnpc:%s|h|cff00ff00%s|h|r, %s, %s%s%s",
+            npc.name, conditionHint, cls, id, id,
             self:BuildCoordsLocationLabel(npc.npcId, npc.location) or "Unknown",
             npc.expansion or "Unknown",
             factionPart,
