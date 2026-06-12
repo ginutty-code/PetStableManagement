@@ -190,7 +190,24 @@ local function DisplayPassesFilters(panel, displayData)
         for rKey, state in pairs(selRules) do
             if state == true then
                 hasActive = true
-                if tamingSet[rKey] then
+                
+                -- Check model-level taming rules
+                local isMatch = tamingSet[rKey]
+                
+                -- Special Case: Nlyeth (Look at NPC-level ConditionsData instead of model-level)
+                if not isMatch and rKey == "Sliver of N'Zoth" and displayData.npcs then
+                    for _, npc in ipairs(displayData.npcs) do
+                        local condList = PSM.ConditionsData and PSM.ConditionsData.Get(tonumber(npc.npcId))
+                        if condList then
+                            for _, cName in ipairs(condList) do
+                                if cName == "Sliver of N'Zoth" then isMatch = true; break end
+                            end
+                        end
+                        if isMatch then break end
+                    end
+                end
+
+                if isMatch then
                     local fSel, dSel = selRules["Florafaun"] == true, selRules["Direhorn"] == true
                     if not (tamingSet["Florafaun"] and tamingSet["Direhorn"] and ((fSel and not dSel) or (dSel and not fSel))) then
                         matchActive = true
@@ -349,10 +366,20 @@ local function npcDescription(npc)
     local classification = (npc.classification and npc.classification ~= "Normal")
         and string.format("%s, ", npc.classification)
         or  ""
+
+    -- Check for special conditions to add as a hint
+    local conditionHint = ""
+    local npcID = tonumber(npc.npcId)
+    local condList = npcID and PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
+    if condList and #condList > 0 then
+        conditionHint = " |cffff8800(" .. table.concat(condList, ", ") .. ")|r"
+    end
+
     local factionStr = formatFactionIndicator(npc.factionReaction)
     local factionPart = factionStr ~= "" and ", " .. factionStr or ""
-    return string.format("%s: %s%s, %s, %s%s",
+    return string.format("%s%s: %s%s, %s, %s%s",
         npc.name,
+        conditionHint,
         classification,
         npc.npcId    or "?",
         npc.location or "Unknown",
