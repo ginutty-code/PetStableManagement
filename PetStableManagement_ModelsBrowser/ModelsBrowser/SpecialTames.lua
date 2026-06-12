@@ -33,6 +33,11 @@ local CFG = {
 local selectedRules = {}
 local selectedConditions = {}
 
+-- Forward declarations to prevent "nil value" errors in UI handlers
+local UpdateSelectionNote
+local UpdateSelectAllButton
+local RepopulateRows
+
 -- ─────────────────────────────────────────────
 -- UI Helpers
 -- ─────────────────────────────────────────────
@@ -360,7 +365,7 @@ end
 -- Update select all button
 -- ─────────────────────────────────────────────
 
-local function UpdateSelectAllButton(panel)
+UpdateSelectAllButton = function(panel)
     if not panel.selectAllBtn then return end
     local hasIgnored, hasActive, hasInverted = false, false, false
 
@@ -388,7 +393,7 @@ end
 -- Repopulate scroll content (search-aware)
 -- ─────────────────────────────────────────────
 
-local function RepopulateRows(panel, query, activeTag)
+RepopulateRows = function(panel, query, activeTag)
     query     = (query or ""):lower()
     activeTag = activeTag or panel.activeTag or "All"
 
@@ -572,7 +577,7 @@ end
 -- Selection note helper
 -- ─────────────────────────────────────────────
 
-local function UpdateSelectionNote(panel)
+UpdateSelectionNote = function(panel)
     if not panel.selectionNote then return end
     local n = 0
     for _, state in pairs(selectedRules) do
@@ -679,26 +684,31 @@ local function OnApplyClick(panel)
 
                         -- Check Conditions (if not matched by rules)
                         if not match and hasConds and displayData.npcs then
-                            local hasActiveConds, matchActive = false, false
-                            local forbiddenMatch = false
+                            local userHasActiveConds = false
+                            for _, state in pairs(selectedConditionNames) do
+                                if state == true then userHasActiveConds = true; break end
+                            end
+
+                            local atLeastOneNpcPasses = false
                             for _, npc in ipairs(displayData.npcs) do
                                 local npcID = tonumber(npc.npcId)
                                 local condList = PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
-                                local condSet = {}
-                                if condList then for _, c in ipairs(condList) do condSet[c] = true end end
+                                local npcDisqualified = false
+                                local npcMatchedActive = false
 
-                                for cName, state in pairs(selectedConditionNames) do
-                                    if state == true then
-                                        hasActiveConds = true
-                                        if condSet[cName] then matchActive = true end
-                                    elseif state == "inverted" then
-                                        if condSet[cName] then forbiddenMatch = true end
+                                if condList then
+                                    for _, cName in ipairs(condList) do
+                                        local state = selectedConditionNames[cName]
+                                        if state == "inverted" then npcDisqualified = true; break end
+                                        if state == true then npcMatchedActive = true end
                                     end
                                 end
-                                if (not hasActiveConds or matchActive) and not forbiddenMatch then
-                                    match = true; break
+                                if not npcDisqualified and (not userHasActiveConds or npcMatchedActive) then
+                                    atLeastOneNpcPasses = true
+                                    break
                                 end
                             end
+                            if atLeastOneNpcPasses then match = true end
                         end
 
                         if match then
@@ -719,12 +729,43 @@ local function OnApplyClick(panel)
         PSM.ModelsDataLoader:LoadModelsForSelectedFamilies()
     end
 
-    local appliedCount = 0
-    for _ in pairs(PSM.state.selectedModelsFamilies) do
-        appliedCount = appliedCount + 1
+    local stParts = {}
+    if next(selectedRuleMap) then
+        local rCount = 0
+        local lastRuleKey, lastRuleState
+        for k, v in pairs(selectedRuleMap) do
+            rCount = rCount + 1
+            lastRuleKey, lastRuleState = k, v
+        end
+        if rCount == 1 then
+            local rule = PSM.TamingRules and PSM.TamingRules[lastRuleKey]
+            local label = rule and rule.label or lastRuleKey
+            if lastRuleState == "inverted" then label = "Not " .. label end
+            table.insert(stParts, label)
+        else
+            table.insert(stParts, "Unlocks")
+        end
     end
+
+    if next(selectedConditionNames) then
+        local cCount = 0
+        local lastCondKey, lastCondState
+        for k, v in pairs(selectedConditionNames) do
+            cCount = cCount + 1
+            lastCondKey, lastCondState = k, v
+        end
+        if cCount == 1 then
+            local label = lastCondKey
+            if lastCondState == "inverted" then label = "Not " .. label end
+            table.insert(stParts, label)
+        else
+            table.insert(stParts, "Other")
+        end
+    end
+
+    local filterDesc = #stParts > 0 and table.concat(stParts, "; ") or "None"
     print(PSM.Utils:FormatColorText(
-        "PetStableManagement: Special Tames filter applied - " .. appliedCount .. " families.",
+        "PetStableManagement: Special Tames filter applied (" .. filterDesc .. ").",
         PSM.Config.COLORS.SUCCESS
     ))
 
@@ -776,6 +817,19 @@ local function CreateFooter(panel)
     selectAllButton:SetScript("OnClick", function() OnSelectAllClick(panel) end)
     PSM.UI:ApplyElvUISkin(selectAllButton, "button")
     panel.selectAllBtn = selectAllButton
+end
+
+-- Clears the local tracking tables and refreshes the UI rows.
+-- Called by ModelsFilters:ResetAllFilters to ensure ticks are cleared.
+function ST:ResetInternalState()
+    selectedRules = {}
+    selectedConditions = {}
+
+    local panel = PSM.state.specialTames
+    if panel then
+        if panel.searchBox then panel.searchBox:SetText("") end
+        RepopulateRows(panel, "", panel.activeTag or "All")
+    end
 end
 
 -- ─────────────────────────────────────────────
