@@ -832,7 +832,7 @@ function PSM.ModelsFilters:GenerateFilterSummary()
                 if lastRuleState == "inverted" then label = "Not " .. label end
                 table.insert(stParts, label)
             else
-                table.insert(stParts, "Unlocks")
+                table.insert(stParts, "Skills")
             end
         end
 
@@ -848,7 +848,7 @@ function PSM.ModelsFilters:GenerateFilterSummary()
                 if lastCondState == "inverted" then label = "Not " .. label end
                 table.insert(stParts, label)
             else
-                table.insert(stParts, "Other")
+                table.insert(stParts, "Conditions")
             end
         end
 
