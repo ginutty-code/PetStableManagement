@@ -103,7 +103,7 @@ function PSM.ModelsDataLoader:GenerateCacheKey()
     end
 
     local condKey = SelectedMapKey(PSM.state.selectedConditions)
-    local ownedKey = panel.showHideOwned or "none"
+    local ownedKey = tostring(panel.showHideOwned or "none")
 
     return string.format("%s_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s",
         modeKey,
