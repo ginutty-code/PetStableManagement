@@ -15,37 +15,46 @@ local ST = PSM.SpecialTames
 local CFG = {
     PANEL_WIDTH    = 800,
     PANEL_HEIGHT   = 600,
-    ROW_HEIGHT     = 22, -- Height of an individual condition/rule entry
+    ROW_HEIGHT     = 22,
     CHECKBOX_SIZE  = 16,
     STATUS_SIZE    = 16,
     BUTTON_HEIGHT  = 25,
     BUTTON_WIDTH   = 100,
     PADDING        = 10,
     CARD_PADDING   = 8,
-    HEADER_H       = 22, -- Height of the category card header
-    SEP_H          = 1,  -- Height of the separator line below the header
-    MORE_H         = 16, -- Height reserved for "and X more" / "Show less" label
-    PARTIAL_ROWS   = 4,  -- Number of rows visible in a collapsed card
-    EXPANDED_ROWS  = 10, -- Max number of rows visible in an expanded card
-    FIXED_PARTIAL_H = 150, -- Standardized fixed height for collapsed cards
-
-    -- Grid layout for cards
     HEADER_H       = 22,
     SEP_H          = 1,
+    MORE_H         = 16,
+    PARTIAL_ROWS   = 4,
+    EXPANDED_ROWS  = 10,
+
+    -- Grid layout for cards
     CARD_GAP       = 8,
     GRID_COLS      = 3,
     GRID_SPACING   = 8,
 }
--- Derived card heights
+
+-- ─────────────────────────────────────────────
+-- Derived card height helper
+-- ─────────────────────────────────────────────
+
+local function CardHeight(numRows)
+    local rowSpacing  = 2
+    local rowH        = CFG.ROW_HEIGHT + rowSpacing
+    local contentPad  = CFG.CARD_PADDING * 2
+    local headerBlock = CFG.HEADER_H + CFG.SEP_H
+    -- Subtract one rowSpacing: no trailing gap after the last row
+    return headerBlock + contentPad + (numRows * rowH) - rowSpacing + CFG.MORE_H
+end
 
 -- ─────────────────────────────────────────────
 -- State management
 -- ─────────────────────────────────────────────
 
-local selectedRules = {}
+local selectedRules      = {}
 local selectedConditions = {}
 
--- Forward declarations to prevent "nil value" errors in UI handlers
+-- Forward declarations
 local UpdateSelectionNote
 local UpdateSelectAllButton
 local RepopulateRows
@@ -63,9 +72,9 @@ local function CreateStatusIcon(parent, status)
     texture:SetTexture("Interface\\RAIDFRAME\\ReadyCheck")
 
     if status == "met" then
-        texture:SetTexCoord(0, 0.5, 0, 0.5) -- Green check
+        texture:SetTexCoord(0, 0.5, 0, 0.5)
     else
-        texture:SetTexCoord(0.5, 1, 0.5, 1) -- Red X
+        texture:SetTexCoord(0.5, 1, 0.5, 1)
     end
 
     icon.texture = texture
@@ -75,19 +84,19 @@ end
 local function UpdateCardHeaderVisual(card)
     if not card.rows or #card.rows == 0 then return end
     local allSel, allInv, anyAct = true, true, false
-    
+
     for _, row in ipairs(card.rows) do
         local state = selectedConditions[row.conditionName]
-        if state ~= true then allSel = false end
+        if state ~= true      then allSel = false end
         if state ~= "inverted" then allInv = false end
-        if state ~= nil then anyAct = true end
+        if state ~= nil        then anyAct = true  end
     end
 
     if allSel then
-        card.catLabel:SetTextColor(0, 1, 0) -- Green for all selected
+        card.catLabel:SetTextColor(0, 1, 0)
         if card.headerInvIcon then card.headerInvIcon:Hide() end
     elseif allInv then
-        card.catLabel:SetTextColor(1, 0, 0) -- Red for all inverted
+        card.catLabel:SetTextColor(1, 0, 0)
         if not card.headerInvIcon then
             card.headerInvIcon = card.header:CreateTexture(nil, "OVERLAY")
             card.headerInvIcon:SetTexture("Interface\\Buttons\\UI-GroupLoot-Pass-Up")
@@ -96,10 +105,10 @@ local function UpdateCardHeaderVisual(card)
         end
         card.headerInvIcon:Show()
     elseif anyAct then
-        card.catLabel:SetTextColor(1, 1, 1) -- White for partial
+        card.catLabel:SetTextColor(1, 1, 1)
         if card.headerInvIcon then card.headerInvIcon:Hide() end
     else
-        card.catLabel:SetTextColor(0.6, 0.6, 0.6) -- Grey for none
+        card.catLabel:SetTextColor(0.6, 0.6, 0.6)
         if card.headerInvIcon then card.headerInvIcon:Hide() end
     end
 end
@@ -116,9 +125,10 @@ local function CreateCategoryCard(parent, groupName, cardW)
     card:SetBackdropBorderColor(0.2, 0.2, 0.2, 1)
 
     local header = CreateFrame("Button", nil, card)
-    header:SetPoint("TOPLEFT", card, "TOPLEFT", 0, 0)
+    header:SetPoint("TOPLEFT",  card, "TOPLEFT",  0, 0)
     header:SetPoint("TOPRIGHT", card, "TOPRIGHT", 0, 0)
     header:SetHeight(CFG.HEADER_H)
+
     local hbg = header:CreateTexture(nil, "BACKGROUND")
     hbg:SetAllPoints()
     hbg:SetColorTexture(0.12, 0.12, 0.12, 1)
@@ -126,18 +136,17 @@ local function CreateCategoryCard(parent, groupName, cardW)
     local catLabel = header:CreateFontString(nil, "OVERLAY", "GameFontNormalSmall")
     catLabel:SetPoint("LEFT", header, "LEFT", CFG.CARD_PADDING, 0)
     catLabel:SetText(groupName)
-    
-    card.header   = header
-    card.catLabel = catLabel
-    card.rows     = {}
-    card.visibleRows = {} -- Store currently visible rows for search filtering
+
+    card.header    = header
+    card.catLabel  = catLabel
+    card.rows      = {}
+    card.visibleRows = {}
     card.groupName = groupName
-    
+
     return card
 end
 
 local function CreateRuleRow(parent, ruleKey, ruleData, yOffset)
-    -- Card-style backdrop, matching AbilityBrowser card appearance
     local row = CreateFrame("Frame", nil, parent, "BackdropTemplate")
     row:SetSize(CFG.PANEL_WIDTH - 2 * CFG.PADDING - 50, CFG.ROW_HEIGHT + CFG.CARD_PADDING * 2)
     row:EnableMouse(true)
@@ -152,12 +161,10 @@ local function CreateRuleRow(parent, ruleKey, ruleData, yOffset)
 
     local P = CFG.CARD_PADDING
 
-    -- Status indicator
-    local status = PSM.TamingChecker.GetRuleStatus(ruleKey)
+    local status     = PSM.TamingChecker.GetRuleStatus(ruleKey)
     local statusIcon = CreateStatusIcon(row, status)
     statusIcon:SetPoint("LEFT", row, "LEFT", P, 0)
 
-    -- Checkbox
     local checkbox = CreateFrame("CheckButton", nil, row, "UICheckButtonTemplate")
     checkbox:SetSize(CFG.CHECKBOX_SIZE, CFG.CHECKBOX_SIZE)
     checkbox:SetPoint("LEFT", statusIcon, "RIGHT", 10, 0)
@@ -202,7 +209,6 @@ local function CreateRuleRow(parent, ruleKey, ruleData, yOffset)
         UpdateSelectAllButton(row:GetParent():GetParent():GetParent())
     end)
 
-    -- Build formatted label with hyperlink codes like PopUpManager
     local parts = {}
     parts[#parts + 1] = ruleData.label
 
@@ -251,15 +257,15 @@ local function CreateRuleRow(parent, ruleKey, ruleData, yOffset)
     local fullText = table.concat(parts, "")
 
     local label = row:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    label:SetPoint("LEFT", checkbox, "RIGHT", 10, 0)
-    label:SetPoint("RIGHT", row, "RIGHT", -P, 0)
+    label:SetPoint("LEFT",  checkbox, "RIGHT",  10, 0)
+    label:SetPoint("RIGHT", row,      "RIGHT",  -P, 0)
     label:SetJustifyH("LEFT")
     label:SetText(fullText)
     label:SetWordWrap(false)
 
     row:SetHyperlinksEnabled(true)
     row:SetScript("OnHyperlinkEnter", function(self, link)
-        local rk = link:match("psmtaming:(.+)")
+        local rk   = link:match("psmtaming:(.+)")
         if not rk then return end
         local rule = PSM.TamingRules and PSM.TamingRules[rk]
         if rule and rule.hint then
@@ -276,7 +282,7 @@ local function CreateRuleRow(parent, ruleKey, ruleData, yOffset)
     end)
     row:SetScript("OnHyperlinkLeave", function() GameTooltip:Hide() end)
     row:SetScript("OnHyperlinkClick", function(self, link, text, button)
-        local rk = link:match("psmtaming:(.+)")
+        local rk   = link:match("psmtaming:(.+)")
         if not rk then return end
         local rule = PSM.TamingRules and PSM.TamingRules[rk]
         if rule and button == "LeftButton" then
@@ -299,10 +305,9 @@ local function CreateRuleRow(parent, ruleKey, ruleData, yOffset)
         self:SetBackdropBorderColor(0.25, 0.25, 0.25, 1)
         GameTooltip:Hide()
     end)
-
     row:SetScript("OnMouseUp", function(self, button)
-    if button == "LeftButton" and self.checkbox then
-        self.checkbox:Click()
+        if button == "LeftButton" and self.checkbox then
+            self.checkbox:Click()
         end
     end)
 
@@ -374,8 +379,8 @@ local function CreateConditionRow(parent, conditionName, width, card)
     end)
 
     local label = row:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    label:SetPoint("LEFT", checkbox, "RIGHT", 10, 0)
-    label:SetPoint("RIGHT", row, "RIGHT", -P, 0)
+    label:SetPoint("LEFT",  checkbox, "RIGHT",  10, 0)
+    label:SetPoint("RIGHT", row,      "RIGHT",  -P, 0)
     label:SetJustifyH("LEFT")
     label:SetText("|cffffffff" .. conditionName .. "|r")
     label:SetWordWrap(false)
@@ -386,15 +391,14 @@ local function CreateConditionRow(parent, conditionName, width, card)
     row:SetScript("OnLeave", function(self)
         self:SetBackdropBorderColor(0.25, 0.25, 0.25, 1)
     end)
-
     row:SetScript("OnMouseUp", function(self, button)
         if button == "LeftButton" and self.checkbox then
             self.checkbox:Click()
         end
     end)
 
-    row.checkbox = checkbox
-    row.isCondition = true
+    row.checkbox      = checkbox
+    row.isCondition   = true
     row.conditionName = conditionName
 
     return row
@@ -443,10 +447,10 @@ UpdateSelectAllButton = function(panel)
 
     for _, row in ipairs(panel.ruleRows or {}) do
         local stateMap = row.isCondition and selectedConditions or selectedRules
-        local state = stateMap[row.ruleKey]
-        if state == true then hasActive = true
+        local state    = stateMap[row.ruleKey]
+        if state == true        then hasActive   = true
         elseif state == "inverted" then hasInverted = true
-        else hasIgnored = true end
+        else                         hasIgnored  = true end
     end
 
     local btnText = "Select All"
@@ -461,33 +465,43 @@ UpdateSelectAllButton = function(panel)
     panel.selectAllBtn:SetText(btnText)
 end
 
+-- ─────────────────────────────────────────────
+-- ReflowCards: column-fill layout (variable height)
+-- Cards fill each column top-to-bottom before moving to the next,
+-- so expanding a card only pushes cards in the same column downward.
+-- ─────────────────────────────────────────────
+
 function ST:ReflowCards(panel, cardList, scrollW, cardW, gap, cols)
-    local yOffset = -gap
-    local i = 1
-    while i <= #cardList do
-        local rowEnd = i
-        local count  = 1
-        while count < cols and rowEnd + 1 <= #cardList do
-            rowEnd = rowEnd + 1
-            count  = count + 1
+    -- Track the Y cursor (negative = downward) for each column
+    local colY = {}
+    for c = 1, cols do
+        colY[c] = -gap
+    end
+
+    for idx, card in ipairs(cardList) do
+        -- Find the column whose cursor is closest to the top (least negative)
+        local col = 1
+        for c = 2, cols do
+            if colY[c] > colY[col] then col = c end
         end
 
-        local maxH = 0
-        for j = i, rowEnd do
-            local card = cardList[j]
-            -- Ensure card width is set correctly for reflow
-            card:SetWidth(cardW)
-            -- Set initial height based on expanded state
-            card:SetHeight(card.isExpanded and card.expandedHeight or card.partialHeight)
-            local xOff = gap + (j - i) * (cardW + gap)
-            card:ClearAllPoints()
-            card:SetPoint("TOPLEFT", panel.scrollChild, "TOPLEFT", xOff, yOffset)
-            maxH = math.max(maxH, card:GetHeight())
-        end
-        yOffset = yOffset - maxH - gap
-        i = rowEnd + 1
+        local xOff = gap + (col - 1) * (cardW + gap)
+        local h    = card.isExpanded and card.expandedHeight or card.partialHeight
+
+        card:SetWidth(cardW)
+        card:SetHeight(h)
+        card:ClearAllPoints()
+        card:SetPoint("TOPLEFT", panel.scrollChild, "TOPLEFT", xOff, colY[col])
+
+        colY[col] = colY[col] - h - gap
     end
-    panel.scrollChild:SetHeight(math.abs(yOffset) + gap)
+
+    -- Scroll child height = absolute value of the deepest column bottom
+    local minY = 0
+    for c = 1, cols do
+        if colY[c] < minY then minY = colY[c] end
+    end
+    panel.scrollChild:SetHeight(math.abs(minY) + gap)
 end
 
 -- ─────────────────────────────────────────────
@@ -513,25 +527,33 @@ RepopulateRows = function(panel, query, activeTag)
     panel.categoryCards = {}
 
     local scrollChild = panel.scrollChild
-    local yOffset = 8
-    local ruleCount = 0
+    local yOffset     = 8
+    local ruleCount   = 0
 
     if activeTag == "Conditions" then
-        local numCols = CFG.GRID_COLS
+        local numCols    = CFG.GRID_COLS
         local colSpacing = CFG.GRID_SPACING
-        local scrollW = CFG.PANEL_WIDTH - 50
-        local colWidth = math.floor((scrollW - colSpacing * (numCols + 1)) / numCols)
+        local scrollW    = CFG.PANEL_WIDTH - 50
+        local colWidth   = math.floor((scrollW - colSpacing * (numCols + 1)) / numCols)
+        local rowSpacing = 2
 
-        local cardList = {}
+        local cardList   = {}
         local groupNames = {}
-        for gName in pairs(PSM.ConditionGroups or {}) do table.insert(groupNames, gName) end
-        table.sort(groupNames)
+        for gName in pairs(PSM.ConditionGroups or {}) do
+            table.insert(groupNames, gName)
+        end
+        table.sort(groupNames, function(a, b)
+            local countA = #PSM.ConditionGroups[a]
+            local countB = #PSM.ConditionGroups[b]
+            if countA ~= countB then return countA < countB end
+            return a < b
+        end)
 
         for _, gName in ipairs(groupNames) do
-            local members = PSM.ConditionGroups[gName]
-            local matches = {}
+            local members     = PSM.ConditionGroups[gName]
+            local matches     = {}
             local groupMatches = RowMatchesQueryCondition(gName, query)
-            
+
             for _, cName in ipairs(members) do
                 if groupMatches or RowMatchesQueryCondition(cName, query) then
                     table.insert(matches, cName)
@@ -539,34 +561,30 @@ RepopulateRows = function(panel, query, activeTag)
             end
 
             if #matches > 0 then
-                -- Create the card and set its initial state
                 local card = CreateCategoryCard(scrollChild, gName, colWidth)
-                local rowSpacing = 2
-                card.isExpanded = false -- Initial state is collapsed
-                card.partialHeight = CFG.FIXED_PARTIAL_H
-                card.expandedHeight = CFG.HEADER_H + CFG.SEP_H + (CFG.CARD_PADDING * 2) + (#matches * (CFG.ROW_HEIGHT + rowSpacing)) + CFG.MORE_H
+
+                -- Dynamic heights derived from actual row count
+                local visiblePartial    = math.min(CFG.PARTIAL_ROWS, #matches)
+                card.partialHeight      = CardHeight(visiblePartial)
+                card.expandedHeight     = CardHeight(#matches)
+                card.isExpanded         = false
                 card:SetHeight(card.partialHeight)
 
                 local currentContentY = CFG.HEADER_H + CFG.SEP_H + CFG.CARD_PADDING
 
-                -- Create all rows, but only show a partial set initially
                 for idx, cName in ipairs(matches) do
                     local row = CreateConditionRow(card, cName, colWidth, card)
                     row:SetPoint("TOPLEFT", card, "TOPLEFT", 0, -currentContentY)
-                    row.ruleKey = cName
-                    row.isCondition = true
+                    row.ruleKey      = cName
+                    row.isCondition  = true
                     table.insert(card.rows, row)
                     table.insert(panel.ruleRows, row)
 
                     currentContentY = currentContentY + CFG.ROW_HEIGHT + rowSpacing
-                    
-                    if idx <= CFG.PARTIAL_ROWS then
-                        row:Show()
-                    else
-                        row:Hide()
-                    end
+
+                    row:SetShown(idx <= CFG.PARTIAL_ROWS)
                 end
-                
+
                 -- "and X more" / "Show less" button
                 local moreBtn = CreateFrame("Button", nil, card)
                 moreBtn:SetSize(colWidth - 2 * CFG.CARD_PADDING, CFG.MORE_H)
@@ -584,33 +602,30 @@ RepopulateRows = function(panel, query, activeTag)
                     moreBtn:SetScript("OnClick", function()
                         card.isExpanded = not card.isExpanded
                         card:SetHeight(card.isExpanded and card.expandedHeight or card.partialHeight)
-                        moreLabel:SetText(card.isExpanded and "Show less" or "and " .. (#matches - CFG.PARTIAL_ROWS) .. " more...")
-                        
-                        for idx, row in ipairs(card.rows) do
-                            if card.isExpanded or idx <= CFG.PARTIAL_ROWS then
-                                row:Show()
-                            else
-                                row:Hide()
-                            end
+                        moreLabel:SetText(
+                            card.isExpanded
+                            and "Show less"
+                            or  ("and " .. (#matches - CFG.PARTIAL_ROWS) .. " more...")
+                        )
+                        for idx2, row in ipairs(card.rows) do
+                            row:SetShown(card.isExpanded or idx2 <= CFG.PARTIAL_ROWS)
                         end
+                        -- Reflow all cards so the column adjusts to the new height
                         ST:ReflowCards(panel, cardList, scrollW, colWidth, colSpacing, numCols)
                     end)
                 else
                     moreBtn:Hide()
                 end
-                
+
                 card.header:SetScript("OnClick", function()
                     local hasUnselected, hasTrue = false, false
                     for _, r in ipairs(card.rows) do
                         local st = selectedConditions[r.conditionName]
-                        if st == nil then hasUnselected = true end
+                        if st == nil  then hasUnselected = true end
                         if st == true then hasTrue = true end
                     end
 
                     local nextState
-                    -- Logic: If there's an empty one, select all. 
-                    -- Else if there's a selected one (but no empty ones), invert all.
-                    -- Else (all are inverted), clear all.
                     if hasUnselected then
                         nextState = true
                     elseif hasTrue then
@@ -623,7 +638,7 @@ RepopulateRows = function(panel, query, activeTag)
                         selectedConditions[r.conditionName] = nextState
                         r.UpdateVisual()
                     end
-                    UpdateCardHeaderVisual(card) -- Update card header after mass toggle
+                    UpdateCardHeaderVisual(card)
                     UpdateSelectionNote(panel)
                     UpdateSelectAllButton(panel)
                 end)
@@ -642,14 +657,13 @@ RepopulateRows = function(panel, query, activeTag)
                 table.insert(panel.categoryCards, card)
             end
         end
-        
+
         ST:ReflowCards(panel, cardList, scrollW, colWidth, colSpacing, numCols)
-        
-        -- Ensure the ruleCount reflects total filtered conditions
+
         ruleCount = #panel.ruleRows
     else
         for ruleKey, ruleData in pairs(PSM.TamingRules) do
-            if ruleKey ~= "Sliver of N'Zoth" then -- Unify UI: Keep only in "Other" tab
+            if ruleKey ~= "Sliver of N'Zoth" then
                 if RowMatchesQuery(ruleKey, ruleData, query) and RowMatchesTag(ruleKey, activeTag) then
                     ruleCount = ruleCount + 1
                     local rowH = CFG.ROW_HEIGHT + CFG.CARD_PADDING * 2
@@ -666,22 +680,17 @@ RepopulateRows = function(panel, query, activeTag)
     scrollChild:SetHeight(math.max(yOffset + 8, 100))
     panel.scrollFrame:SetVerticalScroll(0)
 
-    -- Update footer selection note
     if panel.selectionNote then
         local n = 0
-        for _, state in pairs(selectedRules) do
-            if state ~= nil then n = n + 1 end
-        end
-        for _, state in pairs(selectedConditions) do
-            if state ~= nil then n = n + 1 end
-        end
+        for _, state in pairs(selectedRules)      do if state ~= nil then n = n + 1 end end
+        for _, state in pairs(selectedConditions) do if state ~= nil then n = n + 1 end end
         panel.selectionNote:SetText(n .. " " .. (n == 1 and "item" or "items") .. " selected")
     end
     UpdateSelectAllButton(panel)
 end
 
 -- ─────────────────────────────────────────────
--- Pill bar (All | Unlocked | Locked)
+-- Pill bar (All | Unlocked | Locked | Conditions)
 -- ─────────────────────────────────────────────
 
 local PILL_TAGS = { "All Skills", "Unlocked Skills", "Locked Skills", "Conditions" }
@@ -782,12 +791,8 @@ end
 UpdateSelectionNote = function(panel)
     if not panel.selectionNote then return end
     local n = 0
-    for _, state in pairs(selectedRules) do
-        if state ~= nil then n = n + 1 end
-    end
-    for _, state in pairs(selectedConditions) do
-        if state ~= nil then n = n + 1 end
-    end
+    for _, state in pairs(selectedRules)      do if state ~= nil then n = n + 1 end end
+    for _, state in pairs(selectedConditions) do if state ~= nil then n = n + 1 end end
     panel.selectionNote:SetText(n .. " " .. (n == 1 and "item" or "items") .. " selected")
 end
 
@@ -799,27 +804,21 @@ local function OnSelectAllClick(panel)
     local hasIgnored, hasActive = false, false
     for _, row in ipairs(panel.ruleRows or {}) do
         local stateMap = row.isCondition and selectedConditions or selectedRules
-        local state = stateMap[row.ruleKey]
-        if state == nil then hasIgnored = true end
-        if state == true then hasActive = true end
+        local state    = stateMap[row.ruleKey]
+        if state == nil  then hasIgnored = true end
+        if state == true then hasActive  = true end
     end
 
     local newState
-    if hasIgnored then newState = true
+    if hasIgnored    then newState = true
     elseif hasActive then newState = "inverted"
-    else newState = nil end
+    else                  newState = nil end
 
     for _, row in ipairs(panel.ruleRows or {}) do
         if row.ruleKey then
             local stateMap = row.isCondition and selectedConditions or selectedRules
             stateMap[row.ruleKey] = newState
             if row.UpdateVisual then row.UpdateVisual() end
-        end
-    end
-
-    if panel.categoryCards then
-        for _, card in ipairs(panel.categoryCards) do
-            UpdateCardHeaderVisual(card)
         end
     end
 
@@ -836,9 +835,7 @@ end
 local function OnApplyClick(panel)
     local selectedRuleMap = {}
     for ruleKey, state in pairs(selectedRules) do
-        if state ~= nil then
-            selectedRuleMap[ruleKey] = state
-        end
+        if state ~= nil then selectedRuleMap[ruleKey] = state end
     end
     PSM.state.selectedTamingRules = selectedRuleMap
 
@@ -848,29 +845,27 @@ local function OnApplyClick(panel)
     end
     PSM.state.selectedConditions = selectedConditionNames
 
-    -- Save the selected taming rules to the database for persistence
     PetStableManagementDB = PetStableManagementDB or {}
     PetStableManagementDB.filters = PetStableManagementDB.filters or {}
-    PetStableManagementDB.filters.selectedTamingRules = selectedRuleMap
-    PetStableManagementDB.filters.selectedConditions = selectedConditionNames
+    PetStableManagementDB.filters.selectedTamingRules  = selectedRuleMap
+    PetStableManagementDB.filters.selectedConditions   = selectedConditionNames
 
     if PSM.PetModels then
-        local hasRules = next(selectedRuleMap) ~= nil
+        local hasRules = next(selectedRuleMap)       ~= nil
         local hasConds = next(selectedConditionNames) ~= nil
 
         if hasRules or hasConds then
-        for familyName in pairs(PSM.state.selectedModelsFamilies) do
-            PSM.state.selectedModelsFamilies[familyName] = nil
-        end
+            for familyName in pairs(PSM.state.selectedModelsFamilies) do
+                PSM.state.selectedModelsFamilies[familyName] = nil
+            end
 
-        local relevantFamilies = {}
-        for _, familyName in ipairs(PSM.PetModels:GetAvailableFamilies()) do
-            local familyData = PSM.PetModels:GetFamilyModels(familyName)
-            if familyData and familyData.displayIds then
-                for _, displayData in ipairs(familyData.displayIds) do
+            local relevantFamilies = {}
+            for _, familyName in ipairs(PSM.PetModels:GetAvailableFamilies()) do
+                local familyData = PSM.PetModels:GetFamilyModels(familyName)
+                if familyData and familyData.displayIds then
+                    for _, displayData in ipairs(familyData.displayIds) do
                         local match = false
 
-                        -- Logic: Must match ANY "true" rule AND NO "inverted" rules
                         local passRules = not hasRules
                         if hasRules then
                             local tamingSet = {}
@@ -883,13 +878,12 @@ local function OnApplyClick(panel)
                             for rKey, state in pairs(selectedRuleMap) do
                                 if state == true then
                                     hasActiveRules = true
-                                    
+
                                     local isMatch = tamingSet[rKey]
-                                    
-                                    -- Special Case: N'lyeth (Look at NPC-level ConditionsData instead of model-level)
+
                                     if not isMatch and rKey == "Sliver of N'Zoth" and displayData.npcs then
                                         for _, npc in ipairs(displayData.npcs) do
-                                            local npcID = tonumber(npc.npcId)
+                                            local npcID   = tonumber(npc.npcId)
                                             local condList = PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
                                             if condList then
                                                 for _, cName in ipairs(condList) do
@@ -903,18 +897,19 @@ local function OnApplyClick(panel)
                                     end
 
                                     if isMatch then
-                                        local fSel, dSel = selectedRuleMap["Florafaun"] == true, selectedRuleMap["Direhorn"] == true
-                                        if not (tamingSet["Florafaun"] and tamingSet["Direhorn"] and ((fSel and not dSel) or (dSel and not fSel))) then
+                                        local fSel = selectedRuleMap["Florafaun"] == true
+                                        local dSel = selectedRuleMap["Direhorn"]  == true
+                                        if not (tamingSet["Florafaun"] and tamingSet["Direhorn"]
+                                                and ((fSel and not dSel) or (dSel and not fSel))) then
                                             matchActive = true
                                         end
                                     end
                                 elseif state == "inverted" then
                                     local isForbidden = tamingSet[rKey]
-                                    
-                                    -- Special Case: N'lyeth inversion
+
                                     if not isForbidden and rKey == "Sliver of N'Zoth" and displayData.npcs then
                                         for _, npc in ipairs(displayData.npcs) do
-                                            local npcID = tonumber(npc.npcId)
+                                            local npcID   = tonumber(npc.npcId)
                                             local condList = PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
                                             if condList then
                                                 for _, cName in ipairs(condList) do
@@ -933,7 +928,6 @@ local function OnApplyClick(panel)
                         end
                         if passRules and hasRules then match = true end
 
-                        -- Check Conditions (if not matched by rules)
                         if not match and hasConds and displayData.npcs then
                             local userHasActiveConds = false
                             for _, state in pairs(selectedConditionNames) do
@@ -942,16 +936,16 @@ local function OnApplyClick(panel)
 
                             local atLeastOneNpcPasses = false
                             for _, npc in ipairs(displayData.npcs) do
-                                local npcID = tonumber(npc.npcId)
+                                local npcID   = tonumber(npc.npcId)
                                 local condList = PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
-                                local npcDisqualified = false
+                                local npcDisqualified  = false
                                 local npcMatchedActive = false
 
                                 if condList then
                                     for _, cName in ipairs(condList) do
                                         local state = selectedConditionNames[cName]
-                                        if state == "inverted" then npcDisqualified = true; break end
-                                        if state == true then npcMatchedActive = true end
+                                        if state == "inverted" then npcDisqualified  = true; break end
+                                        if state == true       then npcMatchedActive = true  end
                                     end
                                 end
                                 if not npcDisqualified and (not userHasActiveConds or npcMatchedActive) then
@@ -965,14 +959,14 @@ local function OnApplyClick(panel)
                         if match then
                             relevantFamilies[familyName] = true
                             break
+                        end
                     end
                 end
             end
-        end
 
-        for familyName in pairs(relevantFamilies) do
-            PSM.state.selectedModelsFamilies[familyName] = true
-        end
+            for familyName in pairs(relevantFamilies) do
+                PSM.state.selectedModelsFamilies[familyName] = true
+            end
         end
     end
 
@@ -989,12 +983,12 @@ local function OnApplyClick(panel)
             lastRuleKey, lastRuleState = k, v
         end
         if rCount == 1 then
-            local rule = PSM.TamingRules and PSM.TamingRules[lastRuleKey]
-            local label = rule and rule.label or lastRuleKey
-            if lastRuleState == "inverted" then label = "Not " .. label end
-            table.insert(stParts, label)
+            local rule  = PSM.TamingRules and PSM.TamingRules[lastRuleKey]
+            local lbl   = rule and rule.label or lastRuleKey
+            if lastRuleState == "inverted" then lbl = "Not " .. lbl end
+            table.insert(stParts, lbl)
         else
-                table.insert(stParts, "Skills")
+            table.insert(stParts, "Multiple Skills")
         end
     end
 
@@ -1006,11 +1000,11 @@ local function OnApplyClick(panel)
             lastCondKey, lastCondState = k, v
         end
         if cCount == 1 then
-            local label = lastCondKey
-            if lastCondState == "inverted" then label = "Not " .. label end
-            table.insert(stParts, label)
+            local lbl = lastCondKey
+            if lastCondState == "inverted" then lbl = "Not " .. lbl end
+            table.insert(stParts, lbl)
         else
-                table.insert(stParts, "Conditions")
+            table.insert(stParts, "Multiple Conditions")
         end
     end
 
@@ -1023,10 +1017,8 @@ local function OnApplyClick(panel)
     panel:Hide()
 end
 
-
-
 -- ─────────────────────────────────────────────
--- Footer (mirrors AbilityBrowser CreateFooter)
+-- Footer
 -- ─────────────────────────────────────────────
 
 local function CreateFooter(panel)
@@ -1035,14 +1027,12 @@ local function CreateFooter(panel)
     footer:SetPoint("BOTTOMLEFT",  panel, "BOTTOMLEFT",  20, 10)
     footer:SetPoint("BOTTOMRIGHT", panel, "BOTTOMRIGHT", -20, 10)
 
-    -- Separator line
     local sep = footer:CreateTexture(nil, "BACKGROUND")
     sep:SetHeight(1)
     sep:SetPoint("TOPLEFT",  footer, "TOPLEFT",  0, 0)
     sep:SetPoint("TOPRIGHT", footer, "TOPRIGHT", 0, 0)
     sep:SetColorTexture(1, 1, 1, 0.08)
 
-    -- Selection note (bottom-left, like AbilityBrowser)
     local note = footer:CreateFontString(nil, "OVERLAY")
     note:SetFont("Fonts\\FRIZQT__.TTF", PSM.Config.FONT_SIZES.STATS)
     note:SetTextColor(unpack(PSM.Config.COLORS.ABILITY_SELECTION_NOTE))
@@ -1050,7 +1040,6 @@ local function CreateFooter(panel)
     note:SetText("0 items selected")
     panel.selectionNote = note
 
-    -- Apply Filters (rightmost)
     local applyButton = CreateFrame("Button", nil, footer, "UIPanelButtonTemplate")
     applyButton:SetSize(PSM.Config.BUTTON_WIDTH, PSM.Config.BUTTON_HEIGHT)
     applyButton:SetPoint("RIGHT", footer, "RIGHT", 0, -8)
@@ -1059,7 +1048,6 @@ local function CreateFooter(panel)
     applyButton:SetScript("OnClick", function() OnApplyClick(panel) end)
     PSM.UI:ApplyElvUISkin(applyButton, "button")
 
-    -- Select All (left of Apply Filters)
     local selectAllButton = CreateFrame("Button", nil, footer, "UIPanelButtonTemplate")
     selectAllButton:SetSize(PSM.Config.BUTTON_WIDTH, PSM.Config.BUTTON_HEIGHT)
     selectAllButton:SetPoint("RIGHT", applyButton, "LEFT", -8, 0)
@@ -1070,10 +1058,12 @@ local function CreateFooter(panel)
     panel.selectAllBtn = selectAllButton
 end
 
--- Clears the local tracking tables and refreshes the UI rows.
--- Called by ModelsFilters:ResetAllFilters to ensure ticks are cleared.
+-- ─────────────────────────────────────────────
+-- Public: reset internal state
+-- ─────────────────────────────────────────────
+
 function ST:ResetInternalState()
-    selectedRules = {}
+    selectedRules      = {}
     selectedConditions = {}
 
     local panel = PSM.state.specialTames
@@ -1083,17 +1073,29 @@ function ST:ResetInternalState()
     end
 end
 
--- Load selected taming rules and conditions from SavedVariables
+-- ─────────────────────────────────────────────
+-- Load saved filters from SavedVariables
+-- ─────────────────────────────────────────────
+
 local function LoadSavedFilters()
     PSM.state.selectedTamingRules = PSM.state.selectedTamingRules or {}
-    local savedRules = PetStableManagementDB and PetStableManagementDB.filters and PetStableManagementDB.filters.selectedTamingRules
+    local savedRules = PetStableManagementDB
+        and PetStableManagementDB.filters
+        and PetStableManagementDB.filters.selectedTamingRules
     if savedRules then
-        for ruleKey, val in pairs(savedRules) do PSM.state.selectedTamingRules[ruleKey] = val end
+        for ruleKey, val in pairs(savedRules) do
+            PSM.state.selectedTamingRules[ruleKey] = val
+        end
     end
+
     PSM.state.selectedConditions = PSM.state.selectedConditions or {}
-    local savedConditions = PetStableManagementDB and PetStableManagementDB.filters and PetStableManagementDB.filters.selectedConditions
+    local savedConditions = PetStableManagementDB
+        and PetStableManagementDB.filters
+        and PetStableManagementDB.filters.selectedConditions
     if savedConditions then
-        for cond, val in pairs(savedConditions) do PSM.state.selectedConditions[cond] = val end
+        for cond, val in pairs(savedConditions) do
+            PSM.state.selectedConditions[cond] = val
+        end
     end
 end
 
@@ -1111,7 +1113,7 @@ end
 
 function ST:CreateSpecialTamesPanel()
     if PSM.state.specialTames then return end
-    LoadSavedFilters() -- Ensure filters are loaded when panel is created
+    LoadSavedFilters()
 
     local panel = PSM.PanelManager:CreateBasePanel("specialTames", {
         width              = CFG.PANEL_WIDTH,
@@ -1127,7 +1129,6 @@ function ST:CreateSpecialTamesPanel()
         end,
     })
 
-    -- ── Search box (mirrors AbilityBrowser) ──
     local searchBox = CreateFrame("EditBox", nil, panel, "InputBoxTemplate")
     searchBox:SetPoint("TOP", panel.title, "BOTTOM", 0, -10)
     searchBox:SetSize(150, 20)
@@ -1141,11 +1142,9 @@ function ST:CreateSpecialTamesPanel()
     PSM.UI:ApplyElvUISkin(searchBox, "editbox")
     panel.searchBox = searchBox
 
-    -- ── Pill bar (below search box, mirrors AbilityBrowser) ──
     panel.activeTag = "All Skills"
     panel.pillBar   = CreatePillBar(panel)
 
-    -- ── Scroll frame (top anchored below pill bar, like AbilityBrowser) ──
     local scrollFrame = CreateFrame("ScrollFrame", nil, panel, "UIPanelScrollFrameTemplate")
     scrollFrame:SetPoint("TOPLEFT",     panel, "TOPLEFT",     20, -120)
     scrollFrame:SetPoint("BOTTOMRIGHT", panel, "BOTTOMRIGHT", -30,  56)
@@ -1160,10 +1159,8 @@ function ST:CreateSpecialTamesPanel()
     panel.scrollChild = scrollChild
     panel.ruleRows    = {}
 
-    -- ── Footer with all buttons + selection note ──
     CreateFooter(panel)
 
-    -- ── Initial row population ──
     RepopulateRows(panel, "")
     UpdateSelectionNote(panel)
     UpdateSelectAllButton(panel)
