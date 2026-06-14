@@ -145,6 +145,26 @@ function PSM.ModelsPanel:LoadSavedFamiliesFromAbilities()
     end
 end
 
+function PSM.ModelsPanel:LoadSavedFilters()
+    -- Load selected taming rules from SavedVariables
+    PSM.state.selectedTamingRules = PSM.state.selectedTamingRules or {}
+    local savedTamingRules = PetStableManagementDB and PetStableManagementDB.filters and PetStableManagementDB.filters.selectedTamingRules
+    if savedTamingRules then
+        for ruleKey, val in pairs(savedTamingRules) do
+            PSM.state.selectedTamingRules[ruleKey] = val
+        end
+    end
+
+    -- Load selected conditions from SavedVariables
+    PSM.state.selectedConditions = PSM.state.selectedConditions or {}
+    local savedConditions = PetStableManagementDB and PetStableManagementDB.filters and PetStableManagementDB.filters.selectedConditions
+    if savedConditions then
+        for cond, val in pairs(savedConditions) do
+            PSM.state.selectedConditions[cond] = val
+        end
+    end
+end
+
 function PSM.ModelsPanel:CreateModelsPanel()
     local panel = PSM.PanelManager:CreateBasePanel("modelsPanel", {
         width              = MODELS_CONFIG.PANEL_WIDTH,
@@ -163,6 +183,7 @@ function PSM.ModelsPanel:CreateModelsPanel()
                     p.currentPlayerZone = PSM.ModelsFilters:GetPlayerZone()
                 end
                 -- Load any families that were saved from the Abilities panel
+                PSM.ModelsPanel:LoadSavedFilters()
                 PSM.ModelsPanel:LoadSavedFamiliesFromAbilities()
                 PSM.ModelsDataLoader:LoadModelsForSelectedFamilies()
                 p.currentPage = PSM.state.modelsPanelCurrentPage or 1
