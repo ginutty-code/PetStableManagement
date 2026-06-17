@@ -14,6 +14,8 @@ local NPC_ROW_PADDING   = 6
 local NPC_ROW_MIN_H     = 32
 local NPC_ROW_SPACING   = 4  -- gap between rows
 
+local TAMING_ROW_PADDING = 10  -- inset inside tamingFrame (matches TOPLEFT/BOTTOM padding)
+
 local function GetDB() return PetStableManagementDB.settings end
 
 local function SetCamDistanceScaleIfChanged(modelFrame, scale)
@@ -160,7 +162,7 @@ local function CreateNPCRow(parent, npc, rowWidth)
     nameText:SetTextColor(1, 0.82, 0)
     nameText:SetJustifyH("LEFT")
     nameText:SetPoint("TOPLEFT", row, "TOPLEFT", NPC_ROW_PADDING, -NPC_ROW_PADDING)
-    nameText:SetWidth(rowWidth - NPC_ROW_PADDING * 2)
+    nameText:SetWidth(rowWidth - (NPC_ROW_PADDING * 2))
 
     local nameStr = npc.name or "Unknown"
     if npc.classification and npc.classification ~= "Normal" then
@@ -189,7 +191,7 @@ local function CreateNPCRow(parent, npc, rowWidth)
     -- Detail line (location, expansion, faction, NPC ID link)
     local detailText = CreateFrame("SimpleHTML", nil, row)
     detailText:SetPoint("TOPLEFT", line, "BOTTOMLEFT", 0, -3)
-    detailText:SetWidth(rowWidth - NPC_ROW_PADDING * 2)
+    detailText:SetWidth(rowWidth - (NPC_ROW_PADDING * 2))
     detailText:SetFont("p", "Fonts\\FRIZQT__.TTF", 11, "")
     detailText:SetHyperlinksEnabled(true)
 
@@ -271,17 +273,42 @@ local function CreateNPCRow(parent, npc, rowWidth)
     return row
 end
 
+-- Re-flow taming requirements text and resize the frame (mirrors CreateNPCRow sizing)
+local function UpdateTamingLayout(popup)
+    local tf, html = popup.tamingFrame, popup.tamingHTML
+    if not tf or not html or not tf:IsShown() or not popup.tamingHTMLContent then return end
+
+    local textW = tf:GetWidth() - (TAMING_ROW_PADDING * 2)
+    if textW <= 0 then textW = (popup:GetWidth() or 500) - 50 - (TAMING_ROW_PADDING * 2) end
+
+    popup.tamingTitle:SetWidth(textW)
+    html:SetWidth(textW)
+    html:SetText(popup.tamingHTMLContent)
+
+    PSM.C_Timer.After(0.01, function()
+        if not tf or not tf:IsShown() then return end
+        local titleH = popup.tamingTitle:GetStringHeight() or 14
+        local dh = html:GetContentHeight()
+        html:SetHeight(math.max(dh, 14))
+        local totalH = 5 + titleH + 6 + math.max(dh, 14) + 8
+        tf:SetHeight(math.max(20, totalH))
+    end)
+end
+
 local function UpdateScrollBarVisibility(p)
     if not p.npcsScrollFrame or not p.npcsScrollBar or not p.npcsContainer then return end
-    local totalH = p.npcsContainer:GetHeight()
-    local sfH = p.npcsScrollFrame:GetHeight()
+    local totalH = p.npcsContainer:GetHeight() or 0
+    local sfH = p.npcsScrollFrame:GetHeight() or 1
     local maxScroll = math.max(0, totalH - sfH)
     
     p.npcsScrollBar:SetMinMaxValues(0, maxScroll)
+    p.npcsScrollBar:Show()
     if maxScroll > 0 then
-        p.npcsScrollBar:Show()
+        p.npcsScrollBar:Enable()
+        p.npcsScrollBar:SetAlpha(1.0)
     else
-        p.npcsScrollBar:Hide()
+        p.npcsScrollBar:Disable()
+        p.npcsScrollBar:SetAlpha(0.3)
         p.npcsScrollBar:SetValue(0)
     end
 end
@@ -295,18 +322,16 @@ local function BuildNPCRows(popup, npcs)
 
     if not npcs or #npcs == 0 then
         popup.npcsScrollFrame:Hide()
-        popup.npcsScrollBar:Hide()
+        popup.npcsScrollBar:Hide() -- Hide scrollbar if no NPCs
         return
     end
 
     local container = popup.npcsContainer
-    local rowWidth  = popup.npcsScrollFrame:GetWidth()
-    
-    -- Fallback: if GetWidth is 0 (hidden/first layout), calculate from popup width
-    if not rowWidth or rowWidth <= 0 then
-        rowWidth = popup:GetWidth() - 50
-    end
-    rowWidth = rowWidth - 10
+    local scrollW = popup.npcsScrollFrame:GetWidth()
+    if not scrollW or scrollW <= 0 then scrollW = (popup:GetWidth() or 500) - 50 end
+
+    local rowWidth = scrollW - 22
+    container:SetWidth(rowWidth)
 
     -- Initial estimate to keep the scrollframe functional while dynamic heights calculate
     container:SetHeight(math.max(1, #npcs * (NPC_ROW_MIN_H + NPC_ROW_SPACING)))
@@ -328,31 +353,30 @@ local function BuildNPCRows(popup, npcs)
 
     -- Update container height after rows have calculated their dynamic sizes
     PSM.C_Timer.After(0.05, function()
-        if not popup:IsVisible() then return end
-        local totalH = 0
-        local autoSizeH = 0
+        local totalH, autoSizeH = 0, 0
         for i, r in ipairs(popup.npcRows) do
-            local h = r:GetHeight() + NPC_ROW_SPACING
+            local h = (r:GetHeight() or NPC_ROW_MIN_H) + NPC_ROW_SPACING
             totalH = totalH + h
             if i <= 2 then
                 autoSizeH = autoSizeH + h
             end
         end
         container:SetHeight(math.max(1, totalH))
-        
+        UpdateScrollBarVisibility(popup)
+
         -- Store prioritized height (up to 2 NPCs) for layout calculations (used by OnSizeChanged)
         popup.lastCalculatedRowsH = autoSizeH
 
         -- Auto-expand window height based on content when data is attached
         if popup.needsAutoSizing then
             popup.needsAutoSizing = false
-            -- Layout offsets: Title, Gaps, Info, Taming + Bottom Padding (~165)
-            local staticOffsets = 165
+            -- Calculate dynamic offsets
+            local tamingH = (popup.tamingFrame and popup.tamingFrame:IsShown()) and (popup.tamingFrame:GetHeight() or 0) or 0
+            local staticOffsets = 150 + tamingH
             local targetH = 300 + staticOffsets + math.min(autoSizeH, 350)
             popup:SetHeight(math.min(targetH, UIParent:GetHeight() * 0.85))
-        end
-        UpdateScrollBarVisibility(popup)
-    end)
+    end
+end)
 
     popup.npcsScrollFrame:Show()
 end
@@ -472,7 +496,7 @@ function PSM.PopUpManager:CreateModelPopup(config)
     -- 3D model frame
     local mf = CreateFrame("PlayerModel", nil, popup)
     mf:SetSize(modelSize - 10, modelSize - 10)
-    mf:SetPoint("TOP", popup.title, "BOTTOM", -5, -15)
+    mf:SetPoint("TOP", popup.title, "BOTTOM", 0, -15)
     mf:SetFrameLevel(popup:GetFrameLevel() + 1)
     mf.rotation            = math.pi * 2
     mf.zoom                = 1.0
@@ -607,27 +631,47 @@ function PSM.PopUpManager:CreateModelPopup(config)
     popup.favoritesButton:SetScript("OnLeave", function() GameTooltip:Hide() end)
     popup.SetFavTexCoord = SetFavTexCoord
 
-    -- Info text
+    -- Info text (anchored to bottom of model frame)
     popup.infoText = popup:CreateFontString(nil, "OVERLAY")
     popup.infoText:SetFont("Fonts\\FRIZQT__.TTF", 12)
-    popup.infoText:SetPoint("TOP", mf, "BOTTOM", 0, -20)
-    popup.infoText:SetWidth(width - 50)
-    popup.infoText:SetJustifyH("CENTER")
+    popup.infoText:SetPoint("TOPLEFT", mf, "BOTTOMLEFT", 0, -20)
+    popup.infoText:SetPoint("TOPRIGHT", popup, "TOPRIGHT", -25, -20)
 
-    -- Taming requirements line (SimpleHTML, hidden when no requirements)
-    popup.tamingFrame = CreateFrame("SimpleHTML", nil, popup)
-    popup.tamingFrame:SetPoint("TOP", popup.infoText, "BOTTOM", 0, -8)
-    popup.tamingFrame:SetSize(width - 50, 20)
-    popup.tamingFrame:SetFont("p", "Fonts\\FRIZQT__.TTF", 11, "")
-    popup.tamingFrame:SetHyperlinksEnabled(true)
-    popup.tamingFrame:Hide()
+    -- Taming requirements area
+    local tf = CreateFrame("Frame", nil, popup, "BackdropTemplate")
+    tf:SetPoint("TOPLEFT", popup.infoText, "BOTTOMLEFT", 0, -10)
+    tf:SetPoint("TOPRIGHT", popup.infoText, "BOTTOMRIGHT", 0, -10)
+    popup.tamingFrame = tf
+    tf:SetBackdrop({
+        bgFile = "Interface\\Buttons\\WHITE8X8",
+    })
+    tf:SetBackdropColor(0.08, 0.08, 0.12, 0.85)
 
-    popup.tamingFrame:SetScript("OnHyperlinkEnter", function(_, link)
+    popup.tamingTitle = tf:CreateFontString(nil, "OVERLAY")
+    popup.tamingTitle:SetFont("Fonts\\FRIZQT__.TTF", 12, "OUTLINE")
+    popup.tamingTitle:SetTextColor(1, 0.82, 0)
+    popup.tamingTitle:SetJustifyH("CENTER")
+    popup.tamingTitle:SetPoint("TOPLEFT", tf, "TOPLEFT", TAMING_ROW_PADDING, -5)
+    popup.tamingTitle:SetText("Taming Skills Required")
+
+    local tamingBottomLine = tf:CreateTexture(nil, "OVERLAY")
+    tamingBottomLine:SetHeight(2)
+    tamingBottomLine:SetPoint("BOTTOMLEFT", 0, 0)
+    tamingBottomLine:SetPoint("BOTTOMRIGHT", 0, 0)
+    tamingBottomLine:SetColorTexture(0.44, 0.44, 0.50, 1)
+
+    popup.tamingHTML = CreateFrame("SimpleHTML", nil, tf)
+    popup.tamingHTML:SetPoint("TOPLEFT", popup.tamingTitle, "BOTTOMLEFT", 0, -4)
+    popup.tamingHTML:SetFont("p", "Fonts\\FRIZQT__.TTF", 11, "")
+    popup.tamingHTML:SetHyperlinksEnabled(true)
+    tf:Hide()
+
+    popup.tamingHTML:SetScript("OnHyperlinkEnter", function(_, link)
         local linkType, data = strsplit(":", link, 2)
         if linkType ~= "psmtaming" then return end
         local rule = PSM.TamingRules and PSM.TamingRules[data]
         if not rule or not rule.hint then return end
-        GameTooltip:SetOwner(popup.tamingFrame, "ANCHOR_CURSOR")
+        GameTooltip:SetOwner(popup.tamingHTML, "ANCHOR_CURSOR")
         if rule.hint.itemID then
             GameTooltip:SetHyperlink("item:" .. rule.hint.itemID)
         elseif rule.hint.questID then
@@ -636,11 +680,11 @@ function PSM.PopUpManager:CreateModelPopup(config)
         GameTooltip:Show()
     end)
 
-    popup.tamingFrame:SetScript("OnHyperlinkLeave", function()
+    popup.tamingHTML:SetScript("OnHyperlinkLeave", function()
         GameTooltip:Hide()
     end)
 
-    popup.tamingFrame:SetScript("OnHyperlinkClick", function(_, link, _, button)
+    popup.tamingHTML:SetScript("OnHyperlinkClick", function(_, link, _, button)
         local linkType, data = strsplit(":", link, 2)
         if linkType ~= "psmtaming" then return end
         local rule = PSM.TamingRules and PSM.TamingRules[data]
@@ -657,18 +701,19 @@ function PSM.PopUpManager:CreateModelPopup(config)
 
     -- NPC scroll area
     popup.npcsScrollFrame = CreateFrame("ScrollFrame", nil, popup)
-    popup.npcsScrollFrame:SetPoint("TOPLEFT", popup.tamingFrame, "BOTTOMLEFT", 0, -8)
-    popup.npcsScrollFrame:SetPoint("BOTTOMRIGHT", popup, "BOTTOMRIGHT", -25, 45)
+    popup.npcsScrollFrame:SetPoint("TOPLEFT", tf, "BOTTOMLEFT", 0, -8)
+    popup.npcsScrollFrame:SetPoint("TOPRIGHT", tf, "BOTTOMRIGHT", 0, -8)
+    popup.npcsScrollFrame:SetPoint("BOTTOM", popup, "BOTTOM", 0, 45)
     popup.npcsScrollFrame:EnableMouse(true)
 
     popup.npcsContainer = CreateFrame("Frame", nil, popup.npcsScrollFrame)
-    popup.npcsContainer:SetSize(width - 70, 110)
-    popup.npcsContainer:SetPoint("TOPLEFT")
+    popup.npcsContainer:SetSize(width - 0, 120)
+    popup.npcsContainer:SetPoint("TOPLEFT", 22, 0) -- Leave space for scrollbar on left
     popup.npcsScrollFrame:SetScrollChild(popup.npcsContainer)
 
     local scrollBar = CreateFrame("Slider", nil, popup, "UIPanelScrollBarTemplate")
-    scrollBar:SetPoint("TOPLEFT",    popup.npcsScrollFrame, "TOPLEFT",    -20, -16)
-    scrollBar:SetPoint("BOTTOMLEFT", popup.npcsScrollFrame, "BOTTOMLEFT", -20,  16)
+    scrollBar:SetPoint("TOPRIGHT",    popup.npcsScrollFrame, "TOPRIGHT",    0, -16)
+    scrollBar:SetPoint("BOTTOMRIGHT", popup.npcsScrollFrame, "BOTTOMRIGHT", 0,  16)
     scrollBar:SetMinMaxValues(0, 0)
     scrollBar:SetValueStep(1)
     scrollBar.scrollStep = 1
@@ -720,17 +765,30 @@ function PSM.PopUpManager:CreateModelPopup(config)
 
             -- We treat the list content height as a fixed offset from the bottom.
             -- This ensures extra window height from manual resizing goes to the model area.
-            local staticOffsets = 165
+            local tamingH = (self.tamingFrame and self.tamingFrame:IsShown()) and (self.tamingFrame:GetHeight() or 0) or 0
+            local staticOffsets = 150 + tamingH
             local rowsH = math.min(self.lastCalculatedRowsH or 100, 350)
 
             local mw = math.max(200, width - 50)
             local mh = math.max(200, height - staticOffsets - rowsH)
             
             mf:SetSize(mw - 10, mh - 10)
-            if self.infoText        then self.infoText:SetWidth(width - 50) end
-            if self.tamingFrame     then self.tamingFrame:SetWidth(width - 50) end
+            if self.infoText then 
+                self.infoText:SetWidth(width - 50) 
+            end
+            if self.tamingFrame then
+                UpdateTamingLayout(self)
+            end
+            -- Dynamically adjust NPC area anchors if taming frame is hidden
+            if self.tamingFrame and not self.tamingFrame:IsShown() then
+                self.npcsScrollFrame:SetPoint("TOPLEFT", self.infoText, "BOTTOMLEFT", 0, -8)
+                self.npcsScrollFrame:SetPoint("TOPRIGHT", self.infoText, "BOTTOMRIGHT", 0, -8)
+            else
+                self.npcsScrollFrame:SetPoint("TOPLEFT", self.tamingFrame, "BOTTOMLEFT", 0, -8)
+                self.npcsScrollFrame:SetPoint("TOPRIGHT", self.tamingFrame, "BOTTOMRIGHT", 0, -8)
+            end
             if self.npcsContainer then
-                self.npcsContainer:SetWidth(width - 70)
+                self.npcsContainer:SetWidth(math.max(200, self.npcsScrollFrame:GetWidth() - 0))
 
                 -- Re-flow rows if width changed significantly (handles text wrapping)
                 local wDiff = math.abs((self._lastBuildW or 0) - width)
@@ -1231,15 +1289,26 @@ function PSM.PopUpManager:PopulateModelPopup(popup, displayId, petData, npcs)
                     hintStr)
             end
         end
-        local line = table.concat(parts, " and ")
-        local html = "<html><body><p align='center'>" .. line .. "</p></body></html>"
-        popup.tamingFrame:SetText(html)
-        PSM.C_Timer.After(0.01, function()
-            local h = math.max(20, popup.tamingFrame:GetContentHeight())
-            popup.tamingFrame:SetHeight(h)
-        end)
+        local bodyContent
+        if #parts >= 1 then
+            local lines = {}
+            -- Insert an initial line break to add extra vertical space below the title
+            lines[#lines + 1] = "<br/>"
+            for i, part in ipairs(parts) do
+                if i > 1 then
+                    lines[#lines + 1] = "<br/>"
+                end
+                lines[#lines + 1] = string.format("<p align='center'>%d. %s</p>", i, part)
+            end
+            bodyContent = table.concat(lines, "")
+        else
+            bodyContent = ""
+        end
+        popup.tamingHTMLContent = "<html><body>" .. bodyContent .. "</body></html>"
         popup.tamingFrame:Show()
+        UpdateTamingLayout(popup)
     else
+        popup.tamingHTMLContent = nil
         popup.tamingFrame:Hide()
     end
 
