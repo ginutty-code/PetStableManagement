@@ -201,7 +201,7 @@ local function CreateNPCRow(parent, npc, rowWidth)
     local factionStr = formatFactionIndicator(npc.factionReaction)
     local noteLink   = npc.npcId and BuildNoteLink(npc.npcId) or ""
 
-    local detailLine = string.format("|Hnpc:%s|h|cff00ff00#%s|h|r%s", id, id, conditionHint)
+    local detailLine = string.format("|Hnpc:%s|h|cff00ff00NPC ID: %s|h|r%s", id, id, conditionHint)
     detailLine = detailLine .. sep .. locLabel
     detailLine = detailLine .. sep .. "|cffaaaaaa" .. expansion .. "|r"
     if factionStr ~= "" then detailLine = detailLine .. sep .. factionStr end
@@ -1082,6 +1082,8 @@ end
 function PSM.PopUpManager:ShowMagnificationPopup(displayId, petData)
     if not displayId then return end
 
+    displayId = tonumber(displayId)
+
     if not PSM.state.modelMagnificationPopup then
         PSM.state.modelMagnificationPopup = self:CreateModelPopup({
             title     = "Model Magnifier",
@@ -1100,7 +1102,7 @@ function PSM.PopUpManager:ShowMagnificationPopup(displayId, petData)
     local popup = PSM.state.modelMagnificationPopup
     popup.currentDisplayId   = displayId
     popup.currentPetData     = petData
-    popup.modelFrame.petData = petData
+    popup.modelFrame.petData = petData or {}
     self:UpdatePopupBackground(popup, displayId, petData)
 
     PSM.C_Timer.After(0.1, function()
@@ -1126,9 +1128,13 @@ function PSM.PopUpManager:ShowMagnificationPopup(displayId, petData)
         familyName = petData.familyName
     end
 
-    if PSM.state.modelsPanel and PSM.state.modelsPanel.allModels then
+    if petData and petData.npcs and type(petData.npcs) == "table" and #petData.npcs > 0 then
+        npcs = petData.npcs
+    elseif PSM.state.modelsPanel and PSM.state.modelsPanel.allModels then
+        -- Fallback: Search the browser cache if module is loaded and has data
+        -- tonumber() handles cases where displayId might be a string from certain data sources
         for _, m in ipairs(PSM.state.modelsPanel.allModels) do
-            if m.displayId == displayId then
+            if tonumber(m.displayId) == displayId then
                 familyName = m.familyName or familyName
                 npcs = m.npcs or npcs
                 break
@@ -1136,15 +1142,7 @@ function PSM.PopUpManager:ShowMagnificationPopup(displayId, petData)
         end
     end
 
-    if #npcs == 0 and PSM.state.stablePets then
-        for _, pet in ipairs(PSM.state.stablePets) do
-            if pet.displayID == displayId then
-                familyName = pet.familyName or familyName
-                break
-            end
-        end
-    end
-
+    -- Fallback: Search via PetModels API (Part of ModelsBrowser module)
     if #npcs == 0 and PSM.PetModels then
         for _, fam in ipairs(PSM.PetModels:GetAvailableFamilies()) do
             local info = PSM.PetModels:GetModelInfo(fam, displayId)
@@ -1157,9 +1155,22 @@ function PSM.PopUpManager:ShowMagnificationPopup(displayId, petData)
     end
 
     -- 4. Final Fallback: Direct lookup in ModelsData (crucial for magnification from Owned Pets panel)
-    if #npcs == 0 and displayId and familyName ~= "Unknown" and _G.ModelsData then
-        local familyEntry = _G.ModelsData[familyName]
+    if #npcs == 0 and displayId and _G.ModelsData then
+        local familyEntry = (familyName ~= "Unknown") and _G.ModelsData[familyName]
         local modelEntry = familyEntry and familyEntry[displayId]
+
+        -- If localization mismatch or unknown family, search all families for the display ID
+        if not modelEntry then
+            for fam, data in pairs(_G.ModelsData) do
+                if data[displayId] then
+                    familyEntry = data
+                    modelEntry = data[displayId]
+                    familyName = fam -- update to the internal key for taming fallback
+                    break
+                end
+            end
+        end
+
         if modelEntry then
             for k, v in pairs(modelEntry) do
                 if type(k) == "number" then
@@ -1180,6 +1191,8 @@ function PSM.PopUpManager:ShowMagnificationPopup(displayId, petData)
         end
     end
 
+    popup.resolvedFamily = familyName
+
     self:PopulateModelPopup(popup, displayId, petData, npcs)
 
     popup:Show()
@@ -1192,17 +1205,19 @@ end
 
 function PSM.PopUpManager:PopulateModelPopup(popup, displayId, petData, npcs)
     popup.needsAutoSizing = true
-    popup.currentDisplayId = displayId
+    popup.currentDisplayId = tonumber(displayId)
     popup.currentPetData = petData
     popup.currentNPCs = npcs or {}
 
     -- Info text
     local familyName = "Unknown"
-    if petData and petData.familyName then
+    if petData and petData.familyName and petData.familyName ~= "" then
         familyName = petData.familyName
+    elseif popup.resolvedFamily then
+        familyName = popup.resolvedFamily
     elseif PSM.state.modelsPanel and PSM.state.modelsPanel.allModels then
         for _, m in ipairs(PSM.state.modelsPanel.allModels) do
-            if m.displayId == displayId then
+            if tonumber(m.displayId) == tonumber(displayId) then
                 familyName = m.familyName or familyName
                 break
             end
@@ -1214,13 +1229,24 @@ function PSM.PopUpManager:PopulateModelPopup(popup, displayId, petData, npcs)
     local tamingData = nil
     if petData and petData.taming then
         tamingData = petData.taming
-    elseif PSM.state.modelsPanel and PSM.state.modelsPanel.allModels then
+    elseif PSM.state.modelsPanel and PSM.state.modelsPanel.allModels and type(PSM.state.modelsPanel.allModels) == "table" then
         for _, m in ipairs(PSM.state.modelsPanel.allModels) do
-            if m.displayId == displayId and m.taming then
+            if tonumber(m.displayId) == tonumber(displayId) and m.taming then
                 tamingData = m.taming
                 break
             end
         end
+    end
+
+    -- Fallback to raw data for taming info (fixes Owned Pets panel display)
+    if not tamingData and _G.ModelsData then
+        local entry = _G.ModelsData[familyName] and _G.ModelsData[familyName][tonumber(displayId)]
+        if not entry then
+            for _, data in pairs(_G.ModelsData) do
+                if data[tonumber(displayId)] then entry = data[tonumber(displayId)]; break end
+            end
+        end
+        if entry then tamingData = entry.taming end
     end
 
     if tamingData and PSM.TamingChecker then
