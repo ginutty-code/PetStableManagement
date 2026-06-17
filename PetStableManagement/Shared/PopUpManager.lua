@@ -144,11 +144,15 @@ local function CreateNPCRow(parent, npc, rowWidth)
     row:SetWidth(rowWidth)
     row:SetBackdrop({
         bgFile   = "Interface\\Buttons\\WHITE8X8",
-        edgeFile = "Interface\\Buttons\\WHITE8X8",
-        edgeSize = 1,
     })
     row:SetBackdropColor(0.08, 0.08, 0.12, 0.85)
-    row:SetBackdropBorderColor(0.25, 0.25, 0.30, 1)
+
+    -- Bottom border line
+    local bottomLine = row:CreateTexture(nil, "OVERLAY")
+    bottomLine:SetHeight(1)
+    bottomLine:SetPoint("BOTTOMLEFT", row, "BOTTOMLEFT", 0, 0)
+    bottomLine:SetPoint("BOTTOMRIGHT", row, "BOTTOMRIGHT", 0, 0)
+    bottomLine:SetColorTexture(0.25, 0.25, 0.30, 1)
 
     -- NPC name (left, gold)
     local nameText = row:CreateFontString(nil, "OVERLAY")
@@ -267,6 +271,21 @@ local function CreateNPCRow(parent, npc, rowWidth)
     return row
 end
 
+local function UpdateScrollBarVisibility(p)
+    if not p.npcsScrollFrame or not p.npcsScrollBar or not p.npcsContainer then return end
+    local totalH = p.npcsContainer:GetHeight()
+    local sfH = p.npcsScrollFrame:GetHeight()
+    local maxScroll = math.max(0, totalH - sfH)
+    
+    p.npcsScrollBar:SetMinMaxValues(0, maxScroll)
+    if maxScroll > 0 then
+        p.npcsScrollBar:Show()
+    else
+        p.npcsScrollBar:Hide()
+        p.npcsScrollBar:SetValue(0)
+    end
+end
+
 local function BuildNPCRows(popup, npcs)
     -- Tear down previous rows
     if popup.npcRows then
@@ -281,37 +300,61 @@ local function BuildNPCRows(popup, npcs)
     end
 
     local container = popup.npcsContainer
-    local rowWidth  = popup.npcsScrollFrame:GetWidth() - 10
+    local rowWidth  = popup.npcsScrollFrame:GetWidth()
+    
+    -- Fallback: if GetWidth is 0 (hidden/first layout), calculate from popup width
+    if not rowWidth or rowWidth <= 0 then
+        rowWidth = popup:GetWidth() - 50
+    end
+    rowWidth = rowWidth - 10
 
-    local yOff = 0
+    -- Initial estimate to keep the scrollframe functional while dynamic heights calculate
+    container:SetHeight(math.max(1, #npcs * (NPC_ROW_MIN_H + NPC_ROW_SPACING)))
+
+    local prevRow = nil
     for _, npc in ipairs(npcs) do
         local row = CreateNPCRow(container, npc, rowWidth)
         row._parentPopup = popup
-        row:SetPoint("TOPLEFT", container, "TOPLEFT", 0, -yOff)
-
-        -- After height is resolved, shift next row down
-        local capturedRow = row
-        local capturedOff = yOff
-        PSM.C_Timer.After(0.02, function()
-            local h = capturedRow:GetHeight()
-            -- Repoint subsequent rows is tricky post-hoc, so we use a fixed
-            -- estimated height on first pass and let OnSizeChanged clean up.
-            -- Alternatively use a fixed ROW_HEIGHT if your data is uniform.
-        end)
-
-        yOff = yOff + NPC_ROW_MIN_H + NPC_ROW_SPACING
+        
+        if not prevRow then
+            row:SetPoint("TOPLEFT", container, "TOPLEFT", 0, 0)
+        else
+            row:SetPoint("TOPLEFT", prevRow, "BOTTOMLEFT", 0, -NPC_ROW_SPACING)
+        end
+        
+        prevRow = row
         popup.npcRows[#popup.npcRows + 1] = row
     end
 
-    -- Set container height so scroll works
-    container:SetHeight(#npcs * (NPC_ROW_MIN_H + NPC_ROW_SPACING))
-    local maxScroll = math.max(0, container:GetHeight() - popup.npcsScrollFrame:GetHeight())
-    popup.npcsScrollBar:SetMinMaxValues(0, maxScroll)
-    popup.npcsScrollBar:SetValue(0)
-    popup.npcsScrollFrame:SetVerticalScroll(0)
+    -- Update container height after rows have calculated their dynamic sizes
+    PSM.C_Timer.After(0.05, function()
+        if not popup:IsVisible() then return end
+        local totalH = 0
+        local autoSizeH = 0
+        for i, r in ipairs(popup.npcRows) do
+            local h = r:GetHeight() + NPC_ROW_SPACING
+            totalH = totalH + h
+            if i <= 2 then
+                autoSizeH = autoSizeH + h
+            end
+        end
+        container:SetHeight(math.max(1, totalH))
+        
+        -- Store prioritized height (up to 2 NPCs) for layout calculations (used by OnSizeChanged)
+        popup.lastCalculatedRowsH = autoSizeH
+
+        -- Auto-expand window height based on content when data is attached
+        if popup.needsAutoSizing then
+            popup.needsAutoSizing = false
+            -- Layout offsets: Title, Gaps, Info, Taming + Bottom Padding (~165)
+            local staticOffsets = 165
+            local targetH = 300 + staticOffsets + math.min(autoSizeH, 350)
+            popup:SetHeight(math.min(targetH, UIParent:GetHeight() * 0.85))
+        end
+        UpdateScrollBarVisibility(popup)
+    end)
 
     popup.npcsScrollFrame:Show()
-    popup.npcsScrollBar:Show()
 end
 
 function PSM.PopUpManager:UpdatePopupBackground(popup, displayId, petData)
@@ -614,8 +657,8 @@ function PSM.PopUpManager:CreateModelPopup(config)
 
     -- NPC scroll area
     popup.npcsScrollFrame = CreateFrame("ScrollFrame", nil, popup)
-    popup.npcsScrollFrame:SetPoint("TOP", popup.tamingFrame, "BOTTOM", 20, -8)
-    popup.npcsScrollFrame:SetSize(width - 50, 110)
+    popup.npcsScrollFrame:SetPoint("TOPLEFT", popup.tamingFrame, "BOTTOMLEFT", 0, -8)
+    popup.npcsScrollFrame:SetPoint("BOTTOMRIGHT", popup, "BOTTOMRIGHT", -25, 45)
     popup.npcsScrollFrame:EnableMouse(true)
 
     popup.npcsContainer = CreateFrame("Frame", nil, popup.npcsScrollFrame)
@@ -671,22 +714,34 @@ function PSM.PopUpManager:CreateModelPopup(config)
 
     -- Resize handler
     if resizable then
-        popup:SetScript("OnSizeChanged", function(self, w, h)
-            local mw = math.max(300, w - 40)
-            local mh = math.max(300, h - 220)
+        popup:SetScript("OnSizeChanged", function(self, width, height)
+            if self._inLayout then return end
+            self._inLayout = true
+
+            -- We treat the list content height as a fixed offset from the bottom.
+            -- This ensures extra window height from manual resizing goes to the model area.
+            local staticOffsets = 165
+            local rowsH = math.min(self.lastCalculatedRowsH or 100, 350)
+
+            local mw = math.max(200, width - 50)
+            local mh = math.max(200, height - staticOffsets - rowsH)
+            
             mf:SetSize(mw - 10, mh - 10)
-            if self.infoText        then self.infoText:SetWidth(w - 50) end
-            if self.tamingFrame     then self.tamingFrame:SetWidth(w - 50) end
-            if self.npcsScrollFrame then
-                local sh = math.max(110, h - mh - 150)
-                self.npcsScrollFrame:SetSize(w - 50, sh)
-            end
+            if self.infoText        then self.infoText:SetWidth(width - 50) end
+            if self.tamingFrame     then self.tamingFrame:SetWidth(width - 50) end
             if self.npcsContainer then
-                self.npcsContainer:SetWidth(w - 70)
-                if self.currentNPCs then
+                self.npcsContainer:SetWidth(width - 70)
+
+                -- Re-flow rows if width changed significantly (handles text wrapping)
+                local wDiff = math.abs((self._lastBuildW or 0) - width)
+                if wDiff > 10 and self.currentNPCs then
+                    self._lastBuildW = width
                     BuildNPCRows(self, self.currentNPCs)
                 end
             end
+            UpdateScrollBarVisibility(self)
+            
+            self._inLayout = nil
         end)
     end
 
@@ -1009,6 +1064,10 @@ function PSM.PopUpManager:ShowMagnificationPopup(displayId, petData)
     local familyName = "Unknown"
     local npcs = {}
 
+    if petData and petData.familyName then
+        familyName = petData.familyName
+    end
+
     if PSM.state.modelsPanel and PSM.state.modelsPanel.allModels then
         for _, m in ipairs(PSM.state.modelsPanel.allModels) do
             if m.displayId == displayId then
@@ -1039,6 +1098,30 @@ function PSM.PopUpManager:ShowMagnificationPopup(displayId, petData)
         end
     end
 
+    -- 4. Final Fallback: Direct lookup in ModelsData (crucial for magnification from Owned Pets panel)
+    if #npcs == 0 and displayId and familyName ~= "Unknown" and _G.ModelsData then
+        local familyEntry = _G.ModelsData[familyName]
+        local modelEntry = familyEntry and familyEntry[displayId]
+        if modelEntry then
+            for k, v in pairs(modelEntry) do
+                if type(k) == "number" then
+                    table.insert(npcs, {
+                        npcId = k,
+                        name = v[1],
+                        location = v[2],
+                        expansion = v[3],
+                        classification = v[4],
+                        factionReaction = v[5]
+                    })
+                end
+            end
+            -- Ensure consistent sorting for the popup list
+            table.sort(npcs, function(a, b) 
+                return tonumber(a.npcId or 0) < tonumber(b.npcId or 0) 
+            end)
+        end
+    end
+
     self:PopulateModelPopup(popup, displayId, petData, npcs)
 
     popup:Show()
@@ -1050,6 +1133,7 @@ end
 -- ============================================================
 
 function PSM.PopUpManager:PopulateModelPopup(popup, displayId, petData, npcs)
+    popup.needsAutoSizing = true
     popup.currentDisplayId = displayId
     popup.currentPetData = petData
     popup.currentNPCs = npcs or {}
