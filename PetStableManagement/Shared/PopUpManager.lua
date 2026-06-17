@@ -10,6 +10,10 @@ PSM.PopUpManager = PSM.PopUpManager or {}
 -- Helpers
 -- ============================================================
 
+local NPC_ROW_PADDING   = 6
+local NPC_ROW_MIN_H     = 32
+local NPC_ROW_SPACING   = 4  -- gap between rows
+
 local function GetDB() return PetStableManagementDB.settings end
 
 local function SetCamDistanceScaleIfChanged(modelFrame, scale)
@@ -120,8 +124,10 @@ end
 -- Returns the [+] note link for an NPC line, colored by note state.
 -- grey = no notes, yellow = seed note only, green = user note exists
 local function BuildNoteLink(npcId)
-    local hasSeed = PSM.NotesData and PSM.NotesData[npcId]
-    local hasUser = PSM_UserNotes and PSM_UserNotes[npcId] and PSM_UserNotes[npcId] ~= ""
+    local id = tonumber(npcId)
+    if not id then return "" end
+    local hasSeed = PSM.NotesData and PSM.NotesData[id]
+    local hasUser = PSM_UserNotes and PSM_UserNotes[id] and PSM_UserNotes[id] ~= ""
     local color
     if hasUser then
         color = "ffffff00"  -- yellow: user note (rarer, personal)
@@ -131,6 +137,181 @@ local function BuildNoteLink(npcId)
         color = "ff888888"  -- grey: no notes
     end
     return string.format("|c%s|Hpsmnote:%d|h[+]|h|r", color, npcId)
+end
+
+local function CreateNPCRow(parent, npc, rowWidth)
+    local row = CreateFrame("Frame", nil, parent, "BackdropTemplate")
+    row:SetWidth(rowWidth)
+    row:SetBackdrop({
+        bgFile   = "Interface\\Buttons\\WHITE8X8",
+        edgeFile = "Interface\\Buttons\\WHITE8X8",
+        edgeSize = 1,
+    })
+    row:SetBackdropColor(0.08, 0.08, 0.12, 0.85)
+    row:SetBackdropBorderColor(0.25, 0.25, 0.30, 1)
+
+    -- NPC name (left, gold)
+    local nameText = row:CreateFontString(nil, "OVERLAY")
+    nameText:SetFont("Fonts\\FRIZQT__.TTF", 12, "OUTLINE")
+    nameText:SetTextColor(1, 0.82, 0)
+    nameText:SetJustifyH("LEFT")
+    nameText:SetPoint("TOPLEFT", row, "TOPLEFT", NPC_ROW_PADDING, -NPC_ROW_PADDING)
+    nameText:SetWidth(rowWidth - NPC_ROW_PADDING * 2)
+
+    local nameStr = npc.name or "Unknown"
+    if npc.classification and npc.classification ~= "Normal" then
+        nameStr = nameStr .. " |cffaaaaaa(" .. npc.classification .. ")|r"
+    end
+    nameText:SetText(nameStr)
+
+    -- Metadata separator
+    local sep = "  |cff666666•|r  "
+
+    -- Condition hint
+    local npcID = tonumber(npc.npcId)
+    local condList = npcID and PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
+    local conditionHint = ""
+    if condList and #condList > 0 then
+        conditionHint = " |cffff8800|Hpsmcond:" .. npcID .. "|h[*]|h|r"
+    end
+
+    -- Subtle separator line between name and details
+    local line = row:CreateTexture(nil, "ARTWORK")
+    line:SetHeight(1)
+    line:SetPoint("TOPLEFT", nameText, "BOTTOMLEFT", 0, -2)
+    line:SetPoint("TOPRIGHT", nameText, "BOTTOMRIGHT", 0, -2)
+    line:SetColorTexture(1, 1, 1, 0.08)
+
+    -- Detail line (location, expansion, faction, NPC ID link)
+    local detailText = CreateFrame("SimpleHTML", nil, row)
+    detailText:SetPoint("TOPLEFT", line, "BOTTOMLEFT", 0, -3)
+    detailText:SetWidth(rowWidth - NPC_ROW_PADDING * 2)
+    detailText:SetFont("p", "Fonts\\FRIZQT__.TTF", 11, "")
+    detailText:SetHyperlinksEnabled(true)
+
+    local id         = npc.npcId or "?"
+    local locLabel   = PSM.PopUpManager:BuildCoordsLocationLabel(npc.npcId, npc.location) or "Unknown"
+    local expansion  = npc.expansion or "Unknown"
+    local factionStr = formatFactionIndicator(npc.factionReaction)
+    local noteLink   = npc.npcId and BuildNoteLink(npc.npcId) or ""
+
+    local detailLine = string.format("|Hnpc:%s|h|cff00ff00#%s|h|r%s", id, id, conditionHint)
+    detailLine = detailLine .. sep .. locLabel
+    detailLine = detailLine .. sep .. "|cffaaaaaa" .. expansion .. "|r"
+    if factionStr ~= "" then detailLine = detailLine .. sep .. factionStr end
+    if noteLink ~= "" then detailLine = detailLine .. sep .. noteLink end
+
+    local html = "<html><body><p>" .. detailLine .. "</p></body></html>"
+    detailText:SetText(html)
+
+    -- Wire up hyperlink handlers
+    detailText:SetScript("OnHyperlinkEnter", function(_, link)
+        local linkType, data = strsplit(":", link, 2)
+        GameTooltip:SetOwner(detailText, "ANCHOR_CURSOR")
+        if linkType == "psmcoords" then
+            GameTooltip:SetText("Click to view TomTom waypoints")
+        elseif linkType == "psmcond" then
+            local id2 = tonumber(data)
+            local conds = id2 and PSM.ConditionsData and PSM.ConditionsData.Get(id2)
+            if conds and #conds > 0 then
+                GameTooltip:SetText("Special Conditions")
+                for _, c in ipairs(conds) do GameTooltip:AddLine(c, 1, 1, 1) end
+            end
+        elseif linkType == "psmnote" then
+            local id2 = tonumber(data)
+            local hasSeed = id2 and PSM.NotesData and PSM.NotesData[id2]
+            local hasUser = id2 and PSM_UserNotes and PSM_UserNotes[id2] and PSM_UserNotes[id2] ~= ""
+            if hasUser then
+                GameTooltip:SetText("Edit note")
+                GameTooltip:AddLine(PSM_UserNotes[id2], 1, 1, 0, 1, true)
+            elseif hasSeed then
+                GameTooltip:SetText("Add your own note")
+                GameTooltip:AddLine(PSM.NotesData[id2], 0.8, 0.8, 0.8, 1, true)
+            else
+                GameTooltip:SetText("Add a note for this NPC")
+            end
+        else
+            GameTooltip:SetText("Click to copy Wowhead URL")
+        end
+        GameTooltip:Show()
+    end)
+    detailText:SetScript("OnHyperlinkLeave", function() GameTooltip:Hide() end)
+    detailText:SetScript("OnHyperlinkClick", function(_, link)
+        local linkType, data = strsplit(":", link, 2)
+        if linkType == "npc" then
+            PSM.PopUpManager:ShowURLPopup("https://www.wowhead.com/npc=" .. data)
+        elseif linkType == "psmnote" then
+            local id2 = tonumber(data)
+            if id2 then
+                PSM.PopUpManager:ShowNoteEditor(id2, npc.name or "NPC", row._parentPopup)
+            end
+        elseif linkType == "psmcoords" then
+            local npcId2, location = strsplit(";", data, 2)
+            if npcId2 and location then
+                local waypoints = PSM.PopUpManager:GetCoordsWaypointText(tonumber(npcId2), location, npc.name)
+                if waypoints then
+                    PSM.PopUpManager:ShowCoordsPopup(waypoints, npc.name, location)
+                end
+            end
+        end
+    end)
+
+    -- Size the row once SimpleHTML content height is known
+    PSM.C_Timer.After(0.01, function()
+        local dh = detailText:GetContentHeight()
+        detailText:SetHeight(math.max(dh, 14))
+        local totalH = NPC_ROW_PADDING + nameText:GetStringHeight() + 2 + math.max(dh, 14) + NPC_ROW_PADDING
+        row:SetHeight(math.max(totalH, NPC_ROW_MIN_H))
+    end)
+
+    return row
+end
+
+local function BuildNPCRows(popup, npcs)
+    -- Tear down previous rows
+    if popup.npcRows then
+        for _, r in ipairs(popup.npcRows) do r:Hide(); r:SetParent(nil) end
+    end
+    popup.npcRows = {}
+
+    if not npcs or #npcs == 0 then
+        popup.npcsScrollFrame:Hide()
+        popup.npcsScrollBar:Hide()
+        return
+    end
+
+    local container = popup.npcsContainer
+    local rowWidth  = popup.npcsScrollFrame:GetWidth() - 10
+
+    local yOff = 0
+    for _, npc in ipairs(npcs) do
+        local row = CreateNPCRow(container, npc, rowWidth)
+        row._parentPopup = popup
+        row:SetPoint("TOPLEFT", container, "TOPLEFT", 0, -yOff)
+
+        -- After height is resolved, shift next row down
+        local capturedRow = row
+        local capturedOff = yOff
+        PSM.C_Timer.After(0.02, function()
+            local h = capturedRow:GetHeight()
+            -- Repoint subsequent rows is tricky post-hoc, so we use a fixed
+            -- estimated height on first pass and let OnSizeChanged clean up.
+            -- Alternatively use a fixed ROW_HEIGHT if your data is uniform.
+        end)
+
+        yOff = yOff + NPC_ROW_MIN_H + NPC_ROW_SPACING
+        popup.npcRows[#popup.npcRows + 1] = row
+    end
+
+    -- Set container height so scroll works
+    container:SetHeight(#npcs * (NPC_ROW_MIN_H + NPC_ROW_SPACING))
+    local maxScroll = math.max(0, container:GetHeight() - popup.npcsScrollFrame:GetHeight())
+    popup.npcsScrollBar:SetMinMaxValues(0, maxScroll)
+    popup.npcsScrollBar:SetValue(0)
+    popup.npcsScrollFrame:SetVerticalScroll(0)
+
+    popup.npcsScrollFrame:Show()
+    popup.npcsScrollBar:Show()
 end
 
 function PSM.PopUpManager:UpdatePopupBackground(popup, displayId, petData)
@@ -434,15 +615,13 @@ function PSM.PopUpManager:CreateModelPopup(config)
     -- NPC scroll area
     popup.npcsScrollFrame = CreateFrame("ScrollFrame", nil, popup)
     popup.npcsScrollFrame:SetPoint("TOP", popup.tamingFrame, "BOTTOM", 20, -8)
-    popup.npcsScrollFrame:SetSize(width - 50, 75)
+    popup.npcsScrollFrame:SetSize(width - 50, 110)
     popup.npcsScrollFrame:EnableMouse(true)
 
-    popup.npcsText = CreateFrame("SimpleHTML", nil, popup.npcsScrollFrame)
-    popup.npcsText:SetSize(width - 70, 75)
-    popup.npcsText:SetPoint("TOPLEFT")
-    popup.npcsText:SetFont("p", "Fonts\\FRIZQT__.TTF", 12, "")
-    popup.npcsText:SetHyperlinksEnabled(true)
-    popup.npcsScrollFrame:SetScrollChild(popup.npcsText)
+    popup.npcsContainer = CreateFrame("Frame", nil, popup.npcsScrollFrame)
+    popup.npcsContainer:SetSize(width - 70, 110)
+    popup.npcsContainer:SetPoint("TOPLEFT")
+    popup.npcsScrollFrame:SetScrollChild(popup.npcsContainer)
 
     local scrollBar = CreateFrame("Slider", nil, popup, "UIPanelScrollBarTemplate")
     scrollBar:SetPoint("TOPLEFT",    popup.npcsScrollFrame, "TOPLEFT",    -20, -16)
@@ -459,108 +638,6 @@ function PSM.PopUpManager:CreateModelPopup(config)
         local mn, mx = scrollBar:GetMinMaxValues()
         scrollBar:SetValue(math.max(mn, math.min(mx, cur - delta * 20)))
     end)
-
-    -- Hyperlink handlers (npc, psmcoords, psmnote)
-    popup.npcsText:SetScript("OnHyperlinkEnter", function(_, link)
-        local linkType, data = strsplit(":", link, 2)
-        GameTooltip:SetOwner(popup.npcsText, "ANCHOR_CURSOR")
-        if linkType == "psmcoords" then
-            GameTooltip:SetText("Click to view TomTom waypoints")
-        elseif linkType == "psmcond" then
-            local npcId = tonumber(data)
-            local condList = npcId and PSM.ConditionsData and PSM.ConditionsData.Get(npcId)
-            if condList and #condList > 0 then
-                GameTooltip:SetText("Special Conditions")
-                for _, cond in ipairs(condList) do
-                    GameTooltip:AddLine(cond, 1, 1, 1)
-                end
-            end
-        elseif linkType == "psmnote" then
-            local npcId = tonumber(data)
-            local hasSeed = npcId and PSM.NotesData and PSM.NotesData[npcId]
-            local hasUser = npcId and PSM_UserNotes and PSM_UserNotes[npcId] and PSM_UserNotes[npcId] ~= ""
-            if hasUser then
-                GameTooltip:SetText("Edit note")
-                GameTooltip:AddLine(PSM_UserNotes[npcId], 1, 1, 0, 1, true)
-            elseif hasSeed then
-                GameTooltip:SetText("Add your own note")
-                GameTooltip:AddLine(PSM.NotesData[npcId], 0.8, 0.8, 0.8, 1, true)
-            else
-                GameTooltip:SetText("Add a note for this NPC")
-            end
-        else
-            GameTooltip:SetText("Click to copy Wowhead URL")
-        end
-        GameTooltip:Show()
-    end)
-
-    popup.npcsText:SetScript("OnHyperlinkLeave", function() GameTooltip:Hide() end)
-
-    popup.npcsText:SetScript("OnHyperlinkClick", function(_, link)
-        local linkType, data = strsplit(":", link, 2)
-        if linkType == "npc" then
-            PSM.PopUpManager:ShowURLPopup("https://www.wowhead.com/npc=" .. data)
-        elseif linkType == "psmnote" then
-            local npcId = tonumber(data)
-            if npcId then
-                local npcName = "NPC"
-                if popup.currentNPCs then
-                    for _, npc in ipairs(popup.currentNPCs) do
-                        if tonumber(npc.npcId) == npcId then
-                            npcName = npc.name or npcName
-                            break
-                        end
-                    end
-                end
-                PSM.PopUpManager:ShowNoteEditor(npcId, npcName, popup)
-            end
-        elseif linkType == "psmcoords" then
-            local npcId, location = strsplit(";", data, 2)
-            if npcId and location then
-                npcId = tonumber(npcId)
-                local npcName = "NPC"
-                if popup.currentNPCs then
-                    for _, npc in ipairs(popup.currentNPCs) do
-                        if tonumber(npc.npcId) == npcId then
-                            npcName = npc.name or npcName
-                            break
-                        end
-                    end
-                end
-                local waypoints = PSM.PopUpManager:GetCoordsWaypointText(npcId, location, npcName)
-                if waypoints then
-                    PSM.PopUpManager:ShowCoordsPopup(waypoints, npcName, location)
-                end
-            end
-        elseif linkType == "psmnote" then
-            local npcId = tonumber(data)
-            if npcId then
-                local npcName = "NPC"
-                if popup.currentNPCs then
-                    for _, npc in ipairs(popup.currentNPCs) do
-                        if tonumber(npc.npcId) == npcId then
-                            npcName = npc.name or npcName
-                            break
-                        end
-                    end
-                end
-                PSM.PopUpManager:ShowNoteEditor(npcId, npcName, popup)
-            end
-        end
-    end)
-
-    function popup:SetNPCText(text)
-        local html = "<html><body><p style='text-align: justify;'>" .. text:gsub("\n", "<br/>") .. "</p></body></html>"
-        self.npcsText:SetText(html)
-        PSM.C_Timer.After(0.01, function()
-            local h = self.npcsText:GetContentHeight()
-            self.npcsText:SetHeight(math.max(h, 75))
-            local maxScroll = math.max(0, h - self.npcsScrollFrame:GetHeight())
-            self.npcsScrollBar:SetMinMaxValues(0, maxScroll)
-            self.npcsScrollBar:SetValue(0)
-            self.npcsScrollFrame:SetVerticalScroll(0)
-        end)
-    end
 
     -- Optional: Try Again button
     if config.showTryAgainButton then
@@ -601,17 +678,14 @@ function PSM.PopUpManager:CreateModelPopup(config)
             if self.infoText        then self.infoText:SetWidth(w - 50) end
             if self.tamingFrame     then self.tamingFrame:SetWidth(w - 50) end
             if self.npcsScrollFrame then
-                local sh = math.max(75, h - mh - 150)
+                local sh = math.max(110, h - mh - 150)
                 self.npcsScrollFrame:SetSize(w - 50, sh)
             end
-            if self.npcsText then
-                self.npcsText:SetWidth(w - 70)
-                if self.npcsScrollFrame then
-                    self.npcsText:SetHeight(self.npcsScrollFrame:GetHeight())
+            if self.npcsContainer then
+                self.npcsContainer:SetWidth(w - 70)
+                if self.currentNPCs then
+                    BuildNPCRows(self, self.currentNPCs)
                 end
-            end
-            if self.npcPlainText then
-                PSM.C_Timer.After(0.01, function() self:SetNPCText(self.npcPlainText) end)
             end
         end)
     end
@@ -622,7 +696,10 @@ function PSM.PopUpManager:CreateModelPopup(config)
             config.cleanupFunction()
         else
             if self.infoText then self.infoText:SetText("") end
-            if self.npcsText then self.npcsText:SetText("") end
+            if self.npcRows then
+                for _, r in ipairs(self.npcRows) do r:Hide(); r:SetParent(nil) end
+                self.npcRows = nil
+            end
             self.currentPetData   = nil
             self.currentDisplayId = nil
         end
@@ -685,29 +762,54 @@ end
 -- ============================================================
 
 function PSM.PopUpManager:GetCoordsDataForLocation(npcId, location)
-    if not npcId or not location or not CoordsData then return nil end
-    local npcData = CoordsData[npcId]
-    if npcData and npcData[location] and npcData[location].coords and npcData[location].coords ~= "" then
-        return npcData[location]
+    local id = tonumber(npcId)
+    if not id or not location or not CoordsData then return nil end
+    local npcData = CoordsData[id]
+    if not npcData then return nil end
+
+    local searchLoc = strtrim(location):lower()
+    if #searchLoc < 3 then return nil end
+
+    -- 1. Try exact match (case-insensitive key check)
+    for zoneKey, data in pairs(npcData) do
+        if type(zoneKey) == "string" and zoneKey:lower() == searchLoc then
+            if data.coords and strtrim(data.coords) ~= "" then
+                return data
+            end
+        end
     end
+
+    -- 2. Robust match: Provided location name is a generic parent of the specific CoordsData key
+    for zoneKey, data in pairs(npcData) do
+        if type(zoneKey) == "string" then
+            local keyLower = zoneKey:lower()
+            -- Match if the Wowhead name contains our location (e.g. "The Dragon Wastes (Dragonblight)" contains "Dragonblight")
+            if keyLower:find(searchLoc, 1, true) and data.coords and strtrim(data.coords) ~= "" then
+                return data
+            end
+        end
+    end
+
     return nil
 end
 
 function PSM.PopUpManager:BuildCoordsLocationLabel(npcId, location)
-    if not location or location == "" then return "Unknown" end
+    local id = tonumber(npcId)
+    if not id or not location or location == "" then return "Unknown" end
     local parts = {}
-    for loc in string.gmatch(location, "[^;]+") do
+    -- Split by pipe (|) to handle multiple locations safely
+    for loc in string.gmatch(location, "[^|]+") do
         loc = strtrim(loc)
         if loc ~= "" then
-            local coordsData = self:GetCoordsDataForLocation(npcId, loc)
+            local coordsData = self:GetCoordsDataForLocation(id, loc)
             if coordsData then
-                parts[#parts + 1] = string.format("|cff00ff00|Hpsmcoords:%d;%s|h%s|h|r", npcId, loc, loc)
+                parts[#parts + 1] = string.format("|cff00ff00|Hpsmcoords:%d;%s|h%s|h|r", id, loc, loc)
             else
                 parts[#parts + 1] = loc
             end
         end
     end
-    return table.concat(parts, "; ")
+    return table.concat(parts, " or ")
 end
 
 function PSM.PopUpManager:GetCoordsWaypointText(npcId, location, npcName)
@@ -1057,39 +1159,8 @@ function PSM.PopUpManager:PopulateModelPopup(popup, displayId, petData, npcs)
         popup.tamingFrame:Hide()
     end
 
-    -- Build NPC lines with notes
-    local lines = {}
-    for _, npc in ipairs(npcs) do
-        local id          = npc.npcId or "?"
-        local cls         = (npc.classification and npc.classification ~= "Normal") and npc.classification .. ", " or ""
-
-        -- Check for special conditions to add as a hint
-        local conditionHint = ""
-        local npcID = tonumber(npc.npcId)
-        local condList = npcID and PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
-        if condList and #condList > 0 then
-            conditionHint = "|cffff8800|Hpsmcond:" .. npcID .. "|h[*]|h|r"
-        end
-
-        local factionStr  = formatFactionIndicator(npc.factionReaction)
-        local factionPart = factionStr ~= "" and ", " .. factionStr or ""
-        local noteLink    = npc.npcId and (" " .. BuildNoteLink(npc.npcId)) or ""
-        lines[#lines + 1] = string.format(
-            "%s%s: %s|Hnpc:%s|h|cff00ff00%s|h|r, %s, %s%s%s",
-            npc.name, conditionHint, cls, id, id,
-            self:BuildCoordsLocationLabel(npc.npcId, npc.location) or "Unknown",
-            npc.expansion or "Unknown",
-            factionPart,
-            noteLink
-        )
-    end
-
-    if #lines > 0 then
-        local text = table.concat(lines, "\n")
-        popup.npcPlainText = text
-        popup:SetNPCText(text)
-        popup.npcsScrollFrame:Show()
-        popup.npcsScrollBar:Show()
+    if npcs and #npcs > 0 then
+        BuildNPCRows(popup, npcs)
     else
         popup.npcsScrollFrame:Hide()
         popup.npcsScrollBar:Hide()
@@ -1255,38 +1326,8 @@ function PSM.PopUpManager:ShowNoteEditor(npcId, npcName, parentPopup)
         local text = f.editBox:GetText()
         PSM.NotesData.SetUserNote(npcId, text)
         f:Hide()
-        -- Refresh [+] colors in the parent popup by re-triggering its NPC text
-        if parentPopup and parentPopup.npcPlainText then
-            -- Rebuild lines to pick up the new note state
-            if parentPopup.currentNPCs then
-                local lines = {}
-                for _, npc in ipairs(parentPopup.currentNPCs) do
-                    local id          = npc.npcId or "?"
-                    local cls         = (npc.classification and npc.classification ~= "Normal") and npc.classification .. ", " or ""
-                    
-                    local conditionHint = ""
-                    local npcID = tonumber(npc.npcId)
-                    local condList = npcID and PSM.ConditionsData and PSM.ConditionsData.Get(npcID)
-                    if condList and #condList > 0 then
-                        conditionHint = "|cffff8800|Hpsmcond:" .. npcID .. "|h[*]|h|r"
-                    end
-
-                    local factionStr  = formatFactionIndicator(npc.factionReaction)
-                    local factionPart = factionStr ~= "" and ", " .. factionStr or ""
-                    local noteLink    = npc.npcId and (" " .. BuildNoteLink(npc.npcId)) or ""
-                    lines[#lines + 1] = string.format(
-                        "%s%s: %s|Hnpc:%s|h|cff00ff00%s|h|r, %s, %s%s%s",
-                        npc.name, conditionHint, cls, id, id,
-                        PSM.PopUpManager:BuildCoordsLocationLabel(npc.npcId, npc.location) or "Unknown",
-                        npc.expansion or "Unknown",
-                        factionPart,
-                        noteLink
-                    )
-                end
-                local text2 = table.concat(lines, "\n")
-                parentPopup.npcPlainText = text2
-                parentPopup:SetNPCText(text2)
-            end
+        if parentPopup and parentPopup.currentNPCs then
+            BuildNPCRows(parentPopup, parentPopup.currentNPCs)
         end
     end)
 
