@@ -1,6 +1,7 @@
-# Pet Stable Management
+# Pet Stable Management — WoW Hunter Pet Addon
+Pet Stable Management is a World of Warcraft hunter pet addon designed to give Hunters full control over their pet collection. It provides a remote stable view, advanced owned‑pet management, content‑based pet team presets, and a complete browser of all tamable creatures, including rare models and special tames.
 
-A World of Warcraft addon that enhances pet stable management with advanced collection tools and a comprehensive pet model browser.
+This addon is built for Hunters who want a powerful, modern tool for organizing their stable, planning new tames, and managing pets across all types of content.
 
 ## Modular Structure
 
@@ -70,10 +71,12 @@ A comprehensive browser for discovering all available pet models and planning yo
 - **Pagination**: Efficient browsing with page navigation and jump-to-page
 - **Layout Customization**: Adjustable pets per column in model browser (from 2 to 10 pets * 2 columns)
 - **Detailed NPC Information**: View comprehensive NPC data including classification (Elite, Rare, Rare Elite), location (with coordinates, where available), expansion, faction reaction, special notes from Petopia, and ability to add custom notes
+- **TomTom Integration**: Automatically generate waypoints for NPC locations when TomTom is installed. Click on Location in the Model Magnifier or Pet Roulette to see available coordinates and set your destination.
+- **Custom NPC Notes**: Add and save your own notes for any NPC in the Model Browser. NPCs with custom notes are marked with a green indicator for easy identification.
 - **Persistent Model Views**: 3D models in browser now remember custom rotation, zoom, and position settings across sessions
 - **Enhanced Pet Roulette**: Taming suggestions from all available models or filtered models, prefering not owned pets; includes a 'Try Again' button for quick rerolls without closing the popup
 - **Ability Browser**: Browse hunter pet abilities by type and find which families to tame to cover a specific role (eg: damage reduction, crowd control, water walking, slow fall etc.)
-- **Special Tames**: New panel with filtering on available models and taming requirements and checks
+- **Special Tames**: New panel with filtering on available models by special taming requirements (skills or spawning conditions)
 
 ### General Features
 
@@ -88,12 +91,13 @@ A comprehensive browser for discovering all available pet models and planning yo
 - **Resizable Popups**: Pet Roulette and Magnifier windows can be resized with dynamic model scaling
 - **Selectable NPC Text**: Click NPC ID links to open a popup with the Wowhead URL for easy copying
 - **Coordinates and Map Integration**: Clickable location links in Pet Roulette and Model Magnifier windows that open the destination map for NPC coordinates (with TomTom waypoint generation if TomTom is available); only cca 93% of the npcs have both uiMapId and coordinates; data available if the Models Browser module is loaded
+- **Notes Feature**: View curated notes from Petopia and add your own custom notes for any NPC to keep track of taming strategies or personal reminders.
 - **Combat Protection**: Panels automatically closing when entering combat and cannot be opened during combat to prevent errors
 
 ## Installation
 
 ### Standard Installation
-1. Download the addon
+1. Download the addon from CurseForge
 2. Extract to your `Interface/AddOns` folder
 3. Enable the addons in-game
 
@@ -142,7 +146,7 @@ Access settings through the options panel (`/psm options`) or by modifying `PetS
 
 ## Credits
 - **Author**: Ginutty
-- **Data sources**: https://www.wowhead.com/ and https://www.wow-petopia.com/
+- **Data Attribution**: Full credit for the underlying data goes to [Wowhead](https://www.wowhead.com/) and [Petopia](https://www.wow-petopia.com/) and their contributors, who have made this data publicly available.
 
 ## License
 
