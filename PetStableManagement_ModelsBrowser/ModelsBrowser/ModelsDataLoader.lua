@@ -265,7 +265,7 @@ end
 function PSM.ModelsDataLoader:_IsZoneMatch(npc, playerZone)
     if not npc or not playerZone then return false end
     if npc.location then
-        for loc in string.gmatch(npc.location, "[^;]+") do
+        for loc in string.gmatch(npc.location, "[^|]+") do
             if strtrim(loc) == playerZone then return true end
         end
     end
@@ -283,7 +283,7 @@ end
 
 function PSM.ModelsDataLoader:_IsLocationSelected(locationString, selectedLocations)
     if not locationString or #selectedLocations == 0 then return true end
-    for loc in string.gmatch(locationString, "[^;]+") do
+    for loc in string.gmatch(locationString, "[^|]+") do
         loc = strtrim(loc)
         for _, sel in ipairs(selectedLocations) do
             if sel == loc then return true end
@@ -490,7 +490,7 @@ function PSM.ModelsDataLoader:_CalculateModelsData()
                 for _, npc in ipairs(item.npcs) do
                     if hasSelection then
                         if npc.location then
-                            for loc in string.gmatch(npc.location, "[^;]+") do
+                            for loc in string.gmatch(npc.location, "[^|]+") do
                                 if PSM.state.selectedLocations[strtrim(loc)] then
                                     match = true; break
                                 end
@@ -589,7 +589,7 @@ function PSM.ModelsDataLoader:GetAvailableLocationsForFilters()
                         for _, npc in ipairs(displayData.npcs) do
                             local expOk = #selectedExpansions == 0 or self:_IsExpansionSelected(npc.expansion, selectedExpansions)
                             if expOk and npc.location then
-                                for loc in string.gmatch(npc.location, "[^;]+") do
+                                for loc in string.gmatch(npc.location, "[^|]+") do
                                     loc = strtrim(loc)
                                     if not seen[loc] then
                                         seen[loc] = true
@@ -717,7 +717,7 @@ function PSM.ModelsDataLoader:GetAvailableLocationsForFilters()
                         for _, npc in ipairs(displayData.npcs) do
                             local expOk = #selectedExpansions == 0 or self:_IsExpansionSelected(npc.expansion, selectedExpansions)
                             if expOk and npc.location then
-                                for loc in string.gmatch(npc.location, "[^;]+") do
+                                for loc in string.gmatch(npc.location, "[^|]+") do
                                     loc = strtrim(loc)
                                     if not seen[loc] then
                                         seen[loc] = true

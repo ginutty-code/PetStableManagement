@@ -400,7 +400,7 @@ function PSM.ModelsFilters:BuildUnifiedFilterSystem(panel, modelsConfig)
                     for _, npc in ipairs(dd.npcs) do
                         if npc.expansion then allExpansions[npc.expansion] = true end
                         if npc.location  then
-                            for loc in string.gmatch(npc.location, "[^;]+") do
+                            for loc in string.gmatch(npc.location, "[^|]+") do
                                 allLocations[strtrim(loc)] = true
                             end
                         end
