@@ -55,7 +55,7 @@ end
 local function SelectedMapKey(map)
     if not map or not next(map) then return "none," end
     local parts = {}
-    for k, v in pairs(map) do if v then table.insert(parts, k) end end
+    for k, v in pairs(map) do if v then table.insert(parts, tostring(k)) end end
     table.sort(parts)
     return table.concat(parts, ",") .. ","
 end
