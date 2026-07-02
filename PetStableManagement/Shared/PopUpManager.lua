@@ -162,13 +162,34 @@ local function CreateNPCRow(parent, npc, rowWidth)
     nameText:SetTextColor(1, 0.82, 0)
     nameText:SetJustifyH("LEFT")
     nameText:SetPoint("TOPLEFT", row, "TOPLEFT", NPC_ROW_PADDING, -NPC_ROW_PADDING)
-    nameText:SetWidth(rowWidth - (NPC_ROW_PADDING * 2))
 
     local nameStr = npc.name or "Unknown"
     if npc.classification and npc.classification ~= "Normal" then
         nameStr = nameStr .. " |cffaaaaaa(" .. npc.classification .. ")|r"
     end
     nameText:SetText(nameStr)
+
+    local nameKeeper = npc.nameKeeper or npc.namekeeper
+    if nameKeeper then
+        local lockIcon = CreateFrame("Button", nil, row)
+        lockIcon:SetSize(14, 14)
+        lockIcon:SetNormalTexture("Interface\\Buttons\\talktome_lock_glow")
+        lockIcon:SetPoint("LEFT", nameText, "RIGHT", 4, 0)
+
+        lockIcon:SetScript("OnEnter", function(self)
+            GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
+            GameTooltip:SetText("Keeps original name after taming")
+            GameTooltip:Show()
+        end)
+        lockIcon:SetScript("OnLeave", function()
+            GameTooltip:Hide()
+        end)
+
+        local maxNameW = rowWidth - (NPC_ROW_PADDING * 2) - 18
+        nameText:SetWidth(math.min(nameText:GetStringWidth(), maxNameW))
+    else
+        nameText:SetWidth(rowWidth - (NPC_ROW_PADDING * 2))
+    end
 
     -- Metadata separator
     local sep = "  |cff666666•|r  "
@@ -1180,7 +1201,8 @@ function PSM.PopUpManager:ShowMagnificationPopup(displayId, petData)
                         location = v[2],
                         expansion = v[3],
                         classification = v[4],
-                        factionReaction = v[5]
+                        factionReaction = v[5],
+                        nameKeeper = v[6]
                     })
                 end
             end

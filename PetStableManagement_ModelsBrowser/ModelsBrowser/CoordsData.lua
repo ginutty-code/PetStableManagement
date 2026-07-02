@@ -8595,7 +8595,7 @@ CoordsData = {
         ["Stormheim"] = {coords = "72.2,86.6|72.4,86.4|72.6,86.2", uiMapId = 634}
     },
     [107677] = {
-        ["Siege of Orgrimmar"] = {coords = "40.2,68.8", uiMapId = 565}
+        ["Siege of Orgrimmar"] = {coords = "40.2,68.8", uiMapId = 561}
     },
     [107741] = {
         ["Azsuna"] = {coords = "30.8,44.2|31,45.6|31.4,45|31.8,44.4|32,44.6|32.8,44.8|33.8,45.2", uiMapId = 630}
@@ -13614,9 +13614,6 @@ CoordsData = {
     },
     [167721] = {
         ["Ardenweald"] = {coords = "59.4,46.4|59.4,46.6|59.6,46.6", uiMapId = 1565}
-    },
-    [167726] = {
-        ["Ardenweald"] = {coords = "65,44.2|65,44.6", uiMapId = 1565}
     },
     [167848] = {
         ["Ardenweald"] = {coords = "68.4,65.4|68.4,65.8|68.6,65.8", uiMapId = 1565}

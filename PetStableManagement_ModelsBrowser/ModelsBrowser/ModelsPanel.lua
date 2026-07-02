@@ -299,10 +299,10 @@ end
 
 function PSM.ModelsPanel:AddModelsBrowserElements(panel)
     -- Filters
-    -- Show Only filters frame
+        -- Show Only filters frame
     panel.showOnlyFrame = CreateFrame("Frame", nil, panel, "BackdropTemplate")
     panel.showOnlyFrame:SetPoint("TOPLEFT", 10, -100)
-    panel.showOnlyFrame:SetSize(180, 130)
+    panel.showOnlyFrame:SetSize(180, 160)
     panel.showOnlyFrame:SetBackdrop({
         bgFile   = "Interface\\Tooltips\\UI-Tooltip-Background",
         edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
@@ -335,11 +335,12 @@ function PSM.ModelsPanel:AddModelsBrowserElements(panel)
     label:SetText("Show Only")
     label:SetTextColor(1, 0.82, 0) -- golden color
 
-    local MF = PSM.ModelsFilters
+        local MF = PSM.ModelsFilters
     if MF then
         if MF.CreateRaresToggle         then MF:CreateRaresToggle(panel)         end
         if MF.CreateFavoritesToggle     then MF:CreateFavoritesToggle(panel)     end
         if MF.CreateHideOwnedToggle     then MF:CreateHideOwnedToggle(panel)     end
+        if MF.CreateNameKeepersToggle  then MF:CreateNameKeepersToggle(panel)  end
         if MF.CreatePetsInMyZoneToggle  then MF:CreatePetsInMyZoneToggle(panel)  end
         if MF.CreateSearchBox           then MF:CreateSearchBox(panel)           end
         if MF.CreateSpecialTamesButton then MF:CreateSpecialTamesButton(panel) end
@@ -368,8 +369,6 @@ function PSM.ModelsPanel:AddModelsBrowserElements(panel)
     petsFrame:SetScript("OnMouseWheel", function(_, delta)
         GoToPage(panel, panel.currentPage + (delta < 0 and 1 or -1))
     end)
-
-
 
     panel.petsFrame  = petsFrame
     panel.modelRows  = {}
@@ -480,8 +479,6 @@ function PSM.ModelsPanel:AddModelsBrowserElements(panel)
     -- Initialise state tables
     PSM.state.selectedModelsFamilies = PSM.state.selectedModelsFamilies or {}
     PSM.state.favoriteModels         = PSM.state.favoriteModels         or {}
-
-
 
     if PSM.ModelsDataLoader and PSM.ModelsDataLoader.CreateRenderCache then
         PSM.ModelsDataLoader:CreateRenderCache()
