@@ -55,7 +55,7 @@ end
 local function SelectedMapKey(map)
     if not map or not next(map) then return "none," end
     local parts = {}
-    for k, v in pairs(map) do if v then table.insert(parts, tostring(k)) end end
+    for k, v in pairs(map) do if v then table.insert(parts, k) end end
     table.sort(parts)
     return table.concat(parts, ",") .. ","
 end
@@ -77,7 +77,12 @@ local function PanelFilterFragment(panel)
         raresKey = (panel.showRares == "inverted" and "not_rares," or "rares,")
     end
 
-    return zoneKey, favKey, raresKey
+    local nameKeepersKey = ""
+    if panel and panel.showNameKeepers then
+        nameKeepersKey = (panel.showNameKeepers == "inverted" and "not_namekeepers," or "namekeepers,")
+    end
+
+    return zoneKey, favKey, raresKey, nameKeepersKey
 end
 
 function PSM.ModelsDataLoader:GenerateCacheKey()
@@ -86,7 +91,7 @@ function PSM.ModelsDataLoader:GenerateCacheKey()
 
     local searchText = panel.searchBox:GetText() or ""
     local searchLower = searchText ~= "" and searchText:lower() or ""
-    local zoneKey, favKey, raresKey = PanelFilterFragment(panel)
+    local zoneKey, favKey, raresKey, nameKeepersKey = PanelFilterFragment(panel)
 
     local favoritesKey = SelectedMapKey(PSM.state.favoriteModels)
 
@@ -105,7 +110,7 @@ function PSM.ModelsDataLoader:GenerateCacheKey()
     local condKey = SelectedMapKey(PSM.state.selectedConditions)
     local ownedKey = tostring(panel.showHideOwned or "none")
 
-    return string.format("%s_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s",
+    return string.format("%s_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s_%s",
         modeKey,
         searchLower,
         SelectedMapKey(PSM.state.selectedExpansions),
@@ -114,6 +119,7 @@ function PSM.ModelsDataLoader:GenerateCacheKey()
         SelectedMapKey(PSM.state.selectedModelsFamilies),
         favoritesKey,
         raresKey,
+        nameKeepersKey,
         tamingKey,
         condKey,
         ownedKey,
@@ -123,19 +129,19 @@ end
 
 function PSM.ModelsDataLoader:_GenerateDynamicFilterCacheKey(filterType)
     local panel = PSM.state.modelsPanel
-    local zoneKey, favKey, raresKey = PanelFilterFragment(panel)
+    local zoneKey, favKey, raresKey, nameKeepersKey = PanelFilterFragment(panel)
 
     local searchKey = ""
     if panel and panel.searchBox then
         searchKey = (panel.searchBox:GetText() or ""):lower() .. ","
     end
 
-    return string.format("dynamic_%s_%s_%s_%s_%s_%s_%s_%s",
+    return string.format("dynamic_%s_%s_%s_%s_%s_%s_%s_%s_%s",
         filterType,
         SelectedMapKey(PSM.state.selectedModelsFamilies),
         SelectedMapKey(PSM.state.selectedExpansions),
         SelectedMapKey(PSM.state.selectedLocations),
-        zoneKey, favKey, raresKey,
+        zoneKey, favKey, raresKey, nameKeepersKey,
         searchKey
     )
 end
@@ -166,6 +172,17 @@ local function DisplayPassesFilters(panel, displayData)
         end
     end
     if not TristateMatch(panel.showRares, isRare) then return false end
+
+    -- Name Keepers filter
+    local isNameKeeper = false
+    if displayData.npcs then
+        for _, npc in ipairs(displayData.npcs) do
+            if npc.nameKeeper then
+                isNameKeeper = true; break
+            end
+        end
+    end
+    if not TristateMatch(panel.showNameKeepers, isNameKeeper) then return false end
 
     -- Ownership filter: check if display is owned
     local isOwned = false

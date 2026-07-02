@@ -59,7 +59,7 @@ function M:_ProcessRawData(familyName, raw)
                 if npcId ~= "taming" then
                     local npc
                     if type(d) == "table" and d[1] ~= nil then
-                        -- Compact array format: { name, location, expansion, [classification,] factionReaction }
+                        -- Compact array format: { name, location, expansion, [classification,] factionReaction, nameKeeper }
                         local factionReaction
                         local classification
                         if #d >= 4 then
@@ -81,6 +81,7 @@ function M:_ProcessRawData(familyName, raw)
                             classification  = classification,
                             factionReaction = factionReaction,
                             zones           = d.zones,
+                            nameKeeper      = d[6] or false,
                             level           = d.level,
                         }
                     else
@@ -92,6 +93,7 @@ function M:_ProcessRawData(familyName, raw)
                             expansion       = d and (d.expansion or d.exp),
                             classification  = d and (d.classification or d.class),
                             zones           = d and d.zones,
+                            nameKeeper      = d and (d.nameKeeper or d.name_keeper or false),
                             level           = d and d.level,
                         }
                     end

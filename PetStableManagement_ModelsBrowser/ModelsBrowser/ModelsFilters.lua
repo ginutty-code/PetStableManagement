@@ -154,25 +154,6 @@ function PSM.ModelsFilters:CreateFavoritesToggle(panel)
     InitTristateCheckboxFromState(panel.favoritesToggle, panel.showFavorites)
 end
 
-function PSM.ModelsFilters:CreatePetsInMyZoneToggle(panel)
-    -- Load saved state directly from SavedVariables
-    local db = PetStableManagementDB and PetStableManagementDB.filters
-    local savedState = db and db.showPetsInMyZone
-    panel.showPetsInMyZone = savedState
-    PSM.state.showPetsInMyZone = savedState
-    panel.petsInMyZoneToggle = CreateTristateCheckbox(panel, panel.hideOwnedToggle, "Pets in My Zone", function(state)
-        panel.currentPlayerZone = (state ~= nil) and PSM.ModelsFilters:GetPlayerZone() or nil
-        panel.showPetsInMyZone  = state
-        PSM.state.showPetsInMyZone = state
-        PetStableManagementDB.filters = PetStableManagementDB.filters or {}
-        PetStableManagementDB.filters.showPetsInMyZone = state
-        ReloadAndSummarise()
-        PSM.ModelsFilters:UpdateDynamicFilters()
-    end)
-    -- Initialize checkbox state from loaded value
-    InitTristateCheckboxFromState(panel.petsInMyZoneToggle, panel.showPetsInMyZone)
-end
-
 function PSM.ModelsFilters:CreateHideOwnedToggle(panel)
     -- Load saved state directly from SavedVariables
     local db = PetStableManagementDB and PetStableManagementDB.filters
@@ -194,6 +175,44 @@ function PSM.ModelsFilters:CreateHideOwnedToggle(panel)
         ReloadAndSummarise()
         PSM.ModelsFilters:UpdateDynamicFilters()
     end)
+
+function PSM.ModelsFilters:CreateNameKeepersToggle(panel)
+    -- Load saved state directly from SavedVariables
+    local db = PetStableManagementDB and PetStableManagementDB.filters
+    local savedState = db and db.showNameKeepers
+    panel.showNameKeepers = savedState
+    PSM.state.showNameKeepers = savedState
+    panel.nameKeepersToggle = CreateTristateCheckbox(panel, panel.hideOwnedToggle, "Name Keepers", function(state)
+        panel.showNameKeepers = state
+        PSM.state.showNameKeepers = state
+        PetStableManagementDB.filters = PetStableManagementDB.filters or {}
+        PetStableManagementDB.filters.showNameKeepers = state
+        ReloadAndSummarise()
+        PSM.ModelsFilters:UpdateDynamicFilters()
+    end)
+    -- Initialize checkbox state from loaded value
+    InitTristateCheckboxFromState(panel.nameKeepersToggle, panel.showNameKeepers)
+end
+
+function PSM.ModelsFilters:CreatePetsInMyZoneToggle(panel)
+    -- Load saved state directly from SavedVariables
+    local db = PetStableManagementDB and PetStableManagementDB.filters
+    local savedState = db and db.showPetsInMyZone
+    panel.showPetsInMyZone = savedState
+    PSM.state.showPetsInMyZone = savedState
+    panel.petsInMyZoneToggle = CreateTristateCheckbox(panel, panel.nameKeepersToggle, "Pets in My Zone", function(state)
+        panel.currentPlayerZone = (state ~= nil) and PSM.ModelsFilters:GetPlayerZone() or nil
+        panel.showPetsInMyZone  = state
+        PSM.state.showPetsInMyZone = state
+        PetStableManagementDB.filters = PetStableManagementDB.filters or {}
+        PetStableManagementDB.filters.showPetsInMyZone = state
+        ReloadAndSummarise()
+        PSM.ModelsFilters:UpdateDynamicFilters()
+    end)
+    -- Initialize checkbox state from loaded value
+    InitTristateCheckboxFromState(panel.petsInMyZoneToggle, panel.showPetsInMyZone)
+end
+
     -- Initialize checkbox state from loaded value, mapping the logic
     local mappedState
     if panel.showHideOwned == "inverted" then
@@ -308,6 +327,7 @@ end
 function PSM.ModelsFilters:ResetAllFilters(panel)
     panel.showRares        = false
     panel.showFavorites    = false
+    panel.showNameKeepers  = false
     panel.showPetsInMyZone = false
     panel.showHideOwned    = false
     panel.currentPlayerZone= nil
@@ -315,6 +335,7 @@ function PSM.ModelsFilters:ResetAllFilters(panel)
     -- Reset state variables
     PSM.state.showRares = nil
     PSM.state.showFavorites = nil
+    PSM.state.showNameKeepers = nil
     PSM.state.showPetsInMyZone = nil
     PSM.state.showHideOwned = nil
     PSM.state.selectedTamingRules = nil
@@ -324,6 +345,7 @@ function PSM.ModelsFilters:ResetAllFilters(panel)
     if PetStableManagementDB and PetStableManagementDB.filters then
         PetStableManagementDB.filters.showRares = nil
         PetStableManagementDB.filters.showFavorites = nil
+        PetStableManagementDB.filters.showNameKeepers = nil
         PetStableManagementDB.filters.showPetsInMyZone = nil
         PetStableManagementDB.filters.showHideOwned = nil
         PetStableManagementDB.filters.selectedTamingRules = nil
@@ -332,8 +354,10 @@ function PSM.ModelsFilters:ResetAllFilters(panel)
 
     ResetTristateCheckbox(panel.raresToggle)
     ResetTristateCheckbox(panel.favoritesToggle)
-    ResetTristateCheckbox(panel.petsInMyZoneToggle)
     ResetTristateCheckbox(panel.hideOwnedToggle)
+    ResetTristateCheckbox(panel.nameKeepersToggle)
+    ResetTristateCheckbox(panel.petsInMyZoneToggle)
+    
 
     if panel.searchBox then panel.searchBox:SetText("") end
 
@@ -433,10 +457,10 @@ function PSM.ModelsFilters:BuildUnifiedFilterSystem(panel, modelsConfig)
     panel.expansionList = expansionList
     panel.locationList  = locationList
 
-    ---------- Filter frame ----------
+        ---------- Filter frame ----------
     panel.unifiedFilterFrame = CreateFrame("Frame", nil, panel, "BackdropTemplate")
     panel.unifiedFilterFrame:SetPoint("TOPLEFT", panel.showOnlyFrame, "BOTTOMLEFT", 0, -5)
-    panel.unifiedFilterFrame:SetSize(180, 535)
+    panel.unifiedFilterFrame:SetSize(180, 505)
     panel.unifiedFilterFrame:SetBackdrop({
         bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
         edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
@@ -797,12 +821,15 @@ function PSM.ModelsFilters:GenerateFilterSummary()
         if locCount ~= #panel.locationList then table.insert(filters, "Locations") end
     end
 
-    -- Tristate toggles
+        -- Tristate toggles
     if panel.showRares == true then table.insert(filters, "Rares")
     elseif panel.showRares == "inverted" then table.insert(filters, "Not Rares") end
 
     if panel.showFavorites == true then table.insert(filters, "Favorites")
     elseif panel.showFavorites == "inverted" then table.insert(filters, "Not Favorites") end
+
+    if panel.showNameKeepers == true then table.insert(filters, "Name Keepers")
+    elseif panel.showNameKeepers == "inverted" then table.insert(filters, "Not Name Keepers") end
 
     if panel.showPetsInMyZone and panel.currentPlayerZone then
         local prefix = panel.showPetsInMyZone == "inverted" and "Not My Zone" or "My Zone"
