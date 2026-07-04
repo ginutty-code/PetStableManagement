@@ -171,21 +171,15 @@ local function CreateNPCRow(parent, npc, rowWidth)
 
     local nameKeeper = npc.nameKeeper or npc.namekeeper
     if nameKeeper then
-        local lockIcon = CreateFrame("Button", nil, row)
-        lockIcon:SetSize(14, 14)
-        lockIcon:SetNormalTexture("Interface\\Buttons\\talktome_lock_glow")
-        lockIcon:SetPoint("LEFT", nameText, "RIGHT", 4, 0)
+        -- Add "keeps name" text indicator
+        local keepNameText = row:CreateFontString(nil, "OVERLAY")
+        keepNameText:SetFont("Fonts\\FRIZQT__.TTF", 12, "OUTLINE")
+        keepNameText:SetTextColor(0.6, 0.6, 0.6)
+        keepNameText:SetJustifyH("LEFT")
+        keepNameText:SetPoint("LEFT", nameText, "RIGHT", 4, 0)
+        keepNameText:SetText("(keeps name)")
 
-        lockIcon:SetScript("OnEnter", function(self)
-            GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-            GameTooltip:SetText("Keeps original name after taming")
-            GameTooltip:Show()
-        end)
-        lockIcon:SetScript("OnLeave", function()
-            GameTooltip:Hide()
-        end)
-
-        local maxNameW = rowWidth - (NPC_ROW_PADDING * 2) - 18
+        local maxNameW = rowWidth - (NPC_ROW_PADDING * 2) - keepNameText:GetStringWidth() - 8
         nameText:SetWidth(math.min(nameText:GetStringWidth(), maxNameW))
     else
         nameText:SetWidth(rowWidth - (NPC_ROW_PADDING * 2))
@@ -672,7 +666,7 @@ function PSM.PopUpManager:CreateModelPopup(config)
     popup.tamingTitle:SetFont("Fonts\\FRIZQT__.TTF", 12, "OUTLINE")
     popup.tamingTitle:SetTextColor(1, 0.82, 0)
     popup.tamingTitle:SetJustifyH("CENTER")
-    popup.tamingTitle:SetPoint("TOPLEFT", tf, "TOPLEFT", TAMING_ROW_PADDING, -5)
+    popup.tamingTitle:SetPoint("TOPLEFT", tf, "TOPLEFT", TAMING_ROW_PADDING, -6)
     popup.tamingTitle:SetText("Taming Skills Required")
 
     local tamingBottomLine = tf:CreateTexture(nil, "OVERLAY")
@@ -682,7 +676,7 @@ function PSM.PopUpManager:CreateModelPopup(config)
     tamingBottomLine:SetColorTexture(0.44, 0.44, 0.50, 1)
 
     popup.tamingHTML = CreateFrame("SimpleHTML", nil, tf)
-    popup.tamingHTML:SetPoint("TOPLEFT", popup.tamingTitle, "BOTTOMLEFT", 0, -4)
+    popup.tamingHTML:SetPoint("TOPLEFT", popup.tamingTitle, "BOTTOMLEFT", 0, -3)
     popup.tamingHTML:SetFont("p", "Fonts\\FRIZQT__.TTF", 11, "")
     popup.tamingHTML:SetHyperlinksEnabled(true)
     tf:Hide()
@@ -1340,13 +1334,17 @@ function PSM.PopUpManager:PopulateModelPopup(popup, displayId, petData, npcs)
         local bodyContent
         if #parts >= 1 then
             local lines = {}
-            -- Insert an initial line break to add extra vertical space below the title
-            lines[#lines + 1] = "<br/>"
             for i, part in ipairs(parts) do
                 if i > 1 then
                     lines[#lines + 1] = "<br/>"
                 end
-                lines[#lines + 1] = string.format("<p align='center'>%d. %s</p>", i, part)
+                if #parts > 1 then
+                    -- Use bullet point for multiple requirements
+                    lines[#lines + 1] = string.format("<p align='center'>• %s</p>", part)
+                else
+                    -- No number/bullet for single requirement
+                    lines[#lines + 1] = string.format("<p align='center'>%s</p>", part)
+                end
             end
             bodyContent = table.concat(lines, "")
         else
