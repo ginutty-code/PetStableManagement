@@ -726,6 +726,9 @@ local function CreateFooter(panel)
             end
         end
 
+        -- Track that these families were applied from Ability Browser
+        PSM.state.familiesAppliedFromAbilities = true
+
         -- Save the selected families to the database for persistence
         PetStableManagementDB = PetStableManagementDB or {}
         PetStableManagementDB.filters = PetStableManagementDB.filters or {}
@@ -776,13 +779,15 @@ end
 -- Panel entry point
 -- ─────────────────────────────────────────────
 
-function AB:Toggle()
-    if UnitAffectingCombat("player") then
-        print("|cFFFF0000Ability Browser: Cannot open during combat.|r")
-        return
+    -- Reset the flag when the Ability Browser is opened
+    function AB:Toggle()
+        if UnitAffectingCombat("player") then
+            print("|cFFFF0000Ability Browser: Cannot open during combat.|r")
+            return
+        end
+        PSM.state.familiesAppliedFromAbilities = false
+        PSM.PanelManager:TogglePanel("abilityBrowser", function() self:CreateAbilityBrowser() end)
     end
-    PSM.PanelManager:TogglePanel("abilityBrowser", function() self:CreateAbilityBrowser() end)
-end
 
 function AB:CreateAbilityBrowser()
     if PSM.state.abilityBrowser then return end
