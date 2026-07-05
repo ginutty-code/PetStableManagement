@@ -123,22 +123,22 @@ local function formatFactionIndicator(factionReaction)
     return result ~= "" and " " .. result or ""
 end
 
--- Returns the [+] note link for an NPC line, colored by note state.
--- grey = no notes, yellow = seed note only, green = user note exists
+-- Returns the note icon for an NPC line, colored by note state.
+-- golden = user note exists grey = no notes
 local function BuildNoteLink(npcId)
     local id = tonumber(npcId)
     if not id then return "" end
     local hasSeed = PSM.NotesData and PSM.NotesData[id]
     local hasUser = PSM_UserNotes and PSM_UserNotes[id] and PSM_UserNotes[id] ~= ""
-    local color
+    local texture
     if hasUser then
-        color = "ffffff00"  -- yellow: user note (rarer, personal)
+        texture = "Interface\\Buttons\\ui-guildbutton-officernote-up"  -- has user note
     elseif hasSeed then
-        color = "ff00ff00"  -- green: seed note only
+        texture = "Interface\\Buttons\\ui-guildbutton-officernote-up"  -- has seed note
     else
-        color = "ff888888"  -- grey: no notes
+        texture = "Interface\\Buttons\\ui-guildbutton-officernote-disabled"  -- no note
     end
-    return string.format("|c%s|Hpsmnote:%d|h[+]|h|r", color, npcId)
+    return string.format("|Hpsmnote:%d|h|T%s:14:14:0:0|t|h", npcId, texture)
 end
 
 local function CreateNPCRow(parent, npc, rowWidth)
@@ -676,7 +676,7 @@ function PSM.PopUpManager:CreateModelPopup(config)
     tamingBottomLine:SetColorTexture(0.44, 0.44, 0.50, 1)
 
     popup.tamingHTML = CreateFrame("SimpleHTML", nil, tf)
-    popup.tamingHTML:SetPoint("TOPLEFT", popup.tamingTitle, "BOTTOMLEFT", 0, -3)
+    popup.tamingHTML:SetPoint("TOPLEFT", popup.tamingTitle, "BOTTOMLEFT", 0, -6)
     popup.tamingHTML:SetFont("p", "Fonts\\FRIZQT__.TTF", 11, "")
     popup.tamingHTML:SetHyperlinksEnabled(true)
     tf:Hide()
@@ -1334,10 +1334,8 @@ function PSM.PopUpManager:PopulateModelPopup(popup, displayId, petData, npcs)
         local bodyContent
         if #parts >= 1 then
             local lines = {}
+            
             for i, part in ipairs(parts) do
-                if i > 1 then
-                    lines[#lines + 1] = "<br/>"
-                end
                 if #parts > 1 then
                     -- Use bullet point for multiple requirements
                     lines[#lines + 1] = string.format("<p align='center'>• %s</p>", part)
