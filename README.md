@@ -63,7 +63,7 @@ Save and manage pet team configurations for quick switching between different pe
 A comprehensive browser for discovering all available pet models and planning your next taming adventure.
 
 - **Complete Pet Database**: Browse all available pet models in the game (according to Wowhead data)
-- **Advanced Searching and Filtering**: Search and filter pets by families, expansions, locations, and classification (Rare, Elite) with persistent selections
+- **Advanced Searching and Filtering**: Search and filter pets by families, expansions, locations, name retention, and classification (Rare, Elite) with persistent selections
 - **Hide Owned Toggle**: Filter out pets you already own in the Model Browser
 - **Zone-Based Discovery**: Show only pets available in your current zone
 - **Favorites System**: Mark and track your favorite pet models across all your hunters on the same account
