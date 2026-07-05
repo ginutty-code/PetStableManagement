@@ -152,3 +152,5 @@ Access settings through the options panel (`/psm options`) or by modifying `PetS
 
 MIT License
 This addon is provided as-is for personal use in World of Warcraft.
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7D622NM2Q)
