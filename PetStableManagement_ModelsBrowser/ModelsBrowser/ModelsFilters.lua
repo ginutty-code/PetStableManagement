@@ -340,6 +340,7 @@ function PSM.ModelsFilters:ResetAllFilters(panel)
     PSM.state.showHideOwned = nil
     PSM.state.selectedTamingRules = nil
     PSM.state.selectedConditions = nil
+    PSM.state.familiesAppliedFromAbilities = nil
 
     -- Persist resets to SavedVariables
     if PetStableManagementDB and PetStableManagementDB.filters then
@@ -788,9 +789,10 @@ function PSM.ModelsFilters:GenerateFilterSummary()
     local filters = {}
     local hasRules = PSM.state.selectedTamingRules and next(PSM.state.selectedTamingRules)
     local hasConds = PSM.state.selectedConditions and next(PSM.state.selectedConditions)
+    local hasAbilities = PSM.state.familiesAppliedFromAbilities
 
-    -- Families (Suppress family summary if Special Tames are active, as they auto-populate the family list)
-    if not (hasRules or hasConds) then
+    -- Families (Suppress family summary if Special Tames or Abilities are active, as they auto-populate the family list)
+    if not (hasRules or hasConds or hasAbilities) then
         local selected, exoticOnly, nonExoticOnly = 0, true, true
         for name, on in pairs(PSM.state.selectedModelsFamilies) do
             if on then
@@ -842,8 +844,22 @@ function PSM.ModelsFilters:GenerateFilterSummary()
     -- Search
     if (panel.searchBox:GetText() or "") ~= "" then table.insert(filters, "Search") end
 
+    -- Abilities (from Ability Browser)
+    if hasAbilities then
+        local selectedCount = 0
+        for _, on in pairs(PSM.state.selectedModelsFamilies) do
+            if on then selectedCount = selectedCount + 1 end
+        end
+        if selectedCount > 0 then
+            table.insert(filters, "Abilities (" .. selectedCount .. " families)")
+        end
+    end
+
     -- Special Tames (Specific formatting for Unlocks and Conditions)
     if hasRules or hasConds then
+        -- Clear the abilities flag when Special Tames are applied
+        PSM.state.familiesAppliedFromAbilities = false
+        
         local stParts = {}
 
         if hasRules then
