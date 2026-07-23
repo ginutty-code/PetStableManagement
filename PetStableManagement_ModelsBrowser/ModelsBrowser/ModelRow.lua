@@ -61,15 +61,13 @@ function PSM.ModelRow:CreateModelRow(parent)
     row.noteIndicator:SetVertexColor(0.5, 1, 0.5)
     row.noteIndicator:Hide()
 
-    row.npcTexts = {}
-    for i = 1, 4 do
-        local npc = addFontString(row, 9, {0.8, 0.8, 0.8}, textW)
-        npc:SetWordWrap(true)
-        npc:SetPoint("LEFT", row.model, "RIGHT", 15, 10 - i * 12 * sf)
-        npc:Hide()
-        table.insert(row.customElements, npc)
-        table.insert(row.npcTexts, npc)
-    end
+    -- Simplified NPC names display
+    row.npcNamesText = addFontString(row, 9, {0.85, 0.85, 0.85}, textW)
+    row.npcNamesText:SetWordWrap(true)
+    row.npcNamesText:SetPoint("TOPLEFT", row.nameText, "BOTTOMLEFT", 0, -4)
+    table.insert(row.customElements, row.npcNamesText)
+
+    row.npcTexts = { row.npcNamesText } -- array compatibility
 
     table.insert(row.customElements, row.favoriteButton)
 
@@ -119,10 +117,6 @@ local function buildOwnershipData(displayId)
     return total, table.concat(parts, "; ")
 end
 
-
-
-
-
 --------------------------------------------------------------------------------
 
 function PSM.ModelRow:UpdateItemRow(row, item, index, scale)
@@ -140,13 +134,11 @@ function PSM.ModelRow:UpdateItemRow(row, item, index, scale)
         row.model:SetHeight(mcfg.MODEL_SIZE)
     end
 
-    -- Currently only one item type is handled
     if item.itemType ~= "display_with_npcs" then return end
 
     local displayId   = item.displayId
     local totalOwned, ownershipStr = buildOwnershipData(displayId)
-    local npcs        = item.npcs
-    local totalNpcs   = #npcs
+    local npcs        = item.npcs or {}
 
     mgr:UpdateModelDisplay(row, displayId, nil)
     local specName = item.familyName and PSM.Config.FAMILY_TO_SPEC[item.familyName]
@@ -178,47 +170,33 @@ function PSM.ModelRow:UpdateItemRow(row, item, index, scale)
     row.nameText:SetText(nameStr)
     row.nameText:SetTextColor(totalOwned > 0 and 0 or 1, totalOwned > 0 and 1 or 1, totalOwned > 0 and 0 or 1)
     row.nameText:Show()
-    row.infoText:Show()
 
-    row.infoText:SetText("")
-
-    -- First NPC line
-    for i = 1, 4 do row.npcTexts[i]:Hide() end
-
-    if npcs[1] then
-        local first = row.npcTexts[1]
-        first:SetText(npcs[1]._cachedDescription)
-        first:ClearAllPoints()
-        first:SetPoint("TOPLEFT", row.nameText, "BOTTOMLEFT", 0, -5)
-        first:Show()
-
-        if totalNpcs > 1 then
-            local more = row.npcTexts[2]
-            more:SetText(string.format("and %d more...", totalNpcs - 1))
-            more:ClearAllPoints()
-            more:SetPoint("TOPLEFT", first, "BOTTOMLEFT", 0, -5)
-            more:Show()
-        end
+    if row.infoText then
+        row.infoText:Show()
+        row.infoText:SetText("")
     end
+
+    -- Update NPC names list
+    local npcNames = item.npcNamesString or ""
+    row.npcNamesText:SetWidth(cfg.TEXT_WIDTH / scale)
+    row.npcNamesText:SetText(npcNames)
+    row.npcNamesText:Show()
 
     if row.npcText then row.npcText:Hide() end  -- legacy cleanup
 
     -- Tooltip
+    local allNpcNames = item.allNpcNamesString or npcNames
     row.displayId = displayId
     row:SetScript("OnEnter", function(self)
         GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
         GameTooltip:SetText(nameStr)
         GameTooltip:AddLine("Family: " .. (item.familyName or "Unknown"))
-        GameTooltip:AddLine(" ")
-        GameTooltip:AddLine("NPCs:")
-        for _, npc in ipairs(npcs) do
-            local npcLine = "  " .. npc._cachedDescription
-            -- Mark NPCs with user notes
-            if npc.npcId and PSM_UserNotes and PSM_UserNotes[npc.npcId] and PSM_UserNotes[npc.npcId] ~= "" then
-                npcLine = npcLine .. " |cff00ff00●|r"
-            end
-            GameTooltip:AddLine(npcLine, 0.8, 0.8, 0.8)
+        if allNpcNames ~= "" then
+            GameTooltip:AddLine(" ")
+            GameTooltip:AddLine("NPCs: " .. allNpcNames, 0.8, 0.8, 0.8, true)
         end
+        GameTooltip:AddLine(" ")
+        GameTooltip:AddLine("|cff00ff00Click magnifier button for further details.|r", 0.6, 0.6, 0.6)
         GameTooltip:Show()
     end)
 
@@ -232,23 +210,23 @@ function PSM.ModelRow:SetupNoteEditing(row, item)
     row:EnableMouseWheel(true)
     row:SetScript("OnMouseDown", function(self, button)
         if button == "RightButton" then
-            -- Open note editor for the first NPC's display ID (all NPCs in this row share same displayId)
             if item.displayId then
                 local npcs = item.npcs or {}
                 local familyName = item.familyName or "Unknown"
-                local currentNote = PSM.NPCNotes.GetUserNote(item.displayId) or ""
-                PSM.PopUpManager:CreateNoteEditor(nil, function(text)
-                    PSM.NPCNotes.SetUserNote(item.displayId, text)
-                    -- Update indicator
-                    local hasNote = PSM.NPCNotes.GetUserNote(item.displayId)
-                    if row.noteIndicator then
-                        if hasNote and hasNote ~= "" then
-                            row.noteIndicator:Show()
-                        else
-                            row.noteIndicator:Hide()
+                local currentNote = PSM.NPCNotes and PSM.NPCNotes.GetUserNote(item.displayId) or ""
+                if PSM.PopUpManager and PSM.PopUpManager.CreateNoteEditor then
+                    PSM.PopUpManager:CreateNoteEditor(nil, function(text)
+                        if PSM.NPCNotes then PSM.NPCNotes.SetUserNote(item.displayId, text) end
+                        local hasNote = PSM.NPCNotes and PSM.NPCNotes.GetUserNote(item.displayId)
+                        if row.noteIndicator then
+                            if hasNote and hasNote ~= "" then
+                                row.noteIndicator:Show()
+                            else
+                                row.noteIndicator:Hide()
+                            end
                         end
-                    end
-                end, currentNote, item.displayId, familyName, npcs)
+                    end, currentNote, item.displayId, familyName, npcs)
+                end
             end
         end
     end)

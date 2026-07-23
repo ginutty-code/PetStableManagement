@@ -891,58 +891,83 @@ end
 
 function PSM.PopUpManager:GetCoordsDataForLocation(npcId, location)
     local id = tonumber(npcId)
-    if not id or not location or not CoordsData then return nil end
-    local npcData = CoordsData[id]
-    if not npcData then return nil end
+    if not id or not CoordsData then return nil end
 
-    local searchLoc = strtrim(location):lower()
-    if #searchLoc < 3 then return nil end
+    local searchLoc = location and strtrim(location):lower() or ""
 
-    -- 1. Try exact match (case-insensitive key check)
-    for zoneKey, data in pairs(npcData) do
-        if type(zoneKey) == "string" and zoneKey:lower() == searchLoc then
-            if data.coords and strtrim(data.coords) ~= "" then
-                return data
+    -- 1. Try matching location (zone name) in CoordsData
+    if searchLoc ~= "" then
+        for uiMapId, mapData in pairs(CoordsData) do
+            if type(mapData) == "table" and mapData.npcs and mapData.npcs[id] then
+                local zName = mapData.name or ""
+                if zName:lower() == searchLoc or zName:lower():find(searchLoc, 1, true) or searchLoc:find(zName:lower(), 1, true) then
+                    return {
+                        uiMapId  = uiMapId,
+                        zoneName = zName,
+                        coords   = mapData.npcs[id].coords or "",
+                    }
+                end
             end
         end
     end
 
-    -- 2. Robust match: Provided location name is a generic parent of the specific CoordsData key
-    for zoneKey, data in pairs(npcData) do
-        if type(zoneKey) == "string" then
-            local keyLower = zoneKey:lower()
-            -- Match if the Wowhead name contains our location (e.g. "The Dragon Wastes (Dragonblight)" contains "Dragonblight")
-            if keyLower:find(searchLoc, 1, true) and data.coords and strtrim(data.coords) ~= "" then
-                return data
-            end
+    -- 2. Fallback: return first matching zone entry for this npcId
+    for uiMapId, mapData in pairs(CoordsData) do
+        if type(mapData) == "table" and mapData.npcs and mapData.npcs[id] then
+            return {
+                uiMapId  = uiMapId,
+                zoneName = mapData.name or ("Map " .. uiMapId),
+                coords   = mapData.npcs[id].coords or "",
+            }
         end
     end
 
     return nil
 end
 
-function PSM.PopUpManager:BuildCoordsLocationLabel(npcId, location)
+function PSM.PopUpManager:BuildCoordsLocationLabel(npcId, fallbackLocation)
     local id = tonumber(npcId)
-    if not id or not location or location == "" then return "Unknown" end
+    if not id or not CoordsData then
+        return fallbackLocation and ("|cff888888" .. fallbackLocation .. "|r") or "|cff888888Unknown|r"
+    end
+
     local parts = {}
-    -- Split by pipe (|) to handle multiple locations safely
-    for loc in string.gmatch(location, "[^|]+") do
-        loc = strtrim(loc)
-        if loc ~= "" then
-            local coordsData = self:GetCoordsDataForLocation(id, loc)
-            if coordsData then
-                parts[#parts + 1] = string.format("|cff00ff00|Hpsmcoords:%d;%s|h%s|h|r", id, loc, loc)
-            else
-                parts[#parts + 1] = loc
+    local seen = {}
+
+    for uiMapId, mapData in pairs(CoordsData) do
+        if type(mapData) == "table" and mapData.npcs and mapData.npcs[id] then
+            local zName = mapData.name or ("Map " .. uiMapId)
+            local coords = mapData.npcs[id].coords
+            local hasCoords = coords and strtrim(coords) ~= "" and coords ~= "[]"
+
+            if not seen[zName] then
+                seen[zName] = true
+                if hasCoords then
+                    -- Green clickable link when coordinates exist
+                    parts[#parts + 1] = string.format("|cff00ff00|Hpsmcoords:%d;%s|h%s|h|r", id, zName, zName)
+                else
+                    -- Grey text when no coordinates are stored
+                    parts[#parts + 1] = string.format("|cff888888%s|r", zName)
+                end
             end
         end
     end
-    return table.concat(parts, " or ")
+
+    if #parts > 0 then
+        table.sort(parts)
+        return table.concat(parts, " or ")
+    end
+
+    if fallbackLocation and fallbackLocation ~= "" then
+        return "|cff888888" .. fallbackLocation .. "|r"
+    end
+
+    return "|cff888888Unknown|r"
 end
 
 function PSM.PopUpManager:GetCoordsWaypointText(npcId, location, npcName)
     local data = self:GetCoordsDataForLocation(npcId, location)
-    if not data then return nil end
+    if not data or not data.coords or data.coords == "" or data.coords == "[]" then return nil end
     local lines = {}
     for coord in string.gmatch(data.coords, "[^|]+") do
         local x, y = coord:match("^%s*([0-9%.]+),%s*([0-9%.]+)%s*$")
@@ -950,6 +975,7 @@ function PSM.PopUpManager:GetCoordsWaypointText(npcId, location, npcName)
             lines[#lines + 1] = string.format("/way #%s %s %s %s", data.uiMapId, x, y, npcName or "")
         end
     end
+    if #lines == 0 then return nil end
     return table.concat(lines, "\n")
 end
 

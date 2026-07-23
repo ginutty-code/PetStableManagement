@@ -279,6 +279,30 @@ function PSM.ModelsDataLoader:_IsFavoriteDisplay(displayId)
     return displayId and PSM.state.favoriteModels and PSM.state.favoriteModels[displayId] or false
 end
 
+function PSM.ModelsDataLoader:GetNpcZoneNames(npcId)
+    local id = tonumber(npcId)
+    if not id then return nil end
+
+    if not PSM._npcZoneIndex then
+        local index = {}
+        if _G.CoordsData then
+            for uiMapId, mapData in pairs(_G.CoordsData) do
+                if type(mapData) == "table" and mapData.name and mapData.npcs then
+                    local zoneName = mapData.name
+                    for nId in pairs(mapData.npcs) do
+                        local numId = tonumber(nId) or nId
+                        index[numId] = index[numId] or {}
+                        index[numId][zoneName] = true
+                    end
+                end
+            end
+        end
+        PSM._npcZoneIndex = index
+    end
+
+    return PSM._npcZoneIndex[id]
+end
+
 function PSM.ModelsDataLoader:_IsZoneMatch(npc, playerZone)
     if not npc or not playerZone then return false end
     if npc.location then
@@ -294,6 +318,10 @@ function PSM.ModelsDataLoader:_IsZoneMatch(npc, playerZone)
         else
             if npc.zones == playerZone then return true end
         end
+    end
+    if npc.npcId then
+        local zoneSet = self:GetNpcZoneNames(npc.npcId)
+        if zoneSet and zoneSet[playerZone] then return true end
     end
     return false
 end
@@ -425,16 +453,34 @@ function PSM.ModelsDataLoader:_CalculateModelsData()
             for _, displayData in ipairs(familyData.displayIds) do
                 if not PSM.Config.EXCLUDED_DISPLAY_IDS[displayData.displayId]
                    and DisplayPassesFilters(panel, displayData) then
-                     -- Cache NPC descriptions
-                     for _, npc in ipairs(displayData.npcs) do
-                         npc._cachedDescription = npc._cachedDescription or npcDescription(npc)
+                     
+                     -- Compute deduplicated NPC names string
+                     local nameSeen, nameList = {}, {}
+                     if displayData.npcs then
+                         for _, npc in ipairs(displayData.npcs) do
+                             if npc.name and not nameSeen[npc.name] then
+                                 nameSeen[npc.name] = true
+                                 table.insert(nameList, npc.name)
+                             end
+                         end
                      end
+
+                     local npcNamesSummary = ""
+                     local totalUnique = #nameList
+                     if totalUnique <= 3 then
+                         npcNamesSummary = table.concat(nameList, ", ")
+                     else
+                         npcNamesSummary = string.format("%s, %s, and %d more...", nameList[1], nameList[2], totalUnique - 2)
+                     end
+
                      table.insert(allItems, {
-                         displayId  = displayData.displayId,
-                         npcs       = displayData.npcs,
-                         taming     = displayData.taming,
-                         familyName = familyName,
-                         itemType   = "display_with_npcs",
+                         displayId         = displayData.displayId,
+                         npcs              = displayData.npcs,
+                         taming            = displayData.taming,
+                         familyName        = familyName,
+                         npcNamesString    = npcNamesSummary,
+                         allNpcNamesString = table.concat(nameList, ", "),
+                         itemType          = "display_with_npcs",
                      })
                 end
             end
@@ -451,6 +497,7 @@ function PSM.ModelsDataLoader:_CalculateModelsData()
         for _, item in ipairs(allItems) do
             local found = tostring(item.displayId):lower():find(searchLower, 1, true)
                        or (item.familyName and item.familyName:lower():find(searchLower, 1, true))
+                       or (item.allNpcNamesString and item.allNpcNamesString:lower():find(searchLower, 1, true))
             if not found and item.npcs then
                 for _, npc in ipairs(item.npcs) do
                     if (npc.name       and npc.name:lower():find(searchLower, 1, true))
@@ -464,6 +511,16 @@ function PSM.ModelsDataLoader:_CalculateModelsData()
                         local zones = type(npc.zones) == "table" and npc.zones or {npc.zones}
                         for _, zone in ipairs(zones) do
                             if zone:lower():find(searchLower, 1, true) then found = true; break end
+                        end
+                    end
+                    if not found and npc.npcId then
+                        local zoneSet = self:GetNpcZoneNames(npc.npcId)
+                        if zoneSet then
+                            for zoneName in pairs(zoneSet) do
+                                if zoneName:lower():find(searchLower, 1, true) then
+                                    found = true; break
+                                end
+                            end
                         end
                     end
                     if found then break end
@@ -570,59 +627,7 @@ local function AnyNPC(displayData, fn)
     return false
 end
 
--- Core helper: collect unique values from NPC data across selected families,
-function PSM.ModelsDataLoader:GetAvailableExpansionsForFilters()
-    local panel = PSM.state.modelsPanel
-    if not panel then return {} end
-    return panel.expansionList or {}
-end
 
-function PSM.ModelsDataLoader:GetAvailableLocationsForFilters()
-    local panel = PSM.state.modelsPanel
-    if not panel then return {} end
-
-    local selectedFamilies = {}
-    for n, s in pairs(PSM.state.selectedModelsFamilies) do if s then table.insert(selectedFamilies, n) end end
-
-    local selectedExpansions = {}
-    for e, s in pairs(PSM.state.selectedExpansions) do if s then table.insert(selectedExpansions, e) end end
-
-    local hasOtherFilters = #selectedFamilies > 0 or #selectedExpansions > 0
-
-    if not hasOtherFilters then
-        local result = {}
-        for _, l in ipairs(panel.locationList or {}) do table.insert(result, l) end
-        table.sort(result)
-        return result
-    end
-
-    local result, seen = {}, {}
-    for _, familyName in ipairs(panel.familiesList or {}) do
-        if #selectedFamilies == 0 or PSM.state.selectedModelsFamilies[familyName] then
-            local fd = PSM.PetModels:GetFamilyModels(familyName)
-            if fd and fd.displayIds then
-                for _, displayData in ipairs(fd.displayIds) do
-                    if displayData.npcs then
-                        for _, npc in ipairs(displayData.npcs) do
-                            local expOk = #selectedExpansions == 0 or self:_IsExpansionSelected(npc.expansion, selectedExpansions)
-                            if expOk and npc.location then
-                                for loc in string.gmatch(npc.location, "[^|]+") do
-                                    loc = strtrim(loc)
-                                    if not seen[loc] then
-                                        seen[loc] = true
-                                        table.insert(result, loc)
-                                    end
-                                end
-                            end
-                        end
-                    end
-                end
-            end
-        end
-    end
-    table.sort(result)
-    return result
-end
 
 function PSM.ModelsDataLoader:GetAvailableFamiliesForFilters()
     local panel = PSM.state.modelsPanel
@@ -635,6 +640,11 @@ function PSM.ModelsDataLoader:GetAvailableFamiliesForFilters()
     for l, s in pairs(PSM.state.selectedLocations) do if s then table.insert(selectedLocations, l) end end
 
     local hasOtherFilters = #selectedExpansions > 0 or #selectedLocations > 0
+                         or panel.showRares ~= nil or panel.showFavorites ~= nil
+                         or panel.showNameKeepers ~= nil or panel.showHideOwned ~= nil
+                         or (panel.showPetsInMyZone and panel.currentPlayerZone)
+                         or (PSM.state.selectedTamingRules and next(PSM.state.selectedTamingRules))
+                         or (PSM.state.selectedConditions and next(PSM.state.selectedConditions))
 
     if not hasOtherFilters then return panel.familiesList or {} end
 
@@ -644,11 +654,16 @@ function PSM.ModelsDataLoader:GetAvailableFamiliesForFilters()
         if fd and fd.displayIds then
             local matched = false
             for _, displayData in ipairs(fd.displayIds) do
-                if displayData.npcs then
-                    for _, npc in ipairs(displayData.npcs) do
-                        local expOk = #selectedExpansions == 0 or self:_IsExpansionSelected(npc.expansion, selectedExpansions)
-                        local locOk = #selectedLocations == 0 or self:_IsLocationSelected(npc.location, selectedLocations)
-                        if expOk and locOk then matched = true; break end
+                if not PSM.Config.EXCLUDED_DISPLAY_IDS[displayData.displayId]
+                   and DisplayPassesFilters(panel, displayData) then
+                    if displayData.npcs then
+                        for _, npc in ipairs(displayData.npcs) do
+                            local expOk = #selectedExpansions == 0 or self:_IsExpansionSelected(npc.expansion, selectedExpansions)
+                            local locOk = #selectedLocations == 0 or self:_IsLocationSelected(npc.location, selectedLocations)
+                            local zoneOk = not (panel.showPetsInMyZone and panel.currentPlayerZone)
+                                        or TristateMatch(panel.showPetsInMyZone, self:_IsZoneMatch(npc, panel.currentPlayerZone))
+                            if expOk and locOk and zoneOk then matched = true; break end
+                        end
                     end
                 end
                 if matched then break end
@@ -674,6 +689,11 @@ function PSM.ModelsDataLoader:GetAvailableExpansionsForFilters()
     for l, s in pairs(PSM.state.selectedLocations) do if s then table.insert(selectedLocations, l) end end
 
     local hasOtherFilters = #selectedFamilies > 0 or #selectedLocations > 0
+                         or panel.showRares ~= nil or panel.showFavorites ~= nil
+                         or panel.showNameKeepers ~= nil or panel.showHideOwned ~= nil
+                         or (panel.showPetsInMyZone and panel.currentPlayerZone)
+                         or (PSM.state.selectedTamingRules and next(PSM.state.selectedTamingRules))
+                         or (PSM.state.selectedConditions and next(PSM.state.selectedConditions))
 
     if not hasOtherFilters then
         local result = {}
@@ -688,12 +708,17 @@ function PSM.ModelsDataLoader:GetAvailableExpansionsForFilters()
             local fd = PSM.PetModels:GetFamilyModels(familyName)
             if fd and fd.displayIds then
                 for _, displayData in ipairs(fd.displayIds) do
-                    if displayData.npcs then
-                        for _, npc in ipairs(displayData.npcs) do
-                            local locOk = #selectedLocations == 0 or self:_IsLocationSelected(npc.location, selectedLocations)
-                            if locOk and npc.expansion and not seen[npc.expansion] then
-                                seen[npc.expansion] = true
-                                table.insert(result, npc.expansion)
+                    if not PSM.Config.EXCLUDED_DISPLAY_IDS[displayData.displayId]
+                       and DisplayPassesFilters(panel, displayData) then
+                        if displayData.npcs then
+                            for _, npc in ipairs(displayData.npcs) do
+                                local locOk = #selectedLocations == 0 or self:_IsLocationSelected(npc.location, selectedLocations)
+                                local zoneOk = not (panel.showPetsInMyZone and panel.currentPlayerZone)
+                                            or TristateMatch(panel.showPetsInMyZone, self:_IsZoneMatch(npc, panel.currentPlayerZone))
+                                if locOk and zoneOk and npc.expansion and not seen[npc.expansion] then
+                                    seen[npc.expansion] = true
+                                    table.insert(result, npc.expansion)
+                                end
                             end
                         end
                     end
@@ -716,6 +741,11 @@ function PSM.ModelsDataLoader:GetAvailableLocationsForFilters()
     for e, s in pairs(PSM.state.selectedExpansions) do if s then table.insert(selectedExpansions, e) end end
 
     local hasOtherFilters = #selectedFamilies > 0 or #selectedExpansions > 0
+                         or panel.showRares ~= nil or panel.showFavorites ~= nil
+                         or panel.showNameKeepers ~= nil or panel.showHideOwned ~= nil
+                         or (panel.showPetsInMyZone and panel.currentPlayerZone)
+                         or (PSM.state.selectedTamingRules and next(PSM.state.selectedTamingRules))
+                         or (PSM.state.selectedConditions and next(PSM.state.selectedConditions))
 
     if not hasOtherFilters then
         local result = {}
@@ -730,15 +760,20 @@ function PSM.ModelsDataLoader:GetAvailableLocationsForFilters()
             local fd = PSM.PetModels:GetFamilyModels(familyName)
             if fd and fd.displayIds then
                 for _, displayData in ipairs(fd.displayIds) do
-                    if displayData.npcs then
-                        for _, npc in ipairs(displayData.npcs) do
-                            local expOk = #selectedExpansions == 0 or self:_IsExpansionSelected(npc.expansion, selectedExpansions)
-                            if expOk and npc.location then
-                                for loc in string.gmatch(npc.location, "[^|]+") do
-                                    loc = strtrim(loc)
-                                    if not seen[loc] then
-                                        seen[loc] = true
-                                        table.insert(result, loc)
+                    if not PSM.Config.EXCLUDED_DISPLAY_IDS[displayData.displayId]
+                       and DisplayPassesFilters(panel, displayData) then
+                        if displayData.npcs then
+                            for _, npc in ipairs(displayData.npcs) do
+                                local expOk = #selectedExpansions == 0 or self:_IsExpansionSelected(npc.expansion, selectedExpansions)
+                                local zoneOk = not (panel.showPetsInMyZone and panel.currentPlayerZone)
+                                            or TristateMatch(panel.showPetsInMyZone, self:_IsZoneMatch(npc, panel.currentPlayerZone))
+                                if expOk and zoneOk and npc.location then
+                                    for loc in string.gmatch(npc.location, "[^|]+") do
+                                        loc = strtrim(loc)
+                                        if not seen[loc] then
+                                            seen[loc] = true
+                                            table.insert(result, loc)
+                                        end
                                     end
                                 end
                             end

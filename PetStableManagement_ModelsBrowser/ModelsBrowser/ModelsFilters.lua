@@ -175,6 +175,17 @@ function PSM.ModelsFilters:CreateHideOwnedToggle(panel)
         ReloadAndSummarise()
         PSM.ModelsFilters:UpdateDynamicFilters()
     end)
+    -- Initialize checkbox state from loaded value, mapping the logic
+    local mappedState
+    if panel.showHideOwned == "inverted" then
+        mappedState = true
+    elseif panel.showHideOwned == true then
+        mappedState = "inverted"
+    else
+        mappedState = nil
+    end
+    InitTristateCheckboxFromState(panel.hideOwnedToggle, mappedState)
+end
 
 function PSM.ModelsFilters:CreateNameKeepersToggle(panel)
     -- Load saved state directly from SavedVariables
@@ -213,18 +224,6 @@ function PSM.ModelsFilters:CreatePetsInMyZoneToggle(panel)
     InitTristateCheckboxFromState(panel.petsInMyZoneToggle, panel.showPetsInMyZone)
 end
 
-    -- Initialize checkbox state from loaded value, mapping the logic
-    local mappedState
-    if panel.showHideOwned == "inverted" then
-        mappedState = true
-    elseif panel.showHideOwned == true then
-        mappedState = "inverted"
-    else
-        mappedState = nil
-    end
-    InitTristateCheckboxFromState(panel.hideOwnedToggle, mappedState)
-end
-
 function PSM.ModelsFilters:GetPlayerZone()
     local zone = GetRealZoneText()
     return (zone and zone ~= "") and zone or nil
@@ -237,6 +236,7 @@ end
 function PSM.ModelsFilters:CreateSearchBox(panel)
     PSM.PanelManager:CreateSearchBox(panel, function(searchText)
         ReloadAndSummarise()
+        PSM.ModelsFilters:UpdateDynamicFilters()
     end, {
         placeholder = "Search models...",
     })
@@ -417,16 +417,27 @@ function PSM.ModelsFilters:BuildUnifiedFilterSystem(panel, modelsConfig)
     local families     = PSM.PetModels:GetAvailableFamilies()
     local allExpansions, allLocations = {}, {}
 
-    for _, familyName in ipairs(families) do
-        local fd = PSM.PetModels:GetFamilyModels(familyName)
-        if fd and fd.displayIds then
-            for _, dd in ipairs(fd.displayIds) do
-                if dd.npcs then
-                    for _, npc in ipairs(dd.npcs) do
-                        if npc.expansion then allExpansions[npc.expansion] = true end
-                        if npc.location  then
-                            for loc in string.gmatch(npc.location, "[^|]+") do
-                                allLocations[strtrim(loc)] = true
+    if _G.ModelsData and type(_G.ModelsData) == "table" then
+        for exp, contTable in pairs(_G.ModelsData) do
+            allExpansions[exp] = true
+            if type(contTable) == "table" then
+                for cont in pairs(contTable) do
+                    allLocations[cont] = true
+                end
+            end
+        end
+    else
+        for _, familyName in ipairs(families) do
+            local fd = PSM.PetModels:GetFamilyModels(familyName)
+            if fd and fd.displayIds then
+                for _, dd in ipairs(fd.displayIds) do
+                    if dd.npcs then
+                        for _, npc in ipairs(dd.npcs) do
+                            if npc.expansion then allExpansions[npc.expansion] = true end
+                            if npc.location  then
+                                for loc in string.gmatch(npc.location, "[^|]+") do
+                                    allLocations[strtrim(loc)] = true
+                                end
                             end
                         end
                     end
@@ -574,18 +585,6 @@ function PSM.ModelsFilters:BuildUnifiedFilterSystem(panel, modelsConfig)
                 end
             end)
         end
-
-        -- Hover update via mouse enter/leave
-        t:SetScript("OnEnter", function(self)
-            if panel.currentFilterType ~= keyForHover then
-                label:SetTextColor(unpack(PSM.Config.TAB.ACTIVE_TEXT))
-            end
-        end)
-        t:SetScript("OnLeave", function(self)
-            if panel.currentFilterType ~= keyForHover then
-                label:SetTextColor(unpack(PSM.Config.TAB.INACTIVE_TEXT))
-            end
-        end)
 
         tabs[def.key] = t
     end

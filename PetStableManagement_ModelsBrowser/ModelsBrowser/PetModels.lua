@@ -15,95 +15,105 @@ function M:GetFamilyModels(familyName)
         return self[familyName]
     end
 
-    -- Check if raw data exists on self
-    local raw = self[familyName]
-    if raw and type(raw) == "table" then
-        return self:_ProcessRawData(familyName, raw)
-    end
-
-    -- Check external globals in original order
-    if _G.PetData and _G.PetData[familyName] and type(_G.PetData[familyName]) == "table" then
-        return self:_ProcessRawData(familyName, _G.PetData[familyName])
-    end
-
-    if _G.ModelsData and _G.ModelsData[familyName] and type(_G.ModelsData[familyName]) == "table" then
-        return self:_ProcessRawData(familyName, _G.ModelsData[familyName])
-    end
-
-    return nil
-end
-
--- Parses raw displayId->npcId->npcData into a normalised structure
---   1. Skip the "taming" key when iterating displayId → npcMap pairs
---   2. Attach raw[displayId].taming (if present) to the display entry
-
-function M:_ProcessRawData(familyName, raw)
     local displayIdMap = {}
 
-    for displayId, npcMap in pairs(raw) do
-        -- Skip the family-level taming key (not a display ID)
-        if displayId == "taming" then
-            -- (family-level taming is not currently used, skip silently)
-        elseif type(npcMap) == "table" then
-            local id = tonumber(displayId) or displayId
-            local entry = displayIdMap[id] or { displayId = id, npcs = {} }
-            displayIdMap[id] = entry
+    -- Helper to process a family subtable
+    local function processSubtable(rawTable, exp, cont)
+        for displayId, npcMap in pairs(rawTable) do
+            if displayId ~= "taming" and type(npcMap) == "table" then
+                local id = tonumber(displayId) or displayId
+                local entry = displayIdMap[id] or { displayId = id, npcs = {} }
+                displayIdMap[id] = entry
 
-            -- Attach display-ID-level taming if present (mixed-key structure)
-            if npcMap.taming then
-                entry.taming = npcMap.taming
-            end
+                if npcMap.taming then
+                    entry.taming = npcMap.taming
+                end
 
-            for npcId, d in pairs(npcMap) do
-                -- Skip the taming key inside the display ID record
-                if npcId ~= "taming" then
-                    local npc
-                    if type(d) == "table" and d[1] ~= nil then
-                        -- Compact array format: { name, location, expansion, [classification,] factionReaction, nameKeeper }
-                        local factionReaction
-                        local classification
-                        if #d >= 4 then
-                            if type(d[4]) == "string" and d[4]:sub(1,1) == "[" then
-                                factionReaction = d[4]
-                                classification  = nil
+                for npcId, d in pairs(npcMap) do
+                    if npcId ~= "taming" then
+                        local npc
+                        if type(d) == "table" and d[1] ~= nil then
+                            -- Check if new 4-element tuple format: { name, classification, react, is_name_keeper }
+                            if #d == 4 and (d[2] == "Normal" or d[2] == "Elite" or d[2] == "Rare" or d[2] == "Rare Elite") then
+                                npc = {
+                                    npcId           = tonumber(npcId) or npcId,
+                                    name            = d[1],
+                                    classification  = d[2],
+                                    factionReaction = d[3],
+                                    nameKeeper      = d[4] or false,
+                                    expansion       = exp,
+                                    location        = cont,
+                                }
                             else
-                                classification = d[4]
-                                if #d >= 5 and type(d[5]) == "string" and d[5]:sub(1,1) == "[" then
-                                    factionReaction = d[5]
+                                -- Legacy tuple format
+                                local factionReaction, classification
+                                if #d >= 4 then
+                                    if type(d[4]) == "string" and d[4]:sub(1,1) == "[" then
+                                        factionReaction = d[4]
+                                        classification  = nil
+                                    else
+                                        classification = d[4]
+                                        if #d >= 5 and type(d[5]) == "string" and d[5]:sub(1,1) == "[" then
+                                            factionReaction = d[5]
+                                        end
+                                    end
                                 end
+                                npc = {
+                                    npcId           = tonumber(npcId) or npcId,
+                                    name            = d[1],
+                                    location        = d[2] or cont,
+                                    expansion       = d[3] or exp,
+                                    classification  = classification or d[2],
+                                    factionReaction = factionReaction,
+                                    zones           = d.zones,
+                                    nameKeeper      = d[6] or false,
+                                    level           = d.level,
+                                }
                             end
+                        else
+                            -- Legacy key-value format
+                            npc = {
+                                npcId           = tonumber(npcId) or npcId,
+                                name            = d and d.name,
+                                location        = d and (d.location or d.loc or cont),
+                                expansion       = d and (d.expansion or d.exp or exp),
+                                classification  = d and (d.classification or d.class),
+                                zones           = d and d.zones,
+                                nameKeeper      = d and (d.nameKeeper or d.name_keeper or false),
+                                level           = d and d.level,
+                            }
                         end
-                        npc = {
-                            npcId           = tonumber(npcId) or npcId,
-                            name            = d[1],
-                            location        = d[2],
-                            expansion       = d[3],
-                            classification  = classification,
-                            factionReaction = factionReaction,
-                            zones           = d.zones,
-                            nameKeeper      = d[6] or false,
-                            level           = d.level,
-                        }
-                    else
-                        -- Legacy key-value format
-                        npc = {
-                            npcId           = tonumber(npcId) or npcId,
-                            name            = d and d.name,
-                            location        = d and (d.location or d.loc),
-                            expansion       = d and (d.expansion or d.exp),
-                            classification  = d and (d.classification or d.class),
-                            zones           = d and d.zones,
-                            nameKeeper      = d and (d.nameKeeper or d.name_keeper or false),
-                            level           = d and d.level,
-                        }
+                        table.insert(entry.npcs, npc)
                     end
-                    table.insert(entry.npcs, npc)
                 end
             end
         end
     end
 
-    -- Flatten and sort by displayId
+    -- 1. Check raw on self
+    if self[familyName] and type(self[familyName]) == "table" and not self[familyName].displayIds then
+        processSubtable(self[familyName], nil, nil)
+    end
+
+    -- 2. Check external PetData
+    if _G.PetData and _G.PetData[familyName] and type(_G.PetData[familyName]) == "table" then
+        processSubtable(_G.PetData[familyName], nil, nil)
+    end
+
+    -- 3. Check hierarchical ModelsData[expansion][location][familyName]
+    if _G.ModelsData and type(_G.ModelsData) == "table" then
+        for exp, contTable in pairs(_G.ModelsData) do
+            if type(contTable) == "table" then
+                for cont, famTable in pairs(contTable) do
+                    if type(famTable) == "table" and famTable[familyName] then
+                        processSubtable(famTable[familyName], exp, cont)
+                    end
+                end
+            end
+        end
+    end
+
+    -- Flatten and sort displayIds
     local displayIds = {}
     for _, v in pairs(displayIdMap) do
         table.insert(displayIds, v)
@@ -141,9 +151,17 @@ function M:GetAvailableFamilies()
     end
 
     if _G.ModelsData then
-        for name in pairs(_G.ModelsData) do
-            if type(_G.ModelsData[name]) == "table" then
-                seen[name] = true
+        for exp, contTable in pairs(_G.ModelsData) do
+            if type(contTable) == "table" then
+                for cont, famTable in pairs(contTable) do
+                    if type(famTable) == "table" then
+                        for famName in pairs(famTable) do
+                            seen[famName] = true
+                        end
+                    end
+                end
+            else
+                seen[exp] = true
             end
         end
     end

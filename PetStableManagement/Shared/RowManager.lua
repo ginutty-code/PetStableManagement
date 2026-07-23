@@ -548,6 +548,7 @@ function PSM.RowManager:HideRow(row)
     if row.text then row.text:SetText("") end
     if row.nameText then row.nameText:SetText("") end
     if row.infoText then row.infoText:SetText("") end
+    if row.npcNamesText then row.npcNamesText:SetText("") end
     if row.customElements then
         for _, el in pairs(row.customElements) do
             if el.Hide then el:Hide() end
